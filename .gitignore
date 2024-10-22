@@ -163,3 +163,5 @@ cython_debug/
 data/max_trascrizioni.tsv
 *.xls
 *.xlsx
+*.wav
+*.mp3
