@@ -2,6 +2,10 @@
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+[tool.hatch.envs.static]
+dev-mode = true
+dev-mode-dirs = ["."]
+
 [project]
 name = "asr-analysis"
 version = "0.0.1"
