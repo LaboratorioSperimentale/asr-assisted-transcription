@@ -30,7 +30,7 @@ class transcription_unit:
 	end: float
 	duration: float
 	annotation: str
-	dialect: False
+	dialect: bool = False
 	orig_annotation: str = ""
 	include: bool = True
 	split: bool = False
@@ -47,6 +47,7 @@ class transcription_unit:
 
 		self.orig_annotation = self.annotation
 
+		# remove double spaces
 		substitutions, new_transcription = pt.remove_spaces(self.annotation)
 		self.warnings["SPACES"] = substitutions
 		self.annotation = new_transcription

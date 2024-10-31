@@ -3,13 +3,13 @@ import re
 def remove_spaces(transcription):
 	tot_subs = 0
 
-	new_string, subs_made = re.subn(r"\t", "", transcription)
+	new_string, subs_made = re.subn(r"\t+", "", transcription)
 	if subs_made > 0:
 		tot_subs += subs_made
 		transcription = new_string
 
 	# removing newlines
-	new_string, subs_made = re.subn(r"\n", "", transcription)
+	new_string, subs_made = re.subn(r"\n+", "", transcription)
 	if subs_made > 0:
 		tot_subs += subs_made
 		transcription = new_string

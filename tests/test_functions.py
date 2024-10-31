@@ -1,4 +1,3 @@
-import asr_analysis.data as d
 import asr_analysis.process_text as pt
 
 def test_removespaces():
