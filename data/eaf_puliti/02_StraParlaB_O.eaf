@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<ANNOTATION_DOCUMENT AUTHOR="automatic_pipeline" DATE="2024-10-22T09:54:32+02:00" VERSION="2.8" FORMAT="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="automatic_pipeline" DATE="2024-11-03T11:50:31+01:00" VERSION="2.8" FORMAT="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
 	<HEADER>
 		<PROPERTY NAME="lastUsedAnnotation">0</PROPERTY>
 		</HEADER>
@@ -499,7 +499,7 @@
 			</ANNOTATION>
 		<ANNOTATION>
 			<ALIGNABLE_ANNOTATION ANNOTATION_ID="a70" TIME_SLOT_REF1="ts138" TIME_SLOT_REF2="ts139">
-				<ANNOTATION_VALUE>adesso è vellosi fioravanti</ANNOTATION_VALUE>
+				<ANNOTATION_VALUE>adesso è belluzzi fioravanti</ANNOTATION_VALUE>
 				</ALIGNABLE_ANNOTATION>
 			</ANNOTATION>
 		<ANNOTATION>
@@ -559,7 +559,7 @@
 			</ANNOTATION>
 		<ANNOTATION>
 			<ALIGNABLE_ANNOTATION ANNOTATION_ID="a90" TIME_SLOT_REF1="ts178" TIME_SLOT_REF2="ts179">
-				<ANNOTATION_VALUE>oficina di auto assolutamente non il moto era officina di auto</ANNOTATION_VALUE>
+				<ANNOTATION_VALUE>officina di auto assolutamente non il moto era officina di auto</ANNOTATION_VALUE>
 				</ALIGNABLE_ANNOTATION>
 			</ANNOTATION>
 		<ANNOTATION>
@@ -614,7 +614,7 @@
 			</ANNOTATION>
 		<ANNOTATION>
 			<ALIGNABLE_ANNOTATION ANNOTATION_ID="a107" TIME_SLOT_REF1="ts212" TIME_SLOT_REF2="ts213">
-				<ANNOTATION_VALUE>e se tu parli se tu chiedi una persona da anziana che è finita di studiare cioè come stranero come me come stranero significa che sei venuto da un'altra città</ANNOTATION_VALUE>
+				<ANNOTATION_VALUE>e se tu parli se tu chiedi una persona da anziana che è finita di studiare cioè come straniero come me come straniero significa che sei venuto da un'altra città</ANNOTATION_VALUE>
 				</ALIGNABLE_ANNOTATION>
 			</ANNOTATION>
 		<ANNOTATION>
@@ -634,7 +634,7 @@
 			</ANNOTATION>
 		<ANNOTATION>
 			<ALIGNABLE_ANNOTATION ANNOTATION_ID="a113" TIME_SLOT_REF1="ts224" TIME_SLOT_REF2="ts225">
-				<ANNOTATION_VALUE>e ti raccolta la storia come era prima e trattava come: come stranero</ANNOTATION_VALUE>
+				<ANNOTATION_VALUE>e ti raccolta la storia come era prima e trattava come: come straniero</ANNOTATION_VALUE>
 				</ALIGNABLE_ANNOTATION>
 			</ANNOTATION>
 		<ANNOTATION>
@@ -664,7 +664,7 @@
 			</ANNOTATION>
 		<ANNOTATION>
 			<ALIGNABLE_ANNOTATION ANNOTATION_ID="a125" TIME_SLOT_REF1="ts248" TIME_SLOT_REF2="ts249">
-				<ANNOTATION_VALUE>Che hanno soldi e compra aff- cioè appartamento per il Fili: per mandare in bologna per studiare</ANNOTATION_VALUE>
+				<ANNOTATION_VALUE>Che hanno soldi e compra aff- cioè appartamento per il Figli: per mandare in bologna per studiare</ANNOTATION_VALUE>
 				</ALIGNABLE_ANNOTATION>
 			</ANNOTATION>
 		<ANNOTATION>
@@ -679,12 +679,12 @@
 			</ANNOTATION>
 		<ANNOTATION>
 			<ALIGNABLE_ANNOTATION ANNOTATION_ID="a132" TIME_SLOT_REF1="ts262" TIME_SLOT_REF2="ts263">
-				<ANNOTATION_VALUE>poi il fili hanno venduto il: l'appartamento da una persona che: m:h da salerno che lui ha</ANNOTATION_VALUE>
+				<ANNOTATION_VALUE>poi il figli hanno venduto il: l'appartamento da una persona che: m:h da salerno che lui ha</ANNOTATION_VALUE>
 				</ALIGNABLE_ANNOTATION>
 			</ANNOTATION>
 		<ANNOTATION>
 			<ALIGNABLE_ANNOTATION ANNOTATION_ID="a133" TIME_SLOT_REF1="ts264" TIME_SLOT_REF2="ts265">
-				<ANNOTATION_VALUE>che lui ha comprato per suo fili che devono venire e studiare in bologna in università di bologna allora dopo quando: c'è il tempo cioè io devo lasciare casa ho cercato due anni in bologna c'è ancora e sto cercando altri due anni come matto che non lo trovo appartamento in bologna allora ho trasferito valsamozio</ANNOTATION_VALUE>
+				<ANNOTATION_VALUE>che lui ha comprato per suo figli che devono venire e studiare in bologna in università di bologna allora dopo quando: c'è il tempo cioè io devo lasciare casa ho cercato due anni in bologna c'è ancora e sto cercando altri due anni come matto che non lo trovo appartamento in bologna allora ho trasferito valsamoggia</ANNOTATION_VALUE>
 				</ALIGNABLE_ANNOTATION>
 			</ANNOTATION>
 		<ANNOTATION>
@@ -921,7 +921,7 @@
 			</ANNOTATION>
 		<ANNOTATION>
 			<ALIGNABLE_ANNOTATION ANNOTATION_ID="a77" TIME_SLOT_REF1="ts152" TIME_SLOT_REF2="ts153">
-				<ANNOTATION_VALUE>[e che] che cosa si studia al (ben[nuzzi)]</ANNOTATION_VALUE>
+				<ANNOTATION_VALUE>[e che] che cosa si studia al (bell[uzzi)]</ANNOTATION_VALUE>
 				</ALIGNABLE_ANNOTATION>
 			</ANNOTATION>
 		<ANNOTATION>

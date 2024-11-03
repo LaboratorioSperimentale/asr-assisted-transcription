@@ -166,3 +166,5 @@ data/max_trascrizioni.tsv
 *.wav
 *.mp3
 *.pfsx
+*.bak
+.vscode/

@@ -1,9 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<ANNOTATION_DOCUMENT AUTHOR="automatic_pipeline" DATE="2024-10-22T09:54:31+02:00" VERSION="2.8" FORMAT="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
-	<HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+<ANNOTATION_DOCUMENT AUTHOR="automatic_pipeline" DATE="2024-11-03T11:50:30+01:00" VERSION="2.8" FORMAT="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+	<HEADER>
 		<PROPERTY NAME="lastUsedAnnotation">0</PROPERTY>
-	</HEADER>
-
+		</HEADER>
 	<TIME_ORDER>
 		<TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="370" />
 		<TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="3270" />
