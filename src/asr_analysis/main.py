@@ -14,7 +14,6 @@ with open("data/csv_puliti/01_ParlaBOA_E.csv", encoding="utf-8") as fin:
 
 print(transcript)
 
-i 
 # DONE: read transcript from csv
 # DONE: remove spaces (see init function --- done)
 
