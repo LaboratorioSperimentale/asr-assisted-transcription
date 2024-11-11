@@ -27,11 +27,11 @@ def remove_spaces(transcription):
 def replace_pò(transcription):
     tot_subs = 0
     new_string, subs_made = re.subn(r"\bpò\b", "po'", transcription)
-  
+
     if subs_made > 0:
         tot_subs += subs_made
         transcription = new_string
-    
+
     return tot_subs, transcription.strip()
 
 # transform "perchè" into "perché" (keep count)
@@ -39,11 +39,11 @@ def replace_pò(transcription):
 def replace_perchè(transcription):
     tot_subs = 0
     new_string, subs_made = re.subn(r"\bperchè\b", "perché", transcription)
-  
+
     if subs_made > 0:
         tot_subs += subs_made
         transcription = new_string
-    
+
     return tot_subs, transcription.strip()
 
 # remove initial and final pauses (keep count)
@@ -51,32 +51,25 @@ def replace_perchè(transcription):
 def remove_pauses(transcription):
     tot_subs = 0
     new_string, subs_made = re.subn(r"^\(.\)\s*|\s*\(.\)$", "", transcription)
-    
+
     if subs_made > 0:
         tot_subs += subs_made
         transcription = new_string
-    
+
     return tot_subs, transcription.strip()
 
 # remove symbols that are not part of jefferson (keep count)
 
 def clean_non_jefferson_symbols(transcription):
+    tot_subs = 0
     new_string, subs_made = re.subn(r"[^,\?.:=°><\[\]\(\)\w\s'$#]", "", transcription) # keeping also the apostrophe, # and $
-    
+
     if subs_made > 0:
         tot_subs += subs_made
         transcription = new_string
-	
+
     return tot_subs, transcription.strip()
 
-# correct unbalanced parentheses (keep count)
-
-# def check_parentheses(self):
-
-# 		for annotation in self.transcription_units:
-# 			annotation.check_normal_parentheses("(", ")")
-# 			annotation.check_normal_parentheses("[", "]")
-# 			annotation.check_angular_parentheses()
 
 # 	def check_normal_parentheses(self, open_char, close_char):
 # 		is_open = False

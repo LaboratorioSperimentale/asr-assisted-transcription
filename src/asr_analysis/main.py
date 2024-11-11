@@ -19,10 +19,10 @@ print(transcript)
 
 ###### PRELIMINAR CLEANING STEPS -- > AIM: get to tokenization with tagged information
 
-# TODO: transform "pò" into "po'" (keep count)
-# TODO: transform "perchè" into "perché" (keep count)
-# TODO: remove initial and final pauses (keep count)
-# TODO: remove symbols that are not part of jefferson (keep count)
+# DONE: transform "pò" into "po'" (keep count)
+# DONE: transform "perchè" into "perché" (keep count)
+# DONE: remove initial and final pauses (keep count)
+# DONE: remove symbols that are not part of jefferson (keep count)
 # TODO: correct unbalanced parentheses (keep count)
 # TODO: remove "=" symbol, transform into space (--manual??)
 # TODO: check orphan symbols
