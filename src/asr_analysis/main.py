@@ -12,7 +12,15 @@ with open("data/csv_puliti/01_ParlaBOA_E.csv", encoding="utf-8") as fin:
 		transcript.add(new_tu)
 		tu_id += 1
 
-print(transcript)
+for tu in transcript:
+	tu.strip_parentheses()
+	tu.tokenize()
+	# if not all(y for x, y in tu.errors.items()):
+	print(tu)
+	input()
+
+#
+# print(transcript)
 
 # DONE: read transcript from csv
 # DONE: remove spaces (see init function --- done)
@@ -23,8 +31,8 @@ print(transcript)
 # DONE: transform "perchè" into "perché" (keep count)
 # DONE: remove initial and final pauses (keep count)
 # DONE: remove symbols that are not part of jefferson (keep count)
-# TODO: correct unbalanced parentheses (keep count)
-# TODO: remove "=" symbol, transform into space (--manual??)
+# DONE: correct unbalanced parentheses (keep count)
+# DONE: remove "=" symbol, transform into space (--manual??)
 # TODO: check orphan symbols
-# TODO: correzione spazi (keep count) ( es. sempre spazio prima di "{" e dopo"}" )
+# DONE: correzione spazi (keep count) ( es. sempre spazio prima di "{" e dopo"}" )
 # TODO: tokenize

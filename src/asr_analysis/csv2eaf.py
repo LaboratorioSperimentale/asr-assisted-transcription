@@ -5,12 +5,12 @@ from pympi import Elan as EL
 
 input_csv = Path(sys.argv[1])
 
-basename = input_csv.stem
+basename: str = input_csv.stem
 print(basename)
 
 tiers = set()
 tus = []
-header = ["speaker", "begin", "end", "duration", "text"]
+header: list[str] = ["speaker", "begin", "end", "duration", "text"]
 
 
 
@@ -41,7 +41,7 @@ for annotation in tus:
 # 				   end=int(14.390*1000),
 # 				   value="mi ricorda il suo nome,")
 
-output_fname = Path("data/eaf_puliti").joinpath(f"{basename}.eaf")
+output_fname: Path = Path("data/eaf_puliti").joinpath(f"{basename}.eaf")
 # print(output_fname)
 doc.to_file(output_fname)
 # print(doc)

@@ -6,13 +6,12 @@ def test_removespaces():
     assert pt.remove_spaces("ciao   ") == (1, "ciao")
     assert pt.remove_spaces("ci  ao  ") == (2, "ci ao")
 
-
 def test_meta_tag():
     assert pt.meta_tag("(.) ciao") == "{PAUSE} ciao"
     assert pt.meta_tag("ciao ((bla bla)) ciao") == "ciao {bla_bla} ciao"
 
 def test_replace_po():
-    assert pt.replace_pò("po") 
+    assert pt.replace_po("pò") == (1, "po'")
 
 def test_replace_che():
     assert pt.replace_che("perchè") == (1, "perché")
@@ -37,7 +36,9 @@ def test_check_normal_parentheses():
 
 def test_check_angular_parentheses():
     assert pt.check_angular_parentheses("<ciao>") == ("Balanced")
-    assert pt.check_angular_parentheses(">ciao<") == ("Balanced") 
+    assert pt.check_angular_parentheses(">ciao<") == ("Balanced")
     assert pt.check_angular_parentheses("<ciao") == ("Not balanced")
     assert pt.check_angular_parentheses("ciao>") == ("Not balanced")
     assert pt.check_angular_parentheses("<<ciao>>") == ("Not balanced")
+    assert pt.check_angular_parentheses("bla <slow> followed by >fast<") == ("Balanced")
+    assert pt.check_angular_parentheses("bla >fast< followed by <slow>") == ("Balanced")
