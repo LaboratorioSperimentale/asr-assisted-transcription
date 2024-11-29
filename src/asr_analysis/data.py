@@ -1,4 +1,5 @@
 import collections
+import pandas 
 from enum import Flag, auto
 from dataclasses import dataclass, field
 from typing import List, Dict, Set, Tuple
@@ -17,10 +18,33 @@ class position(Flag):
     tu_inner = auto()
 
 @dataclass
+class turn:
+    speaker: str
+    transcription_units_ids: List[str] = field(default_factory=lambda: [])
+    start: float = 0
+    end: float = 0
+
+    def add_tu(self, tu_id):
+        self.transcription_units_ids.append(tu_id)
+
+    def set_start(self, start):
+        self.start = start
+
+    def set_end(self, end):
+        self.end = end
+
+
+@dataclass
 class token:
     text: str
     intonation_pattern: intonation = None
     position_in_tu: position = position.tu_inner
+
+    def __post_init__(self):
+
+        # TODO: se il token finisce per . oppure , oppure ? -> settare intornation pattern e togliere l'ultimo elemento
+        # ., oppure .? ... -> c'è un problema!
+        pass
 
 
 @dataclass
@@ -112,6 +136,7 @@ class transcript:
     tiers: Dict[str, bool] = field(default_factory=lambda: collections.defaultdict(bool))
     last_speaker_id: int = 0
     transcription_units: List[transcription_unit] = field(default_factory=lambda: [])
+    turns: List[turn] = field(default_factory=lambda: [])
     overlaps: Dict[str, Set[str]] = field(default_factory=lambda: {})
 
     def add(self, tu:transcription_unit):
@@ -125,10 +150,7 @@ class transcript:
         self.transcription_units.append(tu)
 
    # some calculations
-
-    import statistics #imported for statistics.mean
-    import pandas as pd 
-
+    
     def get_stats (self):
         num_speakers = len(self.speakers) # calculate how many speakers
         num_tu = len(self.transcription_units) # calculate how many TUs
@@ -136,11 +158,18 @@ class transcript:
 
     # average duration of TUs
         duration = [tu.duration for tu in transcript.transcription_units]
-       # average_duration = statistics.mean(duration) 
-    
+        average_duration = sum(duration)/num_tu
+
+        
     # calculate turns 
-       # num_turns
+    # SP1 : (T1)-----------------------
+    # SP2 : .........(T1)--............
+    # 
+    # SP1 : (T1)---------
+    # SP2 :                (T1) ----------   
     
+    # (SP1 SP1) (SP2) (SP1) ...
+
     # creating a df with pandas
 
         stats = {
@@ -151,7 +180,7 @@ class transcript:
             "num_turns": num_turns
         }
         
-        df = pd.DataFrame(stats.items()), columns=["statistic", "value"]
+        df = pd.DataFrame(stats.items(), columns=["statistic", "value"])
         
 
 
@@ -180,6 +209,32 @@ class transcript:
                     if tu1.end > tu2.start and tu2.end > tu1.start:  #De Morgan on tu1.end <= tu2.start or tu2.end <= tu1.start
                         self.overlaps[tu1.tu_id].add(tu2.tu_id)
                         self.overlaps[tu2.tu_id].add(tu1.tu_id)
+
+    def create_turns(self):
+
+        prev_speaker = self.transcription_units[0].speaker
+        curr_turn = turn(prev_speaker)
+        curr_turn.add_tu(self.transcription_units[0].tu_id)
+        curr_turn.set_start(self.transcription_units[0].start)
+        curr_turn.set_end(self.transcription_units[0].end) # per ottenere anche la fine del primo turno, altrimenti in mancanza di questo, non possiamo ottenerla
+
+        for tu in self.transcription_units[1:]:
+            speaker = tu.speaker
+
+            if speaker == prev_speaker:
+                curr_turn.add_tu(tu.tu_id)
+            else:
+                self.turns.append(curr_turn)
+                curr_turn = turn(tu.speaker)
+                curr_turn.add_tu(tu.tu_id)
+                curr_turn.set_start(tu.start)
+                prev_speaker = speaker
+
+            curr_turn.set_end(tu.end)
+
+        self.turns.append(curr_turn)
+
+
 
     def to_csv(self, delimiter = "\t"):
 

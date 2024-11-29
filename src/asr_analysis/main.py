@@ -12,6 +12,13 @@ with open("data/csv_puliti/01_ParlaBOA_E.csv", encoding="utf-8") as fin:
 		transcript.add(new_tu)
 		tu_id += 1
 
+transcript.create_turns()
+
+print(len(transcript.turns))
+for turn in transcript.turns:
+	print(turn.speaker, turn.start, turn.end, turn.transcription_units_ids)
+	input()
+
 for tu in transcript:
 	tu.strip_parentheses()
 	tu.tokenize()
