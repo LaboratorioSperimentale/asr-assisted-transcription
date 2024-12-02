@@ -11,6 +11,7 @@ name = "asr-analysis"
 version = "0.0.1"
 authors = [
   { name="Ludovica Pannitto", email="ludovica.pannitto@unibo.it" },
+  { name="Martina Simonotti"}
 ]
 readme = "README.md"
 requires-python = ">=3.8"
