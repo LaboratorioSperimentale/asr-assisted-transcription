@@ -1,5 +1,5 @@
 import collections
-import pandas 
+import pandas as pd
 from enum import Flag, auto
 from dataclasses import dataclass, field
 from typing import List, Dict, Set, Tuple
@@ -33,6 +33,18 @@ class turn:
     def set_end(self, end):
         self.end = end
 
+# Transforming tokens + adding metadata
+    #  se il token finisce per . oppure , oppure ? -> settare intornation pattern e togliere l'ultimo elemento
+        # ., oppure .? ... -> c'è un problema!
+
+# Defining intonation patterns
+
+discendente = "discendente"
+ascendente = "ascendente"
+debolmente_ascendente = "debolmente ascendente"
+suono_prolungato = "suono prolungato"
+parola_interrotta = "parola interotta"
+error = "error" # problematic_punctuation_patterns
 
 @dataclass
 class token:
@@ -41,10 +53,46 @@ class token:
     position_in_tu: position = position.tu_inner
 
     def __post_init__(self):
-
-        # TODO: se il token finisce per . oppure , oppure ? -> settare intornation pattern e togliere l'ultimo elemento
-        # ., oppure .? ... -> c'è un problema!
+        # For loop to identify problematic intonation patterns
+        problematic_intonation_patterns = ['.,', ',.', '.?', '?.', '?,', ',?']  
+        for pattern in problematic_intonation_patterns:
+            if pattern in self.text:
+                self.intonation_pattern = error 
+            print(f"Intonation pattern problematico nel token: {self.text}")
+        
+        else:
+            if self.text.endswith("."):
+                self.intonation_pattern = discendente
+                self.text = self.text[:-1] # this line removes the last character of the string (".")
+            elif self.text.endswith(","):
+                self.intonation_pattern = debolmente_ascendente
+                self.text = self.text[:-1]
+            elif self.text.endswith("?"):
+                self.intonation_pattern = ascendente
+                self.text = self.text[:-1]
+            elif self.text.endswith(":"):
+                self.intonation_pattern = suono_prolungato
+                self.text = self.text[:-1]
+            elif self.text.endswith("-"):
+                self.intonation_pattern = parola_interrotta
+                self.text = self.text[:-1]
+            else: self.intonation_pattern = None       # cosa mettiamo qui?  
         pass
+
+# Function to determine the position of the token in the tu
+
+def token_position_in_tu(tokens):
+    for i in tokens:
+        if i == 0:
+            token_position_in_tu = position.tu_start 
+        elif i == len(token_position_in_tu) -1:
+            token_position_in_tu = position.tu_end
+        else:
+            token_position_in_tu = position.tu_inner
+
+
+
+#TODO: creare funzioni di test
 
 
 @dataclass
@@ -149,40 +197,6 @@ class transcript:
 
         self.transcription_units.append(tu)
 
-   # some calculations
-    
-    def get_stats (self):
-        num_speakers = len(self.speakers) # calculate how many speakers
-        num_tu = len(self.transcription_units) # calculate how many TUs
-        num_total_tokens = sum(len(tu.tokens) for tu in transcript.transcription_units)
-
-    # average duration of TUs
-        duration = [tu.duration for tu in transcript.transcription_units]
-        average_duration = sum(duration)/num_tu
-
-        
-    # calculate turns 
-    # SP1 : (T1)-----------------------
-    # SP2 : .........(T1)--............
-    # 
-    # SP1 : (T1)---------
-    # SP2 :                (T1) ----------   
-    
-    # (SP1 SP1) (SP2) (SP1) ...
-
-    # creating a df with pandas
-
-        stats = {
-            "num_speakers": num_speakers,
-            "num_tu": num_tu,
-            "num_total_tokens": num_total_tokens,
-            "average_duration": average_duration,
-            "num_turns": num_turns
-        }
-        
-        df = pd.DataFrame(stats.items(), columns=["statistic", "value"])
-        
-
 
     def sort(self):
         self.transcription_units = sorted(self.transcription_units, key=lambda x: x.start)
@@ -216,7 +230,7 @@ class transcript:
         curr_turn = turn(prev_speaker)
         curr_turn.add_tu(self.transcription_units[0].tu_id)
         curr_turn.set_start(self.transcription_units[0].start)
-        curr_turn.set_end(self.transcription_units[0].end) # per ottenere anche la fine del primo turno, altrimenti in mancanza di questo, non possiamo ottenerla
+        curr_turn.set_end(self.transcription_units[0].end) # per ottenere anche la fine del primo turno, altrimenti in mancanza di questo ci restituisce solo lo start
 
         for tu in self.transcription_units[1:]:
             speaker = tu.speaker
@@ -234,7 +248,39 @@ class transcript:
 
         self.turns.append(curr_turn)
 
+ # Statistic calculations
+    
+    def get_stats (self):
+        num_speakers = len(self.speakers) # number of speakers
+        num_tu = len(self.transcription_units) # number of TUs
+        num_total_tokens = sum(len(tu.tokens) for tu in transcript.transcription_units) # total number of tokens
 
+    # average duration of TUs
+        duration = [tu.duration for tu in transcript.transcription_units]
+        average_duration = sum(duration)/num_tu
+    
+    # number of turns
+        num_turns = len(self.turns) 
+        
+    # calculate turns 
+    # SP1 : (T1)-----------------------
+    # SP2 : .........(T1)--............
+    # 
+    # SP1 : (T1)---------
+    # SP2 :                (T1) ----------   
+    
+    # (SP1 SP1) (SP2) (SP1) ...
+           
+        stats = {
+            "num_speakers": num_speakers,
+            "num_tu": num_tu,
+            "num_total_tokens": num_total_tokens,
+            "average_duration": average_duration,
+            "num_turns": num_turns,
+        }
+        
+        df = pd.DataFrame(stats.items(), columns=["Statistic", "Value"])
+        return df
 
     def to_csv(self, delimiter = "\t"):
 
@@ -255,3 +301,6 @@ class transcript:
     def __iter__(self):
         for tu in self.transcription_units:
             yield tu
+
+        
+      

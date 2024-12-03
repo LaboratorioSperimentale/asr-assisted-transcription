@@ -1,4 +1,5 @@
 import asr_analysis.data as data
+import pandas as pd
 
 
 transcript = data.transcript("01_ParlaBOA_E")
