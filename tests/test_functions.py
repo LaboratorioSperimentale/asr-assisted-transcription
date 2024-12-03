@@ -45,4 +45,7 @@ def test_check_angular_parentheses():
 
 def test_check_intonation_patterns():
     assert pt.check_intonation_patterns("ciao.") == ("discendente")
-    
+    assert pt.check_intonation_patterns("ciao,") == ("debolmente_ascendente")
+    assert pt.check_intonation_patterns("ciao?") == ("ascendente")
+    assert pt.check_intonation_patterns("ciao:") == ("suono_prolungato")
+    assert pt.check_intonation_patterns("cia-") == ("parola_interrotta")
