@@ -60,7 +60,7 @@ class token:
 
 		# STEP 1: check that token has shape ([a-z]+:*)+[-']?[.,?]
 		# otherwise signal error
-		matching_instance = re.fullmatch(r"([a-z]+:*)+[-']?[.,?]", self.text)
+		matching_instance = re.fullmatch(r"([a-z]+:*)+[-']?[.,?]?", self.text)
 
 		if matching_instance is None:
 			self.errors["TOKEN_FORMAT"] = 1
@@ -91,12 +91,12 @@ class token:
 				# STEP3: at this point we should be left with the bare word with only prolongations
 
 				# replace multiple : with a single :
-				new_text, substitutions = re.subn(r":+", ":", self.text)
+				new_text, substitutions = re.subn(r":{2,}", ":", self.text)
 				if substitutions > 0:
 					self.text = new_text
 					self.warnings["PROLONGED_REPLACEMENTS"] = substitutions
 
-				positions = [i for i, letter in enumerate(self.text)] # get positions of ":" in the string
+				positions = [i for i, letter in enumerate(self.text) if letter==":"] # get positions of ":" in the string
 				prev_letters = [self.text[i-1] for i in positions]
 
 				self.prolongations = len(positions)
@@ -105,6 +105,8 @@ class token:
 				# check for high volume
 				if any(letter.isupper() for letter in self.text):
 					self.volume = df.volume.high
+
+				self.text = self.text.lower().strip(".,?-':")
 
 # Function to determine the position of the token in the tu
 # ! moved inside transcription unit methods
@@ -219,6 +221,7 @@ class transcript:
 	transcription_units: List[transcription_unit] = field(default_factory=lambda: [])
 	turns: List[turn] = field(default_factory=lambda: [])
 	overlaps: Dict[str, Set[str]] = field(default_factory=lambda: {})
+	statistics: pd.DataFrame = None
 
 	def add(self, tu:transcription_unit):
 
@@ -259,6 +262,10 @@ class transcript:
 
 	def create_turns(self):
 
+		# calculate turns
+		# SP1 : [(T1)-][--][--] ----- [(T3)]-[----]------
+		# SP2 : .........      [(T2)  ]............
+
 		prev_speaker = self.transcription_units[0].speaker
 		curr_turn = turn(prev_speaker)
 		curr_turn.add_tu(self.transcription_units[0].tu_id)
@@ -281,26 +288,18 @@ class transcript:
 
 		self.turns.append(curr_turn)
 
- # Statistic calculations
-
+	# Statistic calculations
 	def get_stats (self):
 		num_speakers = len(self.speakers) # number of speakers
 		num_tu = len(self.transcription_units) # number of TUs
 		num_total_tokens = sum(len(tu.tokens) for tu in transcript.transcription_units) # total number of tokens
 
-	# average duration of TUs
+		# average duration of TUs
 		duration = [tu.duration for tu in transcript.transcription_units]
 		average_duration = sum(duration)/num_tu
 
-	# number of turns
+		# number of turns
 		num_turns = len(self.turns)
-
-	# calculate turns
-	# SP1 : [(T1)-][--][--] ----- [(T3)]-[----]------
-	# SP2 : .........      [(T2)  ]............
-
-
-	# (SP1 SP1) (SP2) (SP1) ...
 
 		stats = {
 			"num_speakers": num_speakers,
@@ -310,8 +309,9 @@ class transcript:
 			"num_turns": num_turns,
 		}
 
-		df = pd.DataFrame(stats.items(), columns=["Statistic", "Value"])
-		return df
+		# ! removed the return and assigned result to a class parameter
+		self.statistics = pd.DataFrame(stats.items(), columns=["Statistic", "Value"])
+		# return df
 
 	def to_csv(self, delimiter = "\t"):
 
