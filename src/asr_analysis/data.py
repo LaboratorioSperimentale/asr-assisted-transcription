@@ -42,6 +42,12 @@ class token:
 	position_in_tu: df.position = df.position.tu_inner
 	pace: df.pace
 	volume: df.volume
+	overlap: bool = False
+	guess: bool = False
+	interruption: bool = False
+	truncation: bool = False
+	prolongations: int = 0
+	prolonged_sounds: List[str] = field(default_factory=lambda: collections.defaultdict(int))
 
 	def __post_init__(self):
 		# For loop to identify problematic intonation patterns
