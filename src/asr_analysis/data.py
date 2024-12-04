@@ -204,7 +204,7 @@ class transcription_unit:
 		self.annotation = new_string
 
 	def tokenize(self):
-		tokens = self.annotation.split(" ")
+		tokens = self.annotation.split(" ") # TODO: gestire caso di apostrofo tra articolo e parola e simili
 		for tok in tokens:
 			self.tokens.append(token(tok))
 
