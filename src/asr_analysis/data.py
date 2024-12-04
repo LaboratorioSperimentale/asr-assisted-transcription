@@ -1,4 +1,5 @@
 import collections
+import re
 import pandas as pd
 from dataclasses import dataclass, field
 from typing import List, Dict, Set, Tuple
@@ -28,20 +29,22 @@ class turn:
 
 # Defining intonation patterns
 
-discendente = "discendente"
-ascendente = "ascendente"
-debolmente_ascendente = "debolmente ascendente"
-suono_prolungato = "suono prolungato"
-parola_interrotta = "parola interotta"
-error = "error" # problematic_punctuation_patterns
+# ! spostati nel file dataflags.py
+# discendente = "discendente"
+# ascendente = "ascendente"
+# debolmente_ascendente = "debolmente ascendente"
+# suono_prolungato = "suono prolungato"
+# parola_interrotta = "parola interotta"
+# error = "error" # problematic_punctuation_patterns
 
 @dataclass
 class token:
 	text: str
-	intonation_pattern: df.intonation
+	orig_text: str = ""
+	intonation_pattern: df.intonation = None                 # ? do we want to add an intonation.normal case?
 	position_in_tu: df.position = df.position.tu_inner
-	pace: df.pace
-	volume: df.volume
+	pace: df.pace = None
+	volume: df.volume = None
 	overlap: bool = False
 	guess: bool = False
 	interruption: bool = False
@@ -52,42 +55,67 @@ class token:
 	errors: List[str] = field(default_factory=lambda: collections.defaultdict(int))
 
 	def __post_init__(self):
-		# For loop to identify problematic intonation patterns
-		problematic_intonation_patterns = ['.,', ',.', '.?', '?.', '?,', ',?']
-		for pattern in problematic_intonation_patterns:
-			if pattern in self.text:
-				self.intonation_pattern = error
-				print(f"Intonation pattern problematico nel token: {self.text}")
+
+		self.orig_text = self.text
+
+		# STEP 1: check that token has shape ([a-z]+:*)+[-']?[.,?]
+		# otherwise signal error
+		matching_instance = re.fullmatch(r"([a-z]+:*)+[-']?[.,?]", self.text)
+
+		if matching_instance is None:
+			self.errors["TOKEN_FORMAT"] = 1
+			# ! questo sostituisce il print
+			# ! self.intonation_pattern = error
+			# !	print(f"Intonation pattern problematico nel token: {self.text}")
+
+			# ? maybe let's break the function here in order to avoid the else branch
+		else:
+			# STEP2: find final prosodic features: intonation, truncation and interruptions
+			if self.text.endswith("."):
+				self.intonation_pattern = df.intonation.descending
+				self.text = self.text[:-1] # this line removes the last character of the string (".")
+			elif self.text.endswith(","):
+				self.intonation_pattern = df.intonation.weakly_ascending
+				self.text = self.text[:-1]
+			elif self.text.endswith("?"):
+				self.intonation_pattern = df.intonation.ascending
+				self.text = self.text[:-1]
+			elif self.text.endswith("-"):
+				self.interruption = True
+				self.text = self.text[:-1]
+			elif self.text.endswith("'"):
+				self.truncation = True
+				self.text = self.text[:-1]
 
 			else:
-				if self.text.endswith("."):
-					self.intonation_pattern = discendente
-					self.text = self.text[:-1] # this line removes the last character of the string (".")
-				elif self.text.endswith(","):
-					self.intonation_pattern = debolmente_ascendente
-					self.text = self.text[:-1]
-				elif self.text.endswith("?"):
-					self.intonation_pattern = ascendente
-					self.text = self.text[:-1]
-				elif self.text.endswith(":"):
-					self.intonation_pattern = suono_prolungato
-					self.text = self.text[:-1]
-				elif self.text.endswith("-"):
-					self.intonation_pattern = parola_interrotta
-					self.text = self.text[:-1]
-				else: self.intonation_pattern = None       # cosa mettiamo qui?
-			pass
+				# STEP3: at this point we should be left with the bare word with only prolongations
+
+				# replace multiple : with a single :
+				new_text, substitutions = re.subn(r":+", ":", self.text)
+				if substitutions > 0:
+					self.text = new_text
+					self.warnings["PROLONGED_REPLACEMENTS"] = substitutions
+
+				positions = [i for i, letter in enumerate(self.text)] # get positions of ":" in the string
+				prev_letters = [self.text[i-1] for i in positions]
+
+				self.prolongations = len(positions)
+				self.prolonged_sounds = prev_letters
+
+				# check for high volume
+				if any(letter.isupper() for letter in self.text):
+					self.volume = df.volume.high
 
 # Function to determine the position of the token in the tu
 
 def token_position_in_tu(tokens):
 	for i in tokens:
 		if i == 0:
-			token_position_in_tu = position.tu_start
+			token_position_in_tu = df.position.tu_start
 		elif i == len(token_position_in_tu) -1:
-			token_position_in_tu = position.tu_end
+			token_position_in_tu = df.position.tu_end
 		else:
-			token_position_in_tu = position.tu_inner
+			token_position_in_tu = df.position.tu_inner
 
 
 
