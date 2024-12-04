@@ -48,6 +48,8 @@ class token:
 	truncation: bool = False
 	prolongations: int = 0
 	prolonged_sounds: List[str] = field(default_factory=lambda: collections.defaultdict(int))
+	warnings: Dict[str, int] = field(default_factory=lambda: collections.defaultdict(int))
+	errors: List[str] = field(default_factory=lambda: collections.defaultdict(int))
 
 	def __post_init__(self):
 		# For loop to identify problematic intonation patterns
