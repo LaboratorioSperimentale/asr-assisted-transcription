@@ -41,7 +41,7 @@ class turn:
 class token:
 	text: str
 	orig_text: str = ""
-	intonation_pattern: df.intonation = None                 # ? do we want to add an intonation.normal case?
+	intonation_pattern: df.intonation = None                     # ? do we want to add an intonation.normal case?
 	position_in_tu: df.position = df.position.tu_inner
 	pace: df.pace = None
 	volume: df.volume = None
@@ -107,15 +107,16 @@ class token:
 					self.volume = df.volume.high
 
 # Function to determine the position of the token in the tu
-
-def token_position_in_tu(tokens):
-	for i in tokens:
-		if i == 0:
-			token_position_in_tu = df.position.tu_start
-		elif i == len(token_position_in_tu) -1:
-			token_position_in_tu = df.position.tu_end
-		else:
-			token_position_in_tu = df.position.tu_inner
+# ! moved inside transcription unit methods
+# ! (the transcription units knows about the position of its tokens)
+# def token_position_in_tu(tokens):
+# 	for i in tokens:
+# 		if i == 0:
+# 			token_position_in_tu = df.position.tu_start
+# 		elif i == len(token_position_in_tu) -1:
+# 			token_position_in_tu = df.position.tu_end
+# 		else:
+# 			token_position_in_tu = df.position.tu_inner
 
 
 
@@ -204,6 +205,11 @@ class transcription_unit:
 		tokens = self.annotation.split(" ")
 		for tok in tokens:
 			self.tokens.append(token(tok))
+
+		# add position of token in TU
+
+		self.tokens[0].position_in_tu = df.position.tu_start
+		self.tokens[-1].position_in_tu = df.position.tu_end
 @dataclass
 class transcript:
 	tr_id: str
