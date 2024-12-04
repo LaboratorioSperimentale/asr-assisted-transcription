@@ -1,0 +1,48 @@
+## numero di speaker
+## numero di transcription units
+## numero di turni
+## num_total_tokens
+## durata media delle transcription units
+## durata media dei turni
+
+
+# id del transcription unit
+# turno a cui appartiene
+# durata
+# begin
+# end
+# speaker
+# overlapswith
+
+><
+<>
+°°
+()
+[]
+
+ci°ao ...° bla
+ciao 	1
+...		1
+bla		0
+
+		position	intonationpattern	numberof:	letter_before:	apostrophe	truncated	overlap(0 o 1)	(eventualmente altro overlap?)	pace(fast, slow, none)	volume(high, low, normal)	guess(1 0)
+token1	initial
+token2	inner
+token3	final
+
+eh	initial	_	2	e	_	_
+di
+là
+(.)lavorando più di tre:- tremila pers[one]
+
+[eh		0	_
+
+di l]à (.) lavorando più di tre
+
+
+# overlap
+- se overlappa tempo ma parentesi no
+- se c'è parentesi ma tempo non overlappa
+- se overlap ma parentesi sono strane
+  - --- mh[mh] -----------
+  - ----- [sto] bene -----

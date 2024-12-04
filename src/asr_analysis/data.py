@@ -54,12 +54,12 @@ class token:
 
     def __post_init__(self):
         # For loop to identify problematic intonation patterns
-        problematic_intonation_patterns = ['.,', ',.', '.?', '?.', '?,', ',?']  
+        problematic_intonation_patterns = ['.,', ',.', '.?', '?.', '?,', ',?']
         for pattern in problematic_intonation_patterns:
             if pattern in self.text:
-                self.intonation_pattern = error 
+                self.intonation_pattern = error
             print(f"Intonation pattern problematico nel token: {self.text}")
-        
+
         else:
             if self.text.endswith("."):
                 self.intonation_pattern = discendente
@@ -76,7 +76,7 @@ class token:
             elif self.text.endswith("-"):
                 self.intonation_pattern = parola_interrotta
                 self.text = self.text[:-1]
-            else: self.intonation_pattern = None       # cosa mettiamo qui?  
+            else: self.intonation_pattern = None       # cosa mettiamo qui?
         pass
 
 # Function to determine the position of the token in the tu
@@ -84,7 +84,7 @@ class token:
 def token_position_in_tu(tokens):
     for i in tokens:
         if i == 0:
-            token_position_in_tu = position.tu_start 
+            token_position_in_tu = position.tu_start
         elif i == len(token_position_in_tu) -1:
             token_position_in_tu = position.tu_end
         else:
@@ -249,7 +249,7 @@ class transcript:
         self.turns.append(curr_turn)
 
  # Statistic calculations
-    
+
     def get_stats (self):
         num_speakers = len(self.speakers) # number of speakers
         num_tu = len(self.transcription_units) # number of TUs
@@ -258,19 +258,17 @@ class transcript:
     # average duration of TUs
         duration = [tu.duration for tu in transcript.transcription_units]
         average_duration = sum(duration)/num_tu
-    
+
     # number of turns
-        num_turns = len(self.turns) 
-        
-    # calculate turns 
-    # SP1 : (T1)-----------------------
-    # SP2 : .........(T1)--............
-    # 
-    # SP1 : (T1)---------
-    # SP2 :                (T1) ----------   
-    
+        num_turns = len(self.turns)
+
+    # calculate turns
+    # SP1 : [(T1)-][--][--] ----- [(T3)]-[----]------
+    # SP2 : .........      [(T2)  ]............
+
+
     # (SP1 SP1) (SP2) (SP1) ...
-           
+
         stats = {
             "num_speakers": num_speakers,
             "num_tu": num_tu,
@@ -278,7 +276,7 @@ class transcript:
             "average_duration": average_duration,
             "num_turns": num_turns,
         }
-        
+
         df = pd.DataFrame(stats.items(), columns=["Statistic", "Value"])
         return df
 
@@ -302,5 +300,4 @@ class transcript:
         for tu in self.transcription_units:
             yield tu
 
-        
-      
+
