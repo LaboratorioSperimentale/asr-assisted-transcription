@@ -61,7 +61,7 @@ def remove_pauses(transcription):
 # TODO: numeri?
 def clean_non_jefferson_symbols(transcription):
 	tot_subs = 0
-	new_string, subs_made = re.subn(r"[^,\?.:=°><\[\]\(\)\w\s'$#]", "", transcription) # keeping also the apostrophe, # and $
+	new_string, subs_made = re.subn(r"[^,\?.:=°><\[\]\(\)\w\s'\-$#]", "", transcription) # keeping also the apostrophe, # and $
 
 	if subs_made > 0:
 		tot_subs += subs_made
@@ -74,11 +74,14 @@ def check_even_dots(transcription):
 	even_dots_count = transcription.count ("°")
 
 	if even_dots_count % 2 == 0:
-		return True
-	else:
 		return False
+	else:
+		return True
 
 def check_normal_parentheses(annotation, open_char, close_char):
+
+	# print(annotation)
+	# input()
 	count = 0
 	for char in annotation:
 		if char == open_char:
@@ -86,12 +89,12 @@ def check_normal_parentheses(annotation, open_char, close_char):
 		elif char == close_char:
 			count -= 1
 			if count < 0:
-				return False
+				return True
 
 	if count == 0:
-		return True
-	else:
 		return False
+	else:
+		return True
 
 def check_angular_parentheses(annotation):
 
@@ -111,8 +114,8 @@ def check_angular_parentheses(annotation):
 				fastsequence = True
 
 	if fastsequence or slowsequence:
-		return False
-	return True
+		return True
+	return False
 
 def check_spaces(transcription):
 
@@ -141,9 +144,9 @@ def check_spaces(transcription):
 def check_numbers(transcription):
 
 	if any(c.isdigit() for c in transcription):
-		return False
-	else:
 		return True
+	else:
+		return False
 
 def replace_spaces(match):
 	return '{' + match.group(1).replace(' ', '_') + '}'
