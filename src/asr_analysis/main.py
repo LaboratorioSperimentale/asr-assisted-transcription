@@ -13,19 +13,26 @@ with open("data/csv_puliti/01_ParlaBOA_E.csv", encoding="utf-8") as fin:
 		transcript.add(new_tu)
 		tu_id += 1
 
+transcript.sort()
 transcript.create_turns()
+transcript.find_overlaps()
+transcript.check_overlaps()
+
+print(transcript)
+# input()
+# transcript.create_turns()
 
 # print(len(transcript.turns))
 # for turn in transcript.turns:
 # 	print(turn.speaker, turn.start, turn.end, turn.transcription_units_ids)
 # 	input()
 
-for tu in transcript:
-	tu.strip_parentheses()
-	tu.tokenize()
-	# if not all(y for x, y in tu.errors.items()):
-	print(tu)
-	input()
+# for tu in transcript:
+# 	tu.strip_parentheses()
+# 	tu.tokenize()
+# 	# if not all(y for x, y in tu.errors.items()):
+# 	print(tu)
+# 	input()
 
 #
 # print(transcript)

@@ -171,6 +171,8 @@ class transcription_unit:
 
 		self.errors["BALANCED_DOTS"] = pt.check_even_dots(self.annotation)
 		self.errors["BALANCED_OVERLAP"] = pt.check_normal_parentheses(self.annotation, "[", "]")
+		# print(self.errors["BALANCED_OVERLAP"])
+		# input()
 		self.errors["BALANCED_GUESS"] = pt.check_normal_parentheses(self.annotation, "(", ")")
 		self.errors["BALANCED_PACE"] = pt.check_angular_parentheses(self.annotation)
 		self.errors["CONTAINS_NUMBERS"] = pt.check_numbers(self.annotation)
@@ -212,6 +214,49 @@ class transcription_unit:
 		# add position of token in TU
 		self.tokens[0].position_in_tu = df.position.tu_start
 		self.tokens[-1].position_in_tu = df.position.tu_end
+
+	def __str__(self):
+
+		ret_str = (f"# unit_id = {self.tu_id}\n"
+			 		f"# speaker = {self.speaker}\n"
+					f"# duration = {self.duration}\n"
+					f"# annotation = {self.orig_annotation}\n"
+					f"# text = {self.annotation}\n\n")
+
+		for err_id, err_value in self.errors.items():
+
+			if err_id == "UNCAUGHT_OVERLAPS":
+				overlaps = "|".join(f"{x}={y:.3f}" for x, y in err_value.items())
+				ret_str += f"# ERROR - {err_id} = {overlaps}\n"
+			elif err_value:
+				ret_str += f"# ERROR - {err_id}\n"
+
+		for warn_id, warn_value in self.warnings.items():
+			if warn_value > 0:
+				ret_str += f"# WARNING - {warn_id} = {warn_value}\n"
+
+		ret_str+="\n\n"
+
+		return ret_str
+
+
+	# start: float
+	# end: float
+	# duration: float
+	# annotation: str
+	# # TODO: handle dialect presence
+	# # dialect: bool = False
+	# orig_annotation: str = ""
+	# include: bool = True
+	# # split: bool = False
+	# overlaping_spans: List[str] = field(default_factory=lambda: [])
+	# warnings: Dict[str, int] = field(default_factory=lambda: collections.defaultdict(int))
+	# errors: List[str] = field(default_factory=lambda: collections.defaultdict(int))
+	# parentheses: List[Tuple[int, str]] = field(default_factory=lambda: [])
+	# tokens: List[token] = field(default_factory=lambda: [])
+	# valid_tokens: List[bool] = field(default_factory=lambda: [])
+
+
 @dataclass
 class transcript:
 	tr_id: str
@@ -309,12 +354,12 @@ class transcript:
 					# ? if the overlap is very very small, we should move boundaries
 
 				else:
-					print(textual_spans, time_overlaps)
-					print([self.transcription_units[overlapping_tu_id] for overlapping_tu_id in self.time_based_overlaps[tu.tu_id]])
+					# print(textual_spans, time_overlaps)
+					# print([self.transcription_units[overlapping_tu_id] for overlapping_tu_id in self.time_based_overlaps[tu.tu_id]])
 					tu.errors["MISMATCHING_OVERLAPS"] = True
-					print(tu)
+					# print(tu)
 
-					input()
+					# input()
 
 
 	def create_turns(self):
@@ -330,18 +375,20 @@ class transcript:
 		curr_turn.set_end(self.transcription_units[0].end) # per ottenere anche la fine del primo turno, altrimenti in mancanza di questo ci restituisce solo lo start
 
 		for tu in self.transcription_units[1:]:
-			speaker = tu.speaker
 
-			if speaker == prev_speaker:
-				curr_turn.add_tu(tu.tu_id)
-			else:
-				self.turns.append(curr_turn)
-				curr_turn = turn(tu.speaker)
-				curr_turn.add_tu(tu.tu_id)
-				curr_turn.set_start(tu.start)
-				prev_speaker = speaker
+			if tu.include:
+				speaker = tu.speaker
 
-			curr_turn.set_end(tu.end)
+				if speaker == prev_speaker:
+					curr_turn.add_tu(tu.tu_id)
+				else:
+					self.turns.append(curr_turn)
+					curr_turn = turn(tu.speaker)
+					curr_turn.add_tu(tu.tu_id)
+					curr_turn.set_start(tu.start)
+					prev_speaker = speaker
+
+				curr_turn.set_end(tu.end)
 
 		self.turns.append(curr_turn)
 
@@ -392,3 +439,19 @@ class transcript:
 			yield tu
 
 
+	def __str__(self):
+		ret_str = f"# transcription_id = {self.tr_id}\n\n"
+
+		# TODO: print stats
+
+		for turn_id, turn in enumerate(self.turns):
+			ret_str += f"# turn_id = {turn_id}\n"
+			ret_str += f"# start = {turn.start}\n# end = {turn.end}\n\n"
+
+			# !ISSUE: this way we are not printing empty units
+			for tu_id in turn.transcription_units_ids:
+				tu = self.transcription_units_dict[tu_id]
+				ret_str += str(tu)
+				# print(f"# unit_id = {tu_id}")
+
+		return ret_str
