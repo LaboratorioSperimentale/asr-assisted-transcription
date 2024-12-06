@@ -23,12 +23,7 @@ class turn:
 	def set_end(self, end):
 		self.end = end
 
-# Transforming tokens + adding metadata
-	#  se il token finisce per . oppure , oppure ? -> settare intornation pattern e togliere l'ultimo elemento
-		# ., oppure .? ... -> c'è un problema!
-
 # Defining intonation patterns
-
 # ! spostati nel file dataflags.py
 # discendente = "discendente"
 # ascendente = "ascendente"
@@ -60,7 +55,7 @@ class token:
 
 		# STEP 1: check that token has shape ([a-z]+:*)+[-']?[.,?]
 		# otherwise signal error
-		matching_instance = re.fullmatch(r"([a-z]+:*)+[-']?[.,?]?", self.text)
+		matching_instance = re.fullmatch(r"([a-z]+:*)+[-']?[.,?]?", self.text) # TODO: update regex to also allow one-letter words
 
 		if matching_instance is None:
 			self.errors["TOKEN_FORMAT"] = 1
@@ -121,9 +116,7 @@ class token:
 # 			token_position_in_tu = df.position.tu_inner
 
 
-
 #TODO: creare funzioni di test
-
 
 @dataclass
 class transcription_unit:
@@ -133,10 +126,12 @@ class transcription_unit:
 	end: float
 	duration: float
 	annotation: str
-	dialect: bool = False
+	# TODO: handle dialect presence
+	# dialect: bool = False
 	orig_annotation: str = ""
 	include: bool = True
-	split: bool = False
+	# split: bool = False
+	overlaping_spans: List[str] = field(default_factory=lambda: [])
 	warnings: Dict[str, int] = field(default_factory=lambda: collections.defaultdict(int))
 	errors: List[str] = field(default_factory=lambda: collections.defaultdict(int))
 	parentheses: List[Tuple[int, str]] = field(default_factory=lambda: [])
@@ -189,6 +184,12 @@ class transcription_unit:
 		new_transcription = pt.meta_tag(self.annotation)
 		self.annotation = new_transcription
 
+		# check how many overlapping spans have been transcribed
+		if "[" in self.annotation or "]" in self.annotation:
+			matches = re.findall(r"\[[^\]]+\]", self.annotation)
+			if len(matches)>0:
+				self.overlaping_spans = [(match, None) for match in matches]
+
 		if len(self.annotation) == 0:
 			self.include = False
 
@@ -209,7 +210,6 @@ class transcription_unit:
 			self.tokens.append(token(tok))
 
 		# add position of token in TU
-
 		self.tokens[0].position_in_tu = df.position.tu_start
 		self.tokens[-1].position_in_tu = df.position.tu_end
 @dataclass
@@ -218,9 +218,10 @@ class transcript:
 	speakers: Dict[str, int] = field(default_factory=lambda: {})
 	tiers: Dict[str, bool] = field(default_factory=lambda: collections.defaultdict(bool))
 	last_speaker_id: int = 0
+	transcription_units_dict: Dict[str, transcription_unit] = field(default_factory=lambda: collections.defaultdict(list))
 	transcription_units: List[transcription_unit] = field(default_factory=lambda: [])
 	turns: List[turn] = field(default_factory=lambda: [])
-	overlaps: Dict[str, Set[str]] = field(default_factory=lambda: {})
+	time_based_overlaps: Dict[str, Set[str]] = field(default_factory=lambda: {})
 	statistics: pd.DataFrame = None
 
 	def add(self, tu:transcription_unit):
@@ -231,11 +232,14 @@ class transcript:
 		if tu.include:
 			self.speakers[tu.speaker] += 1
 
-		self.transcription_units.append(tu)
+		self.transcription_units_dict[tu.tu_id] = tu
+		# self.transcription_units.append(tu)
 
 
 	def sort(self):
-		self.transcription_units = sorted(self.transcription_units, key=lambda x: x.start)
+		self.transcription_units = sorted(self.transcription_units_dict.items(), key=lambda x: x[1].start)
+		self.transcription_units = [y for x, y in self.transcription_units]
+
 
 	def purge_speakers(self):
 		speakers_to_remove = []
@@ -246,19 +250,72 @@ class transcript:
 		for speaker in speakers_to_remove:
 			del self.speakers[speaker]
 
+
 	def find_overlaps(self):
 
 		for tu1 in self.transcription_units:
 			for tu2 in self.transcription_units:
-				if tu2.tu_id > tu1.tu_id:
-					if not tu1.tu_id in self.overlaps:
-						self.overlaps[tu1.tu_id] = set()
-					if not tu2.tu_id in self.overlaps:
-						self.overlaps[tu2.tu_id] = set()
+				if tu1.include and tu2.include and tu2.tu_id > tu1.tu_id:
+					if not tu1.tu_id in self.time_based_overlaps:
+						self.time_based_overlaps[tu1.tu_id] = set()
+					if not tu2.tu_id in self.time_based_overlaps:
+						self.time_based_overlaps[tu2.tu_id] = set()
 
-					if tu1.end > tu2.start and tu2.end > tu1.start:  #De Morgan on tu1.end <= tu2.start or tu2.end <= tu1.start
-						self.overlaps[tu1.tu_id].add(tu2.tu_id)
-						self.overlaps[tu2.tu_id].add(tu1.tu_id)
+					# De Morgan on tu1.end <= tu2.start or tu2.end <= tu1.start
+					# the two units overlap in time
+					if tu1.end > tu2.start and tu2.end > tu1.start:
+						self.time_based_overlaps[tu1.tu_id].add(tu2.tu_id)
+						self.time_based_overlaps[tu2.tu_id].add(tu1.tu_id)
+
+	def check_overlaps(self):
+
+		for tu in self.transcription_units:
+			if tu.include:
+				textual_spans = len(tu.overlaping_spans)
+				time_overlaps = len(self.time_based_overlaps[tu.tu_id])
+
+				if textual_spans == time_overlaps:
+					# easy case scenario
+					tu.overlaping_spans = list(zip([x for x, y in tu.overlaping_spans], self.time_based_overlaps[tu.tu_id]))
+					# TODO: check boundaries of overlaping spans
+
+				elif time_overlaps == 0:
+					# there's at least one parenthesis transcribed but no time-based span
+					tu.errors["EXTRA_OVERLAPS"] = True
+
+				elif textual_spans == 0:
+					# there's at least one overlapping unit but no span transcribed
+					tu.errors["UNCAUGHT_OVERLAPS"] = {}
+					for overlapping_tu_id in self.time_based_overlaps[tu.tu_id]:
+						overlapping_tu = self.transcription_units[overlapping_tu_id]
+
+						min_end = min(tu.end, overlapping_tu.end)
+						max_start = max(tu.start, overlapping_tu.start)
+
+						# X ---xxxxxx
+						# Y yyyyy----
+
+						# X xxxxx-----
+						# Y ---yyyyyyy
+
+						# X ----xxx---
+						# Y --yyyyyyy-
+
+						# X --xxxxxxx-
+						# Y ---yyyy---
+
+						tu.errors["UNCAUGHT_OVERLAPS"][overlapping_tu_id] = min_end-max_start
+					# ? maybe the overlap concerns metalinguistic annotation, can we add it automatically?
+					# ? if the overlap is very very small, we should move boundaries
+
+				else:
+					print(textual_spans, time_overlaps)
+					print([self.transcription_units[overlapping_tu_id] for overlapping_tu_id in self.time_based_overlaps[tu.tu_id]])
+					tu.errors["MISMATCHING_OVERLAPS"] = True
+					print(tu)
+
+					input()
+
 
 	def create_turns(self):
 
@@ -312,6 +369,7 @@ class transcript:
 		# ! removed the return and assigned result to a class parameter
 		self.statistics = pd.DataFrame(stats.items(), columns=["Statistic", "Value"])
 		# return df
+
 
 	def to_csv(self, delimiter = "\t"):
 
