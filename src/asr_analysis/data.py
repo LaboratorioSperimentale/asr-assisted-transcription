@@ -173,6 +173,7 @@ class transcription_unit:
 	errors: List[str] = field(default_factory=lambda: collections.defaultdict(int))
 	parentheses: List[Tuple[int, str]] = field(default_factory=lambda: [])
 	tokens: List[token] = field(default_factory=lambda: [])
+	ntokens: int = 0
 	# valid_tokens: List[bool] = field(default_factory=lambda: [])
 
 	def __post_init__(self):
