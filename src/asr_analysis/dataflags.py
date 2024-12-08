@@ -17,3 +17,10 @@ class pace(Flag):
 class volume(Flag):
 	high = auto()
 	low = auto()
+
+
+class tokentype(Flag):
+	linguistic = auto()
+	shortpause = auto()
+	metalinguistic = auto()
+	error = auto()

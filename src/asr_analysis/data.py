@@ -35,6 +35,7 @@ class turn:
 @dataclass
 class token:
 	text: str
+	token_type: df.tokentype = df.tokentype.linguistic
 	orig_text: str = ""
 	intonation_pattern: df.intonation = None                     # ? do we want to add an intonation.normal case?
 	position_in_tu: df.position = df.position.inner
@@ -56,10 +57,19 @@ class token:
 
 		# STEP 1: check that token has shape ([a-z]+:*)+[-']?[.,?]
 		# otherwise signal error
-		matching_instance = re.fullmatch(r"([a-zàèéìòù]+:*)+[-']?[.,?]?", self.text) # TODO: update regex to also allow one-letter words
+		matching_instance = re.fullmatch(r"([a-zàèéìòù]+:*)+[-']?[.,?]?", self.text)
+
+		# TODO: add unicode support
 
 		if matching_instance is None:
-			self.errors["TOKEN_FORMAT"] = 1
+			if self.text == "{PAUSE}":
+				self.token_type = df.tokentype.shortpause
+			elif self.text[0] == "{":
+				self.token_type = df.tokentype.metalinguistic
+			else:
+				self.token_type = df.tokentype.error
+
+			# self.errors["TOKEN_FORMAT"] = 1
 			# ! questo sostituisce il print
 			# ! self.intonation_pattern = error
 			# !	print(f"Intonation pattern problematico nel token: {self.text}")
@@ -106,7 +116,7 @@ class token:
 
 	def __str__(self):
 
-		fields = ["ERR" if self.errors["TOKEN_FORMAT"]>0 else "_",
+		fields = [self.token_type.name,
 				self.text, self.orig_text,
 				self.intonation_pattern.name if self.intonation_pattern else "_",
 				self.position_in_tu.name,
