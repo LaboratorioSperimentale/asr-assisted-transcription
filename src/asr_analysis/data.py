@@ -118,17 +118,8 @@ class token:
 
 	def __str__(self):
 
-		fields = [self.token_type.name,
-				self.text, self.orig_text,
-				self.intonation_pattern.name if self.intonation_pattern else "_",
-				self.position_in_tu.name,
-				self.pace.name if self.pace else "_",
-				self.volume.name if self.volume else "_",
-				self.warnings["PROLONGED_REPLACEMENTS"] if self.warnings["PROLONGED_REPLACEMENTS"] else "_",
-				'|'.join(self.prolonged_sounds),
-				str(self.prolongations) if self.prolongations > 0 else "_",
-				str(self.interruption) if self.interruption else "_"]
-		return "\t".join(fields)+"\n"
+		return self.text
+
 
 	def add_info(self, field_name, field_value):
 		self.features[field_name] = field_value
@@ -273,52 +264,16 @@ class transcription_unit:
 		self.tokens[0].position_in_tu = df.position.start
 		self.tokens[-1].position_in_tu = df.position.end
 
+		self.ntokens = len([x for x in self.tokens if x.token_type == df.tokentype.linguistic])
+
 	def __str__(self):
 
-		ret_str = (f"# unit_id = {self.tu_id}\n"
-					f"# speaker = {self.speaker}\n"
-					f"# duration = {self.duration}\n"
-					f"# annotation = {self.orig_annotation}\n"
-					f"# text = {self.annotation}\n\n")
+		ret_str = (f"UNIT: {self.tu_id} ({self.speaker})\n"
+					f"original: {self.orig_annotation}\n")
 
-		for err_id, err_value in self.errors.items():
-
-			if err_id == "UNCAUGHT_OVERLAPS":
-				overlaps = "|".join(f"{x}={y:.3f}" for x, y in err_value.items())
-				ret_str += f"# ERROR - {err_id} = {overlaps}\n"
-			elif err_value:
-				ret_str += f"# ERROR - {err_id}\n"
-
-		for warn_id, warn_value in self.warnings.items():
-			if warn_value > 0:
-				ret_str += f"# WARNING - {warn_id} = {warn_value}\n"
-
-		ret_str+="\n\n"
-
-		for token in self.tokens:
-			ret_str += str(token)
-
-		ret_str+="\n\n"
-
+		ret_str += " ".join(str(token) for token in self.tokens)
+		ret_str += "\n\n"
 		return ret_str
-
-
-	# start: float
-	# end: float
-	# duration: float
-	# annotation: str
-	# # TODO: handle dialect presence
-	# # dialect: bool = False
-	# orig_annotation: str = ""
-	# include: bool = True
-	# # split: bool = False
-	# overlaping_spans: List[str] = field(default_factory=lambda: [])
-	# warnings: Dict[str, int] = field(default_factory=lambda: collections.defaultdict(int))
-	# errors: List[str] = field(default_factory=lambda: collections.defaultdict(int))
-	# parentheses: List[Tuple[int, str]] = field(default_factory=lambda: [])
-	# tokens: List[token] = field(default_factory=lambda: [])
-	# valid_tokens: List[bool] = field(default_factory=lambda: [])
-
 
 @dataclass
 class transcript:
@@ -503,18 +458,13 @@ class transcript:
 
 
 	def __str__(self):
-		ret_str = f"# transcription_id = {self.tr_id}\n\n"
+		ret_str = f"TRANSCRIPTION {self.tr_id}\n"
 
-		# TODO: print stats
+		for unit in self.transcription_units:
+			ret_str += str(unit) + "\n"
 
-		for turn_id, turn in enumerate(self.turns):
-			ret_str += f"# turn_id = {turn_id}\n"
-			ret_str += f"# start = {turn.start}\n# end = {turn.end}\n\n"
-
-			# !ISSUE: this way we are not printing empty units
-			for tu_id in turn.transcription_units_ids:
-				tu = self.transcription_units_dict[tu_id]
-				ret_str += str(tu)
-				# print(f"# unit_id = {tu_id}")
+		# for turn_id, turn in enumerate(self.turns):
+		# 	ret_str += f"# turn_id = {turn_id}\n"
+		# 	ret_str += f"# start = {turn.start}\n# end = {turn.end}\n\n"
 
 		return ret_str
