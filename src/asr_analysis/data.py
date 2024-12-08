@@ -37,7 +37,7 @@ class token:
 	text: str
 	orig_text: str = ""
 	intonation_pattern: df.intonation = None                     # ? do we want to add an intonation.normal case?
-	position_in_tu: df.position = df.position.tu_inner
+	position_in_tu: df.position = df.position.inner
 	pace: df.pace = None
 	volume: df.volume = None
 	overlap: bool = False
@@ -48,6 +48,7 @@ class token:
 	prolonged_sounds: List[str] = field(default_factory=lambda: collections.defaultdict(int))
 	warnings: Dict[str, int] = field(default_factory=lambda: collections.defaultdict(int))
 	errors: List[str] = field(default_factory=lambda: collections.defaultdict(int))
+	features: Dict[str, str] = field(default_factory=lambda: {})
 
 	def __post_init__(self):
 
@@ -55,7 +56,7 @@ class token:
 
 		# STEP 1: check that token has shape ([a-z]+:*)+[-']?[.,?]
 		# otherwise signal error
-		matching_instance = re.fullmatch(r"([a-z]+:*)+[-']?[.,?]?", self.text) # TODO: update regex to also allow one-letter words
+		matching_instance = re.fullmatch(r"([a-zàèéìòù]+:*)+[-']?[.,?]?", self.text) # TODO: update regex to also allow one-letter words
 
 		if matching_instance is None:
 			self.errors["TOKEN_FORMAT"] = 1
@@ -103,17 +104,50 @@ class token:
 
 				self.text = self.text.lower().strip(".,?-':")
 
+	def __str__(self):
+
+		fields = ["ERR" if self.errors["TOKEN_FORMAT"]>0 else "_",
+				self.text, self.orig_text,
+				self.intonation_pattern.name if self.intonation_pattern else "_",
+				self.position_in_tu.name,
+				self.pace.name if self.pace else "_",
+				self.volume.name if self.volume else "_",
+				self.warnings["PROLONGED_REPLACEMENTS"] if self.warnings["PROLONGED_REPLACEMENTS"] else "_",
+				'|'.join(self.prolonged_sounds),
+				str(self.prolongations) if self.prolongations > 0 else "_",
+				str(self.interruption) if self.interruption else "_"]
+		return "\t".join(fields)+"\n"
+
+	def add_info(self, field_name, field_value):
+		self.features[field_name] = field_value
+
+#   text: str
+# 	orig_text: str = ""
+# 	intonation_pattern: df.intonation = None                     # ? do we want to add an intonation.normal case?
+# 	position_in_tu: df.position = df.position.inner
+# 	pace: df.pace = None
+# 	volume: df.volume = None
+# 	overlap: bool = False
+# 	guess: bool = False
+# 	interruption: bool = False
+# 	truncation: bool = False
+# 	prolongations: int = 0
+# 	prolonged_sounds: List[str] = field(default_factory=lambda: collections.defaultdict(int))
+# 	warnings: Dict[str, int] = field(default_factory=lambda: collections.defaultdict(int))
+# 	errors: List[str] = field(default_factory=lambda: collections.defaultdict(int))
+
+
 # Function to determine the position of the token in the tu
 # ! moved inside transcription unit methods
 # ! (the transcription units knows about the position of its tokens)
 # def token_position_in_tu(tokens):
 # 	for i in tokens:
 # 		if i == 0:
-# 			token_position_in_tu = df.position.tu_start
+# 			token_position_in_tu = df.position.start
 # 		elif i == len(token_position_in_tu) -1:
-# 			token_position_in_tu = df.position.tu_end
+# 			token_position_in_tu = df.position.end
 # 		else:
-# 			token_position_in_tu = df.position.tu_inner
+# 			token_position_in_tu = df.position.inner
 
 
 #TODO: creare funzioni di test
@@ -136,7 +170,7 @@ class transcription_unit:
 	errors: List[str] = field(default_factory=lambda: collections.defaultdict(int))
 	parentheses: List[Tuple[int, str]] = field(default_factory=lambda: [])
 	tokens: List[token] = field(default_factory=lambda: [])
-	valid_tokens: List[bool] = field(default_factory=lambda: [])
+	# valid_tokens: List[bool] = field(default_factory=lambda: [])
 
 	def __post_init__(self):
 		self.start = float(self.start)
@@ -207,18 +241,30 @@ class transcription_unit:
 		self.annotation = new_string
 
 	def tokenize(self):
-		tokens = self.annotation.split(" ") # TODO: gestire caso di apostrofo tra articolo e parola e simili
-		for tok in tokens:
-			self.tokens.append(token(tok))
+		tokens = re.split(r"( |(?<=\w)'(?=\w)|=)", self.annotation)
+		# self.annotation.split(" ") # TODO: gestire caso di apostrofo tra articolo e parola e simili
+
+		for i, tok in enumerate(tokens):
+			if not tok == " ":
+
+				if tok == "'":
+					self.tokens[-1] = token(tokens[i-1]+tok)
+					self.tokens[-1].add_info("SpaceAfter", "No")
+
+				elif tok == "=":
+					self.tokens[-1].add_info("ProsodicLink", "Yes")
+
+				else:
+					self.tokens.append(token(tok))
 
 		# add position of token in TU
-		self.tokens[0].position_in_tu = df.position.tu_start
-		self.tokens[-1].position_in_tu = df.position.tu_end
+		self.tokens[0].position_in_tu = df.position.start
+		self.tokens[-1].position_in_tu = df.position.end
 
 	def __str__(self):
 
 		ret_str = (f"# unit_id = {self.tu_id}\n"
-			 		f"# speaker = {self.speaker}\n"
+					f"# speaker = {self.speaker}\n"
 					f"# duration = {self.duration}\n"
 					f"# annotation = {self.orig_annotation}\n"
 					f"# text = {self.annotation}\n\n")
@@ -234,6 +280,11 @@ class transcription_unit:
 		for warn_id, warn_value in self.warnings.items():
 			if warn_value > 0:
 				ret_str += f"# WARNING - {warn_id} = {warn_value}\n"
+
+		ret_str+="\n\n"
+
+		for token in self.tokens:
+			ret_str += str(token)
 
 		ret_str+="\n\n"
 
@@ -428,7 +479,7 @@ class transcript:
 
 		for tu in self.transcription_units:
 			elements = [tu.tu_id, tu.speaker, tu.include, len(tu.warnings), len(tu.errors),
-			   tu.start, tu.end, tu.duration, tu.orig_annotation, tu.annotation]
+						tu.start, tu.end, tu.duration, tu.orig_annotation, tu.annotation]
 			elements_str = delimiter.join(str(x) for x in elements)
 			lines.append(elements_str)
 

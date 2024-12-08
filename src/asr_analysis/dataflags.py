@@ -1,9 +1,9 @@
 from enum import Flag, auto
 
 class position(Flag):
-	tu_start = auto()
-	tu_end = auto()
-	tu_inner = auto()
+	start = auto()
+	end = auto()
+	inner = auto()
 
 class intonation(Flag):
 	weakly_ascending = auto()
