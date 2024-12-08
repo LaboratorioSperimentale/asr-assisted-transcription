@@ -1,5 +1,6 @@
 import collections
-import re
+# import re
+import regex as re
 import pandas as pd
 from dataclasses import dataclass, field
 from typing import List, Dict, Set, Tuple
@@ -57,7 +58,8 @@ class token:
 
 		# STEP 1: check that token has shape ([a-z]+:*)+[-']?[.,?]
 		# otherwise signal error
-		matching_instance = re.fullmatch(r"([a-zàèéìòù]+:*)+[-']?[.,?]?", self.text)
+		# matching_instance = re.fullmatch(r"([a-zàèéìòù]+:*)+[-']?[.,?]?", self.text)
+		matching_instance = re.fullmatch(r"(\p{L}+:*)+[-']?[.,?]?", self.text)
 
 		# TODO: add unicode support
 
