@@ -249,7 +249,7 @@ class transcription_unit:
 		# self.annotation.split(" ") # TODO: gestire caso di apostrofo tra articolo e parola e simili
 
 		for i, tok in enumerate(tokens):
-			if not tok == " ":
+			if len(tok)>0 and not tok == " ":
 
 				if tok == "'":
 					self.tokens[-1] = token(tokens[i-1]+tok)
