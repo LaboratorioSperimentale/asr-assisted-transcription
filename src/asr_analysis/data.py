@@ -207,6 +207,11 @@ class transcription_unit:
 		self.warnings["UNEVEN_SPACES"] += substitutions
 		self.annotation = new_transcription
 
+		# leading and trailing prosodic links
+		substitutions, new_transcription = pt.remove_prosodiclinks(self.annotation)
+		self.warnings["TRIM_PROSODICLINKS"] += substitutions
+		self.annotation = new_transcription
+
 		self.errors["BALANCED_DOTS"] = pt.check_even_dots(self.annotation)
 		self.errors["BALANCED_OVERLAP"] = pt.check_normal_parentheses(self.annotation, "[", "]")
 		# print(self.errors["BALANCED_OVERLAP"])
