@@ -23,6 +23,8 @@ def test_pauses():
     assert pt.remove_pauses("(.) ciao (.)") == (2, "ciao")
     assert pt.remove_pauses("ciao (.) ciao") == (0, "ciao (.) ciao")
     assert pt.remove_pauses("(a) casa") == (0, "(a) casa")
+    assert pt.remove_pauses("[(.) casa") == (1, "[casa")
+    assert pt.remove_pauses("casa (.) >") == (1, "casa>")
 
 def test_check_even_dots():
     assert pt.check_even_dots("°ciao°") == ("Balanced")

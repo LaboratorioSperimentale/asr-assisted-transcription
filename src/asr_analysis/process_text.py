@@ -1,4 +1,4 @@
-import re
+import regex as re
 
 def remove_spaces(transcription):
 	tot_subs = 0
@@ -49,7 +49,9 @@ def replace_che(transcription):
 # remove initial and final pauses (keep count)
 def remove_pauses(transcription):
 	tot_subs = 0
-	new_string, subs_made = re.subn(r"^\s*\(\.\)\s*|\s*\(\.\)\s*$", "", transcription)
+	new_string, subs_made = re.subn(r"^([\[\]()<>°]?)\s*\(\.\)\s*|\s*\(\.\)\s*([\[\]()<>°]?)$",
+									r"\1\2",
+									transcription)
 
 	if subs_made > 0:
 		tot_subs += subs_made
@@ -61,7 +63,9 @@ def remove_pauses(transcription):
 # TODO: numeri?
 def clean_non_jefferson_symbols(transcription):
 	tot_subs = 0
-	new_string, subs_made = re.subn(r"[^,\?.:=°><\[\]\(\)\w\s'\-$#]", "", transcription) # keeping also the apostrophe, # and $
+	new_string, subs_made = re.subn(r"[^,\?.:=°><\[\]\(\)\w\s'\-$#]",
+									"",
+									transcription) # keeping also the apostrophe, # and $
 
 	if subs_made > 0:
 		tot_subs += subs_made

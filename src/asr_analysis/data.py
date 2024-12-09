@@ -183,6 +183,11 @@ class transcription_unit:
 		self.annotation = self.annotation.strip()
 		self.orig_annotation = self.annotation
 
+		# spaces before and after parentheses
+		substitutions, new_transcription = pt.check_spaces(self.annotation)
+		self.warnings["UNEVEN_SPACES"] += substitutions
+		self.annotation = new_transcription
+
 		#non jefferson
 		substitutions, new_transcription = pt.clean_non_jefferson_symbols(self.annotation)
 		self.warnings["NON_JEFFERSON"] = substitutions
@@ -200,11 +205,6 @@ class transcription_unit:
 		# leading and trailing pauses
 		substitutions, new_transcription = pt.remove_pauses(self.annotation)
 		self.warnings["TRIM_PAUSES"] += substitutions
-		self.annotation = new_transcription
-
-		# spaces before and after parentheses
-		substitutions, new_transcription = pt.check_spaces(self.annotation)
-		self.warnings["UNEVEN_SPACES"] += substitutions
 		self.annotation = new_transcription
 
 		# leading and trailing prosodic links
@@ -250,9 +250,9 @@ class transcription_unit:
 		self.annotation = new_string
 
 	def tokenize(self):
+		# ! split on space, apostrophe between words and prosodic links
 		tokens = re.split(r"( |(?<=\w)'(?=\w)|=)", self.annotation)
-		# self.annotation.split(" ") # TODO: gestire caso di apostrofo tra articolo e parola e simili
-
+		print(tokens)
 		for i, tok in enumerate(tokens):
 			if len(tok)>0 and not tok == " ":
 
