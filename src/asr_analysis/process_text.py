@@ -172,7 +172,9 @@ def meta_tag(transcription):
 
 def remove_prosodiclinks(transcription):
 	tot_subs = 0
-	new_string, subs_made = re.subn(r"^\s*=\s*|\s*=\s*$", "", transcription)
+	new_string, subs_made = re.subn(r"^([\[\]()<>°]?)\s*=\s*|\s*=\s*([\[\]()<>°]?)$",
+									"\1\2",
+									transcription)
 
 	if subs_made > 0:
 		tot_subs += subs_made
