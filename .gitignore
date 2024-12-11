@@ -168,3 +168,4 @@ data/max_trascrizioni.tsv
 *.pfsx
 *.bak
 .vscode/
+*.conll

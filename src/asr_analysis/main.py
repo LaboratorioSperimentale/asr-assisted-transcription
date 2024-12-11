@@ -1,4 +1,5 @@
 import asr_analysis.data as data
+import asr_analysis.serialize as serialize
 import pandas as pd
 
 
@@ -17,8 +18,15 @@ transcript.sort()
 transcript.create_turns()
 transcript.find_overlaps()
 transcript.check_overlaps()
+for tu in transcript:
+	tu.strip_parentheses()
+	tu.tokenize()
+	# if not all(y for x, y in tu.errors.items()):
+	# print(tu)
+	# input()
+serialize.conversation_to_csv(transcript, "data/output/01_ParlaBOA_E.conll")
 
-print(transcript)
+# print(transcript)
 # input()
 # transcript.create_turns()
 

@@ -252,7 +252,7 @@ class transcription_unit:
 	def tokenize(self):
 		# ! split on space, apostrophe between words and prosodic links
 		tokens = re.split(r"( |(?<=\w)'(?=\w)|=)", self.annotation)
-		print(tokens)
+		# print(tokens)
 		for i, tok in enumerate(tokens):
 			if len(tok)>0 and not tok == " ":
 
