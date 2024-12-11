@@ -61,7 +61,6 @@ class token:
 		# matching_instance = re.fullmatch(r"([a-zàèéìòù]+:*)+[-']?[.,?]?", self.text)
 		matching_instance = re.fullmatch(r"(\p{L}+:*)+[-']?[.,?]?", self.text)
 
-		# TODO: add unicode support
 
 		if matching_instance is None:
 			if self.text == "{PAUSE}":
@@ -114,7 +113,8 @@ class token:
 				if any(letter.isupper() for letter in self.text):
 					self.volume = df.volume.high
 
-				self.text = self.text.lower().strip(".,?-':")
+				# ! keeping "'" but removing ":" when in the middle of the token
+				self.text = self.text.lower().strip(".,?-").replace(":", "")
 
 	def __str__(self):
 
@@ -235,6 +235,10 @@ class transcription_unit:
 			if len(matches)>0:
 				self.overlaping_spans = [(match, None) for match in matches]
 
+		# remove unit if it only includes non-alphabetic symbols
+		if all(c in ["[", "]", "(", ")", "°", ">", "<", "-", "'", "#"] for c in self.annotation):
+			self.include = False
+
 		if len(self.annotation) == 0:
 			self.include = False
 
@@ -257,11 +261,17 @@ class transcription_unit:
 			if len(tok)>0 and not tok == " ":
 
 				if tok == "'":
-					self.tokens[-1] = token(tokens[i-1]+tok)
-					self.tokens[-1].add_info("SpaceAfter", "No")
+					if len(self.tokens) == 0:
+						self.warnings["SKIPPED_TOKEN"] += 1
+					else:
+						self.tokens[-1] = token(tokens[i-1]+tok)
+						self.tokens[-1].add_info("SpaceAfter", "No")
 
 				elif tok == "=":
-					self.tokens[-1].add_info("ProsodicLink", "Yes")
+					if len(self.tokens) == 0:
+						self.warnings["SKIPPED_TOKEN"] += 1
+					else:
+						self.tokens[-1].add_info("ProsodicLink", "Yes")
 
 				else:
 					self.tokens.append(token(tok))
