@@ -45,7 +45,7 @@ def test_check_angular_parentheses():
     assert pt.check_angular_parentheses("bla <slow> followed by >fast<") == ("Balanced")
     assert pt.check_angular_parentheses("bla >fast< followed by <slow>") == ("Balanced")
 
-def test_check_intonation_patterns():
+def test_check_intonation_patterns(): # TODO
     assert pt.check_intonation_patterns("ciao.") == ("discendente")
     assert pt.check_intonation_patterns("ciao,") == ("debolmente_ascendente")
     assert pt.check_intonation_patterns("ciao?") == ("ascendente")
