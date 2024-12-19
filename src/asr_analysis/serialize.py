@@ -1,8 +1,20 @@
 from asr_analysis import data as d
+import pandas as pd
 
-
+# Creating a file that contains statistics for each transcript
 def print_full_statistics(list_of_transcripts, output_filename):
-	pass
+	full_statistics = [] # list that contains all transcripts
+	for transcript in list_of_transcripts: # iterating each transcript
+		transcript.get_stats () # calculating statistics
+		stats_dict = transcript.statistics.set_index("Statistic")["Value"].to_dict() # converting statistics into a dictionary
+	stats_dict["Transcript_ID"] = transcript.tr_id	# adding the transcript id
+	full_statistics.append(stats_dict)
+
+	# Creating a df with all statistics
+	statistics_complete = pd.DataFrame(full_statistics) # creating the dataframe
+	statistics_complete.to_csv(output_filename, index=False, sep="\t") # converting the df to csv
+
+#TODO: define output filename ???
 
 
 def conversation_to_csv(transcript, output_filename, sep = '\t'):
