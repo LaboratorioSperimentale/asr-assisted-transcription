@@ -1,0 +1,4 @@
+num_speakers	num_tu	num_total_tokens	average_duration	num_turns	Transcript_ID
+2.0	176.0	1442.0	2.6984147727272716	111.0	01_ParlaBOA_E
+2.0	145.0	930.0	2.245641379310345	96.0	01_StraParlaA_I
+6.0	160.0	884.0	1.5628624999999998	127.0	01_PastiA_O

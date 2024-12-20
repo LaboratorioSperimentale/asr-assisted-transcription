@@ -87,7 +87,7 @@ class token:
 			elif self.text.endswith("?"):
 				self.intonation_pattern = df.intonation.ascending
 				self.text = self.text[:-1]
-			elif self.text.endswith("-"):
+			elif self.text.endswith("-"): # TODO: valutare se tenere - e ' in finale di parola
 				self.interruption = True
 				self.text = self.text[:-1]
 			elif self.text.endswith("'"):
@@ -115,6 +115,8 @@ class token:
 
 				# ! keeping "'" but removing ":" when in the middle of the token
 				self.text = self.text.lower().strip(".,?-").replace(":", "")
+
+			# TODO: x -> unknown
 
 	def __str__(self):
 
@@ -241,6 +243,9 @@ class transcription_unit:
 
 		if len(self.annotation) == 0:
 			self.include = False
+
+
+		# TODO: gestire cancelletto
 
 	def strip_parentheses(self):
 		new_string = ""
@@ -430,10 +435,10 @@ class transcript:
 	def get_stats (self):
 		num_speakers = len(self.speakers) # number of speakers
 		num_tu = len(self.transcription_units) # number of TUs
-		num_total_tokens = sum(len(tu.tokens) for tu in transcript.transcription_units) # total number of tokens
+		num_total_tokens = sum(len(tu.tokens) for tu in self.transcription_units) # total number of tokens
 
 		# average duration of TUs
-		duration = [tu.duration for tu in transcript.transcription_units]
+		duration = [tu.duration for tu in self.transcription_units]
 		average_duration = sum(duration)/num_tu
 
 		# number of turns
