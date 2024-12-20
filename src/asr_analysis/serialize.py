@@ -15,8 +15,6 @@ def print_full_statistics(list_of_transcripts, output_filename):
 	statistics_complete.to_csv(output_filename, index=False, sep="\t") # converting the df to csv
 
 
-
-
 def conversation_to_csv(transcript, output_filename, sep = '\t'):
 
 	with open(output_filename, "w", encoding="utf-8") as fout:
@@ -57,6 +55,19 @@ def conversation_to_csv(transcript, output_filename, sep = '\t'):
 					print(sep.join(infos), file=fout)
 
 
+def conversation_to_linear(transcript, output_filename, sep = '\t'):
+	with open(output_filename, "w", encoding="utf-8") as fout:
+		for turn in transcript.turns:
+			turn_speaker = turn.speaker
+			for tu_id in turn.transcription_units_ids:
+				tu = transcript.transcription_units_dict[tu_id]
+				infos = [str(tu_id),
+						turn_speaker,
+						tu.orig_annotation,
+						" ".join(str(token) for token in tu.tokens),
+						]
+				print(sep.join(infos), file=fout)
+			print("", file=fout)
 
 # ID_TURNO
 # ID_TRANSCRIPTIONUNIT

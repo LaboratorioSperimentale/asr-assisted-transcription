@@ -44,6 +44,7 @@ def process_all_transcripts(input_dir="data/csv_puliti", output_dir="data/output
 
 			output_filename = os.path.join(output_dir,f"{transcript_name}.conll")
 			serialize.conversation_to_csv(transcript, output_filename)
+			serialize.conversation_to_linear(transcript, os.path.join(output_dir,f"{transcript_name}.tsv"))
 			transcripts_list.append(transcript)
 
 	return transcripts_list
