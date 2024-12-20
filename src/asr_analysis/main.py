@@ -17,12 +17,15 @@ def process_all_transcripts(input_dir="data/csv_puliti", output_dir="data/output
 			transcript = data.transcript(transcript_name)
 
 			with open(os.path.join(input_dir, filename), encoding="utf-8") as fin:
-	# transcript = data.transcript("01_ParlaBOA_E")
-	#with open("data/csv_puliti/01_ParlaBOA_E.csv", encoding="utf-8") as fin:
+				print(f"Processing {filename}")
 				tu_id = 0
 				for line in fin:
 					linesplit = line.strip().split("\t")
-					speaker, start, end, duration, annotation = linesplit
+					if len(linesplit) == 5:
+						speaker, start, end, duration, annotation = linesplit
+					else:
+						print(f"Issue with line {line}")
+						continue
 
 					new_tu = data.transcription_unit(tu_id, speaker, start, end, duration, annotation)
 					transcript.add(new_tu)
@@ -30,10 +33,14 @@ def process_all_transcripts(input_dir="data/csv_puliti", output_dir="data/output
 
 			transcript.sort()
 			transcript.create_turns()
-			transcript.find_overlaps()
-			transcript.check_overlaps()
+			# transcript.find_overlaps()
+			# transcript.check_overlaps()
 			for tu in transcript:
+				# print(tu.annotation)
 				tu.strip_parentheses()
+				# print(tu.parentheses)
+				# print(tu.splits)
+				# input()
 				tu.tokenize()
 
 	# if not all(y for x, y in tu.errors.items()):
@@ -88,8 +95,8 @@ def process_all_transcripts(input_dir="data/csv_puliti", output_dir="data/output
 
 
 if __name__ == "__main__":
-	transcripts_list = process_all_transcripts("data/csv_puliti_demo")
+	transcripts_list = process_all_transcripts("dati/sample", "dati/output")
 
 	# TODO: inserire dati trascrittori nelle statistiche
 
-	serialize.print_full_statistics(transcripts_list, "data/output/statistics.csv")
+	serialize.print_full_statistics(transcripts_list, "dati/output/statistics.csv")

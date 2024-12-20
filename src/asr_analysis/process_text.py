@@ -49,7 +49,7 @@ def replace_che(transcription):
 # remove initial and final pauses (keep count)
 def remove_pauses(transcription):
 	tot_subs = 0
-	new_string, subs_made = re.subn(r"^([\[\]()<>°]?)\s*\(\.\)\s*|\s*\(\.\)\s*([\[\]()<>°]?)$",
+	new_string, subs_made = re.subn(r"^([\[\]()<>°]?)\s*\{P\}\s*|\s*\{P\}\s*([\[\]()<>°]?)$",
 									r"\1\2",
 									transcription)
 
@@ -63,7 +63,7 @@ def remove_pauses(transcription):
 # TODO: numeri?
 def clean_non_jefferson_symbols(transcription):
 	tot_subs = 0
-	new_string, subs_made = re.subn(r"[^,\?.:=°><\[\]\(\)\w\s'\-$#]",
+	new_string, subs_made = re.subn(r"[^,\?.:=°><\[\]\(\)\w\s'\-~$#]",
 									"",
 									transcription) # keeping also the apostrophe, # and $
 
@@ -78,27 +78,30 @@ def check_even_dots(transcription):
 	even_dots_count = transcription.count ("°")
 
 	if even_dots_count % 2 == 0:
-		return False
-	else:
 		return True
+	else:
+		return False
 
 def check_normal_parentheses(annotation, open_char, close_char):
-
-	# print(annotation)
-	# input()
-	count = 0
+	isopen = False
+	# count = 0
 	for char in annotation:
 		if char == open_char:
-			count += 1
+			if isopen:
+				return False
+			else:
+				isopen = True
+			# count += 1
 		elif char == close_char:
-			count -= 1
-			if count < 0:
-				return True
+			if isopen:
+				isopen = False
+			else:
+				return False
+			# count -= 1
+			# if count < 0:
+			# 	return True
 
-	if count == 0:
-		return False
-	else:
-		return True
+	return isopen is False
 
 def check_angular_parentheses(annotation):
 
@@ -118,27 +121,39 @@ def check_angular_parentheses(annotation):
 				fastsequence = True
 
 	if fastsequence or slowsequence:
-		return True
-	return False
+		return False
+	return True
 
 def check_spaces(transcription):
 
 	tot_subs = 0
 
 	# "[ ([^ ])" -> [$1
-	new_string, subs_made = re.subn(r"[\[\(] ([^ ])", "\1\2", transcription)
+	new_string, subs_made = re.subn(r"([\[\(]) ([^ ])", r"\1\2", transcription)
 	if subs_made > 0:
 		tot_subs += subs_made
 		transcription = new_string
 
 	# "([^ ]) ]" -> $1]
-	new_string, subs_made = re.subn(r"([^ ]) [\)\]]", "\1\2", transcription)
+	new_string, subs_made = re.subn(r"([^ ]) ([\)\]])", r"\1\2", transcription)
 	if subs_made > 0:
 		tot_subs += subs_made
 		transcription = new_string
 
 	# "[^ ] [.,:?]" -> $1$2
-	new_string, subs_made = re.subn(r"[^ ] [.,:?]", "\1\2)", transcription)
+	new_string, subs_made = re.subn(r"([^ ]) ([.,:?])", r"\1\2)", transcription)
+	if subs_made > 0:
+		tot_subs += subs_made
+		transcription = new_string
+
+	# "[^ ](.)" -> $1 (.)
+	new_string, subs_made = re.subn(r"([^ ])(\{[^}]+\})", r"\1 \2", transcription)
+	if subs_made > 0:
+		tot_subs += subs_made
+		transcription = new_string
+
+	# "(.)[^ ]" -> (.) $1
+	new_string, subs_made = re.subn(r"(\{[^}]+\})([^ ])", r"\1 \2", transcription)
 	if subs_made > 0:
 		tot_subs += subs_made
 		transcription = new_string
@@ -158,7 +173,7 @@ def replace_spaces(match):
 def meta_tag(transcription):
 	subs_map = {"((": "{",
 				"))": "}",
-				"(.)": "{PAUSE}"}
+				"(.)": "{P}"}
 
 	for old_string, new_string in subs_map.items():
 		sub_annotation, subs_made = re.subn(re.escape(old_string), new_string, transcription)

@@ -59,8 +59,7 @@ class token:
 		# STEP 1: check that token has shape ([a-z]+:*)+[-']?[.,?]
 		# otherwise signal error
 		# matching_instance = re.fullmatch(r"([a-zàèéìòù]+:*)+[-']?[.,?]?", self.text)
-		matching_instance = re.fullmatch(r"(\p{L}+:*)+[-']?[.,?]?", self.text)
-
+		matching_instance = re.fullmatch(r"(\p{L}+:*)+[-'~]?[.,?]?", self.text)
 
 		if matching_instance is None:
 			if self.text == "{PAUSE}":
@@ -87,36 +86,37 @@ class token:
 			elif self.text.endswith("?"):
 				self.intonation_pattern = df.intonation.ascending
 				self.text = self.text[:-1]
-			elif self.text.endswith("-"): # TODO: valutare se tenere - e ' in finale di parola
+			elif self.text.endswith("-") or self.text.endswith("~"):
 				self.interruption = True
-				self.text = self.text[:-1]
+				# self.text = self.text[:-1]
 			elif self.text.endswith("'"):
 				self.truncation = True
-				self.text = self.text[:-1]
+				# self.text = self.text[:-1]
 
-			else:
-				# STEP3: at this point we should be left with the bare word with only prolongations
+			# # !! remove prolongations. Maybe the else should be deleted here?
+			# else:
+			# STEP3: at this point we should be left with the bare word with only prolongations
 
-				# replace multiple : with a single :
-				new_text, substitutions = re.subn(r":{2,}", ":", self.text)
-				if substitutions > 0:
-					self.text = new_text
-					self.warnings["PROLONGED_REPLACEMENTS"] = substitutions
+			# replace multiple : with a single :
+			new_text, substitutions = re.subn(r":{2,}", ":", self.text)
+			if substitutions > 0:
+				self.text = new_text
+				self.warnings["PROLONGED_REPLACEMENTS"] = substitutions
 
-				positions = [i for i, letter in enumerate(self.text) if letter==":"] # get positions of ":" in the string
-				prev_letters = [self.text[i-1] for i in positions]
+			positions = [i for i, letter in enumerate(self.text) if letter==":"] # get positions of ":" in the string
+			prev_letters = [self.text[i-1] for i in positions]
 
-				self.prolongations = len(positions)
-				self.prolonged_sounds = prev_letters
+			self.prolongations = len(positions)
+			self.prolonged_sounds = prev_letters
 
-				# check for high volume
-				if any(letter.isupper() for letter in self.text):
-					self.volume = df.volume.high
+			# check for high volume
+			if any(letter.isupper() for letter in self.text):
+				self.volume = df.volume.high
 
-				# ! keeping "'" but removing ":" when in the middle of the token
-				self.text = self.text.lower().strip(".,?-").replace(":", "")
+			# ! keeping "'" but removing ":" when in the middle of the token
+			self.text = self.text.lower().strip(".,?").replace(":", "")
 
-			# TODO: x -> unknown
+		# TODO: x -> unknown
 
 	def __str__(self):
 
@@ -170,10 +170,12 @@ class transcription_unit:
 	orig_annotation: str = ""
 	include: bool = True
 	# split: bool = False
-	overlaping_spans: List[str] = field(default_factory=lambda: [])
+	overlaping_spans: Dict[Tuple[int, int], str] = field(default_factory=lambda: {})
+	guessing_spans: List[Tuple[int, int]] = field(default_factory=lambda: [])
 	warnings: Dict[str, int] = field(default_factory=lambda: collections.defaultdict(int))
-	errors: List[str] = field(default_factory=lambda: collections.defaultdict(int))
+	errors: List[str] = field(default_factory=lambda: collections.defaultdict(bool))
 	parentheses: List[Tuple[int, str]] = field(default_factory=lambda: [])
+	splits: List[int] = field(default_factory=lambda: [])
 	tokens: List[token] = field(default_factory=lambda: [])
 	ntokens: int = 0
 	# valid_tokens: List[bool] = field(default_factory=lambda: [])
@@ -185,14 +187,18 @@ class transcription_unit:
 		self.annotation = self.annotation.strip()
 		self.orig_annotation = self.annotation
 
+		# non jefferson
+		substitutions, new_transcription = pt.clean_non_jefferson_symbols(self.annotation)
+		self.warnings["NON_JEFFERSON"] = substitutions
+		self.annotation = new_transcription
+
+		# transform metalinguistic annotations and pauses
+		new_transcription = pt.meta_tag(self.annotation)
+		self.annotation = new_transcription
+
 		# spaces before and after parentheses
 		substitutions, new_transcription = pt.check_spaces(self.annotation)
 		self.warnings["UNEVEN_SPACES"] += substitutions
-		self.annotation = new_transcription
-
-		#non jefferson
-		substitutions, new_transcription = pt.clean_non_jefferson_symbols(self.annotation)
-		self.warnings["NON_JEFFERSON"] = substitutions
 		self.annotation = new_transcription
 
 		#pò, perché etc..
@@ -214,12 +220,10 @@ class transcription_unit:
 		self.warnings["TRIM_PROSODICLINKS"] += substitutions
 		self.annotation = new_transcription
 
-		self.errors["BALANCED_DOTS"] = pt.check_even_dots(self.annotation)
-		self.errors["BALANCED_OVERLAP"] = pt.check_normal_parentheses(self.annotation, "[", "]")
-		# print(self.errors["BALANCED_OVERLAP"])
-		# input()
-		self.errors["BALANCED_GUESS"] = pt.check_normal_parentheses(self.annotation, "(", ")")
-		self.errors["BALANCED_PACE"] = pt.check_angular_parentheses(self.annotation)
+		self.errors["UNBALANCED_DOTS"] = not pt.check_even_dots(self.annotation)
+		self.errors["UNBALANCED_OVERLAP"] = not pt.check_normal_parentheses(self.annotation, "[", "]")
+		self.errors["UNBALANCED_GUESS"] = not pt.check_normal_parentheses(self.annotation, "(", ")")
+		self.errors["UNBALANCED_PACE"] = not pt.check_angular_parentheses(self.annotation)
 		self.errors["CONTAINS_NUMBERS"] = pt.check_numbers(self.annotation)
 
 		# remove double spaces
@@ -227,15 +231,23 @@ class transcription_unit:
 		self.warnings["SPACES"] = substitutions
 		self.annotation = new_transcription
 
-		# transform metalinguistic annotations and pauses
-		new_transcription = pt.meta_tag(self.annotation)
-		self.annotation = new_transcription
-
 		# check how many overlapping spans have been transcribed
 		if "[" in self.annotation or "]" in self.annotation:
-			matches = re.findall(r"\[[^\]]+\]", self.annotation)
+			matches = list(re.finditer(r"\[[^\]]+\]", self.annotation))
+			# for match in matches:
+			# 	print(match.span())
+			# input()
 			if len(matches)>0:
-				self.overlaping_spans = [(match, None) for match in matches]
+				self.overlaping_spans = {match.span():None for match in matches}
+
+		# check how many guessing spans have been transcribed
+		if "(" in self.annotation or ")" in self.annotation:
+			matches = list(re.finditer(r"\([^)]+\)", self.annotation))
+			# for match in matches:
+			# 	print(match.span())
+			# input()
+			if len(matches)>0:
+				self.guessing_spans = [match.span() for match in matches]
 
 		# remove unit if it only includes non-alphabetic symbols
 		if all(c in ["[", "]", "(", ")", "°", ">", "<", "-", "'", "#"] for c in self.annotation):
@@ -248,9 +260,16 @@ class transcription_unit:
 		# TODO: gestire cancelletto
 
 	def strip_parentheses(self):
+		# splits = []
 		new_string = ""
 
 		for i, c in enumerate(self.annotation):
+			if c in [" ", "="]:
+				self.splits.append(i)
+			if i > 0 and i < len(self.annotation)-1:
+				if c in ["'"] and self.annotation[i-1].isalpha() and self.annotation[i+1].isalpha():
+					self.splits.append(i)
+
 			if c in ["(", ")", "[", "]", ">", "<", "°"]:
 				self.parentheses.append((i, c))
 			else:
@@ -259,10 +278,18 @@ class transcription_unit:
 		self.annotation = new_string
 
 	def tokenize(self):
+
+		# overlap = False
+		# guess = False
+		# lowvolume = False
+		# fastpace = False
+		# slowpace = False
+
 		# ! split on space, apostrophe between words and prosodic links
 		tokens = re.split(r"( |(?<=\w)'(?=\w)|=)", self.annotation)
 		# print(tokens)
 		for i, tok in enumerate(tokens):
+			# tok = tok.strip("[]()<>°")
 			if len(tok)>0 and not tok == " ":
 
 				if tok == "'":
@@ -279,11 +306,13 @@ class transcription_unit:
 						self.tokens[-1].add_info("ProsodicLink", "Yes")
 
 				else:
-					self.tokens.append(token(tok))
+					new_token = token(tok)
+					self.tokens.append(new_token)
 
 		# add position of token in TU
-		self.tokens[0].position_in_tu = df.position.start
-		self.tokens[-1].position_in_tu = df.position.end
+		if len(self.tokens) > 0:
+			self.tokens[0].position_in_tu = df.position.start
+			self.tokens[-1].position_in_tu = df.position.end
 
 		self.ntokens = len([x for x in self.tokens if x.token_type == df.tokentype.linguistic])
 

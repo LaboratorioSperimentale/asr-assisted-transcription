@@ -63,6 +63,17 @@ def conversation_to_linear(transcript, output_filename, sep = '\t'):
 				tu = transcript.transcription_units_dict[tu_id]
 				infos = [str(tu_id),
 						turn_speaker,
+						str(tu.duration),
+						# tu.warnings["UNEVEN_SPACES"],
+						# tu.warnings["NON_JEFFERSON"],
+						# tu.warnings["ACCENTS"],
+						# tu.warnings["TRIM_PAUSES"],
+						# tu.warnings["TRIM_PROSODICLINKS"],
+						str(tu.errors["UNBALANCED_DOTS"]),
+						str(tu.errors["UNBALANCED_OVERLAP"]),
+						str(tu.errors["UNBALANCED_GUESS"]),
+						str(tu.errors["UNBALANCED_PACE"]),
+						str(tu.errors["CONTAINS_NUMBERS"]),
 						tu.orig_annotation,
 						" ".join(str(token) for token in tu.tokens),
 						]
