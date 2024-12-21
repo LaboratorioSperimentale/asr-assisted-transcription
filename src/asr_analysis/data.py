@@ -24,18 +24,10 @@ class turn:
 	def set_end(self, end):
 		self.end = end
 
-# Defining intonation patterns
-# ! spostati nel file dataflags.py
-# discendente = "discendente"
-# ascendente = "ascendente"
-# debolmente_ascendente = "debolmente ascendente"
-# suono_prolungato = "suono prolungato"
-# parola_interrotta = "parola interotta"
-# error = "error" # problematic_punctuation_patterns
-
 @dataclass
 class token:
 	text: str
+	span: Tuple[int,int] = (0,0)
 	token_type: df.tokentype = df.tokentype.linguistic
 	orig_text: str = ""
 	intonation_pattern: df.intonation = None                     # ? do we want to add an intonation.normal case?
@@ -55,24 +47,27 @@ class token:
 	def __post_init__(self):
 
 		self.orig_text = self.text
+		to_replace = "[]()><°"
+		for sym in to_replace:
+			self.text = self.text.replace(sym, "")
+		if len(self.text) == 0:
+			print("ISSUE", self.orig_text)
+			# input()
+
+		self.orig_text = self.text
 
 		# STEP 1: check that token has shape ([a-z]+:*)+[-']?[.,?]
 		# otherwise signal error
 		# matching_instance = re.fullmatch(r"([a-zàèéìòù]+:*)+[-']?[.,?]?", self.text)
-		matching_instance = re.fullmatch(r"(\p{L}+:*)+[-'~]?[.,?]?", self.text)
+		matching_instance = re.fullmatch(r"(\p{L}+:*)*\p{L}+[-'~]?:*[.,?]?", self.text)
 
 		if matching_instance is None:
-			if self.text == "{PAUSE}":
+			if self.text == "{P}":
 				self.token_type = df.tokentype.shortpause
-			elif self.text[0] == "{":
+			elif self.text[0] == "{":  # !! issue with " ° ", " > " etc...
 				self.token_type = df.tokentype.metalinguistic
 			else:
 				self.token_type = df.tokentype.error
-
-			# self.errors["TOKEN_FORMAT"] = 1
-			# ! questo sostituisce il print
-			# ! self.intonation_pattern = error
-			# !	print(f"Intonation pattern problematico nel token: {self.text}")
 
 			# ? maybe let's break the function here in order to avoid the else branch
 		else:
@@ -104,7 +99,14 @@ class token:
 				self.warnings["PROLONGED_REPLACEMENTS"] = substitutions
 
 			positions = [i for i, letter in enumerate(self.text) if letter==":"] # get positions of ":" in the string
-			prev_letters = [self.text[i-1] for i in positions]
+
+			prev_letters = []
+			for i in positions:
+				if self.text[i-1] in ["'", "-", "~"]:
+					prev_letters.append(self.text[i-2])
+				else:
+					prev_letters.append(self.text[i-1])
+			# prev_letters = [self.text[i-1] for i in positions]
 
 			self.prolongations = len(positions)
 			self.prolonged_sounds = prev_letters
@@ -118,6 +120,12 @@ class token:
 
 		# TODO: x -> unknown
 
+	def add_span(self, start, end):
+		self.span = (start, end)
+
+	def update_span(self, end):
+		self.span = (self.span[0], end)
+
 	def __str__(self):
 
 		return self.text
@@ -125,35 +133,6 @@ class token:
 
 	def add_info(self, field_name, field_value):
 		self.features[field_name] = field_value
-
-#   text: str
-# 	orig_text: str = ""
-# 	intonation_pattern: df.intonation = None                     # ? do we want to add an intonation.normal case?
-# 	position_in_tu: df.position = df.position.inner
-# 	pace: df.pace = None
-# 	volume: df.volume = None
-# 	overlap: bool = False
-# 	guess: bool = False
-# 	interruption: bool = False
-# 	truncation: bool = False
-# 	prolongations: int = 0
-# 	prolonged_sounds: List[str] = field(default_factory=lambda: collections.defaultdict(int))
-# 	warnings: Dict[str, int] = field(default_factory=lambda: collections.defaultdict(int))
-# 	errors: List[str] = field(default_factory=lambda: collections.defaultdict(int))
-
-
-# Function to determine the position of the token in the tu
-# ! moved inside transcription unit methods
-# ! (the transcription units knows about the position of its tokens)
-# def token_position_in_tu(tokens):
-# 	for i in tokens:
-# 		if i == 0:
-# 			token_position_in_tu = df.position.start
-# 		elif i == len(token_position_in_tu) -1:
-# 			token_position_in_tu = df.position.end
-# 		else:
-# 			token_position_in_tu = df.position.inner
-
 
 #TODO: creare funzioni di test
 
@@ -171,6 +150,7 @@ class transcription_unit:
 	include: bool = True
 	# split: bool = False
 	overlaping_spans: Dict[Tuple[int, int], str] = field(default_factory=lambda: {})
+	low_volume_spans: List[Tuple[int, int]] = field(default_factory=lambda: {})
 	guessing_spans: List[Tuple[int, int]] = field(default_factory=lambda: [])
 	warnings: Dict[str, int] = field(default_factory=lambda: collections.defaultdict(int))
 	errors: List[str] = field(default_factory=lambda: collections.defaultdict(bool))
@@ -220,34 +200,54 @@ class transcription_unit:
 		self.warnings["TRIM_PROSODICLINKS"] += substitutions
 		self.annotation = new_transcription
 
-		self.errors["UNBALANCED_DOTS"] = not pt.check_even_dots(self.annotation)
-		self.errors["UNBALANCED_OVERLAP"] = not pt.check_normal_parentheses(self.annotation, "[", "]")
-		self.errors["UNBALANCED_GUESS"] = not pt.check_normal_parentheses(self.annotation, "(", ")")
-		self.errors["UNBALANCED_PACE"] = not pt.check_angular_parentheses(self.annotation)
-		self.errors["CONTAINS_NUMBERS"] = pt.check_numbers(self.annotation)
-
 		# remove double spaces
 		substitutions, new_transcription = pt.remove_spaces(self.annotation)
 		self.warnings["SPACES"] = substitutions
 		self.annotation = new_transcription
 
+		self.errors["UNBALANCED_DOTS"] = not pt.check_even_dots(self.annotation)
+		self.errors["UNBALANCED_OVERLAP"] = not pt.check_normal_parentheses(self.annotation, "[", "]")
+		self.errors["UNBALANCED_GUESS"] = not pt.check_normal_parentheses(self.annotation, "(", ")")
+		self.errors["UNBALANCED_PACE"] = not pt.check_angular_parentheses(self.annotation)
+		self.errors["CONTAINS_NUMBERS"] = pt.check_numbers(self.annotation) # TODO add num2words
+
+		# fix spaces before and after dots
+		if "°" in self.annotation and not self.errors["UNBALANCED_DOTS"]:
+			matches = re.split(r"(°[^°]+°)", self.annotation)
+			matches = [x for x in matches if len(x)>0]
+			subs = 0
+			if len(matches)>0:
+				for match_no, match in enumerate(matches):
+					if match[0] == "°":
+						if match[1] == " ":
+							match = match[0]+match[2:]
+							subs += 1
+						if match[-2] == " ":
+							match = match[:-2]+match[-1]
+							subs += 1
+						matches[match_no] = match
+				self.annotation = "".join(matches)
+				self.warnings["UNEVEN_SPACES"] += subs
+
+		# check how many low volume spans have been transcribed
+		if "°" in self.annotation and not self.errors["UNBALANCED_DOTS"]:
+			matches = list(re.finditer(r"°[^°]+°", self.annotation))
+			if len(matches)>0:
+				self.low_volume_spans = [match.span() for match in matches]
+
 		# check how many overlapping spans have been transcribed
-		if "[" in self.annotation or "]" in self.annotation:
+		if "[" in self.annotation and not self.errors["UNBALANCED_OVERLAP"]:
 			matches = list(re.finditer(r"\[[^\]]+\]", self.annotation))
-			# for match in matches:
-			# 	print(match.span())
-			# input()
 			if len(matches)>0:
 				self.overlaping_spans = {match.span():None for match in matches}
 
 		# check how many guessing spans have been transcribed
-		if "(" in self.annotation or ")" in self.annotation:
+		if "(" in self.annotation and not self.errors["UNBALANCED_GUESS"]:
 			matches = list(re.finditer(r"\([^)]+\)", self.annotation))
-			# for match in matches:
-			# 	print(match.span())
-			# input()
 			if len(matches)>0:
 				self.guessing_spans = [match.span() for match in matches]
+
+
 
 		# remove unit if it only includes non-alphabetic symbols
 		if all(c in ["[", "]", "(", ")", "°", ">", "<", "-", "'", "#"] for c in self.annotation):
@@ -259,55 +259,58 @@ class transcription_unit:
 
 		# TODO: gestire cancelletto
 
-	def strip_parentheses(self):
-		# splits = []
-		new_string = ""
+	# def strip_parentheses(self):
+	# 	# splits = []
+	# 	new_string = ""
 
-		for i, c in enumerate(self.annotation):
-			if c in [" ", "="]:
-				self.splits.append(i)
-			if i > 0 and i < len(self.annotation)-1:
-				if c in ["'"] and self.annotation[i-1].isalpha() and self.annotation[i+1].isalpha():
-					self.splits.append(i)
+	# 	for i, c in enumerate(self.annotation):
+	# 		if c in [" ", "="]:
+	# 			self.splits.append(i)
+	# 		if i > 0 and i < len(self.annotation)-1:
+	# 			if c in ["'"] and self.annotation[i-1].isalpha() and self.annotation[i+1].isalpha():
+	# 				self.splits.append(i)
 
-			if c in ["(", ")", "[", "]", ">", "<", "°"]:
-				self.parentheses.append((i, c))
-			else:
-				new_string+=c
+	# 		if c in ["(", ")", "[", "]", ">", "<", "°"]:
+	# 			self.parentheses.append((i, c))
+	# 		else:
+	# 			new_string+=c
 
-		self.annotation = new_string
+	# 	self.annotation = new_string
 
 	def tokenize(self):
-
-		# overlap = False
-		# guess = False
-		# lowvolume = False
-		# fastpace = False
-		# slowpace = False
 
 		# ! split on space, apostrophe between words and prosodic links
 		tokens = re.split(r"( |(?<=\w)'(?=\w)|=)", self.annotation)
 		# print(tokens)
+		start_pos = 0
+		end_pos = 0
 		for i, tok in enumerate(tokens):
 			# tok = tok.strip("[]()<>°")
 			if len(tok)>0 and not tok == " ":
-
+				end_pos += len(tok)
 				if tok == "'":
 					if len(self.tokens) == 0:
 						self.warnings["SKIPPED_TOKEN"] += 1
 					else:
 						self.tokens[-1] = token(tokens[i-1]+tok)
 						self.tokens[-1].add_info("SpaceAfter", "No")
+						self.tokens[-1].update_span(end_pos)
+						start_pos = end_pos+1
 
 				elif tok == "=":
 					if len(self.tokens) == 0:
 						self.warnings["SKIPPED_TOKEN"] += 1
 					else:
 						self.tokens[-1].add_info("ProsodicLink", "Yes")
+					start_pos = end_pos+1
 
 				else:
 					new_token = token(tok)
+					new_token.add_span(start_pos, end_pos)
 					self.tokens.append(new_token)
+					start_pos = end_pos +1
+					end_pos+=1
+
 
 		# add position of token in TU
 		if len(self.tokens) > 0:
@@ -315,6 +318,12 @@ class transcription_unit:
 			self.tokens[-1].position_in_tu = df.position.end
 
 		self.ntokens = len([x for x in self.tokens if x.token_type == df.tokentype.linguistic])
+
+		# print(self.annotation)
+		# print(self.overlaping_spans)
+		# for tok in self.tokens:
+		# 	print(tok, tok.span, self.annotation[tok.span[0]:tok.span[1]])
+		# input()
 
 	def __str__(self):
 
@@ -383,20 +392,23 @@ class transcript:
 	def check_overlaps(self):
 
 		for tu in self.transcription_units:
-			if tu.include:
-				textual_spans = len(tu.overlaping_spans)
-				time_overlaps = len(self.time_based_overlaps[tu.tu_id])
+			if tu.errors["UNBALANCED_OVERLAPS"]:
+				continue
 
-				if textual_spans == time_overlaps:
+			if tu.include:
+				n_textual_spans = len(tu.overlaping_spans)
+				n_time_overlaps = len(self.time_based_overlaps[tu.tu_id])
+
+				if n_textual_spans == n_time_overlaps:
 					# easy case scenario
-					tu.overlaping_spans = list(zip([x for x, y in tu.overlaping_spans], self.time_based_overlaps[tu.tu_id]))
+					tu.overlaping_spans = dict(zip([x for x, y in tu.overlaping_spans], self.time_based_overlaps[tu.tu_id]))
 					# TODO: check boundaries of overlaping spans
 
-				elif time_overlaps == 0:
+				elif n_time_overlaps == 0:
 					# there's at least one parenthesis transcribed but no time-based span
 					tu.errors["EXTRA_OVERLAPS"] = True
 
-				elif textual_spans == 0:
+				elif n_textual_spans == 0:
 					# there's at least one overlapping unit but no span transcribed
 					tu.errors["UNCAUGHT_OVERLAPS"] = {}
 					for overlapping_tu_id in self.time_based_overlaps[tu.tu_id]:

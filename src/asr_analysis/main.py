@@ -33,14 +33,15 @@ def process_all_transcripts(input_dir="data/csv_puliti", output_dir="data/output
 
 			transcript.sort()
 			transcript.create_turns()
-			# transcript.find_overlaps()
-			# transcript.check_overlaps()
+			transcript.find_overlaps()
+			transcript.check_overlaps()
 			for tu in transcript:
 				# print(tu.annotation)
-				tu.strip_parentheses()
+				# tu.strip_parentheses()
 				# print(tu.parentheses)
 				# print(tu.splits)
 				# input()
+				print(tu.annotation)
 				tu.tokenize()
 
 	# if not all(y for x, y in tu.errors.items()):
