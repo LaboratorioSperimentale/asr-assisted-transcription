@@ -229,6 +229,92 @@ class transcription_unit:
 				self.annotation = "".join(matches)
 				self.warnings["UNEVEN_SPACES"] += subs
 
+		# fix spaces before and after angular
+		if "<" in self.annotation and not self.errors["UNBALANCED_PACE"]:
+			matches_left = list(re.finditer(r"<[^><]+>", self.annotation))
+			matches_right = list(re.finditer(r">[^<>]+<", self.annotation))
+			tot_spans = (self.annotation.count("<") + self.annotation.count(">"))/2
+
+			if len(matches_left) == 0:    # all matches of kind >....<
+				# "> ([^ ])" -> >$1
+				new_string, subs_made = re.subn(r"> ([^ ])", r">\1", self.annotation)
+				if subs_made > 0:
+					self.warnings["UNEVEN_SPACES"] += subs_made
+					self.annotation = new_string
+				# "([^ ]) <" -> $1<
+				new_string, subs_made = re.subn(r"([^ ]) <", r"\1<", self.annotation)
+				if subs_made > 0:
+					self.warnings["UNEVEN_SPACES"] += subs_made
+					self.annotation = new_string
+
+			elif len(matches_right) == 0: # all matches of kind <....>
+				# "< ([^ ])" -> <$1
+				new_string, subs_made = re.subn(r"< ([^ ])", r"<\1", self.annotation)
+				if subs_made > 0:
+					self.warnings["UNEVEN_SPACES"] += subs_made
+					self.annotation = new_string
+				# "([^ ]) >" -> $1>
+				new_string, subs_made = re.subn(r"([^ ]) >", r"\1>", self.annotation)
+				if subs_made > 0:
+					self.warnings["UNEVEN_SPACES"] += subs_made
+					self.annotation = new_string
+
+			elif len(matches_left) + len(matches_right) == tot_spans:
+
+				split_left = re.split(r"(<[^><]+>)", self.annotation)
+				split_left = [x for x in split_left if len(x)>0]
+
+				subs = 0
+				if len(split_left)>0:
+					for match_no, match in enumerate(split_left):
+						if match[0] == "<":
+							if match[1] == " ":
+								match = match[0]+match[2:]
+								subs += 1
+							if match[-2] == " ":
+								match = match[:-2]+match[-1]
+								subs += 1
+							split_left[match_no] = match
+					self.annotation = "".join(split_left)
+
+				split_right = re.split(r"(>[^<>]+<)", self.annotation)
+				split_right = [x for x in split_right if len(x)>0]
+				if len(split_right)>0:
+					for match_no, match in enumerate(split_right):
+						if match[0] == ">":
+							if match[1] == " ":
+								match = match[0]+match[2:]
+								subs += 1
+							if match[-2] == " ":
+								match = match[:-2]+match[-1]
+								subs += 1
+							split_right[match_no] = match
+					self.annotation = "".join(split_right)
+
+				self.warnings["UNEVEN_SPACES"] += subs
+
+			else:
+				pass
+				# !! handle this more complex case
+				# !! m:::h non so: neanche, >poi con gli amici< quando: >andavamo su noi< c'era un'osteria lì,
+				# !![<regex.Match object; span=(41, 52), match='< quando: >'>]
+				# !![<regex.Match object; span=(23, 42), match='>poi con gli amici<'>, <regex.Match object; span=(51, 68), match='>andavamo su noi<'>]
+
+
+		# check how many varying pace spans have been transcribed
+		if "<" in self.annotation and not self.errors["UNBALANCED_PACE"]:
+			matches_left = list(re.finditer(r"<[^><]+>", self.annotation))
+			matches_right = list(re.finditer(r">[^<>]+<", self.annotation))
+			tot_spans = (self.annotation.count("<") + self.annotation.count(">"))/2
+
+			if len(matches_left) + len(matches_right) == tot_spans:
+				# TODO @Martina check se ho beccato slow e fast bene!
+				self.slow_pace_spans = [match.span() for match in matches_left]
+				self.fast_pace_spans = [match.span() for match in matches_right]
+			else:
+				pass
+				# !! handle this more complex case (see above)
+
 		# check how many low volume spans have been transcribed
 		if "°" in self.annotation and not self.errors["UNBALANCED_DOTS"]:
 			matches = list(re.finditer(r"°[^°]+°", self.annotation))
@@ -281,7 +367,6 @@ class transcription_unit:
 
 		# ! split on space, apostrophe between words and prosodic links
 		tokens = re.split(r"( |(?<=\w)'(?=\w)|=)", self.annotation)
-		# print(tokens)
 		start_pos = 0
 		end_pos = 0
 		for i, tok in enumerate(tokens):
@@ -318,12 +403,6 @@ class transcription_unit:
 			self.tokens[-1].position_in_tu = df.position.end
 
 		self.ntokens = len([x for x in self.tokens if x.token_type == df.tokentype.linguistic])
-
-		# print(self.annotation)
-		# print(self.overlaping_spans)
-		# for tok in self.tokens:
-		# 	print(tok, tok.span, self.annotation[tok.span[0]:tok.span[1]])
-		# input()
 
 	def __str__(self):
 
@@ -434,12 +513,8 @@ class transcript:
 					# ? if the overlap is very very small, we should move boundaries
 
 				else:
-					# print(textual_spans, time_overlaps)
-					# print([self.transcription_units[overlapping_tu_id] for overlapping_tu_id in self.time_based_overlaps[tu.tu_id]])
 					tu.errors["MISMATCHING_OVERLAPS"] = True
-					# print(tu)
 
-					# input()
 
 
 	def create_turns(self):

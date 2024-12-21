@@ -41,7 +41,7 @@ def process_all_transcripts(input_dir="data/csv_puliti", output_dir="data/output
 				# print(tu.parentheses)
 				# print(tu.splits)
 				# input()
-				print(tu.annotation)
+				# print(tu.annotation)
 				tu.tokenize()
 
 	# if not all(y for x, y in tu.errors.items()):
