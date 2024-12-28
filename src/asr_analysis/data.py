@@ -213,107 +213,99 @@ class transcription_unit:
 
 		# fix spaces before and after dots
 		if "°" in self.annotation and not self.errors["UNBALANCED_DOTS"]:
-			matches = re.split(r"(°[^°]+°)", self.annotation)
-			matches = [x for x in matches if len(x)>0]
-			subs = 0
-			if len(matches)>0:
-				for match_no, match in enumerate(matches):
-					if match[0] == "°":
-						if match[1] == " ":
-							match = match[0]+match[2:]
-							subs += 1
-						if match[-2] == " ":
-							match = match[:-2]+match[-1]
-							subs += 1
-						matches[match_no] = match
-				self.annotation = "".join(matches)
-				self.warnings["UNEVEN_SPACES"] += subs
+			substitutions, new_transcription = pt.check_spaces_dots(self.annotation)
+			self.warnings["UNEVEN_SPACES"] += substitutions
+			self.annotation = new_transcription
 
 		# fix spaces before and after angular
 		if "<" in self.annotation and not self.errors["UNBALANCED_PACE"]:
-			matches_left = list(re.finditer(r"<[^><]+>", self.annotation))
-			matches_right = list(re.finditer(r">[^<>]+<", self.annotation))
-			tot_spans = (self.annotation.count("<") + self.annotation.count(">"))/2
+			substitutions, new_transcription = pt.check_spaces_angular(self.annotation)
+			self.warnings["UNEVEN_SPACES"] += substitutions
+			self.annotation = new_transcription
+			# matches_left = list(re.finditer(r"<[^><]+>", self.annotation))
+			# matches_right = list(re.finditer(r">[^<>]+<", self.annotation))
+			# tot_spans = (self.annotation.count("<") + self.annotation.count(">"))/2
 
-			if len(matches_left) == 0:    # all matches of kind >....<
-				# "> ([^ ])" -> >$1
-				new_string, subs_made = re.subn(r"> ([^ ])", r">\1", self.annotation)
-				if subs_made > 0:
-					self.warnings["UNEVEN_SPACES"] += subs_made
-					self.annotation = new_string
-				# "([^ ]) <" -> $1<
-				new_string, subs_made = re.subn(r"([^ ]) <", r"\1<", self.annotation)
-				if subs_made > 0:
-					self.warnings["UNEVEN_SPACES"] += subs_made
-					self.annotation = new_string
+			# if len(matches_left) == 0:    # all matches of kind >....<
+			# 	# "> ([^ ])" -> >$1
+			# 	new_string, subs_made = re.subn(r"> ([^ ])", r">\1", self.annotation)
+			# 	if subs_made > 0:
+			# 		self.warnings["UNEVEN_SPACES"] += subs_made
+			# 		self.annotation = new_string
+			# 	# "([^ ]) <" -> $1<
+			# 	new_string, subs_made = re.subn(r"([^ ]) <", r"\1<", self.annotation)
+			# 	if subs_made > 0:
+			# 		self.warnings["UNEVEN_SPACES"] += subs_made
+			# 		self.annotation = new_string
 
-			elif len(matches_right) == 0: # all matches of kind <....>
-				# "< ([^ ])" -> <$1
-				new_string, subs_made = re.subn(r"< ([^ ])", r"<\1", self.annotation)
-				if subs_made > 0:
-					self.warnings["UNEVEN_SPACES"] += subs_made
-					self.annotation = new_string
-				# "([^ ]) >" -> $1>
-				new_string, subs_made = re.subn(r"([^ ]) >", r"\1>", self.annotation)
-				if subs_made > 0:
-					self.warnings["UNEVEN_SPACES"] += subs_made
-					self.annotation = new_string
+			# elif len(matches_right) == 0: # all matches of kind <....>
+			# 	# "< ([^ ])" -> <$1
+			# 	new_string, subs_made = re.subn(r"< ([^ ])", r"<\1", self.annotation)
+			# 	if subs_made > 0:
+			# 		self.warnings["UNEVEN_SPACES"] += subs_made
+			# 		self.annotation = new_string
+			# 	# "([^ ]) >" -> $1>
+			# 	new_string, subs_made = re.subn(r"([^ ]) >", r"\1>", self.annotation)
+			# 	if subs_made > 0:
+			# 		self.warnings["UNEVEN_SPACES"] += subs_made
+			# 		self.annotation = new_string
 
-			elif len(matches_left) + len(matches_right) == tot_spans:
+			# elif len(matches_left) + len(matches_right) == tot_spans:
 
-				split_left = re.split(r"(<[^><]+>)", self.annotation)
-				split_left = [x for x in split_left if len(x)>0]
+			# 	split_left = re.split(r"(<[^><]+>)", self.annotation)
+			# 	split_left = [x for x in split_left if len(x)>0]
 
-				subs = 0
-				if len(split_left)>0:
-					for match_no, match in enumerate(split_left):
-						if match[0] == "<":
-							if match[1] == " ":
-								match = match[0]+match[2:]
-								subs += 1
-							if match[-2] == " ":
-								match = match[:-2]+match[-1]
-								subs += 1
-							split_left[match_no] = match
-					self.annotation = "".join(split_left)
+			# 	subs = 0
+			# 	if len(split_left)>0:
+			# 		for match_no, match in enumerate(split_left):
+			# 			if match[0] == "<":
+			# 				if match[1] == " ":
+			# 					match = match[0]+match[2:]
+			# 					subs += 1
+			# 				if match[-2] == " ":
+			# 					match = match[:-2]+match[-1]
+			# 					subs += 1
+			# 				split_left[match_no] = match
+			# 		self.annotation = "".join(split_left)
 
-				split_right = re.split(r"(>[^<>]+<)", self.annotation)
-				split_right = [x for x in split_right if len(x)>0]
-				if len(split_right)>0:
-					for match_no, match in enumerate(split_right):
-						if match[0] == ">":
-							if match[1] == " ":
-								match = match[0]+match[2:]
-								subs += 1
-							if match[-2] == " ":
-								match = match[:-2]+match[-1]
-								subs += 1
-							split_right[match_no] = match
-					self.annotation = "".join(split_right)
+			# 	split_right = re.split(r"(>[^<>]+<)", self.annotation)
+			# 	split_right = [x for x in split_right if len(x)>0]
+			# 	if len(split_right)>0:
+			# 		for match_no, match in enumerate(split_right):
+			# 			if match[0] == ">":
+			# 				if match[1] == " ":
+			# 					match = match[0]+match[2:]
+			# 					subs += 1
+			# 				if match[-2] == " ":
+			# 					match = match[:-2]+match[-1]
+			# 					subs += 1
+			# 				split_right[match_no] = match
+			# 		self.annotation = "".join(split_right)
 
-				self.warnings["UNEVEN_SPACES"] += subs
+			# 	self.warnings["UNEVEN_SPACES"] += subs
 
-			else:
-				pass
-				# !! handle this more complex case
-				# !! m:::h non so: neanche, >poi con gli amici< quando: >andavamo su noi< c'era un'osteria lì,
-				# !![<regex.Match object; span=(41, 52), match='< quando: >'>]
-				# !![<regex.Match object; span=(23, 42), match='>poi con gli amici<'>, <regex.Match object; span=(51, 68), match='>andavamo su noi<'>]
+			# else:
+			# 	pass
+			# 	# !! handle this more complex case
+			# 	# !! m:::h non so: neanche, >poi con gli amici< quando: >andavamo su noi< c'era un'osteria lì,
+			# 	# !![<regex.Match object; span=(41, 52), match='< quando: >'>]
+			# 	# !![<regex.Match object; span=(23, 42), match='>poi con gli amici<'>, <regex.Match object; span=(51, 68), match='>andavamo su noi<'>]
 
 
 		# check how many varying pace spans have been transcribed
 		if "<" in self.annotation and not self.errors["UNBALANCED_PACE"]:
-			matches_left = list(re.finditer(r"<[^><]+>", self.annotation))
-			matches_right = list(re.finditer(r">[^<>]+<", self.annotation))
+			matches_left = list(re.finditer(r"<[^ ][^><]*[^ ]>", self.annotation))
+			matches_right = list(re.finditer(r">[^ ][^><]*[^ ]<", self.annotation))
 			tot_spans = (self.annotation.count("<") + self.annotation.count(">"))/2
 
-			if len(matches_left) + len(matches_right) == tot_spans:
-				# TODO @Martina check se ho beccato slow e fast bene!
-				self.slow_pace_spans = [match.span() for match in matches_left]
-				self.fast_pace_spans = [match.span() for match in matches_right]
-			else:
-				pass
-				# !! handle this more complex case (see above)
+			assert(len(matches_left) + len(matches_right) == tot_spans)
+			# if :
+			# TODO @Martina check se ho beccato slow e fast bene!
+			self.slow_pace_spans = [match.span() for match in matches_left]
+			self.fast_pace_spans = [match.span() for match in matches_right]
+			# else:
+			# 	print("ISSUE", self.annotation)
+			# 	# !! handle this more complex case (see above)
 
 		# check how many low volume spans have been transcribed
 		if "°" in self.annotation and not self.errors["UNBALANCED_DOTS"]:
@@ -333,7 +325,12 @@ class transcription_unit:
 			if len(matches)>0:
 				self.guessing_spans = [match.span() for match in matches]
 
+		# TODO: move opening left and closing right
 
+		swaps, new_transcription = pt.push_parentheses(self.annotation)
+		if swaps > 0:
+			self.warnings["PARENTHESES SWAPS"] += swaps
+			self.annotation = new_transcription
 
 		# remove unit if it only includes non-alphabetic symbols
 		if all(c in ["[", "]", "(", ")", "°", ">", "<", "-", "'", "#"] for c in self.annotation):
@@ -365,12 +362,26 @@ class transcription_unit:
 
 	def tokenize(self):
 
+		# complex_string = "signora margherita d'[accor]do [l'uno=e l']altro"
+
+		# parentheses = []
+		# for pos_c, c in enumerate(self.annotation):
+		# 	if c in ["°", "<", ">", "[", "]", "(", ")"]:
+		# 		parentheses.append((pos_c, c))
+
+		print(self.annotation)
+		# print(parentheses)
+
+
 		# ! split on space, apostrophe between words and prosodic links
 		tokens = re.split(r"( |(?<=\w)'(?=\w)|=)", self.annotation)
+		# tokens = re.split(r"( |(?<=\w)'(?=\w)|=)", self.annotation)
+		print(tokens)
+		input()
+
 		start_pos = 0
 		end_pos = 0
 		for i, tok in enumerate(tokens):
-			# tok = tok.strip("[]()<>°")
 			if len(tok)>0 and not tok == " ":
 				end_pos += len(tok)
 				if tok == "'":
@@ -396,6 +407,8 @@ class transcription_unit:
 					start_pos = end_pos +1
 					end_pos+=1
 
+		# print(self.tokens)
+
 
 		# add position of token in TU
 		if len(self.tokens) > 0:
@@ -403,15 +416,6 @@ class transcription_unit:
 			self.tokens[-1].position_in_tu = df.position.end
 
 		self.ntokens = len([x for x in self.tokens if x.token_type == df.tokentype.linguistic])
-
-	def __str__(self):
-
-		ret_str = (f"UNIT: {self.tu_id} ({self.speaker})\n"
-					f"original: {self.orig_annotation}\n")
-
-		ret_str += " ".join(str(token) for token in self.tokens)
-		ret_str += "\n\n"
-		return ret_str
 
 @dataclass
 class transcript:
@@ -592,16 +596,3 @@ class transcript:
 	def __iter__(self):
 		for tu in self.transcription_units:
 			yield tu
-
-
-	def __str__(self):
-		ret_str = f"TRANSCRIPTION {self.tr_id}\n"
-
-		for unit in self.transcription_units:
-			ret_str += str(unit) + "\n"
-
-		# for turn_id, turn in enumerate(self.turns):
-		# 	ret_str += f"# turn_id = {turn_id}\n"
-		# 	ret_str += f"# start = {turn.start}\n# end = {turn.end}\n\n"
-
-		return ret_str

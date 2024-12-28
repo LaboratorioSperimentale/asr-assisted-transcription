@@ -57,11 +57,12 @@ def conversation_to_csv(transcript, output_filename, sep = '\t'):
 
 def conversation_to_linear(transcript, output_filename, sep = '\t'):
 	with open(output_filename, "w", encoding="utf-8") as fout:
-		for turn in transcript.turns:
+		for turn_id, turn in enumerate(transcript.turns):
 			turn_speaker = turn.speaker
 			for tu_id in turn.transcription_units_ids:
 				tu = transcript.transcription_units_dict[tu_id]
-				infos = [str(tu_id),
+				infos = [str(turn_id),
+						str(tu_id),
 						turn_speaker,
 						str(tu.duration),
 						# tu.warnings["UNEVEN_SPACES"],

@@ -160,6 +160,77 @@ def check_spaces(transcription):
 
 	return tot_subs, transcription.strip()
 
+def check_spaces_dots(transcription):
+	matches = re.split(r"(°[^°]+°)", transcription)
+	matches = [x for x in matches if len(x)>0]
+	subs = 0
+	if len(matches)>0:
+		for match_no, match in enumerate(matches):
+			if match[0] == "°":
+				if match[1] == " ":
+					match = match[0]+match[2:]
+					subs += 1
+				if match[-2] == " ":
+					match = match[:-2]+match[-1]
+					subs += 1
+				matches[match_no] = match
+		transcription = "".join(matches)
+
+	return subs, transcription.strip()
+
+def check_spaces_angular(transcription):
+
+	matches = []
+
+	fastsequence = False   # >....<
+	slowsequence = False    # <.....>
+
+	cur_split = []
+	for char in transcription:
+		if char == "<":
+			if fastsequence:
+				cur_split.append(char)
+				matches.append(cur_split)
+				cur_split = []
+				fastsequence = False
+			elif not slowsequence:
+				matches.append(cur_split)
+				cur_split = []
+				cur_split.append(char)
+				slowsequence = True
+
+		elif char == ">":
+			if slowsequence:
+				cur_split.append(char)
+				matches.append(cur_split)
+				cur_split = []
+				slowsequence = False
+			elif not fastsequence:
+				matches.append(cur_split)
+				cur_split = []
+				cur_split.append(char)
+				fastsequence = True
+
+		else:
+			cur_split.append(char)
+
+	matches = ["".join(x) for x in matches if len(x)>0]
+	subs = 0
+	if len(matches)>0:
+		for match_no, match in enumerate(matches):
+			if match[0] in [">", "<"]:
+				if match[1] == " ":
+					match = match[0]+match[2:]
+					subs += 1
+				if match[-2] == " ":
+					match = match[:-2]+match[-1]
+					subs += 1
+				matches[match_no] = match
+		transcription = "".join(matches)
+
+	return subs, transcription.strip()
+	# return matches
+
 def check_numbers(transcription):
 
 	if any(c.isdigit() for c in transcription):
@@ -196,3 +267,84 @@ def remove_prosodiclinks(transcription):
 		transcription = new_string
 
 	return tot_subs, transcription.strip()
+
+
+def push_parentheses(transcription):
+
+	list_annotation = list(transcription)
+	subs = 0
+
+	opening = []
+	closing = []
+
+	fastsequence = False   # >....<
+	slowsequence = False    # <.....>
+	volumesequence = False
+	for char_pos, char in enumerate(list_annotation):
+		print(char_pos, char)
+		if char == "<":
+			if fastsequence:
+				closing.append(char_pos)
+				fastsequence = False
+			elif not slowsequence:
+				opening.append(char_pos)
+				slowsequence = True
+
+		elif char == ">":
+			if slowsequence:
+				closing.append(char_pos)
+				slowsequence = False
+			elif not fastsequence:
+				opening.append(char_pos)
+				fastsequence = True
+
+		elif char in ["[", "("]:
+			opening.append(char_pos)
+
+		elif char in ["]", ")"]:
+			closing.append(char_pos)
+
+		elif char == "°":
+			if volumesequence:
+				closing.append(char_pos)
+				volumesequence = False
+			else:
+				opening.append(char_pos)
+				volumesequence = True
+
+	for char_pos in opening:
+		if char_pos>0:
+			i = char_pos
+			j = char_pos-1
+
+			while j > 0 and list_annotation[j] not in [" ", "="]:
+				list_annotation[i], list_annotation[j] = list_annotation[j], list_annotation[i]
+
+				subs += 1
+				i-=1
+				j-=1
+
+			if j == 0:
+				list_annotation[i], list_annotation[j] = list_annotation[j], list_annotation[i]
+				subs += 1
+
+	for char_pos in closing:
+		if char_pos<len(list_annotation)-1:
+			i = char_pos
+			j = char_pos+1
+
+			while j<len(list_annotation)-1 and list_annotation[j] not in [" ", "="]:
+				list_annotation[i], list_annotation[j] = list_annotation[j], list_annotation[i]
+
+				subs += 1
+				i+=1
+				j+=1
+
+			if j == len(list_annotation)-1:
+				list_annotation[i], list_annotation[j] = list_annotation[j], list_annotation[i]
+				subs += 1
+
+	return subs, "".join(list_annotation)
+
+if __name__ == "__main__":
+	print(push_parentheses("c[ia]o co(me) va °qu°i"))
