@@ -30,7 +30,7 @@ class token:
 	span: Tuple[int,int] = (0,0)
 	token_type: df.tokentype = df.tokentype.linguistic
 	orig_text: str = ""
-	intonation_pattern: df.intonation = None                     # ? do we want to add an intonation.normal case?
+	intonation_pattern: df.intonation = None
 	position_in_tu: df.position = df.position.inner
 	pace: df.pace = None
 	volume: df.volume = None
@@ -47,24 +47,27 @@ class token:
 	def __post_init__(self):
 
 		self.orig_text = self.text
-		to_replace = "[]()><°"
-		for sym in to_replace:
-			self.text = self.text.replace(sym, "")
+
+		while self.text[0] in ["[", "(", ">", "<", "°"]:
+			self.text = self.text[1:]
+
+		while self.text[-1] in ["]", ")", ">", "<", "°"]:
+			self.text = self.text[:-1]
+
 		if len(self.text) == 0:
 			print("ISSUE", self.orig_text)
 			# input()
 
 		self.orig_text = self.text
 
-		# STEP 1: check that token has shape ([a-z]+:*)+[-']?[.,?]
+		# STEP 1: check that token has shape '?([a-z]+:*)+[-']?[.,?]
 		# otherwise signal error
-		# matching_instance = re.fullmatch(r"([a-zàèéìòù]+:*)+[-']?[.,?]?", self.text)
-		matching_instance = re.fullmatch(r"(\p{L}+:*)*\p{L}+[-'~]?:*[.,?]?", self.text)
+		matching_instance = re.fullmatch(r"'?(\p{L}+:*)*\p{L}+[-'~]?:*[.,?]?", self.text)
 
 		if matching_instance is None:
 			if self.text == "{P}":
 				self.token_type = df.tokentype.shortpause
-			elif self.text[0] == "{":  # !! issue with " ° ", " > " etc...
+			elif self.text[0] == "{":
 				self.token_type = df.tokentype.metalinguistic
 			else:
 				self.token_type = df.tokentype.error
@@ -149,7 +152,7 @@ class transcription_unit:
 	orig_annotation: str = ""
 	include: bool = True
 	# split: bool = False
-	overlaping_spans: Dict[Tuple[int, int], str] = field(default_factory=lambda: {})
+	overlapping_spans: Dict[Tuple[int, int], str] = field(default_factory=lambda: {})
 	low_volume_spans: List[Tuple[int, int]] = field(default_factory=lambda: {})
 	guessing_spans: List[Tuple[int, int]] = field(default_factory=lambda: [])
 	warnings: Dict[str, int] = field(default_factory=lambda: collections.defaultdict(int))
@@ -222,90 +225,21 @@ class transcription_unit:
 			substitutions, new_transcription = pt.check_spaces_angular(self.annotation)
 			self.warnings["UNEVEN_SPACES"] += substitutions
 			self.annotation = new_transcription
-			# matches_left = list(re.finditer(r"<[^><]+>", self.annotation))
-			# matches_right = list(re.finditer(r">[^<>]+<", self.annotation))
-			# tot_spans = (self.annotation.count("<") + self.annotation.count(">"))/2
-
-			# if len(matches_left) == 0:    # all matches of kind >....<
-			# 	# "> ([^ ])" -> >$1
-			# 	new_string, subs_made = re.subn(r"> ([^ ])", r">\1", self.annotation)
-			# 	if subs_made > 0:
-			# 		self.warnings["UNEVEN_SPACES"] += subs_made
-			# 		self.annotation = new_string
-			# 	# "([^ ]) <" -> $1<
-			# 	new_string, subs_made = re.subn(r"([^ ]) <", r"\1<", self.annotation)
-			# 	if subs_made > 0:
-			# 		self.warnings["UNEVEN_SPACES"] += subs_made
-			# 		self.annotation = new_string
-
-			# elif len(matches_right) == 0: # all matches of kind <....>
-			# 	# "< ([^ ])" -> <$1
-			# 	new_string, subs_made = re.subn(r"< ([^ ])", r"<\1", self.annotation)
-			# 	if subs_made > 0:
-			# 		self.warnings["UNEVEN_SPACES"] += subs_made
-			# 		self.annotation = new_string
-			# 	# "([^ ]) >" -> $1>
-			# 	new_string, subs_made = re.subn(r"([^ ]) >", r"\1>", self.annotation)
-			# 	if subs_made > 0:
-			# 		self.warnings["UNEVEN_SPACES"] += subs_made
-			# 		self.annotation = new_string
-
-			# elif len(matches_left) + len(matches_right) == tot_spans:
-
-			# 	split_left = re.split(r"(<[^><]+>)", self.annotation)
-			# 	split_left = [x for x in split_left if len(x)>0]
-
-			# 	subs = 0
-			# 	if len(split_left)>0:
-			# 		for match_no, match in enumerate(split_left):
-			# 			if match[0] == "<":
-			# 				if match[1] == " ":
-			# 					match = match[0]+match[2:]
-			# 					subs += 1
-			# 				if match[-2] == " ":
-			# 					match = match[:-2]+match[-1]
-			# 					subs += 1
-			# 				split_left[match_no] = match
-			# 		self.annotation = "".join(split_left)
-
-			# 	split_right = re.split(r"(>[^<>]+<)", self.annotation)
-			# 	split_right = [x for x in split_right if len(x)>0]
-			# 	if len(split_right)>0:
-			# 		for match_no, match in enumerate(split_right):
-			# 			if match[0] == ">":
-			# 				if match[1] == " ":
-			# 					match = match[0]+match[2:]
-			# 					subs += 1
-			# 				if match[-2] == " ":
-			# 					match = match[:-2]+match[-1]
-			# 					subs += 1
-			# 				split_right[match_no] = match
-			# 		self.annotation = "".join(split_right)
-
-			# 	self.warnings["UNEVEN_SPACES"] += subs
-
-			# else:
-			# 	pass
-			# 	# !! handle this more complex case
-			# 	# !! m:::h non so: neanche, >poi con gli amici< quando: >andavamo su noi< c'era un'osteria lì,
-			# 	# !![<regex.Match object; span=(41, 52), match='< quando: >'>]
-			# 	# !![<regex.Match object; span=(23, 42), match='>poi con gli amici<'>, <regex.Match object; span=(51, 68), match='>andavamo su noi<'>]
-
 
 		# check how many varying pace spans have been transcribed
 		if "<" in self.annotation and not self.errors["UNBALANCED_PACE"]:
-			matches_left = list(re.finditer(r"<[^ ][^><]*[^ ]>", self.annotation))
-			matches_right = list(re.finditer(r">[^ ][^><]*[^ ]<", self.annotation))
+			matches_left = list(re.finditer(r"<[^ )\]][^><]*[^ (\[]>", self.annotation))
+			matches_right = list(re.finditer(r">[^ )\]][^><]*[^ (\[]<", self.annotation))
 			tot_spans = (self.annotation.count("<") + self.annotation.count(">"))/2
 
-			assert(len(matches_left) + len(matches_right) == tot_spans)
-			# if :
+			if not len(matches_left) + len(matches_right) == tot_spans:
+				print(self.annotation)
+				print(matches_left)
+				print(matches_right)
+				input()
 			# TODO @Martina check se ho beccato slow e fast bene!
 			self.slow_pace_spans = [match.span() for match in matches_left]
 			self.fast_pace_spans = [match.span() for match in matches_right]
-			# else:
-			# 	print("ISSUE", self.annotation)
-			# 	# !! handle this more complex case (see above)
 
 		# check how many low volume spans have been transcribed
 		if "°" in self.annotation and not self.errors["UNBALANCED_DOTS"]:
@@ -317,15 +251,13 @@ class transcription_unit:
 		if "[" in self.annotation and not self.errors["UNBALANCED_OVERLAP"]:
 			matches = list(re.finditer(r"\[[^\]]+\]", self.annotation))
 			if len(matches)>0:
-				self.overlaping_spans = {match.span():None for match in matches}
+				self.overlapping_spans = {match.span():None for match in matches}
 
 		# check how many guessing spans have been transcribed
 		if "(" in self.annotation and not self.errors["UNBALANCED_GUESS"]:
 			matches = list(re.finditer(r"\([^)]+\)", self.annotation))
 			if len(matches)>0:
 				self.guessing_spans = [match.span() for match in matches]
-
-		# TODO: move opening left and closing right
 
 		swaps, new_transcription = pt.push_parentheses(self.annotation)
 		if swaps > 0:
@@ -338,7 +270,6 @@ class transcription_unit:
 
 		if len(self.annotation) == 0:
 			self.include = False
-
 
 		# TODO: gestire cancelletto
 
@@ -362,22 +293,12 @@ class transcription_unit:
 
 	def tokenize(self):
 
-		# complex_string = "signora margherita d'[accor]do [l'uno=e l']altro"
-
-		# parentheses = []
-		# for pos_c, c in enumerate(self.annotation):
-		# 	if c in ["°", "<", ">", "[", "]", "(", ")"]:
-		# 		parentheses.append((pos_c, c))
-
-		print(self.annotation)
-		# print(parentheses)
-
-
+		# print(self.annotation)
 		# ! split on space, apostrophe between words and prosodic links
 		tokens = re.split(r"( |(?<=\w)'(?=\w)|=)", self.annotation)
 		# tokens = re.split(r"( |(?<=\w)'(?=\w)|=)", self.annotation)
-		print(tokens)
-		input()
+		# print(tokens)
+		# input()
 
 		start_pos = 0
 		end_pos = 0
@@ -406,9 +327,6 @@ class transcription_unit:
 					self.tokens.append(new_token)
 					start_pos = end_pos +1
 					end_pos+=1
-
-		# print(self.tokens)
-
 
 		# add position of token in TU
 		if len(self.tokens) > 0:
@@ -472,53 +390,67 @@ class transcript:
 						self.time_based_overlaps[tu1.tu_id].add(tu2.tu_id)
 						self.time_based_overlaps[tu2.tu_id].add(tu1.tu_id)
 
+		for tu_id in self.time_based_overlaps:
+			self.time_based_overlaps[tu_id] = list(sorted(self.time_based_overlaps[tu_id],
+											key=lambda x: self.transcription_units[x].start))
+
 	def check_overlaps(self):
 
 		for tu in self.transcription_units:
-			if tu.errors["UNBALANCED_OVERLAPS"]:
-				continue
 
-			if tu.include:
-				n_textual_spans = len(tu.overlaping_spans)
-				n_time_overlaps = len(self.time_based_overlaps[tu.tu_id])
+			n_textual_spans = len(tu.overlapping_spans)
+			n_time_overlaps = len(self.time_based_overlaps[tu.tu_id])
 
-				if n_textual_spans == n_time_overlaps:
-					# easy case scenario
-					tu.overlaping_spans = dict(zip([x for x, y in tu.overlaping_spans], self.time_based_overlaps[tu.tu_id]))
-					# TODO: check boundaries of overlaping spans
+			if n_textual_spans == n_time_overlaps:
+				# easy case scenario
+				tu.overlapping_spans = dict(zip([x for x, y in tu.overlapping_spans.items()],
+												self.time_based_overlaps[tu.tu_id]))
+				# print(self.time_based_overlaps[tu.tu_id])
 
-				elif n_time_overlaps == 0:
-					# there's at least one parenthesis transcribed but no time-based span
-					tu.errors["EXTRA_OVERLAPS"] = True
+				# input()
+				# TODO: check boundaries of overlaping spans
 
-				elif n_textual_spans == 0:
-					# there's at least one overlapping unit but no span transcribed
-					tu.errors["UNCAUGHT_OVERLAPS"] = {}
-					for overlapping_tu_id in self.time_based_overlaps[tu.tu_id]:
-						overlapping_tu = self.transcription_units[overlapping_tu_id]
+			elif n_time_overlaps == 0:
+			# 	# there's at least one parenthesis transcribed but no time-based span
+				tu.errors["EXTRA_OVERLAPS"] = n_textual_spans
 
-						min_end = min(tu.end, overlapping_tu.end)
-						max_start = max(tu.start, overlapping_tu.start)
+			elif n_textual_spans == 0:
+				# there's at least one overlapping unit but no span transcribed
+				tu.errors["UNCAUGHT_OVERLAPS"] = {}
+				for overlapping_tu_id in self.time_based_overlaps[tu.tu_id]:
+					overlapping_tu = self.transcription_units[overlapping_tu_id]
 
-						# X ---xxxxxx
-						# Y yyyyy----
+					min_end = min(tu.end, overlapping_tu.end)
+					max_start = max(tu.start, overlapping_tu.start)
 
-						# X xxxxx-----
-						# Y ---yyyyyyy
+					# X ---xxxxxx
+					# Y yyyyy----
 
-						# X ----xxx---
-						# Y --yyyyyyy-
+					# X xxxxx-----
+					# Y ---yyyyyyy
 
-						# X --xxxxxxx-
-						# Y ---yyyy---
+					# X ----xxx---
+					# Y --yyyyyyy-
 
-						tu.errors["UNCAUGHT_OVERLAPS"][overlapping_tu_id] = min_end-max_start
-					# ? maybe the overlap concerns metalinguistic annotation, can we add it automatically?
-					# ? if the overlap is very very small, we should move boundaries
+					# X --xxxxxxx-
+					# Y ---yyyy---
+
+					tu.errors["UNCAUGHT_OVERLAPS"][overlapping_tu_id] = min_end-max_start
+			# 	# ? if the overlap is very very small, we should move boundaries
+
+			else:
+
+				speakers = [self.transcription_units_dict[id].speaker for id in self.time_based_overlaps[tu.tu_id]]
+				n_unique_speakers = len(set(speakers))
+				if n_unique_speakers == 1:
+					ids = [id for id in self.time_based_overlaps[tu.tu_id]]
+					for x in tu.overlapping_spans:
+						tu.overlapping_spans[x] = "/".join(str(x) for x in ids)
+
+					tu.errors["OVERLAP_NEEDS_SPLITTING"] = True
 
 				else:
 					tu.errors["MISMATCHING_OVERLAPS"] = True
-
 
 
 	def create_turns(self):
