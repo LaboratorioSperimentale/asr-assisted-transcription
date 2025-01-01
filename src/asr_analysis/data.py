@@ -1,7 +1,9 @@
 import collections
+import itertools
 # import re
 import regex as re
 import pandas as pd
+import networkx as nx
 from dataclasses import dataclass, field
 from typing import List, Dict, Set, Tuple
 
@@ -152,8 +154,9 @@ class transcription_unit:
 	orig_annotation: str = ""
 	include: bool = True
 	# split: bool = False
-	overlapping_spans: Dict[Tuple[int, int], str] = field(default_factory=lambda: {})
-	low_volume_spans: List[Tuple[int, int]] = field(default_factory=lambda: {})
+	overlapping_spans: List[Tuple[int, int]] = field(default_factory=lambda: [])
+	overlapping_times: Dict[str, Tuple[float, float]] = field(default_factory=lambda: {})
+	low_volume_spans: List[Tuple[int, int]] = field(default_factory=lambda: [])
 	guessing_spans: List[Tuple[int, int]] = field(default_factory=lambda: [])
 	warnings: Dict[str, int] = field(default_factory=lambda: collections.defaultdict(int))
 	errors: List[str] = field(default_factory=lambda: collections.defaultdict(bool))
@@ -251,7 +254,7 @@ class transcription_unit:
 		if "[" in self.annotation and not self.errors["UNBALANCED_OVERLAP"]:
 			matches = list(re.finditer(r"\[[^\]]+\]", self.annotation))
 			if len(matches)>0:
-				self.overlapping_spans = {match.span():None for match in matches}
+				self.overlapping_spans = [match.span() for match in matches]
 
 		# check how many guessing spans have been transcribed
 		if "(" in self.annotation and not self.errors["UNBALANCED_GUESS"]:
@@ -344,7 +347,7 @@ class transcript:
 	transcription_units_dict: Dict[str, transcription_unit] = field(default_factory=lambda: collections.defaultdict(list))
 	transcription_units: List[transcription_unit] = field(default_factory=lambda: [])
 	turns: List[turn] = field(default_factory=lambda: [])
-	time_based_overlaps: Dict[str, Set[str]] = field(default_factory=lambda: {})
+	time_based_overlaps: nx.Graph = field(default_factory=lambda: nx.Graph())
 	statistics: pd.DataFrame = None
 
 	def add(self, tu:transcription_unit):
@@ -376,81 +379,161 @@ class transcript:
 
 	def find_overlaps(self):
 
+		G = nx.Graph()
+
 		for tu1 in self.transcription_units:
 			for tu2 in self.transcription_units:
 				if tu1.include and tu2.include and tu2.tu_id > tu1.tu_id:
-					if not tu1.tu_id in self.time_based_overlaps:
-						self.time_based_overlaps[tu1.tu_id] = set()
-					if not tu2.tu_id in self.time_based_overlaps:
-						self.time_based_overlaps[tu2.tu_id] = set()
+					if not tu1.tu_id in G.nodes:
+						G.add_node(tu1.tu_id, speaker = tu1.speaker, overlaps = tu1.overlapping_spans)
+
+					# 	self.time_based_overlaps[tu1.tu_id] = set()
+					if not tu2.tu_id in G.nodes:
+						G.add_node(tu2.tu_id, speaker = tu2.speaker, overlaps = tu2.overlapping_spans)
+
+					# 	self.time_based_overlaps[tu2.tu_id] = set()
 
 					# De Morgan on tu1.end <= tu2.start or tu2.end <= tu1.start
 					# the two units overlap in time
 					if tu1.end > tu2.start and tu2.end > tu1.start:
-						self.time_based_overlaps[tu1.tu_id].add(tu2.tu_id)
-						self.time_based_overlaps[tu2.tu_id].add(tu1.tu_id)
+						G.add_edge(tu1.tu_id, tu2.tu_id,
+									start = max(tu1.start, tu2.start),
+									end = min(tu1.end, tu2.end),
+									duration = min(tu1.end, tu2.end)-max(tu1.start, tu2.start),
+									spans = {tu1.tu_id:None, tu2.tu_id:None})
+						# self.time_based_overlaps[tu1.tu_id].add(tu2.tu_id)
+						# self.time_based_overlaps[tu2.tu_id].add(tu1.tu_id)
 
-		for tu_id in self.time_based_overlaps:
-			self.time_based_overlaps[tu_id] = list(sorted(self.time_based_overlaps[tu_id],
-											key=lambda x: self.transcription_units[x].start))
+		self.time_based_overlaps = G
+
+		# print(sorted(list(nx.find_cliques(G)), key=lambda x: len(x)))
+		# input()
+
+		# for tu_id in self.time_based_overlaps:
+		# 	self.time_based_overlaps[tu_id] = list(sorted(self.time_based_overlaps[tu_id],
+		# 									key=lambda x: self.transcription_units[x].start))
 
 	def check_overlaps(self):
 
-		for tu in self.transcription_units:
+		visited = set()
 
-			n_textual_spans = len(tu.overlapping_spans)
-			n_time_overlaps = len(self.time_based_overlaps[tu.tu_id])
+		cliques = sorted(nx.find_cliques(self.time_based_overlaps), key=lambda x: len(x))
+		for clique in cliques:
+			# if len(clique) == 1:
+			# 	tu_id = clique[0]
+			# 	tu = self.transcription_units_dict[tu_id]
+			# 	assert(self.time_based_overlaps.degree[tu_id] == 0)
+			# 	transcribed_overlaps = len(tu.overlapping_spans)
 
-			if n_textual_spans == n_time_overlaps:
-				# easy case scenario
-				tu.overlapping_spans = dict(zip([x for x, y in tu.overlapping_spans.items()],
-												self.time_based_overlaps[tu.tu_id]))
-				# print(self.time_based_overlaps[tu.tu_id])
+			# 	if transcribed_overlaps > 0:
+			# 		# there's at least one parenthesis transcribed but no time-based spa
+			# 		tu.errors["EXTRA_TRANSCRIBED_OVERLAP"] = True
+			# 	visited.add(tu_id)
 
+			if len(clique)>1:
+				starts = []
+				ends = []
+
+				for node in clique:
+					starts.append(self.transcription_units_dict[node].start)
+					ends.append(self.transcription_units_dict[node].end)
+
+				overlap_start = max(starts)
+				overlap_end = min(ends)
+
+				# clique_str = "|".join(str(x) for x in clique)
+
+				for node in clique:
+					clique_tup = tuple(x for x in clique if not x == node)
+					self.transcription_units_dict[node].overlapping_times[clique_tup] = (overlap_start, overlap_end)
+				# 	print(self.transcription_units_dict[node])
 				# input()
-				# TODO: check boundaries of overlaping spans
 
-			elif n_time_overlaps == 0:
-			# 	# there's at least one parenthesis transcribed but no time-based span
-				tu.errors["EXTRA_OVERLAPS"] = n_textual_spans
+				for node1, node2 in itertools.combinations(clique, 2):
+					visited.add((min(node1, node2), max(node1, node2)))
 
-			elif n_textual_spans == 0:
-				# there's at least one overlapping unit but no span transcribed
-				tu.errors["UNCAUGHT_OVERLAPS"] = {}
-				for overlapping_tu_id in self.time_based_overlaps[tu.tu_id]:
-					overlapping_tu = self.transcription_units[overlapping_tu_id]
+		for tu_id, tu  in self.transcription_units_dict.items():
+			spans = tu.overlapping_spans
+			times = tu.overlapping_times
+			if not len(spans) == len(times):
+				tu.errors["MISMATCHING_OVERLAPS"] = True
+				# if len(spans) == 0:
+				# 	tu.errors["MISSING_OVERLAP_ANNOTATION"] = True
+				# elif len(times) == 0:
+				# 	tu.errors["EXTRA_OVERLAP_ANNOTATION"] = True
+				# else:
+				# 	tu.errors["MISMATCHING_OVERLAPS"] = True
+				# print(tu)
+				# input()
+		# for edge in self.time_based_overlaps.edges:
+		# 	x, y = edge
+		# 	x, y = min(x, y), max(x, y)
+		# 	if not (x, y) in visited:
+		# 		print(x, y)
+		# 		input()
 
-					min_end = min(tu.end, overlapping_tu.end)
-					max_start = max(tu.start, overlapping_tu.start)
 
-					# X ---xxxxxx
-					# Y yyyyy----
 
-					# X xxxxx-----
-					# Y ---yyyyyyy
+		# for tu in self.transcription_units:
 
-					# X ----xxx---
-					# Y --yyyyyyy-
+		# 	n_textual_spans = len(tu.overlapping_spans)
+		# 	n_time_overlaps = len(self.time_based_overlaps[tu.tu_id])
 
-					# X --xxxxxxx-
-					# Y ---yyyy---
+		# 	if n_textual_spans == n_time_overlaps:
+		# 		# easy case scenario
+		# 		tu.overlapping_spans = dict(zip([x for x, y in tu.overlapping_spans.items()],
+		# 										self.time_based_overlaps[tu.tu_id]))
 
-					tu.errors["UNCAUGHT_OVERLAPS"][overlapping_tu_id] = min_end-max_start
-			# 	# ? if the overlap is very very small, we should move boundaries
+		# 		# TODO: check boundaries of overlaping spans
 
-			else:
+		# 	elif n_time_overlaps == 0:
+		# 	# 	# there's at least one parenthesis transcribed but no time-based span
+		# 		tu.errors["EXTRA_OVERLAPS"] = n_textual_spans
 
-				speakers = [self.transcription_units_dict[id].speaker for id in self.time_based_overlaps[tu.tu_id]]
-				n_unique_speakers = len(set(speakers))
-				if n_unique_speakers == 1:
-					ids = [id for id in self.time_based_overlaps[tu.tu_id]]
-					for x in tu.overlapping_spans:
-						tu.overlapping_spans[x] = "/".join(str(x) for x in ids)
+		# 	elif n_textual_spans == 0:
+		# 		# there's at least one overlapping unit but no span transcribed
+		# 		tu.errors["UNCAUGHT_OVERLAPS"] = {}
+		# 		for overlapping_tu_id in self.time_based_overlaps[tu.tu_id]:
+		# 			overlapping_tu = self.transcription_units[overlapping_tu_id]
 
-					tu.errors["OVERLAP_NEEDS_SPLITTING"] = True
+		# 			min_end = min(tu.end, overlapping_tu.end)
+		# 			max_start = max(tu.start, overlapping_tu.start)
 
-				else:
-					tu.errors["MISMATCHING_OVERLAPS"] = True
+		# 			# X ---xxxxxx
+		# 			# Y yyyyy----
+
+		# 			# X xxxxx-----
+		# 			# Y ---yyyyyyy
+
+		# 			# X ----xxx---
+		# 			# Y --yyyyyyy-
+
+		# 			# X --xxxxxxx-
+		# 			# Y ---yyyy---
+
+		# 			tu.errors["UNCAUGHT_OVERLAPS"][overlapping_tu_id] = min_end-max_start
+		# 	# 	# ? if the overlap is very very small, we should move boundaries
+
+		# 	else:
+		# 		speakers = [self.transcription_units_dict[id].speaker for id in self.time_based_overlaps[tu.tu_id]]
+		# 		n_unique_speakers = len(set(speakers))
+		# 		if n_unique_speakers == 1:
+		# 			ids = [id for id in self.time_based_overlaps[tu.tu_id]]
+		# 			for x in tu.overlapping_spans:
+		# 				tu.overlapping_spans[x] = "/".join(str(x) for x in ids)
+
+		# 			tu.errors["OVERLAP_NEEDS_SPLITTING"] = True
+
+		# 		elif n_unique_speakers == n_time_overlaps:
+		# 			# TODO: check if it's a clique
+		# 			# clique = True
+
+		# 			# time_overlaps = self.time_based_overlaps[tu.tu_id]
+		# 			# for id in time_overlaps:
+		# 			# 	overlaps = self.time_based_overlaps[id]
+		# 			tu.errors["MISMATCHING_OVERLAPS"] = True
+		# 		else:
+		# 			tu.errors["MISMATCHING_OVERLAPS"] = True
 
 
 	def create_turns(self):

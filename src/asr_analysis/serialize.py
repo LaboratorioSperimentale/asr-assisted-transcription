@@ -1,3 +1,4 @@
+import csv
 from asr_analysis import data as d
 import pandas as pd
 
@@ -82,6 +83,17 @@ def conversation_to_linear(transcript, output_filename, sep = '\t'):
 						]
 				print(sep.join(infos), file=fout)
 			print("", file=fout)
+
+
+def csv2eaf(input_filename, output_filename, sep="\t"):
+
+	with open(input_filename, newline='') as csvfile:
+
+		reader = csv.DictReader(csvfile)
+
+		for row in reader:
+
+			print(row['first_name'], row['last_name'])
 
 # ID_TURNO
 # ID_TRANSCRIPTIONUNIT
