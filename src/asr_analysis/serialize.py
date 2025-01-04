@@ -31,7 +31,7 @@ def conversation_to_csv(transcript, output_filename, sep = '\t'):
 				tu_end = transcription_unit.end
 				# print(transcription_unit.tokens)
 
-				for token_id, token in enumerate(transcription_unit.tokens):
+				for token_id, token in transcription_unit.tokens.items():
 
 					infos = [str(turn_id),
 							str(tu_id),
@@ -46,8 +46,8 @@ def conversation_to_csv(transcript, output_filename, sep = '\t'):
 							token.position_in_tu.name if token.position_in_tu else "_",
 							# token.pace,
 							# token.volume,
-							str(token.prolongations),
-							"|".join(token.prolonged_sounds),
+							# str(token.prolongations),
+							# "|".join(token.prolonged_sounds),
 							# token.interrupted,
 							# token.guess,
 							# token.overlap

@@ -32,38 +32,39 @@ class token:
 	span: Tuple[int,int] = (0,0)
 	token_type: df.tokentype = df.tokentype.linguistic
 	orig_text: str = ""
+	unknown: bool = False
 	intonation_pattern: df.intonation = None
 	position_in_tu: df.position = df.position.inner
-	pace: df.pace = None
+	# pace: df.pace = None
 	volume: df.volume = None
-	overlap: bool = False
-	guess: bool = False
+	overlaps: Dict[int, Tuple[int, int]] = field(default_factory=lambda: {})
+	slow_pace: Dict[int, Tuple[int, int]] = field(default_factory=lambda: {})
+	guesses: Dict[int, Tuple[int, int]] = field(default_factory=lambda: {})
+	fast_pace: Dict[int, Tuple[int, int]] = field(default_factory=lambda: {})
+	low_volume: Dict[int, Tuple[int, int]] = field(default_factory=lambda: {})
+
+	# guess: bool = False
 	interruption: bool = False
 	truncation: bool = False
-	prolongations: int = 0
-	prolonged_sounds: List[str] = field(default_factory=lambda: collections.defaultdict(int))
+	prosodiclink: bool = False
+	prolongations: Dict[int, int] = field(default_factory=lambda: {})
+	# prolonged_sounds: List[str] = field(default_factory=lambda: collections.defaultdict(int))
 	warnings: Dict[str, int] = field(default_factory=lambda: collections.defaultdict(int))
 	errors: List[str] = field(default_factory=lambda: collections.defaultdict(int))
-	features: Dict[str, str] = field(default_factory=lambda: {})
 
 	def __post_init__(self):
 
 		self.orig_text = self.text
 
-		while self.text[0] in ["[", "(", ">", "<", "°"]:
-			self.text = self.text[1:]
+		chars = ["[","]", "(", ")", "<", ">", "°"]
 
-		while self.text[-1] in ["]", ")", ">", "<", "°"]:
-			self.text = self.text[:-1]
-
-		if len(self.text) == 0:
-			print("ISSUE", self.orig_text)
-			# input()
+		for char in chars:
+			self.text = self.text.replace(char, "")
 
 		self.orig_text = self.text
 
-		# STEP 1: check that token has shape '?([a-z]+:*)+[-']?[.,?]
-		# otherwise signal error
+		# # STEP 1: check that token has shape '?([a-z]+:*)+[-']?[.,?]
+		# # otherwise signal error
 		matching_instance = re.fullmatch(r"'?(\p{L}+:*)*\p{L}+[-'~]?:*[.,?]?", self.text)
 
 		if matching_instance is None:
@@ -74,56 +75,68 @@ class token:
 			else:
 				self.token_type = df.tokentype.error
 
-			# ? maybe let's break the function here in order to avoid the else branch
-		else:
-			# STEP2: find final prosodic features: intonation, truncation and interruptions
-			if self.text.endswith("."):
-				self.intonation_pattern = df.intonation.descending
-				self.text = self.text[:-1] # this line removes the last character of the string (".")
-			elif self.text.endswith(","):
-				self.intonation_pattern = df.intonation.weakly_ascending
-				self.text = self.text[:-1]
-			elif self.text.endswith("?"):
-				self.intonation_pattern = df.intonation.ascending
-				self.text = self.text[:-1]
-			elif self.text.endswith("-") or self.text.endswith("~"):
-				self.interruption = True
-				# self.text = self.text[:-1]
-			elif self.text.endswith("'"):
-				self.truncation = True
-				# self.text = self.text[:-1]
+			return
 
-			# # !! remove prolongations. Maybe the else should be deleted here?
-			# else:
-			# STEP3: at this point we should be left with the bare word with only prolongations
 
-			# replace multiple : with a single :
-			new_text, substitutions = re.subn(r":{2,}", ":", self.text)
-			if substitutions > 0:
-				self.text = new_text
-				self.warnings["PROLONGED_REPLACEMENTS"] = substitutions
+		# STEP2: find final prosodic features: intonation, truncation and interruptions
+		if self.text.endswith("."):
+			self.intonation_pattern = df.intonation.descending
+			self.text = self.text[:-1] # this line removes the last character of the string (".")
+		elif self.text.endswith(","):
+			self.intonation_pattern = df.intonation.weakly_ascending
+			self.text = self.text[:-1]
+		elif self.text.endswith("?"):
+			self.intonation_pattern = df.intonation.ascending
+			self.text = self.text[:-1]
+		elif self.text.endswith("-") or self.text.endswith("~"):
+			self.interruption = True
+			# self.text = self.text[:-1]
+		elif self.text.endswith("'") or self.text.startswith("'"):
+			self.truncation = True
+			# self.text = self.text[:-1]
 
-			positions = [i for i, letter in enumerate(self.text) if letter==":"] # get positions of ":" in the string
+		# STEP3: at this point we should be left with the bare word with only prolongations
 
-			prev_letters = []
-			for i in positions:
-				if self.text[i-1] in ["'", "-", "~"]:
-					prev_letters.append(self.text[i-2])
-				else:
-					prev_letters.append(self.text[i-1])
-			# prev_letters = [self.text[i-1] for i in positions]
+		tmp_text = []
+		i=0
+		for char in self.text:
+			if char in [":"]:
+				tmp_text.append((-2, char))
+			elif char in ["'", "-", "~"]:
+				tmp_text.append((-2, char))
+				i+=1
+			else:
+				tmp_text.append((i, char))
+				i+=1
 
-			self.prolongations = len(positions)
-			self.prolonged_sounds = prev_letters
+		# print(self.text)
+		matches = list(re.finditer(r":+", self.text))
+		# print(matches)
+		for match in matches:
+			begin, end = match.span()
+			char_id = begin
+			while tmp_text[char_id][0]<0:
+				char_id -= 1
+			char_id = tmp_text[char_id][0]
+			span_len = end-begin
+			self.prolongations[char_id] = span_len
+			# print(char_id, span_len)
+		# 	print(match)
+		# input()
 
-			# check for high volume
-			if any(letter.isupper() for letter in self.text):
-				self.volume = df.volume.high
+		new_text, substitutions = re.subn(r":+", "", self.text)
+		if substitutions > 0:
+			self.text = new_text
+			# self.warnings["REMOE_REPLACEMENTS"] = substitutions
 
-			# ! keeping "'" but removing ":" when in the middle of the token
-			self.text = self.text.lower().strip(".,?").replace(":", "")
+		# check for high volume
+		if any(letter.isupper() for letter in self.text):
+			self.volume = df.volume.high
 
-		# TODO: x -> unknown
+		self.text = self.text.lower()
+
+		if all(c == "x" for c in self.text):
+			self.unknown = True
 
 	def add_span(self, start, end):
 		self.span = (start, end)
@@ -132,12 +145,30 @@ class token:
 		self.span = (self.span[0], end)
 
 	def __str__(self):
-
 		return self.text
 
-
 	def add_info(self, field_name, field_value):
-		self.features[field_name] = field_value
+		if field_name == "ProsodicLink":
+			self.prosodiclink = True
+		if field_name == "overlaps":
+			span_id, id_from, id_to = field_value
+			self.overlaps[span_id] = (id_from, id_to)
+
+		if field_name == "slow_pace":
+			span_id, id_from, id_to = field_value
+			self.slow_pace[span_id] = (id_from, id_to)
+
+		if field_name == "fast_pace":
+			span_id, id_from, id_to = field_value
+			self.fast_pace[span_id] = (id_from, id_to)
+
+		if field_name == "low_volume":
+			span_id, id_from, id_to = field_value
+			self.low_volume[span_id] = (id_from, id_to)
+
+		if field_name == "guesses":
+			span_id, id_from, id_to = field_value
+			self.guesses[span_id] = (id_from, id_to)
 
 #TODO: creare funzioni di test
 
@@ -158,13 +189,15 @@ class transcription_unit:
 	overlapping_times: Dict[str, Tuple[float, float]] = field(default_factory=lambda: {})
 	low_volume_spans: List[Tuple[int, int]] = field(default_factory=lambda: [])
 	guessing_spans: List[Tuple[int, int]] = field(default_factory=lambda: [])
+	fast_pace_spans: List[Tuple[int, int]] = field(default_factory=lambda: [])
+	slow_pace_spans: List[Tuple[int, int]] = field(default_factory=lambda: [])
+
 	warnings: Dict[str, int] = field(default_factory=lambda: collections.defaultdict(int))
 	errors: List[str] = field(default_factory=lambda: collections.defaultdict(bool))
 	parentheses: List[Tuple[int, str]] = field(default_factory=lambda: [])
 	splits: List[int] = field(default_factory=lambda: [])
-	tokens: List[token] = field(default_factory=lambda: [])
+	tokens: Dict[int, token] = field(default_factory=lambda: {})
 	ntokens: int = 0
-	# valid_tokens: List[bool] = field(default_factory=lambda: [])
 
 	def __post_init__(self):
 		self.start = float(self.start)
@@ -187,11 +220,13 @@ class transcription_unit:
 		self.warnings["UNEVEN_SPACES"] += substitutions
 		self.annotation = new_transcription
 
+		# TODO: move in token
 		#pò, perché etc..
 		substitutions, new_transcription = pt.replace_che(self.annotation)
 		self.warnings["ACCENTS"] = substitutions
 		self.annotation = new_transcription
 
+		# TODO: move in token
 		substitutions, new_transcription = pt.replace_po(self.annotation)
 		self.warnings["ACCENTS"] += substitutions
 		self.annotation = new_transcription
@@ -240,6 +275,7 @@ class transcription_unit:
 				print(matches_left)
 				print(matches_right)
 				input()
+
 			# TODO @Martina check se ho beccato slow e fast bene!
 			self.slow_pace_spans = [match.span() for match in matches_left]
 			self.fast_pace_spans = [match.span() for match in matches_right]
@@ -262,10 +298,10 @@ class transcription_unit:
 			if len(matches)>0:
 				self.guessing_spans = [match.span() for match in matches]
 
-		swaps, new_transcription = pt.push_parentheses(self.annotation)
-		if swaps > 0:
-			self.warnings["PARENTHESES SWAPS"] += swaps
-			self.annotation = new_transcription
+		# swaps, new_transcription = pt.push_parentheses(self.annotation)
+		# if swaps > 0:
+		# 	self.warnings["PARENTHESES SWAPS"] += swaps
+		# 	self.annotation = new_transcription
 
 		# remove unit if it only includes non-alphabetic symbols
 		if all(c in ["[", "]", "(", ")", "°", ">", "<", "-", "'", "#"] for c in self.annotation):
@@ -276,67 +312,88 @@ class transcription_unit:
 
 		# TODO: gestire cancelletto
 
-	# def strip_parentheses(self):
-	# 	# splits = []
-	# 	new_string = ""
-
-	# 	for i, c in enumerate(self.annotation):
-	# 		if c in [" ", "="]:
-	# 			self.splits.append(i)
-	# 		if i > 0 and i < len(self.annotation)-1:
-	# 			if c in ["'"] and self.annotation[i-1].isalpha() and self.annotation[i+1].isalpha():
-	# 				self.splits.append(i)
-
-	# 		if c in ["(", ")", "[", "]", ">", "<", "°"]:
-	# 			self.parentheses.append((i, c))
-	# 		else:
-	# 			new_string+=c
-
-	# 	self.annotation = new_string
-
 	def tokenize(self):
 
 		# print(self.annotation)
 		# ! split on space, apostrophe between words and prosodic links
-		tokens = re.split(r"( |(?<=\w)'(?=\w)|=)", self.annotation)
 		# tokens = re.split(r"( |(?<=\w)'(?=\w)|=)", self.annotation)
-		# print(tokens)
-		# input()
+		tokens = re.split(r"( |=)", self.annotation)
 
 		start_pos = 0
 		end_pos = 0
-		for i, tok in enumerate(tokens):
+		token_id = -1
+
+		for tok in tokens:
+
 			if len(tok)>0 and not tok == " ":
 				end_pos += len(tok)
-				if tok == "'":
+				if tok == "=":
 					if len(self.tokens) == 0:
 						self.warnings["SKIPPED_TOKEN"] += 1
 					else:
-						self.tokens[-1] = token(tokens[i-1]+tok)
-						self.tokens[-1].add_info("SpaceAfter", "No")
-						self.tokens[-1].update_span(end_pos)
-						start_pos = end_pos+1
-
-				elif tok == "=":
-					if len(self.tokens) == 0:
-						self.warnings["SKIPPED_TOKEN"] += 1
-					else:
-						self.tokens[-1].add_info("ProsodicLink", "Yes")
+						self.tokens[token_id].add_info("ProsodicLink", "Yes")
 					start_pos = end_pos+1
-
 				else:
+					token_id += 1
 					new_token = token(tok)
 					new_token.add_span(start_pos, end_pos)
-					self.tokens.append(new_token)
-					start_pos = end_pos +1
+					self.tokens[token_id] = new_token
+					start_pos = end_pos+1
 					end_pos+=1
+
+		ids = []
+		token_ids = []
+
+		for tok_id, tok in self.tokens.items():
+
+			i=0
+			for char in tok.text:
+				if char in [":", ".", ",", "?"]:
+					ids.append(-1)
+					token_ids.append(-1)
+				elif char in ["[", "]", "(", ")", ">", "<", "°"]:
+					ids.append(-2)
+					token_ids.append(-2)
+				else:
+					ids.append(i)
+					token_ids.append(tok_id)
+					i+=1
+
+			ids.append(-3)
+			token_ids.append(-3)
+
+		# print(ids)
+		# print(token_ids)
+
+		for feature_name, spans in [("overlaps", self.overlapping_spans),
+									("slow_pace", self.slow_pace_spans),
+									("fast_pace", self.fast_pace_spans),
+									("low_volume", self.low_volume_spans),
+									("guesses", self.guessing_spans)]:
+
+			for span_id, span in enumerate(spans):
+				a, b = span[0], span[1]
+
+				data = list(zip(token_ids[a:b], ids[a:b]))
+				unique_tokens = set(x for x,y in data if x > -1)
+
+				char_ranges = {x:[] for x in unique_tokens}
+				for token_id, pos_id in data:
+					if token_id in char_ranges:
+						char_ranges[token_id].append(pos_id)
+
+				for id in char_ranges:
+					char_ranges[id] = (min(char_ranges[id]), max(char_ranges[id])+1)
+					self.tokens[id].add_info(feature_name, (span_id,
+															char_ranges[id][0],
+															char_ranges[id][1]))
 
 		# add position of token in TU
 		if len(self.tokens) > 0:
 			self.tokens[0].position_in_tu = df.position.start
-			self.tokens[-1].position_in_tu = df.position.end
+			self.tokens[max(self.tokens.keys())].position_in_tu = df.position.end
 
-		self.ntokens = len([x for x in self.tokens if x.token_type == df.tokentype.linguistic])
+		# self.ntokens = len([x for x in self.tokens if x.token_type == df.tokentype.linguistic])
 
 @dataclass
 class transcript:
@@ -354,18 +411,13 @@ class transcript:
 
 		if not tu.speaker in self.speakers:
 			self.speakers[tu.speaker] = 0
-
 		if tu.include:
 			self.speakers[tu.speaker] += 1
-
 		self.transcription_units_dict[tu.tu_id] = tu
-		# self.transcription_units.append(tu)
-
 
 	def sort(self):
 		self.transcription_units = sorted(self.transcription_units_dict.items(), key=lambda x: x[1].start)
 		self.transcription_units = [y for x, y in self.transcription_units]
-
 
 	def purge_speakers(self):
 		speakers_to_remove = []
@@ -375,7 +427,6 @@ class transcript:
 
 		for speaker in speakers_to_remove:
 			del self.speakers[speaker]
-
 
 	def find_overlaps(self):
 
@@ -387,11 +438,8 @@ class transcript:
 					if not tu1.tu_id in G.nodes:
 						G.add_node(tu1.tu_id, speaker = tu1.speaker, overlaps = tu1.overlapping_spans)
 
-					# 	self.time_based_overlaps[tu1.tu_id] = set()
 					if not tu2.tu_id in G.nodes:
 						G.add_node(tu2.tu_id, speaker = tu2.speaker, overlaps = tu2.overlapping_spans)
-
-					# 	self.time_based_overlaps[tu2.tu_id] = set()
 
 					# De Morgan on tu1.end <= tu2.start or tu2.end <= tu1.start
 					# the two units overlap in time
@@ -401,17 +449,8 @@ class transcript:
 									end = min(tu1.end, tu2.end),
 									duration = min(tu1.end, tu2.end)-max(tu1.start, tu2.start),
 									spans = {tu1.tu_id:None, tu2.tu_id:None})
-						# self.time_based_overlaps[tu1.tu_id].add(tu2.tu_id)
-						# self.time_based_overlaps[tu2.tu_id].add(tu1.tu_id)
 
 		self.time_based_overlaps = G
-
-		# print(sorted(list(nx.find_cliques(G)), key=lambda x: len(x)))
-		# input()
-
-		# for tu_id in self.time_based_overlaps:
-		# 	self.time_based_overlaps[tu_id] = list(sorted(self.time_based_overlaps[tu_id],
-		# 									key=lambda x: self.transcription_units[x].start))
 
 	def check_overlaps(self):
 
@@ -419,16 +458,6 @@ class transcript:
 
 		cliques = sorted(nx.find_cliques(self.time_based_overlaps), key=lambda x: len(x))
 		for clique in cliques:
-			# if len(clique) == 1:
-			# 	tu_id = clique[0]
-			# 	tu = self.transcription_units_dict[tu_id]
-			# 	assert(self.time_based_overlaps.degree[tu_id] == 0)
-			# 	transcribed_overlaps = len(tu.overlapping_spans)
-
-			# 	if transcribed_overlaps > 0:
-			# 		# there's at least one parenthesis transcribed but no time-based spa
-			# 		tu.errors["EXTRA_TRANSCRIBED_OVERLAP"] = True
-			# 	visited.add(tu_id)
 
 			if len(clique)>1:
 				starts = []
@@ -441,13 +470,9 @@ class transcript:
 				overlap_start = max(starts)
 				overlap_end = min(ends)
 
-				# clique_str = "|".join(str(x) for x in clique)
-
 				for node in clique:
 					clique_tup = tuple(x for x in clique if not x == node)
 					self.transcription_units_dict[node].overlapping_times[clique_tup] = (overlap_start, overlap_end)
-				# 	print(self.transcription_units_dict[node])
-				# input()
 
 				for node1, node2 in itertools.combinations(clique, 2):
 					visited.add((min(node1, node2), max(node1, node2)))
@@ -457,84 +482,8 @@ class transcript:
 			times = tu.overlapping_times
 			if not len(spans) == len(times):
 				tu.errors["MISMATCHING_OVERLAPS"] = True
-				# if len(spans) == 0:
-				# 	tu.errors["MISSING_OVERLAP_ANNOTATION"] = True
-				# elif len(times) == 0:
-				# 	tu.errors["EXTRA_OVERLAP_ANNOTATION"] = True
-				# else:
-				# 	tu.errors["MISMATCHING_OVERLAPS"] = True
-				# print(tu)
-				# input()
-		# for edge in self.time_based_overlaps.edges:
-		# 	x, y = edge
-		# 	x, y = min(x, y), max(x, y)
-		# 	if not (x, y) in visited:
-		# 		print(x, y)
-		# 		input()
-
-
-
-		# for tu in self.transcription_units:
-
-		# 	n_textual_spans = len(tu.overlapping_spans)
-		# 	n_time_overlaps = len(self.time_based_overlaps[tu.tu_id])
-
-		# 	if n_textual_spans == n_time_overlaps:
-		# 		# easy case scenario
-		# 		tu.overlapping_spans = dict(zip([x for x, y in tu.overlapping_spans.items()],
-		# 										self.time_based_overlaps[tu.tu_id]))
-
-		# 		# TODO: check boundaries of overlaping spans
-
-		# 	elif n_time_overlaps == 0:
-		# 	# 	# there's at least one parenthesis transcribed but no time-based span
-		# 		tu.errors["EXTRA_OVERLAPS"] = n_textual_spans
-
-		# 	elif n_textual_spans == 0:
-		# 		# there's at least one overlapping unit but no span transcribed
-		# 		tu.errors["UNCAUGHT_OVERLAPS"] = {}
-		# 		for overlapping_tu_id in self.time_based_overlaps[tu.tu_id]:
-		# 			overlapping_tu = self.transcription_units[overlapping_tu_id]
-
-		# 			min_end = min(tu.end, overlapping_tu.end)
-		# 			max_start = max(tu.start, overlapping_tu.start)
-
-		# 			# X ---xxxxxx
-		# 			# Y yyyyy----
-
-		# 			# X xxxxx-----
-		# 			# Y ---yyyyyyy
-
-		# 			# X ----xxx---
-		# 			# Y --yyyyyyy-
-
-		# 			# X --xxxxxxx-
-		# 			# Y ---yyyy---
-
-		# 			tu.errors["UNCAUGHT_OVERLAPS"][overlapping_tu_id] = min_end-max_start
-		# 	# 	# ? if the overlap is very very small, we should move boundaries
-
-		# 	else:
-		# 		speakers = [self.transcription_units_dict[id].speaker for id in self.time_based_overlaps[tu.tu_id]]
-		# 		n_unique_speakers = len(set(speakers))
-		# 		if n_unique_speakers == 1:
-		# 			ids = [id for id in self.time_based_overlaps[tu.tu_id]]
-		# 			for x in tu.overlapping_spans:
-		# 				tu.overlapping_spans[x] = "/".join(str(x) for x in ids)
-
-		# 			tu.errors["OVERLAP_NEEDS_SPLITTING"] = True
-
-		# 		elif n_unique_speakers == n_time_overlaps:
-		# 			# TODO: check if it's a clique
-		# 			# clique = True
-
-		# 			# time_overlaps = self.time_based_overlaps[tu.tu_id]
-		# 			# for id in time_overlaps:
-		# 			# 	overlaps = self.time_based_overlaps[id]
-		# 			tu.errors["MISMATCHING_OVERLAPS"] = True
-		# 		else:
-		# 			tu.errors["MISMATCHING_OVERLAPS"] = True
-
+			else:
+				tu.overlapping_times = sorted(tu.overlapping_times.items(), key=lambda x: x[1][0])
 
 	def create_turns(self):
 
@@ -587,10 +536,7 @@ class transcript:
 			"num_turns": num_turns,
 		}
 
-		# ! removed the return and assigned result to a class parameter
 		self.statistics = pd.DataFrame(stats.items(), columns=["Statistic", "Value"])
-		# return df
-
 
 	def to_csv(self, delimiter = "\t"):
 
