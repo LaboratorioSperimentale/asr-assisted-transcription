@@ -1,4 +1,5 @@
 import regex as re
+import num2words
 
 def remove_spaces(transcription):
 	tot_subs = 0
@@ -233,10 +234,37 @@ def check_spaces_angular(transcription):
 
 def check_numbers(transcription):
 
-	if any(c.isdigit() for c in transcription):
-		return True
-	else:
-		return False
+	matches = list(re.finditer(r"\b[0-9]+\b", transcription))
+	spans = [match.span() for match in matches]
+
+	shifted_spans = [(0, spans[0][0])]
+	if len(spans) > 1:
+		i=0
+		j=1
+		while j < len(spans):
+			shifted_spans.append((spans[i][1], spans[j][0]))
+			i+=1
+			j+=1
+	shifted_spans.append((spans[-1][1], len(transcription)))
+
+	translations = []
+	for match in matches:
+		sub = num2words.num2words(match.group(0), lang="it")
+		if sub.endswith("tre") and len(sub)>3:
+			sub = sub[:-1]+"é"
+		translations.append(sub)
+
+	i=0
+	new_transcription = ""
+	while i<len(translations):
+		new_transcription+=transcription[shifted_spans[i][0]:shifted_spans[i][1]]
+		new_transcription+=translations[i]
+		i+=1
+
+	new_transcription+=transcription[shifted_spans[i][0]:shifted_spans[i][1]]
+
+	return len(matches), new_transcription
+
 
 def replace_spaces(match):
 	return '{' + match.group(1).replace(' ', '_') + '}'
@@ -269,141 +297,5 @@ def remove_prosodiclinks(transcription):
 	return tot_subs, transcription.strip()
 
 
-def push_parentheses(transcription):
-
-	inverse_map = {"[": "]",
-					"]": "[",
-					"(": ")",
-					")": "(",
-					">": "<",
-					"<": ">",
-					"°": "°"}
-
-	list_annotation = list(transcription)
-	subs = 0
-
-	opening = []
-	closing = []
-
-	fastsequence = False   # >....<
-	slowsequence = False    # <.....>
-	volumesequence = False
-	for char_pos, char in enumerate(list_annotation):
-		# print(char_pos, char)
-		if char == "<":
-			if fastsequence:
-				closing.append(char_pos)
-				fastsequence = False
-			elif not slowsequence:
-				opening.append(char_pos)
-				slowsequence = True
-
-		elif char == ">":
-			if slowsequence:
-				closing.append(char_pos)
-				slowsequence = False
-			elif not fastsequence:
-				opening.append(char_pos)
-				fastsequence = True
-
-		elif char in ["[", "("]:
-			opening.append(char_pos)
-
-		elif char in ["]", ")"]:
-			closing.append(char_pos)
-
-		elif char == "°":
-			if volumesequence:
-				closing.append(char_pos)
-				volumesequence = False
-			else:
-				opening.append(char_pos)
-				volumesequence = True
-
-	opening = sorted(opening)
-
-	for char_pos in opening:
-		if char_pos>0:
-			i = char_pos
-			j = char_pos-1
-
-			while j > 0 and list_annotation[j] not in [" ", "="]:
-				# print(list_annotation[i])
-				if list_annotation[j] == inverse_map[list_annotation[i]]:
-					print("ISSUE!!", list_annotation)
-					break
-
-				list_annotation[i], list_annotation[j] = list_annotation[j], list_annotation[i]
-
-				subs += 1
-				i-=1
-				j-=1
-
-			if j == 0:
-				list_annotation[i], list_annotation[j] = list_annotation[j], list_annotation[i]
-				subs += 1
-
-	opening = []
-	closing = []
-
-	fastsequence = False   # >....<
-	slowsequence = False    # <.....>
-	volumesequence = False
-	for char_pos, char in enumerate(list_annotation):
-		# print(char_pos, char)
-		if char == "<":
-			if fastsequence:
-				closing.append(char_pos)
-				fastsequence = False
-			elif not slowsequence:
-				opening.append(char_pos)
-				slowsequence = True
-
-		elif char == ">":
-			if slowsequence:
-				closing.append(char_pos)
-				slowsequence = False
-			elif not fastsequence:
-				opening.append(char_pos)
-				fastsequence = True
-
-		elif char in ["[", "("]:
-			opening.append(char_pos)
-
-		elif char in ["]", ")"]:
-			closing.append(char_pos)
-
-		elif char == "°":
-			if volumesequence:
-				closing.append(char_pos)
-				volumesequence = False
-			else:
-				opening.append(char_pos)
-				volumesequence = True
-
-	closing = sorted(closing, reverse=True)
-
-	for char_pos in closing:
-		# print("".join(list_annotation), list_annotation[char_pos])
-		if char_pos<len(list_annotation)-1:
-			i = char_pos
-			j = char_pos+1
-
-			while j<len(list_annotation)-1 and list_annotation[j] not in [" ", "="]:
-				if list_annotation[j] == inverse_map[list_annotation[i]]:
-					print("ISSUE!!", list_annotation)
-					break
-				list_annotation[i], list_annotation[j] = list_annotation[j], list_annotation[i]
-
-				subs += 1
-				i+=1
-				j+=1
-
-			if j == len(list_annotation)-1:
-				list_annotation[i], list_annotation[j] = list_annotation[j], list_annotation[i]
-				subs += 1
-
-	return subs, "".join(list_annotation)
-
 if __name__ == "__main__":
-	print(push_parentheses("c[ia]o co(me) va °qu°i"))
+	check_numbers("3 ciao 123 ciao 1")

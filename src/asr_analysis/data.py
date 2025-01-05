@@ -77,7 +77,6 @@ class token:
 
 			return
 
-
 		# STEP2: find final prosodic features: intonation, truncation and interruptions
 		if self.text.endswith("."):
 			self.intonation_pattern = df.intonation.descending
@@ -137,6 +136,19 @@ class token:
 
 		if all(c == "x" for c in self.text):
 			self.unknown = True
+
+		# TODO: move in token
+		#pò, perché etc..
+		substitutions, new_text = pt.replace_che(self.text)
+		self.warnings["ACCENTS"] += substitutions
+		self.text = new_text
+
+		# TODO: move in token
+		substitutions, new_text = pt.replace_po(self.text)
+		self.warnings["ACCENTS"] += substitutions
+		self.annotation = new_text
+
+
 
 	def add_span(self, start, end):
 		self.span = (start, end)
@@ -220,17 +232,6 @@ class transcription_unit:
 		self.warnings["UNEVEN_SPACES"] += substitutions
 		self.annotation = new_transcription
 
-		# TODO: move in token
-		#pò, perché etc..
-		substitutions, new_transcription = pt.replace_che(self.annotation)
-		self.warnings["ACCENTS"] = substitutions
-		self.annotation = new_transcription
-
-		# TODO: move in token
-		substitutions, new_transcription = pt.replace_po(self.annotation)
-		self.warnings["ACCENTS"] += substitutions
-		self.annotation = new_transcription
-
 		# leading and trailing pauses
 		substitutions, new_transcription = pt.remove_pauses(self.annotation)
 		self.warnings["TRIM_PAUSES"] += substitutions
@@ -250,7 +251,12 @@ class transcription_unit:
 		self.errors["UNBALANCED_OVERLAP"] = not pt.check_normal_parentheses(self.annotation, "[", "]")
 		self.errors["UNBALANCED_GUESS"] = not pt.check_normal_parentheses(self.annotation, "(", ")")
 		self.errors["UNBALANCED_PACE"] = not pt.check_angular_parentheses(self.annotation)
-		self.errors["CONTAINS_NUMBERS"] = pt.check_numbers(self.annotation) # TODO add num2words
+
+		# substitute numbers
+		substitutions, new_transcription = pt.check_numbers(self.annotation)
+		self.warnings["NUMBERS"] = substitutions
+		self.annotation = new_transcription
+		# self.errors["CONTAINS_NUMBERS"] = pt.check_numbers(self.annotation) # TODO add num2words
 
 		# fix spaces before and after dots
 		if "°" in self.annotation and not self.errors["UNBALANCED_DOTS"]:
