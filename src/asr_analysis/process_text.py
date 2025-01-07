@@ -237,6 +237,10 @@ def check_numbers(transcription):
 	matches = list(re.finditer(r"\b[0-9]+\b", transcription))
 	spans = [match.span() for match in matches]
 
+	if len(spans) == 0:
+		return 0, transcription
+
+
 	shifted_spans = [(0, spans[0][0])]
 	if len(spans) > 1:
 		i=0

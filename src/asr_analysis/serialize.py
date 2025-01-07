@@ -1,5 +1,6 @@
 import csv
 from asr_analysis import data as d
+from asr_analysis import dataflags as df
 import pandas as pd
 
 # Creating a file that contains statistics for each transcript
@@ -57,32 +58,48 @@ def conversation_to_csv(transcript, output_filename, sep = '\t'):
 
 
 def conversation_to_linear(transcript, output_filename, sep = '\t'):
+
+	fieldnames = ["speaker", "start", "end", "duration", "include",
+				"W:normalized_spaces", "W:numbers", "W:accents", "W:non_jefferson", "W:pauses_trim", "W:prosodic_trim",
+				"E:volume", "E:pace", "E:guess", "E:overlap", "E:overlap_mismatch",
+				"T:shortpauses", "T:metalinguistic", "T:errors", "T:linguistic",
+				"annotation", "correct", "text"]
+
 	with open(output_filename, "w", encoding="utf-8") as fout:
+		writer = csv.DictWriter(fout, fieldnames=fieldnames, delimiter=sep)
+		writer.writeheader()
+
 		for turn_id, turn in enumerate(transcript.turns):
 			turn_speaker = turn.speaker
 			for tu_id in turn.transcription_units_ids:
 				tu = transcript.transcription_units_dict[tu_id]
-				contains_error = any([tu.errors["UNBALANCED_DOTS"],
-									tu.errors["UNBALANCED_OVERLAP"],
-									tu.errors["UNBALANCED_OVERLAP"],
-									tu.errors["UNBALANCED_GUESS"],
-									tu.errors["UNBALANCED_PACE"]])
 
-				infos = [str(turn_id),
-						str(tu_id),
-						turn_speaker,
-						str(tu.duration),
-						# tu.warnings["UNEVEN_SPACES"],
-						# tu.warnings["NON_JEFFERSON"],
-						# tu.warnings["ACCENTS"],
-						# tu.warnings["TRIM_PAUSES"],
-						# tu.warnings["TRIM_PROSODICLINKS"],
-						str(contains_error),
-						tu.orig_annotation,
-						" ".join(str(token) for token in tu.tokens),
-						]
-				print(sep.join(infos), file=fout)
-			print("", file=fout)
+				to_write = {"speaker": tu.speaker,
+							"start": tu.start,
+							"end": tu.end,
+							"duration": tu.duration,
+							"include": tu.include,
+							"annotation": tu.orig_annotation,
+							"correct": tu.annotation,
+							"text": " ".join(str(tok) for tok_id, tok in tu.tokens.items()),
+							"W:normalized_spaces": tu.warnings["UNEVEN_SPACES"],
+							"W:numbers": tu.warnings["NUMBERS"],
+							"W:accents": sum(tok.warnings["ACCENTS"] for tok_id, tok in tu.tokens.items()),
+							"W:non_jefferson": tu.warnings["NON_JEFFERSON"],
+							"W:pauses_trim": tu.warnings["TRIM_PAUSES"],
+							"W:prosodic_trim": tu.warnings["TRIM_PROSODICLINKS"],
+							"E:volume": tu.errors["UNBALANCED_DOTS"],
+							"E:pace": tu.errors["UNBALANCED_PACE"],
+							"E:guess": tu.errors["UNBALANCED_GUESS"],
+							"E:overlap": tu.errors["UNBALANCED_OVERLAP"],
+							"E:overlap_mismatch": tu.errors["MISMATCHING_OVERLAPS"],
+							"T:shortpauses": sum([df.tokentype.shortpause in tok.token_type for tok_id, tok in tu.tokens.items()]),
+							"T:metalinguistic": sum([df.tokentype.metalinguistic in tok.token_type for tok_id, tok in tu.tokens.items()]),
+							"T:errors": sum([df.tokentype.error in tok.token_type for tok_id, tok in tu.tokens.items()]),
+							"T:linguistic": sum([df.tokentype.linguistic in tok.token_type for tok_id, tok in tu.tokens.items()])}
+				writer.writerow(to_write)
+
+			# print("", file=fout)
 
 
 def csv2eaf(input_filename, output_filename, sep="\t"):
@@ -94,20 +111,3 @@ def csv2eaf(input_filename, output_filename, sep="\t"):
 		for row in reader:
 
 			print(row['first_name'], row['last_name'])
-
-# ID_TURNO
-# ID_TRANSCRIPTIONUNIT
-# SPEAKER
-
-# TOKENTYPE
-# TOKEN_TEXT
-# TOKEN_ORIG_TEXT
-# TOKEN_START
-# TOKEN_END
-# TOKEN_INTONATION_PATTERN
-# TOKEN_POSITION
-# TOKEN_PACE
-# TOKEN_VOLUME
-# TOKEN_PROLONGATIONS
-# TOKEN_PROLONGED_SOUNDS
-# TOKEN_INTERRUPTED

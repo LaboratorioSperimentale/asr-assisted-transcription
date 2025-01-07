@@ -126,7 +126,6 @@ class token:
 		new_text, substitutions = re.subn(r":+", "", self.text)
 		if substitutions > 0:
 			self.text = new_text
-			# self.warnings["REMOE_REPLACEMENTS"] = substitutions
 
 		# check for high volume
 		if any(letter.isupper() for letter in self.text):
@@ -244,7 +243,7 @@ class transcription_unit:
 
 		# remove double spaces
 		substitutions, new_transcription = pt.remove_spaces(self.annotation)
-		self.warnings["SPACES"] = substitutions
+		self.warnings["UNEVEN_SPACES"] += substitutions
 		self.annotation = new_transcription
 
 		self.errors["UNBALANCED_DOTS"] = not pt.check_even_dots(self.annotation)
@@ -303,11 +302,6 @@ class transcription_unit:
 			matches = list(re.finditer(r"\([^)]+\)", self.annotation))
 			if len(matches)>0:
 				self.guessing_spans = [match.span() for match in matches]
-
-		# swaps, new_transcription = pt.push_parentheses(self.annotation)
-		# if swaps > 0:
-		# 	self.warnings["PARENTHESES SWAPS"] += swaps
-		# 	self.annotation = new_transcription
 
 		# remove unit if it only includes non-alphabetic symbols
 		if all(c in ["[", "]", "(", ")", "°", ">", "<", "-", "'", "#"] for c in self.annotation):
