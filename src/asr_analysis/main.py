@@ -51,7 +51,8 @@ def process_all_transcripts(input_dir="data/csv_puliti", output_dir="data/output
 #serialize.conversation_to_csv(transcript, "data/output/01_ParlaBOA_E.conll")
 
 			output_filename = os.path.join(output_dir,f"{transcript_name}.conll")
-			serialize.conversation_to_csv(transcript, output_filename)
+			serialize.conversation_to_conll(transcript, output_filename)
+			# serialize.conversation_to_csv(transcript, output_filename)
 			serialize.conversation_to_linear(transcript, os.path.join(output_dir,f"{transcript_name}.tsv"))
 			transcripts_list.append(transcript)
 
@@ -96,7 +97,7 @@ def process_all_transcripts(input_dir="data/csv_puliti", output_dir="data/output
 
 
 if __name__ == "__main__":
-	transcripts_list = process_all_transcripts("dati/sample", "dati/output")
+	transcripts_list = process_all_transcripts("dati/sample2", "dati/output")
 
 	# TODO: inserire dati trascrittori nelle statistiche
 

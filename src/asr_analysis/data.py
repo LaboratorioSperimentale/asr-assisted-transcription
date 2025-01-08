@@ -148,7 +148,6 @@ class token:
 		self.annotation = new_text
 
 
-
 	def add_span(self, start, end):
 		self.span = (start, end)
 
@@ -176,6 +175,7 @@ class token:
 		if field_name == "low_volume":
 			span_id, id_from, id_to = field_value
 			self.low_volume[span_id] = (id_from, id_to)
+			self.volume = df.volume.low
 
 		if field_name == "guesses":
 			span_id, id_from, id_to = field_value
@@ -217,45 +217,53 @@ class transcription_unit:
 		self.annotation = self.annotation.strip()
 		self.orig_annotation = self.annotation
 
+
 		# non jefferson
 		substitutions, new_transcription = pt.clean_non_jefferson_symbols(self.annotation)
 		self.warnings["NON_JEFFERSON"] = substitutions
 		self.annotation = new_transcription
 
+
 		# transform metalinguistic annotations and pauses
 		new_transcription = pt.meta_tag(self.annotation)
 		self.annotation = new_transcription
+
 
 		# spaces before and after parentheses
 		substitutions, new_transcription = pt.check_spaces(self.annotation)
 		self.warnings["UNEVEN_SPACES"] += substitutions
 		self.annotation = new_transcription
 
+
 		# leading and trailing pauses
 		substitutions, new_transcription = pt.remove_pauses(self.annotation)
 		self.warnings["TRIM_PAUSES"] += substitutions
 		self.annotation = new_transcription
+
 
 		# leading and trailing prosodic links
 		substitutions, new_transcription = pt.remove_prosodiclinks(self.annotation)
 		self.warnings["TRIM_PROSODICLINKS"] += substitutions
 		self.annotation = new_transcription
 
+
 		# remove double spaces
 		substitutions, new_transcription = pt.remove_spaces(self.annotation)
 		self.warnings["UNEVEN_SPACES"] += substitutions
 		self.annotation = new_transcription
+
 
 		self.errors["UNBALANCED_DOTS"] = not pt.check_even_dots(self.annotation)
 		self.errors["UNBALANCED_OVERLAP"] = not pt.check_normal_parentheses(self.annotation, "[", "]")
 		self.errors["UNBALANCED_GUESS"] = not pt.check_normal_parentheses(self.annotation, "(", ")")
 		self.errors["UNBALANCED_PACE"] = not pt.check_angular_parentheses(self.annotation)
 
+
 		# substitute numbers
 		substitutions, new_transcription = pt.check_numbers(self.annotation)
 		self.warnings["NUMBERS"] = substitutions
 		self.annotation = new_transcription
-		# self.errors["CONTAINS_NUMBERS"] = pt.check_numbers(self.annotation) # TODO add num2words
+
 
 		# fix spaces before and after dots
 		if "°" in self.annotation and not self.errors["UNBALANCED_DOTS"]:
@@ -263,11 +271,13 @@ class transcription_unit:
 			self.warnings["UNEVEN_SPACES"] += substitutions
 			self.annotation = new_transcription
 
+
 		# fix spaces before and after angular
 		if "<" in self.annotation and not self.errors["UNBALANCED_PACE"]:
 			substitutions, new_transcription = pt.check_spaces_angular(self.annotation)
 			self.warnings["UNEVEN_SPACES"] += substitutions
 			self.annotation = new_transcription
+
 
 		# check how many varying pace spans have been transcribed
 		if "<" in self.annotation and not self.errors["UNBALANCED_PACE"]:
@@ -285,11 +295,13 @@ class transcription_unit:
 			self.slow_pace_spans = [match.span() for match in matches_left]
 			self.fast_pace_spans = [match.span() for match in matches_right]
 
+
 		# check how many low volume spans have been transcribed
 		if "°" in self.annotation and not self.errors["UNBALANCED_DOTS"]:
 			matches = list(re.finditer(r"°[^°]+°", self.annotation))
 			if len(matches)>0:
 				self.low_volume_spans = [match.span() for match in matches]
+
 
 		# check how many overlapping spans have been transcribed
 		if "[" in self.annotation and not self.errors["UNBALANCED_OVERLAP"]:
@@ -297,11 +309,13 @@ class transcription_unit:
 			if len(matches)>0:
 				self.overlapping_spans = [match.span() for match in matches]
 
+
 		# check how many guessing spans have been transcribed
 		if "(" in self.annotation and not self.errors["UNBALANCED_GUESS"]:
 			matches = list(re.finditer(r"\([^)]+\)", self.annotation))
 			if len(matches)>0:
 				self.guessing_spans = [match.span() for match in matches]
+
 
 		# remove unit if it only includes non-alphabetic symbols
 		if all(c in ["[", "]", "(", ")", "°", ">", "<", "-", "'", "#"] for c in self.annotation):

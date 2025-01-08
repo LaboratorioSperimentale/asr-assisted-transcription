@@ -215,7 +215,11 @@ def check_spaces_angular(transcription):
 		else:
 			cur_split.append(char)
 
+	if len(cur_split) > 0:
+		matches.append(cur_split)
+
 	matches = ["".join(x) for x in matches if len(x)>0]
+
 	subs = 0
 	if len(matches)>0:
 		for match_no, match in enumerate(matches):
@@ -223,14 +227,16 @@ def check_spaces_angular(transcription):
 				if match[1] == " ":
 					match = match[0]+match[2:]
 					subs += 1
+					print(subs)
 				if match[-2] == " ":
 					match = match[:-2]+match[-1]
 					subs += 1
+					print(subs)
 				matches[match_no] = match
 		transcription = "".join(matches)
 
 	return subs, transcription.strip()
-	# return matches
+
 
 def check_numbers(transcription):
 
@@ -291,7 +297,7 @@ def meta_tag(transcription):
 def remove_prosodiclinks(transcription):
 	tot_subs = 0
 	new_string, subs_made = re.subn(r"^([\[\]()<>°]?)\s*=\s*|\s*=\s*([\[\]()<>°]?)$",
-									"\1\2",
+									r"\1\2",
 									transcription)
 
 	if subs_made > 0:
@@ -302,4 +308,4 @@ def remove_prosodiclinks(transcription):
 
 
 if __name__ == "__main__":
-	check_numbers("3 ciao 123 ciao 1")
+	print(remove_prosodiclinks("=ciao"))
