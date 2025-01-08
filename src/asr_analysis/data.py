@@ -211,10 +211,6 @@ class transcription_unit:
 	ntokens: int = 0
 
 	def __post_init__(self):
-		self.start = float(self.start)
-		self.end = float(self.end)
-		self.duration = float(self.duration)
-		self.annotation = self.annotation.strip()
 		self.orig_annotation = self.annotation
 
 

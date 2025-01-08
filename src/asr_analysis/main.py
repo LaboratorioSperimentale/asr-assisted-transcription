@@ -16,20 +16,14 @@ def process_all_transcripts(input_dir="data/csv_puliti", output_dir="data/output
 			transcript_name = filename.replace(".csv", "") # rimuove .csv (prendendo come esempio 01_ParlaBOA_E)
 			transcript = data.transcript(transcript_name)
 
-			with open(os.path.join(input_dir, filename), encoding="utf-8") as fin:
-				print(f"Processing {filename}")
-				tu_id = 0
-				for line in fin:
-					linesplit = line.strip().split("\t")
-					if len(linesplit) == 5:
-						speaker, start, end, duration, annotation = linesplit
-					else:
-						print(f"Issue with line {line}")
-						continue
+			file_path = os.path.join(input_dir, filename)
+			print(f"Processing {filename}")
+			tu_id = 0
+			for speaker, start, end, duration, annotation in serialize.read_csv(file_path):
 
-					new_tu = data.transcription_unit(tu_id, speaker, start, end, duration, annotation)
-					transcript.add(new_tu)
-					tu_id += 1
+				new_tu = data.transcription_unit(tu_id, speaker, start, end, duration, annotation)
+				transcript.add(new_tu)
+				tu_id += 1
 
 			transcript.sort()
 			transcript.create_turns()

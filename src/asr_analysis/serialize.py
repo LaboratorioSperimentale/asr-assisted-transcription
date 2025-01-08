@@ -193,7 +193,7 @@ def eaf2csv(input_filename, output_filename, sep="\t"):
 							"start": _from_ts,
 							"end": _to_ts,
 							"duration": _duration,
-							"text": anno.value
+							"text": anno.value.strip()
 							}
 				writer.writerow(to_write)
 

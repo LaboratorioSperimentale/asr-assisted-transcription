@@ -49,7 +49,12 @@ def test_check_angular_parentheses():
 def test_check_spaces_dots():
     assert pt.check_spaces_dots("° ciao°") == (1, "°ciao°")
     assert pt.check_spaces_dots("°ciao °") == (1, "°ciao°")
-    assert pt.check_spaces_dots("bla °bla bla ° ° bla bla°") == (2, "bla °bla bla° °bla bla°")
+    assert pt.check_spaces_dots("bla °bla bla ° bla ° bla bla°") == (2, "bla °bla bla° bla °bla bla°")
+
+def test_check_spaces_angular():
+    assert pt.check_spaces_angular("< ciao>") == (1, "<ciao>")
+    assert pt.check_spaces_angular(">ciao <") == (1, ">ciao<")
+    assert pt.check_spaces_angular("bla >bla bla < bla < bla bla> bla") == (2, "bla >bla bla< bla <bla bla> bla")
 
 
 # def test_check_intonation_patterns(): # TODO
