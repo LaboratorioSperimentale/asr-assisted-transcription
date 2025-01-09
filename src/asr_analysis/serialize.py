@@ -123,6 +123,7 @@ def conversation_to_linear(transcript, output_filename, sep = '\t'):
 	fieldnames = ["tu_id", "speaker", "start", "end", "duration", "include",
 				"W:normalized_spaces", "W:numbers", "W:accents", "W:non_jefferson", "W:pauses_trim", "W:prosodic_trim",
 				"E:volume", "E:pace", "E:guess", "E:overlap", "E:overlap_mismatch",
+				"n_overlapping_spans", "overlapping_units",
 				"T:shortpauses", "T:metalinguistic", "T:errors", "T:linguistic",
 				"annotation", "correct", "text"]
 
@@ -159,6 +160,19 @@ def conversation_to_linear(transcript, output_filename, sep = '\t'):
 							"T:metalinguistic": sum([df.tokentype.metalinguistic in tok.token_type for _, tok in tu.tokens.items()]),
 							"T:errors": sum([df.tokentype.error in tok.token_type for _, tok in tu.tokens.items()]),
 							"T:linguistic": sum([df.tokentype.linguistic in tok.token_type for _, tok in tu.tokens.items()])}
+
+				if tu.errors["MISMATCHING_OVERLAPS"]:
+					to_write["n_overlapping_spans"] = len(tu.overlapping_spans)
+					to_write["overlapping_units"] = len(tu.overlapping_times)
+					# overlapping_units = []
+					# for x, y in tu.overlapping_times.items():
+					# 	x = [str(el) for el in x]
+					# 	overlapping_units.append("+".join(x))
+					# to_write["overlapping_units"] = ",".join(overlapping_units)
+					# print(tu.overlapping_spans)
+					# print(tu.overlapping_times)
+					# input()
+
 				writer.writerow(to_write)
 
 
@@ -175,32 +189,38 @@ def csv2eaf(input_filename, output_filename, sep="\t"):
 
 def eaf2csv(input_filename, output_filename, sep="\t"):
 
-	fieldnames = ["speaker", "start", "end", "duration", "text"]
+	fieldnames = ["tu_id", "speaker", "start", "end", "duration", "text"]
+	full_file = []
 
 	eaf = elan.read_eaf(input_filename)
+	for tier in eaf:
+		for anno in tier.annotations:
+			_from_ts = f"{anno.from_ts.sec:.3f}" if anno.from_ts is not None else ''
+			_to_ts = f"{anno.to_ts.sec:.3f}" if anno.to_ts is not None else ''
+			_duration = f"{anno.duration:.3f}" if anno.duration is not None else ''
+
+			to_write = {"speaker": tier.ID,
+						"start": _from_ts,
+						"end": _to_ts,
+						"duration": _duration,
+						"text": anno.value.strip()
+						}
+			full_file.append(to_write)
+
+	full_file = sorted(full_file, key=lambda x: x["start"])
 
 	with open(output_filename, "w", encoding="utf-8", newline='') as fout:
 		writer = csv.DictWriter(fout, fieldnames=fieldnames, delimiter=sep)
 		writer.writeheader()
 
-		for tier in eaf:
-			for anno in tier.annotations:
-				_from_ts = f"{anno.from_ts.sec:.3f}" if anno.from_ts is not None else ''
-				_to_ts = f"{anno.to_ts.sec:.3f}" if anno.to_ts is not None else ''
-				_duration = f"{anno.duration:.3f}" if anno.duration is not None else ''
-
-				to_write = {"speaker": tier.ID,
-							"start": _from_ts,
-							"end": _to_ts,
-							"duration": _duration,
-							"text": anno.value.strip()
-							}
-				writer.writerow(to_write)
-
+		for el_no, to_write in full_file:
+			to_write["tu_id"] = el_no
+			writer.writerow(to_write)
 
 def read_csv(input_filename):
+
 	with open(input_filename, encoding="utf-8", newline='') as csvfile:
 		reader = csv.DictReader(csvfile, delimiter="\t")
 
 		for row in reader:
-			yield row["speaker"], float(row["start"]), float(row["end"]), float(row["duration"]), row["text"]
+			yield int(row["tu_id"]), row["speaker"], float(row["start"]), float(row["end"]), float(row["duration"]), row["text"]

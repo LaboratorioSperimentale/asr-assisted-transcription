@@ -35,20 +35,16 @@ class token:
 	unknown: bool = False
 	intonation_pattern: df.intonation = None
 	position_in_tu: df.position = df.position.inner
-	# pace: df.pace = None
 	volume: df.volume = None
 	overlaps: Dict[int, Tuple[int, int]] = field(default_factory=lambda: {})
 	slow_pace: Dict[int, Tuple[int, int]] = field(default_factory=lambda: {})
 	guesses: Dict[int, Tuple[int, int]] = field(default_factory=lambda: {})
 	fast_pace: Dict[int, Tuple[int, int]] = field(default_factory=lambda: {})
 	low_volume: Dict[int, Tuple[int, int]] = field(default_factory=lambda: {})
-
-	# guess: bool = False
 	interruption: bool = False
 	truncation: bool = False
 	prosodiclink: bool = False
 	prolongations: Dict[int, int] = field(default_factory=lambda: {})
-	# prolonged_sounds: List[str] = field(default_factory=lambda: collections.defaultdict(int))
 	warnings: Dict[str, int] = field(default_factory=lambda: collections.defaultdict(int))
 	errors: List[str] = field(default_factory=lambda: collections.defaultdict(int))
 
@@ -213,53 +209,44 @@ class transcription_unit:
 	def __post_init__(self):
 		self.orig_annotation = self.annotation
 
-
 		# non jefferson
 		substitutions, new_transcription = pt.clean_non_jefferson_symbols(self.annotation)
 		self.warnings["NON_JEFFERSON"] = substitutions
 		self.annotation = new_transcription
 
-
 		# transform metalinguistic annotations and pauses
 		new_transcription = pt.meta_tag(self.annotation)
 		self.annotation = new_transcription
-
 
 		# spaces before and after parentheses
 		substitutions, new_transcription = pt.check_spaces(self.annotation)
 		self.warnings["UNEVEN_SPACES"] += substitutions
 		self.annotation = new_transcription
 
-
 		# leading and trailing pauses
 		substitutions, new_transcription = pt.remove_pauses(self.annotation)
 		self.warnings["TRIM_PAUSES"] += substitutions
 		self.annotation = new_transcription
-
 
 		# leading and trailing prosodic links
 		substitutions, new_transcription = pt.remove_prosodiclinks(self.annotation)
 		self.warnings["TRIM_PROSODICLINKS"] += substitutions
 		self.annotation = new_transcription
 
-
 		# remove double spaces
 		substitutions, new_transcription = pt.remove_spaces(self.annotation)
 		self.warnings["UNEVEN_SPACES"] += substitutions
 		self.annotation = new_transcription
-
 
 		self.errors["UNBALANCED_DOTS"] = not pt.check_even_dots(self.annotation)
 		self.errors["UNBALANCED_OVERLAP"] = not pt.check_normal_parentheses(self.annotation, "[", "]")
 		self.errors["UNBALANCED_GUESS"] = not pt.check_normal_parentheses(self.annotation, "(", ")")
 		self.errors["UNBALANCED_PACE"] = not pt.check_angular_parentheses(self.annotation)
 
-
 		# substitute numbers
 		substitutions, new_transcription = pt.check_numbers(self.annotation)
 		self.warnings["NUMBERS"] = substitutions
 		self.annotation = new_transcription
-
 
 		# fix spaces before and after dots
 		if "°" in self.annotation and not self.errors["UNBALANCED_DOTS"]:
@@ -267,13 +254,11 @@ class transcription_unit:
 			self.warnings["UNEVEN_SPACES"] += substitutions
 			self.annotation = new_transcription
 
-
 		# fix spaces before and after angular
 		if "<" in self.annotation and not self.errors["UNBALANCED_PACE"]:
 			substitutions, new_transcription = pt.check_spaces_angular(self.annotation)
 			self.warnings["UNEVEN_SPACES"] += substitutions
 			self.annotation = new_transcription
-
 
 		# check how many varying pace spans have been transcribed
 		if "<" in self.annotation and not self.errors["UNBALANCED_PACE"]:
@@ -291,13 +276,11 @@ class transcription_unit:
 			self.slow_pace_spans = [match.span() for match in matches_left]
 			self.fast_pace_spans = [match.span() for match in matches_right]
 
-
 		# check how many low volume spans have been transcribed
 		if "°" in self.annotation and not self.errors["UNBALANCED_DOTS"]:
 			matches = list(re.finditer(r"°[^°]+°", self.annotation))
 			if len(matches)>0:
 				self.low_volume_spans = [match.span() for match in matches]
-
 
 		# check how many overlapping spans have been transcribed
 		if "[" in self.annotation and not self.errors["UNBALANCED_OVERLAP"]:
@@ -305,13 +288,11 @@ class transcription_unit:
 			if len(matches)>0:
 				self.overlapping_spans = [match.span() for match in matches]
 
-
 		# check how many guessing spans have been transcribed
 		if "(" in self.annotation and not self.errors["UNBALANCED_GUESS"]:
 			matches = list(re.finditer(r"\([^)]+\)", self.annotation))
 			if len(matches)>0:
 				self.guessing_spans = [match.span() for match in matches]
-
 
 		# remove unit if it only includes non-alphabetic symbols
 		if all(c in ["[", "]", "(", ")", "°", ">", "<", "-", "'", "#"] for c in self.annotation):
@@ -490,10 +471,16 @@ class transcript:
 		for tu_id, tu  in self.transcription_units_dict.items():
 			spans = tu.overlapping_spans
 			times = tu.overlapping_times
-			if not len(spans) == len(times):
-				tu.errors["MISMATCHING_OVERLAPS"] = True
-			else:
-				tu.overlapping_times = sorted(tu.overlapping_times.items(), key=lambda x: x[1][0])
+			if len(spans) > 0 and len(times) > 0:
+				if not len(spans) == len(times):
+					tu.errors["MISMATCHING_OVERLAPS"] = True
+				else:
+					sorted_overlaps = list(sorted(tu.overlapping_times.items(), key=lambda x: x[1][0]))
+					print(sorted_overlaps)
+					print(spans)
+					input()
+					# tu.overlapping_times = sorted(tu.overlapping_times.items(), key=lambda x: x[1][0])
+					# tu.overlaps = {}
 
 	def create_turns(self):
 
@@ -547,22 +534,6 @@ class transcript:
 		}
 
 		self.statistics = pd.DataFrame(stats.items(), columns=["Statistic", "Value"])
-
-	def to_csv(self, delimiter = "\t"):
-
-		lines = []
-		for tier in self.speakers:
-			lines.append(f"# {tier}{delimiter}{tier}")
-
-		lines.append("\n")
-
-		for tu in self.transcription_units:
-			elements = [tu.tu_id, tu.speaker, tu.include, len(tu.warnings), len(tu.errors),
-						tu.start, tu.end, tu.duration, tu.orig_annotation, tu.annotation]
-			elements_str = delimiter.join(str(x) for x in elements)
-			lines.append(elements_str)
-
-		return "\n".join(lines)
 
 	def __iter__(self):
 		for tu in self.transcription_units:

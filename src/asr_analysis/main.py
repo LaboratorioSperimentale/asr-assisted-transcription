@@ -18,12 +18,10 @@ def process_all_transcripts(input_dir="data/csv_puliti", output_dir="data/output
 
 			file_path = os.path.join(input_dir, filename)
 			print(f"Processing {filename}")
-			tu_id = 0
-			for speaker, start, end, duration, annotation in serialize.read_csv(file_path):
 
+			for tu_id, speaker, start, end, duration, annotation in serialize.read_csv(file_path):
 				new_tu = data.transcription_unit(tu_id, speaker, start, end, duration, annotation)
 				transcript.add(new_tu)
-				tu_id += 1
 
 			transcript.sort()
 			transcript.create_turns()
@@ -91,7 +89,7 @@ def process_all_transcripts(input_dir="data/csv_puliti", output_dir="data/output
 
 
 if __name__ == "__main__":
-	transcripts_list = process_all_transcripts("dati/sample2", "dati/output")
+	transcripts_list = process_all_transcripts("/home/ludop/Documents/kiparla-treebank/asr-assisted-transcription/data/csv_puliti", "dati/output")
 
 	# TODO: inserire dati trascrittori nelle statistiche
 
