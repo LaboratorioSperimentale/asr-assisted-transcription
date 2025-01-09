@@ -1,8 +1,11 @@
 import csv
+import regex as re
+from ast import literal_eval
 from asr_analysis import data as d
 from asr_analysis import dataflags as df
 import pandas as pd
 from speach import elan
+from pympi import Elan as EL
 
 # Creating a file that contains statistics for each transcript
 def print_full_statistics(list_of_transcripts, output_filename):
@@ -178,13 +181,27 @@ def conversation_to_linear(transcript, output_filename, sep = '\t'):
 
 def csv2eaf(input_filename, output_filename, sep="\t"):
 
-	with open(input_filename, newline='') as csvfile:
-
-		reader = csv.DictReader(csvfile)
-
+	tus = []
+	tiers = set()
+	with open(input_filename, encoding="utf-8") as csvfile:
+		reader = csv.DictReader(csvfile, delimiter='\t')
 		for row in reader:
+			tiers.add(row["speaker"])
+			tus.append(row)
 
-			print(row['first_name'], row['last_name'])
+	doc = EL.Eaf(author="automatic_pipeline")
+
+	for tier_id in tiers:
+		doc.add_tier(tier_id=tier_id)
+
+	for annotation in tus:
+		if literal_eval(annotation["include"]):
+			doc.add_annotation(id_tier = annotation["speaker"],
+							start=int(float(annotation["start"])*1000),
+							end=int(float(annotation["end"])*1000),
+							value=f"id:{annotation['tu_id']} {annotation['correct']}"
+							)
+	doc.to_file(output_filename)
 
 
 def eaf2csv(input_filename, output_filename, sep="\t"):
@@ -203,7 +220,7 @@ def eaf2csv(input_filename, output_filename, sep="\t"):
 						"start": _from_ts,
 						"end": _to_ts,
 						"duration": _duration,
-						"text": anno.value.strip()
+						"text": re.sub(r"^id:[0-9]+", "", anno.value.strip())
 						}
 			full_file.append(to_write)
 
@@ -213,9 +230,10 @@ def eaf2csv(input_filename, output_filename, sep="\t"):
 		writer = csv.DictWriter(fout, fieldnames=fieldnames, delimiter=sep)
 		writer.writeheader()
 
-		for el_no, to_write in full_file:
+		for el_no, to_write in enumerate(full_file):
 			to_write["tu_id"] = el_no
 			writer.writerow(to_write)
+
 
 def read_csv(input_filename):
 
@@ -224,3 +242,8 @@ def read_csv(input_filename):
 
 		for row in reader:
 			yield int(row["tu_id"]), row["speaker"], float(row["start"]), float(row["end"]), float(row["duration"]), row["text"]
+
+
+if __name__ == "__main__":
+	eaf2csv("/home/ludop/Documents/kiparla-treebank/dati/output/BOA3017.eaf", "/home/ludop/Documents/kiparla-treebank/dati/output/BOA3017.csv")
+	# csv2eaf("/home/ludop/Documents/kiparla-treebank/dati/output/BOA3017.tsv", "/home/ludop/Documents/kiparla-treebank/dati/output/BOA3017.eaf")
