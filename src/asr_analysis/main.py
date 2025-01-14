@@ -89,8 +89,20 @@ def process_all_transcripts(input_dir="data/csv_puliti", output_dir="data/output
 
 
 if __name__ == "__main__":
-	transcripts_list = process_all_transcripts("/home/ludop/Documents/kiparla-treebank/asr-assisted-transcription/data/csv_puliti", "dati/output")
+	import pathlib
+
+	# for folder in ["KIP", "KIPasti", "ParlaBO", "ParlaTO"]:
+
+	# 	for file in pathlib.Path(f"dati/{folder}_eaf").glob("*.eaf"):
+	# 		basename = file.stem
+
+	# 		serialize.eaf2csv(file, f"dati/{folder}_csv/{basename}.csv")
+
+
+	transcripts_list = process_all_transcripts("dati/sample_step1", "dati/output")
+	for file in pathlib.Path(f"dati/output").glob("*.tsv"):
+		serialize.csv2eaf(file, f"dati/output/{file.stem}.eaf")
 
 	# TODO: inserire dati trascrittori nelle statistiche
 
-	serialize.print_full_statistics(transcripts_list, "dati/output/statistics.csv")
+	# serialize.print_full_statistics(transcripts_list, "dati/output/statistics.csv")

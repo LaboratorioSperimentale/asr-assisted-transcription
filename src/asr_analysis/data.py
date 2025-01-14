@@ -156,9 +156,10 @@ class token:
 	def add_info(self, field_name, field_value):
 		if field_name == "ProsodicLink":
 			self.prosodiclink = True
+
 		if field_name == "overlaps":
-			span_id, id_from, id_to = field_value
-			self.overlaps[span_id] = (id_from, id_to)
+			match_id, id_from, id_to = field_value
+			self.overlaps[match_id] = (id_from, id_to)
 
 		if field_name == "slow_pace":
 			span_id, id_from, id_to = field_value
@@ -194,6 +195,9 @@ class transcription_unit:
 	# split: bool = False
 	overlapping_spans: List[Tuple[int, int]] = field(default_factory=lambda: [])
 	overlapping_times: Dict[str, Tuple[float, float]] = field(default_factory=lambda: {})
+	overlapping_matches: Dict[Tuple[int, int], str] = field(default_factory=lambda: [])
+	overlap_duration: Dict[str, float] = field(default_factory=lambda: {})
+
 	low_volume_spans: List[Tuple[int, int]] = field(default_factory=lambda: [])
 	guessing_spans: List[Tuple[int, int]] = field(default_factory=lambda: [])
 	fast_pace_spans: List[Tuple[int, int]] = field(default_factory=lambda: [])
@@ -356,8 +360,7 @@ class transcription_unit:
 		# print(ids)
 		# print(token_ids)
 
-		for feature_name, spans in [("overlaps", self.overlapping_spans),
-									("slow_pace", self.slow_pace_spans),
+		for feature_name, spans in [("slow_pace", self.slow_pace_spans),
 									("fast_pace", self.fast_pace_spans),
 									("low_volume", self.low_volume_spans),
 									("guesses", self.guessing_spans)]:
@@ -378,6 +381,33 @@ class transcription_unit:
 					self.tokens[id].add_info(feature_name, (span_id,
 															char_ranges[id][0],
 															char_ranges[id][1]))
+
+
+		if len(self.overlapping_matches) > 0:
+
+			for span, match_id in self.overlapping_matches.items():
+				a, b = span[0], span[1]
+
+				data = list(zip(token_ids[a:b], ids[a:b]))
+				# print(data)
+				unique_tokens = set(x for x,y in data if x > -1)
+
+				char_ranges = {x:[] for x in unique_tokens}
+				for token_id, pos_id in data:
+					if token_id in char_ranges:
+						char_ranges[token_id].append(pos_id)
+
+				for id in char_ranges:
+					char_ranges[id] = (min(char_ranges[id]), max(char_ranges[id])+1)
+					self.tokens[id].add_info("overlaps", (match_id,
+														char_ranges[id][0],
+														char_ranges[id][1]))
+				# input()
+		# print(self.overlapping_times)
+		# print(self.overlapping_spans)
+		# print(self.overlapping_matches)
+		# print(self.overlap_duration)
+		# input()
 
 		# add position of token in TU
 		if len(self.tokens) > 0:
@@ -471,14 +501,58 @@ class transcript:
 		for tu_id, tu  in self.transcription_units_dict.items():
 			spans = tu.overlapping_spans
 			times = tu.overlapping_times
-			if len(spans) > 0 and len(times) > 0:
-				if not len(spans) == len(times):
-					tu.errors["MISMATCHING_OVERLAPS"] = True
-				else:
-					sorted_overlaps = list(sorted(tu.overlapping_times.items(), key=lambda x: x[1][0]))
-					print(sorted_overlaps)
-					print(spans)
-					input()
+
+			if len(spans) == len(times):
+				sorted_overlaps = list(sorted(tu.overlapping_times.items(), key=lambda x: x[1][0]))
+				sorted_overlaps = ["+".join([str(el) for el in x]) for x, y in sorted_overlaps]
+				tu.overlapping_matches = dict(zip(tu.overlapping_spans, sorted_overlaps))
+
+			elif len(spans) == 0:
+				tu.errors["MISMATCHING_OVERLAPS"] = True
+				# ids = [tu.tu_id]
+				# for el in tu.overlapping_times:
+				# 	for id in el:
+				# 		ids.append(id)
+
+				for el in tu.overlapping_times:
+					tu.overlap_duration["+".join([str(x) for x in el])] = tu.overlapping_times[el][1]-tu.overlapping_times[el][0]
+				# print(ids)
+				# print(tu.overlapping_times)
+				# print(f"{self.time_based_overlaps[ids[0]][ids[1]]['duration']:.3f}")
+				# print(self.overlap_duration)
+				# input()
+				# TODO: add time difference
+
+			elif len(times) == 0:
+				tu.errors["MISMATCHING_OVERLAPS"] = True
+				sorted_overlaps = ["?" for el in tu.overlapping_spans]
+				tu.overlapping_matches = dict(zip(tu.overlapping_spans, sorted_overlaps))
+				# print(tu.overlapping_matches)
+				# input()
+
+			else:
+				tu.errors["MISMATCHING_OVERLAPS"] = True
+
+				sorted_overlaps = ["?" for el in tu.overlapping_spans]
+				tu.overlapping_matches = dict(zip(tu.overlapping_spans, sorted_overlaps))
+
+				for el in tu.overlapping_times:
+					tu.overlap_duration["+".join([str(x) for x in el])] = tu.overlapping_times[el][1]-tu.overlapping_times[el][0]
+
+				# print(tu.overlapping_times)
+				# print(tu.overlapping_spans)
+				# input()
+
+
+			# if len(spans) > 0 and len(times) > 0:
+			# 	if not len(spans) == len(times):
+			# 		tu.errors["MISMATCHING_OVERLAPS"] = True
+			# 	else:
+			# 		sorted_overlaps = list(sorted(tu.overlapping_times.items(), key=lambda x: x[1][0]))
+			# 		print(sorted_overlaps)
+			# 		print(spans)
+			# 		input()
+
 					# tu.overlapping_times = sorted(tu.overlapping_times.items(), key=lambda x: x[1][0])
 					# tu.overlaps = {}
 

@@ -65,7 +65,7 @@ def conversation_to_conll(transcript, output_filename, sep = '\t'):
 	fieldnames = ["speaker", "tu_id", "token", "orig_token", "span",
 				"type", "align", "intonation", "unknown", "interruption", "truncation",
 				"prosodicLink", "prolongations", "slow_pace", "fast_pace",
-				"volume", "guesses"]
+				"volume", "guesses", "overlaps"]
 
 	with open(output_filename, "w", encoding="utf-8", newline='') as fout:
 		writer = csv.DictWriter(fout, fieldnames=fieldnames, delimiter=sep, restval="_")
@@ -118,6 +118,11 @@ def conversation_to_conll(transcript, output_filename, sep = '\t'):
 						guesses.append(f"{span[0]}-{span[1]}({span_id})")
 					to_write["guesses"] = ",".join(guesses)
 
+					overlaps = []
+					for span_id, span in tok.overlaps.items():
+						overlaps.append(f"{span[0]}-{span[1]}({span_id})")
+					to_write["overlaps"] = ",".join(overlaps)
+
 					writer.writerow(to_write)
 
 
@@ -126,12 +131,12 @@ def conversation_to_linear(transcript, output_filename, sep = '\t'):
 	fieldnames = ["tu_id", "speaker", "start", "end", "duration", "include",
 				"W:normalized_spaces", "W:numbers", "W:accents", "W:non_jefferson", "W:pauses_trim", "W:prosodic_trim",
 				"E:volume", "E:pace", "E:guess", "E:overlap", "E:overlap_mismatch",
-				"n_overlapping_spans", "overlapping_units",
+				"E:overlap_duration",
 				"T:shortpauses", "T:metalinguistic", "T:errors", "T:linguistic",
 				"annotation", "correct", "text"]
 
 	with open(output_filename, "w", encoding="utf-8") as fout:
-		writer = csv.DictWriter(fout, fieldnames=fieldnames, delimiter=sep)
+		writer = csv.DictWriter(fout, fieldnames=fieldnames, delimiter=sep, restval="_")
 		writer.writeheader()
 
 		for turn_id, turn in enumerate(transcript.turns):
@@ -164,9 +169,12 @@ def conversation_to_linear(transcript, output_filename, sep = '\t'):
 							"T:errors": sum([df.tokentype.error in tok.token_type for _, tok in tu.tokens.items()]),
 							"T:linguistic": sum([df.tokentype.linguistic in tok.token_type for _, tok in tu.tokens.items()])}
 
-				if tu.errors["MISMATCHING_OVERLAPS"]:
-					to_write["n_overlapping_spans"] = len(tu.overlapping_spans)
-					to_write["overlapping_units"] = len(tu.overlapping_times)
+				if len(tu.overlap_duration) > 0:
+					overlaps = []
+					for unit_id, duration in tu.overlap_duration.items():
+						overlaps.append(f"{unit_id}={duration:.3f}")
+
+					to_write["E:overlap_duration"] = ",".join(overlaps)
 					# overlapping_units = []
 					# for x, y in tu.overlapping_times.items():
 					# 	x = [str(el) for el in x]
@@ -224,7 +232,7 @@ def eaf2csv(input_filename, output_filename, sep="\t"):
 						}
 			full_file.append(to_write)
 
-	full_file = sorted(full_file, key=lambda x: x["start"])
+	full_file = sorted(full_file, key=lambda x: float(x["start"]))
 
 	with open(output_filename, "w", encoding="utf-8", newline='') as fout:
 		writer = csv.DictWriter(fout, fieldnames=fieldnames, delimiter=sep)

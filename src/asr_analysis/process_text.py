@@ -227,11 +227,11 @@ def check_spaces_angular(transcription):
 				if match[1] == " ":
 					match = match[0]+match[2:]
 					subs += 1
-					print(subs)
+					# print(subs)
 				if match[-2] == " ":
 					match = match[:-2]+match[-1]
 					subs += 1
-					print(subs)
+					# print(subs)
 				matches[match_no] = match
 		transcription = "".join(matches)
 
