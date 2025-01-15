@@ -306,6 +306,13 @@ def remove_prosodiclinks(transcription):
 
 	return tot_subs, transcription.strip()
 
+def check_number_sign(transcription): 
+	if transcription == "#":
+		return "dialect"
+
+def check_x(transcription):
+	if 'x' in transcription:
+		return "unkown" 
 
 if __name__ == "__main__":
 	print(remove_prosodiclinks("=ciao"))

@@ -63,3 +63,9 @@ def test_check_spaces_angular():
 #     assert pt.check_intonation_patterns("ciao?") == ("ascendente")
 #     assert pt.check_intonation_patterns("ciao:") == ("suono_prolungato")
 #     assert pt.check_intonation_patterns("cia-") == ("parola_interrotta")
+
+def test_check_number_sign():
+    assert pt.check_number_sign("#") == ("dialect")
+
+def test_check_x():
+    assert pt.check_x("x") == ("unkown")
