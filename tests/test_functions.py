@@ -66,3 +66,6 @@ def test_check_spaces_angular():
 
 def test_check_number_sign():
     assert pt.check_number_sign("#") == ("dialect")
+
+def test_check_x():
+    assert pt.check_x("x") == ("unkown")
