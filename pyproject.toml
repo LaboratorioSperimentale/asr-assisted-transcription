@@ -23,4 +23,7 @@ classifiers = [
 dependencies = ["pandas",
                 "regex",
                 "speach",
-                "pympi-ling"]
+                "pympi-ling",
+                "networkx",
+                "num2words",
+                "sequence_align"]
