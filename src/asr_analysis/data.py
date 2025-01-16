@@ -9,6 +9,7 @@ from typing import List, Dict, Set, Tuple
 
 import asr_analysis.process_text as pt
 import asr_analysis.dataflags as df
+import csv # for annotators' statistics
 
 @dataclass
 class turn:
@@ -618,7 +619,7 @@ class transcript:
 		self.turns.append(curr_turn)
 
 	# Statistic calculations
-	def get_stats (self):
+	def get_stats (self, annotators_data_csv="data/data_description.csv"):
 		num_speakers = len(self.speakers) # number of speakers
 		num_tu = len(self.transcription_units) # number of TUs
 		num_total_tokens = sum(len(tu.tokens) for tu in self.transcription_units) # total number of tokens
@@ -630,12 +631,28 @@ class transcript:
 		# number of turns
 		num_turns = len(self.turns)
 
+        # open and read the .csv file to extract annotators' data
+		annotators_data = []
+		with open(annotators_data_csv, "r") as file:
+			reader = csv.DictReader(file, delimiter="\t")
+			for row in reader:
+
+				annotators_data.append({
+					"annotator": row["Annotatore"],
+					"reviewer": row["Revisore"],
+					"type": row["Tipo"], #from scratch / whisper-assisted /revised
+					"expertise": row["Esperto"], # expert / non-expert
+					"accuracy": row["Accurato"],
+					"minutes_experience": row["MinutiEsperienza"]
+				})
+
 		stats = {
 			"num_speakers": num_speakers,
 			"num_tu": num_tu,
 			"num_total_tokens": num_total_tokens,
 			"average_duration": average_duration,
 			"num_turns": num_turns,
+			"annotators_data": annotators_data, # ?? non sono sicura
 		}
 
 		self.statistics = pd.DataFrame(stats.items(), columns=["Statistic", "Value"])

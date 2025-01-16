@@ -1,11 +1,12 @@
 import asr_analysis.data as data
 import asr_analysis.serialize as serialize
+import asr_analysis.alignment as alignment
 import pandas as pd
 import os
 
 # Funzione che apre tutti i file transcript e genera un file di output per ognuno
 def process_all_transcripts(input_dir="data/csv_puliti", output_dir="data/output"):
-	transcripts_list = []
+	transcripts_dict = {}
 
 	if not os.path.exists(output_dir): # non abbiamo cartella di output, quindi la creiamo
 		os.makedirs(output_dir)
@@ -47,9 +48,9 @@ def process_all_transcripts(input_dir="data/csv_puliti", output_dir="data/output
 			serialize.conversation_to_conll(transcript, output_filename)
 			# serialize.conversation_to_csv(transcript, output_filename)
 			serialize.conversation_to_linear(transcript, os.path.join(output_dir,f"{transcript_name}.tsv"))
-			transcripts_list.append(transcript)
+			transcripts_dict[transcript_name] = transcript
 
-	return transcripts_list
+	return transcripts_dict
 
 
 # print(transcript)
@@ -100,10 +101,22 @@ if __name__ == "__main__":
 	# 		serialize.eaf2csv(file, f"dati/{folder}_csv/{basename}.csv")
 
 
-	transcripts_list = process_all_transcripts("dati/sample_step1", "dati/output")
-	for file in pathlib.Path(f"dati/output").glob("*.tsv"):
-		serialize.csv2eaf(file, f"dati/output/{file.stem}.eaf")
+	# transcripts_list = process_all_transcripts("dati/sample_step1", "dati/output")
+	# for file in pathlib.Path(f"dati/output").glob("*.tsv"):
+	# 	serialize.csv2eaf(file, f"dati/output/{file.stem}.eaf")
+
+	transcripts = process_all_transcripts("data/csv_puliti", "data/output")
+
+	tokens_a, tokens_b = alignment.align_transcripts(transcripts["02_PastiA_M"], transcripts["01_PastiA_R"])
+
+	print([x.text if not x is None else "_" for x in tokens_a ][:20])
+	print([x.text if not x is None else "_" for x in tokens_b ][:20])
+	# print(transcripts.keys())
+	# input()
+
+	for file in pathlib.Path(f"data/output").glob("*.tsv"):
+		serialize.csv2eaf(file, f"data/output/{file.stem}.eaf")
 
 	# TODO: inserire dati trascrittori nelle statistiche
 
-	# serialize.print_full_statistics(transcripts_list, "dati/output/statistics.csv")
+	serialize.print_full_statistics(transcripts, "data/output/statistics.csv")

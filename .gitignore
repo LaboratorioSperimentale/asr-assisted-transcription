@@ -169,3 +169,5 @@ data/max_trascrizioni.tsv
 *.bak
 .vscode/
 *.conll
+*.bak
+*.eaf.001

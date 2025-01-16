@@ -1,0 +1,259 @@
+tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents	W:non_jefferson	W:pauses_trim	W:prosodic_trim	E:volume	E:pace	E:guess	E:overlap	E:overlap_mismatch	E:overlap_duration	Error rate	T:shortpauses	T:metalinguistic	T:errors	T:linguistic	annotation	correct	text
+1	SP1	0.0	0.668000000000006	0.668	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	per quATTRO?	per quATTRO?	per quattro
+2	SP2	290.300.000.000.002	514.700.000.000.005	2.244	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	8	no n~ un kilo settecento grammi di pasta	no n~ un kilo settecento grammi di pasta	no n~ un kilo settecento grammi di pasta
+3	SP1	535.500.000.000.002	785.900.000.000.004	2.504	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	13	eh [vabbè ma] perché quello il padre se ne mangia assai io so	eh [vabbè ma] perché quello il padre se ne mangia assai io so	eh vabbè ma perché quello il padre se ne mangia assai io so
+4	SP2	554.500.000.000.007	589.300.000.000.003	0.348	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	[con due]	[con due]	con due
+5	SP2	803.600.000.000.006	108.870.000.000.001	2.851	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	11	il padre man~ ne mangia:: ne mangia una scodella da insalata	il padre man~ ne mangia:: ne mangia una scodella da insalata	il padre man~ ne mangia ne mangia una scodella da insalata
+6	SP1	10.903	11.129	0.226	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	eh	eh	eh
+7	SP2	137.670.000.000.001	15.168	1.401	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	con <DUE VASETTI>	con <DUE VASETTI>	con due vasetti
+8	SP2	15.561	17.495	1.934	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	5	del pesto quello là barilla::	del pesto quello là barilla::	del pesto quello là barilla
+9	SP1	17.716	197.850.000.000.001	2.069	True	0	0	0	0	0	0	False	False	False	True	True	10=0.305	MEDIUM	0	0	0	7	[vabb[è gra]zie con settecento grammi di pasta	[vabb[è gra]zie con settecento grammi di pasta	vabbè grazie con settecento grammi di pasta
+10	SP2	17.979	18.284	0.305	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[rico~]	[rico~]	rico~
+11	SP2	20.581	21.5	0.919	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	ricotta e noCI	ricotta e noCI	ricotta e noci
+12	SP2	22.019	23.004	0.985	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	non contENTA	non contENTA	non contenta
+13	SP2	23.344	246.270.000.000.001	1.283	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	5	il fior di latte dentro	il fior di latte dentro	il fior di latte dentro
+14	SP2	249.720.000.000.001	260.120.000.000.001	1.04	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	non contenta	non contenta	non contenta
+15	SP2	26.562	27.668	1.106	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	il parmigiano sopra	il parmigiano sopra	il parmigiano sopra
+16	SP1	288.440.000.000.001	29.623	0.779	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	e non stona?	e non stona?	e non stona
+17	SP2	305.300.000.000.001	33.859	3.329	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	1	14	NON contenta >mi ha detto< eh se c'avevo le noci mettevo pure le noci sopra	NON contenta >mi ha detto< eh se c'avevo le noci mettevo pure le noci sopra	non contenta mi ha detto eh se c'avevo le noci mettevo pure le noci sopra
+18	SP1	340.730.000.000.001	34.717	0.644	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[no]::	[no]::	no
+19	SP3	341.550.000.000.001	34.46	0.305	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[marò]	[marò]	marò
+20	SP1	355.300.000.000.001	360.400.000.000.001	0.51	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	esagerata	esagerata	esagerata
+21	SP2	36.89	39.686	2.796	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	10	ua mi piacevano tanto quelle zucchine le ave[te man]giate tutte	ua mi piacevano tanto quelle zucchine le ave[te man]giate tutte	ua mi piacevano tanto quelle zucchine le avete mangiate tutte
+22	SP1	38.664	38.923	0.259	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[mh]	[mh]	mh
+23	SP1	39.898	404.630.000.000.001	0.565	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	<sorry>	<sorry>	sorry
+24	SP1	40.908	42.422	1.514	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	8	te le rifaccio prima che te ne vai	te le rifaccio prima che te ne vai	te le rifaccio prima che te ne vai
+25	SP3	425.970.000.000.001	42.97	0.373	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	e:h	e:h	eh
+26	SP2	434.200.000.000.001	44.106	0.686	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	5	prima che te ne vai	prima che te ne vai	prima che te ne vai
+27	SP3	443.920.000.000.001	44.561	0.169	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	m:h	m:h	mh
+28	SP2	445.730.000.000.001	45.25	0.677	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	5	è lui che va via	è lui che va via	è lui che va via
+29	SP3	456.950.000.000.001	467.520.000.000.001	1.057	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	4	>sai che possiamo [fare]<?	>sai che possiamo [fare]<?	sai che possiamo fare
+30	SP2	46.2	465.730.000.000.001	0.373	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[m:hm:h]	[m:hm:h]	mhmh
+31	SP2	47.236	47.484	0.248	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	°no°	°no°	no
+32	SP3	47.836	50.211	2.375	True	0	0	0	0	0	0	False	False	False	False	False	_		1	0	0	9	con questa zucchinona gigante che tengo (.) la vogliamo arrostire?	con questa zucchinona gigante che tengo {P} la vogliamo arrostire?	con questa zucchinona gigante che tengo {P} la vogliamo arrostire
+33	SP3	503.710.000.000.001	51.542	1.171	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	ADESSO tipo	ADESSO tipo	adesso tipo
+34	SP3	51.711	533.440.000.000.001	1.633	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	7	cioè non ce la mangiamo adesso però	cioè non ce la mangiamo adesso però	cioè non ce la mangiamo adesso però
+35	SP3	535.590.000.000.001	54.562	1.003	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	5	lo facciamo per domani magari	lo facciamo per domani magari	lo facciamo per domani magari
+36	SP1	545.790.000.000.001	550.450.000.000.001	0.466	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	va bene	va bene	va bene
+37	SP2	553.440.000.000.001	57.686	2.342	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	1	7	ma perché la zucchinona non l'avevi già fatta?	ma perché la zucchinona non l'avevi già fatta?	ma perché la zucchinona non l'avevi già fatta
+38	SP3	57.991	59.221	1.23	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	4	amo' erano DUE zucchino[ne]	amo' erano DUE zucchino[ne]	amo' erano due zucchinone
+39	SP2	59.063	59.803	0.74	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	[°xx] zucchinone°	[°xx] zucchinone°	xx zucchinone
+40	SP3	59.827	61.729	1.902	True	0	0	0	0	0	0	False	False	False	False	False	_		1	0	2	2	una l'ho fatta (.) l'altra::	una l'ho fatta {P} l'altra::	una l'ho fatta {P} l'altra::
+41	SP1	61.994	646.320.000.000.001	2.638	True	0	0	0	0	0	0	False	False	False	False	True	42=0.549,43=0.206,44=0.010	NOT SIGNIFICANT	0	0	1	9	eh ma l'altra [è metà] perché metà [si] deve tagliare	eh ma l'altra [è metà] perché metà [si] deve tagliare	eh ma l'altra è metà perché metà si deve tagliare
+42	SP2	62.585	63.134	0.549	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	[è nel frigo]	[è nel frigo]	è nel frigo
+43	SP2	635.970.000.000.001	63.803	0.206	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[eh]	[eh]	eh
+44	SP3	646.220.000.000.001	68.832	4.21	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	1	15	[p]erché nel frigo:: [stava troppo: forte se:]: ì m: il ghiaccio l'ha tipo un po: m::h	[p]erché nel frigo:: [stava troppo: forte se:]: ì m: il ghiaccio l'ha tipo un po: m::h	perché nel frigo stava troppo forte se ì m il ghiaccio l'ha tipo un po mh
+45	SP1	654.000.000.000.001	669.500.000.000.001	1.55	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	6	[il ghiaccio là che è eh]	[il ghiaccio là che è eh]	il ghiaccio là che è eh
+46	SP3	69.623	71.635	2.012	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	8	disturbata diciamo così non so [co]me dire m::h	disturbata diciamo così non so [co]me dire m::h	disturbata diciamo così non so come dire mh
+47	SP2	71.029	711.710.000.000.001	0.142	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[m:h]	[m:h]	mh
+48	SP3	720.640.000.000.001	736.990.000.000.001	1.635	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	7	cioè si è [fa]tta tipo molla, [strana]	cioè si è [fa]tta tipo molla, [strana]	cioè si è fatta tipo molla strana
+49	SP2	722.560.000.000.001	72.407	0.151	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[no]	[no]	no
+50	SP2	731.020.000.000.001	741.890.000.000.001	1.087	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	1	1	[s'è con]gelata	[s'è con]gelata	s'è congelata
+51	SP3	75.207	77.058	1.851	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	10	eh ma si è fatta molla [strana da un lato]	eh ma si è fatta molla [strana da un lato]	eh ma si è fatta molla strana da un lato
+52	SP2	76.206	779.720.000.000.001	1.766	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	6	[eh si è brucia]ta si è::	[eh si è brucia]ta si è::	eh si è bruciata si è
+53	SP3	779.740.000.000.001	79.664	1.69	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	7	bra~ tipo forse una bruciatura da: gelo	bra~ tipo forse una bruciatura da: gelo	bra~ tipo forse una bruciatura da gelo
+54	SP2	80.462	808.190.000.000.001	0.357	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	m:h	m:h	mh
+55	SP2	841.020.000.000.001	86.368	2.266	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	8	mi è piaciuto come le ha:: fatte rosanna	mi è piaciuto come le ha:: fatte rosanna	mi è piaciuto come le ha fatte rosanna
+56	SP1	86.856	87.32	0.464	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	olè	olè	olè
+57	SP2	87.889	89.788	1.899	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	2	3	c'ha messo [dentro l'ori]gano tuttavia	c'ha messo [dentro l'ori]gano tuttavia	c'ha messo dentro l'origano tuttavia
+58	SP1	884.010.000.000.001	888.190.000.000.001	0.418	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[xx]	[xx]	xx
+59	SP3	906.180.000.000.001	947.280.000.000.001	4.11	True	0	0	0	0	0	0	False	False	False	False	True	60=1.129		0	0	0	16	davvero do~ dovresti essere contenta è il primo: complimento da qua~ che hai cucinato qualcosa tu	davvero do~ dovresti essere contenta è il primo: complimento da qua~ che hai cucinato qualcosa tu	davvero do~ dovresti essere contenta è il primo complimento da qua~ che hai cucinato qualcosa tu
+60	SP1	935.990.000.000.001	95.216	1.617	True	0	0	0	0	0	0	False	False	False	False	True	59=1.129		0	1	0	0	((applaude))	{applaude}	{applaude}
+61	SP1	954.630.000.000.001	98.991	3.528	True	0	0	0	0	0	0	False	False	False	False	True	62=0.208		0	0	0	14	grazie gra~ me lo ricorderò a vita sappiate che non si replicherà mai più	grazie gra~ me lo ricorderò a vita sappiate che non si replicherà mai più	grazie gra~ me lo ricorderò a vita sappiate che non si replicherà mai più
+62	SP3	98.783	995.500.000.000.001	0.767	True	0	0	0	0	0	0	False	False	False	False	True	61=0.208		0	1	0	0	((ride))	{ride}	{ride}
+63	SP1	100.26	102.741	2.481	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	7	no perché poi io invece e:: adoro	no perché poi io invece e:: adoro	no perché poi io invece e adoro
+64	SP1	103.054	106.364	3.31	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	11	i~ come mangiano in ospedale praticamente luciana me lo dice sempre	i~ come mangiano in ospedale praticamente luciana me lo dice sempre	i~ come mangiano in ospedale praticamente luciana me lo dice sempre
+65	SP1	106.706	107.872	1.166	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	allora senza sale	allora senza sale	allora senza sale
+66	SP1	108.462	112.53	4.068	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	1	14	cioè meno sale c'è più mi piace, senza olio, senza niente cioè meno condimento è	cioè meno sale c'è più mi piace, senza olio, senza niente cioè meno condimento è	cioè meno sale c'è più mi piace senza olio senza niente cioè meno condimento è
+67	SP3	112.647	114.369	1.722	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	2	10	questo sale l'ho pre so [perché] me l'hai chiesto tu eh però	questo sale l'ho pre so [perché] me l'hai chiesto tu eh però	questo sale l'ho pre so perché me l'hai chiesto tu eh però
+68	SP1	113.3	113.491	0.191	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[eh]	[eh]	eh
+69	SP1	114.552	115.788	1.236	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	6	no [no s]ì sì questo sì	no [no s]ì sì questo sì	no no sì sì questo sì
+70	SP3	114.658	115.0	0.342	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[xx]	[xx]	xx
+71	SP3	116.582	117.114	0.532	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	più o meno	più o meno	più o meno
+72	SP1	117.975	119.434	1.459	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	6	no ci sono cose e cose	no ci sono cose e cose	no ci sono cose e cose
+73	SP1	120.058	123.205	3.147	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	12	però tipo la pasta me la sto mangiando quasi completamente senza sale	però tipo la pasta me la sto mangiando quasi completamente senza sale	però tipo la pasta me la sto mangiando quasi completamente senza sale
+74	SP3	123.333	123.635	0.302	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	m:h	m:h	mh
+75	SP3	124.627	125.741	1.114	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	7	non fa schifo la pasta senza sa~?	non fa schifo la pasta senza sa~?	non fa schifo la pasta senza sa~
+76	SP1	125.751	130.823	5.072	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	21	lo so ma mi sono abituata al sapore ormai PURE QUANDO CI METTI UN PIZZICO DI SALE IO LA SENTO SALATISSIMA	lo so ma mi sono abituata al sapore ormai PURE QUANDO CI METTI UN PIZZICO DI SALE IO LA SENTO SALATISSIMA	lo so ma mi sono abituata al sapore ormai pure quando ci metti un pizzico di sale io la sento salatissima
+77	SP3	130.836	132.597	1.761	True	0	0	0	0	0	0	False	False	False	False	False	_		1	0	1	6	cioè non metti proprio (.) il sale nell'acqu[a]?	cioè non metti proprio {P} il sale nell'acqu[a]?	cioè non metti proprio {P} il sale nell'acqua?
+78	SP1	132.493	132.961	0.468	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[n]:o	[n]:o	no
+79	SP1	134.233	134.766	0.533	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	m:h	m:h	mh
+80	SP2	135.023	135.411	0.388	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[cosa]?	[cosa]?	cosa
+81	SP3	135.027	135.96	0.933	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	[che schi]fo amo'	[che schi]fo amo'	che schifo amo'
+82	SP1	136.311	139.479	3.168	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	13	eh lo so però no xx mi sono abituata non so il perché	eh lo so però no xx mi sono abituata non so il perché	eh lo so però no xx mi sono abituata non so il perché
+83	SP2	140.819	141.118	0.299	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	vabbè	vabbè	vabbè
+84	SP2	141.615	142.205	0.59	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	che problema hai	che problema hai	che problema hai
+85	SP3	142.318	142.886	0.568	True	0	0	0	0	0	0	False	False	False	False	True	86=0.174		0	1	0	0	((ride))	{ride}	{ride}
+86	SP1	142.712	145.145	2.433	True	0	0	0	0	0	0	False	False	False	False	True	85=0.174		1	0	0	7	eh INFATTI che problema ho (.) d:itemelo voi	eh INFATTI che problema ho {P} d:itemelo voi	eh infatti che problema ho {P} ditemelo voi
+87	SP2	145.152	146.564	1.412	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	6	vabbè meglio così in realtà eh	vabbè meglio così in realtà eh	vabbè meglio così in realtà eh
+88	SP3	146.564	147.005	0.441	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	tanti	tanti	tanti
+89	SP1	147.745	149.196	1.451	True	0	0	0	0	0	0	False	False	False	False	True	90=0.450		0	1	0	3	marò veramente tantissimi ((ride))	marò veramente tantissimi {ride}	marò veramente tantissimi {ride}
+90	SP3	148.746	149.327	0.581	True	0	0	0	0	0	0	False	False	False	False	True	89=0.450		0	1	0	0	((ride))	{ride}	{ride}
+91	SP2	149.586	150.218	0.632	True	0	0	0	0	0	0	False	False	False	False	True	92=0.001	NOT SIGNIFICANT	0	0	0	3	cioè voglio dire	cioè voglio dire	cioè voglio dire
+92	SP3	150.217	150.646	0.429	True	0	0	0	0	0	0	False	False	False	False	True	91=0.001	NOT SIGNIFICANT	0	0	0	1	ops	ops	ops
+93	SP2	150.648	155.468	4.82	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	1	18	che non la vuoi: che è sala:~ cioè che non vuoi mettere il sale nel condimento della pasta però:	che non la vuoi: che è sala:~ cioè che non vuoi mettere il sale nel condimento della pasta però:	che non la vuoi che è sala:~ cioè che non vuoi mettere il sale nel condimento della pasta però
+94	SP2	155.756	158.386	2.63	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	1	7	non salare l'acqua quando la bolli e: illega[le]	non salare l'acqua quando la bolli e: illega[le]	non salare l'acqua quando la bolli e illegale
+95	SP3	158.155	158.825	0.67	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[es]at[to]	[es]at[to]	esatto
+96	SP2	158.565	159.06	0.495	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	[non si fa]	[non si fa]	non si fa
+97	SP1	158.719	159.905	1.186	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	[è ill]egale	[è ill]egale	è illegale
+98	SP1	160.905	167.807	6.902	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	33	lo so ma ti vi giuro che io sento ormai sempre salato >pure< se ci metti un pizzico io non ce la faccio a mangiarlo non so >quante volte ho litigato con mamma<	lo so ma ti vi giuro che io sento ormai sempre salato >pure< se ci metti un pizzico io non ce la faccio a mangiarlo non so >quante volte ho litigato con mamma<	lo so ma ti vi giuro che io sento ormai sempre salato pure se ci metti un pizzico io non ce la faccio a mangiarlo non so quante volte ho litigato con mamma
+99	SP2	168.27	169.196	0.926	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	vabbè meglio così	vabbè meglio così	vabbè meglio così
+100	SP1	170.028	172.54	2.512	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	5	perché la sento oggettivamente salata	perché la sento oggettivamente salata	perché la sento oggettivamente salata
+101	SP2	175.375	177.304	1.929	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	9	io comunque non so voi ho ancora fame voi?	io comunque non so voi ho ancora fame voi?	io comunque non so voi ho ancora fame voi
+102	SP3	178.082	180.713	2.631	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	9	io: non particolarme~ [mangiati un po'] di queste melanzanette	io: non particolarme~ [mangiati un po'] di queste melanzanette	io non particolarme~ mangiati un po' di queste melanzanette
+103	SP1	179.056	179.598	0.542	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	[io no:]	[io no:]	io no
+104	SP2	180.877	182.848	1.971	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	7	io volevo le m:h zucchine di rosanna	io volevo le m:h zucchine di rosanna	io volevo le mh zucchine di rosanna
+105	SP2	183.112	185.045	1.933	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	5	le avete mangiate [tutte quante]	le avete mangiate [tutte quante]	le avete mangiate tutte quante
+106	SP3	184.083	185.042	0.959	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	4	[eh amo' sono finite]	[eh amo' sono finite]	eh amo' sono finite
+107	SP1	184.758	187.653	2.895	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	16	[SENTI] non so se già le hai assaggiate ma x a me fanno schifo ste cose	[SENTI] non so se già le hai assaggiate ma x a me fanno schifo ste cose	senti non so se già le hai assaggiate ma x a me fanno schifo ste cose
+108	SP2	189.338	189.725	0.387	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	vabbè	vabbè	vabbè
+109	SP3	191.84	192.983	1.143	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	5	non sono quelle della mamma	non sono quelle della mamma	non sono quelle della mamma
+110	SP1	193.086	196.873	3.787	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	10	no[: no sono] brutte proprio amo' sono: sottaceto no sottolio	no[: no sono] brutte proprio amo' sono: sottaceto no sottolio	no no sono brutte proprio amo' sono sottaceto no sottolio
+111	SP3	193.203	193.961	0.758	True	0	0	0	0	0	0	False	False	False	False	True	110=0.758	HIGH	0	0	0	3	ma sono buone	ma sono buone	ma sono buone
+112	SP3	197.249	197.877	0.628	True	0	0	0	0	0	0	False	False	False	False	False	_		1	0	0	3	è vero (.) però	è vero {P} però	è vero {P} però
+113	SP1	197.938	198.901	0.963	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	no so bruttissime	no so bruttissime	no so bruttissime
+114	SP3	198.977	199.453	0.476	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	ROSA	ROSA	rosa
+115	SP3	199.71	202.932	3.222	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	1	12	#sanna cunsuma' se fai questa cattiva [pubblicità ALBERTO NON SE LE MANGIA] eh	#sanna cunsuma' se fai questa cattiva [pubblicità ALBERTO NON SE LE MANGIA] eh	#sanna cunsuma' se fai questa cattiva pubblicità alberto non se le mangia eh
+116	SP1	201.156	202.815	1.659	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	7	[lo so ma non mi PIACCIONO ah]	[lo so ma non mi PIACCIONO ah]	lo so ma non mi piacciono ah
+117	SP2	204.151	206.897	2.746	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	11	ma a me neanche piacciono mi piacciono solo quelle di mamma	ma a me neanche piacciono mi piacciono solo quelle di mamma	ma a me neanche piacciono mi piacciono solo quelle di mamma
+118	SP3	207.918	208.118	0.2	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	Sì	Sì	sì
+119	SP3	208.778	210.414	1.636	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	10	anche a me piacciono soltanto quelle della mamma di roberto	anche a me piacciono soltanto quelle della mamma di roberto	anche a me piacciono soltanto quelle della mamma di roberto
+120	SP2	210.861	212.52	1.659	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	5	fanno s[chif]o sanno di zenzero	fanno s[chif]o sanno di zenzero	fanno schifo sanno di zenzero
+121	SP1	211.226	211.418	0.192	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[eh]	[eh]	eh
+122	SP1	212.606	213.936	1.33	True	0	0	0	0	0	0	False	False	False	False	False	_		1	0	0	3	sono (.) di zenzero?	sono {P} di zenzero?	sono {P} di zenzero
+123	SP3	213.983	214.504	0.521	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	ma no:	ma no:	ma no
+124	SP1	214.536	215.913	1.377	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	4	no zenzero <non saprei>	no zenzero <non saprei>	no zenzero non saprei
+125	SP3	218.274	219.59	1.316	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	8	per me è come rosanna sanno di aceto	per me è come rosanna sanno di aceto	per me è come rosanna sanno di aceto
+126	SP2	220.032	220.823	0.791	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	4	no non sono buone	no non sono buone	no non sono buone
+127	SP2	221.147	221.95	0.803	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	sono brutte proprio	sono brutte proprio	sono brutte proprio
+128	SP3	222.118	222.81	0.692	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	[le dobbiamo BUTTARE?]	[le dobbiamo BUTTARE?]	le dobbiamo buttare
+129	SP1	222.118	223.494	1.376	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	[sì sono <bru]tte:>	[sì sono <bru]tte:>	sì sono brutte
+130	SP3	223.684	225.84	2.156	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	14	che dite le buttiamo e com~ e apriamo quelle là della mamma di ALBERTO?	che dite le buttiamo e com~ e apriamo quelle là della mamma di ALBERTO?	che dite le buttiamo e com~ e apriamo quelle là della mamma di alberto
+131	SP1	226.353	227.148	0.795	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	e:[:h io]	e:[:h io]	eh io
+132	SP3	226.624	227.483	0.859	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	[che ne pensa]te?	[che ne pensa]te?	che ne pensate
+133	SP2	227.86	228.459	0.599	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	beh è peccato	beh è peccato	beh è peccato
+134	SP1	228.753	229.953	1.2	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	5	è un [po' un]o spre:co	è un [po' un]o spre:co	è un po' uno spreco
+135	SP3	229.032	229.304	0.272	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[eh]	[eh]	eh
+136	SP3	231.049	233.434	2.385	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	12	eh lo so raga' però pure io [(le sto mangiando) per forza]	eh lo so raga' però pure io [(le sto mangiando) per forza]	eh lo so raga' però pure io le sto mangiando per forza
+137	SP2	232.426	235.456	3.03	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	12	[però sono veramente bru]tte queste °mamma mia sembrano finte ma che è°	[però sono veramente bru]tte queste °mamma mia sembrano finte ma che è°	però sono veramente brutte queste mamma mia sembrano finte ma che è
+138	SP1	235.606	237.099	1.493	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	E:H sono bruttissime::	E:H sono bruttissime::	eh sono bruttissime
+139	SP2	237.477	238.75	1.273	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	4	non hanno texture sono	non hanno texture sono	non hanno texture sono
+140	SP2	241.059	244.007	2.948	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	8	io un tempo compravo quella là:: della lidl	io un tempo compravo quella là:: della lidl	io un tempo compravo quella là della lidl
+141	SP1	244.383	244.815	0.432	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	m:h	m:h	mh
+142	SP2	245.712	246.532	0.82	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	BARESA	BARESA	baresa
+143	SP1	246.537	250.159	3.622	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	17	no ma ce ne sono delle marche in barattolo che sono buone ma queste sono proprio brutte	no ma ce ne sono delle marche in barattolo che sono buone ma queste sono proprio brutte	no ma ce ne sono delle marche in barattolo che sono buone ma queste sono proprio brutte
+144	SP3	250.267	253.513	3.246	True	0	0	0	0	0	0	False	False	False	True	True	145=0.306,146=0.724	NOT SIGNIFICANT	1	0	1	14	vabbè [queste so]no (.) d'amico in teoria dovrebb~ le x cioè è una marca buona] costa	vabbè [queste so]no {P} d'amico in teoria dovrebb~ le x cioè è una marca buona] costa	vabbè queste sono {P} d'amico in teoria dovrebb~ le x cioè è una marca buona costa
+145	SP1	250.388	250.694	0.306	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[xx]	[xx]	xx
+146	SP2	252.358	253.082	0.724	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	[COSTANO EH]	[COSTANO EH]	costano eh
+147	SP1	253.552	253.983	0.431	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	1	3	#°eh [nu me piace°]	#°eh [nu me piace°]	#eh nu me piace
+148	SP2	253.942	254.991	1.049	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	[cos]tano queste	[cos]tano queste	costano queste
+149	SP1	256.282	257.713	1.431	True	0	0	0	0	0	0	False	False	False	False	True	150=0.331		0	0	1	5	e come ma~ mamma l'ha comprate?	e come ma~ mamma l'ha comprate?	e come ma~ mamma l'ha comprate
+150	SP3	257.382	258.491	1.109	True	0	0	0	0	0	0	False	False	False	False	True	149=0.331,151=0.015		0	1	0	0	((ride))	{ride}	{ride}
+151	SP1	258.476	259.685	1.209	True	0	0	0	0	0	0	False	False	False	False	True	150=0.015,152=0.595,153=0.112		0	1	0	0	((ride))	{ride}	{ride}
+152	SP2	258.561	259.156	0.595	True	0	0	0	0	0	0	False	False	False	False	True	151=0.595		0	1	0	0	((ride))	{ride}	{ride}
+153	SP2	259.573	260.507	0.934	True	0	0	0	0	0	0	False	False	False	False	True	151=0.112,154=0.519		0	0	0	4	ha fatto i [soldi]	ha fatto i [soldi]	ha fatto i soldi
+154	SP1	259.988	261.702	1.714	True	2	0	0	0	0	0	False	False	False	False	False	_		0	1	0	3	[(scusa) ]((ride)) eh infatti	[(scusa)] {ride} eh infatti	scusa {ride} eh infatti
+155	SP3	261.95	264.321	2.371	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	15	>infatti quando luciana le ha portate< che non erano emme di ho detto oh oh	>infatti quando luciana le ha portate< che non erano emme di ho detto oh oh	infatti quando luciana le ha portate che non erano emme di ho detto oh oh
+156	SP1	264.335	265.388	1.053	True	0	0	0	0	0	0	False	False	False	False	False	_		0	1	0	2	ma: scusa[mi] ((ride))	ma: scusa[mi] {ride}	ma scusami {ride}
+157	SP3	264.721	265.096	0.375	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[xx]	[xx]	xx
+158	SP3	265.618	266.409	0.791	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	qualcosa non va	qualcosa non va	qualcosa non va
+159	SP2	267.313	269.803	2.49	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	10	vabbè ma: le: raga~ loro vanno anche alla conad no?	vabbè ma: le: raga~ loro vanno anche alla conad no?	vabbè ma le raga~ loro vanno anche alla conad no
+160	SP1	270.672	272.383	1.711	True	0	0	0	0	0	0	False	False	False	False	False	_		0	1	0	4	sì: però:: in genere:: ((ride))	sì: però:: in genere:: {ride}	sì però in genere {ride}
+161	SP3	272.926	274.315	1.389	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	7	mi [mangio un altro] di: questa vai	mi [mangio un altro] di: questa vai	mi mangio un altro di questa vai
+162	SP1	273.008	273.86	0.852	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	[per il PANE]	[per il PANE]	per il pane
+163	SP1	274.766	275.405	0.639	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	perché::	perché::	perché
+164	SP1	276.762	280.2	3.438	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	15	no sul pane abbiamo i vizi ma su tutto il resto no siamo abbastanza: ch[eap]	no sul pane abbiamo i vizi ma su tutto il resto no siamo abbastanza: ch[eap]	no sul pane abbiamo i vizi ma su tutto il resto no siamo abbastanza cheap
+165	SP2	280.067	282.286	2.219	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	7	[be]h il pane della conad al gio[lì::]	[be]h il pane della conad al gio[lì::]	beh il pane della conad al giolì
+166	SP3	281.53	282.841	1.311	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	[m:]:h [buono]	[m:]:h [buono]	mh buono
+167	SP1	282.569	283.418	0.849	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	[è buonissimo]	[è buonissimo]	è buonissimo
+168	SP2	283.914	285.41	1.496	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	7	mamma mia mai mangiato un pane così	mamma mia mai mangiato un pane così	mamma mia mai mangiato un pane così
+169	SP3	286.254	286.613	0.359	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	è vero	è vero	è vero
+170	SP2	288.905	293.002	4.097	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	13	è più buono anche di quello al villaggio: della paninoteca: [eh della:: pa~]	è più buono anche di quello al villaggio: della paninoteca: [eh della:: pa~]	è più buono anche di quello al villaggio della paninoteca eh della pa~
+171	SP1	291.813	293.177	1.364	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	5	[pure secondo me lo sa:]i	[pure secondo me lo sa:]i	pure secondo me lo sai
+172	SP2	293.548	293.996	0.448	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	°come si chiama°	°come si chiama°	come si chiama
+173	SP2	294.245	294.864	0.619	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[panetteria]	[panetteria]	panetteria
+174	SP3	294.25	294.867	0.617	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	[pa~ michele]	[pa~ michele]	pa~ michele
+175	SP3	295.159	295.758	0.599	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	la panetteria	la panetteria	la panetteria
+176	SP2	297.28	298.259	0.979	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	4	è molto molto buono	è molto molto buono	è molto molto buono
+177	SP2	300.483	301.873	1.39	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	1	6	e poi quando c'è la polacca là	e poi quando c'è la polacca là	e poi quando c'è la polacca là
+178	SP2	302.386	303.602	1.216	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	4	mi fa ridere tantissimo	mi fa ridere tantissimo	mi fa ridere tantissimo
+179	SP3	303.888	304.121	0.233	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	perché?	perché?	perché
+180	SP1	304.286	307.888	3.602	True	0	0	0	0	0	0	False	False	False	False	True	181=1.140	NOT SIGNIFICANT	1	0	1	11	io trovo sempre e solo lei in realtà pensavo fosse l'un[ica] (.) [commessa]	io trovo sempre e solo lei in realtà pensavo fosse l'un[ica] {P} [commessa]	io trovo sempre e solo lei in realtà pensavo fosse l'unica {P} commessa
+181	SP2	306.748	308.477	1.729	True	0	0	0	0	0	0	False	False	False	False	True	180=1.140	NOT SIGNIFICANT	0	0	2	4	[m:h] no [c'è anche un'altra] signora	[m:h] no [c'è anche un'altra] signora	mh no c'è anche un'altra signora
+182	SP2	308.744	309.959	1.215	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	5	fa AMORE COSA TI DO	fa AMORE COSA TI DO	fa amore cosa ti do
+183	SP3	309.96	310.83	0.87	True	0	0	0	0	0	0	False	False	False	False	False	_		0	1	0	0	((ride))	{ride}	{ride}
+184	SP2	310.952	311.61	0.658	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	TESORO	TESORO	tesoro
+185	SP1	311.824	312.534	0.71	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	<è vero>	<è vero>	è vero
+186	SP2	313.008	313.897	0.889	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	niente più CARO?	niente più CARO?	niente più caro
+187	SP3	314.088	314.853	0.765	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	1	4	io non l'ho mai vista	io non l'ho mai vista	io non l'ho mai vista
+188	SP3	315.614	315.994	0.38	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	vabbè [pe~]	vabbè [pe~]	vabbè pe~
+189	SP1	315.894	316.242	0.348	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[no]:?	[no]:?	no
+190	SP3	316.245	318.391	2.146	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	9	e non ci sto da sei mesi raga e:[:h]	e non ci sto da sei mesi raga e:[:h]	e non ci sto da sei mesi raga eh
+191	SP1	317.725	318.391	0.666	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	[ah vero]	[ah vero]	ah vero
+192	SP1	318.508	319.621	1.113	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	4	giu[sto mi ero (dimenticata)]	giu[sto mi ero (dimenticata)]	giusto mi ero dimenticata
+193	SP2	318.708	319.757	1.049	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	[SIGNORA BEL]LA	[SIGNORA BEL]LA	signora bella
+194	SP2	321.256	322.091	0.835	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	5	mi fa ridere un sacco	mi fa ridere un sacco	mi fa ridere un sacco
+195	SP1	322.095	323.18	1.085	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	6	no è vero è che cazz	no è vero è che cazz	no è vero è che cazz
+196	SP3	323.373	327.139	3.766	True	0	0	0	0	0	0	False	False	False	False	False	_		1	0	0	18	poi anche quando stavo qua sei mesi fa (.) non andavo io a fare la spesa devo ammetere quindi	poi anche quando stavo qua sei mesi fa {P} non andavo io a fare la spesa devo ammetere quindi	poi anche quando stavo qua sei mesi fa {P} non andavo io a fare la spesa devo ammetere quindi
+197	SP3	329.364	329.807	0.443	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	in più	in più	in più
+198	SP3	330.164	330.655	0.491	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	in realtà	in realtà	in realtà
+199	SP3	330.983	332.015	1.032	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	ancora AGGIUNGENDO	ancora AGGIUNGENDO	ancora aggiungendo
+200	SP3	332.862	339.199	6.337	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	1	21	e:::h non compro pane noi no~ quando stavamo qua non compravamo pane perché zio daniele ce lo porta[va che lavora]va nel [panetti]::~	e:::h non compro pane noi no~ quando stavamo qua non compravamo pane perché zio daniele ce lo porta[va che lavora]va nel [panetti]::~	eh non compro pane noi no~ quando stavamo qua non compravamo pane perché zio daniele ce lo portava che lavorava nel panetti::~
+201	SP1	337.499	338.207	0.708	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	[ve lo portava]	[ve lo portava]	ve lo portava
+202	SP1	338.918	339.704	0.786	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[giusta]mente	[giusta]mente	giustamente
+203	SP3	339.704	339.912	0.208	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	xx	xx	xx
+204	SP3	340.479	341.273	0.794	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	4	come si dice panettificio?	come si dice panettificio?	come si dice panettificio
+205	SP1	341.622	343.333	1.711	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	8	ma quindi non le apriamo quelle di alberto?	ma quindi non le apriamo quelle di alberto?	ma quindi non le apriamo quelle di alberto
+206	SP2	344.946	348.659	3.713	True	0	0	0	0	0	0	False	False	False	False	True	207=0.461		0	0	0	13	aprile dai amo' queste so' veramente brutte tu le v~ le mangi però?	aprile dai amo' queste so' veramente brutte tu le v~ le mangi però?	aprile dai amo' queste so' veramente brutte tu le v~ le mangi però
+207	SP1	344.993	345.454	0.461	True	0	0	0	0	0	0	False	False	False	False	True	206=0.461		0	1	0	0	((ride))	{ride}	{ride}
+208	SP1	348.668	349.028	0.36	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	NO::	NO::	no
+209	SP3	349.033	349.333	0.3	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	AMò	AMò	amò
+210	SP2	349.413	349.703	0.29	True	0	0	0	0	0	0	False	False	False	False	True	211=0.001	NOT SIGNIFICANT	0	0	0	1	NO	NO	no
+211	SP3	349.702	352.428	2.726	True	0	0	0	0	0	0	False	False	False	False	True	210=0.001,212=0.508	NOT SIGNIFICANT	0	0	0	16	e riportagliele a tua mamma siccome le ha comprate vuol dire [che a lei le pia]cciono	e riportagliele a tua mamma siccome le ha comprate vuol dire [che a lei le pia]cciono	e riportagliele a tua mamma siccome le ha comprate vuol dire che a lei le piacciono
+212	SP1	351.628	352.136	0.508	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[PAPà]	[PAPà]	papà
+213	SP3	352.856	355.294	2.438	True	0	0	0	0	0	0	False	False	False	False	True	214=0.845		0	1	0	0	((ride))	{ride}	{ride}
+214	SP2	353.081	353.926	0.845	True	0	0	0	0	0	0	False	False	False	False	True	213=0.845		0	0	0	2	madonna dai	madonna dai	madonna dai
+215	SP1	355.314	356.562	1.248	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	5	sei un genio [del male]	sei un genio [del male]	sei un genio del male
+216	SP3	355.963	359.389	3.426	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	15	[Sì FACCIAMO FI]NTA CHE:: cioè dici mamma matteo ha detto che non se le mangiava	[Sì FACCIAMO FI]NTA CHE:: cioè dici mamma matteo ha detto che non se le mangiava	sì facciamo finta che cioè dici mamma matteo ha detto che non se le mangiava
+217	SP3	359.709	361.778	2.069	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	1	9	ma s~ [se l'ha comprate vuol dire che le piacciono]	ma s~ [se l'ha comprate vuol dire che le piacciono]	ma s~ se l'ha comprate vuol dire che le piacciono
+218	SP1	360.452	363.336	2.884	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	12	[no io le metto nel mobi]le quella [non se ne accorge nem]meno	[no io le metto nel mobi]le quella [non se ne accorge nem]meno	no io le metto nel mobile quella non se ne accorge nemmeno
+219	SP3	362.119	362.862	0.743	True	0	0	0	0	0	0	False	False	False	False	True	218=0.743	HIGH	0	1	0	5	bra ((ride)) non se ne acco~	bra {ride} non se ne acco~	bra {ride} non se ne acco~
+220	SP3	363.561	364.686	1.125	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	6	>mettile in frigo perché sono aperte<	>mettile in frigo perché sono aperte<	mettile in frigo perché sono aperte
+221	SP2	365.069	367.385	2.316	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	7	se voi le mangiate perché sono brutte	se voi le mangiate perché sono brutte	se voi le mangiate perché sono brutte
+222	SP2	368.262	370.289	2.027	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	8	cioè magari a voi piacciono >non lo so<	cioè magari a voi piacciono >non lo so<	cioè magari a voi piacciono non lo so
+223	SP2	370.897	371.854	0.957	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	5	tua madre non le fa?	tua madre non le fa?	tua madre non le fa
+224	SP1	372.592	372.862	0.27	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	no	no	no
+225	SP2	373.251	373.581	0.33	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	no?	no?	no
+226	SP2	375.135	376.532	1.397	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	6	ma quello è stressante [mamma mia]	ma quello è stressante [mamma mia]	ma quello è stressante mamma mia
+227	SP1	376.217	379.112	2.895	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	8	[ho ta]nte: qualità ma queste cose si scoccia	[ho ta]nte: qualità ma queste cose si scoccia	ho tante qualità ma queste cose si scoccia
+228	SP2	379.5	380.973	1.473	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	7	°eh si scocc~° ma pure mia mamma	°eh si scocc~° ma pure mia mamma	eh si scocc~ ma pure mia mamma
+229	SP2	381.241	383.446	2.205	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	1	11	io a volte l'aiuto a mia mamma a farle ma ti uccidi	io a volte l'aiuto a mia mamma a farle ma ti uccidi	io a volte l'aiuto a mia mamma a farle ma ti uccidi
+230	SP2	384.257	386.057	1.8	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	4	è proprio: fisicamente stancante	è proprio: fisicamente stancante	è proprio fisicamente stancante
+231	SP2	387.704	390.827	3.123	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	1	8	#tagliarle, strizzarle: poi c vo' nu sacch e aceto	#tagliarle, strizzarle: poi c vo' nu sacch e aceto	#tagliarle, strizzarle poi c vo' nu sacch e aceto
+232	SP1	402.557	406.581	4.024	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	16	comunque è impressionante quando passa la gente e parla sembra che sta nel cortile di ma[tteo]	comunque è impressionante quando passa la gente e parla sembra che sta nel cortile di ma[tteo]	comunque è impressionante quando passa la gente e parla sembra che sta nel cortile di matteo
+233	SP2	406.241	406.614	0.373	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[mhm]h	[mhm]h	mhmh
+234	SP3	407.778	412.749	4.971	True	0	0	0	0	0	0	False	False	False	False	True	235=3.229		2	0	0	11	adesso preparatevi ad avere un orgasmo perché queste melanzane (.) sono (.) spettacolari	adesso preparatevi ad avere un orgasmo perché queste melanzane {P} sono {P} spettacolari	adesso preparatevi ad avere un orgasmo perché queste melanzane {P} sono {P} spettacolari
+235	SP1	409.52	412.804	3.284	True	0	0	0	0	0	0	False	False	False	False	True	234=3.229		0	1	0	0	((canta))	{canta}	{canta}
+236	SP3	413.104	414.554	1.45	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	6	io ho portato anche un fazzoletto	io ho portato anche un fazzoletto	io ho portato anche un fazzoletto
+237	SP3	415.073	415.979	0.906	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	4	perché farò una cosa	perché farò una cosa	perché farò una cosa
+238	SP3	416.478	417.412	0.934	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	non ortodossa ma	non ortodossa ma	non ortodossa ma
+239	SP3	417.944	420.154	2.21	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	7	devo togliermi questo olio acetoso [di ques]te	devo togliermi questo olio acetoso [di ques]te	devo togliermi questo olio acetoso di queste
+240	SP2	419.463	420.032	0.569	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[e::h]	[e::h]	eh
+241	SP1	420.446	421.844	1.398	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	1	6	vabbè io lo metto da quest'altro lato	vabbè io lo metto da quest'altro lato	vabbè io lo metto da quest'altro lato
+242	SP3	422.028	425.297	3.269	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	14	e::h a me era: abbastanza perché sono grasso e ne avevo messe comunque tante	e::h a me era: abbastanza perché sono grasso e ne avevo messe comunque tante	eh a me era abbastanza perché sono grasso e ne avevo messe comunque tante
+243	SP1	425.37	425.811	0.441	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	xx	xx	xx
+244	SP2	433.357	435.668	2.311	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	10	no non possiamo fare una dieta vegana noi mi sa	no non possiamo fare una dieta vegana noi mi sa	no non possiamo fare una dieta vegana noi mi sa
+245	SP3	436.015	437.782	1.767	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	8	no: io non ce la farei devo ammettere	no: io non ce la farei devo ammettere	no io non ce la farei devo ammettere
+246	SP3	438.127	439.118	0.991	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	vegetariano forse sì	vegetariano forse sì	vegetariano forse sì
+247	SP3	439.611	440.415	0.804	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	ma vegano no	ma vegano no	ma vegano no
+248	SP3	440.786	442.023	1.237	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	6	a me il formaggio piace assai	a me il formaggio piace assai	a me il formaggio piace assai
+249	SP3	447.299	451.037	3.738	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	13	ma ma anche vegetariano sarebbe molto difficile [MAGARI] lo farei ma sarebbe difficile	ma ma anche vegetariano sarebbe molto difficile [MAGARI] lo farei ma sarebbe difficile	ma ma anche vegetariano sarebbe molto difficile magari lo farei ma sarebbe difficile
+250	SP2	449.45	449.659	0.209	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[xx]	[xx]	xx
+251	SP2	451.456	453.656	2.2	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	7	gran parte dei formaggi non sono vegetariani	gran parte dei formaggi non sono vegetariani	gran parte dei formaggi non sono vegetariani
+252	SP3	454.832	455.359	0.527	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	3	in che senso?	in che senso?	in che senso
+253	SP1	456.872	458.042	1.17	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	6	perché che ci mettono dentro sc[us~]?	perché che ci mettono dentro sc[us~]?	perché che ci mettono dentro scus~
+254	SP2	457.971	458.413	0.442	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	2	[IL] CAGLIO	[IL] CAGLIO	il caglio
+255	SP3	459.493	464.318	4.825	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	17	>ma chi< no no ormai è solamente caglio: finto che utilizzano quasi nes[suno utili]zza quello vero sì:	>ma chi< no no ormai è solamente caglio: finto che utilizzano quasi nes[suno utili]zza quello vero sì:	ma chi no no ormai è solamente caglio finto che utilizzano quasi nessuno utilizza quello vero sì
+256	SP2	462.844	463.261	0.417	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[artificiale?]	[artificiale?]	artificiale
+257	SP3	464.784	465.073	0.289	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	1	[anche]	[anche]	anche
+258	SP1	464.784	465.859	1.075	True	0	0	0	0	0	0	False	False	False	False	False	_		0	0	0	5	[perché] caglio che si fa?	[perché] caglio che si fa?	perché caglio che si fa
