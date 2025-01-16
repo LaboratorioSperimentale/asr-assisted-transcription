@@ -213,6 +213,10 @@ class transcription_unit:
 	def __post_init__(self):
 		self.orig_annotation = self.annotation
 
+		if self.annotation is None:
+			self.include = False
+			return
+
 		# non jefferson
 		substitutions, new_transcription = pt.clean_non_jefferson_symbols(self.annotation)
 		self.warnings["NON_JEFFERSON"] = substitutions
@@ -308,6 +312,9 @@ class transcription_unit:
 		# TODO: gestire cancelletto
 
 	def tokenize(self):
+
+		if not self.include:
+			return
 
 		# print(self.annotation)
 		# ! split on space, apostrophe between words and prosodic links
@@ -453,6 +460,8 @@ class transcript:
 
 		G = nx.Graph()
 
+		toshift = []
+
 		for tu1 in self.transcription_units:
 			for tu2 in self.transcription_units:
 				if tu1.include and tu2.include and tu2.tu_id > tu1.tu_id:
@@ -465,11 +474,33 @@ class transcript:
 					# De Morgan on tu1.end <= tu2.start or tu2.end <= tu1.start
 					# the two units overlap in time
 					if tu1.end > tu2.start and tu2.end > tu1.start:
-						G.add_edge(tu1.tu_id, tu2.tu_id,
-									start = max(tu1.start, tu2.start),
-									end = min(tu1.end, tu2.end),
-									duration = min(tu1.end, tu2.end)-max(tu1.start, tu2.start),
-									spans = {tu1.tu_id:None, tu2.tu_id:None})
+						start = max(tu1.start, tu2.start)
+						end = min(tu1.end, tu2.end)
+						duration = min(tu1.end, tu2.end)-max(tu1.start, tu2.start)
+
+						if duration < 0.1:
+							duration1 = tu1.end-tu1.start
+							duration2 = tu2.end-tu2.start
+
+							# print("moving overlap")
+							# print(tu1.start, tu1.end)
+							# print(tu2.start, tu2.end)
+
+							if duration1 > duration2:
+								tu1.end = tu1.end - 0.1
+								tu1.warnings["MOVED_BOUNDARY"] = True
+
+							else:
+								tu2.start = tu2.start + 0.1
+								tu2.warnings["MOVED_BOUNDARY"] = True
+
+						else:
+
+							G.add_edge(tu1.tu_id, tu2.tu_id,
+										start = start,
+										end = end,
+										duration = duration,
+										spans = {tu1.tu_id:None, tu2.tu_id:None})
 
 		self.time_based_overlaps = G
 

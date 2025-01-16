@@ -129,7 +129,7 @@ def conversation_to_conll(transcript, output_filename, sep = '\t'):
 def conversation_to_linear(transcript, output_filename, sep = '\t'):
 
 	fieldnames = ["tu_id", "speaker", "start", "end", "duration", "include",
-				"W:normalized_spaces", "W:numbers", "W:accents", "W:non_jefferson", "W:pauses_trim", "W:prosodic_trim",
+				"W:normalized_spaces", "W:numbers", "W:accents", "W:non_jefferson", "W:pauses_trim", "W:prosodic_trim", "W:moved_boundaries",
 				"E:volume", "E:pace", "E:guess", "E:overlap", "E:overlap_mismatch",
 				"E:overlap_duration",
 				"T:shortpauses", "T:metalinguistic", "T:errors", "T:linguistic",
@@ -159,6 +159,7 @@ def conversation_to_linear(transcript, output_filename, sep = '\t'):
 							"W:non_jefferson": tu.warnings["NON_JEFFERSON"],
 							"W:pauses_trim": tu.warnings["TRIM_PAUSES"],
 							"W:prosodic_trim": tu.warnings["TRIM_PROSODICLINKS"],
+							"W:moved_boundaries": tu.warnings["MOVED_BOUNDARIES"],
 							"E:volume": tu.errors["UNBALANCED_DOTS"],
 							"E:pace": tu.errors["UNBALANCED_PACE"],
 							"E:guess": tu.errors["UNBALANCED_GUESS"],

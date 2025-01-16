@@ -142,7 +142,7 @@ def check_spaces(transcription):
 		transcription = new_string
 
 	# "[^ ] [.,:?]" -> $1$2
-	new_string, subs_made = re.subn(r"([^ ]) ([.,:?])", r"\1\2)", transcription)
+	new_string, subs_made = re.subn(r"([^ ]) ([.,:?])", r"\1\2", transcription)
 	if subs_made > 0:
 		tot_subs += subs_made
 		transcription = new_string
