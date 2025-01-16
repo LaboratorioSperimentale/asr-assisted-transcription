@@ -25,12 +25,15 @@ def remove_spaces(transcription):
 
 # transform "pò" into "po'" (keep count)
 def replace_po(transcription):
+	print(transcription)
 	tot_subs = 0
 	new_string, subs_made = re.subn(r"\bpò\b", "po'", transcription)
 
 	if subs_made > 0:
 		tot_subs += subs_made
 		transcription = new_string
+	print(transcription)
+	input()
 
 	return tot_subs, transcription.strip()
 
@@ -64,7 +67,7 @@ def remove_pauses(transcription):
 # TODO: numeri?
 def clean_non_jefferson_symbols(transcription):
 	tot_subs = 0
-	new_string, subs_made = re.subn(r"[^,\?.:=°><\[\]\(\)\w\s'\-~$#]",
+	new_string, subs_made = re.subn(r"[^{}_,\?.:=°><\[\]\(\)\w\s'\-~$#]",
 									"",
 									transcription) # keeping also the apostrophe, # and $
 
@@ -306,13 +309,13 @@ def remove_prosodiclinks(transcription):
 
 	return tot_subs, transcription.strip()
 
-def check_number_sign(transcription): 
+def check_number_sign(transcription):
 	if transcription == "#":
 		return "dialect"
 
 def check_x(transcription):
 	if 'x' in transcription:
-		return "unkown" 
+		return "unkown"
 
 if __name__ == "__main__":
 	print(remove_prosodiclinks("=ciao"))

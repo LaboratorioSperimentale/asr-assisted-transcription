@@ -142,7 +142,7 @@ class token:
 		# TODO: move in token
 		substitutions, new_text = pt.replace_po(self.text)
 		self.warnings["ACCENTS"] += substitutions
-		self.annotation = new_text
+		self.text = new_text
 
 
 	def add_span(self, start, end):
@@ -271,8 +271,8 @@ class transcription_unit:
 
 		# check how many varying pace spans have been transcribed
 		if "<" in self.annotation and not self.errors["UNBALANCED_PACE"]:
-			matches_left = list(re.finditer(r"<[^ )\]][^><]*[^ (\[]>", self.annotation))
-			matches_right = list(re.finditer(r">[^ )\]][^><]*[^ (\[]<", self.annotation))
+			matches_left = list(re.finditer(r"<[^ ][^ )\]]?[^><]*[^ (\[]?>", self.annotation))
+			matches_right = list(re.finditer(r">[^ ][^ )\]]?[^><]*[^ (\[]?<", self.annotation))
 			tot_spans = (self.annotation.count("<") + self.annotation.count(">"))/2
 
 			if not len(matches_left) + len(matches_right) == tot_spans:
