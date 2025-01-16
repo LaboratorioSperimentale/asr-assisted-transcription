@@ -106,7 +106,10 @@ if __name__ == "__main__":
 
 	transcripts = process_all_transcripts("data/csv_puliti", "data/output")
 
-	alignment.align_transcripts(transcripts["02_PastiA_M"], transcripts["01_PastiA_R"])
+	tokens_a, tokens_b = alignment.align_transcripts(transcripts["02_PastiA_M"], transcripts["01_PastiA_R"])
+
+	print([x.text if not x is None else "_" for x in tokens_a ][:20])
+	print([x.text if not x is None else "_" for x in tokens_b ][:20])
 	# print(transcripts.keys())
 	# input()
 
@@ -115,4 +118,4 @@ if __name__ == "__main__":
 
 	# TODO: inserire dati trascrittori nelle statistiche
 
-	# serialize.print_full_statistics(transcripts_list, "dati/output/statistics.csv")
+	serialize.print_full_statistics(transcripts, "data/output/statistics.csv")

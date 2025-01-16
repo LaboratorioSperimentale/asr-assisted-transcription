@@ -10,7 +10,7 @@ from pympi import Elan as EL
 # Creating a file that contains statistics for each transcript
 def print_full_statistics(list_of_transcripts, output_filename):
 	full_statistics = [] # list that contains all transcripts
-	for transcript in list_of_transcripts: # iterating each transcript
+	for transcript_id, transcript in list_of_transcripts.items(): # iterating each transcript
 		transcript.get_stats () # calculating statistics
 		stats_dict = transcript.statistics.set_index("Statistic")["Value"].to_dict() # converting statistics into a dictionary
 		stats_dict["Transcript_ID"] = transcript.tr_id	# adding the transcript id

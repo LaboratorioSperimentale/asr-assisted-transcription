@@ -588,7 +588,7 @@ class transcript:
 		self.turns.append(curr_turn)
 
 	# Statistic calculations
-	def get_stats (self, annotators_data_csv="data_description.csv"):
+	def get_stats (self, annotators_data_csv="data/data_description.csv"):
 		num_speakers = len(self.speakers) # number of speakers
 		num_tu = len(self.transcription_units) # number of TUs
 		num_total_tokens = sum(len(tu.tokens) for tu in self.transcription_units) # total number of tokens
@@ -603,8 +603,9 @@ class transcript:
         # open and read the .csv file to extract annotators' data
 		annotators_data = []
 		with open(annotators_data_csv, "r") as file:
-			reader = csv.DictReader(file)
+			reader = csv.DictReader(file, delimiter="\t")
 			for row in reader:
+
 				annotators_data.append({
 					"annotator": row["Annotatore"],
 					"reviewer": row["Revisore"],

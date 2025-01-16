@@ -1,0 +1,129 @@
+tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents	W:non_jefferson	W:pauses_trim	W:prosodic_trim	E:volume	E:pace	E:guess	E:overlap	E:overlap_mismatch	E:overlap_duration	T:shortpauses	T:metalinguistic	T:errors	T:linguistic	annotation	correct	text
+1	SP1	0.24	3.22	2.98	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	persone che magari puoi avere incontrato: un po',	persone che magari puoi avere incontrato: un po',	persone che magari puoi avere incontrato un po'
+2	SP2	3.7	5.11	1.41	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	bah e::	bah e::	bah e
+3	SP2	5.5	9.3	3.8	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	13	sì è sempre pieno di: persone che fanno l' elemosina, sotto i porti[ci]	sì è sempre pieno di: persone che fanno l' elemosina, sotto i porti[ci]	sì è sempre pieno di persone che fanno l' elemosina sotto i portici
+4	SP1	8.91	9.29	0.38	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhm]h	[mhm]h	mhmh
+5	SP2	9.91	12.66	2.75	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	soprattutto su via indipendenza, ce ne sono [diversi]	soprattutto su via indipendenza, ce ne sono [diversi]	soprattutto su via indipendenza ce ne sono diversi
+6	SP1	12.09	12.82	0.73	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[sì è ve]ro	[sì è ve]ro	sì è vero
+7	SP2	13.52	15.41	1.89	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	anche sotto i portici di via:	anche sotto i portici di via:	anche sotto i portici di via
+8	SP2	16.05	17.09	1.04	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	di viale:	di viale:	di viale
+9	SP2	18.69	19.26	0.57	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	masini	masini	masini
+10	SP2	19.86	21.0	1.14	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	perché io passo spesso di lì	perché io passo spesso di lì	perché io passo spesso di lì
+11	SP2	22.08	22.97	0.89	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	e::	e::	e
+12	SP2	24.41	28.05	3.64	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	però a parte insomma, persone: che [fanno] l' elemosina	però a parte insomma, persone: che [fanno] l' elemosina	però a parte insomma persone che fanno l' elemosina
+13	SP1	26.51	26.8	0.29	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+14	SP2	28.19	28.39	0.2	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	sì	sì	sì
+15	SP2	28.56	29.17	0.61	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	mh a,	mh a,	mh a
+16	SP2	29.62	32.23	2.61	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	incontri anche molte persone che ti fermano per:	incontri anche molte persone che ti fermano per:	incontri anche molte persone che ti fermano per
+17	SP1	32.34	32.61	0.27	True	0	0	0	0	0	0	False	False	False	False	True	18=0.010	0	0	0	1	sì	sì	sì
+18	SP2	32.6	34.49	1.89	True	0	0	0	0	0	0	False	False	False	False	True	17=0.010,19=1.170	0	1	0	4	chiederti di [fare, benefici]enza ((ride))	chiederti di [fare, benefici]enza {ride}	chiederti di fare beneficienza {ride}
+19	SP1	32.76	33.93	1.17	True	1	0	0	0	0	0	False	False	False	False	False	_	0	1	0	1	[ ((ride)) esatto]	[{ride} esatto]	{ride} esatto
+20	SP1	34.67	37.52	2.85	True	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	8	((ride)) le classiche persone che sono sotto i portici	{ride} le classiche persone che sono sotto i portici	{ride} le classiche persone che sono sotto i portici
+21	SP2	38.62	39.17	0.55	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	e:	e:	e
+22	SP2	39.64	43.23	3.59	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	13	a volte persone famose ogni tanto una volta ho incontrato piff ad esempi[o]	a volte persone famose ogni tanto una volta ho incontrato piff ad esempi[o]	a volte persone famose ogni tanto una volta ho incontrato piff ad esempio
+23	SP1	43.18	44.45	1.27	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	[a:] ah sì sì sì	[a:] ah sì sì sì	a ah sì sì sì
+24	SP2	44.55	44.96	0.41	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	e:	e:	e
+25	SP2	45.2	47.32	2.12	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	>che era< in un hotel che è lì su via indipendenza	>che era< in un hotel che è lì su via indipendenza	che era in un hotel che è lì su via indipendenza
+26	SP1	47.32	49.31	1.99	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	anche cremonini dicono che si [aspetta]	anche cremonini dicono che si [aspetta]	anche cremonini dicono che si aspetta
+27	SP2	48.99	51.16	2.17	True	0	0	0	0	0	0	False	False	False	False	True	26=0.320,28=1.220	0	0	1	6	>cremonini?< eh non l'ho [ancora incontrato cremonini]	>cremonini?< eh non l'ho [ancora incontrato cremonini]	cremonini eh non l'ho ancora incontrato cremonini
+28	SP1	49.9	51.12	1.22	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	[°poi niente° neanche io]	[°poi niente° neanche io]	poi niente neanche io
+29	SP2	51.21	52.03	0.82	True	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	1	((ride)) e:	{ride} e:	{ride} e
+30	SP2	52.59	53.31	0.72	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	però è che sì	però è che sì	però è che sì
+31	SP2	53.42	55.26	1.84	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	tre anni, perché io sono dal: duemiladiciotto	tre anni, perché io sono dal: duemiladiciotto	tre anni perché io sono dal duemiladiciotto
+32	SP2	55.49	58.56	3.07	True	1	0	0	0	0	0	False	False	False	False	False	_	0	0	0	12	sono dal sì tre anni, che sono lì °non ho ancora°incrociato  cremonini	sono dal sì tre anni, che sono lì °non ho ancora°incrociato cremonini	sono dal sì tre anni che sono lì non ho ancoraincrociato cremonini
+33	SP1	59.06	61.82	2.76	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	2	5	beh magari dai quest'anno [sarà l'anno buono]	beh magari dai quest'anno [sarà l'anno buono]	beh magari dai quest'anno sarà l'anno buono
+34	SP2	60.27	61.84	1.57	True	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	2	[sì chissà ((ride))]	[sì chissà {ride}]	sì chissà {ride}
+35	SP2	62.01	62.25	0.24	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	beh	beh	beh
+36	SP1	62.84	68.73	5.89	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	19	e anche, emh (.) per il fatto che hanno messo le luci con le scritte delle canzoni [cosa ne pensi?]	e anche, emh {P} per il fatto che hanno messo le luci con le scritte delle canzoni [cosa ne pensi?]	e anche emh {P} per il fatto che hanno messo le luci con le scritte delle canzoni cosa ne pensi
+37	SP2	67.85	73.26	5.41	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	14	[ah bello quello,] mi è piaciuto molto sì sì quello: (.) si stava secondo me	[ah bello quello,] mi è piaciuto molto sì sì quello: {P} si stava secondo me	ah bello quello mi è piaciuto molto sì sì quello {P} si stava secondo me
+38	SP1	73.35	73.66	0.31	True	0	0	0	0	0	0	False	False	False	False	True	39=0.010	0	0	0	1	°bello°	°bello°	bello
+39	SP2	73.65	73.99	0.34	True	0	0	0	0	0	0	False	False	False	False	True	38=0.010	0	0	0	2	sì che:	sì che:	sì che
+40	SP2	74.15	78.03	3.88	True	1	0	0	0	0	0	False	False	False	False	False	_	0	0	0	15	°beh dai,° cremonini comunque, è il cantante di bolo- cioè  [a par]te lucio dalla ovviamente	°beh dai,° cremonini comunque, è il cantante di bolo- cioè [a par]te lucio dalla ovviamente	beh dai cremonini comunque è il cantante di bolo- cioè a parte lucio dalla ovviamente
+41	SP1	76.54	76.81	0.27	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[sì]	[sì]	sì
+42	SP2	78.18	78.39	0.21	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	però	però	però
+43	SP1	78.67	81.07	2.4	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	che poi hanno messo anche le [sue vero? sìsì]	che poi hanno messo anche le [sue vero? sìsì]	che poi hanno messo anche le sue vero sìsì
+44	SP2	79.84	81.62	1.78	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	[il fatto che poi hanno messo anche] messo, anche le sue	[il fatto che poi hanno messo anche] messo, anche le sue	il fatto che poi hanno messo anche messo anche le sue
+45	SP2	82.35	83.25	0.9	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	e::	e::	e
+46	SP2	83.47	87.7	4.23	True	2	0	0	0	0	0	False	False	False	False	False	_	1	0	0	11	però ci sta, è il cantante moderno, [diciamo più: ]  (.) più bolognese	però ci sta, è il cantante moderno, [diciamo più:] {P} più bolognese	però ci sta è il cantante moderno diciamo più {P} più bolognese
+47	SP1	85.35	87.01	1.66	True	1	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	[ mh mh anche secondo me]	[mh mh anche secondo me]	mh mh anche secondo me
+48	SP1	88.64	91.4	2.76	True	1	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	e [invece, ] il tuo posto del cuore di bologna?	e [invece,] il tuo posto del cuore di bologna?	e invece il tuo posto del cuore di bologna
+49	SP2	88.8	89.34	0.54	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[carino]	[carino]	carino
+50	SP1	91.88	95.68	3.8	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	non so anche solo un bar, [a cu]i sei particolarmente affezionata?	non so anche solo un bar, [a cu]i sei particolarmente affezionata?	non so anche solo un bar a cui sei particolarmente affezionata
+51	SP2	93.56	93.85	0.29	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mh]	[mh]	mh
+52	SP2	96.54	96.79	0.25	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mh	mh	mh
+53	SP2	99.04	101.13	2.09	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	e: forse:: mh	e: forse:: mh	e forse mh
+54	SP2	102.33	105.74	3.41	True	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	10	 mangiare un gelato seduti sul gradino di piazza santo stefa[no] ((ride))	mangiare un gelato seduti sul gradino di piazza santo stefa[no] {ride}	mangiare un gelato seduti sul gradino di piazza santo stefano {ride}
+55	SP1	105.71	107.39	1.68	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	[ah,] lì è bellis[simo]	[ah,] lì è bellis[simo]	ah lì è bellissimo
+56	SP2	107.16	111.12	3.96	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	1	15	[perché lì:] piazza santo stefano, mi piace molto. poi c'è di fianco la mia gelateria preferita	[perché lì:] piazza santo stefano, mi piace molto. poi c'è di fianco la mia gelateria preferita	perché lì piazza santo stefano mi piace molto poi c'è di fianco la mia gelateria preferita
+57	SP2	111.58	118.25	6.67	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	1	22	e quindi spesso d'estate col mio ragazzo andiamo: andiamo lì prendiamo un gelato e ci sediamo: in [piazza] santo stefano. forse quello sì	e quindi spesso d'estate col mio ragazzo andiamo: andiamo lì prendiamo un gelato e ci sediamo: in [piazza] santo stefano. forse quello sì	e quindi spesso d'estate col mio ragazzo andiamo andiamo lì prendiamo un gelato e ci sediamo in piazza santo stefano forse quello sì
+58	SP1	116.66	116.99	0.33	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[bello]	[bello]	bello
+59	SP1	118.26	118.83	0.57	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	bellissimo	bellissimo	bellissimo
+60	SP1	119.22	123.16	3.94	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	13	e in generale bologna, ritieni che sia una bella città in cui vivere:	e in generale bologna, ritieni che sia una bella città in cui vivere:	e in generale bologna ritieni che sia una bella città in cui vivere
+61	SP2	124.38	126.9	2.52	True	1	0	0	0	0	0	False	False	False	False	False	_	1	0	0	12	sì (.)sì sì secondo me è una bella città in cui vivere	sì {P} sì sì secondo me è una bella città in cui vivere	sì {P} sì sì secondo me è una bella città in cui vivere
+62	SP2	127.67	128.7	1.03	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	2	e:: (.) mh	e:: {P} mh	e {P} mh
+63	SP2	129.47	130.23	0.76	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	non so	non so	non so
+64	SP2	130.8	133.41	2.61	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	8	se, (.) effetivamente ci vivrei forse con una famigli[a:]	se, {P} effetivamente ci vivrei forse con una famigli[a:]	se {P} effetivamente ci vivrei forse con una famiglia
+65	SP1	133.3	135.35	2.05	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	[okay] quindi più per giovani mag[ari]	[okay] quindi più per giovani mag[ari]	okay quindi più per giovani magari
+66	SP2	134.96	137.2	2.24	True	1	0	0	0	0	0	False	False	False	False	False	_	0	0	0	10	[sì ]>secondo me< è una città più per giovani per studenti	[sì]>secondo me< è una città più per giovani per studenti	sìsecondo me è una città più per giovani per studenti
+67	SP2	138.18	139.68	1.5	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	perché:::	perché:::	perché
+68	SP2	140.94	145.42	4.48	True	1	0	0	0	0	0	False	False	False	False	False	_	0	0	0	19	sì ci sono molte attività, anche per fare. poi sicuramente ci sono cose anche per  per le famiglie chiaramente	sì ci sono molte attività, anche per fare. poi sicuramente ci sono cose anche per per le famiglie chiaramente	sì ci sono molte attività anche per fare poi sicuramente ci sono cose anche per per le famiglie chiaramente
+69	SP2	146.2	150.68	4.48	True	1	0	0	0	0	0	False	False	False	False	False	_	0	0	0	14	però: mi sembra un po' più a misura di di giova[ne] che, di  famiglia.	però: mi sembra un po' più a misura di di giova[ne] che, di famiglia.	però mi sembra un po' più a misura di di giovane che di famiglia
+70	SP1	149.19	149.5	0.31	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+71	SP1	150.98	153.78	2.8	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	e per esempio i suoi punti forti secondo te, quali sono?	e per esempio i suoi punti forti secondo te, quali sono?	e per esempio i suoi punti forti secondo te quali sono
+72	SP2	154.56	156.62	2.06	True	1	0	0	0	0	0	False	False	False	False	False	_	1	0	0	4	ah (.)  i punti forti:	ah {P} i punti forti:	ah {P} i punti forti
+73	SP2	157.01	157.74	0.73	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	sicuramente,	sicuramente,	sicuramente
+74	SP2	158.66	159.22	0.56	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mh	mh	mh
+75	SP2	159.92	161.66	1.74	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	1	4	la storia, cioè l'architettura e	la storia, cioè l'architettura e	la storia cioè l'architettura e
+76	SP2	161.93	165.73	3.8	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	10	il centro sto[rico è] proprio pieno di: da le torri	il centro sto[rico è] proprio pieno di: da le torri	il centro storico è proprio pieno di da le torri
+77	SP1	162.31	162.63	0.32	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+78	SP2	166.02	167.91	1.89	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	a::: san petronio	a::: san petronio	a san petronio
+79	SP2	168.01	171.81	3.8	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	1	9	insomma è proprio bella a livello: secondo m,e architettonico storico	insomma è proprio bella a livello: secondo m,e architettonico storico	insomma è proprio bella a livello secondo m,e architettonico storico
+80	SP2	172.71	173.51	0.8	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	e:	e:	e
+81	SP2	173.57	179.7	6.13	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	1	21	poi la vita, c'è sempre un sacco di cose da fare, se anche esci, è pieno di gente in centro [più locali]	poi la vita, c'è sempre un sacco di cose da fare, se anche esci, è pieno di gente in centro [più locali]	poi la vita c'è sempre un sacco di cose da fare se anche esci è pieno di gente in centro più locali
+82	SP1	178.52	179.09	0.57	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[è vero]	[è vero]	è vero
+83	SP2	180.18	183.39	3.21	True	1	0	0	0	0	0	False	False	False	False	False	_	1	0	0	10	e: (.)  lo senti che arriva: è molto vissuta come città	e: {P} lo senti che arriva: è molto vissuta come città	e {P} lo senti che arriva è molto vissuta come città
+84	SP2	184.53	189.21	4.68	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	17	e: poi vabbè ci sono concerti, stadio cioè ci sono tante cose da fare: se se vuoi:	e: poi vabbè ci sono concerti, stadio cioè ci sono tante cose da fare: se se vuoi:	e poi vabbè ci sono concerti stadio cioè ci sono tante cose da fare se se vuoi
+85	SP2	189.82	192.58	2.76	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	10	se vuoi viverla quindi secondo me queste sono un po':	se vuoi viverla quindi secondo me queste sono un po':	se vuoi viverla quindi secondo me queste sono un po'
+86	SP1	192.58	194.58	2.0	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	e mezzi di trasporto anche:	e mezzi di trasporto anche:	e mezzi di trasporto anche
+87	SP2	194.79	198.93	4.14	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	13	e: mezzi di trasporto, come dicevo, se sei in centro dentro alle mura	e: mezzi di trasporto, come dicevo, se sei in centro dentro alle mura	e mezzi di trasporto come dicevo se sei in centro dentro alle mura
+88	SP2	199.74	202.47	2.73	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	mh vai in bicicletta vai ai piedi ovunque	mh vai in bicicletta vai ai piedi ovunque	mh vai in bicicletta vai ai piedi ovunque
+89	SP2	202.87	203.66	0.79	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	bene o male	bene o male	bene o male
+90	SP2	204.5	208.13	3.63	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	1	9	anche l'autobus (.) secondo me funzionano abbastanza bene non mi sembrano:	anche l'autobus {P} secondo me funzionano abbastanza bene non mi sembrano:	anche l'autobus {P} secondo me funzionano abbastanza bene non mi sembrano
+91	SP2	209.01	209.29	0.28	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	cioè	cioè	cioè
+92	SP2	210.1	211.92	1.82	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	 particolarmente inefficienti	particolarmente inefficienti	particolarmente inefficienti
+93	SP1	212.26	213.1	0.84	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+94	SP2	212.3	213.25	0.95	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[però:] mh	[però:] mh	però mh
+95	SP2	214.24	216.92	2.68	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	8	 sì (.) con la macchina bologna non è vivibile	sì {P} con la macchina bologna non è vivibile	sì {P} con la macchina bologna non è vivibile
+96	SP1	217.03	217.79	0.76	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	°non è [vivibile°]	°non è [vivibile°]	non è vivibile
+97	SP2	217.33	218.87	1.54	True	0	0	0	0	0	0	False	False	False	True	True	96=0.460	0	0	0	5	 non è] vivibile perché se:	non è] vivibile perché se:	non è vivibile perché se
+98	SP2	219.15	223.12	3.97	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	12	ripeto de- se sei fuori dal centro magari la usi [per andare]	ripeto de- se sei fuori dal centro magari la usi [per andare]	ripeto de- se sei fuori dal centro magari la usi per andare
+99	SP1	222.09	222.62	0.53	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+100	SP2	223.82	224.69	0.87	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	non so all' ikea	non so all' ikea	non so all' ikea
+101	SP2	224.86	225.15	0.29	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	o:	o:	o
+102	SP1	225.33	225.94	0.61	True	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	1	[okay] ((ride))	[okay] {ride}	okay {ride}
+103	SP2	225.35	229.44	4.09	True	1	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	[fuori, ] centro, se devi venire in centro:: è proprio	[fuori,] centro, se devi venire in centro:: è proprio	fuori centro se devi venire in centro è proprio
+104	SP2	229.76	232.75	2.99	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	 scomodo perché ripeto vedo delle file	scomodo perché ripeto vedo delle file	scomodo perché ripeto vedo delle file
+105	SP2	232.94	237.11	4.17	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	12	per entrare nel parcheggio: (.) cioè anche lì quello lì in piazza ottoagosto	per entrare nel parcheggio: {P} cioè anche lì quello lì in piazza ottoagosto	per entrare nel parcheggio {P} cioè anche lì quello lì in piazza ottoagosto
+106	SP1	237.11	237.31	0.2	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mhmh	mhmh	mhmh
+107	SP2	237.85	240.18	2.33	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	che tutte le settimane, è abbastanza:	che tutte le settimane, è abbastanza:	che tutte le settimane è abbastanza
+108	SP2	242.26	244.55	2.29	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	è abbastanza lunga quella fila quindi:	è abbastanza lunga quella fila quindi:	è abbastanza lunga quella fila quindi
+109	SP2	245.1	247.55	2.45	True	1	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	io:  ho delle amiche, che hanno la macchina,	io: ho delle amiche, che hanno la macchina,	io ho delle amiche che hanno la macchina
+110	SP1	247.55	247.93	0.38	True	0	0	0	0	0	0	False	False	False	False	True	111=0.020	0	0	0	1	mhmh	mhmh	mhmh
+111	SP2	247.91	248.96	1.05	True	0	0	0	0	0	0	False	False	False	False	True	110=0.020	0	0	0	3	perché vivono fuori	perché vivono fuori	perché vivono fuori
+112	SP2	249.84	252.13	2.29	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	però anche loro ad esempio quando devono venire a casa mia	però anche loro ad esempio quando devono venire a casa mia	però anche loro ad esempio quando devono venire a casa mia
+113	SP2	252.24	253.01	0.77	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	e::	e::	e
+114	SP1	253.02	253.17	0.15	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	è	è	è
+115	SP2	253.5	255.3	1.8	True	1	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	fanno [più fatica,]  a parcheggiare:	fanno [più fatica,] a parcheggiare:	fanno più fatica a parcheggiare
+116	SP1	253.68	254.29	0.61	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[infatti]	[infatti]	infatti
+117	SP2	255.8	258.6	2.8	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	7	poi, (.) eh dentro alle mura, comunque, ehm	poi, {P} eh dentro alle mura, comunque, ehm	poi {P} eh dentro alle mura comunque ehm
+118	SP2	258.82	259.21	0.39	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	anche anche	anche anche	anche anche
+119	SP2	259.83	262.41	2.58	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	12	un giorno anche fuori alle mura, è tutto a pagamento. il parcheggio,	un giorno anche fuori alle mura, è tutto a pagamento. il parcheggio,	un giorno anche fuori alle mura è tutto a pagamento il parcheggio
+120	SP1	262.54	264.56	2.02	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	sì e costa anche: [abbastanza]	sì e costa anche: [abbastanza]	sì e costa anche abbastanza
+121	SP2	263.42	264.84	1.42	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	 [costa abbastanza] quindi	[costa abbastanza] quindi	costa abbastanza quindi
+122	SP2	265.38	269.81	4.43	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	16	o vieni dopo le otto e allora, dopo dopo le otto puoi entrare nella ztl eccetera	o vieni dopo le otto e allora, dopo dopo le otto puoi entrare nella ztl eccetera	o vieni dopo le otto e allora dopo dopo le otto puoi entrare nella ztl eccetera
+123	SP2	270.98	273.5	2.52	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	però, vivere con la macchina a bologna è difficile	però, vivere con la macchina a bologna è difficile	però vivere con la macchina a bologna è difficile
+124	SP1	273.5	273.77	0.27	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mhmh	mhmh	mhmh
+125	SP2	274.08	274.31	0.23	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	sì	sì	sì
+126	SP2	274.68	275.53	0.85	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	sì infatti	sì infatti	sì infatti
+127	SP2	277.16	279.12	1.96	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	sì se si vive bologna [insomma]	sì se si vive bologna [insomma]	sì se si vive bologna insomma
+128	SP1	278.7	281.12	2.42	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	[eh magari] anche con una famiglia poi diventa un po' buono	[eh magari] anche con una famiglia poi diventa un po' buono	eh magari anche con una famiglia poi diventa un po' buono
