@@ -27,16 +27,14 @@ def process_all_transcripts(input_dir="data/csv_puliti", output_dir="data/output
 			transcript.sort()
 			transcript.create_turns()
 			transcript.find_overlaps()
-			transcript.check_overlaps()
+
 			for tu in transcript:
-				if tu.include:
-				# print(tu.annotation)
-				# tu.strip_parentheses()
-				# print(tu.parentheses)
-				# print(tu.splits)
-				# input()
-				# print(tu.annotation)
-					tu.tokenize()
+				tu.tokenize()
+
+			transcript.check_overlaps()
+
+			for tu in transcript:
+				tu.add_token_features()
 
 	# if not all(y for x, y in tu.errors.items()):
 	# print(tu)
@@ -105,18 +103,19 @@ if __name__ == "__main__":
 	# for file in pathlib.Path(f"dati/output").glob("*.tsv"):
 	# 	serialize.csv2eaf(file, f"dati/output/{file.stem}.eaf")
 
-	transcripts = process_all_transcripts("data/csv_puliti", "data/output")
+	transcripts = process_all_transcripts("data/csv_puliti", "data/output_sample")
 
-	tokens_a, tokens_b = alignment.align_transcripts(transcripts["02_PastiA_M"], transcripts["01_PastiA_R"])
+	tokens_a, tokens_b = alignment.align_transcripts(transcripts["01_ParlaBOA_E"],
+													transcripts["01_ParlaBOA_M"])
 
 	print([x.text if not x is None else "_" for x in tokens_a ][:20])
 	print([x.text if not x is None else "_" for x in tokens_b ][:20])
 	# print(transcripts.keys())
 	# input()
 
-	for file in pathlib.Path(f"data/output").glob("*.tsv"):
-		serialize.csv2eaf(file, f"data/output/{file.stem}.eaf")
+	for file in pathlib.Path(f"data/output_sample").glob("*.tsv"):
+		serialize.csv2eaf(file, f"data/output_sample/{file.stem}.eaf")
 
 	# TODO: inserire dati trascrittori nelle statistiche
 
-	serialize.print_full_statistics(transcripts, "data/output/statistics.csv")
+	serialize.print_full_statistics(transcripts, "data/output_sample/statistics.csv")

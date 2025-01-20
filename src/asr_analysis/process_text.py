@@ -25,15 +25,12 @@ def remove_spaces(transcription):
 
 # transform "pò" into "po'" (keep count)
 def replace_po(transcription):
-	print(transcription)
 	tot_subs = 0
 	new_string, subs_made = re.subn(r"\bpò\b", "po'", transcription)
 
 	if subs_made > 0:
 		tot_subs += subs_made
 		transcription = new_string
-	print(transcription)
-	input()
 
 	return tot_subs, transcription.strip()
 
@@ -49,6 +46,7 @@ def replace_che(transcription):
 		transcription = new_string
 
 	return tot_subs, transcription.strip()
+
 
 # remove initial and final pauses (keep count)
 def remove_pauses(transcription):
@@ -309,9 +307,10 @@ def remove_prosodiclinks(transcription):
 
 	return tot_subs, transcription.strip()
 
-def check_number_sign(transcription):
-	if transcription == "#":
-		return "dialect"
+def check_dialect_sign(transcription):
+	if transcription[0] == "#":
+		return transcription[1:], True
+	return transcription, False
 
 def check_x(transcription):
 	if 'x' in transcription:

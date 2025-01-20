@@ -193,6 +193,7 @@ class transcription_unit:
 	# dialect: bool = False
 	orig_annotation: str = ""
 	include: bool = True
+	dialect: bool = False
 	# split: bool = False
 	overlapping_spans: List[Tuple[int, int]] = field(default_factory=lambda: [])
 	overlapping_times: Dict[str, Tuple[float, float]] = field(default_factory=lambda: {})
@@ -225,6 +226,10 @@ class transcription_unit:
 
 		# transform metalinguistic annotations and pauses
 		new_transcription = pt.meta_tag(self.annotation)
+		self.annotation = new_transcription
+
+		# dialect
+		new_transcription, self.dialect = pt.check_dialect_sign(self.annotation)
 		self.annotation = new_transcription
 
 		# spaces before and after parentheses
@@ -337,12 +342,52 @@ class transcription_unit:
 						self.tokens[token_id].add_info("ProsodicLink", "Yes")
 					start_pos = end_pos+1
 				else:
-					token_id += 1
-					new_token = token(tok)
-					new_token.add_span(start_pos, end_pos)
-					self.tokens[token_id] = new_token
+
+					subtokens = re.split(r"(\p{L}'\p{L})", tok)
+
+					# if "'" in tok[1:-1]:
+						# subtoken1, _ , subtoken2 = re.split(r"([^']'[^'])", tok)
+						# s
+					if len(subtokens) == 3:
+						subtoken1 = subtokens[0]+subtokens[1][:-1]
+						subtoken2 = subtokens[1][-1]+subtokens[2]
+
+						start1 = start_pos
+						end1 = end_pos - len(tok) + len(subtoken1)
+
+						start2 = end1+1
+						end2 = end_pos
+
+						token_id += 1
+						new_token = token(subtoken1)
+						new_token.add_span(start1, end1)
+						new_token.add_info("SpaceAfter", "No")
+						self.tokens[token_id] = new_token
+
+						token_id += 1
+						new_token = token(subtoken2)
+						new_token.add_span(start2, end2)
+						self.tokens[token_id] = new_token
+
+						# start_pos = end_pos+1
+						# end_pos+=1
+
+
+						# print(subtoken1, subtoken2)
+						# input()
+
+					else:
+						token_id += 1
+						new_token = token(tok)
+						new_token.add_span(start_pos, end_pos)
+						self.tokens[token_id] = new_token
 					start_pos = end_pos+1
 					end_pos+=1
+
+		# print(self.tokens)
+		# input()
+
+	def add_token_features(self):
 
 		ids = []
 		token_ids = []
@@ -486,14 +531,15 @@ class transcript:
 							# print("moving overlap")
 							# print(tu1.start, tu1.end)
 							# print(tu2.start, tu2.end)
+							# input()
 
 							if duration1 > duration2:
 								tu1.end = tu1.end - 0.1
-								tu1.warnings["MOVED_BOUNDARY"] = True
+								tu1.warnings["MOVED_BOUNDARIES"] += 1
 
 							else:
 								tu2.start = tu2.start + 0.1
-								tu2.warnings["MOVED_BOUNDARY"] = True
+								tu2.warnings["MOVED_BOUNDARIES"] += 1
 
 						else:
 
@@ -505,11 +551,28 @@ class transcript:
 
 		self.time_based_overlaps = G
 
+
 	def check_overlaps(self):
+
+		to_remove = []
+		for u, v in self.time_based_overlaps.edges():
+			if all(df.tokentype.metalinguistic in tok.token_type for tok_id, tok in self.transcription_units_dict[u].tokens.items()) or \
+			all(df.tokentype.metalinguistic in tok.token_type for tok_id, tok in self.transcription_units_dict[v].tokens.items()):
+				# print(u, v)
+				# print(self.transcription_units_dict[u].annotation)
+				# print([x.token_type.name for _, x in self.transcription_units_dict[u].tokens.items()])
+				# print(self.transcription_units_dict[v].annotation)
+				# print([x.token_type.name for _, x in self.transcription_units_dict[v].tokens.items()])
+				to_remove.append((u, v))
+
+
+		for u, v in to_remove:
+			self.time_based_overlaps.remove_edge(u, v)
 
 		visited = set()
 
 		cliques = sorted(nx.find_cliques(self.time_based_overlaps), key=lambda x: len(x))
+
 		for clique in cliques:
 
 			if len(clique)>1:
