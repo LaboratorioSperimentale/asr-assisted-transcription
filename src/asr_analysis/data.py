@@ -12,7 +12,7 @@ import asr_analysis.dataflags as df
 import csv # for annotators' statistics
 
 @dataclass
-class turn:
+class Turn:
 	speaker: str
 	transcription_units_ids: List[str] = field(default_factory=lambda: [])
 	start: float = 0
@@ -28,7 +28,7 @@ class turn:
 		self.end = end
 
 @dataclass
-class token:
+class Token:
 	text: str
 	span: Tuple[int,int] = (0,0)
 	token_type: df.tokentype = df.tokentype.linguistic
@@ -182,7 +182,7 @@ class token:
 #TODO: creare funzioni di test
 
 @dataclass
-class transcription_unit:
+class TranscriptionUnit:
 	tu_id : int
 	speaker: str
 	start: float
@@ -209,7 +209,7 @@ class transcription_unit:
 	errors: List[str] = field(default_factory=lambda: collections.defaultdict(bool))
 	parentheses: List[Tuple[int, str]] = field(default_factory=lambda: [])
 	splits: List[int] = field(default_factory=lambda: [])
-	tokens: Dict[int, token] = field(default_factory=lambda: {})
+	tokens: Dict[int, Token] = field(default_factory=lambda: {})
 	ntokens: int = 0
 
 	def __post_init__(self):
@@ -359,13 +359,13 @@ class transcription_unit:
 						end2 = end_pos
 
 						token_id += 1
-						new_token = token(subtoken1)
+						new_token = Token(subtoken1)
 						new_token.add_span(start1, end1)
 						new_token.add_info("SpaceAfter", "No")
 						self.tokens[token_id] = new_token
 
 						token_id += 1
-						new_token = token(subtoken2)
+						new_token = Token(subtoken2)
 						new_token.add_span(start2, end2)
 						self.tokens[token_id] = new_token
 
@@ -378,7 +378,7 @@ class transcription_unit:
 
 					else:
 						token_id += 1
-						new_token = token(tok)
+						new_token = Token(tok)
 						new_token.add_span(start_pos, end_pos)
 						self.tokens[token_id] = new_token
 					start_pos = end_pos+1
@@ -470,18 +470,18 @@ class transcription_unit:
 		# self.ntokens = len([x for x in self.tokens if x.token_type == df.tokentype.linguistic])
 
 @dataclass
-class transcript:
+class Transcript:
 	tr_id: str
 	speakers: Dict[str, int] = field(default_factory=lambda: {})
 	tiers: Dict[str, bool] = field(default_factory=lambda: collections.defaultdict(bool))
 	last_speaker_id: int = 0
-	transcription_units_dict: Dict[str, transcription_unit] = field(default_factory=lambda: collections.defaultdict(list))
-	transcription_units: List[transcription_unit] = field(default_factory=lambda: [])
-	turns: List[turn] = field(default_factory=lambda: [])
+	transcription_units_dict: Dict[str, TranscriptionUnit] = field(default_factory=lambda: collections.defaultdict(list))
+	transcription_units: List[TranscriptionUnit] = field(default_factory=lambda: [])
+	turns: List[Turn] = field(default_factory=lambda: [])
 	time_based_overlaps: nx.Graph = field(default_factory=lambda: nx.Graph())
 	statistics: pd.DataFrame = None
 
-	def add(self, tu:transcription_unit):
+	def add(self, tu:TranscriptionUnit):
 
 		if not tu.speaker in self.speakers:
 			self.speakers[tu.speaker] = 0
@@ -658,7 +658,7 @@ class transcript:
 		# SP2 : .........      [(T2)  ]............
 
 		prev_speaker = self.transcription_units[0].speaker
-		curr_turn = turn(prev_speaker)
+		curr_turn = Turn(prev_speaker)
 		curr_turn.add_tu(self.transcription_units[0].tu_id)
 		curr_turn.set_start(self.transcription_units[0].start)
 		curr_turn.set_end(self.transcription_units[0].end) # per ottenere anche la fine del primo turno, altrimenti in mancanza di questo ci restituisce solo lo start
@@ -672,7 +672,7 @@ class transcript:
 					curr_turn.add_tu(tu.tu_id)
 				else:
 					self.turns.append(curr_turn)
-					curr_turn = turn(tu.speaker)
+					curr_turn = Turn(tu.speaker)
 					curr_turn.add_tu(tu.tu_id)
 					curr_turn.set_start(tu.start)
 					prev_speaker = speaker

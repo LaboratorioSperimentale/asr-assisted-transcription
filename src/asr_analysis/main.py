@@ -15,13 +15,13 @@ def process_all_transcripts(input_dir="data/csv_puliti", output_dir="data/output
 	for filename in os.listdir(input_dir):
 		if filename.endswith(".csv"):
 			transcript_name = filename.replace(".csv", "") # rimuove .csv (prendendo come esempio 01_ParlaBOA_E)
-			transcript = data.transcript(transcript_name)
+			transcript = data.Transcript(transcript_name)
 
 			file_path = os.path.join(input_dir, filename)
 			print(f"Processing {filename}")
 
 			for tu_id, speaker, start, end, duration, annotation in serialize.read_csv(file_path):
-				new_tu = data.transcription_unit(tu_id, speaker, start, end, duration, annotation)
+				new_tu = data.TranscriptionUnit(tu_id, speaker, start, end, duration, annotation)
 				transcript.add(new_tu)
 
 			transcript.sort()
