@@ -170,3 +170,4 @@ data/max_trascrizioni.tsv
 .vscode/
 *.bak
 *.eaf.001
+data/output_sample/*
