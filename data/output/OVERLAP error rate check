@@ -13,30 +13,30 @@ STRAPARLA:
 01_StraParlaA_I
 01_StraParlaA_L
 01_StraParlaB_A
-01_StraParlaC_S: DA FARE (Martina)
-01_StraParlaC_U: DA FARE (Martina)
+nuovo file	01_StraParlaC_S: DA FARE (Martina)
+nuovo file	01_StraParlaC_U: DA FARE (Martina)
 02_StraParlaA_A
 02_StraParlaA_V
 02_StraParlaB_O
 02_StraParlaB_R
-02_StraParlaC_N: DA FARE (Martina)
+nuovo file	02_StraParlaC_N: DA FARE (Martina)
 
 PARLABO:
 01_ParlaBOA_E
 01_ParlaBOA_M
-01_ParlaBOB_N: DA FARE (Ludovica)
+nuovo file	01_ParlaBOB_N: DA FARE (Ludovica)
 02_ParlaBOA_I
 02_ParlaBOA_L
-02_ParlaBOB_S: DA FARE (Ludovica)
+nuovo file	02_ParlaBOB_S: DA FARE (Ludovica)
 03_ParlaBOA
 
 DA FARE:
-03_StraParlaA_man (Martina)
-03_StraParlaA_whi (Martina)
-03_StraParlaB_man (Martina)
-03_StraParlaB_whi (Ludovica)
-03_StraParlaC_man (Ludovica)
-03_StraParlaC_whi (Ludovica)
+nuovo file	03_StraParlaA_man (Martina)
+nuovo file	03_StraParlaA_whi (Martina)
+nuovo file	03_StraParlaB_man (Martina)
+nuovo file	03_StraParlaB_whi (Ludovica)
+nuovo file	03_StraParlaC_man (Ludovica)
+nuovo file	03_StraParlaC_whi (Ludovica)
 
 
 

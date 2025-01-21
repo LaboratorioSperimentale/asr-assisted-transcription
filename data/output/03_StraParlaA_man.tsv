@@ -1,152 +1,152 @@
-tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents	W:non_jefferson	W:pauses_trim	W:prosodic_trim	E:volume	E:pace	E:guess	E:overlap	E:overlap_mismatch	E:overlap_duration	T:shortpauses	T:metalinguistic	T:errors	T:linguistic	annotation	correct	text
-1	SP1	0.0	1.42	1.42	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	e:: come tabacco no?	e:: come tabacco no?	e come tabacco no
-2	SP2	1.43	1.95	0.52	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	o[kay]	o[kay]	okay
-3	SP1	1.51	4.913	3.403	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	1	8	[e::h (di)] là (.) lavorando più di tre:- tremila pers[one]	[e::h (di)] là {P} lavorando più di tre:- tremila pers[one]	eh di là {P} lavorando più di tre:- tremila persone
-4	SP2	4.52	5.06	0.54	True	0	0	0	0	0	0	True	False	False	False	False	_	0	0	0	1	[°mh][mh]	[°mh][mh]	mhmh
-5	SP1	4.94	8.49	3.55	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	[no]n sono esattamente o tremila o trentamila [ma tremi]la che facciamo	[no]n sono esattamente o tremila o trentamila [ma tremi]la che facciamo	non sono esattamente o tremila o trentamila ma tremila che facciamo
-6	SP2	7.01	7.59	0.58	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[°mhmh°]	[°mhmh°]	mhmh
-7	SP1	8.72	11.36	2.64	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	ma non si trovano adesso neanche là gli appartamen[ti]	ma non si trovano adesso neanche là gli appartamen[ti]	ma non si trovano adesso neanche là gli appartamenti
-8	SP2	11.1	14.2	3.1	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	9	[eh] esatto >te lo era< (.) questo che volevo chiederti	[eh] esatto >te lo era< {P} questo che volevo chiederti	eh esatto te lo era {P} questo che volevo chiederti
-9	SP2	14.26	14.7	0.44	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	>perché<	>perché<	perché
-10	SP1	14.83	15.33	0.5	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	ah sì	ah sì	ah sì
-11	SP2	15.38	16.85	1.47	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	se tutti vogliono vivere lì	se tutti vogliono vivere lì	se tutti vogliono vivere lì
-12	SP1	17.41	19.11	1.7	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	°sì° non si trovano appartamenti.	°sì° non si trovano appartamenti.	sì non si trovano appartamenti
-13	SP2	19.12	19.3	0.18	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	°mhmh°	°mhmh°	mhmh
-14	SP1	19.32	20.04	0.72	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	la ver[ità]	la ver[ità]	la verità
-15	SP2	19.79	20.23	0.44	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-16	SP1	20.24	24.1	3.86	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	8	piuttosto che:: (.) ci sono un sacco di: gente,	piuttosto che:: {P} ci sono un sacco di: gente,	piuttosto che {P} ci sono un sacco di gente
-17	SP1	24.35	27.19	2.84	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	come non vuole dare appartamenti per la famiglia,	come non vuole dare appartamenti per la famiglia,	come non vuole dare appartamenti per la famiglia
-18	SP1	27.93	32.03	4.1	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	13	un po' che danno un po' di perso[ne ch]e:: dopo fanno la storia	un po' che danno un po' di perso[ne ch]e:: dopo fanno la storia	un po' che danno un po' di persone che dopo fanno la storia
-19	SP2	29.58	30.14	0.56	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-20	SP2	32.107	32.587	0.48	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[°mhmh°]	[°mhmh°]	mhmh
-21	SP1	32.11	32.59	0.48	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[ora,]	[ora,]	ora
-22	SP1	32.67	34.8	2.13	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	per pochi che: tutti quanti:	per pochi che: tutti quanti:	per pochi che tutti quanti
-23	SP1	34.91	35.6	0.69	True	0	0	0	0	0	0	False	False	False	False	True	24=0.040	0	1	0	0	((sospira))	{sospira}	{sospira}
-24	SP2	35.56	37.03	1.47	True	0	0	0	0	0	0	False	False	False	False	True	23=0.040,25=0.700	0	0	0	5	sì sì sì [certo capito]	sì sì sì [certo capito]	sì sì sì certo capito
-25	SP1	36.3	37.0	0.7	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[°mh mh°]	[°mh mh°]	mh mh
-26	SP2	37.12	41.24	4.12	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	13	mh e ma se se potessi un giorno vorresti vivere in citt[à: (o)]	mh e ma se se potessi un giorno vorresti vivere in citt[à: (o)]	mh e ma se se potessi un giorno vorresti vivere in città o
-27	SP1	40.85	45.373	4.523	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	14	[assolu]tamente io sto provando tutti i giorni a [trovare] c(io)è un appartamento per i::	[assolu]tamente io sto provando tutti i giorni a [trovare] c(io)è un appartamento per i::	assolutamente io sto provando tutti i giorni a trovare cioè un appartamento per i
-28	SP2	43.033	43.38	0.347	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[(o)kay]	[(o)kay]	okay
-29	SP1	45.47	48.19	2.72	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	trasferire in bol[ogna c(io)è] io lavoro qui,	trasferire in bol[ogna c(io)è] io lavoro qui,	trasferire in bologna cioè io lavoro qui
-30	SP2	46.37	47.02	0.65	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-31	SP1	48.26	50.33	2.07	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	è inutile che io vado a	è inutile che io vado a	è inutile che io vado a
-32	SP1	50.58	53.31	2.73	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	esempio faccio così una una una ragionamento.	esempio faccio così una una una ragionamento.	esempio faccio così una una una ragionamento
-33	SP1	53.38	55.8	2.42	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	7	se lo trovo (.) una casa, in bologna,	se lo trovo {P} una casa, in bologna,	se lo trovo {P} una casa in bologna
-34	SP1	56.12	61.03	4.91	True	0	0	0	0	0	0	False	False	False	False	False	_	2	0	0	12	che (.) mille euro (.) fa[cciamo per]ché:: una casa deve essere mille euro, [e]	che {P} mille euro {P} fa[cciamo per]ché:: una casa deve essere mille euro, [e]	che {P} mille euro {P} facciamo perché una casa deve essere mille euro e
-35	SP2	57.76	58.37	0.61	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-36	SP2	60.7	61.033	0.333	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mh]	[mh]	mh
-37	SP1	61.08	64.98	3.9	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	16	non è che deve essere soltanto una camera, un mo- un monolocale che mille euro no	non è che deve essere soltanto una camera, un mo- un monolocale che mille euro no	non è che deve essere soltanto una camera un mo- un monolocale che mille euro no
-38	SP1	65.2	65.65	0.45	True	0	0	0	0	0	0	False	False	False	False	True	39=0.050	0	0	0	2	è troppo.	è troppo.	è troppo
-39	SP2	65.6	66.46	0.86	True	0	0	0	0	0	0	False	False	False	False	True	38=0.050	0	0	0	3	è troppo sì	è troppo sì	è troppo sì
-40	SP1	66.54	71.76	5.22	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	15	deve essere almeno tr[e camere di letto per per] mille euro milledue millecento facci[amo così]	deve essere almeno tr[e camere di letto per per] mille euro milledue millecento facci[amo così]	deve essere almeno tre camere di letto per per mille euro milledue millecento facciamo così
-41	SP2	68.0	69.01	1.01	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[sì sì sì]	[sì sì sì]	sì sì sì
-42	SP2	71.14	71.76	0.62	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-43	SP1	72.62	74.48	1.86	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	se vado a: valsamoggia,	se vado a: valsamoggia,	se vado a valsamoggia
-44	SP1	74.767	77.71	2.943	True	0	0	0	0	0	0	False	False	False	False	True	45=0.380,46=0.050	0	0	0	11	ogni mese io spendo c- più di duecen[to euro] di benzina.	ogni mese io spendo c- più di duecen[to euro] di benzina.	ogni mese io spendo c- più di duecento euro di benzina
-45	SP2	76.772	77.152	0.38	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[°mhmh°]	[°mhmh°]	mhmh
-46	SP2	77.66	79.25	1.59	True	0	0	0	0	0	0	False	False	False	False	True	44=0.050	1	0	0	5	sì sì (.) e il parcheggio	sì sì {P} e il parcheggio	sì sì {P} e il parcheggio
-47	SP1	79.3	83.413	4.113	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	9	e parcheggio più (.) [fa]cciamo trecento[cinquanta euro di ogni mese]	e parcheggio più {P} [fa]cciamo trecento[cinquanta euro di ogni mese]	e parcheggio più {P} facciamo trecentocinquanta euro di ogni mese
-48	SP2	79.99	80.38	0.39	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[°sì°]	[°sì°]	sì
-49	SP2	81.45	83.427	1.977	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[sì sì tantissimo]	[sì sì tantissimo]	sì sì tantissimo
-50	SP2	83.72	84.513	0.793	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	tantissimo	tantissimo	tantissimo
-51	SP1	84.52	85.52	1.0	True	0	0	0	0	0	0	False	False	False	False	True	52=0.770	0	0	0	1	tantissimo	tantissimo	tantissimo
-52	SP2	84.75	85.72	0.97	True	0	0	0	0	0	0	False	False	False	False	True	51=0.770	0	1	0	0	((ride))	{ride}	{ride}
-53	SP2	85.78	86.39	0.61	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	°sì sì°	°sì sì°	sì sì
-54	SP2	86.55	90.63	4.08	True	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	14	no io non ho la macchina quindi [non mi rendo contO SENTO queste cifre] ((ride))	no io non ho la macchina quindi [non mi rendo contO SENTO queste cifre] {ride}	no io non ho la macchina quindi non mi rendo conto sento queste cifre {ride}
-55	SP1	88.12	93.89	5.77	True	0	0	0	0	0	0	False	False	False	False	False	_	2	0	0	11	[no inteNDEVO (.) <intendevo>] (.) che se là pago settecento euro in affitto	[no inteNDEVO {P} <intendevo>] {P} che se là pago settecento euro in affitto	no intendevo {P} intendevo {P} che se là pago settecento euro in affitto
-56	SP1	94.29	97.2	2.91	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	4	più (.) trecentocinquant[a sono m]ille,	più {P} trecentocinquant[a sono m]ille,	più {P} trecentocinquanta sono mille
-57	SP2	96.24	96.83	0.59	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-58	SP2	97.31	97.833	0.523	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mhmh	mhmh	mhmh
-59	SP1	98.2	105.08	6.88	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	2	17	GIÀ (.) mille: e.h[m mill- millece:n]to mille- duemilacento m:- milleduecento dopo [perché non è che solo] devo pagare la macchina,	GIÀ {P} mille: e.h[m mill- millece:n]to mille- duemilacento m:- milleduecento dopo [perché non è che solo] devo pagare la macchina,	già {P} mille e.hm mill- millecento mille- duemilacento m:- milleduecento dopo perché non è che solo devo pagare la macchina
-60	SP2	99.39	100.16	0.77	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[°sì sì sì°]	[°sì sì sì°]	sì sì sì
-61	SP2	102.99	103.77	0.78	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[°mhmh°]	[°mhmh°]	mhmh
-62	SP1	105.21	107.447	2.237	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	la benzina e::	la benzina e::	la benzina e
-63	SP1	107.7	111.15	3.45	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	e anch[e il parcheggio] n[o, devo pa-] as-	e anch[e il parcheggio] n[o, devo pa-] as-	e anche il parcheggio no devo pa- as-
-64	SP2	108.29	109.09	0.8	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[sì sì sì]	[sì sì sì]	sì sì sì
-65	SP2	109.24	109.99	0.75	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[°sì sì sì°]	[°sì sì sì°]	sì sì sì
-66	SP1	111.69	117.58	5.89	True	0	0	0	0	0	0	False	False	False	False	False	_	2	0	0	18	allora come la città, (.) se tu paghi duecento euro c(io)è duecento euro IN PI[Ù (.) ma t]i trovi tutto.	allora come la città, {P} se tu paghi duecento euro c(io)è duecento euro IN PI[Ù {P} ma t]i trovi tutto.	allora come la città {P} se tu paghi duecento euro cioè duecento euro in più {P} ma ti trovi tutto
-67	SP2	116.3	117.04	0.74	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-68	SP2	117.713	118.28	0.567	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	certo sì	certo sì	certo sì
-69	SP2	118.48	119.233	0.753	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	certo certo certo	certo certo certo	certo certo certo
-70	SP1	119.307	124.8	5.493	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	16	come da là per fare una spesa io devo fare c(io)è dieci chilometri cinque chilometri al[meno]	come da là per fare una spesa io devo fare c(io)è dieci chilometri cinque chilometri al[meno]	come da là per fare una spesa io devo fare cioè dieci chilometri cinque chilometri almeno
-71	SP2	124.3	124.8	0.5	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-72	SP2	125.68	130.0	4.32	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	10	no poi ti (.) >(in)somma< ti svegli presto, [traffico, stress sì]	no poi ti {P} >(in)somma< ti svegli presto, [traffico, stress sì]	no poi ti {P} insomma ti svegli presto traffico stress sì
-73	SP1	127.89	130.787	2.897	True	0	0	0	0	0	0	False	False	False	False	False	_	2	0	0	5	[assolutamente ma (.) guarda che] (.) là	[assolutamente ma {P} guarda che] {P} là	assolutamente ma {P} guarda che {P} là
-74	SP1	131.28	133.473	2.193	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	da vivere la differenza da città e fuori città	da vivere la differenza da città e fuori città	da vivere la differenza da città e fuori città
-75	SP2	133.553	133.913	0.36	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mhmh	mhmh	mhmh
-76	SP1	134.047	137.813	3.766	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	SE LAVORO, fuori città, guarda che per me va be[ne ma]	SE LAVORO, fuori città, guarda che per me va be[ne ma]	se lavoro fuori città guarda che per me va bene ma
-77	SP2	137.29	137.81	0.52	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-78	SP1	137.913	139.56	1.647	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	de[ntro la città che devo lavorare]	de[ntro la città che devo lavorare]	dentro la città che devo lavorare
-79	SP2	138.28	140.41	2.13	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	5	[venendo qua] (.) certo sì [sì]	[venendo qua] {P} certo sì [sì]	venendo qua {P} certo sì sì
-80	SP1	140.1	143.873	3.773	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	12	[si]gnifica che per [me] non è che una giornata di: (.) ventiquattro ore.	[si]gnifica che per [me] non è che una giornata di: {P} ventiquattro ore.	significa che per me non è che una giornata di {P} ventiquattro ore
-81	SP2	141.013	141.206	0.193	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[°mh°]	[°mh°]	mh
-82	SP2	143.907	144.4	0.493	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mhmh	mhmh	mhmh
-83	SP1	144.633	146.33	1.697	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	3	sono (.) ventidue [ore]	sono {P} ventidue [ore]	sono {P} ventidue ore
-84	SP2	145.9	148.2	2.3	True	0	0	0	0	0	0	False	False	False	False	False	_	2	0	0	6	[CERTO] (.) perch[é una è x (.) mhmh]	[CERTO] {P} perch[é una è x {P} mhmh]	certo {P} perché una è x {P} mhmh
-85	SP1	146.91	150.713	3.803	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	11	[ANCORA MENO] (.) sono venti ore ti[po per]ché: ogni giorno io lo	[ANCORA MENO] {P} sono venti ore ti[po per]ché: ogni giorno io lo	ancora meno {P} sono venti ore tipo perché ogni giorno io lo
-86	SP2	149.184	149.464	0.28	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[°sì sì°]	[°sì sì°]	sì sì
-87	SP1	151.287	159.267	7.98	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	6	17	vado avanti indietro un'ora un'ora e mezzo c(io)è per venire un'ora e mezzo un'[o:ra mi]nimo e ritornare è ancora facciamo mezz'ora o un'ora	vado avanti indietro un'ora un'ora e mezzo c(io)è per venire un'ora e mezzo un'[o:ra mi]nimo e ritornare è ancora facciamo mezz'ora o un'ora	vado avanti indietro un'ora un'ora e mezzo cioè per venire un'ora e mezzo un'o:ra minimo e ritornare è ancora facciamo mezz'ora o un'ora
-88	SP2	155.6	156.027	0.427	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[°mhmh°]	[°mhmh°]	mhmh
-89	SP2	159.48	160.03	0.55	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mh[mh]	mh[mh]	mhmh
-90	SP1	159.57	161.093	1.523	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	[allora] due ore è già scalata	[allora] due ore è già scalata	allora due ore è già scalata
-91	SP2	161.1	161.8	0.7	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	sì sì [mh]	sì sì [mh]	sì sì mh
-92	SP1	161.4	164.74	3.34	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	9	[per] preparare c(io)é se (.) tipo che noi abitiamo c(io)è	[per] preparare c(io)é se {P} tipo che noi abitiamo c(io)è	per preparare cioé se {P} tipo che noi abitiamo cioè
-93	SP1	164.98	167.98	3.0	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	facciamo come dentro la bolo:gna, tu venti minuti,	facciamo come dentro la bolo:gna, tu venti minuti,	facciamo come dentro la bologna tu venti minuti
-94	SP1	168.3	170.1	1.8	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	trenta minuti sei [in lavoro.]	trenta minuti sei [in lavoro.]	trenta minuti sei in lavoro
-95	SP2	169.6	170.1	0.5	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-96	SP2	170.35	175.15	4.8	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	14	°certo sì sì° (.) ma prima di trasferirti in valsamoggia m:h in quale zona abitav[i::?]	°certo sì sì° {P} ma prima di trasferirti in valsamoggia m:h in quale zona abitav[i::?]	certo sì sì {P} ma prima di trasferirti in valsamoggia mh in quale zona abitavi
-97	SP1	174.85	177.63	2.78	True	0	0	0	0	0	0	False	False	False	False	True	96=0.300,98=1.310	1	0	0	8	[in ce]ntro proprio in [centro storico] (.) [centro c]entro.	[in ce]ntro proprio in [centro storico] {P} [centro c]entro.	in centro proprio in centro storico {P} centro centro
-98	SP2	175.87	177.18	1.31	True	0	0	0	0	0	0	False	False	False	False	True	97=1.310	1	0	0	3	[centro centro?] (.) [okay]	[centro centro?] {P} [okay]	centro centro {P} okay
-99	SP1	178.48	180.913	2.433	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	DIECI MINUTI CAMMINATA che dove lavoro io:	DIECI MINUTI CAMMINATA che dove lavoro io:	dieci minuti camminata che dove lavoro io
-100	SP2	181.21	183.88	2.67	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	1	8	però c'è un po' di casino in c[entro, sporco::]	però c'è un po' di casino in c[entro, sporco::]	però c'è un po' di casino in centro sporco
-101	SP1	182.74	188.52	5.78	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	21	[NO GUARDA CHE c]asino: no p- c(io)è proprio no non è che è sporco tu di- tu m:h non posso d-	[NO GUARDA CHE c]asino: no p- c(io)è proprio no non è che è sporco tu di- tu m:h non posso d-	no guarda che casino no p- cioè proprio no non è che è sporco tu di- tu mh non posso d-
-102	SP1	188.68	191.233	2.553	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	c(io)è non puoi:: guardare tutte le cose insi[eme.]	c(io)è non puoi:: guardare tutte le cose insi[eme.]	cioè non puoi guardare tutte le cose insieme
-103	SP2	191.07	191.38	0.31	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mh]mh	[mh]mh	mhmh
-104	SP2	192.067	192.6	0.533	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mhmh	mhmh	mhmh
-105	SP2	193.067	195.973	2.906	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	quindi sì ti ti piac[erebbe rit]ornare a vivere [°in centro sì°]	quindi sì ti ti piac[erebbe rit]ornare a vivere [°in centro sì°]	quindi sì ti ti piacerebbe ritornare a vivere in centro sì
-106	SP1	193.86	194.43	0.57	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[sì]	[sì]	sì
-107	SP1	194.95	200.7	5.75	True	0	0	0	0	0	0	False	False	False	False	True	105=1.023	1	0	0	16	[perché (.) è una] persona che vanno c(io)è lavorare dentro, in città:, e va ad abitare fuo[ri,]	[perché {P} è una] persona che vanno c(io)è lavorare dentro, in città:, e va ad abitare fuo[ri,]	perché {P} è una persona che vanno cioè lavorare dentro in città e va ad abitare fuori
-108	SP2	200.773	201.18	0.407	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mh[mh]	mh[mh]	mhmh
-109	SP1	200.98	203.35	2.37	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	[ti-] n- stai inquin[ando lo stesso]	[ti-] n- stai inquin[ando lo stesso]	ti- n- stai inquinando lo stesso
-110	SP2	202.23	206.41	4.18	True	0	0	0	0	0	0	False	False	False	False	False	_	3	0	0	11	[ANCHE (.) certo] (.) [ah no no no certamente] (.) sì sì sì sì	[ANCHE {P} certo] {P} [ah no no no certamente] {P} sì sì sì sì	anche {P} certo {P} ah no no no certamente {P} sì sì sì sì
-111	SP1	204.03	205.407	1.377	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	[devi capire questa qua]	[devi capire questa qua]	devi capire questa qua
-112	SP2	206.71	207.7	0.99	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	e:: nien[te x]	e:: nien[te x]	e niente x
-113	SP1	207.43	212.627	5.197	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	14	[ma s]e come io che vengo ad abitare: in cen- città (.) mh una macchina,	[ma s]e come io che vengo ad abitare: in cen- città {P} mh una macchina,	ma se come io che vengo ad abitare in cen- città {P} mh una macchina
-114	SP1	213.07	216.987	3.917	True	0	0	0	0	0	0	False	False	False	False	False	_	2	0	0	10	già f- (.) già ferma [ma per] (.) [non inqu]inare la ci[ttà]	già f- {P} già ferma [ma per] {P} [non inqu]inare la ci[ttà]	già f- {P} già ferma ma per {P} non inquinare la città
-115	SP2	214.71	215.35	0.64	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-116	SP2	215.46	216.07	0.61	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-117	SP2	216.73	219.32	2.59	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	[sì sì s]ì è vero capisco: perfettamente	[sì sì s]ì è vero capisco: perfettamente	sì sì sì è vero capisco perfettamente
-118	SP2	219.41	222.747	3.337	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	8	m::h e sono curiosa di chiederti anche (.) perché	m::h e sono curiosa di chiederti anche {P} perché	mh e sono curiosa di chiederti anche {P} perché
-119	SP2	223.07	224.61	1.54	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	quindi immagino che la tua famiglia,	quindi immagino che la tua famiglia,	quindi immagino che la tua famiglia
-120	SP2	225.07	229.75	4.68	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	16	si sia trasfer[ita qui dal] bangl[adesh no? quindi i]n nella in casa con i tuoi genitori	si sia trasfer[ita qui dal] bangl[adesh no? quindi i]n nella in casa con i tuoi genitori	si sia trasferita qui dal bangladesh no quindi in nella in casa con i tuoi genitori
-121	SP1	225.84	226.26	0.42	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[sì]	[sì]	sì
-122	SP1	226.72	227.52	0.8	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	2	[sì (.) °sì°]	[sì {P} °sì°]	sì {P} sì
-123	SP2	229.89	231.827	1.937	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	5	parla- m::h (.) che lingua parlate?	parla- m::h {P} che lingua parlate?	parla- mh {P} che lingua parlate
-124	SP2	232.26	233.0	0.74	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[quale lin-]	[quale lin-]	quale lin-
-125	SP1	232.28	235.28	3.0	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	7	[bangla sì] (.) in lingua:: bangla che parlano.	[bangla sì] {P} in lingua:: bangla che parlano.	bangla sì {P} in lingua bangla che parlano
-126	SP2	235.3	235.64	0.34	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	e:	e:	e
-127	SP1	235.65	239.84	4.19	True	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	9	però eh tutti quanti lo sanno anche italiano tranquilla[mente] ((ride))	però eh tutti quanti lo sanno anche italiano tranquilla[mente] {ride}	però eh tutti quanti lo sanno anche italiano tranquillamente {ride}
-128	SP2	238.22	243.02	4.8	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	1	14	[okay] (.) e lo mi- mischiate un po' con l'i[taliano, quando: par]late [fra di voi o]	[okay] {P} e lo mi- mischiate un po' con l'i[taliano, quando: par]late [fra di voi o]	okay {P} e lo mi- mischiate un po' con l'italiano, quando parlate fra di voi o
-129	SP1	240.25	241.87	1.62	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	3	[sì (.) °sì sì°]	[sì {P} °sì sì°]	sì {P} sì sì
-130	SP1	241.98	243.027	1.047	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[sì: sì:]	[sì: sì:]	sì sì
-131	SP2	243.4	244.81	1.41	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	tu hai fratelli anch[e:?]	tu hai fratelli anch[e:?]	tu hai fratelli anche
-132	SP1	244.56	247.45	2.89	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	8	[sì.] (.) ho una sorella che: studia in università	[sì.] {P} ho una sorella che: studia in università	sì {P} ho una sorella che studia in università
-133	SP2	247.51	248.65	1.14	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	ah che cosa studia?	ah che cosa studia?	ah che cosa studia
-134	SP1	248.687	249.23	0.543	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	chimica	chimica	chimica
-135	SP2	249.36	250.407	1.047	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	chimica [okay]	chimica [okay]	chimica okay
-136	SP1	249.93	250.487	0.557	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[industria]le.	[industria]le.	industriale
-137	SP2	250.493	253.88	3.387	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	8	ed è più:: (.) grande più pi[ccola di te?]	ed è più:: {P} grande più pi[ccola di te?]	ed è più {P} grande più piccola di te
-138	SP1	253.04	255.54	2.5	True	0	0	0	0	0	0	False	False	False	False	True	137=0.840,139=0.950	0	1	0	7	[no: è più c-] sì più: piccola ((ride))	[no: è più c-] sì più: piccola {ride}	no è più c- sì più piccola {ride}
-139	SP2	254.59	255.667	1.077	True	0	0	0	0	0	0	False	False	False	False	True	138=0.950	0	0	0	3	più piccola okay	più piccola okay	più piccola okay
-140	SP2	255.96	261.13	5.17	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	18	sono curiosa di sapere se tu con la tua sorella parli pre- pr[evalentemente xx (.) (tutte e due) okay]	sono curiosa di sapere se tu con la tua sorella parli pre- pr[evalentemente xx {P} (tutte e due) okay]	sono curiosa di sapere se tu con la tua sorella parli pre- prevalentemente xx {P} tutte e due okay
-141	SP1	259.3	265.269	5.969	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	22	[TUTTE E DUE LINGUE NOI PARLIAMO] tutte e due lingue sì: dipende quale argomento che parliamo però parliamo tutte e due °lingue°.	[TUTTE E DUE LINGUE NOI PARLIAMO] tutte e due lingue sì: dipende quale argomento che parliamo però parliamo tutte e due °lingue°.	tutte e due lingue noi parliamo tutte e due lingue sì dipende quale argomento che parliamo però parliamo tutte e due lingue
-142	SP2	265.27	268.79	3.52	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	13	ah tipo ci sono alcuni argomenti che sono: più legati a una l[ingua,]	ah tipo ci sono alcuni argomenti che sono: più legati a una l[ingua,]	ah tipo ci sono alcuni argomenti che sono più legati a una lingua
-143	SP1	268.33	269.2	0.87	True	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	2	[sì] (.) °sì°	[sì] {P} °sì°	sì {P} sì
-144	SP2	269.387	270.1	0.713	True	0	0	0	0	0	0	False	False	False	False	True	145=0.040	0	0	0	2	per esempio?	per esempio?	per esempio
-145	SP1	270.06	279.053	8.993	True	0	0	0	0	0	0	False	False	False	False	True	144=0.040	0	0	0	20	no esempio: e::h quando noi parliamo qualche argomenti di proprio c(io)è proprio ital- c(io)è posto qui, allora parliamo come:: m::h	no esempio: e::h quando noi parliamo qualche argomenti di proprio c(io)è proprio ital- c(io)è posto qui, allora parliamo come:: m::h	no esempio eh quando noi parliamo qualche argomenti di proprio cioè proprio ital- cioè posto qui allora parliamo come mh
-146	SP1	279.35	284.75	5.4	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	17	come italiano c(io)è proprio le cose, però eh quando noi parliamo la roba di per la famiglia,	come italiano c(io)è proprio le cose, però eh quando noi parliamo la roba di per la famiglia,	come italiano cioè proprio le cose però eh quando noi parliamo la roba di per la famiglia
-147	SP1	284.96	290.04	5.08	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	allora vabbè utilizziamo il [lin]gua:: bangla [per per la] fa[miglia assolu]ta[mente.]	allora vabbè utilizziamo il [lin]gua:: bangla [per per la] fa[miglia assolu]ta[mente.]	allora vabbè utilizziamo il lingua bangla per per la famiglia assolutamente
-148	SP2	286.63	287.17	0.54	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-149	SP2	288.2	288.64	0.44	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-150	SP2	288.8	289.387	0.587	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-151	SP2	289.52	290.033	0.513	True	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[mhmh mh]	[mhmh mh]	mhmh mh
+tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents	W:non_jefferson	W:pauses_trim	W:prosodic_trim	W:moved_boundaries	E:volume	E:pace	E:guess	E:overlap	E:overlap_mismatch	E:overlap_duration	T:shortpauses	T:metalinguistic	T:errors	T:linguistic	annotation	correct	text
+1	SP1	0.0	1.42	1.42	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	e:: come tabacco no?	e:: come tabacco no?	e come tabacco no
+2	SP2	1.43	1.95	0.52	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	o[kay]	o[kay]	okay
+3	SP1	1.51	4.913	3.403	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	1	8	[e::h (di)] là (.) lavorando più di tre:- tremila pers[one]	[e::h (di)] là {P} lavorando più di tre:- tremila pers[one]	eh di là {P} lavorando più di tre:- tremila persone
+4	SP2	4.52	5.06	0.54	True	0	0	0	0	0	0	0	True	False	False	False	False	_	0	0	0	1	[°mh][mh]	[°mh][mh]	mhmh
+5	SP1	4.94	8.49	3.55	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	[no]n sono esattamente o tremila o trentamila [ma tremi]la che facciamo	[no]n sono esattamente o tremila o trentamila [ma tremi]la che facciamo	non sono esattamente o tremila o trentamila ma tremila che facciamo
+6	SP2	7.01	7.59	0.58	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[°mhmh°]	[°mhmh°]	mhmh
+7	SP1	8.72	11.36	2.64	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	ma non si trovano adesso neanche là gli appartamen[ti]	ma non si trovano adesso neanche là gli appartamen[ti]	ma non si trovano adesso neanche là gli appartamenti
+8	SP2	11.1	14.2	3.1	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	9	[eh] esatto >te lo era< (.) questo che volevo chiederti	[eh] esatto >te lo era< {P} questo che volevo chiederti	eh esatto te lo era {P} questo che volevo chiederti
+9	SP2	14.26	14.7	0.44	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	>perché<	>perché<	perché
+10	SP1	14.83	15.33	0.5	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	ah sì	ah sì	ah sì
+11	SP2	15.38	16.85	1.47	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	se tutti vogliono vivere lì	se tutti vogliono vivere lì	se tutti vogliono vivere lì
+12	SP1	17.41	19.11	1.7	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	°sì° non si trovano appartamenti.	°sì° non si trovano appartamenti.	sì non si trovano appartamenti
+13	SP2	19.12	19.3	0.18	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	°mhmh°	°mhmh°	mhmh
+14	SP1	19.32	20.04	0.72	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	la ver[ità]	la ver[ità]	la verità
+15	SP2	19.79	20.23	0.44	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+16	SP1	20.24	24.1	3.86	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	8	piuttosto che:: (.) ci sono un sacco di: gente,	piuttosto che:: {P} ci sono un sacco di: gente,	piuttosto che {P} ci sono un sacco di gente
+17	SP1	24.35	27.19	2.84	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	come non vuole dare appartamenti per la famiglia,	come non vuole dare appartamenti per la famiglia,	come non vuole dare appartamenti per la famiglia
+18	SP1	27.93	32.03	4.1	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	13	un po' che danno un po' di perso[ne ch]e:: dopo fanno la storia	un po' che danno un po' di perso[ne ch]e:: dopo fanno la storia	un po' che danno un po' di persone che dopo fanno la storia
+19	SP2	29.58	30.14	0.56	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+20	SP2	32.107	32.587	0.48	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[°mhmh°]	[°mhmh°]	mhmh
+21	SP1	32.11	32.59	0.48	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[ora,]	[ora,]	ora
+22	SP1	32.67	34.8	2.13	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	per pochi che: tutti quanti:	per pochi che: tutti quanti:	per pochi che tutti quanti
+23	SP1	34.91	35.6	0.69	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	0	((sospira))	{sospira}	{sospira}
+24	SP2	35.660000000000004	37.03	1.47	True	0	0	0	0	0	0	1	False	False	False	False	False	_	0	0	0	5	sì sì sì [certo capito]	sì sì sì [certo capito]	sì sì sì certo capito
+25	SP1	36.3	37.0	0.7	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[°mh mh°]	[°mh mh°]	mh mh
+26	SP2	37.12	41.24	4.12	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	13	mh e ma se se potessi un giorno vorresti vivere in citt[à: (o)]	mh e ma se se potessi un giorno vorresti vivere in citt[à: (o)]	mh e ma se se potessi un giorno vorresti vivere in città o
+27	SP1	40.85	45.373	4.523	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	14	[assolu]tamente io sto provando tutti i giorni a [trovare] c(io)è un appartamento per i::	[assolu]tamente io sto provando tutti i giorni a [trovare] c(io)è un appartamento per i::	assolutamente io sto provando tutti i giorni a trovare cioè un appartamento per i
+28	SP2	43.033	43.38	0.347	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[(o)kay]	[(o)kay]	okay
+29	SP1	45.47	48.19	2.72	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	trasferire in bol[ogna c(io)è] io lavoro qui,	trasferire in bol[ogna c(io)è] io lavoro qui,	trasferire in bologna cioè io lavoro qui
+30	SP2	46.37	47.02	0.65	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+31	SP1	48.26	50.33	2.07	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	è inutile che io vado a	è inutile che io vado a	è inutile che io vado a
+32	SP1	50.58	53.31	2.73	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	esempio faccio così una una una ragionamento.	esempio faccio così una una una ragionamento.	esempio faccio così una una una ragionamento
+33	SP1	53.38	55.8	2.42	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	7	se lo trovo (.) una casa, in bologna,	se lo trovo {P} una casa, in bologna,	se lo trovo {P} una casa in bologna
+34	SP1	56.12	61.03	4.91	True	0	0	0	0	0	0	0	False	False	False	False	False	_	2	0	0	12	che (.) mille euro (.) fa[cciamo per]ché:: una casa deve essere mille euro, [e]	che {P} mille euro {P} fa[cciamo per]ché:: una casa deve essere mille euro, [e]	che {P} mille euro {P} facciamo perché una casa deve essere mille euro e
+35	SP2	57.76	58.37	0.61	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+36	SP2	60.7	61.033	0.333	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mh]	[mh]	mh
+37	SP1	61.08	64.98	3.9	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	16	non è che deve essere soltanto una camera, un mo- un monolocale che mille euro no	non è che deve essere soltanto una camera, un mo- un monolocale che mille euro no	non è che deve essere soltanto una camera un mo- un monolocale che mille euro no
+38	SP1	65.2	65.65	0.45	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	è troppo.	è troppo.	è troppo
+39	SP2	65.69999999999999	66.46	0.86	True	0	0	0	0	0	0	1	False	False	False	False	False	_	0	0	0	3	è troppo sì	è troppo sì	è troppo sì
+40	SP1	66.54	71.76	5.22	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	15	deve essere almeno tr[e camere di letto per per] mille euro milledue millecento facci[amo così]	deve essere almeno tr[e camere di letto per per] mille euro milledue millecento facci[amo così]	deve essere almeno tre camere di letto per per mille euro milledue millecento facciamo così
+41	SP2	68.0	69.01	1.01	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[sì sì sì]	[sì sì sì]	sì sì sì
+42	SP2	71.14	71.76	0.62	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+43	SP1	72.62	74.48	1.86	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	se vado a: valsamoggia,	se vado a: valsamoggia,	se vado a valsamoggia
+44	SP1	74.767	77.61	2.943	True	0	0	0	0	0	0	1	False	False	False	False	False	_	0	0	0	11	ogni mese io spendo c- più di duecen[to euro] di benzina.	ogni mese io spendo c- più di duecen[to euro] di benzina.	ogni mese io spendo c- più di duecento euro di benzina
+45	SP2	76.772	77.152	0.38	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[°mhmh°]	[°mhmh°]	mhmh
+46	SP2	77.66	79.25	1.59	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	5	sì sì (.) e il parcheggio	sì sì {P} e il parcheggio	sì sì {P} e il parcheggio
+47	SP1	79.3	83.413	4.113	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	9	e parcheggio più (.) [fa]cciamo trecento[cinquanta euro di ogni mese]	e parcheggio più {P} [fa]cciamo trecento[cinquanta euro di ogni mese]	e parcheggio più {P} facciamo trecentocinquanta euro di ogni mese
+48	SP2	79.99	80.38	0.39	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[°sì°]	[°sì°]	sì
+49	SP2	81.45	83.427	1.977	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[sì sì tantissimo]	[sì sì tantissimo]	sì sì tantissimo
+50	SP2	83.72	84.513	0.793	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	tantissimo	tantissimo	tantissimo
+51	SP1	84.52	85.52	1.0	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	tantissimo	tantissimo	tantissimo
+52	SP2	84.75	85.72	0.97	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	0	((ride))	{ride}	{ride}
+53	SP2	85.78	86.39	0.61	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	°sì sì°	°sì sì°	sì sì
+54	SP2	86.55	90.63	4.08	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	14	no io non ho la macchina quindi [non mi rendo contO SENTO queste cifre] ((ride))	no io non ho la macchina quindi [non mi rendo contO SENTO queste cifre] {ride}	no io non ho la macchina quindi non mi rendo conto sento queste cifre {ride}
+55	SP1	88.12	93.89	5.77	True	0	0	0	0	0	0	0	False	False	False	False	False	_	2	0	0	11	[no inteNDEVO (.) <intendevo>] (.) che se là pago settecento euro in affitto	[no inteNDEVO {P} <intendevo>] {P} che se là pago settecento euro in affitto	no intendevo {P} intendevo {P} che se là pago settecento euro in affitto
+56	SP1	94.29	97.2	2.91	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	4	più (.) trecentocinquant[a sono m]ille,	più {P} trecentocinquant[a sono m]ille,	più {P} trecentocinquanta sono mille
+57	SP2	96.24	96.83	0.59	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+58	SP2	97.31	97.833	0.523	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mhmh	mhmh	mhmh
+59	SP1	98.2	105.08	6.88	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	2	17	GIÀ (.) mille: e.h[m mill- millece:n]to mille- duemilacento m:- milleduecento dopo [perché non è che solo] devo pagare la macchina,	GIÀ {P} mille: e.h[m mill- millece:n]to mille- duemilacento m:- milleduecento dopo [perché non è che solo] devo pagare la macchina,	già {P} mille e.hm mill- millecento mille- duemilacento m:- milleduecento dopo perché non è che solo devo pagare la macchina
+60	SP2	99.39	100.16	0.77	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[°sì sì sì°]	[°sì sì sì°]	sì sì sì
+61	SP2	102.99	103.77	0.78	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[°mhmh°]	[°mhmh°]	mhmh
+62	SP1	105.21	107.447	2.237	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	la benzina e::	la benzina e::	la benzina e
+63	SP1	107.7	111.15	3.45	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	e anch[e il parcheggio] n[o, devo pa-] as-	e anch[e il parcheggio] n[o, devo pa-] as-	e anche il parcheggio no devo pa- as-
+64	SP2	108.29	109.09	0.8	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[sì sì sì]	[sì sì sì]	sì sì sì
+65	SP2	109.24	109.99	0.75	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[°sì sì sì°]	[°sì sì sì°]	sì sì sì
+66	SP1	111.69	117.58	5.89	True	0	0	0	0	0	0	0	False	False	False	False	False	_	2	0	0	18	allora come la città, (.) se tu paghi duecento euro c(io)è duecento euro IN PI[Ù (.) ma t]i trovi tutto.	allora come la città, {P} se tu paghi duecento euro c(io)è duecento euro IN PI[Ù {P} ma t]i trovi tutto.	allora come la città {P} se tu paghi duecento euro cioè duecento euro in più {P} ma ti trovi tutto
+67	SP2	116.3	117.04	0.74	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+68	SP2	117.713	118.28	0.567	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	certo sì	certo sì	certo sì
+69	SP2	118.48	119.233	0.753	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	certo certo certo	certo certo certo	certo certo certo
+70	SP1	119.307	124.8	5.493	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	16	come da là per fare una spesa io devo fare c(io)è dieci chilometri cinque chilometri al[meno]	come da là per fare una spesa io devo fare c(io)è dieci chilometri cinque chilometri al[meno]	come da là per fare una spesa io devo fare cioè dieci chilometri cinque chilometri almeno
+71	SP2	124.3	124.8	0.5	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+72	SP2	125.68	130.0	4.32	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	10	no poi ti (.) >(in)somma< ti svegli presto, [traffico, stress sì]	no poi ti {P} >(in)somma< ti svegli presto, [traffico, stress sì]	no poi ti {P} insomma ti svegli presto traffico stress sì
+73	SP1	127.89	130.787	2.897	True	0	0	0	0	0	0	0	False	False	False	False	False	_	2	0	0	5	[assolutamente ma (.) guarda che] (.) là	[assolutamente ma {P} guarda che] {P} là	assolutamente ma {P} guarda che {P} là
+74	SP1	131.28	133.473	2.193	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	da vivere la differenza da città e fuori città	da vivere la differenza da città e fuori città	da vivere la differenza da città e fuori città
+75	SP2	133.553	133.913	0.36	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mhmh	mhmh	mhmh
+76	SP1	134.047	137.813	3.766	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	SE LAVORO, fuori città, guarda che per me va be[ne ma]	SE LAVORO, fuori città, guarda che per me va be[ne ma]	se lavoro fuori città guarda che per me va bene ma
+77	SP2	137.29	137.81	0.52	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+78	SP1	137.913	139.56	1.647	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	de[ntro la città che devo lavorare]	de[ntro la città che devo lavorare]	dentro la città che devo lavorare
+79	SP2	138.28	140.41	2.13	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	5	[venendo qua] (.) certo sì [sì]	[venendo qua] {P} certo sì [sì]	venendo qua {P} certo sì sì
+80	SP1	140.1	143.873	3.773	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	12	[si]gnifica che per [me] non è che una giornata di: (.) ventiquattro ore.	[si]gnifica che per [me] non è che una giornata di: {P} ventiquattro ore.	significa che per me non è che una giornata di {P} ventiquattro ore
+81	SP2	141.013	141.206	0.193	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[°mh°]	[°mh°]	mh
+82	SP2	143.907	144.4	0.493	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mhmh	mhmh	mhmh
+83	SP1	144.633	146.33	1.697	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	3	sono (.) ventidue [ore]	sono {P} ventidue [ore]	sono {P} ventidue ore
+84	SP2	145.9	148.2	2.3	True	0	0	0	0	0	0	0	False	False	False	False	False	_	2	0	0	6	[CERTO] (.) perch[é una è x (.) mhmh]	[CERTO] {P} perch[é una è x {P} mhmh]	certo {P} perché una è x {P} mhmh
+85	SP1	146.91	150.713	3.803	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	11	[ANCORA MENO] (.) sono venti ore ti[po per]ché: ogni giorno io lo	[ANCORA MENO] {P} sono venti ore ti[po per]ché: ogni giorno io lo	ancora meno {P} sono venti ore tipo perché ogni giorno io lo
+86	SP2	149.184	149.464	0.28	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[°sì sì°]	[°sì sì°]	sì sì
+87	SP1	151.287	159.267	7.98	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	1	27	vado avanti indietro un'ora un'ora e mezzo c(io)è per venire un'ora e mezzo un'[o:ra mi]nimo e ritornare è ancora facciamo mezz'ora o un'ora	vado avanti indietro un'ora un'ora e mezzo c(io)è per venire un'ora e mezzo un'[o:ra mi]nimo e ritornare è ancora facciamo mezz'ora o un'ora	vado avanti indietro un' ora un' ora e mezzo cioè per venire un' ora e mezzo un'o:ra minimo e ritornare è ancora facciamo mezz' ora o un' ora
+88	SP2	155.6	156.027	0.427	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[°mhmh°]	[°mhmh°]	mhmh
+89	SP2	159.48	160.03	0.55	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mh[mh]	mh[mh]	mhmh
+90	SP1	159.57	161.093	1.523	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	[allora] due ore è già scalata	[allora] due ore è già scalata	allora due ore è già scalata
+91	SP2	161.1	161.8	0.7	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	sì sì [mh]	sì sì [mh]	sì sì mh
+92	SP1	161.4	164.74	3.34	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	9	[per] preparare c(io)é se (.) tipo che noi abitiamo c(io)è	[per] preparare c(io)é se {P} tipo che noi abitiamo c(io)è	per preparare cioé se {P} tipo che noi abitiamo cioè
+93	SP1	164.98	167.98	3.0	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	facciamo come dentro la bolo:gna, tu venti minuti,	facciamo come dentro la bolo:gna, tu venti minuti,	facciamo come dentro la bologna tu venti minuti
+94	SP1	168.3	170.1	1.8	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	trenta minuti sei [in lavoro.]	trenta minuti sei [in lavoro.]	trenta minuti sei in lavoro
+95	SP2	169.6	170.1	0.5	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+96	SP2	170.35	175.15	4.8	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	14	°certo sì sì° (.) ma prima di trasferirti in valsamoggia m:h in quale zona abitav[i::?]	°certo sì sì° {P} ma prima di trasferirti in valsamoggia m:h in quale zona abitav[i::?]	certo sì sì {P} ma prima di trasferirti in valsamoggia mh in quale zona abitavi
+97	SP1	174.85	177.63	2.78	True	0	0	0	0	0	0	0	False	False	False	False	True	96=0.300,98=1.310	1	0	0	8	[in ce]ntro proprio in [centro storico] (.) [centro c]entro.	[in ce]ntro proprio in [centro storico] {P} [centro c]entro.	in centro proprio in centro storico {P} centro centro
+98	SP2	175.87	177.18	1.31	True	0	0	0	0	0	0	0	False	False	False	False	True	97=1.310	1	0	0	3	[centro centro?] (.) [okay]	[centro centro?] {P} [okay]	centro centro {P} okay
+99	SP1	178.48	180.913	2.433	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	DIECI MINUTI CAMMINATA che dove lavoro io:	DIECI MINUTI CAMMINATA che dove lavoro io:	dieci minuti camminata che dove lavoro io
+100	SP2	181.21	183.88	2.67	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	10	però c'è un po' di casino in c[entro, sporco::]	però c'è un po' di casino in c[entro, sporco::]	però c' è un po' di casino in centro sporco
+101	SP1	182.74	188.52	5.78	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	21	[NO GUARDA CHE c]asino: no p- c(io)è proprio no non è che è sporco tu di- tu m:h non posso d-	[NO GUARDA CHE c]asino: no p- c(io)è proprio no non è che è sporco tu di- tu m:h non posso d-	no guarda che casino no p- cioè proprio no non è che è sporco tu di- tu mh non posso d-
+102	SP1	188.68	191.233	2.553	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	c(io)è non puoi:: guardare tutte le cose insi[eme.]	c(io)è non puoi:: guardare tutte le cose insi[eme.]	cioè non puoi guardare tutte le cose insieme
+103	SP2	191.07	191.38	0.31	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mh]mh	[mh]mh	mhmh
+104	SP2	192.067	192.6	0.533	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mhmh	mhmh	mhmh
+105	SP2	193.067	195.973	2.906	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	quindi sì ti ti piac[erebbe rit]ornare a vivere [°in centro sì°]	quindi sì ti ti piac[erebbe rit]ornare a vivere [°in centro sì°]	quindi sì ti ti piacerebbe ritornare a vivere in centro sì
+106	SP1	193.86	194.43	0.57	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[sì]	[sì]	sì
+107	SP1	194.95	200.7	5.75	True	0	0	0	0	0	0	0	False	False	False	False	True	105=1.023	1	0	0	16	[perché (.) è una] persona che vanno c(io)è lavorare dentro, in città:, e va ad abitare fuo[ri,]	[perché {P} è una] persona che vanno c(io)è lavorare dentro, in città:, e va ad abitare fuo[ri,]	perché {P} è una persona che vanno cioè lavorare dentro in città e va ad abitare fuori
+108	SP2	200.773	201.18	0.407	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mh[mh]	mh[mh]	mhmh
+109	SP1	200.98	203.35	2.37	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	[ti-] n- stai inquin[ando lo stesso]	[ti-] n- stai inquin[ando lo stesso]	ti- n- stai inquinando lo stesso
+110	SP2	202.23	206.41	4.18	True	0	0	0	0	0	0	0	False	False	False	False	False	_	3	0	0	11	[ANCHE (.) certo] (.) [ah no no no certamente] (.) sì sì sì sì	[ANCHE {P} certo] {P} [ah no no no certamente] {P} sì sì sì sì	anche {P} certo {P} ah no no no certamente {P} sì sì sì sì
+111	SP1	204.03	205.407	1.377	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	[devi capire questa qua]	[devi capire questa qua]	devi capire questa qua
+112	SP2	206.71	207.7	0.99	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	e:: nien[te x]	e:: nien[te x]	e niente x
+113	SP1	207.43	212.627	5.197	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	14	[ma s]e come io che vengo ad abitare: in cen- città (.) mh una macchina,	[ma s]e come io che vengo ad abitare: in cen- città {P} mh una macchina,	ma se come io che vengo ad abitare in cen- città {P} mh una macchina
+114	SP1	213.07	216.987	3.917	True	0	0	0	0	0	0	0	False	False	False	False	False	_	2	0	0	10	già f- (.) già ferma [ma per] (.) [non inqu]inare la ci[ttà]	già f- {P} già ferma [ma per] {P} [non inqu]inare la ci[ttà]	già f- {P} già ferma ma per {P} non inquinare la città
+115	SP2	214.71	215.35	0.64	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+116	SP2	215.46	216.07	0.61	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+117	SP2	216.73	219.32	2.59	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	[sì sì s]ì è vero capisco: perfettamente	[sì sì s]ì è vero capisco: perfettamente	sì sì sì è vero capisco perfettamente
+118	SP2	219.41	222.747	3.337	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	8	m::h e sono curiosa di chiederti anche (.) perché	m::h e sono curiosa di chiederti anche {P} perché	mh e sono curiosa di chiederti anche {P} perché
+119	SP2	223.07	224.61	1.54	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	quindi immagino che la tua famiglia,	quindi immagino che la tua famiglia,	quindi immagino che la tua famiglia
+120	SP2	225.07	229.75	4.68	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	16	si sia trasfer[ita qui dal] bangl[adesh no? quindi i]n nella in casa con i tuoi genitori	si sia trasfer[ita qui dal] bangl[adesh no? quindi i]n nella in casa con i tuoi genitori	si sia trasferita qui dal bangladesh no quindi in nella in casa con i tuoi genitori
+121	SP1	225.84	226.26	0.42	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[sì]	[sì]	sì
+122	SP1	226.72	227.52	0.8	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	2	[sì (.) °sì°]	[sì {P} °sì°]	sì {P} sì
+123	SP2	229.89	231.827	1.937	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	5	parla- m::h (.) che lingua parlate?	parla- m::h {P} che lingua parlate?	parla- mh {P} che lingua parlate
+124	SP2	232.26	233.0	0.74	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[quale lin-]	[quale lin-]	quale lin-
+125	SP1	232.28	235.28	3.0	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	7	[bangla sì] (.) in lingua:: bangla che parlano.	[bangla sì] {P} in lingua:: bangla che parlano.	bangla sì {P} in lingua bangla che parlano
+126	SP2	235.3	235.64	0.34	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	e:	e:	e
+127	SP1	235.65	239.84	4.19	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	9	però eh tutti quanti lo sanno anche italiano tranquilla[mente] ((ride))	però eh tutti quanti lo sanno anche italiano tranquilla[mente] {ride}	però eh tutti quanti lo sanno anche italiano tranquillamente {ride}
+128	SP2	238.22	243.02	4.8	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	16	[okay] (.) e lo mi- mischiate un po' con l'i[taliano, quando: par]late [fra di voi o]	[okay] {P} e lo mi- mischiate un po' con l'i[taliano, quando: par]late [fra di voi o]	okay {P} e lo mi- mischiate un po' con l' italiano quando parlate fra di voi o
+129	SP1	240.25	241.87	1.62	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	3	[sì (.) °sì sì°]	[sì {P} °sì sì°]	sì {P} sì sì
+130	SP1	241.98	243.027	1.047	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[sì: sì:]	[sì: sì:]	sì sì
+131	SP2	243.4	244.81	1.41	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	tu hai fratelli anch[e:?]	tu hai fratelli anch[e:?]	tu hai fratelli anche
+132	SP1	244.56	247.45	2.89	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	8	[sì.] (.) ho una sorella che: studia in università	[sì.] {P} ho una sorella che: studia in università	sì {P} ho una sorella che studia in università
+133	SP2	247.51	248.65	1.14	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	ah che cosa studia?	ah che cosa studia?	ah che cosa studia
+134	SP1	248.687	249.23	0.543	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	chimica	chimica	chimica
+135	SP2	249.36	250.407	1.047	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	chimica [okay]	chimica [okay]	chimica okay
+136	SP1	249.93	250.487	0.557	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[industria]le.	[industria]le.	industriale
+137	SP2	250.493	253.88	3.387	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	8	ed è più:: (.) grande più pi[ccola di te?]	ed è più:: {P} grande più pi[ccola di te?]	ed è più {P} grande più piccola di te
+138	SP1	253.04	255.54	2.5	True	0	0	0	0	0	0	0	False	False	False	False	True	137=0.840,139=0.950	0	1	0	7	[no: è più c-] sì più: piccola ((ride))	[no: è più c-] sì più: piccola {ride}	no è più c- sì più piccola {ride}
+139	SP2	254.59	255.667	1.077	True	0	0	0	0	0	0	0	False	False	False	False	True	138=0.950	0	0	0	3	più piccola okay	più piccola okay	più piccola okay
+140	SP2	255.96	261.13	5.17	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	18	sono curiosa di sapere se tu con la tua sorella parli pre- pr[evalentemente xx (.) (tutte e due) okay]	sono curiosa di sapere se tu con la tua sorella parli pre- pr[evalentemente xx {P} (tutte e due) okay]	sono curiosa di sapere se tu con la tua sorella parli pre- prevalentemente xx {P} tutte e due okay
+141	SP1	259.3	265.269	5.969	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	22	[TUTTE E DUE LINGUE NOI PARLIAMO] tutte e due lingue sì: dipende quale argomento che parliamo però parliamo tutte e due °lingue°.	[TUTTE E DUE LINGUE NOI PARLIAMO] tutte e due lingue sì: dipende quale argomento che parliamo però parliamo tutte e due °lingue°.	tutte e due lingue noi parliamo tutte e due lingue sì dipende quale argomento che parliamo però parliamo tutte e due lingue
+142	SP2	265.27	268.79	3.52	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	13	ah tipo ci sono alcuni argomenti che sono: più legati a una l[ingua,]	ah tipo ci sono alcuni argomenti che sono: più legati a una l[ingua,]	ah tipo ci sono alcuni argomenti che sono più legati a una lingua
+143	SP1	268.33	269.2	0.87	True	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	2	[sì] (.) °sì°	[sì] {P} °sì°	sì {P} sì
+144	SP2	269.387	270.1	0.713	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	per esempio?	per esempio?	per esempio
+145	SP1	270.16	279.053	8.993	True	0	0	0	0	0	0	1	False	False	False	False	False	_	0	0	0	20	no esempio: e::h quando noi parliamo qualche argomenti di proprio c(io)è proprio ital- c(io)è posto qui, allora parliamo come:: m::h	no esempio: e::h quando noi parliamo qualche argomenti di proprio c(io)è proprio ital- c(io)è posto qui, allora parliamo come:: m::h	no esempio eh quando noi parliamo qualche argomenti di proprio cioè proprio ital- cioè posto qui allora parliamo come mh
+146	SP1	279.35	284.75	5.4	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	17	come italiano c(io)è proprio le cose, però eh quando noi parliamo la roba di per la famiglia,	come italiano c(io)è proprio le cose, però eh quando noi parliamo la roba di per la famiglia,	come italiano cioè proprio le cose però eh quando noi parliamo la roba di per la famiglia
+147	SP1	284.96	290.04	5.08	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	allora vabbè utilizziamo il [lin]gua:: bangla [per per la] fa[miglia assolu]ta[mente.]	allora vabbè utilizziamo il [lin]gua:: bangla [per per la] fa[miglia assolu]ta[mente.]	allora vabbè utilizziamo il lingua bangla per per la famiglia assolutamente
+148	SP2	286.63	287.17	0.54	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+149	SP2	288.2	288.64	0.44	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+150	SP2	288.8	289.387	0.587	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+151	SP2	289.52	290.033	0.513	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[mhmh mh]	[mhmh mh]	mhmh mh
