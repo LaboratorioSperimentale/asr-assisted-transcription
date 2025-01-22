@@ -1,0 +1,789 @@
+speaker	tu_id	token	orig_token	span	type	align	intonation	unknown	interruption	truncation	prosodicLink	prolongations	slow_pace	fast_pace	volume	guesses	overlaps
+SP1	1	persone	persone	persone	linguistic	Begin=0.24	_	False	False	False	False				_		
+SP1	1	che	che	che	linguistic		_	False	False	False	False				_		
+SP1	1	magari	magari	magari	linguistic		_	False	False	False	False				_		
+SP1	1	puoi	puoi	puoi	linguistic		_	False	False	False	False				_		
+SP1	1	avere	avere	avere	linguistic		_	False	False	False	False				_		
+SP1	1	incontrato	incontrato:	incontrato:	linguistic		_	False	False	False	False	9x1			_		
+SP1	1	un	un	un	linguistic		_	False	False	False	False				_		
+SP1	1	po'	po',	po',	linguistic	End=3.22	weakly_ascending	False	False	False	False				_		
+SP2	2	bah	bah	bah	linguistic	Begin=3.7	_	False	False	False	False				_		
+SP2	2	e	e::	e::	linguistic	End=5.11	_	False	False	False	False	0x2			_		
+SP2	3	sì	sì	sì	linguistic	Begin=5.5	_	False	False	False	False				_		
+SP2	3	è	è	è	linguistic		_	False	False	False	False				_		
+SP2	3	sempre	sempre	sempre	linguistic		_	False	False	False	False				_		
+SP2	3	pieno	pieno	pieno	linguistic		_	False	False	False	False				_		
+SP2	3	di	di:	di:	linguistic		_	False	False	False	False	1x1			_		
+SP2	3	persone	persone	persone	linguistic		_	False	False	False	False				_		
+SP2	3	che	che	che	linguistic		_	False	False	False	False				_		
+SP2	3	fanno	fanno	fanno	linguistic		_	False	False	False	False				_		
+SP2	3	l'	l'	l'	linguistic		_	False	False	True	False				_		
+SP2	3	elemosina	elemosina,	elemosina,	linguistic		weakly_ascending	False	False	False	False				_		
+SP2	3	sotto	sotto	sotto	linguistic		_	False	False	False	False				_		
+SP2	3	i	i	i	linguistic		_	False	False	False	False				_		
+SP2	3	portici	portici	porti[ci]	linguistic	End=9.3	_	False	False	False	False				_		
+SP1	4	mhmh	mhmh	[mhm]h	linguistic	End=9.29	_	False	False	False	False				_		0-4(3)
+SP2	5	soprattutto	soprattutto	soprattutto	linguistic	Begin=9.91	_	False	False	False	False				_		
+SP2	5	su	su	su	linguistic		_	False	False	False	False				_		
+SP2	5	via	via	via	linguistic		_	False	False	False	False				_		
+SP2	5	indipendenza	indipendenza,	indipendenza,	linguistic		weakly_ascending	False	False	False	False				_		
+SP2	5	ce	ce	ce	linguistic		_	False	False	False	False				_		
+SP2	5	ne	ne	ne	linguistic		_	False	False	False	False				_		
+SP2	5	sono	sono	sono	linguistic		_	False	False	False	False				_		
+SP2	5	diversi	diversi	[diversi]	linguistic	End=12.66	_	False	False	False	False				_		1-7(6)
+SP1	6	sì	sì	[sì	linguistic	Begin=12.09	_	False	False	False	False				_		0-2(5)
+SP1	6	è	è	è	linguistic		_	False	False	False	False				_		0-1(5)
+SP1	6	vero	vero	ve]ro	linguistic	End=12.82	_	False	False	False	False				_		0-4(5)
+SP2	7	anche	anche	anche	linguistic	Begin=13.52	_	False	False	False	False				_		
+SP2	7	sotto	sotto	sotto	linguistic		_	False	False	False	False				_		
+SP2	7	i	i	i	linguistic		_	False	False	False	False				_		
+SP2	7	portici	portici	portici	linguistic		_	False	False	False	False				_		
+SP2	7	di	di	di	linguistic		_	False	False	False	False				_		
+SP2	7	via	via:	via:	linguistic	End=15.41	_	False	False	False	False	2x1			_		
+SP2	8	di	di	di	linguistic	Begin=16.05	_	False	False	False	False				_		
+SP2	8	viale	viale:	viale:	linguistic	End=17.09	_	False	False	False	False	4x1			_		
+SP2	9	masini	masini	masini	linguistic	End=19.26	_	False	False	False	False				_		
+SP2	10	perché	perché	perché	linguistic	Begin=19.86	_	False	False	False	False				_		
+SP2	10	io	io	io	linguistic		_	False	False	False	False				_		
+SP2	10	passo	passo	passo	linguistic		_	False	False	False	False				_		
+SP2	10	spesso	spesso	spesso	linguistic		_	False	False	False	False				_		
+SP2	10	di	di	di	linguistic		_	False	False	False	False				_		
+SP2	10	lì	lì	lì	linguistic	End=21.0	_	False	False	False	False				_		
+SP2	11	e	e::	e::	linguistic	End=22.97	_	False	False	False	False	0x2			_		
+SP2	12	però	però	però	linguistic	Begin=24.41	_	False	False	False	False				_		
+SP2	12	a	a	a	linguistic		_	False	False	False	False				_		
+SP2	12	parte	parte	parte	linguistic		_	False	False	False	False				_		
+SP2	12	insomma	insomma,	insomma,	linguistic		weakly_ascending	False	False	False	False				_		
+SP2	12	persone	persone:	persone:	linguistic		_	False	False	False	False	6x1			_		
+SP2	12	che	che	che	linguistic		_	False	False	False	False				_		
+SP2	12	fanno	fanno	[fanno]	linguistic		_	False	False	False	False				_		2-5(13)
+SP2	12	l'	l'	l'	linguistic		_	False	False	True	False				_		0-2(13)
+SP2	12	elemosina	elemosina	elemosina	linguistic	End=28.05	_	False	False	False	False				_		
+SP1	13	mhmh	mhmh	[mhmh]	linguistic	End=26.8	_	False	False	False	False				_		0-4(12)
+SP2	14	sì	sì	sì	linguistic	End=28.39	_	False	False	False	False				_		
+SP2	15	mh	mh	mh	linguistic	Begin=28.56	_	False	False	False	False				_		
+SP2	15	a	a,	a,	linguistic	End=29.17	weakly_ascending	False	False	False	False				_		
+SP2	16	incontri	incontri	incontri	linguistic	Begin=29.62	_	False	False	False	False				_		
+SP2	16	anche	anche	anche	linguistic		_	False	False	False	False				_		
+SP2	16	molte	molte	molte	linguistic		_	False	False	False	False				_		
+SP2	16	persone	persone	persone	linguistic		_	False	False	False	False				_		
+SP2	16	che	che	che	linguistic		_	False	False	False	False				_		
+SP2	16	ti	ti	ti	linguistic		_	False	False	False	False				_		
+SP2	16	fermano	fermano	fermano	linguistic		_	False	False	False	False				_		
+SP2	16	per	per:	per:	linguistic	End=32.23	_	False	False	False	False	2x1			_		
+SP1	17	sì	sì	sì	linguistic	End=32.61	_	False	False	False	False				_		
+SP2	18	chiederti	chiederti	chiederti	linguistic	Begin=32.7	_	False	False	False	False				_		
+SP2	18	di	di	di	linguistic		_	False	False	False	False				_		
+SP2	18	fare	fare,	[fare,	linguistic		weakly_ascending	False	False	False	False				_		0-4(19)
+SP2	18	beneficienza	beneficienza	benefici]enza	linguistic		_	False	False	False	False				_		0-11(19)
+SP2	18	{ride}	{ride}	{ride}	metalinguistic	End=34.49	_	False	False	False	False				_		
+SP1	19	{ride}	{ride}	[{ride}	metalinguistic	Begin=32.76	_	False	False	False	False				_		0-6(18)
+SP1	19	esatto	esatto	esatto]	linguistic	End=33.93	_	False	False	False	False				_		0-6(18)
+SP1	20	{ride}	{ride}	{ride}	metalinguistic	Begin=34.67	_	False	False	False	False				_		
+SP1	20	le	le	le	linguistic		_	False	False	False	False				_		
+SP1	20	classiche	classiche	classiche	linguistic		_	False	False	False	False				_		
+SP1	20	persone	persone	persone	linguistic		_	False	False	False	False				_		
+SP1	20	che	che	che	linguistic		_	False	False	False	False				_		
+SP1	20	sono	sono	sono	linguistic		_	False	False	False	False				_		
+SP1	20	sotto	sotto	sotto	linguistic		_	False	False	False	False				_		
+SP1	20	i	i	i	linguistic		_	False	False	False	False				_		
+SP1	20	portici	portici	portici	linguistic	End=37.52	_	False	False	False	False				_		
+SP2	21	e	e:	e:	linguistic	End=39.17	_	False	False	False	False	0x1			_		
+SP2	22	a	a	a	linguistic	Begin=39.64	_	False	False	False	False				_		
+SP2	22	volte	volte	volte	linguistic		_	False	False	False	False				_		
+SP2	22	persone	persone	persone	linguistic		_	False	False	False	False				_		
+SP2	22	famose	famose	famose	linguistic		_	False	False	False	False				_		
+SP2	22	ogni	ogni	ogni	linguistic		_	False	False	False	False				_		
+SP2	22	tanto	tanto	tanto	linguistic		_	False	False	False	False				_		
+SP2	22	una	una	una	linguistic		_	False	False	False	False				_		
+SP2	22	volta	volta	volta	linguistic		_	False	False	False	False				_		
+SP2	22	ho	ho	ho	linguistic		_	False	False	False	False				_		
+SP2	22	incontrato	incontrato	incontrato	linguistic		_	False	False	False	False				_		
+SP2	22	piff	piff	piff	linguistic		_	False	False	False	False				_		
+SP2	22	ad	ad	ad	linguistic		_	False	False	False	False				_		
+SP2	22	esempio	esempio	esempi[o]	linguistic	End=43.129999999999995	_	False	False	False	False				_		6-7(?)
+SP1	23	a	a:	[a:]	linguistic	Begin=43.18	_	False	False	False	False	0x1			_		0-1(?)
+SP1	23	ah	ah	ah	linguistic		_	False	False	False	False				_		0-2(?)
+SP1	23	sì	sì	sì	linguistic		_	False	False	False	False				_		
+SP1	23	sì	sì	sì	linguistic		_	False	False	False	False				_		
+SP1	23	sì	sì	sì	linguistic	End=44.45	_	False	False	False	False				_		
+SP2	24	e	e:	e:	linguistic	End=44.96	_	False	False	False	False	0x1			_		
+SP2	25	che	che	>che	linguistic	Begin=45.2	_	False	False	False	False			0-3(0)	_		
+SP2	25	era	era	era<	linguistic		_	False	False	False	False			0-3(0)	_		
+SP2	25	in	in	in	linguistic		_	False	False	False	False			0-1(0)	_		
+SP2	25	un	un	un	linguistic		_	False	False	False	False				_		
+SP2	25	hotel	hotel	hotel	linguistic		_	False	False	False	False				_		
+SP2	25	che	che	che	linguistic		_	False	False	False	False				_		
+SP2	25	è	è	è	linguistic		_	False	False	False	False				_		
+SP2	25	lì	lì	lì	linguistic		_	False	False	False	False				_		
+SP2	25	su	su	su	linguistic		_	False	False	False	False				_		
+SP2	25	via	via	via	linguistic		_	False	False	False	False				_		
+SP2	25	indipendenza	indipendenza	indipendenza	linguistic	End=47.32	_	False	False	False	False				_		
+SP1	26	anche	anche	anche	linguistic	Begin=47.32	_	False	False	False	False				_		
+SP1	26	cremonini	cremonini	cremonini	linguistic		_	False	False	False	False				_		
+SP1	26	dicono	dicono	dicono	linguistic		_	False	False	False	False				_		
+SP1	26	che	che	che	linguistic		_	False	False	False	False				_		
+SP1	26	si	si	si	linguistic		_	False	False	False	False				_		
+SP1	26	aspetta	aspetta	[aspetta]	linguistic	End=49.31	_	False	False	False	False				_		0-7(27)
+SP2	27	cremonini	cremonini?	>cremonini?<	linguistic	Begin=48.99	ascending	False	False	False	False			0-9(0)	_		
+SP2	27	eh	eh	eh	linguistic		_	False	False	False	False			0-2(0)	_		
+SP2	27	non	non	non	linguistic		_	False	False	False	False				_		
+SP2	27	l'	l'	l'	linguistic		_	False	False	True	False				_		
+SP2	27	ho	ho	o	linguistic		_	False	False	False	False				_		
+SP2	27	ancora	ancora	[ancora	linguistic		_	False	False	False	False				_		2-6(?)
+SP2	27	incontrato	incontrato	incontrato	linguistic		_	False	False	False	False				_		0-10(?)
+SP2	27	cremonini	cremonini	cremonini]	linguistic	End=51.16	_	False	False	False	False				_		0-9(?)
+SP1	28	poi	poi	[°poi	linguistic	Begin=49.9	_	False	False	False	False				low		0-3(27)
+SP1	28	niente	niente	niente°	linguistic		_	False	False	False	False				low		0-6(27)
+SP1	28	neanche	neanche	neanche	linguistic		_	False	False	False	False				low		0-7(27)
+SP1	28	io	io	io]	linguistic	End=51.12	_	False	False	False	False				_		0-2(27)
+SP2	29	{ride}	{ride}	{ride}	metalinguistic	Begin=51.21	_	False	False	False	False				_		
+SP2	29	e	e:	e:	linguistic	End=52.03	_	False	False	False	False	0x1			_		
+SP2	30	però	però	però	linguistic	Begin=52.59	_	False	False	False	False				_		
+SP2	30	è	è	è	linguistic		_	False	False	False	False				_		
+SP2	30	che	che	che	linguistic		_	False	False	False	False				_		
+SP2	30	sì	sì	sì	linguistic	End=53.31	_	False	False	False	False				_		
+SP2	31	tre	tre	tre	linguistic	Begin=53.42	_	False	False	False	False				_		
+SP2	31	anni	anni,	anni,	linguistic		weakly_ascending	False	False	False	False				_		
+SP2	31	perché	perché	perché	linguistic		_	False	False	False	False				_		
+SP2	31	io	io	io	linguistic		_	False	False	False	False				_		
+SP2	31	sono	sono	sono	linguistic		_	False	False	False	False				_		
+SP2	31	dal	dal:	dal:	linguistic		_	False	False	False	False	2x1			_		
+SP2	31	duemiladiciotto	duemiladiciotto	duemiladiciotto	linguistic	End=55.26	_	False	False	False	False				_		
+SP2	32	sono	sono	sono	linguistic	Begin=55.49	_	False	False	False	False				_		
+SP2	32	dal	dal	dal	linguistic		_	False	False	False	False				_		
+SP2	32	sì	sì	sì	linguistic		_	False	False	False	False				_		
+SP2	32	tre	tre	tre	linguistic		_	False	False	False	False				_		
+SP2	32	anni	anni,	anni,	linguistic		weakly_ascending	False	False	False	False				_		
+SP2	32	che	che	che	linguistic		_	False	False	False	False				_		
+SP2	32	sono	sono	sono	linguistic		_	False	False	False	False				_		
+SP2	32	lì	lì	lì	linguistic		_	False	False	False	False				_		
+SP2	32	non	non	°non	linguistic		_	False	False	False	False				low		
+SP2	32	ho	ho	ho	linguistic		_	False	False	False	False				low		
+SP2	32	ancoraincrociato	ancoraincrociato	ancora°incrociato	linguistic		_	False	False	False	False				low		
+SP2	32	cremonini	cremonini	cremonini	linguistic	End=58.56	_	False	False	False	False				_		
+SP1	33	beh	beh	beh	linguistic	Begin=59.06	_	False	False	False	False				_		
+SP1	33	magari	magari	magari	linguistic		_	False	False	False	False				_		
+SP1	33	dai	dai	dai	linguistic		_	False	False	False	False				_		
+SP1	33	quest'	quest'	quest'	linguistic		_	False	False	True	False				_		
+SP1	33	anno	anno	nno	linguistic		_	False	False	False	False				_		
+SP1	33	sarà	sarà	[sarà	linguistic		_	False	False	False	False				_		0-4(34)
+SP1	33	l'	l'	l'	linguistic		_	False	False	True	False				_		0-2(34)
+SP1	33	anno	anno	nno	linguistic		_	False	False	False	False				_		0-4(34)
+SP1	33	buono	buono	buono]	linguistic	End=61.82	_	False	False	False	False				_		0-5(34)
+SP2	34	sì	sì	[sì	linguistic	Begin=60.27	_	False	False	False	False				_		0-2(33)
+SP2	34	chissà	chissà	chissà	linguistic		_	False	False	False	False				_		0-6(33)
+SP2	34	{ride}	{ride}	{ride}]	metalinguistic	End=61.84	_	False	False	False	False				_		0-6(33)
+SP2	35	beh	beh	beh	linguistic	End=62.25	_	False	False	False	False				_		
+SP1	36	e	e	e	linguistic	Begin=62.84	_	False	False	False	False				_		
+SP1	36	anche	anche,	anche,	linguistic		weakly_ascending	False	False	False	False				_		
+SP1	36	emh	emh	emh	linguistic		_	False	False	False	False				_		
+SP1	36	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
+SP1	36	per	per	per	linguistic		_	False	False	False	False				_		
+SP1	36	il	il	il	linguistic		_	False	False	False	False				_		
+SP1	36	fatto	fatto	fatto	linguistic		_	False	False	False	False				_		
+SP1	36	che	che	che	linguistic		_	False	False	False	False				_		
+SP1	36	hanno	hanno	hanno	linguistic		_	False	False	False	False				_		
+SP1	36	messo	messo	messo	linguistic		_	False	False	False	False				_		
+SP1	36	le	le	le	linguistic		_	False	False	False	False				_		
+SP1	36	luci	luci	luci	linguistic		_	False	False	False	False				_		
+SP1	36	con	con	con	linguistic		_	False	False	False	False				_		
+SP1	36	le	le	le	linguistic		_	False	False	False	False				_		
+SP1	36	scritte	scritte	scritte	linguistic		_	False	False	False	False				_		
+SP1	36	delle	delle	delle	linguistic		_	False	False	False	False				_		
+SP1	36	canzoni	canzoni	canzoni	linguistic		_	False	False	False	False				_		
+SP1	36	cosa	cosa	[cosa	linguistic		_	False	False	False	False				_		1-4(37)
+SP1	36	ne	ne	ne	linguistic		_	False	False	False	False				_		0-2(37)
+SP1	36	pensi	pensi?	pensi?]	linguistic	End=68.73	ascending	False	False	False	False				_		0-5(37)
+SP2	37	ah	ah	[ah	linguistic	Begin=67.85	_	False	False	False	False				_		0-2(36)
+SP2	37	bello	bello	bello	linguistic		_	False	False	False	False				_		0-5(36)
+SP2	37	quello	quello,	quello,]	linguistic		weakly_ascending	False	False	False	False				_		0-6(36)
+SP2	37	mi	mi	mi	linguistic		_	False	False	False	False				_		0-2(36)
+SP2	37	è	è	è	linguistic		_	False	False	False	False				_		
+SP2	37	piaciuto	piaciuto	piaciuto	linguistic		_	False	False	False	False				_		
+SP2	37	molto	molto	molto	linguistic		_	False	False	False	False				_		
+SP2	37	sì	sì	sì	linguistic		_	False	False	False	False				_		
+SP2	37	sì	sì	sì	linguistic		_	False	False	False	False				_		
+SP2	37	quello	quello:	quello:	linguistic		_	False	False	False	False	5x1			_		
+SP2	37	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
+SP2	37	si	si	si	linguistic		_	False	False	False	False				_		
+SP2	37	stava	stava	stava	linguistic		_	False	False	False	False				_		
+SP2	37	secondo	secondo	secondo	linguistic		_	False	False	False	False				_		
+SP2	37	me	me	me	linguistic	End=73.26	_	False	False	False	False				_		
+SP1	38	bello	bello	°bello°	linguistic	End=73.66	_	False	False	False	False				low		
+SP2	39	sì	sì	sì	linguistic	Begin=73.75	_	False	False	False	False				_		
+SP2	39	che	che:	che:	linguistic	End=73.99	_	False	False	False	False	2x1			_		
+SP2	40	beh	beh	°beh	linguistic	Begin=74.15	_	False	False	False	False				low		
+SP2	40	dai	dai,	dai,°	linguistic		weakly_ascending	False	False	False	False				low		
+SP2	40	cremonini	cremonini	cremonini	linguistic		_	False	False	False	False				low		
+SP2	40	comunque	comunque,	comunque,	linguistic		weakly_ascending	False	False	False	False				_		
+SP2	40	è	è	è	linguistic		_	False	False	False	False				_		
+SP2	40	il	il	il	linguistic		_	False	False	False	False				_		
+SP2	40	cantante	cantante	cantante	linguistic		_	False	False	False	False				_		
+SP2	40	di	di	di	linguistic		_	False	False	False	False				_		
+SP2	40	bolo-	bolo-	bolo-	linguistic		_	False	True	False	False				_		
+SP2	40	cioè	cioè	cioè	linguistic		_	False	False	False	False				_		
+SP2	40	a	a	[a	linguistic		_	False	False	False	False				_		
+SP2	40	parte	parte	par]te	linguistic		_	False	False	False	False				_		2-5(41)
+SP2	40	lucio	lucio	lucio	linguistic		_	False	False	False	False				_		0-3(41)
+SP2	40	dalla	dalla	dalla	linguistic		_	False	False	False	False				_		
+SP2	40	ovviamente	ovviamente	ovviamente	linguistic	End=78.03	_	False	False	False	False				_		
+SP1	41	sì	sì	[sì]	linguistic	End=76.81	_	False	False	False	False				_		0-2(40)
+SP2	42	però	però	però	linguistic	End=78.39	_	False	False	False	False				_		
+SP1	43	che	che	che	linguistic	Begin=78.67	_	False	False	False	False				_		
+SP1	43	poi	poi	poi	linguistic		_	False	False	False	False				_		
+SP1	43	hanno	hanno	hanno	linguistic		_	False	False	False	False				_		
+SP1	43	messo	messo	messo	linguistic		_	False	False	False	False				_		
+SP1	43	anche	anche	anche	linguistic		_	False	False	False	False				_		
+SP1	43	le	le	le	linguistic		_	False	False	False	False				_		
+SP1	43	sue	sue	[sue	linguistic		_	False	False	False	False				_		0-3(44)
+SP1	43	vero	vero?	vero?	linguistic		ascending	False	False	False	False				_		0-4(44)
+SP1	43	sìsì	sìsì	sìsì]	linguistic	End=81.07	_	False	False	False	False				_		0-4(44)
+SP2	44	il	il	[il	linguistic	Begin=79.84	_	False	False	False	False				_		0-2(43)
+SP2	44	fatto	fatto	fatto	linguistic		_	False	False	False	False				_		0-5(43)
+SP2	44	che	che	che	linguistic		_	False	False	False	False				_		0-3(43)
+SP2	44	poi	poi	poi	linguistic		_	False	False	False	False				_		0-3(43)
+SP2	44	hanno	hanno	hanno	linguistic		_	False	False	False	False				_		0-5(43)
+SP2	44	messo	messo	messo	linguistic		_	False	False	False	False				_		0-5(43)
+SP2	44	anche	anche	anche]	linguistic		_	False	False	False	False				_		0-5(43)
+SP2	44	messo	messo,	messo,	linguistic		weakly_ascending	False	False	False	False				_		0-1(43)
+SP2	44	anche	anche	anche	linguistic		_	False	False	False	False				_		
+SP2	44	le	le	le	linguistic		_	False	False	False	False				_		
+SP2	44	sue	sue	sue	linguistic	End=81.62	_	False	False	False	False				_		
+SP2	45	e	e::	e::	linguistic	End=83.25	_	False	False	False	False	0x2			_		
+SP2	46	però	però	però	linguistic	Begin=83.47	_	False	False	False	False				_		
+SP2	46	ci	ci	ci	linguistic		_	False	False	False	False				_		
+SP2	46	sta	sta,	sta,	linguistic		weakly_ascending	False	False	False	False				_		
+SP2	46	è	è	è	linguistic		_	False	False	False	False				_		
+SP2	46	il	il	il	linguistic		_	False	False	False	False				_		
+SP2	46	cantante	cantante	cantante	linguistic		_	False	False	False	False				_		
+SP2	46	moderno	moderno,	moderno,	linguistic		weakly_ascending	False	False	False	False				_		
+SP2	46	diciamo	diciamo	[diciamo	linguistic		_	False	False	False	False				_		2-7(47)
+SP2	46	più	più:	più:]	linguistic		_	False	False	False	False	2x1			_		0-3(47)
+SP2	46	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		0-3(47)
+SP2	46	più	più	più	linguistic		_	False	False	False	False				_		
+SP2	46	bolognese	bolognese	bolognese	linguistic	End=87.7	_	False	False	False	False				_		
+SP1	47	mh	mh	[mh	linguistic	Begin=85.35	_	False	False	False	False				_		0-2(46)
+SP1	47	mh	mh	mh	linguistic		_	False	False	False	False				_		0-2(46)
+SP1	47	anche	anche	anche	linguistic		_	False	False	False	False				_		0-5(46)
+SP1	47	secondo	secondo	secondo	linguistic		_	False	False	False	False				_		0-7(46)
+SP1	47	me	me	me]	linguistic	End=87.01	_	False	False	False	False				_		0-2(46)
+SP1	48	e	e	e	linguistic	Begin=88.64	_	False	False	False	False				_		
+SP1	48	invece	invece,	[invece,]	linguistic		weakly_ascending	False	False	False	False				_		0-6(49)
+SP1	48	il	il	il	linguistic		_	False	False	False	False				_		0-2(49)
+SP1	48	tuo	tuo	tuo	linguistic		_	False	False	False	False				_		
+SP1	48	posto	posto	posto	linguistic		_	False	False	False	False				_		
+SP1	48	del	del	del	linguistic		_	False	False	False	False				_		
+SP1	48	cuore	cuore	cuore	linguistic		_	False	False	False	False				_		
+SP1	48	di	di	di	linguistic		_	False	False	False	False				_		
+SP1	48	bologna	bologna?	bologna?	linguistic	End=91.4	ascending	False	False	False	False				_		
+SP2	49	carino	carino	[carino]	linguistic	End=89.34	_	False	False	False	False				_		0-6(48)
+SP1	50	non	non	non	linguistic	Begin=91.88	_	False	False	False	False				_		
+SP1	50	so	so	so	linguistic		_	False	False	False	False				_		
+SP1	50	anche	anche	anche	linguistic		_	False	False	False	False				_		
+SP1	50	solo	solo	solo	linguistic		_	False	False	False	False				_		
+SP1	50	un	un	un	linguistic		_	False	False	False	False				_		
+SP1	50	bar	bar,	bar,	linguistic		weakly_ascending	False	False	False	False				_		
+SP1	50	a	a	[a	linguistic		_	False	False	False	False				_		
+SP1	50	cui	cui	cu]i	linguistic		_	False	False	False	False				_		0-3(51)
+SP1	50	sei	sei	sei	linguistic		_	False	False	False	False				_		0-1(51)
+SP1	50	particolarmente	particolarmente	particolarmente	linguistic		_	False	False	False	False				_		
+SP1	50	affezionata	affezionata?	affezionata?	linguistic	End=95.68	ascending	False	False	False	False				_		
+SP2	51	mh	mh	[mh]	linguistic	End=93.85	_	False	False	False	False				_		0-2(50)
+SP2	52	mh	mh	mh	linguistic	End=96.79	_	False	False	False	False				_		
+SP2	53	e	e:	e:	linguistic	Begin=99.04	_	False	False	False	False	0x1			_		
+SP2	53	forse	forse::	forse::	linguistic		_	False	False	False	False	4x2			_		
+SP2	53	mh	mh	mh	linguistic	End=101.13	_	False	False	False	False				_		
+SP2	54	mangiare	mangiare	mangiare	linguistic	Begin=102.33	_	False	False	False	False				_		
+SP2	54	un	un	un	linguistic		_	False	False	False	False				_		
+SP2	54	gelato	gelato	gelato	linguistic		_	False	False	False	False				_		
+SP2	54	seduti	seduti	seduti	linguistic		_	False	False	False	False				_		
+SP2	54	sul	sul	sul	linguistic		_	False	False	False	False				_		
+SP2	54	gradino	gradino	gradino	linguistic		_	False	False	False	False				_		
+SP2	54	di	di	di	linguistic		_	False	False	False	False				_		
+SP2	54	piazza	piazza	piazza	linguistic		_	False	False	False	False				_		
+SP2	54	santo	santo	santo	linguistic		_	False	False	False	False				_		
+SP2	54	stefano	stefano	stefa[no]	linguistic		_	False	False	False	False				_		5-7(?)
+SP2	54	{ride}	{ride}	{ride}	metalinguistic	End=105.64	_	False	False	False	False				_		0-1(?)
+SP1	55	ah	ah,	[ah,]	linguistic	Begin=105.71	weakly_ascending	False	False	False	False				_		0-2(?)
+SP1	55	lì	lì	lì	linguistic		_	False	False	False	False				_		0-2(?)
+SP1	55	è	è	è	linguistic		_	False	False	False	False				_		
+SP1	55	bellissimo	bellissimo	bellis[simo]	linguistic	End=107.39	_	False	False	False	False				_		9-10(?)
+SP2	56	perché	perché	[perché	linguistic	Begin=107.16	_	False	False	False	False				_		0-6(55)
+SP2	56	lì	lì:	lì:]	linguistic		_	False	False	False	False	1x1			_		0-2(55)
+SP2	56	piazza	piazza	piazza	linguistic		_	False	False	False	False				_		0-2(55)
+SP2	56	santo	santo	santo	linguistic		_	False	False	False	False				_		
+SP2	56	stefano	stefano,	stefano,	linguistic		weakly_ascending	False	False	False	False				_		
+SP2	56	mi	mi	mi	linguistic		_	False	False	False	False				_		
+SP2	56	piace	piace	piace	linguistic		_	False	False	False	False				_		
+SP2	56	molto	molto.	molto.	linguistic		descending	False	False	False	False				_		
+SP2	56	poi	poi	poi	linguistic		_	False	False	False	False				_		
+SP2	56	c'	c'	c'	linguistic		_	False	False	True	False				_		
+SP2	56	è	è		linguistic		_	False	False	False	False				_		
+SP2	56	di	di	di	linguistic		_	False	False	False	False				_		
+SP2	56	fianco	fianco	fianco	linguistic		_	False	False	False	False				_		
+SP2	56	la	la	la	linguistic		_	False	False	False	False				_		
+SP2	56	mia	mia	mia	linguistic		_	False	False	False	False				_		
+SP2	56	gelateria	gelateria	gelateria	linguistic		_	False	False	False	False				_		
+SP2	56	preferita	preferita	preferita	linguistic	End=111.12	_	False	False	False	False				_		
+SP2	57	e	e	e	linguistic	Begin=111.58	_	False	False	False	False				_		
+SP2	57	quindi	quindi	quindi	linguistic		_	False	False	False	False				_		
+SP2	57	spesso	spesso	spesso	linguistic		_	False	False	False	False				_		
+SP2	57	d'	d'	d'	linguistic		_	False	False	True	False				_		
+SP2	57	estate	estate	state	linguistic		_	False	False	False	False				_		
+SP2	57	col	col	col	linguistic		_	False	False	False	False				_		
+SP2	57	mio	mio	mio	linguistic		_	False	False	False	False				_		
+SP2	57	ragazzo	ragazzo	ragazzo	linguistic		_	False	False	False	False				_		
+SP2	57	andiamo	andiamo:	andiamo:	linguistic		_	False	False	False	False	6x1			_		
+SP2	57	andiamo	andiamo	andiamo	linguistic		_	False	False	False	False				_		
+SP2	57	lì	lì	lì	linguistic		_	False	False	False	False				_		
+SP2	57	prendiamo	prendiamo	prendiamo	linguistic		_	False	False	False	False				_		
+SP2	57	un	un	un	linguistic		_	False	False	False	False				_		
+SP2	57	gelato	gelato	gelato	linguistic		_	False	False	False	False				_		
+SP2	57	e	e	e	linguistic		_	False	False	False	False				_		
+SP2	57	ci	ci	ci	linguistic		_	False	False	False	False				_		
+SP2	57	sediamo	sediamo:	sediamo:	linguistic		_	False	False	False	False	6x1			_		
+SP2	57	in	in	in	linguistic		_	False	False	False	False				_		
+SP2	57	piazza	piazza	[piazza]	linguistic		_	False	False	False	False				_		1-6(58)
+SP2	57	santo	santo	santo	linguistic		_	False	False	False	False				_		0-2(58)
+SP2	57	stefano	stefano.	stefano.	linguistic		descending	False	False	False	False				_		
+SP2	57	forse	forse	forse	linguistic		_	False	False	False	False				_		
+SP2	57	quello	quello	quello	linguistic		_	False	False	False	False				_		
+SP2	57	sì	sì	sì	linguistic	End=118.25	_	False	False	False	False				_		
+SP1	58	bello	bello	[bello]	linguistic	End=116.99	_	False	False	False	False				_		0-5(57)
+SP1	59	bellissimo	bellissimo	bellissimo	linguistic	End=118.83	_	False	False	False	False				_		
+SP1	60	e	e	e	linguistic	Begin=119.22	_	False	False	False	False				_		
+SP1	60	in	in	in	linguistic		_	False	False	False	False				_		
+SP1	60	generale	generale	generale	linguistic		_	False	False	False	False				_		
+SP1	60	bologna	bologna,	bologna,	linguistic		weakly_ascending	False	False	False	False				_		
+SP1	60	ritieni	ritieni	ritieni	linguistic		_	False	False	False	False				_		
+SP1	60	che	che	che	linguistic		_	False	False	False	False				_		
+SP1	60	sia	sia	sia	linguistic		_	False	False	False	False				_		
+SP1	60	una	una	una	linguistic		_	False	False	False	False				_		
+SP1	60	bella	bella	bella	linguistic		_	False	False	False	False				_		
+SP1	60	città	città	città	linguistic		_	False	False	False	False				_		
+SP1	60	in	in	in	linguistic		_	False	False	False	False				_		
+SP1	60	cui	cui	cui	linguistic		_	False	False	False	False				_		
+SP1	60	vivere	vivere:	vivere:	linguistic	End=123.16	_	False	False	False	False	5x1			_		
+SP2	61	sì	sì	sì	linguistic	Begin=124.38	_	False	False	False	False				_		
+SP2	61	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
+SP2	61	sì	sì	sì	linguistic		_	False	False	False	False				_		
+SP2	61	sì	sì	sì	linguistic		_	False	False	False	False				_		
+SP2	61	secondo	secondo	secondo	linguistic		_	False	False	False	False				_		
+SP2	61	me	me	me	linguistic		_	False	False	False	False				_		
+SP2	61	è	è	è	linguistic		_	False	False	False	False				_		
+SP2	61	una	una	una	linguistic		_	False	False	False	False				_		
+SP2	61	bella	bella	bella	linguistic		_	False	False	False	False				_		
+SP2	61	città	città	città	linguistic		_	False	False	False	False				_		
+SP2	61	in	in	in	linguistic		_	False	False	False	False				_		
+SP2	61	cui	cui	cui	linguistic		_	False	False	False	False				_		
+SP2	61	vivere	vivere	vivere	linguistic	End=126.9	_	False	False	False	False				_		
+SP2	62	e	e::	e::	linguistic	Begin=127.67	_	False	False	False	False	0x2			_		
+SP2	62	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
+SP2	62	mh	mh	mh	linguistic	End=128.7	_	False	False	False	False				_		
+SP2	63	non	non	non	linguistic	Begin=129.47	_	False	False	False	False				_		
+SP2	63	so	so	so	linguistic	End=130.23	_	False	False	False	False				_		
+SP2	64	se	se,	se,	linguistic	Begin=130.8	weakly_ascending	False	False	False	False				_		
+SP2	64	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
+SP2	64	effetivamente	effetivamente	effetivamente	linguistic		_	False	False	False	False				_		
+SP2	64	ci	ci	ci	linguistic		_	False	False	False	False				_		
+SP2	64	vivrei	vivrei	vivrei	linguistic		_	False	False	False	False				_		
+SP2	64	forse	forse	forse	linguistic		_	False	False	False	False				_		
+SP2	64	con	con	con	linguistic		_	False	False	False	False				_		
+SP2	64	una	una	una	linguistic		_	False	False	False	False				_		
+SP2	64	famiglia	famiglia:	famigli[a:]	linguistic	End=133.41	_	False	False	False	False	7x1			_		
+SP1	65	okay	okay	[okay]	linguistic	Begin=133.3	_	False	False	False	False				_		0-4(64)
+SP1	65	quindi	quindi	quindi	linguistic		_	False	False	False	False				_		0-1(64)
+SP1	65	più	più	più	linguistic		_	False	False	False	False				_		
+SP1	65	per	per	per	linguistic		_	False	False	False	False				_		
+SP1	65	giovani	giovani	giovani	linguistic		_	False	False	False	False				_		
+SP1	65	magari	magari	mag[ari]	linguistic	End=135.35	_	False	False	False	False				_		5-6(66)
+SP2	66	sìsecondo	sìsecondo	[sì]>secondo	linguistic	Begin=134.96	_	False	False	False	False			4-9(0)	_		0-4(65)
+SP2	66	me	me	me<	linguistic		_	False	False	False	False			0-2(0)	_		
+SP2	66	è	è	è	linguistic		_	False	False	False	False			0-1(0)	_		
+SP2	66	una	una	una	linguistic		_	False	False	False	False			0-1(0)	_		
+SP2	66	città	città	città	linguistic		_	False	False	False	False				_		
+SP2	66	più	più	più	linguistic		_	False	False	False	False				_		
+SP2	66	per	per	per	linguistic		_	False	False	False	False				_		
+SP2	66	giovani	giovani	giovani	linguistic		_	False	False	False	False				_		
+SP2	66	per	per	per	linguistic		_	False	False	False	False				_		
+SP2	66	studenti	studenti	studenti	linguistic	End=137.2	_	False	False	False	False				_		
+SP2	67	perché	perché:::	perché:::	linguistic	End=139.68	_	False	False	False	False	5x3			_		
+SP2	68	sì	sì	sì	linguistic	Begin=140.94	_	False	False	False	False				_		
+SP2	68	ci	ci	ci	linguistic		_	False	False	False	False				_		
+SP2	68	sono	sono	sono	linguistic		_	False	False	False	False				_		
+SP2	68	molte	molte	molte	linguistic		_	False	False	False	False				_		
+SP2	68	attività	attività,	attività,	linguistic		weakly_ascending	False	False	False	False				_		
+SP2	68	anche	anche	anche	linguistic		_	False	False	False	False				_		
+SP2	68	per	per	per	linguistic		_	False	False	False	False				_		
+SP2	68	fare	fare.	fare.	linguistic		descending	False	False	False	False				_		
+SP2	68	poi	poi	poi	linguistic		_	False	False	False	False				_		
+SP2	68	sicuramente	sicuramente	sicuramente	linguistic		_	False	False	False	False				_		
+SP2	68	ci	ci	ci	linguistic		_	False	False	False	False				_		
+SP2	68	sono	sono	sono	linguistic		_	False	False	False	False				_		
+SP2	68	cose	cose	cose	linguistic		_	False	False	False	False				_		
+SP2	68	anche	anche	anche	linguistic		_	False	False	False	False				_		
+SP2	68	per	per	per	linguistic		_	False	False	False	False				_		
+SP2	68	per	per	per	linguistic		_	False	False	False	False				_		
+SP2	68	le	le	le	linguistic		_	False	False	False	False				_		
+SP2	68	famiglie	famiglie	famiglie	linguistic		_	False	False	False	False				_		
+SP2	68	chiaramente	chiaramente	chiaramente	linguistic	End=145.42	_	False	False	False	False				_		
+SP2	69	però	però:	però:	linguistic	Begin=146.2	_	False	False	False	False	3x1			_		
+SP2	69	mi	mi	mi	linguistic		_	False	False	False	False				_		
+SP2	69	sembra	sembra	sembra	linguistic		_	False	False	False	False				_		
+SP2	69	un	un	un	linguistic		_	False	False	False	False				_		
+SP2	69	po'	po'	po'	linguistic		_	False	False	True	False				_		
+SP2	69	più	più	più	linguistic		_	False	False	False	False				_		
+SP2	69	a	a	a	linguistic		_	False	False	False	False				_		
+SP2	69	misura	misura	misura	linguistic		_	False	False	False	False				_		
+SP2	69	di	di	di	linguistic		_	False	False	False	False				_		
+SP2	69	di	di	di	linguistic		_	False	False	False	False				_		
+SP2	69	giovane	giovane	giova[ne]	linguistic		_	False	False	False	False				_		6-7(70)
+SP2	69	che	che,	che,	linguistic		weakly_ascending	False	False	False	False				_		0-2(70)
+SP2	69	di	di	di	linguistic		_	False	False	False	False				_		
+SP2	69	famiglia	famiglia.	famiglia.	linguistic	End=150.68	descending	False	False	False	False				_		
+SP1	70	mhmh	mhmh	[mhmh]	linguistic	End=149.5	_	False	False	False	False				_		0-4(69)
+SP1	71	e	e	e	linguistic	Begin=150.98	_	False	False	False	False				_		
+SP1	71	per	per	per	linguistic		_	False	False	False	False				_		
+SP1	71	esempio	esempio	esempio	linguistic		_	False	False	False	False				_		
+SP1	71	i	i	i	linguistic		_	False	False	False	False				_		
+SP1	71	suoi	suoi	suoi	linguistic		_	False	False	False	False				_		
+SP1	71	punti	punti	punti	linguistic		_	False	False	False	False				_		
+SP1	71	forti	forti	forti	linguistic		_	False	False	False	False				_		
+SP1	71	secondo	secondo	secondo	linguistic		_	False	False	False	False				_		
+SP1	71	te	te,	te,	linguistic		weakly_ascending	False	False	False	False				_		
+SP1	71	quali	quali	quali	linguistic		_	False	False	False	False				_		
+SP1	71	sono	sono?	sono?	linguistic	End=153.78	ascending	False	False	False	False				_		
+SP2	72	ah	ah	ah	linguistic	Begin=154.56	_	False	False	False	False				_		
+SP2	72	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
+SP2	72	i	i	i	linguistic		_	False	False	False	False				_		
+SP2	72	punti	punti	punti	linguistic		_	False	False	False	False				_		
+SP2	72	forti	forti:	forti:	linguistic	End=156.62	_	False	False	False	False	4x1			_		
+SP2	73	sicuramente	sicuramente,	sicuramente,	linguistic	End=157.74	weakly_ascending	False	False	False	False				_		
+SP2	74	mh	mh	mh	linguistic	End=159.22	_	False	False	False	False				_		
+SP2	75	la	la	la	linguistic	Begin=159.92	_	False	False	False	False				_		
+SP2	75	storia	storia,	storia,	linguistic		weakly_ascending	False	False	False	False				_		
+SP2	75	cioè	cioè	cioè	linguistic		_	False	False	False	False				_		
+SP2	75	l'	l'	l'	linguistic		_	False	False	True	False				_		
+SP2	75	architettura	architettura	rchitettura	linguistic		_	False	False	False	False				_		
+SP2	75	e	e	e	linguistic	End=161.66	_	False	False	False	False				_		
+SP2	76	il	il	il	linguistic	Begin=161.93	_	False	False	False	False				_		
+SP2	76	centro	centro	centro	linguistic		_	False	False	False	False				_		
+SP2	76	storico	storico	sto[rico	linguistic		_	False	False	False	False				_		3-7(77)
+SP2	76	è	è	è]	linguistic		_	False	False	False	False				_		0-1(77)
+SP2	76	proprio	proprio	proprio	linguistic		_	False	False	False	False				_		0-1(77)
+SP2	76	pieno	pieno	pieno	linguistic		_	False	False	False	False				_		
+SP2	76	di	di:	di:	linguistic		_	False	False	False	False	1x1			_		
+SP2	76	da	da	da	linguistic		_	False	False	False	False				_		
+SP2	76	le	le	le	linguistic		_	False	False	False	False				_		
+SP2	76	torri	torri	torri	linguistic	End=165.73	_	False	False	False	False				_		
+SP1	77	mhmh	mhmh	[mhmh]	linguistic	End=162.63	_	False	False	False	False				_		0-4(76)
+SP2	78	a	a:::	a:::	linguistic	Begin=166.02	_	False	False	False	False	0x3			_		
+SP2	78	san	san	san	linguistic		_	False	False	False	False				_		
+SP2	78	petronio	petronio	petronio	linguistic	End=167.91	_	False	False	False	False				_		
+SP2	79	insomma	insomma	insomma	linguistic	Begin=168.01	_	False	False	False	False				_		
+SP2	79	è	è	è	linguistic		_	False	False	False	False				_		
+SP2	79	proprio	proprio	proprio	linguistic		_	False	False	False	False				_		
+SP2	79	bella	bella	bella	linguistic		_	False	False	False	False				_		
+SP2	79	a	a	a	linguistic		_	False	False	False	False				_		
+SP2	79	livello	livello:	livello:	linguistic		_	False	False	False	False	6x1			_		
+SP2	79	secondo	secondo	secondo	linguistic		_	False	False	False	False				_		
+SP2	79	m,e	m,e	m,e	error		_	False	False	False	False				_		
+SP2	79	architettonico	architettonico	architettonico	linguistic		_	False	False	False	False				_		
+SP2	79	storico	storico	storico	linguistic	End=171.81	_	False	False	False	False				_		
+SP2	80	e	e:	e:	linguistic	End=173.51	_	False	False	False	False	0x1			_		
+SP2	81	poi	poi	poi	linguistic	Begin=173.57	_	False	False	False	False				_		
+SP2	81	la	la	la	linguistic		_	False	False	False	False				_		
+SP2	81	vita	vita,	vita,	linguistic		weakly_ascending	False	False	False	False				_		
+SP2	81	c'	c'	c'	linguistic		_	False	False	True	False				_		
+SP2	81	è	è		linguistic		_	False	False	False	False				_		
+SP2	81	sempre	sempre	sempre	linguistic		_	False	False	False	False				_		
+SP2	81	un	un	un	linguistic		_	False	False	False	False				_		
+SP2	81	sacco	sacco	sacco	linguistic		_	False	False	False	False				_		
+SP2	81	di	di	di	linguistic		_	False	False	False	False				_		
+SP2	81	cose	cose	cose	linguistic		_	False	False	False	False				_		
+SP2	81	da	da	da	linguistic		_	False	False	False	False				_		
+SP2	81	fare	fare,	fare,	linguistic		weakly_ascending	False	False	False	False				_		
+SP2	81	se	se	se	linguistic		_	False	False	False	False				_		
+SP2	81	anche	anche	anche	linguistic		_	False	False	False	False				_		
+SP2	81	esci	esci,	esci,	linguistic		weakly_ascending	False	False	False	False				_		
+SP2	81	è	è	è	linguistic		_	False	False	False	False				_		
+SP2	81	pieno	pieno	pieno	linguistic		_	False	False	False	False				_		
+SP2	81	di	di	di	linguistic		_	False	False	False	False				_		
+SP2	81	gente	gente	gente	linguistic		_	False	False	False	False				_		
+SP2	81	in	in	in	linguistic		_	False	False	False	False				_		
+SP2	81	centro	centro	centro	linguistic		_	False	False	False	False				_		
+SP2	81	più	più	[più	linguistic		_	False	False	False	False				_		2-3(82)
+SP2	81	locali	locali	locali]	linguistic	End=179.7	_	False	False	False	False				_		0-6(82)
+SP1	82	è	è	[è	linguistic	Begin=178.52	_	False	False	False	False				_		0-1(81)
+SP1	82	vero	vero	vero]	linguistic	End=179.09	_	False	False	False	False				_		0-4(81)
+SP2	83	e	e:	e:	linguistic	Begin=180.18	_	False	False	False	False	0x1			_		
+SP2	83	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
+SP2	83	lo	lo	lo	linguistic		_	False	False	False	False				_		
+SP2	83	senti	senti	senti	linguistic		_	False	False	False	False				_		
+SP2	83	che	che	che	linguistic		_	False	False	False	False				_		
+SP2	83	arriva	arriva:	arriva:	linguistic		_	False	False	False	False	5x1			_		
+SP2	83	è	è	è	linguistic		_	False	False	False	False				_		
+SP2	83	molto	molto	molto	linguistic		_	False	False	False	False				_		
+SP2	83	vissuta	vissuta	vissuta	linguistic		_	False	False	False	False				_		
+SP2	83	come	come	come	linguistic		_	False	False	False	False				_		
+SP2	83	città	città	città	linguistic	End=183.39	_	False	False	False	False				_		
+SP2	84	e	e:	e:	linguistic	Begin=184.53	_	False	False	False	False	0x1			_		
+SP2	84	poi	poi	poi	linguistic		_	False	False	False	False				_		
+SP2	84	vabbè	vabbè	vabbè	linguistic		_	False	False	False	False				_		
+SP2	84	ci	ci	ci	linguistic		_	False	False	False	False				_		
+SP2	84	sono	sono	sono	linguistic		_	False	False	False	False				_		
+SP2	84	concerti	concerti,	concerti,	linguistic		weakly_ascending	False	False	False	False				_		
+SP2	84	stadio	stadio	stadio	linguistic		_	False	False	False	False				_		
+SP2	84	cioè	cioè	cioè	linguistic		_	False	False	False	False				_		
+SP2	84	ci	ci	ci	linguistic		_	False	False	False	False				_		
+SP2	84	sono	sono	sono	linguistic		_	False	False	False	False				_		
+SP2	84	tante	tante	tante	linguistic		_	False	False	False	False				_		
+SP2	84	cose	cose	cose	linguistic		_	False	False	False	False				_		
+SP2	84	da	da	da	linguistic		_	False	False	False	False				_		
+SP2	84	fare	fare:	fare:	linguistic		_	False	False	False	False	3x1			_		
+SP2	84	se	se	se	linguistic		_	False	False	False	False				_		
+SP2	84	se	se	se	linguistic		_	False	False	False	False				_		
+SP2	84	vuoi	vuoi:	vuoi:	linguistic	End=189.21	_	False	False	False	False	3x1			_		
+SP2	85	se	se	se	linguistic	Begin=189.82	_	False	False	False	False				_		
+SP2	85	vuoi	vuoi	vuoi	linguistic		_	False	False	False	False				_		
+SP2	85	viverla	viverla	viverla	linguistic		_	False	False	False	False				_		
+SP2	85	quindi	quindi	quindi	linguistic		_	False	False	False	False				_		
+SP2	85	secondo	secondo	secondo	linguistic		_	False	False	False	False				_		
+SP2	85	me	me	me	linguistic		_	False	False	False	False				_		
+SP2	85	queste	queste	queste	linguistic		_	False	False	False	False				_		
+SP2	85	sono	sono	sono	linguistic		_	False	False	False	False				_		
+SP2	85	un	un	un	linguistic		_	False	False	False	False				_		
+SP2	85	po'	po':	po':	linguistic	End=192.58	_	False	False	False	False	1x1			_		
+SP1	86	e	e	e	linguistic	Begin=192.58	_	False	False	False	False				_		
+SP1	86	mezzi	mezzi	mezzi	linguistic		_	False	False	False	False				_		
+SP1	86	di	di	di	linguistic		_	False	False	False	False				_		
+SP1	86	trasporto	trasporto	trasporto	linguistic		_	False	False	False	False				_		
+SP1	86	anche	anche:	anche:	linguistic	End=194.58	_	False	False	False	False	4x1			_		
+SP2	87	e	e:	e:	linguistic	Begin=194.79	_	False	False	False	False	0x1			_		
+SP2	87	mezzi	mezzi	mezzi	linguistic		_	False	False	False	False				_		
+SP2	87	di	di	di	linguistic		_	False	False	False	False				_		
+SP2	87	trasporto	trasporto,	trasporto,	linguistic		weakly_ascending	False	False	False	False				_		
+SP2	87	come	come	come	linguistic		_	False	False	False	False				_		
+SP2	87	dicevo	dicevo,	dicevo,	linguistic		weakly_ascending	False	False	False	False				_		
+SP2	87	se	se	se	linguistic		_	False	False	False	False				_		
+SP2	87	sei	sei	sei	linguistic		_	False	False	False	False				_		
+SP2	87	in	in	in	linguistic		_	False	False	False	False				_		
+SP2	87	centro	centro	centro	linguistic		_	False	False	False	False				_		
+SP2	87	dentro	dentro	dentro	linguistic		_	False	False	False	False				_		
+SP2	87	alle	alle	alle	linguistic		_	False	False	False	False				_		
+SP2	87	mura	mura	mura	linguistic	End=198.93	_	False	False	False	False				_		
+SP2	88	mh	mh	mh	linguistic	Begin=199.74	_	False	False	False	False				_		
+SP2	88	vai	vai	vai	linguistic		_	False	False	False	False				_		
+SP2	88	in	in	in	linguistic		_	False	False	False	False				_		
+SP2	88	bicicletta	bicicletta	bicicletta	linguistic		_	False	False	False	False				_		
+SP2	88	vai	vai	vai	linguistic		_	False	False	False	False				_		
+SP2	88	ai	ai	ai	linguistic		_	False	False	False	False				_		
+SP2	88	piedi	piedi	piedi	linguistic		_	False	False	False	False				_		
+SP2	88	ovunque	ovunque	ovunque	linguistic	End=202.47	_	False	False	False	False				_		
+SP2	89	bene	bene	bene	linguistic	Begin=202.87	_	False	False	False	False				_		
+SP2	89	o	o	o	linguistic		_	False	False	False	False				_		
+SP2	89	male	male	male	linguistic	End=203.66	_	False	False	False	False				_		
+SP2	90	anche	anche	anche	linguistic	Begin=204.5	_	False	False	False	False				_		
+SP2	90	l'	l'	l'	linguistic		_	False	False	True	False				_		
+SP2	90	autobus	autobus	utobus	linguistic		_	False	False	False	False				_		
+SP2	90	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
+SP2	90	secondo	secondo	secondo	linguistic		_	False	False	False	False				_		
+SP2	90	me	me	me	linguistic		_	False	False	False	False				_		
+SP2	90	funzionano	funzionano	funzionano	linguistic		_	False	False	False	False				_		
+SP2	90	abbastanza	abbastanza	abbastanza	linguistic		_	False	False	False	False				_		
+SP2	90	bene	bene	bene	linguistic		_	False	False	False	False				_		
+SP2	90	non	non	non	linguistic		_	False	False	False	False				_		
+SP2	90	mi	mi	mi	linguistic		_	False	False	False	False				_		
+SP2	90	sembrano	sembrano:	sembrano:	linguistic	End=208.13	_	False	False	False	False	7x1			_		
+SP2	91	cioè	cioè	cioè	linguistic	End=209.29	_	False	False	False	False				_		
+SP2	92	particolarmente	particolarmente	particolarmente	linguistic	Begin=210.1	_	False	False	False	False				_		
+SP2	92	inefficienti	inefficienti	inefficienti	linguistic	End=211.92	_	False	False	False	False				_		
+SP1	93	mhmh	mhmh	[mhmh]	linguistic	End=213.1	_	False	False	False	False				_		0-4(94)
+SP2	94	però	però:	[però:]	linguistic	Begin=212.3	_	False	False	False	False	3x1			_		0-4(93)
+SP2	94	mh	mh	mh	linguistic	End=213.25	_	False	False	False	False				_		0-2(93)
+SP2	95	sì	sì	sì	linguistic	Begin=214.24	_	False	False	False	False				_		
+SP2	95	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
+SP2	95	con	con	con	linguistic		_	False	False	False	False				_		
+SP2	95	la	la	la	linguistic		_	False	False	False	False				_		
+SP2	95	macchina	macchina	macchina	linguistic		_	False	False	False	False				_		
+SP2	95	bologna	bologna	bologna	linguistic		_	False	False	False	False				_		
+SP2	95	non	non	non	linguistic		_	False	False	False	False				_		
+SP2	95	è	è	è	linguistic		_	False	False	False	False				_		
+SP2	95	vivibile	vivibile	vivibile	linguistic	End=216.92	_	False	False	False	False				_		
+SP1	96	non	non	°non	linguistic	Begin=217.03	_	False	False	False	False				low		
+SP1	96	è	è	è	linguistic		_	False	False	False	False				low		
+SP1	96	vivibile	vivibile	[vivibile°]	linguistic	End=217.79	_	False	False	False	False				low		1-8(97)
+SP2	97	non	non	non	linguistic	Begin=217.33	_	False	False	False	False				_		
+SP2	97	è	è	è]	linguistic		_	False	False	False	False				_		
+SP2	97	vivibile	vivibile	vivibile	linguistic		_	False	False	False	False				_		
+SP2	97	perché	perché	perché	linguistic		_	False	False	False	False				_		
+SP2	97	se	se:	se:	linguistic	End=218.87	_	False	False	False	False	1x1			_		
+SP2	98	ripeto	ripeto	ripeto	linguistic	Begin=219.15	_	False	False	False	False				_		
+SP2	98	de-	de-	de-	linguistic		_	False	True	False	False				_		
+SP2	98	se	se	se	linguistic		_	False	False	False	False				_		
+SP2	98	sei	sei	sei	linguistic		_	False	False	False	False				_		
+SP2	98	fuori	fuori	fuori	linguistic		_	False	False	False	False				_		
+SP2	98	dal	dal	dal	linguistic		_	False	False	False	False				_		
+SP2	98	centro	centro	centro	linguistic		_	False	False	False	False				_		
+SP2	98	magari	magari	magari	linguistic		_	False	False	False	False				_		
+SP2	98	la	la	la	linguistic		_	False	False	False	False				_		
+SP2	98	usi	usi	usi	linguistic		_	False	False	False	False				_		
+SP2	98	per	per	[per	linguistic		_	False	False	False	False				_		0-3(99)
+SP2	98	andare	andare	andare]	linguistic	End=223.12	_	False	False	False	False				_		0-6(99)
+SP1	99	mhmh	mhmh	[mhmh]	linguistic	End=222.62	_	False	False	False	False				_		0-4(98)
+SP2	100	non	non	non	linguistic	Begin=223.82	_	False	False	False	False				_		
+SP2	100	so	so	so	linguistic		_	False	False	False	False				_		
+SP2	100	all'	all'	all'	linguistic		_	False	False	True	False				_		
+SP2	100	ikea	ikea	ikea	linguistic	End=224.69	_	False	False	False	False				_		
+SP2	101	o	o:	o:	linguistic	End=225.15	_	False	False	False	False	0x1			_		
+SP1	102	okay	okay	[okay]	linguistic	Begin=225.33	_	False	False	False	False				_		0-4(103)
+SP1	102	{ride}	{ride}	{ride}	metalinguistic	End=225.94	_	False	False	False	False				_		0-1(103)
+SP2	103	fuori	fuori,	[fuori,]	linguistic	Begin=225.35	weakly_ascending	False	False	False	False				_		0-5(102)
+SP2	103	centro	centro,	centro,	linguistic		weakly_ascending	False	False	False	False				_		0-2(102)
+SP2	103	se	se	se	linguistic		_	False	False	False	False				_		
+SP2	103	devi	devi	devi	linguistic		_	False	False	False	False				_		
+SP2	103	venire	venire	venire	linguistic		_	False	False	False	False				_		
+SP2	103	in	in	in	linguistic		_	False	False	False	False				_		
+SP2	103	centro	centro::	centro::	linguistic		_	False	False	False	False	5x2			_		
+SP2	103	è	è	è	linguistic		_	False	False	False	False				_		
+SP2	103	proprio	proprio	proprio	linguistic	End=229.44	_	False	False	False	False				_		
+SP2	104	scomodo	scomodo	scomodo	linguistic	Begin=229.76	_	False	False	False	False				_		
+SP2	104	perché	perché	perché	linguistic		_	False	False	False	False				_		
+SP2	104	ripeto	ripeto	ripeto	linguistic		_	False	False	False	False				_		
+SP2	104	vedo	vedo	vedo	linguistic		_	False	False	False	False				_		
+SP2	104	delle	delle	delle	linguistic		_	False	False	False	False				_		
+SP2	104	file	file	file	linguistic	End=232.75	_	False	False	False	False				_		
+SP2	105	per	per	per	linguistic	Begin=232.94	_	False	False	False	False				_		
+SP2	105	entrare	entrare	entrare	linguistic		_	False	False	False	False				_		
+SP2	105	nel	nel	nel	linguistic		_	False	False	False	False				_		
+SP2	105	parcheggio	parcheggio:	parcheggio:	linguistic		_	False	False	False	False	9x1			_		
+SP2	105	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
+SP2	105	cioè	cioè	cioè	linguistic		_	False	False	False	False				_		
+SP2	105	anche	anche	anche	linguistic		_	False	False	False	False				_		
+SP2	105	lì	lì	lì	linguistic		_	False	False	False	False				_		
+SP2	105	quello	quello	quello	linguistic		_	False	False	False	False				_		
+SP2	105	lì	lì	lì	linguistic		_	False	False	False	False				_		
+SP2	105	in	in	in	linguistic		_	False	False	False	False				_		
+SP2	105	piazza	piazza	piazza	linguistic		_	False	False	False	False				_		
+SP2	105	ottoagosto	ottoagosto	ottoagosto	linguistic	End=237.11	_	False	False	False	False				_		
+SP1	106	mhmh	mhmh	mhmh	linguistic	End=237.31	_	False	False	False	False				_		
+SP2	107	che	che	che	linguistic	Begin=237.85	_	False	False	False	False				_		
+SP2	107	tutte	tutte	tutte	linguistic		_	False	False	False	False				_		
+SP2	107	le	le	le	linguistic		_	False	False	False	False				_		
+SP2	107	settimane	settimane,	settimane,	linguistic		weakly_ascending	False	False	False	False				_		
+SP2	107	è	è	è	linguistic		_	False	False	False	False				_		
+SP2	107	abbastanza	abbastanza:	abbastanza:	linguistic	End=240.18	_	False	False	False	False	9x1			_		
+SP2	108	è	è	è	linguistic	Begin=242.26	_	False	False	False	False				_		
+SP2	108	abbastanza	abbastanza	abbastanza	linguistic		_	False	False	False	False				_		
+SP2	108	lunga	lunga	lunga	linguistic		_	False	False	False	False				_		
+SP2	108	quella	quella	quella	linguistic		_	False	False	False	False				_		
+SP2	108	fila	fila	fila	linguistic		_	False	False	False	False				_		
+SP2	108	quindi	quindi:	quindi:	linguistic	End=244.55	_	False	False	False	False	5x1			_		
+SP2	109	io	io:	io:	linguistic	Begin=245.1	_	False	False	False	False	1x1			_		
+SP2	109	ho	ho	ho	linguistic		_	False	False	False	False				_		
+SP2	109	delle	delle	delle	linguistic		_	False	False	False	False				_		
+SP2	109	amiche	amiche,	amiche,	linguistic		weakly_ascending	False	False	False	False				_		
+SP2	109	che	che	che	linguistic		_	False	False	False	False				_		
+SP2	109	hanno	hanno	hanno	linguistic		_	False	False	False	False				_		
+SP2	109	la	la	la	linguistic		_	False	False	False	False				_		
+SP2	109	macchina	macchina,	macchina,	linguistic	End=247.55	weakly_ascending	False	False	False	False				_		
+SP1	110	mhmh	mhmh	mhmh	linguistic	End=247.93	_	False	False	False	False				_		
+SP2	111	perché	perché	perché	linguistic	Begin=248.01	_	False	False	False	False				_		
+SP2	111	vivono	vivono	vivono	linguistic		_	False	False	False	False				_		
+SP2	111	fuori	fuori	fuori	linguistic	End=248.96	_	False	False	False	False				_		
+SP2	112	però	però	però	linguistic	Begin=249.84	_	False	False	False	False				_		
+SP2	112	anche	anche	anche	linguistic		_	False	False	False	False				_		
+SP2	112	loro	loro	loro	linguistic		_	False	False	False	False				_		
+SP2	112	ad	ad	ad	linguistic		_	False	False	False	False				_		
+SP2	112	esempio	esempio	esempio	linguistic		_	False	False	False	False				_		
+SP2	112	quando	quando	quando	linguistic		_	False	False	False	False				_		
+SP2	112	devono	devono	devono	linguistic		_	False	False	False	False				_		
+SP2	112	venire	venire	venire	linguistic		_	False	False	False	False				_		
+SP2	112	a	a	a	linguistic		_	False	False	False	False				_		
+SP2	112	casa	casa	casa	linguistic		_	False	False	False	False				_		
+SP2	112	mia	mia	mia	linguistic	End=252.13	_	False	False	False	False				_		
+SP2	113	e	e::	e::	linguistic	End=253.01	_	False	False	False	False	0x2			_		
+SP1	114	è	è	è	linguistic	End=253.17	_	False	False	False	False				_		
+SP2	115	fanno	fanno	fanno	linguistic	Begin=253.5	_	False	False	False	False				_		
+SP2	115	più	più	[più	linguistic		_	False	False	False	False				_		0-3(116)
+SP2	115	fatica	fatica,	fatica,]	linguistic		weakly_ascending	False	False	False	False				_		0-6(116)
+SP2	115	a	a	a	linguistic		_	False	False	False	False				_		0-1(116)
+SP2	115	parcheggiare	parcheggiare:	parcheggiare:	linguistic	End=255.3	_	False	False	False	False	11x1			_		
+SP1	116	infatti	infatti	[infatti]	linguistic	End=254.29	_	False	False	False	False				_		0-7(115)
+SP2	117	poi	poi,	poi,	linguistic	Begin=255.8	weakly_ascending	False	False	False	False				_		
+SP2	117	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
+SP2	117	eh	eh	eh	linguistic		_	False	False	False	False				_		
+SP2	117	dentro	dentro	dentro	linguistic		_	False	False	False	False				_		
+SP2	117	alle	alle	alle	linguistic		_	False	False	False	False				_		
+SP2	117	mura	mura,	mura,	linguistic		weakly_ascending	False	False	False	False				_		
+SP2	117	comunque	comunque,	comunque,	linguistic		weakly_ascending	False	False	False	False				_		
+SP2	117	ehm	ehm	ehm	linguistic	End=258.6	_	False	False	False	False				_		
+SP2	118	anche	anche	anche	linguistic	Begin=258.82	_	False	False	False	False				_		
+SP2	118	anche	anche	anche	linguistic	End=259.21	_	False	False	False	False				_		
+SP2	119	un	un	un	linguistic	Begin=259.83	_	False	False	False	False				_		
+SP2	119	giorno	giorno	giorno	linguistic		_	False	False	False	False				_		
+SP2	119	anche	anche	anche	linguistic		_	False	False	False	False				_		
+SP2	119	fuori	fuori	fuori	linguistic		_	False	False	False	False				_		
+SP2	119	alle	alle	alle	linguistic		_	False	False	False	False				_		
+SP2	119	mura	mura,	mura,	linguistic		weakly_ascending	False	False	False	False				_		
+SP2	119	è	è	è	linguistic		_	False	False	False	False				_		
+SP2	119	tutto	tutto	tutto	linguistic		_	False	False	False	False				_		
+SP2	119	a	a	a	linguistic		_	False	False	False	False				_		
+SP2	119	pagamento	pagamento.	pagamento.	linguistic		descending	False	False	False	False				_		
+SP2	119	il	il	il	linguistic		_	False	False	False	False				_		
+SP2	119	parcheggio	parcheggio,	parcheggio,	linguistic	End=262.41	weakly_ascending	False	False	False	False				_		
+SP1	120	sì	sì	sì	linguistic	Begin=262.54	_	False	False	False	False				_		
+SP1	120	e	e	e	linguistic		_	False	False	False	False				_		
+SP1	120	costa	costa	costa	linguistic		_	False	False	False	False				_		
+SP1	120	anche	anche:	anche:	linguistic		_	False	False	False	False	4x1			_		
+SP1	120	abbastanza	abbastanza	[abbastanza]	linguistic	End=264.56	_	False	False	False	False				_		1-10(121)
+SP2	121	costa	costa	[costa	linguistic	Begin=263.42	_	False	False	False	False				_		0-5(120)
+SP2	121	abbastanza	abbastanza	abbastanza]	linguistic		_	False	False	False	False				_		0-10(120)
+SP2	121	quindi	quindi	quindi	linguistic	End=264.84	_	False	False	False	False				_		0-1(120)
+SP2	122	o	o	o	linguistic	Begin=265.38	_	False	False	False	False				_		
+SP2	122	vieni	vieni	vieni	linguistic		_	False	False	False	False				_		
+SP2	122	dopo	dopo	dopo	linguistic		_	False	False	False	False				_		
+SP2	122	le	le	le	linguistic		_	False	False	False	False				_		
+SP2	122	otto	otto	otto	linguistic		_	False	False	False	False				_		
+SP2	122	e	e	e	linguistic		_	False	False	False	False				_		
+SP2	122	allora	allora,	allora,	linguistic		weakly_ascending	False	False	False	False				_		
+SP2	122	dopo	dopo	dopo	linguistic		_	False	False	False	False				_		
+SP2	122	dopo	dopo	dopo	linguistic		_	False	False	False	False				_		
+SP2	122	le	le	le	linguistic		_	False	False	False	False				_		
+SP2	122	otto	otto	otto	linguistic		_	False	False	False	False				_		
+SP2	122	puoi	puoi	puoi	linguistic		_	False	False	False	False				_		
+SP2	122	entrare	entrare	entrare	linguistic		_	False	False	False	False				_		
+SP2	122	nella	nella	nella	linguistic		_	False	False	False	False				_		
+SP2	122	ztl	ztl	ztl	linguistic		_	False	False	False	False				_		
+SP2	122	eccetera	eccetera	eccetera	linguistic	End=269.81	_	False	False	False	False				_		
+SP2	123	però	però,	però,	linguistic	Begin=270.98	weakly_ascending	False	False	False	False				_		
+SP2	123	vivere	vivere	vivere	linguistic		_	False	False	False	False				_		
+SP2	123	con	con	con	linguistic		_	False	False	False	False				_		
+SP2	123	la	la	la	linguistic		_	False	False	False	False				_		
+SP2	123	macchina	macchina	macchina	linguistic		_	False	False	False	False				_		
+SP2	123	a	a	a	linguistic		_	False	False	False	False				_		
+SP2	123	bologna	bologna	bologna	linguistic		_	False	False	False	False				_		
+SP2	123	è	è	è	linguistic		_	False	False	False	False				_		
+SP2	123	difficile	difficile	difficile	linguistic	End=273.5	_	False	False	False	False				_		
+SP1	124	mhmh	mhmh	mhmh	linguistic	End=273.77	_	False	False	False	False				_		
+SP2	125	sì	sì	sì	linguistic	End=274.31	_	False	False	False	False				_		
+SP2	126	sì	sì	sì	linguistic	Begin=274.68	_	False	False	False	False				_		
+SP2	126	infatti	infatti	infatti	linguistic	End=275.53	_	False	False	False	False				_		
+SP2	127	sì	sì	sì	linguistic	Begin=277.16	_	False	False	False	False				_		
+SP2	127	se	se	se	linguistic		_	False	False	False	False				_		
+SP2	127	si	si	si	linguistic		_	False	False	False	False				_		
+SP2	127	vive	vive	vive	linguistic		_	False	False	False	False				_		
+SP2	127	bologna	bologna	bologna	linguistic		_	False	False	False	False				_		
+SP2	127	insomma	insomma	[insomma]	linguistic	End=279.12	_	False	False	False	False				_		0-7(128)
+SP1	128	eh	eh	[eh	linguistic	Begin=278.7	_	False	False	False	False				_		0-2(127)
+SP1	128	magari	magari	magari]	linguistic		_	False	False	False	False				_		0-6(127)
+SP1	128	anche	anche	anche	linguistic		_	False	False	False	False				_		0-1(127)
+SP1	128	con	con	con	linguistic		_	False	False	False	False				_		
+SP1	128	una	una	una	linguistic		_	False	False	False	False				_		
+SP1	128	famiglia	famiglia	famiglia	linguistic		_	False	False	False	False				_		
+SP1	128	poi	poi	poi	linguistic		_	False	False	False	False				_		
+SP1	128	diventa	diventa	diventa	linguistic		_	False	False	False	False				_		
+SP1	128	un	un	un	linguistic		_	False	False	False	False				_		
+SP1	128	po'	po'	po'	linguistic		_	False	False	True	False				_		
+SP1	128	buono	buono	buono	linguistic	End=281.12	_	False	False	False	False				_		
