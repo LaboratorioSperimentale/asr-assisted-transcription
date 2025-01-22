@@ -10,25 +10,25 @@ OK	03_PastiA
 OK	03_PastiB
 
 STRAPARLA:
-01_StraParlaA_I
-01_StraParlaA_L
-01_StraParlaB_A
+OK	01_StraParlaA_I
+OK	01_StraParlaA_L
+OK	01_StraParlaB_A
 nuovo file	01_StraParlaC_S: DA FARE (Martina)
 nuovo file	01_StraParlaC_U: DA FARE (Martina)
-02_StraParlaA_A
-02_StraParlaA_V
-02_StraParlaB_O
-02_StraParlaB_R
+OK	02_StraParlaA_A
+OK	02_StraParlaA_V
+OK	02_StraParlaB_O
+OK	02_StraParlaB_R
 nuovo file	02_StraParlaC_N: DA FARE (Martina)
 
 PARLABO:
-01_ParlaBOA_E
-01_ParlaBOA_M
+OK	01_ParlaBOA_E
+OK	01_ParlaBOA_M
 nuovo file	01_ParlaBOB_N: DA FARE (Ludovica)
-02_ParlaBOA_I
-02_ParlaBOA_L
+OK	02_ParlaBOA_I
+OK	02_ParlaBOA_L
 nuovo file	02_ParlaBOB_S: DA FARE (Ludovica)
-03_ParlaBOA
+OK	03_ParlaBOA
 
 DA FARE:
 nuovo file	03_StraParlaA_man (Martina)
