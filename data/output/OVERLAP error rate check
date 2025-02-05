@@ -13,30 +13,30 @@ STRAPARLA:
 OK	01_StraParlaA_I
 OK	01_StraParlaA_L
 OK	01_StraParlaB_A
-nuovo file	01_StraParlaC_S: DA FARE (Martina)
-nuovo file	01_StraParlaC_U: (Martina)
+OK	01_StraParlaC_S
+OK	01_StraParlaC_U
 OK	02_StraParlaA_A
 OK	02_StraParlaA_V
 OK	02_StraParlaB_O
 OK	02_StraParlaB_R
-nuovo file	02_StraParlaC_N: (Martina)
+OK	02_StraParlaC_N
 
 PARLABO:
 OK	01_ParlaBOA_E
 OK	01_ParlaBOA_M
-nuovo file	01_ParlaBOB_N: DA FARE (Ludovica)
+OK	01_ParlaBOB_N
 OK	02_ParlaBOA_I
 OK	02_ParlaBOA_L
-nuovo file	02_ParlaBOB_S: DA FARE (Ludovica)
+OK	02_ParlaBOB_S
 OK	03_ParlaBOA
 
 DA FARE:
-nuovo file	03_StraParlaA_man (Martina)
-nuovo file	03_StraParlaA_whi (Martina)
-nuovo file	03_StraParlaB_man (Martina)
-nuovo file	03_StraParlaB_whi (Ludovica)
-nuovo file	03_StraParlaC_man (Ludovica)
-nuovo file	03_StraParlaC_whi (Ludovica)
+OK	03_StraParlaA_man
+OK	03_StraParlaA_whi
+OK	03_StraParlaB_man
+OK	03_StraParlaB_whi
+OK	03_StraParlaC_man
+OK	03_StraParlaC_whi
 
 
 
