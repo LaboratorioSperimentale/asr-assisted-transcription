@@ -32,7 +32,33 @@ PARLABO A,,,,,,
 ,,163,164,high,163 manca annotazione,164
 ,,229,230,,229 errore di bilanciamento,230
 ,,259,260,high,259 manca annotazione,
-,,,,,,
-,,,,,,
-,,,,,,
+01_PARLABOB_N,,6,7,high,6 manca annotazione,7
+,,12,13,high,13 manca annotazione,
+,,12,14,,??,
+,,28,29,high,28 manca annotazione,29
+,,43,45,high,43 45 manca annotazione,
+,,61,62,medium,61 62 manca annotazione,
+02_PARLABOB_S,,8,9,high,8 9 manca annotazione,9
+,,16,17,high,16 17 manca annotazione,17
+,,20,21,medium,20 21 manca annotazione,21
+,,27,,medium,unit should start before and overlap with 26,
+,,35,36,low,35 36 manca annotazione,35
+,,36,37,high,36 manca annotazione,37?
+,,44,45,medium,44 45 manca annotazione,45
+,,57,58,high,57 58 manca annotazione,58
+,,57,59,high,57 59 manca annotazione,59?
+,,64,65,high,64 65 manca annotazione,65
+,,65,66,medium,"65 manca annotazione, 66 posizione sbagliata",
+,,66,67,high,"67 manca annotazione, 66 annotazione deve essere divisa",
+,,68,70,high,68 70 manca annotazione,
+,,68,71,medium,68 71 manca annotazione,71?
+,,71,72,medium,72 deve finire prima,
+,ignore,75,76,,metalinguistic tag,
+,,77,78,high,77 78 manca annotazione,78
+,,82,83,medium,82 83 manca annotazione,83
+,,82,84,high,82 84 manca annotazione,84
+,,86,87,high,86 87 manca annotazione,
+,,86,88,high,86 88 manca annotazione,88
+,,86,89,medium,86 89 manca annotazione,
+,,94,95,high,94 95 manca annotazione,95
 ,,,,,,
