@@ -61,4 +61,129 @@ PARLABO A,,,,,,
 ,,86,88,high,86 88 manca annotazione,88
 ,,86,89,medium,86 89 manca annotazione,
 ,,94,95,high,94 95 manca annotazione,95
+01_PASTIA_O,,3,4,high,3 manca annotazione,
+,,35,36,high,35 manca annotazione,
+,,46,47,high,46 manca annotazione,
+,,122,123,high,122 manca annotazione,
+,,130,131,high,130 131 manca annotazione,
+,,136,137,high,136 137 manca annotazione,
+01_PASTIA_R,,21,22,low,21 should overlap with 22,21
+,,41,42,high,they shouldn't overlap,
+,,87,88,high,87 88 manca annotazione,
+02_PASTIA_E,,86,87,low,86 should overlap with 87,
+,,104,105,high,105 manca annotazione,
+,,151,152,high,151 manca annotazione,
+,,190,191,medium,"190 should be shorter, 191 shouldn't be annotated",
+02_PASTIA_M,,35,36,high,35 manca annotazione,
+,,62,63,low,62 63 non dovrebbero avere annotazione,
+,,75,,high,non dovrebbe avere annotazione,
+,,76,77,medium,76 77 should overlap,
+,,78,,medium,annotations should be split,
+,,89,,medium,annotations should be split,
+,,102,103,high,102 manca annotazione,103
+03_PASTIA,,9,,low,balance,
+,,42,44,medium,44 extra annotation,
+,,110,111,high,111 manca annotazione,
+,,144,,,balance issue,
+,,147,,high,extra annotation,
+,,148,,high,extra annotation,
+,,218,219,high,219 manca annotazione,
+,,253,254,medium,units should overlap,
+01_PASTIB_V,,11,12,high,12 manca annotazione,
+,,20,21,high,21 manca annotazione,
+,,26,,low,26 extra annotation,
+,,30,31,,31 manca annotazione,
+,,31,33,,31 manca annotazione,
+,,42,,,da cancellare,
+,,43,44,high,44 manca annotazione,
+,,49,50,high,49 manca annotazione,
+,,55,56,high,55 56 manca annotazione,
+02_PASTIB_U,,31,32,high,31 32 manca annotazione,
+,,50,53,high,50 53 manca annotazione e 50 un po' troppo lunga,
+,,78,,,balance,
+,,79,,high,annotazione dovrebbe essere divisa,
+,,80,,,balance,
+,,102,103,high,102 103 manca annotazione,
+,,131,132,high,131 132 manca annotazione,
+,,151,152,low,dovrebbero sovrapporsi,
+01_STRAPARLAA_I,,2,3,high,2 3 manca annotazione,
+,,7,8,medium,"dovrebbero sovrapporsi, 7 manca annotazione",
+,,33,,,33 annotazione deve essere divisa,33
+,,33,34,medium,"33 annotazione deve essere divisa, 34 manca annotazione",33
+,,47,48,medium,non dovrebbero sovrapporsi,
+,,64,,,annotazione deve essere divisa,64
+,,73,74,medium,73 deve finire prima e non sovrapporsi a 74,73
+,,75,,,annotazione deve essere divisa,75
+,,77,78,high,77 78 manca annotazione,77
+,,86,87,high,86 87 manca annotazione,
+,,100,102,high,102 manca annotazione,
+,,103,,,annotazione deve essere divisa,
+,ignore,122,123,,metalinguistic,
+,ignore,133,134,,metalinguistic,
+01_STRAPARLAA_L,,11,12,,units should overlap,12
+,,21,22,,units should overlap,
+,,79,80,high,80 manca annotazione,
+,,84,85,,units should overlap,
+02_STRAPARLAA_A,,8,9,,8 9 extra annotations,
+,,38,39,,38 39 extra annotations,
+02_STRAPARLAA_V,,6,7,high,7 manca annotazione,7
+,,60,61,low,units should overlap,60
+,,68,,,balance,
+,,87,88,high,units should overlap,
+03_STRAPARLAA_man,,107,,,extra annotation,
+,ignore,138,139,,metalinguistic,
+03_STRAPARLAA_whi,,40,41,,units should overlap,41
+01_STRAPARLAB_A,,9,,,extra annotation,
+,,10,,,extra annotation,
+,,24,25,medium,units should overlap,24
+,,89,90,,units should overlap,
+,,111,112,,units should overlap,111
+02_STRAPARLAB_O,,37,38,high,37 manca annotazione,
+,,58,59,high,59 manca annotazione,
+,,81,82,high,82 manca annotazione,
+,,121,122,medium,121 manca annotazione,122
+,,130,,,extra annotation,
+,,136,137,high,137 manca annotazione,137
+02_STRAPARLAB_R,,28,29,medium,units should overlap,
+,,35,36,high,35 manca annotazione,36
+,,46,48,HIGH,46 manca annotazione,
+,,52,53,low,units should overlap,
+,,75,77,high,75 77 manca annotazione,
+03_PASTIB,,31,,,balance,
+,,58,,,extra annotation,
+,,71,72,high,71 72 manca annotazione,
+,,100,101,high,100 manca annotazione,
+,,121,122,low,121 122 extra annotation,
+01_STRAPARLAC_S,,2,3,high,3 manca annotazione,
+,,4,5,high,5 manca annotazione,
+,,6,7,high,7 manca annotazione,
+,,13,14,high,14 manca annotazione,
+,,15,16,high,16 manca annotazione,
+,,17,18,high,17 manca annotazione,18
+,,21,,,extra annotation,
+,,22,23,high,22 manca annotazione,23
+,,23,,,annotazione deve essere divisa,
+,,23,24,high,24 manca annotazione,23
+,,28,,,annotazione deve essere divisa,
+,,29,,,annotazione deve essere divisa,
+,,32,35,high,32 35 manca annotazione,35
+,,35,36,high,35 36 manca annotazione,36
+,,39,,,balance,
+,,42,43,medium,units should overlap,
+,,44,45,high,44 manca annotazione,
+,,52,53,high,52 53 manca annotazione,53
+,,53,54,high,53 54 manca annotazione,54
+,,53,55,high,53 55 manca annotazione,
+,,53,56,high,53 56 manca annotazione,56
+,,57,58,high,57 manca annotazione,
+,,59,60,high,59 60 manca annotazione,
+,,60,61,high,60 61 manca annotazione,61
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
 ,,,,,,
