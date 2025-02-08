@@ -1,266 +1,331 @@
-tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents	W:non_jefferson	W:pauses_trim	W:prosodic_trim	E:volume	E:pace	E:guess	E:overlap	E:overlap_mismatch	Error Rate	E:overlap_duration	T:shortpauses	T:metalinguistic	T:errors	T:linguistic	annotation	correct	text
-1	SP1	0	4.46799999999985	4.468	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	16	mh devo dire che secondo me negli ultimi anni è aumentato molto il turismo secondo [me]	mh devo dire che secondo me negli ultimi anni è aumentato molto il turismo secondo [me]	mh devo dire che secondo me negli ultimi anni è aumentato molto il turismo secondo me
-2	SP2	3.98000000000002	4.45899999999983	0.479	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-3	SP1	5.09999999999991	9.67099999999982	4.571	True	0	0	1	0	0	0	False	False	False	False	False		_	0	0	0	10	perchè mh da quando ci siam trasferiti ho notato proprio:	perchè mh da quando ci siam trasferiti ho notato proprio:	perché mh da quando ci siam trasferiti ho notato proprio
-4	SP1	9.81999999999994	12.347	2.527	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	6	molte persone per strada che parlavano:	molte persone per strada che parlavano:	molte persone per strada che parlavano
-5	SP1	12.72	14.3299999999999	1.61	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	4	inglese insomma altre [lingue]	inglese insomma altre [lingue]	inglese insomma altre lingue
-6	SP2	13.5899999999999	14.1779999999999	0.588	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	2	[sì sì]	[sì sì]	sì sì
-7	SP1	15.02	18.1569999999999	3.137	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	9	xx infatti il fatto che è aumentato il turismo	xx infatti il fatto che è aumentato il turismo	xx infatti il fatto che è aumentato il turismo
-8	SP1	18.73	20.838	2.108	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	7	ha impattato molto anche [xx gli affitti]	ha impattato molto anche [xx gli affitti]	ha impattato molto anche xx gli affitti
-9	SP2	19.8299999999999	20.838	1.008	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	3	[eh può essere]	[eh può essere]	eh può essere
-10	SP2	21.1799999999998	21.971	0.791	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	4	è vero è vero	è vero è vero	è vero è vero
-11	SP1	21.9959999999999	24.963	2.967	True	0	0	1	0	0	0	False	False	False	False	False		_	0	0	0	6	perchè: dicevano che molte persone molti::	perchè: dicevano che molte persone molti::	perché dicevano che molte persone molti
-12	SP1	25.0899999999999	28.1219999999998	3.032	True	0	0	0	1	0	0	False	False	False	False	False		_	0	0	0	7	proprietari hanno messo le case su airb&b	proprietari hanno messo le case su airbb	proprietari hanno messo le case su airbb
-13	SP1	28.54	29.8429999999998	1.303	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	4	per per il turis[mo]	per per il turis[mo]	per per il turismo
-14	SP2	29.5799999999999	30.2619999999999	0.682	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	[mh]mh	[mh]mh	mhmh
-15	SP1	30.9099999999999	33.336	2.426	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	9	e tutte queste case sono state tolte dal mercato	e tutte queste case sono state tolte dal mercato	e tutte queste case sono state tolte dal mercato
-16	SP1	33.3899999999999	35.1799999999998	1.79	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	7	della gente che ci deve vivere insom[ma]	della gente che ci deve vivere insom[ma]	della gente che ci deve vivere insomma
-17	SP2	34.8999999999999	36.001	1.101	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	3	[mh]mh è vero	[mh]mh è vero	mhmh è vero
-18	SP1	36.1199999999999	38.8699999999999	2.75	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	9	quindi sicuramente il turismo ha influito anche su questo	quindi sicuramente il turismo ha influito anche su questo	quindi sicuramente il turismo ha influito anche su questo
-19	SP1	38.9099999999999	39.702	0.792	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	3	questa cosa qua	questa cosa qua	questa cosa qua
-20	SP1	41.02	41.508	0.488	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	però	però	però
-21	SP1	41.6199999999999	42.6999999999998	1.08	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	4	capisco anche che vogliano	capisco anche che vogliano	capisco anche che vogliano
-22	SP2	42.8199999999999	44.935	2.115	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	6	eh sì [xxxx] sì sì sì	eh sì [xxxx] sì sì sì	eh sì xxxx sì sì sì
-23	SP1	43.21	44.48	1.27	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	3	[cercare in primo]	[cercare in primo]	cercare in primo
-24	SP1	45.1699999999998	45.6759999999999	0.506	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	[però]	[però]	però
-25	SP2	45.1699999999998	45.6759999999999	0.506	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	[e]	[e]	e
-26	SP2	45.74	47.78	2.04	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	7	e invece per quanto riguarda il lavoro	e invece per quanto riguarda il lavoro	e invece per quanto riguarda il lavoro
-27	SP2	47.8299999999999	50.3789999999999	2.549	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	9	pensi che si un buon posto in cui lavorare	pensi che si un buon posto in cui lavorare	pensi che si un buon posto in cui lavorare
-28	SP2	50.8	53.7539999999999	2.954	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	8	[c(io)è sì secon]do te si trova lavoro [o::]	[c(io)è sì secon]do te si trova lavoro [o::]	cioè sì secondo te si trova lavoro o
-29	SP1	50.8099999999999	51.7079999999999	0.898	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	[ehm]	[ehm]	ehm
-30	SP1	53.1999999999998	56.73	3.53	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	8	[ah] okay come s[ì no a bolo]gna sicuramente:	[ah] okay come s[ì no a bolo]gna sicuramente:	ah okay come sì no a bologna sicuramente
-31	SP2	54.49	55.0999999999999	0.61	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-32	SP1	56.78	57.5709999999999	0.791	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	2	secondo me	secondo me	secondo me
-33	SP1	58.0699999999999	60.288	2.218	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	4	ha molte opportunità: lavorative	ha molte opportunità: lavorative	ha molte opportunità lavorative
-34	SP1	60.6299999999999	61.31	0.68	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	m:h	m:h	mh
-35	SP1	61.6899999999998	63.6599999999999	1.97	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	6	rispetto a mh ad esempio forlì	rispetto a mh ad esempio forlì	rispetto a mh ad esempio forlì
-36	SP1	63.6999999999998	65.625	1.925	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	6	adesso prendiamo forlì come riferimento [però]	adesso prendiamo forlì come riferimento [però]	adesso prendiamo forlì come riferimento però
-37	SP2	65.23	65.617	0.387	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-38	SP1	66.55	70.925	4.375	True	0	0	1	0	0	0	False	False	False	False	False		_	0	0	1	8	c'è sicuramente molta più offerta lavorativa su bologna perchè:	c'è sicuramente molta più offerta lavorativa su bologna perchè:	c'è sicuramente molta più offerta lavorativa su bologna perché
-39	SP1	72.1999999999998	76.2429999999999	4.043	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	13	un po' e:hm ci sono molte industrie poi dipende uno che cosa fa	un po' e:hm ci sono molte industrie poi dipende uno che cosa fa	un po' ehm ci sono molte industrie poi dipende uno che cosa fa
-40	SP1	76.3699999999999	76.8619999999999	0.492	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	però	però	però
-41	SP1	77.27	78.3719999999998	1.102	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	0	c'è::	c'è::	c'è::
-42	SP1	78.47	82.21	3.74	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	2	8	c'è sia l'industria: è la regione poi della motor valley	c'è sia l'industria: è la regione poi della motor valley	c'è sia l'industria: è la regione poi della motor valley
-43	SP1	82.28	84.8039999999999	2.524	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	8	si ci sono tutte le azien[de: dei motori]	si ci sono tutte le azien[de: dei motori]	si ci sono tutte le aziende dei motori
-44	SP2	83.4199999999998	84.713	1.293	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	5	[mh sì sì sì sì]	[mh sì sì sì sì]	mh sì sì sì sì
-45	SP1	85.0999999999999	87.6379999999999	2.538	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	11	in quella zona lì poi anche più verso modena in realtà	in quella zona lì poi anche più verso modena in realtà	in quella zona lì poi anche più verso modena in realtà
-46	SP1	87.8299999999999	88.435	0.605	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	però	però	però
-47	SP1	89.5	90.308	0.808	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	e:hm	e:hm	ehm
-48	SP1	90.9499999999998	96.249	5.299	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	17	secondo me c'è un po' di tutto comunque anche a livello umanistico qualcosa si si tro[va] a bologna	secondo me c'è un po' di tutto comunque anche a livello umanistico qualcosa si si tro[va] a bologna	secondo me c'è un po' di tutto comunque anche a livello umanistico qualcosa si si trova a bologna
-49	SP2	95.21	95.6989999999998	0.489	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-50	SP1	97.3999999999999	101.266	3.866	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	10	e:h io poi ho trovato lavoro tramite un concorso quin[di::]	e:h io poi ho trovato lavoro tramite un concorso quin[di::]	eh io poi ho trovato lavoro tramite un concorso quindi
-51	SP2	100.5	101.69	1.19	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	3	[ah okay] mhmh	[ah okay] mhmh	ah okay mhmh
-52	SP1	101.72	103.549	1.829	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	3	mh quello magari::	mh quello magari::	mh quello magari
-53	SP1	103.63	105.44	1.81	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	6	>è diverso< però anche nel pubblico	>è diverso< però anche nel pubblico	è diverso però anche nel pubblico
-54	SP1	105.49	107.928	2.438	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	7	probabilmente a bologna c'è molto di più rispett[o:]	probabilmente a bologna c'è molto di più rispett[o:]	probabilmente a bologna c'è molto di più rispetto
-55	SP2	107.68	108.899	1.219	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	3	[ma]gari più post[i:]	[ma]gari più post[i:]	magari più posti
-56	SP1	108.83	110.74	1.91	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	5	[sì] esatto poi l'università di bologna	[sì] esatto poi l'università di bologna	sì esatto poi l'università di bologna
-57	SP1	111.44	113.565	2.125	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	5	mh ha cioè diciamo che	mh ha cioè diciamo che	mh ha cioè diciamo che
-58	SP1	113.66	115.678	2.018	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	6	porta tanto lavoro in tanti modi	porta tanto lavoro in tanti modi	porta tanto lavoro in tanti modi
-59	SP2	115.68	116.166	0.486	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	mh[mh]	mh[mh]	mhmh
-60	SP1	115.93	116.516	0.586	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	2	[sec]ondo me	[sec]ondo me	secondo me
-61	SP1	118.39	120.507	2.117	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	4	°e quindi sì sicuramente°	°e quindi sì sicuramente°	e quindi sì sicuramente
-62	SP1	120.56	122.98	2.42	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	8	°ci sono buone opportunità secondo me a bologna°	°ci sono buone opportunità secondo me a bologna°	ci sono buone opportunità secondo me a bologna
-63	SP1	123.99	126.644	2.654	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	11	in tutta la regione penso [che sia la c]ittà in cui	in tutta la regione penso [che sia la c]ittà in cui	in tutta la regione penso che sia la città in cui
-64	SP2	125.22	125.725	0.505	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-65	SP1	126.73	128.042	1.312	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	6	in cui si trova più [lavoro]	in cui si trova più [lavoro]	in cui si trova più lavoro
-66	SP2	127.54	128.002	0.462	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	[meglio]	[meglio]	meglio
-67	SP1	128.35	128.63	0.28	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	°sì°	°sì°	sì
-68	SP2	128.64	130.78	2.14	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	8	e quindi tu di cosa ti occupi a:	e quindi tu di cosa ti occupi a:	e quindi tu di cosa ti occupi a
-69	SP1	130.78	133.29	2.51	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	4	allora io e:h lavoro nell'ufficio	allora io e:h lavoro nell'ufficio	allora io eh lavoro nell'ufficio
-70	SP1	133.4	135.915	2.515	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	5	e:h relazioni internazionali dell'università di bologna,	e:h relazioni internazionali dell'università di bologna,	eh relazioni internazionali dell'università di bologna
-71	SP1	136.7	137.689	0.989	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	2	in particolare	in particolare	in particolare
-72	SP1	137.88	140.525	2.645	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	10	in uf- in un ufficio che si chiama international desk,	in uf- in un ufficio che si chiama international desk,	in uf- in un ufficio che si chiama international desk
-73	SP1	141.32	143.13	1.81	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	6	che si occupa di dare supporto	che si occupa di dare supporto	che si occupa di dare supporto
-74	SP1	143.19	147.558	4.368	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	11	e orientamento agli studenti internazionali che vengono a iscriversi all'università di bologna	e orientamento agli studenti internazionali che vengono a iscriversi all'università di bologna	e orientamento agli studenti internazionali che vengono a iscriversi all'università di bologna
-75	SP2	147.64	148.129	0.489	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	mhmh	mhmh	mhmh
-76	SP1	148.168	151.341	3.173	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	6	quindi che fanno l'intero percorso triennale magistrale	quindi che fanno l'intero percorso triennale magistrale	quindi che fanno l'intero percorso triennale magistrale
-77	SP1	152.33	154.642	2.312	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	5	e principalmente diamo supporto per	e principalmente diamo supporto per	e principalmente diamo supporto per
-78	SP1	155.44	156.49	1.05	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	e::hm	e::hm	ehm
-79	SP1	156.61	159.958	3.348	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	7	o- o- mh orientamento sul processo proprio d'iscrizione	o- o- mh orientamento sul processo proprio d'iscrizione	o- o- mh orientamento sul processo proprio d'iscrizione
-80	SP1	160.01	160.901	0.891	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	2	cosa fare	cosa fare	cosa fare
-81	SP1	161.35	162.46	1.11	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	4	da dove partire ma	da dove partire ma	da dove partire ma
-82	SP1	162.53	166.087	3.557	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	9	poi nel dettaglio in particolare sulle questioni che riguardano l'immigrazione	poi nel dettaglio in particolare sulle questioni che riguardano l'immigrazione	poi nel dettaglio in particolare sulle questioni che riguardano l'immigrazione
-83	SP2	166.29	167.348	1.058	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	2	ah [mhmh]	ah [mhmh]	ah mhmh
-84	SP1	166.66	169.57	2.91	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	6	[quin]di su come [ottenere un] visto	[quin]di su come [ottenere un] visto	quindi su come ottenere un visto
-85	SP2	168.18	168.872	0.692	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	2	[che bello]	[che bello]	che bello
-86	SP1	169.62	171.231	1.611	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	6	come fare il permesso di soggiorno	come fare il permesso di soggiorno	come fare il permesso di soggiorno
-87	SP1	171.62	173.847	2.227	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	6	e:h diamo informazioni sui titoli esteri	e:h diamo informazioni sui titoli esteri	eh diamo informazioni sui titoli esteri
-88	SP1	173.92	174.303	0.383	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	cosa	cosa	cosa
-89	SP1	174.363	177.839	3.476	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	12	che documenti devono presentare per iscriversi con un titolo di studio estero	che documenti devono presentare per iscriversi con un titolo di studio estero	che documenti devono presentare per iscriversi con un titolo di studio estero
-90	SP1	178.7	181.74	3.04	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	8	e: insomma queste cose queste cose qui principalmente	e: insomma queste cose queste cose qui principalmente	e insomma queste cose queste cose qui principalmente
-91	SP1	182.62	183.313	0.693	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	e:hm	e:hm	ehm
-92	SP2	183.328	185.54	2.212	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	6	hai sempre fatto questo lavoro oppure:	hai sempre fatto questo lavoro oppure:	hai sempre fatto questo lavoro oppure
-93	SP1	185.62	187.331	1.711	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	4	allora dopo la laurea,	allora dopo la laurea,	allora dopo la laurea
-94	SP1	187.388	189.942	2.554	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	6	io mi son laureata nel duemiladiciassette	io mi son laureata nel duemiladiciassette	io mi son laureata nel duemiladiciassette
-95	SP1	190.93	193.972	3.042	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	8	ho fatto e:h sei mesi in un azienda	ho fatto e:h sei mesi in un azienda	ho fatto eh sei mesi in un azienda
-96	SP1	194.54	196.965	2.425	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	4	e:hm che faceva mh	e:hm che faceva mh	ehm che faceva mh
-97	SP1	197.53	198.842	1.312	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	2	tende frangisole	tende frangisole	tende frangisole
-98	SP2	198.901	199.531	0.63	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	mhmh	mhmh	mhmh
-99	SP1	199.575	201.823	2.248	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	4	e:h come commerciale estero	e:h come commerciale estero	eh come commerciale estero
-100	SP1	201.92	202.305	0.385	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	tipo	tipo	tipo
-101	SP1	203.2	205.727	2.527	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	9	però mh non mi è pia- non mi piaceva:	però mh non mi è pia- non mi piaceva:	però mh non mi è pia- non mi piaceva
-102	SP1	206.11	208.133	2.023	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	8	mh in particolare l'ambiente anche il lavoro in sè	mh in particolare l'ambiente anche il lavoro in sè	mh in particolare l'ambiente anche il lavoro in sè
-103	SP1	208.17	211.304	3.134	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	10	mh non mi faceva impazzire ma poi l'ambiente mh non era:	mh non mi faceva impazzire ma poi l'ambiente mh non era:	mh non mi faceva impazzire ma poi l'ambiente mh non era
-104	SP2	211.5	212.106	0.606	True	0	0	0	0	0	0	False	False	False	False	True		105=0.006	0	0	0	1	mhmh	mhmh	mhmh
-105	SP1	212.1	213.879	1.779	True	0	0	0	0	0	0	False	False	False	False	True		104=0.006,106=0.459	0	0	0	2	particolarmente salutare	particolarmente salutare	particolarmente salutare
-106	SP2	213.42	214.303	0.883	True	0	0	0	0	0	0	False	False	False	False	True		105=0.459,107=0.353	0	1	0	0	((ride))	{ride}	{ride}
-107	SP1	213.95	217.496	3.546	True	0	0	0	0	0	0	False	False	False	False	True		106=0.353,108=0.346	0	0	0	14	e quindi quando è finito questo tirocinio di sei mesi poi dopo non [ho:]	e quindi quando è finito questo tirocinio di sei mesi poi dopo non [ho:]	e quindi quando è finito questo tirocinio di sei mesi poi dopo non ho
-108	SP2	217.15	218.256	1.106	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	2	[hai] abbando[nato]	[hai] abbando[nato]	hai abbandonato
-109	SP1	217.55	218.863	1.313	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	3	[non ho] abbandonato	[non ho] abbandonato	non ho abbandonato
-110	SP1	219.55	220.558	1.008	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	e::h	e::h	eh
-111	SP1	221.01	224.168	3.158	True	0	0	0	0	0	0	False	False	False	False	True		112=0.848	0	1	0	13	>poi< ho avuto un momento in cui dicevo cosa faccio della mia vita ((ride))	>poi< ho avuto un momento in cui dicevo cosa faccio della mia vita {ride}	poi ho avuto un momento in cui dicevo cosa faccio della mia vita {ride}
-112	SP2	223.32	224.337	1.017	True	0	0	0	0	0	0	False	False	False	False	True		111=0.848,113=0.127	0	1	0	0	((ride))	{ride}	{ride}
-113	SP1	224.21	226.331	2.121	True	0	0	0	0	0	0	False	False	False	False	True		112=0.127	0	0	0	8	questo classico momento che prima o poi arriva	questo classico momento che prima o poi arriva	questo classico momento che prima o poi arriva
-114	SP1	226.77	227.865	1.095	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	e::hm	e::hm	ehm
-115	SP1	228.12	231.255	3.135	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	7	ho fatto ho iniziato facendo un tutorato	ho fatto ho iniziato facendo un tutorato	ho fatto ho iniziato facendo un tutorato
-116	SP1	231.306	233.049	1.743	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	2	a sempre all'università	a sempre all'università	a sempre all'università
-117	SP1	233.79	235.299	1.509	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	2	come: mh	come: mh	come mh
-118	SP1	235.91	239.053	3.143	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	5	tutor internazionale di un dipartimento	tutor internazionale di un dipartimento	tutor internazionale di un dipartimento
-119	SP1	239.83	240.711	0.881	True	0	0	1	0	0	0	False	False	False	False	False		_	0	0	0	2	perchè premessa	perchè premessa	perché premessa
-120	SP1	240.92	242.419	1.499	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	3	durante la magistrale	durante la magistrale	durante la magistrale
-121	SP1	242.7	243.593	0.893	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	2	ho fatto	ho fatto	ho fatto
-122	SP1	243.632	245.173	1.541	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	3	e:h un tutorato	e:h un tutorato	eh un tutorato
-123	SP1	245.26	247.62	2.36	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	5	nell'ufficio relazioni internazio[nali dove adesso] lavoro	nell'ufficio relazioni internazio[nali dove adesso] lavoro	nell'ufficio relazioni internazionali dove adesso lavoro
-124	SP2	246.51	247.1	0.59	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-125	SP1	248.53	251.972	3.442	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	11	son dei: dei lavori che posson fare gli studenti: tot ore	son dei: dei lavori che posson fare gli studenti: tot ore	son dei dei lavori che posson fare gli studenti tot ore
-126	SP1	252.7	253.786	1.086	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	3	e: e quindi	e: e quindi	e e quindi
-127	SP1	253.838	256.98	3.142	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	12	siccome mi era piaciuta quell'esperienza che avevo fatto lì avevo detto eh proviamo	siccome mi era piaciuta quell'esperienza che avevo fatto lì avevo detto eh proviamo	siccome mi era piaciuta quell'esperienza che avevo fatto lì avevo detto eh proviamo
-128	SP1	257	258.898	1.898	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	5	a tornare a fare qualcosa all'università	a tornare a fare qualcosa all'università	a tornare a fare qualcosa all'università
-129	SP1	259.29	261.109	1.819	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	5	quindi ho fatto questo: mh	quindi ho fatto questo: mh	quindi ho fatto questo mh
-130	SP1	261.19	263.52	2.33	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	6	tutorato da laureata a [quel punto]	tutorato da laureata a [quel punto]	tutorato da laureata a quel punto
-131	SP2	262.83	263.425	0.595	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-132	SP1	264.26	267.003	2.743	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	8	mentre stavo facendo questo è uscito un concorso	mentre stavo facendo questo è uscito un concorso	mentre stavo facendo questo è uscito un concorso
-133	SP1	267.44	269.659	2.219	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	5	specifico per le relazioni internazionali	specifico per le relazioni internazionali	specifico per le relazioni internazionali
-134	SP1	270.22	271.014	0.794	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	e::h	e::h	eh
-135	SP1	271.09	275.154	4.064	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	18	e quindi l'ho fatto e son stata presa e [dopo ho lasciato il tutorato e ho iniziato] a fare	e quindi l'ho fatto e son stata presa e [dopo ho lasciato il tutorato e ho iniziato] a fare	e quindi l'ho fatto e son stata presa e dopo ho lasciato il tutorato e ho iniziato a fare
-136	SP2	273.08	274.697	1.617	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	4	[mhmh ah che bello]	[mhmh ah che bello]	mhmh ah che bello
-137	SP1	275.22	276.42	1.2	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	4	per fare quello poi	per fare quello poi	per fare quello poi
-138	SP1	276.59	278.096	1.506	True	0	0	1	0	0	0	False	False	False	False	False		_	0	0	0	5	ho fatto vari concorsi perchè	ho fatto vari concorsi perchè	ho fatto vari concorsi perché
-139	SP1	278.15	281.193	3.043	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	9	il primo che ho vinto era un concorso determinato	il primo che ho vinto era un concorso determinato	il primo che ho vinto era un concorso determinato
-140	SP1	282.3	285.25	2.95	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	7	poi l'anno dopo ne ho fatto uno indeterminato,	poi l'anno dopo ne ho fatto uno indeterminato,	poi l'anno dopo ne ho fatto uno indeterminato
-141	SP1	285.46	288.394	2.934	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	8	di una categoria un po' inferiore [però indete]rmina[to]	di una categoria un po' inferiore [però indete]rmina[to]	di una categoria un po' inferiore però indeterminato
-142	SP2	286.93	287.511	0.581	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-143	SP2	287.82	288.407	0.587	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	2	[è che]	[è che]	è che
-144	SP1	288.44	291.532	3.092	True	0	0	0	0	0	0	False	False	False	False	True		145=1.206	0	2	0	4	((ride)) non si butta via ((ride))	{ride} non si butta via {ride}	{ride} non si butta via {ride}
-145	SP2	288.66	289.866	1.206	True	0	0	0	0	0	0	False	False	False	False	True		144=1.206	0	1	0	0	((ride))	{ride}	{ride}
-146	SP1	291.83	293.036	1.206	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	5	e >quindi< ho fatto quello	e >quindi< ho fatto quello	e quindi ho fatto quello
-147	SP1	293.12	295.03	1.91	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	8	poi l'anno dopo ancora ne ho fatto un altro	poi l'anno dopo ancora ne ho fatto un altro	poi l'anno dopo ancora ne ho fatto un altro
-148	SP1	295.13	297.354	2.224	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	6	sempre indeterminato però del livello superiore	sempre indeterminato però del livello superiore	sempre indeterminato però del livello superiore
-149	SP2	297.452	297.978	0.526	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	mhmh	mhmh	mhmh
-150	SP1	298.35	299.754	1.404	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	4	e questo è stato:	e questo è stato:	e questo è stato
-151	SP1	299.9	300.928	1.028	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	1	°l'anno scorso°	°l'anno scorso°	l'anno scorso
-152	SP1	301.11	301.799	0.689	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	2	°sì >l'anno scorso<°	°sì >l'anno scorso<°	sì l'anno scorso
-153	SP1	302.54	305.794	3.254	True	0	0	0	0	0	0	False	False	False	False	True		154=0.585,155=0.094	0	1	0	13	quindi adesso basta non voglio più fare concorsi ((ride)) per [tutta la mia vi]ta	quindi adesso basta non voglio più fare concorsi {ride} per [tutta la mia vi]ta	quindi adesso basta non voglio più fare concorsi {ride} per tutta la mia vita
-154	SP2	304.73	305.315	0.585	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	2	[e quindi]	[e quindi]	e quindi
-155	SP2	305.7	307.923	2.223	True	0	0	0	0	0	0	False	False	False	False	True		153=0.094	0	0	0	6	pensi che questo sia il lavoro:	pensi che questo sia il lavoro:	pensi che questo sia il lavoro
-156	SP1	308.02	308.674	0.654	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	2	ah [sì]	ah [sì]	ah sì
-157	SP2	308.24	309.127	0.887	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	2	[de]lla vita	[de]lla vita	della vita
-158	SP1	309.13	309.612	0.482	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	sì	sì	sì
-159	SP1	309.94	310.837	0.897	True	0	0	0	0	0	0	False	False	False	False	False		_	0	1	0	1	c(io)è ((ride))	c(io)è {ride}	cioè {ride}
-160	SP1	311.01	311.588	0.578	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	oddio	oddio	oddio
-161	SP1	311.616	313.045	1.429	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	7	non si sa mai nella vita [eh]	non si sa mai nella vita [eh]	non si sa mai nella vita eh
-162	SP2	312.39	313.4	1.01	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	5	[no no] ovvio sì sì	[no no] ovvio sì sì	no no ovvio sì sì
-163	SP1	313.43	315.066	1.636	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	5	però io penso che non	però io penso che non	però io penso che non
-164	SP1	315.126	317.237	2.111	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	3	non lascerò: unibo	non lascerò: unibo	non lascerò unibo
-165	SP1	317.61	320.237	2.627	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	10	quello che può succedere secondo me è che magari cambio	quello che può succedere secondo me è che magari cambio	quello che può succedere secondo me è che magari cambio
-166	SP1	320.43	322.552	2.122	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	4	e:h posizione all'interno di uni[bo]	e:h posizione all'interno di uni[bo]	eh posizione all'interno di unibo
-167	SP2	322.11	322.592	0.482	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-168	SP1	322.82	325.145	2.325	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	4	cambio o ufficio o:	cambio o ufficio o:	cambio o ufficio o
-169	SP1	325.196	327.21	2.014	True	0	0	1	0	0	0	False	False	False	False	False		_	0	0	0	4	area perchè spesso: mh	area perchè spesso: mh	area perché spesso mh
-170	SP1	327.27	330.307	3.037	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	13	magari uno dopo un tot di anni dice voglio cambiare un po' lavoro	magari uno dopo un tot di anni dice voglio cambiare un po' lavoro	magari uno dopo un tot di anni dice voglio cambiare un po' lavoro
-171	SP1	330.36	331.87	1.51	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	7	e fare qualcosa di un po' diverso	e fare qualcosa di un po' diverso	e fare qualcosa di un po' diverso
-172	SP1	332.02	333.53	1.51	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	3	chiede un trasferimento	chiede un trasferimento	chiede un trasferimento
-173	SP1	333.574	337.156	3.582	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	12	a un altro ufficio a un altro campus anche a [forlì pote]nzialmente	a un altro ufficio a un altro campus anche a [forlì pote]nzialmente	a un altro ufficio a un altro campus anche a forlì potenzialmente
-174	SP2	335.83	336.325	0.495	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-175	SP1	337.84	339.14	1.3	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	4	e quindi questo sicuramente	e quindi questo sicuramente	e quindi questo sicuramente
-176	SP1	339.33	340.58	1.25	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	3	secondo me succederà	secondo me succederà	secondo me succederà
-177	SP1	341.12	342.93	1.81	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	4	però: mi trovo bene	però: mi trovo bene	però mi trovo bene
-178	SP1	343.2	344.121	0.921	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	2	[per me]	[per me]	per me
-179	SP2	343.2	345.02	1.82	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	3	[come ambiente] comunqu[e:]	[come ambiente] comunqu[e:]	come ambiente comunque
-180	SP1	344.6	345.598	0.998	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	3	[sì sì] sicurame-	[sì sì] sicurame-	sì sì sicurame-
-181	SP1	346	348.66	2.66	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	8	>allora< i miei colleghi mi trovo benissimo [questo]	>allora< i miei colleghi mi trovo benissimo [questo]	allora i miei colleghi mi trovo benissimo questo
-182	SP2	348.14	348.641	0.501	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-183	SP1	348.74	351.081	2.341	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	8	è una grande parte sec[ondo me del lavoro]	è una grande parte sec[ondo me del lavoro]	è una grande parte secondo me del lavoro
-184	SP2	350.03	351.251	1.221	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	4	[sì anche secondo] me	[sì anche secondo] me	sì anche secondo me
-185	SP1	351.26	354.539	3.279	True	0	0	1	0	0	0	False	False	False	False	False		_	0	0	0	14	perchè a volte dici ah ti piace il lavoro non ti piace il lavoro	perchè a volte dici ah ti piace il lavoro non ti piace il lavoro	perché a volte dici ah ti piace il lavoro non ti piace il lavoro
-186	SP1	355.55	356.256	0.706	True	0	0	0	0	0	0	False	False	False	False	False		_	0	1	0	0	((sospira))	{sospira}	{sospira}
-187	SP1	356.307	358.664	2.357	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	7	il il lavoro in sè secondo me	il il lavoro in sè secondo me	il il lavoro in sè secondo me
-188	SP1	359.01	360.212	1.202	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	2	conta ma	conta ma	conta ma
-189	SP1	360.5	362.74	2.24	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	4	non tanto quanto conta:	non tanto quanto conta:	non tanto quanto conta
-190	SP2	362.77	363.892	1.122	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	0	l'ambie[nte]	l'ambie[nte]	l'ambiente
-191	SP1	363.25	366.753	3.503	True	0	0	0	0	0	0	False	False	False	False	True		192=1.010,193=0.333,190=0.642	0	1	1	12	[l'a]mbiente e le persone con cui lavo[ri ho ho capito que]sta cosa qui ((ride))	[l'a]mbiente e le persone con cui lavo[ri ho ho capito que]sta cosa qui {ride}	l'ambiente e le persone con cui lavori ho ho capito questa cosa qui {ride}
-192	SP2	364.62	365.63	1.01	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	3	[anche secondo me]	[anche secondo me]	anche secondo me
-193	SP2	366.42	367.329	0.909	True	0	0	0	0	0	0	False	False	False	False	True		191=0.333	0	0	0	4	è vero è vero	è vero è vero	è vero è vero
-194	SP1	367.42	369.249	1.829	True	0	0	1	0	0	0	False	False	False	False	False		_	0	0	0	3	perchè a volte::	perchè a volte::	perché a volte
-195	SP1	369.33	373.27	3.94	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	17	dici il lavoro della vita che hai sempre voluto fare infatti non avevo un lavoro che vole-	dici il lavoro della vita che hai sempre voluto fare infatti non avevo un lavoro che vole-	dici il lavoro della vita che hai sempre voluto fare infatti non avevo un lavoro che vole-
-196	SP1	373.31	374.218	0.908	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	4	ho sempre voluto fa[re]	ho sempre voluto fa[re]	ho sempre voluto fare
-197	SP2	373.93	374.326	0.396	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	[mh]mh	[mh]mh	mhmh
-198	SP1	374.46	375.166	0.706	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	però	però	però
-199	SP1	376.19	378.424	2.234	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	6	e::h dici il lavoro è perfetto	e::h dici il lavoro è perfetto	eh dici il lavoro è perfetto
-200	SP1	378.472	381.681	3.209	True	0	0	1	0	0	0	False	False	False	False	False		_	0	0	0	8	però poi stai male perchè hai delle pers[one:::]	però poi stai male perchè hai delle pers[one:::]	però poi stai male perché hai delle persone
-201	SP2	380.4	381.71	1.31	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	2	[sì mhmh]	[sì mhmh]	sì mhmh
-202	SP1	381.73	382.1	0.37	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	c(io)è	c(io)è	cioè
-203	SP2	382.11	383.722	1.612	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	5	con cui non ti tr[ovi]	con cui non ti tr[ovi]	con cui non ti trovi
-204	SP1	382.88	384.097	1.217	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	6	[con cui] non ti trovi oche	[con cui] non ti trovi oche	con cui non ti trovi oche
-205	SP1	384.15	384.636	0.486	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	2	sono proprio	sono proprio	sono proprio
-206	SP2	384.697	387.993	3.296	True	0	0	0	0	0	0	False	False	False	False	False		_	0	2	0	9	che alla fine devi vedere tutti i gi[orni ((ride)) quindi] ((ride))	che alla fine devi vedere tutti i gi[orni {ride} quindi] {ride}	che alla fine devi vedere tutti i giorni {ride} quindi {ride}
-207	SP1	386.14	388.059	1.919	True	0	0	0	0	0	0	False	False	False	False	False		_	0	1	0	2	[esatto ((ride)) esatto]	[esatto {ride} esatto]	esatto {ride} esatto
-208	SP1	388.42	391.62	3.2	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	14	quindi io mi trovo bene con i miei colleghi il lavoro comunque mi piace	quindi io mi trovo bene con i miei colleghi il lavoro comunque mi piace	quindi io mi trovo bene con i miei colleghi il lavoro comunque mi piace
-209	SP1	391.74	396.39	4.65	True	0	0	1	0	0	0	False	False	False	False	True		210=1.470	0	1	0	9	quindi per ora io finchè non mi mandano via ((ride))	quindi per ora io finchè non mi mandano via {ride}	quindi per ora io finché non mi mandano via {ride}
-210	SP2	393.83	395.3	1.47	True	0	0	0	0	0	0	False	False	False	False	True		209=1.470	0	1	0	1	rimango ((ride))	rimango {ride}	rimango {ride}
-211	SP1	396.5	398.43	1.93	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	4	sempre: c(io)è poi eh	sempre: c(io)è poi eh	sempre cioè poi eh
-212	SP1	398.52	399.122	0.602	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	2	chiaro che	chiaro che	chiaro che
-213	SP1	399.177	401.117	1.94	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	6	le cose cambiano negli anni [però]	le cose cambiano negli anni [però]	le cose cambiano negli anni però
-214	SP2	400.23	400.938	0.708	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	4	[sì sì sì sì]	[sì sì sì sì]	sì sì sì sì
-215	SP1	401.17	402.381	1.211	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	5	per ora sono felice così	per ora sono felice così	per ora sono felice così
-216	SP2	402.76	404.479	1.719	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	7	e per quanto riguarda la tua laurea	e per quanto riguarda la tua laurea	e per quanto riguarda la tua laurea
-217	SP2	404.559	406.674	2.115	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	5	comunque quindi ti è servit[a:]	comunque quindi ti è servit[a:]	comunque quindi ti è servita
-218	SP1	406.33	407.735	1.405	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	4	[sì] sì no io:	[sì] sì no io:	sì sì no io
-219	SP1	407.79	409.51	1.72	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	6	volevo fare qualcosa il mio unico	volevo fare qualcosa il mio unico	volevo fare qualcosa il mio unico
-220	SP1	409.545	412.9	3.355	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	11	mh obiettivo era fare qualcosa in cui potessi usare le lingue	mh obiettivo era fare qualcosa in cui potessi usare le lingue	mh obiettivo era fare qualcosa in cui potessi usare le lingue
-221	SP1	413.02	413.93	0.91	True	0	0	1	0	0	0	False	False	False	False	False		_	0	0	0	4	perchè se no dico	perchè se no dico	perché se no dico
-222	SP2	413.93	415.027	1.097	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	4	quali hai studiato tu	quali hai studiato tu	quali hai studiato tu
-223	SP1	415.03	416.533	1.503	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	6	io ho fatto inglese e spagno[lo]	io ho fatto inglese e spagno[lo]	io ho fatto inglese e spagnolo
-224	SP2	416.13	416.67	0.54	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	[mh]mh	[mh]mh	mhmh
-225	SP1	417.07	419.394	2.324	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	11	eh lo spagnolo ti dico la verità non lo uso tanto	eh lo spagnolo ti dico la verità non lo uso tanto	eh lo spagnolo ti dico la verità non lo uso tanto
-226	SP1	419.89	423.97	4.08	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	9	o [raramen]te quando viene qualche studente a sportello che	o [raramen]te quando viene qualche studente a sportello che	o raramente quando viene qualche studente a sportello che
-227	SP2	420.08	420.765	0.685	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	[okay]	[okay]	okay
-228	SP1	424.14	424.731	0.591	True	0	0	0	0	0	0	False	False	False	False	False		_	0	1	0	0	((ride))	{ride}	{ride}
-229	SP1	424.9	426.202	1.302	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	5	provi a parlare in inglese	provi a parlare in inglese	provi a parlare in inglese
-230	SP1	426.271	429.36	3.089	True	0	0	0	0	0	0	False	False	False	False	False		_	0	1	0	10	e non capisce ((ride)) provi a parlare italiano e non capisce	e non capisce {ride} provi a parlare italiano e non capisce	e non capisce {ride} provi a parlare italiano e non capisce
-231	SP1	429.39	432.83	3.44	True	0	0	0	0	0	0	False	False	False	False	False		_	0	1	0	9	senti che parla spagnolo [allora tu dici] ((ride)) parliamo spagnolo	senti che parla spagnolo [allora tu dici] {ride} parliamo spagnolo	senti che parla spagnolo allora tu dici {ride} parliamo spagnolo
-232	SP2	430.39	431.25	0.86	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	2	[eh proviamo]	[eh proviamo]	eh proviamo
-233	SP1	433.21	434.305	1.095	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	2	però: sì	però: sì	però sì
-234	SP1	434.45	436.89	2.44	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	6	tendenzialmente comunque uso tutti i giorni l'inglese	tendenzialmente comunque uso tutti i giorni l'inglese	tendenzialmente comunque uso tutti i giorni l'inglese
-235	SP2	436.91	437.394	0.484	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	[mhmh]	[mhmh]	mhmh
-236	SP1	436.94	439.12	2.18	True	0	0	1	0	0	0	False	False	False	False	False		_	0	0	0	8	[perchè] scri- scrivo tutti i giorni in inglese	[perchè] scri- scrivo tutti i giorni in inglese	perché scri- scrivo tutti i giorni in inglese
-237	SP1	439.19	440.904	1.714	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	8	parlo tutti i giorni in inglese con loro	parlo tutti i giorni in inglese con loro	parlo tutti i giorni in inglese con loro
-238	SP1	442.12	444.238	2.118	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	7	e:h quindi questo sono molto contenta poi	e:h quindi questo sono molto contenta poi	eh quindi questo sono molto contenta poi
-239	SP1	444.8	447.955	3.155	True	0	0	1	0	0	0	False	False	False	False	True		240=0.677	0	1	0	11	non so il mi- il mio inglese probabilmente sta regredendo perchè ((ride))	non so il mi- il mio inglese probabilmente sta regredendo perchè {ride}	non so il mi- il mio inglese probabilmente sta regredendo perché {ride}
-240	SP2	447.02	447.697	0.677	True	0	0	0	0	0	0	False	False	False	False	True		239=0.677	0	1	0	0	((ride))	{ride}	{ride}
-241	SP1	448.3	452.268	3.968	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	12	a forza di parlare co:n stu[denti stra]nieri che [comunque no]n sono madrelingua	a forza di parlare co:n stu[denti stra]nieri che [comunque no]n sono madrelingua	a forza di parlare con studenti stranieri che comunque non sono madrelingua
-242	SP2	449.82	450.548	0.728	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	[sì:]	[sì:]	sì
-243	SP2	450.83	451.333	0.503	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	2	[sì sì]	[sì sì]	sì sì
-244	SP1	452.32	453.112	0.792	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	[e::h]	[e::h]	eh
-245	SP2	452.32	454.248	1.928	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	2	[non usi l'acc]e:n[to]	[non usi l'acc]e:n[to]	non usi l'acce:nto
-246	SP1	453.51	455.99	2.48	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	8	[han]no degli accenti tutti strani tra gli indiani	[han]no degli accenti tutti strani tra gli indiani	hanno degli accenti tutti strani tra gli indiani
-247	SP1	456.03	458.838	2.808	True	0	0	0	0	0	0	False	False	False	False	True		248=1.401	0	1	0	3	iafmam iafmam e ((ride))	iafmam iafmam e {ride}	iafmam iafmam e {ride}
-248	SP2	457.42	458.821	1.401	True	0	0	0	0	0	0	False	False	False	False	True		247=1.401	0	1	0	0	((ride))	{ride}	{ride}
-249	SP2	458.9	459.893	0.993	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	2	[è vero]	[è vero]	è vero
-250	SP1	458.92	460.418	1.498	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	4	[quindi un po'] ehm	[quindi un po'] ehm	quindi un po' ehm
-251	SP1	460.48	463.926	3.446	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	10	ce- cerchi di farti capire quindi scandisci bene e però	ce- cerchi di farti capire quindi scandisci bene e però	ce- cerchi di farti capire quindi scandisci bene e però
-252	SP1	464.01	465.609	1.599	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	5	mh il mio accento probabilmente	mh il mio accento probabilmente	mh il mio accento probabilmente
-253	SP1	465.97	466.756	0.786	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	3	è un attimo	è un attimo	è un attimo
-254	SP1	467.61	470.14	2.53	True	0	0	0	0	0	0	False	False	False	False	False		_	0	1	0	6	è un attimo andato: per se- ((ride))	è un attimo andato: per se- {ride}	è un attimo andato per se- {ride}
-255	SP1	470.53	473.6	3.07	True	0	0	1	0	0	0	False	False	False	False	False		_	0	0	0	12	però sì no son contenta perchè riesco a usare dai quello che	però sì no son contenta perchè riesco a usare dai quello che	però sì no son contenta perché riesco a usare dai quello che
-256	SP1	473.64	475.94	2.3	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	9	poi tutti gli esami di letteratura che ho fatto	poi tutti gli esami di letteratura che ho fatto	poi tutti gli esami di letteratura che ho fatto
-257	SP1	476.03	478.356	2.326	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	7	mh [non son serviti a nie]nte chiaramente	mh [non son serviti a nie]nte chiaramente	mh non son serviti a niente chiaramente
-258	SP2	476.36	477.662	1.302	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	3	[non sono: no]	[non sono: no]	non sono no
-259	SP1	478.72	480.835	2.115	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	6	però fa lo stesso nel senso:	però fa lo stesso nel senso:	però fa lo stesso nel senso
-260	SP2	480.852	483.487	2.635	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	8	è comunque una cosa che ti [piace quindi:]	è comunque una cosa che ti [piace quindi:]	è comunque una cosa che ti piace quindi
-261	SP1	482.11	484.729	2.619	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	6	[sì sì esatto] a me piace:	[sì sì esatto] a me piace:	sì sì esatto a me piace
-262	SP1	484.94	486.343	1.403	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	3	parlare in inglese:	parlare in inglese:	parlare in inglese
-263	SP1	487.1	488.607	1.507	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	6	°c(io)è° il mio obiettivo era quello	°c(io)è° il mio obiettivo era quello	cioè il mio obiettivo era quello
-264	SP1	488.83	491.145	2.315	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	1	5	[cioè usa]re l'inglese tutti i giorni:	[cioè usa]re l'inglese tutti i giorni:	cioè usare l'inglese tutti i giorni
-265	SP2	488.84	489.217	0.377	True	0	0	0	0	0	0	False	False	False	False	False		_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents	W:non_jefferson	W:pauses_trim	W:prosodic_trim	W:moved_boundaries	E:volume	E:pace	E:guess	E:overlap	E:overlap_mismatch	E:overlap_duration	T:shortpauses	T:metalinguistic	T:errors	T:linguistic	annotation	correct	text
+1	SP1	0.0	3.13699999999994	3.137	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	xx infatti il fatto che è aumentato il turismo	xx infatti il fatto che è aumentato il turismo	xx infatti il fatto che è aumentato il turismo
+2	SP1	3.71000000000004	5.81799999999998	2.108	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	ha impattato molto anche [xx gli affitti]	ha impattato molto anche [xx gli affitti]	ha impattato molto anche xx gli affitti
+3	SP2	4.80999999999995	5.81799999999998	1.008	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[eh può essere]	[eh puo' essere]	eh puo' essere
+4	SP2	6.15999999999985	6.95100000000002	0.791	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	è vero è vero	è vero è vero	è vero è vero
+5	SP1	6.97599999999989	9.94299999999998	2.967	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	6	perchè: dicevano che molte persone molti::	perché: dicevano che molte persone molti::	perché dicevano che molte persone molti
+6	SP1	10.0699999999999	13.1019999999999	3.032	True	0	0	0	1	0	0	0	False	False	False	False	False	_	0	0	0	7	proprietari hanno messo le case su airb&b	proprietari hanno messo le case su airbb	proprietari hanno messo le case su airbb
+7	SP1	13.52	14.8229999999999	1.303	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	per per il turis[mo]	per per il turis[mo]	per per il turismo
+8	SP2	14.5599999999999	15.242	0.682	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mh]mh	[mh]mh	mhmh
+9	SP1	15.8899999999999	18.316	2.426	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	e tutte queste case sono state tolte dal mercato	e tutte queste case sono state tolte dal mercato	e tutte queste case sono state tolte dal mercato
+10	SP1	18.3699999999999	20.1599999999999	1.79	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	della gente che ci deve vivere insom[ma]	della gente che ci deve vivere insom[ma]	della gente che ci deve vivere insomma
+11	SP2	19.8799999999999	20.981	1.101	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[mh]mh è vero	[mh]mh è vero	mhmh è vero
+12	SP1	21.0999999999999	23.8499999999999	2.75	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	quindi sicuramente il turismo ha influito anche su questo	quindi sicuramente il turismo ha influito anche su questo	quindi sicuramente il turismo ha influito anche su questo
+13	SP1	23.8899999999999	24.682	0.792	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	questa cosa qua	questa cosa qua	questa cosa qua
+14	SP1	26.0	26.4880000000001	0.488	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	1	però	pero'	pero'
+15	SP1	26.5999999999999	27.6799999999998	1.08	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	capisco anche che vogliano	capisco anche che vogliano	capisco anche che vogliano
+16	SP2	27.8	29.915	2.115	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	eh sì [xxxx] sì sì sì	eh sì [xxxx] sì sì sì	eh sì xxxx sì sì sì
+17	SP1	28.1900000000001	29.46	1.27	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[cercare in primo]	[cercare in primo]	cercare in primo
+18	SP2	30.1499999999999	30.6559999999999	0.506	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[e]	[e]	e
+19	SP1	30.1499999999999	30.6559999999999	0.506	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[però]	[pero']	pero'
+20	SP2	30.72	32.76	2.04	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	e invece per quanto riguarda il lavoro	e invece per quanto riguarda il lavoro	e invece per quanto riguarda il lavoro
+21	SP2	32.8099999999999	35.3589999999999	2.549	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	pensi che si un buon posto in cui lavorare	pensi che si un buon posto in cui lavorare	pensi che si un buon posto in cui lavorare
+22	SP2	35.78	38.7339999999999	2.954	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	[c(io)è sì secon]do te si trova lavoro [o::]	[c(io)è sì secon]do te si trova lavoro [o::]	cioè sì secondo te si trova lavoro o
+23	SP1	35.79	36.6879999999999	0.898	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[ehm]	[ehm]	ehm
+24	SP1	38.1799999999998	41.71	3.53	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	[ah] okay come s[ì no a bolo]gna sicuramente:	[ah] okay come s[ì no a bolo]gna sicuramente:	ah okay come sì no a bologna sicuramente
+25	SP2	39.47	40.0799999999999	0.61	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+26	SP1	41.76	42.5509999999999	0.791	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	secondo me	secondo me	secondo me
+27	SP1	43.05	45.268	2.218	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	ha molte opportunità: lavorative	ha molte opportunità: lavorative	ha molte opportunità lavorative
+28	SP1	45.6099999999999	46.29	0.68	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	m:h	m:h	mh
+29	SP1	46.6699999999999	48.6399999999999	1.97	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	rispetto a mh ad esempio forlì	rispetto a mh ad esempio forlì	rispetto a mh ad esempio forlì
+30	SP1	48.6799999999998	50.605	1.925	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	6	adesso prendiamo forlì come riferimento [però]	adesso prendiamo forlì come riferimento [pero']	adesso prendiamo forlì come riferimento pero'
+31	SP2	50.21	50.597	0.387	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+32	SP1	51.53	55.905	4.375	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	10	c'è sicuramente molta più offerta lavorativa su bologna perchè:	c'è sicuramente molta più offerta lavorativa su bologna perché:	c' è sicuramente molta più offerta lavorativa su bologna perché
+33	SP1	57.1799999999998	61.223	4.043	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	13	un po' e:hm ci sono molte industrie poi dipende uno che cosa fa	un po' e:hm ci sono molte industrie poi dipende uno che cosa fa	un po' ehm ci sono molte industrie poi dipende uno che cosa fa
+34	SP1	61.3499999999999	61.8419999999999	0.492	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	1	però	pero'	pero'
+35	SP1	62.25	63.3519999999999	1.102	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	c'è::	c'è::	c' è
+36	SP1	63.45	67.1900000000001	3.74	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	12	c'è sia l'industria: è la regione poi della motor valley	c'è sia l'industria: è la regione poi della motor valley	c' è sia l' industria è la regione poi della motor valley
+37	SP1	67.26	69.7839999999999	2.524	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	si ci sono tutte le azien[de: dei motori]	si ci sono tutte le azien[de: dei motori]	si ci sono tutte le aziende dei motori
+38	SP2	68.3999999999999	69.693	1.293	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	[mh sì sì sì sì]	[mh sì sì sì sì]	mh sì sì sì sì
+39	SP1	70.0799999999999	72.6179999999999	2.538	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	in quella zona lì poi anche più verso modena in realtà	in quella zona lì poi anche più verso modena in realtà	in quella zona lì poi anche più verso modena in realtà
+40	SP1	72.8099999999999	73.415	0.605	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	1	però	pero'	pero'
+41	SP1	74.48	75.288	0.808	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	e:hm	e:hm	ehm
+42	SP1	75.9299999999998	81.2290000000001	5.299	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	19	secondo me c'è un po' di tutto comunque anche a livello umanistico qualcosa si si tro[va] a bologna	secondo me c'è un po' di tutto comunque anche a livello umanistico qualcosa si si tro[va] a bologna	secondo me c' è un po' di tutto comunque anche a livello umanistico qualcosa si si trova a bologna
+43	SP2	80.1900000000001	80.6789999999999	0.489	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+44	SP1	82.3799999999999	86.2459999999999	3.866	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	10	e:h io poi ho trovato lavoro tramite un concorso quin[di::]	e:h io poi ho trovato lavoro tramite un concorso quin[di::]	eh io poi ho trovato lavoro tramite un concorso quindi
+45	SP2	85.48	86.6699999999998	1.19	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[ah okay] mhmh	[ah okay] mhmh	ah okay mhmh
+46	SP1	86.7000000000001	88.529	1.829	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	mh quello magari::	mh quello magari::	mh quello magari
+47	SP1	88.6099999999999	90.4199999999998	1.81	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	6	>è diverso< però anche nel pubblico	>è diverso< pero' anche nel pubblico	è diverso pero' anche nel pubblico
+48	SP1	90.47	92.9079999999999	2.438	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	probabilmente a bologna c'è molto di più rispett[o:]	probabilmente a bologna c'è molto di più rispett[o:]	probabilmente a bologna c' è molto di più rispetto
+49	SP2	92.6599999999999	93.8789999999999	1.219	True	0	0	0	0	0	0	0	False	False	False	False	True	48=0.248	0	0	0	3	[ma]gari più post[i:]	[ma]gari più post[i:]	magari più posti
+50	SP1	93.91	95.72	1.91	True	0	0	0	0	0	0	1	False	False	False	False	True	_	0	0	0	7	[sì] esatto poi l'università di bologna	[sì] esatto poi l'università di bologna	sì esatto poi l' università di bologna
+51	SP1	96.4199999999999	98.5449999999998	2.125	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	mh ha cioè diciamo che	mh ha cioè diciamo che	mh ha cioè diciamo che
+52	SP1	98.6399999999999	100.658	2.018	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	porta tanto lavoro in tanti modi	porta tanto lavoro in tanti modi	porta tanto lavoro in tanti modi
+53	SP2	100.66	101.146	0.486	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mh[mh]	mh[mh]	mhmh
+54	SP1	100.91	101.496	0.586	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[sec]ondo me	[sec]ondo me	secondo me
+55	SP1	103.37	105.487	2.117	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	°e quindi sì sicuramente°	°e quindi sì sicuramente°	e quindi sì sicuramente
+56	SP1	105.54	107.96	2.42	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	°ci sono buone opportunità secondo me a bologna°	°ci sono buone opportunità secondo me a bologna°	ci sono buone opportunità secondo me a bologna
+57	SP1	108.97	111.624	2.654	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	in tutta la regione penso [che sia la c]ittà in cui	in tutta la regione penso [che sia la c]ittà in cui	in tutta la regione penso che sia la città in cui
+58	SP2	110.2	110.705	0.505	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+59	SP1	111.71	113.022	1.312	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	in cui si trova più [lavoro]	in cui si trova più [lavoro]	in cui si trova più lavoro
+60	SP2	112.52	112.982	0.462	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[meglio]	[meglio]	meglio
+61	SP1	113.33	113.61	0.28	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	°sì°	°sì°	sì
+62	SP2	113.62	115.76	2.14	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	e quindi tu di cosa ti occupi a:	e quindi tu di cosa ti occupi a:	e quindi tu di cosa ti occupi a
+63	SP1	115.76	118.27	2.51	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	allora io e:h lavoro nell'ufficio	allora io e:h lavoro nell'ufficio	allora io eh lavoro nell' ufficio
+64	SP1	118.38	120.895	2.515	True	0	0	0	1	0	0	0	False	False	False	False	False	_	0	0	0	6	e:h @nomeluogo dell'università di bologna,	e:h nomeluogo dell'università di bologna,	eh nomeluogo dell' università di bologna
+65	SP1	121.68	122.669	0.989	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	in particolare	in particolare	in particolare
+66	SP1	122.86	125.505	2.645	True	0	0	0	1	0	0	0	False	False	False	False	False	_	0	0	0	9	in uf~ in un ufficio che si chiama @nomeluogo,	in uf~ in un ufficio che si chiama nomeluogo,	in uf~ in un ufficio che si chiama nomeluogo
+67	SP1	126.3	128.11	1.81	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	che si occupa di dare supporto	che si occupa di dare supporto	che si occupa di dare supporto
+68	SP1	128.17	132.538	4.368	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	13	e orientamento agli studenti internazionali che vengono a iscriversi all'università di bologna	e orientamento agli studenti internazionali che vengono a iscriversi all'università di bologna	e orientamento agli studenti internazionali che vengono a iscriversi all' università di bologna
+69	SP2	132.62	133.109	0.489	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mhmh	mhmh	mhmh
+70	SP1	133.148	136.321	3.173	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	quindi che fanno l'intero percorso triennale magistrale	quindi che fanno l'intero percorso triennale magistrale	quindi che fanno l' intero percorso triennale magistrale
+71	SP1	137.31	139.622	2.312	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	e principalmente diamo supporto per	e principalmente diamo supporto per	e principalmente diamo supporto per
+72	SP1	140.42	141.47	1.05	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	e::hm	e::hm	ehm
+73	SP1	141.59	144.938	3.348	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	o~ o~ mh orientamento sul processo proprio d'iscrizione	o~ o~ mh orientamento sul processo proprio d'iscrizione	o~ o~ mh orientamento sul processo proprio d' iscrizione
+74	SP1	144.99	145.881	0.891	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	cosa fare	cosa fare	cosa fare
+75	SP1	146.33	147.44	1.11	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	da dove partire ma	da dove partire ma	da dove partire ma
+76	SP1	147.51	151.067	3.557	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	poi nel dettaglio in particolare sulle questioni che riguardano l'immigrazione	poi nel dettaglio in particolare sulle questioni che riguardano l'immigrazione	poi nel dettaglio in particolare sulle questioni che riguardano l' immigrazione
+77	SP2	151.27	152.328	1.058	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	ah [mhmh]	ah [mhmh]	ah mhmh
+78	SP1	151.64	154.55	2.91	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	[quin]di su come [ottenere un] visto	[quin]di su come [ottenere un] visto	quindi su come ottenere un visto
+79	SP2	153.16	153.852	0.692	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[che bello]	[che bello]	che bello
+80	SP1	154.6	156.211	1.611	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	come fare il permesso di soggiorno	come fare il permesso di soggiorno	come fare il permesso di soggiorno
+81	SP1	156.6	158.827	2.227	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	e:h diamo informazioni sui titoli esteri	e:h diamo informazioni sui titoli esteri	eh diamo informazioni sui titoli esteri
+82	SP1	158.9	159.283	0.383	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	cosa	cosa	cosa
+83	SP1	159.343	162.819	3.476	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	12	che documenti devono presentare per iscriversi con un titolo di studio estero	che documenti devono presentare per iscriversi con un titolo di studio estero	che documenti devono presentare per iscriversi con un titolo di studio estero
+84	SP1	163.68	166.72	3.04	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	e: insomma queste cose queste cose qui principalmente	e: insomma queste cose queste cose qui principalmente	e insomma queste cose queste cose qui principalmente
+85	SP1	167.6	168.293	0.693	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	e:hm	e:hm	ehm
+86	SP2	168.308	170.52	2.212	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	hai sempre fatto questo lavoro oppure:	hai sempre fatto questo lavoro oppure:	hai sempre fatto questo lavoro oppure
+87	SP1	170.6	172.311	1.711	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	allora dopo la laurea,	allora dopo la laurea,	allora dopo la laurea
+88	SP1	172.368	174.922	2.554	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	io mi son laureata nel duemiladiciassette	io mi son laureata nel duemiladiciassette	io mi son laureata nel duemiladiciassette
+89	SP1	175.91	178.952	3.042	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	ho fatto e:h sei mesi in un azienda	ho fatto e:h sei mesi in un azienda	ho fatto eh sei mesi in un azienda
+90	SP1	179.52	181.945	2.425	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	e:hm che faceva mh	e:hm che faceva mh	ehm che faceva mh
+91	SP1	182.51	183.822	1.312	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	tende frangisole	tende frangisole	tende frangisole
+92	SP2	183.881	184.511	0.63	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mhmh	mhmh	mhmh
+93	SP1	184.555	186.803	2.248	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	e:h come commerciale estero	e:h come commerciale estero	eh come commerciale estero
+94	SP1	186.9	187.285	0.385	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	tipo	tipo	tipo
+95	SP1	188.18	190.707	2.527	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	9	però mh non mi è pia~ non mi piaceva:	pero' mh non mi è pia~ non mi piaceva:	pero' mh non mi è pia~ non mi piaceva
+96	SP1	191.09	193.113	2.023	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	10	mh in particolare l'ambiente anche il lavoro in sè	mh in particolare l'ambiente anche il lavoro in sè	mh in particolare l' ambiente anche il lavoro in sè
+97	SP1	193.15	196.284	3.134	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	12	mh non mi faceva impazzire ma poi l'ambiente mh non era:	mh non mi faceva impazzire ma poi l'ambiente mh non era:	mh non mi faceva impazzire ma poi l' ambiente mh non era
+98	SP2	196.48	197.086	0.606	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mhmh	mhmh	mhmh
+99	SP1	197.18	198.859	1.779	True	0	0	0	0	0	0	1	False	False	False	False	False	_	0	0	0	2	particolarmente salutare	particolarmente salutare	particolarmente salutare
+100	SP2	198.4	199.283	0.883	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	0	((ride))	{ride}	{ride}
+101	SP1	198.93	202.476	3.546	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	14	e quindi quando è finito questo tirocinio di sei mesi poi dopo non [ho:]	e quindi quando è finito questo tirocinio di sei mesi poi dopo non [ho:]	e quindi quando è finito questo tirocinio di sei mesi poi dopo non ho
+102	SP2	202.13	203.236	1.106	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[hai] abbando[nato]	[hai] abbando[nato]	hai abbandonato
+103	SP1	202.53	203.843	1.313	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[non ho] abbandonato	[non ho] abbandonato	non ho abbandonato
+104	SP1	204.53	205.538	1.008	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	e::h	e::h	eh
+105	SP1	205.99	209.148	3.158	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	13	>poi< ho avuto un momento in cui dicevo cosa faccio della mia vita ((ride))	>poi< ho avuto un momento in cui dicevo cosa faccio della mia vita {ride}	poi ho avuto un momento in cui dicevo cosa faccio della mia vita {ride}
+106	SP2	208.3	209.317	1.017	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	0	((ride))	{ride}	{ride}
+107	SP1	209.19	211.311	2.121	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	questo classico momento che prima o poi arriva	questo classico momento che prima o poi arriva	questo classico momento che prima o poi arriva
+108	SP1	211.75	212.845	1.095	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	e::hm	e::hm	ehm
+109	SP1	213.1	216.235	3.135	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	ho fatto ho iniziato facendo un tutorato	ho fatto ho iniziato facendo un tutorato	ho fatto ho iniziato facendo un tutorato
+110	SP1	216.286	218.029	1.743	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	a sempre all'università	a sempre all'università	a sempre all' università
+111	SP1	218.77	220.279	1.509	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	come: mh	come: mh	come mh
+112	SP1	220.89	224.033	3.143	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	tutor internazionale di un dipartimento	tutor internazionale di un dipartimento	tutor internazionale di un dipartimento
+113	SP1	224.81	225.691	0.881	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	2	perchè premessa	perché premessa	perché premessa
+114	SP1	225.9	227.399	1.499	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	durante la magistrale	durante la magistrale	durante la magistrale
+115	SP1	227.68	228.573	0.893	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	ho fatto	ho fatto	ho fatto
+116	SP1	228.612	230.153	1.541	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	e:h un tutorato	e:h un tutorato	eh un tutorato
+117	SP1	230.24	232.6	2.36	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	nell'ufficio relazioni internazio[nali dove adesso] lavoro	nell'ufficio relazioni internazio[nali dove adesso] lavoro	nell' ufficio relazioni internazionali dove adesso lavoro
+118	SP2	231.49	232.08	0.59	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+119	SP1	233.51	236.952	3.442	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	son dei: dei lavori che posson fare gli studenti: tot ore	son dei: dei lavori che posson fare gli studenti: tot ore	son dei dei lavori che posson fare gli studenti tot ore
+120	SP1	237.68	238.766	1.086	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	e: e quindi	e: e quindi	e e quindi
+121	SP1	238.818	241.96	3.142	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	14	siccome mi era piaciuta quell'esperienza che avevo fatto lì avevo detto eh proviamo	siccome mi era piaciuta quell'esperienza che avevo fatto lì avevo detto eh proviamo	siccome mi era piaciuta quell' esperienza che avevo fatto lì avevo detto eh proviamo
+122	SP1	241.98	243.878	1.898	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	a tornare a fare qualcosa all'università	a tornare a fare qualcosa all'università	a tornare a fare qualcosa all' università
+123	SP1	244.27	246.089	1.819	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	quindi ho fatto questo: mh	quindi ho fatto questo: mh	quindi ho fatto questo mh
+124	SP1	246.17	248.5	2.33	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	tutorato da laureata a [quel punto]	tutorato da laureata a [quel punto]	tutorato da laureata a quel punto
+125	SP2	247.81	248.405	0.595	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+126	SP1	249.24	251.983	2.743	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	mentre stavo facendo questo è uscito un concorso	mentre stavo facendo questo è uscito un concorso	mentre stavo facendo questo è uscito un concorso
+127	SP1	252.42	254.639	2.219	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	specifico per le relazioni internazionali	specifico per le relazioni internazionali	specifico per le relazioni internazionali
+128	SP1	255.2	255.994	0.794	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	e::h	e::h	eh
+129	SP1	256.07	260.134	4.064	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	20	e quindi l'ho fatto e son stata presa e [dopo ho lasciato il tutorato e ho iniziato] a fare	e quindi l'ho fatto e son stata presa e [dopo ho lasciato il tutorato e ho iniziato] a fare	e quindi l' ho fatto e son stata presa e dopo ho lasciato il tutorato e ho iniziato a fare
+130	SP2	258.06	259.677	1.617	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	[mhmh ah che bello]	[mhmh ah che bello]	mhmh ah che bello
+131	SP1	260.2	261.4	1.2	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	per fare quello poi	per fare quello poi	per fare quello poi
+132	SP1	261.57	263.076	1.506	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	5	ho fatto vari concorsi perchè	ho fatto vari concorsi perché	ho fatto vari concorsi perché
+133	SP1	263.13	266.173	3.043	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	il primo che ho vinto era un concorso determinato	il primo che ho vinto era un concorso determinato	il primo che ho vinto era un concorso determinato
+134	SP1	267.28	270.23	2.95	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	poi l'anno dopo ne ho fatto uno indeterminato,	poi l'anno dopo ne ho fatto uno indeterminato,	poi l' anno dopo ne ho fatto uno indeterminato
+135	SP1	270.44	273.374	2.934	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	8	di una categoria un po' inferiore [però indete]rmina[to]	di una categoria un po' inferiore [pero' indete]rmina[to]	di una categoria un po' inferiore pero' indeterminato
+136	SP2	271.91	272.491	0.581	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+137	SP2	272.8	273.387	0.587	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[è che]	[è che]	è che
+138	SP1	273.42	276.512	3.092	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	2	0	4	((ride)) non si butta via ((ride))	{ride} non si butta via {ride}	{ride} non si butta via {ride}
+139	SP2	273.64	274.846	1.206	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	0	((ride))	{ride}	{ride}
+140	SP1	276.81	278.016	1.206	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	e >quindi< ho fatto quello	e >quindi< ho fatto quello	e quindi ho fatto quello
+141	SP1	278.1	280.01	1.91	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	10	poi l'anno dopo ancora ne ho fatto un altro	poi l'anno dopo ancora ne ho fatto un altro	poi l' anno dopo ancora ne ho fatto un altro
+142	SP1	280.11	282.334	2.224	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	6	sempre indeterminato però del livello superiore	sempre indeterminato pero' del livello superiore	sempre indeterminato pero' del livello superiore
+143	SP2	282.432	282.958	0.526	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mhmh	mhmh	mhmh
+144	SP1	283.33	284.734	1.404	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	e questo è stato:	e questo è stato:	e questo è stato
+145	SP1	284.88	285.908	1.028	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	°l'anno scorso°	°l'anno scorso°	l' anno scorso
+146	SP1	286.09	286.779	0.689	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	°sì >l'anno scorso<°	°sì >l'anno scorso<°	sì l' anno scorso
+147	SP1	287.52	290.674	3.254	True	0	0	0	0	0	0	1	False	False	False	False	False	_	0	1	0	13	quindi adesso basta non voglio più fare concorsi ((ride)) per [tutta la mia vi]ta	quindi adesso basta non voglio più fare concorsi {ride} per [tutta la mia vi]ta	quindi adesso basta non voglio più fare concorsi {ride} per tutta la mia vita
+148	SP2	289.71	290.295	0.585	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[e quindi]	[e quindi]	e quindi
+149	SP2	290.68	292.903	2.223	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	pensi che questo sia il lavoro:	pensi che questo sia il lavoro:	pensi che questo sia il lavoro
+150	SP1	293.0	293.654	0.654	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	ah [sì]	ah [sì]	ah sì
+151	SP2	293.22	294.107	0.887	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[de]lla vita	[de]lla vita	della vita
+152	SP1	294.11	294.592	0.482	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	sì	sì	sì
+153	SP1	294.92	295.817	0.897	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	1	c(io)è ((ride))	c(io)è {ride}	cioè {ride}
+154	SP1	295.99	296.568	0.578	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	oddio	oddio	oddio
+155	SP1	296.596	298.025	1.429	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	non si sa mai nella vita [eh]	non si sa mai nella vita [eh]	non si sa mai nella vita eh
+156	SP2	297.37	298.38	1.01	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	[no no] ovvio sì sì	[no no] ovvio sì sì	no no ovvio sì sì
+157	SP1	298.41	300.046	1.636	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	5	però io penso che non	pero' io penso che non	pero' io penso che non
+158	SP1	300.106	302.217	2.111	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	non lascerò: unibo	non lascerò: unibo	non lascerò unibo
+159	SP1	302.59	305.217	2.627	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	10	quello che può succedere secondo me è che magari cambio	quello che puo' succedere secondo me è che magari cambio	quello che puo' succedere secondo me è che magari cambio
+160	SP1	305.41	307.532	2.122	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	e:h posizione all'interno di uni[bo]	e:h posizione all'interno di uni[bo]	eh posizione all' interno di unibo
+161	SP2	307.09	307.572	0.482	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+162	SP1	307.8	310.125	2.325	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	cambio o ufficio o:	cambio o ufficio o:	cambio o ufficio o
+163	SP1	310.176	312.19	2.014	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	4	area perchè spesso: mh	area perché spesso: mh	area perché spesso mh
+164	SP1	312.25	315.287	3.037	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	13	magari uno dopo un tot di anni dice voglio cambiare un po' lavoro	magari uno dopo un tot di anni dice voglio cambiare un po' lavoro	magari uno dopo un tot di anni dice voglio cambiare un po' lavoro
+165	SP1	315.34	316.85	1.51	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	e fare qualcosa di un po' diverso	e fare qualcosa di un po' diverso	e fare qualcosa di un po' diverso
+166	SP1	317.0	318.51	1.51	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	chiede un trasferimento	chiede un trasferimento	chiede un trasferimento
+167	SP1	318.554	322.136	3.582	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	12	a un altro ufficio a un altro campus anche a [forlì pote]nzialmente	a un altro ufficio a un altro campus anche a [forlì pote]nzialmente	a un altro ufficio a un altro campus anche a forlì potenzialmente
+168	SP2	320.81	321.305	0.495	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+169	SP1	322.82	324.12	1.3	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	e quindi questo sicuramente	e quindi questo sicuramente	e quindi questo sicuramente
+170	SP1	324.31	325.56	1.25	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	secondo me succederà	secondo me succederà	secondo me succederà
+171	SP1	326.1	327.91	1.81	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	4	però: mi trovo bene	pero': mi trovo bene	pero' mi trovo bene
+172	SP2	328.18	330.0	1.82	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[come ambiente] comunqu[e:]	[come ambiente] comunqu[e:]	come ambiente comunque
+173	SP1	328.18	329.101	0.921	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[per me]	[per me]	per me
+174	SP1	329.58	330.578	0.998	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[sì sì] sicurame~	[sì sì] sicurame~	sì sì sicurame~
+175	SP1	330.98	333.64	2.66	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	>allora< i miei colleghi mi trovo benissimo [questo]	>allora< i miei colleghi mi trovo benissimo [questo]	allora i miei colleghi mi trovo benissimo questo
+176	SP2	333.12	333.621	0.501	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+177	SP1	333.72	336.061	2.341	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	è una grande parte sec[ondo me del lavoro]	è una grande parte sec[ondo me del lavoro]	è una grande parte secondo me del lavoro
+178	SP2	335.01	336.231	1.221	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	[sì anche secondo] me	[sì anche secondo] me	sì anche secondo me
+179	SP1	336.24	339.519	3.279	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	14	perchè a volte dici ah ti piace il lavoro non ti piace il lavoro	perché a volte dici ah ti piace il lavoro non ti piace il lavoro	perché a volte dici ah ti piace il lavoro non ti piace il lavoro
+180	SP1	340.53	341.236	0.706	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	0	((sospira))	{sospira}	{sospira}
+181	SP1	341.287	343.644	2.357	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	il il lavoro in sè secondo me	il il lavoro in sè secondo me	il il lavoro in sè secondo me
+182	SP1	343.99	345.192	1.202	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	conta ma	conta ma	conta ma
+183	SP1	345.48	347.72	2.24	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	non tanto quanto conta:	non tanto quanto conta:	non tanto quanto conta
+184	SP2	347.75	348.872	1.122	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	l'ambie[nte]	l'ambie[nte]	l' ambiente
+185	SP1	348.23	351.733	3.503	True	0	0	0	0	0	0	0	False	False	False	False	True	184=0.642,186=1.010,187=0.333	0	1	0	14	[l'a]mbiente e le persone con cui lavo[ri ho ho capito que]sta cosa qui ((ride))	[l'a]mbiente e le persone con cui lavo[ri ho ho capito que]sta cosa qui {ride}	l' ambiente e le persone con cui lavori ho ho capito questa cosa qui {ride}
+186	SP2	349.6	350.61	1.01	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[anche secondo me]	[anche secondo me]	anche secondo me
+187	SP2	351.4	352.309	0.909	True	0	0	0	0	0	0	0	False	False	False	False	True	185=0.333	0	0	0	4	è vero è vero	è vero è vero	è vero è vero
+188	SP1	352.4	354.229	1.829	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	3	perchè a volte::	perché a volte::	perché a volte
+189	SP1	354.31	358.25	3.94	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	17	dici il lavoro della vita che hai sempre voluto fare infatti non avevo un lavoro che vole~	dici il lavoro della vita che hai sempre voluto fare infatti non avevo un lavoro che vole~	dici il lavoro della vita che hai sempre voluto fare infatti non avevo un lavoro che vole~
+190	SP1	358.29	359.198	0.908	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	ho sempre voluto fa[re]	ho sempre voluto fa[re]	ho sempre voluto fare
+191	SP2	358.91	359.306	0.396	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mh]mh	[mh]mh	mhmh
+192	SP1	359.44	360.146	0.706	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	1	però	pero'	pero'
+193	SP1	361.17	363.404	2.234	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	e::h dici il lavoro è perfetto	e::h dici il lavoro è perfetto	eh dici il lavoro è perfetto
+194	SP1	363.452	366.661	3.209	True	0	0	2	0	0	0	0	False	False	False	False	False	_	0	0	0	8	però poi stai male perchè hai delle pers[one:::]	pero' poi stai male perché hai delle pers[one:::]	pero' poi stai male perché hai delle persone
+195	SP2	365.38	366.69	1.31	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[sì mhmh]	[sì mhmh]	sì mhmh
+196	SP1	366.71	367.08	0.37	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	c(io)è	c(io)è	cioè
+197	SP2	367.09	368.702	1.612	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	con cui non ti tr[ovi]	con cui non ti tr[ovi]	con cui non ti trovi
+198	SP1	367.86	369.077	1.217	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	[con cui] non ti trovi oche	[con cui] non ti trovi oche	con cui non ti trovi oche
+199	SP1	369.13	369.616	0.486	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	sono proprio	sono proprio	sono proprio
+200	SP2	369.677	372.973	3.296	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	2	0	9	che alla fine devi vedere tutti i gi[orni ((ride)) quindi] ((ride))	che alla fine devi vedere tutti i gi[orni {ride} quindi] {ride}	che alla fine devi vedere tutti i giorni {ride} quindi {ride}
+201	SP1	371.12	373.039	1.919	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	2	[esatto ((ride)) esatto]	[esatto {ride} esatto]	esatto {ride} esatto
+202	SP1	373.4	376.6	3.2	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	14	quindi io mi trovo bene con i miei colleghi il lavoro comunque mi piace	quindi io mi trovo bene con i miei colleghi il lavoro comunque mi piace	quindi io mi trovo bene con i miei colleghi il lavoro comunque mi piace
+203	SP1	376.72	381.37	4.65	True	0	0	1	0	0	0	0	False	False	False	False	True	204=1.470	0	1	0	9	quindi per ora io finchè non mi mandano via ((ride))	quindi per ora io finché non mi mandano via {ride}	quindi per ora io finché non mi mandano via {ride}
+204	SP2	378.81	380.28	1.47	True	0	0	0	0	0	0	0	False	False	False	False	True	203=1.470	0	1	0	1	rimango ((ride))	rimango {ride}	rimango {ride}
+205	SP1	381.48	383.41	1.93	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	sempre: c(io)è poi eh	sempre: c(io)è poi eh	sempre cioè poi eh
+206	SP1	383.5	384.102	0.602	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	chiaro che	chiaro che	chiaro che
+207	SP1	384.157	386.097	1.94	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	6	le cose cambiano negli anni [però]	le cose cambiano negli anni [pero']	le cose cambiano negli anni pero'
+208	SP2	385.21	385.918	0.708	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	[sì sì sì sì]	[sì sì sì sì]	sì sì sì sì
+209	SP1	386.15	387.361	1.211	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	per ora sono felice così	per ora sono felice così	per ora sono felice così
+210	SP2	387.74	389.459	1.719	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	e per quanto riguarda la tua laurea	e per quanto riguarda la tua laurea	e per quanto riguarda la tua laurea
+211	SP2	389.539	391.654	2.115	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	comunque quindi ti è servit[a:]	comunque quindi ti è servit[a:]	comunque quindi ti è servita
+212	SP1	391.31	392.715	1.405	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	[sì] sì no io:	[sì] sì no io:	sì sì no io
+213	SP1	392.77	394.49	1.72	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	volevo fare qualcosa il mio unico	volevo fare qualcosa il mio unico	volevo fare qualcosa il mio unico
+214	SP1	394.525	397.88	3.355	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	mh obiettivo era fare qualcosa in cui potessi usare le lingue	mh obiettivo era fare qualcosa in cui potessi usare le lingue	mh obiettivo era fare qualcosa in cui potessi usare le lingue
+215	SP1	398.0	398.91	0.91	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	4	perchè se no dico	perché se no dico	perché se no dico
+216	SP2	398.91	400.007	1.097	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	quali hai studiato tu	quali hai studiato tu	quali hai studiato tu
+217	SP1	400.01	401.513	1.503	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	io ho fatto inglese e spagno[lo]	io ho fatto inglese e spagno[lo]	io ho fatto inglese e spagnolo
+218	SP2	401.11	401.65	0.54	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mh]mh	[mh]mh	mhmh
+219	SP1	402.05	404.374	2.324	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	eh lo spagnolo ti dico la verità non lo uso tanto	eh lo spagnolo ti dico la verità non lo uso tanto	eh lo spagnolo ti dico la verità non lo uso tanto
+220	SP1	404.87	408.95	4.08	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	o [raramen]te quando viene qualche studente a sportello che	o [raramen]te quando viene qualche studente a sportello che	o raramente quando viene qualche studente a sportello che
+221	SP2	405.06	405.745	0.685	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[okay]	[okay]	okay
+222	SP1	409.12	409.711	0.591	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	0	((ride))	{ride}	{ride}
+223	SP1	409.88	411.182	1.302	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	provi a parlare in inglese	provi a parlare in inglese	provi a parlare in inglese
+224	SP1	411.251	414.34	3.089	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	10	e non capisce ((ride)) provi a parlare italiano e non capisce	e non capisce {ride} provi a parlare italiano e non capisce	e non capisce {ride} provi a parlare italiano e non capisce
+225	SP1	414.37	417.81	3.44	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	9	senti che parla spagnolo [allora tu dici] ((ride)) parliamo spagnolo	senti che parla spagnolo [allora tu dici] {ride} parliamo spagnolo	senti che parla spagnolo allora tu dici {ride} parliamo spagnolo
+226	SP2	415.37	416.23	0.86	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[eh proviamo]	[eh proviamo]	eh proviamo
+227	SP1	418.19	419.285	1.095	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	2	però: sì	pero': sì	pero' sì
+228	SP1	419.43	421.87	2.44	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	tendenzialmente comunque uso tutti i giorni l'inglese	tendenzialmente comunque uso tutti i giorni l'inglese	tendenzialmente comunque uso tutti i giorni l' inglese
+229	SP2	421.89	422.374	0.484	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+230	SP1	421.92	424.1	2.18	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	8	[perchè] scri~ scrivo tutti i giorni in inglese	[perché] scri~ scrivo tutti i giorni in inglese	perché scri~ scrivo tutti i giorni in inglese
+231	SP1	424.17	425.884	1.714	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	parlo tutti i giorni in inglese con loro	parlo tutti i giorni in inglese con loro	parlo tutti i giorni in inglese con loro
+232	SP1	427.1	429.218	2.118	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	e:h quindi questo sono molto contenta poi	e:h quindi questo sono molto contenta poi	eh quindi questo sono molto contenta poi
+233	SP1	429.78	432.935	3.155	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	1	0	11	non so il mi~ il mio inglese probabilmente sta regredendo perchè ((ride))	non so il mi~ il mio inglese probabilmente sta regredendo perché {ride}	non so il mi~ il mio inglese probabilmente sta regredendo perché {ride}
+234	SP2	432.0	432.677	0.677	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	0	((ride))	{ride}	{ride}
+235	SP1	433.28	437.248	3.968	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	12	a forza di parlare co:n stu[denti stra]nieri che [comunque no]n sono madrelingua	a forza di parlare co:n stu[denti stra]nieri che [comunque no]n sono madrelingua	a forza di parlare con studenti stranieri che comunque non sono madrelingua
+236	SP2	434.8	435.528	0.728	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[sì:]	[sì:]	sì
+237	SP2	435.81	436.313	0.503	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[sì sì]	[sì sì]	sì sì
+238	SP2	437.3	439.228	1.928	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	[non usi l'acc]e:n[to]	[non usi l'acc]e:n[to]	non usi l' accento
+239	SP1	437.3	438.092	0.792	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[e::h]	[e::h]	eh
+240	SP1	438.49	440.97	2.48	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	[han]no degli accenti tutti strani tra gli indiani	[han]no degli accenti tutti strani tra gli indiani	hanno degli accenti tutti strani tra gli indiani
+241	SP1	441.01	443.818	2.808	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	3	iafmam iafmam e ((ride))	iafmam iafmam e {ride}	iafmam iafmam e {ride}
+242	SP2	442.4	443.801	1.401	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	0	((ride))	{ride}	{ride}
+243	SP2	443.88	444.873	0.993	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[è vero]	[è vero]	è vero
+244	SP1	443.9	445.398	1.498	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	[quindi un po'] ehm	[quindi un po'] ehm	quindi un po' ehm
+245	SP1	445.46	448.906	3.446	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	10	ce~ cerchi di farti capire quindi scandisci bene e però	ce~ cerchi di farti capire quindi scandisci bene e pero'	ce~ cerchi di farti capire quindi scandisci bene e pero'
+246	SP1	448.99	450.589	1.599	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	mh il mio accento probabilmente	mh il mio accento probabilmente	mh il mio accento probabilmente
+247	SP1	450.95	451.736	0.786	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	è un attimo	è un attimo	è un attimo
+248	SP1	452.59	455.12	2.53	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	6	è un attimo andato: per se~ ((ride))	è un attimo andato: per se~ {ride}	è un attimo andato per se~ {ride}
+249	SP1	455.51	458.58	3.07	True	0	0	2	0	0	0	0	False	False	False	False	False	_	0	0	0	12	però sì no son contenta perchè riesco a usare dai quello che	pero' sì no son contenta perché riesco a usare dai quello che	pero' sì no son contenta perché riesco a usare dai quello che
+250	SP1	458.62	460.92	2.3	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	poi tutti gli esami di letteratura che ho fatto	poi tutti gli esami di letteratura che ho fatto	poi tutti gli esami di letteratura che ho fatto
+251	SP1	461.01	463.336	2.326	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	mh [non son serviti a nie]nte chiaramente	mh [non son serviti a nie]nte chiaramente	mh non son serviti a niente chiaramente
+252	SP2	461.34	462.642	1.302	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[non sono: no]	[non sono: no]	non sono no
+253	SP1	463.7	465.815	2.115	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	6	però fa lo stesso nel senso:	pero' fa lo stesso nel senso:	pero' fa lo stesso nel senso
+254	SP2	465.832	468.467	2.635	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	è comunque una cosa che ti [piace quindi:]	è comunque una cosa che ti [piace quindi:]	è comunque una cosa che ti piace quindi
+255	SP1	467.09	469.709	2.619	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	[sì sì esatto] a me piace:	[sì sì esatto] a me piace:	sì sì esatto a me piace
+256	SP1	469.92	471.323	1.403	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	parlare in inglese:	parlare in inglese:	parlare in inglese
+257	SP1	472.08	473.587	1.507	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	°c(io)è° il mio obiettivo era quello	°c(io)è° il mio obiettivo era quello	cioè il mio obiettivo era quello
+258	SP1	473.81	476.125	2.315	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	[cioè usa]re l'inglese tutti i giorni:	[cioè usa]re l'inglese tutti i giorni:	cioè usare l' inglese tutti i giorni
+259	SP2	473.82	474.197	0.377	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
+260	SP1	476.5	477.559	1.059	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	t~ tenerlo	t~ tenerlo	t~ tenerlo
+261	SP1	477.639	480.995	3.356	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	10	chiaramente fr[esco perchè sì] se l'inglese non lo parli	chiaramente fr[esco perché sì] se l'inglese non lo parli	chiaramente fresco perché sì se l' inglese non lo parli
+262	SP2	478.6	479.622	1.022	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[vivo mhmh]	[vivo mhmh]	vivo mhmh
+263	SP1	481.77	483.575	1.805	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	>dopo< un po': lo sai anche te	>dopo< un po': lo sai anche te	dopo un po' lo sai anche te
+264	SP2	483.89	484.76	0.87	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	sì sì [sì sì]	sì sì [sì sì]	sì sì sì sì
+265	SP1	484.22	486.94	2.72	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	9	[stai molt]o tempo senza parlarlo sì lo sai però	[stai molt]o tempo senza parlarlo sì lo sai pero'	stai molto tempo senza parlarlo sì lo sai pero'
+266	SP2	487.01	488.1	1.09	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	si arru[gginisce]	si arru[gginisce]	si arrugginisce
+267	SP1	487.09	490.233	3.143	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	13	[ti senti sempre arruggi]nita ti senti sempre oddio ma non so più parlare	[ti senti sempre arruggi]nita ti senti sempre oddio ma non so più parlare	ti senti sempre arrugginita ti senti sempre oddio ma non so più parlare
+268	SP2	490.48	491.275	0.795	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	è vero è vero	è vero è vero	è vero è vero
+269	SP1	491.62	492.842	1.222	True	0	0	0	0	0	0	0	False	False	False	False	True	270=0.162	0	1	0	2	e quindi ((sospira))	e quindi {sospira}	e quindi {sospira}
+270	SP2	492.68	494.21	1.53	True	0	0	0	0	0	0	0	False	False	False	False	True	269=0.162,272=0.300,271=0.601	0	0	0	5	non è [più così auto]mati[co]	non è [più così auto]mati[co]	non è più così automatico
+271	SP1	492.92	493.521	0.601	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[questo]	[questo]	questo
+272	SP1	493.91	496.751	2.841	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	[esa]tto questo mi permette di avere sempre quella: mh	[esa]tto questo mi permette di avere sempre quella: mh	esatto questo mi permette di avere sempre quella mh
+273	SP1	496.95	499.904	2.954	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	sicurezza di parlare in inglese in qualsiasi momento	sicurezza di parlare in inglese in qualsiasi momento	sicurezza di parlare in inglese in qualsiasi momento
+274	SP2	500.08	502.942	2.862	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	e quindi poi trasferendoti se ti trasferirai	e quindi poi trasferendoti se ti trasferirai	e quindi poi trasferendoti se ti trasferirai
+275	SP2	503.02	505.5	2.48	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	dovrai fare da pendolare	dovrai fare da pendolare	dovrai fare da pendolare
+276	SP1	505.51	507.852	2.342	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	sì se tornerò a forlì e::hm	sì se tornerò a forlì e::hm	sì se tornerò a forlì ehm
+277	SP1	507.93	509.518	1.588	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	5	quando tornerò a forlì perchè	quando tornerò a forlì perché	quando tornerò a forlì perché
+278	SP1	509.558	511.795	2.237	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	10	abbiamo deciso insomma di tornare a forlì prima o poi	abbiamo deciso insomma di tornare a forlì prima o poi	abbiamo deciso insomma di tornare a forlì prima o poi
+279	SP1	512.32	515.375	3.055	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	farò da pendolare mh su bologna ma	farò da pendolare mh su bologna ma	farò da pendolare mh su bologna ma
+280	SP1	516.41	519.357	2.947	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	ho recentemente firmato un contratto di telelavoro	ho recentemente firmato un contratto di telelavoro	ho recentemente firmato un contratto di telelavoro
+281	SP1	519.6	521.26	1.66	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	4	perchè adesso con e:h	perché adesso con e:h	perché adesso con eh
+282	SP1	521.35	523.69	2.34	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	dopo il covid hanno dato la posssibilità di fare	dopo il covid hanno dato la posssibilità di fare	dopo il covid hanno dato la posssibilità di fare
+283	SP2	523.69	524.172	0.482	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mhmh	mhmh	mhmh
+284	SP1	524.18	525.581	1.401	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	i contratti di telelavoro	i contratti di telelavoro	i contratti di telelavoro
+285	SP1	526.33	527.85	1.52	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	e m::h	e m::h	e mh
+286	SP1	527.98	529.908	1.928	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	sto contatto contratto prevede	sto contatto contratto prevede	sto contatto contratto prevede
+287	SP1	529.97	532.413	2.443	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	10	che due giorni a settimana io posso lavorare da [casa]	che due giorni a settimana io posso lavorare da [casa]	che due giorni a settimana io posso lavorare da casa
+288	SP2	531.92	532.932	1.012	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[ah okay] okay	[ah okay] okay	ah okay okay
+289	SP1	532.95	534.471	1.521	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	quindi: almeno	quindi: almeno	quindi almeno
+290	SP2	534.82	535.421	0.601	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[sì]	[sì]	sì
+291	SP1	534.82	536.749	1.929	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	[se devo andare su] tre volte invece che due	[se devo andare su] tre volte invece che due	se devo andare su tre volte invece che due
+292	SP1	537.51	539.022	1.512	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	è più fattibile:	è più fattibile:	è più fattibile
+293	SP1	539.25	541.767	2.517	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	secondo me poi nel futuro magari posso anche	secondo me poi nel futuro magari posso anche	secondo me poi nel futuro magari posso anche
+294	SP1	542.41	543.412	1.002	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	ricontrattare	ricontrattare	ricontrattare
+295	SP1	543.79	546.622	2.832	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	10	e:h chiedere >almeno< tre giorni a casa due in [presenza]	e:h chiedere >almeno< tre giorni a casa due in [presenza]	eh chiedere almeno tre giorni a casa due in presenza
+296	SP2	545.91	547.079	1.169	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[mhmh sì] sì	[mhmh sì] sì	mhmh sì sì
+297	SP1	547.6	550.226	2.626	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	quindi penso sia fattibile ecco poi il mio ragazzo	quindi penso sia fattibile ecco poi il mio ragazzo	quindi penso sia fattibile ecco poi il mio ragazzo
+298	SP1	550.62	551.506	0.886	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	lavora a forlì	lavora a forlì	lavora a forlì
+299	SP1	551.657	553.365	1.708	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	e lavora a scuola quindi	e lavora a scuola quindi	e lavora a scuola quindi
+300	SP1	553.7	555.021	1.321	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	tutte le mattine dalle ott[o]	tutte le mattine dalle ott[o]	tutte le mattine dalle otto
+301	SP2	554.78	555.71	0.93	True	0	0	0	0	0	0	0	False	False	False	False	True	300=0.241,302=0.100	0	0	0	2	[ah] quindi[]	[ah] quindi[]	ah quindi
+302	SP1	555.61	557.25	1.64	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	[è] un po' più difficile:	[è] un po' più difficile:	è un po' più difficile
+303	SP2	557.25	559.287	2.037	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	quindi lui fa il pendolare [a attualmente]	quindi lui fa il pendolare [a attualmente]	quindi lui fa il pendolare a attualmente
+304	SP1	558.32	559.952	1.632	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	[adesso fa il] pendolare sì	[adesso fa il] pendolare sì	adesso fa il pendolare sì
+305	SP2	560.09	560.646	0.556	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mhmh	mhmh	mhmh
+306	SP1	560.646	563.219	2.573	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	9	prende il treno a bologna alle sei e mezza ((ride))	prende il treno a bologna alle sei e mezza {ride}	prende il treno a bologna alle sei e mezza {ride}
+307	SP1	563.51	563.828	0.318	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	>poveretto<	>poveretto<	poveretto
+308	SP2	563.861	565.192	1.331	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	tutti i gior[ni]	tutti i gior[ni]	tutti i giorni
+309	SP1	565.01	565.53	0.52	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[s]ì	[s]ì	sì
+310	SP1	565.68	566.978	1.298	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	sì sì infatti	sì sì infatti	sì sì infatti
+311	SP1	567.1	570.68	3.58	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	6	non so quanto reggerà ancora speriamo ((ride))	non so quanto reggerà ancora speriamo {ride}	non so quanto reggerà ancora speriamo {ride}
+312	SP2	568.21	570.658	2.448	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	0	((ride))	{ride}	{ride}
+313	SP2	570.8	572.433	1.633	True	0	0	1	0	0	0	0	False	False	False	False	False	_	0	0	0	4	no dai [però almeno]	no dai [pero' almeno]	no dai pero' almeno
+314	SP1	571.61	572.191	0.581	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[xxx]	[xxx]	xxx
+315	SP2	572.51	575.45	2.94	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	sì sì no se riesci a fare anche modalità:	sì sì no se riesci a fare anche modalità:	sì sì no se riesci a fare anche modalità
+316	SP1	575.68	578.4	2.72	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	sì adesso secondo me molti:	sì adesso secondo me molti:	sì adesso secondo me molti
+317	SP1	578.47	582.87	4.4	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	17	non solo il pubblico ma anche molte aziende [hanno ape]rto un sacco allo smart working al telelavoro	non solo il pubblico ma anche molte aziende [hanno ape]rto un sacco allo smart working al telelavoro	non solo il pubblico ma anche molte aziende hanno aperto un sacco allo smart working al telelavoro
+318	SP2	580.19	580.779	0.589	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[sì]	[sì]	sì
+319	SP1	582.92	584.118	1.198	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	dopo il covid	dopo il covid	dopo il covid
+320	SP1	585.09	586.192	1.102	True	1	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	è [un gran plas~ ]	è [un gran plas~]	è un gran plas~
+321	SP2	585.27	588.406	3.136	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	[anche solo in vis]ta di possibili chiusure tanto	[anche solo in vis]ta di possibili chiusure tanto	anche solo in vista di possibili chiusure tanto
+322	SP1	588.51	590.26	1.75	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	sì esatto esatto:	sì esatto esatto:	sì esatto esatto
+323	SP1	590.31	592.521	2.211	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	adesso quando ci son prorpio chiusure	adesso quando ci son prorpio chiusure	adesso quando ci son prorpio chiusure
+324	SP1	592.89	594.181	1.291	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	ad esempio l'università	ad esempio l'università	ad esempio l' università
+325	SP1	594.67	596.787	2.117	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	e:h permette a tutti di fare mh	e:h permette a tutti di fare mh	eh permette a tutti di fare mh
+326	SP1	596.866	598.677	1.811	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	si chiama lavoro mh	si chiama lavoro mh	si chiama lavoro mh
+327	SP1	598.98	600.684	1.704	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	e:h agile emergenziale	e:h agile emergenziale	eh agile emergenziale
+328	SP2	600.71	601.198	0.488	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mhmh	mhmh	mhmh
+329	SP1	601.198	603.31	2.112	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	e lo fanno fare a tutti adesso da	e lo fanno fare a tutti adesso da	e lo fanno fare a tutti adesso da
+330	SP1	603.37	604.67	1.3	True	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	due settimane a questa parte,	due settimane a questa parte,	due settimane a questa parte

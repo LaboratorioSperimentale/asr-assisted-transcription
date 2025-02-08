@@ -1,793 +1,793 @@
-speaker	tu_id	token	orig_token	span	type	align	intonation	unknown	interruption	truncation	prosodicLink	prolongations	slow_pace	fast_pace	volume	guesses	overlaps
-SP1	1	come	come	come	linguistic	Begin=0.52	_	False	False	False	False				_		
-SP1	1	tabacco	tabacco	tabacco	linguistic		_	False	False	False	False				_		
-SP1	1	no	no	no	linguistic		_	False	False	False	False				_		
-SP1	1	eh	eh	[eh	linguistic		_	False	False	False	False				_		0-2(2)
-SP1	1	di	di	di	linguistic		_	False	False	False	False				_		0-2(2)
-SP1	1	là	là	l]à	linguistic		_	False	False	False	False				_		0-2(2)
-SP1	1	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP1	1	lavorando	lavorando	lavorando	linguistic		_	False	False	False	False				_		
-SP1	1	più	più	più	linguistic		_	False	False	False	False				_		
-SP1	1	di	di	di	linguistic		_	False	False	False	False				_		
-SP1	1	tre	tre	tre	linguistic		_	False	False	False	False				_		
-SP1	1	tremila	tremila	<tremila>	linguistic		_	False	False	False	False		2-7(0)		_		
-SP1	1	persone	persone	pers[one	linguistic		_	False	False	False	False		0-3(0)		_		
-SP1	1	non	non	non]	linguistic		_	False	False	False	False				_		0-3(3)
-SP1	1	sono	sono	sono	linguistic		_	False	False	False	False				_		0-4(3)
-SP1	1	esattamente	esattamente	esattamente	linguistic		_	False	False	False	False				_		
-SP1	1	o	o	o	linguistic		_	False	False	False	False				_		
-SP1	1	tremila	tremila	tremila	linguistic		_	False	False	False	False				_		
-SP1	1	o	o	o	linguistic		_	False	False	False	False				_		
-SP1	1	trenta	trenta	trenta	linguistic		_	False	False	False	False				_		
-SP1	1	mila	mila	mila	linguistic		_	False	False	False	False				_		
-SP1	1	ma	ma	[ma	linguistic		_	False	False	False	False				_		
-SP1	1	tremila	tremila	tre]mila	linguistic		_	False	False	False	False				_		3-7(4)
-SP1	1	che	che	che	linguistic		_	False	False	False	False				_		0-3(4)
-SP1	1	facciamo	facciamo	facciamo	linguistic	End=8.44	_	False	False	False	False				_		
-SP2	2	okay	okay	[okay]	linguistic	End=1.911	_	False	False	False	False				_		0-4(1)
-SP2	3	mh	mh	[mh	linguistic	Begin=4.692	_	False	False	False	False				_		0-2(1)
-SP2	3	mh	mh	mh]	linguistic	End=5.061	_	False	False	False	False				_		0-2(1)
-SP2	4	mh	mh	[mh	linguistic	Begin=7.155	_	False	False	False	False				_		0-2(1)
-SP2	4	mh	mh	mh]	linguistic	End=7.463	_	False	False	False	False				_		0-2(1)
-SP1	5	ma	ma	ma	linguistic	Begin=8.84	_	False	False	False	False				_		
-SP1	5	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP1	5	non	non	non	linguistic		_	False	False	False	False				_		
-SP1	5	si	si	si	linguistic		_	False	False	False	False				_		
-SP1	5	trovano	trovano	trovano	linguistic		_	False	False	False	False				_		
-SP1	5	adesso	adesso	adesso	linguistic		_	False	False	False	False				_		
-SP1	5	neanche	neanche	neanche	linguistic		_	False	False	False	False				_		
-SP1	5	là	là	là	linguistic		_	False	False	False	False				_		
-SP1	5	il	il	il	linguistic		_	False	False	False	False				_		
-SP1	5	l'	l'	l'	linguistic		_	False	False	True	False				_		
-SP1	5	appartamento	appartamento	ppartam[ento]	linguistic	End=11.194	_	False	False	False	False				_		7-12(6)
-SP2	6	eh	eh	[eh]	linguistic	Begin=11.094	_	False	False	False	False				_		0-2(5)
-SP2	6	esatto	esatto	esatto	linguistic		_	False	False	False	False				_		0-1(5)
-SP2	6	te	te	te	linguistic		_	False	False	False	False				_		
-SP2	6	lo	lo	lo	linguistic		_	False	False	False	False				_		
-SP2	6	era	era	era	linguistic		_	False	False	False	False				_		
-SP2	6	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP2	6	questo	questo	questo	linguistic		_	False	False	False	False				_		
-SP2	6	che	che	che	linguistic		_	False	False	False	False				_		
-SP2	6	volevo	volevo	volevo	linguistic		_	False	False	False	False				_		
-SP2	6	chiederti	chiederti	chiederti	linguistic	End=14.055	_	False	False	False	False				_		
-SP2	7	perché	perché	perché	linguistic	End=14.522	_	False	False	False	False				_		
-SP1	8	eh	eh	eh	linguistic	Begin=14.872	_	False	False	False	False				_		
-SP1	8	sì	sì	s[ì]	linguistic	End=15.299	_	False	False	False	False				_		1-2(?)
-SP2	9	se	se	[s]e	linguistic	Begin=15.372	_	False	False	False	False				_		0-2(?)
-SP2	9	tutti	tutti	tutti	linguistic		_	False	False	False	False				_		
-SP2	9	vogliono	vogliono	vogliono	linguistic		_	False	False	False	False				_		
-SP2	9	vivere	vivere	vivere	linguistic		_	False	False	False	False				_		
-SP2	9	lì	lì	lì	linguistic	End=16.788	_	False	False	False	False				_		
-SP1	10	sì	sì	sì	linguistic	Begin=17.56	_	False	False	False	False				_		
-SP1	10	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP1	10	non	non	non	linguistic		_	False	False	False	False				_		
-SP1	10	si	si	si	linguistic		_	False	False	False	False				_		
-SP1	10	trovano	trovano	trovano	linguistic		_	False	False	False	False				_		
-SP1	10	appartamenti	appartamenti	appartament[i]	linguistic		_	False	False	False	False				_		11-12(11)
-SP1	10	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		0-1(11)
-SP1	10	la	la	la	linguistic		_	False	False	False	False				_		
-SP1	10	verità	verità	verit[à]	linguistic	End=20.005	_	False	False	False	False				_		
-SP2	11	mh	mh	[°mh	linguistic	Begin=19.066	_	False	False	False	False				low		0-2(10)
-SP2	11	mh	mh	mh°]	linguistic	End=19.294	_	False	False	False	False				low		0-2(10)
-SP2	12	mh	mh	[mh]	linguistic	Begin=19.844	_	False	False	False	False				_		0-2(10)
-SP2	12	mh	mh	mh	linguistic	End=20.153	_	False	False	False	False				_		0-1(10)
-SP1	13	piuttosto	piuttosto	piuttosto	linguistic	Begin=20.244	_	False	False	False	False				_		
-SP1	13	che	che:	che:	linguistic		_	False	False	False	False	2x1			_		
-SP1	13	ci	ci	ci	linguistic		_	False	False	False	False				_		
-SP1	13	sono	sono	sono	linguistic		_	False	False	False	False				_		
-SP1	13	un	un	un	linguistic		_	False	False	False	False				_		
-SP1	13	sacco	sacco	sacco	linguistic		_	False	False	False	False				_		
-SP1	13	di	di:	di:	linguistic		_	False	False	False	False	1x1			_		
-SP1	13	gente	gente	gente	linguistic	End=23.933	_	False	False	False	False				_		
-SP1	14	come	come:	come:	linguistic	Begin=24.499	_	False	False	False	False	3x1			_		
-SP1	14	non	non	non	linguistic		_	False	False	False	False				_		
-SP1	14	vuole	vuole	vuole	linguistic		_	False	False	False	False				_		
-SP1	14	dare	dare	dare	linguistic		_	False	False	False	False				_		
-SP1	14	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP1	14	appartamenti	appartamenti	appartamenti	linguistic		_	False	False	False	False				_		
-SP1	14	per	per	per	linguistic		_	False	False	False	False				_		
-SP1	14	la	la	la	linguistic		_	False	False	False	False				_		
-SP1	14	famiglia	famiglia	famiglia	linguistic	End=27.177	_	False	False	False	False				_		
-SP1	15	un	un	un	linguistic	Begin=27.805	_	False	False	False	False				_		
-SP1	15	po'	po'	po'	linguistic		_	False	False	True	False				_		
-SP1	15	che	che	che	linguistic		_	False	False	False	False				_		
-SP1	15	danno	danno	danno	linguistic		_	False	False	False	False				_		
-SP1	15	un	un	un	linguistic		_	False	False	False	False				_		
-SP1	15	po'	po'	po'	linguistic		_	False	False	True	False				_		
-SP1	15	di	di	di	linguistic		_	False	False	False	False				_		
-SP1	15	persone	persone	person[e	linguistic		_	False	False	False	False				_		6-7(16)
-SP1	15	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		0-3(16)
-SP1	15	che	che:	c]he:	linguistic		_	False	False	False	False	2x1			_		0-3(16)
-SP1	15	dopo	dopo	dopo	linguistic		_	False	False	False	False				_		
-SP1	15	fanno	fanno	fanno	linguistic		_	False	False	False	False				_		
-SP1	15	la	la	la	linguistic		_	False	False	False	False				_		
-SP1	15	storia	storia	storia	linguistic	End=31.9	_	False	False	False	False				_		
-SP2	16	mh	mh	[mh	linguistic	Begin=29.677	_	False	False	False	False				_		0-2(15)
-SP2	16	mh	mh	mh]	linguistic	End=30.053	_	False	False	False	False				_		0-2(15)
-SP2	17	mh	mh	[mh	linguistic	Begin=31.983	_	False	False	False	False				_		0-2(18)
-SP2	17	mh	mh	mh]	linguistic	End=32.305	_	False	False	False	False				_		0-2(18)
-SP1	18	allora	allora	[allora]	linguistic	End=32.477	_	False	False	False	False				_		0-6(17)
-SP1	19	per	per	per	linguistic	Begin=32.772	_	False	False	False	False				_		
-SP1	19	pochi	pochi	pochi	linguistic		_	False	False	False	False				_		
-SP1	19	che	che:	che:	linguistic		_	False	False	False	False	2x1			_		
-SP1	19	tutti	tutti	tutti	linguistic		_	False	False	False	False				_		
-SP1	19	quanti	quanti:	quanti:	linguistic	End=34.905	_	False	False	False	False	5x1			_		
-SP2	20	sì	sì	sì	linguistic	Begin=35.68	_	False	False	False	False				_		
-SP2	20	sì	sì	sì	linguistic		_	False	False	False	False				_		
-SP2	20	sì	sì	sì	linguistic		_	False	False	False	False				_		
-SP2	20	certo	certo	certo	linguistic		_	False	False	False	False				_		
-SP2	20	capito	capito	capito	linguistic		_	False	False	False	False				_		
-SP2	20	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP2	20	mh	mh	mh	linguistic		_	False	False	False	False				_		
-SP2	20	e	e	e	linguistic		_	False	False	False	False				_		
-SP2	20	ma	ma	ma	linguistic		_	False	False	False	False				_		
-SP2	20	se	se	se	linguistic		_	False	False	False	False				_		
-SP2	20	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP2	20	se	se	se	linguistic		_	False	False	False	False				_		
-SP2	20	potessi	potessi	potessi	linguistic		_	False	False	False	False				_		
-SP2	20	un	un	un	linguistic		_	False	False	False	False				_		
-SP2	20	giorno	giorno	giorno	linguistic		_	False	False	False	False				_		
-SP2	20	vorresti	vorresti	vorresti	linguistic		_	False	False	False	False				_		
-SP2	20	vivere	vivere	vivere	linguistic		_	False	False	False	False				_		
-SP2	20	in	in	in	linguistic		_	False	False	False	False				_		
-SP2	20	città	città	citt[à	linguistic		_	False	False	False	False				_		4-5(21)
-SP2	20	o	o,	o,]	linguistic	End=41.122	weakly_ascending	False	False	False	False				_		0-1(21)
-SP1	21	assolutamente	assolutamente	[assolu]tamente	linguistic	Begin=40.833	_	False	False	False	False				_		0-8(20)
-SP1	21	io	io	io	linguistic		_	False	False	False	False				_		
-SP1	21	e	e	e	linguistic		_	False	False	False	False				_		
-SP1	21	sto	sto	sto	linguistic		_	False	False	False	False				_		
-SP1	21	provando	provando	provando	linguistic		_	False	False	False	False				_		
-SP1	21	tutti	tutti	tutti	linguistic		_	False	False	False	False				_		
-SP1	21	i	i	i	linguistic		_	False	False	False	False				_		
-SP1	21	giorni	giorni	giorni	linguistic		_	False	False	False	False				_		
-SP1	21	a	a	a	linguistic		_	False	False	False	False				_		
-SP1	21	trovare	trovare	[trova]re	linguistic		_	False	False	False	False				_		2-7(22)
-SP1	21	c'	c'	c'	linguistic		_	False	False	True	False				_		0-1(22)
-SP1	21	è	è		linguistic		_	False	False	False	False				_		
-SP1	21	un	un	un	linguistic		_	False	False	False	False				_		
-SP1	21	appartamento	appartamento	appartamento	linguistic		_	False	False	False	False				_		
-SP1	21	per	per	per	linguistic		_	False	False	False	False				_		
-SP1	21	i	i:	i:	linguistic		_	False	False	False	False	0x1			_		
-SP1	21	trasferire	trasferire	trasferire	linguistic		_	False	False	False	False				_		
-SP1	21	in	in	in	linguistic		_	False	False	False	False				_		
-SP1	21	bologna	bologna	bolo[gna	linguistic		_	False	False	False	False				_		
-SP1	21	cioè	cioè	cioè]	linguistic	End=47.01	_	False	False	False	False				_		0-4(23)
-SP2	22	okay	okay	[°okay°]	linguistic	End=43.404	_	False	False	False	False				low		0-4(21)
-SP2	23	mh	mh	[mh	linguistic	Begin=46.416	_	False	False	False	False				_		0-2(21)
-SP2	23	mh	mh	mh]	linguistic	End=46.794	_	False	False	False	False				_		0-2(21)
-SP1	24	io	io	io	linguistic	Begin=47.094	_	False	False	False	False				_		
-SP1	24	lavoro	lavoro	lavoro	linguistic		_	False	False	False	False				_		
-SP1	24	qui	qui	qui	linguistic	End=48.094	_	False	False	False	False				_		
-SP1	25	è	è	è	linguistic	Begin=48.294	_	False	False	False	False				_		
-SP1	25	un	un	un	linguistic		_	False	False	False	False				_		
-SP1	25	utile	utile	utile	linguistic		_	False	False	False	False				_		
-SP1	25	che	che	che	linguistic		_	False	False	False	False				_		
-SP1	25	io	io	io	linguistic		_	False	False	False	False				_		
-SP1	25	vado	vado	vado	linguistic		_	False	False	False	False				_		
-SP1	25	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP1	25	a	a	a	linguistic	End=50.044	_	False	False	False	False				_		
-SP1	26	esempio	esempio	esempio	linguistic	Begin=50.555	_	False	False	False	False				_		
-SP1	26	faccio	faccio	faccio	linguistic		_	False	False	False	False				_		
-SP1	26	così	così	così	linguistic		_	False	False	False	False				_		
-SP1	26	una	una	una	linguistic		_	False	False	False	False				_		
-SP1	26	una	una	una	linguistic		_	False	False	False	False				_		
-SP1	26	una	una	una	linguistic		_	False	False	False	False				_		
-SP1	26	ragionamento	ragionamento	ragionamento	linguistic		_	False	False	False	False				_		
-SP1	26	se	se	se	linguistic		_	False	False	False	False				_		
-SP1	26	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP1	26	lo	lo	lo	linguistic		_	False	False	False	False				_		
-SP1	26	trovo	trovo	trovo	linguistic		_	False	False	False	False				_		
-SP1	26	una	una	una	linguistic		_	False	False	False	False				_		
-SP1	26	casa	casa	casa	linguistic		_	False	False	False	False				_		
-SP1	26	in	in	in	linguistic		_	False	False	False	False				_		
-SP1	26	bologna	bologna	bologna	linguistic	End=55.972	_	False	False	False	False				_		
-SP1	27	che	che	che	linguistic	Begin=56.238	_	False	False	False	False				_		
-SP1	27	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP1	27	mille	mille	mille	linguistic		_	False	False	False	False				_		
-SP1	27	euro	euro	euro	linguistic		_	False	False	False	False				_		
-SP1	27	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP1	27	facciamo	facciamo	facci[amo	linguistic		_	False	False	False	False				_		5-8(28)
-SP1	27	perché	perché:	pe]rché:	linguistic		_	False	False	False	False	5x1			_		0-4(28)
-SP1	27	una	una	una	linguistic		_	False	False	False	False				_		
-SP1	27	casa	casa	casa	linguistic		_	False	False	False	False				_		
-SP1	27	deve	deve	deve	linguistic		_	False	False	False	False				_		
-SP1	27	essere	essere	essere	linguistic		_	False	False	False	False				_		
-SP1	27	mille	mille	mille	linguistic		_	False	False	False	False				_		
-SP1	27	euro	euro	euro	linguistic	End=60.649	_	False	False	False	False				_		
-SP2	28	mh	mh	[mh	linguistic	Begin=57.905	_	False	False	False	False				_		0-2(27)
-SP2	28	mh	mh	mh]	linguistic	End=58.215	_	False	False	False	False				_		0-2(27)
-SP1	29	e	e	e	linguistic	Begin=60.74	_	False	False	False	False				_		
-SP1	29	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP1	29	non	non	non	linguistic		_	False	False	False	False				_		
-SP1	29	è	è	è	linguistic		_	False	False	False	False				_		
-SP1	29	che	che	che	linguistic		_	False	False	False	False				_		
-SP1	29	deve	deve	deve	linguistic		_	False	False	False	False				_		
-SP1	29	essere	essere	essere	linguistic		_	False	False	False	False				_		
-SP1	29	soltanto	soltanto	soltanto	linguistic		_	False	False	False	False				_		
-SP1	29	una	una	una	linguistic		_	False	False	False	False				_		
-SP1	29	camera	camera	camera	linguistic		_	False	False	False	False				_		
-SP1	29	un	un	un	linguistic		_	False	False	False	False				_		
-SP1	29	mon-	mon-	mon-	linguistic		_	False	True	False	False				_		
-SP1	29	un	un	un	linguistic		_	False	False	False	False				_		
-SP1	29	monolocale	monolocale	monolocale	linguistic		_	False	False	False	False				_		
-SP1	29	che	che	che	linguistic		_	False	False	False	False				_		
-SP1	29	è	è	è	linguistic		_	False	False	False	False				_		
-SP1	29	mille	mille	mille	linguistic		_	False	False	False	False				_		
-SP1	29	euro	euro	euro	linguistic		_	False	False	False	False				_		
-SP1	29	no	no	no	linguistic	End=64.794	_	False	False	False	False				_		
-SP1	30	è	è	è	linguistic	Begin=65.211	_	False	False	False	False				_		
-SP1	30	troppo	troppo	troppo	linguistic	End=65.672	_	False	False	False	False				_		
-SP2	31	è	è	è	linguistic	Begin=65.677	_	False	False	False	False				_		
-SP2	31	troppo	troppo	troppo	linguistic		_	False	False	False	False				_		
-SP2	31	sì	sì	sì	linguistic	End=66.42	_	False	False	False	False				_		
-SP1	32	deve	deve	deve	linguistic	Begin=66.466	_	False	False	False	False				_		
-SP1	32	essere	essere	essere	linguistic		_	False	False	False	False				_		
-SP1	32	almeno	almeno	almeno	linguistic		_	False	False	False	False				_		
-SP1	32	tre	tre	tre	linguistic		_	False	False	False	False				_		
-SP1	32	camera	camera	camera	linguistic		_	False	False	False	False				_		
-SP1	32	di	di	di	linguistic		_	False	False	False	False				_		
-SP1	32	letto	letto	let[to	linguistic		_	False	False	False	False				_		3-5(33)
-SP1	32	per	per	per	linguistic		_	False	False	False	False				_		0-3(33)
-SP1	32	per	per	per]	linguistic		_	False	False	False	False				_		0-3(33)
-SP1	32	mille	mille	mille	linguistic		_	False	False	False	False				_		0-1(33)
-SP1	32	euro	euro	euro	linguistic		_	False	False	False	False				_		
-SP1	32	mille	mille	mille	linguistic		_	False	False	False	False				_		
-SP1	32	due	due	due	linguistic		_	False	False	False	False				_		
-SP1	32	mille	mille	mille	linguistic		_	False	False	False	False				_		
-SP1	32	cento	cento	cento	linguistic		_	False	False	False	False				_		
-SP1	32	facciamo	facciamo	facc[iamo]	linguistic		_	False	False	False	False				_		6-8(34)
-SP1	32	così	così	così	linguistic	End=71.722	_	False	False	False	False				_		0-3(34)
-SP2	33	sì	sì	[sì	linguistic	Begin=68.083	_	False	False	False	False				_		0-2(32)
-SP2	33	sì	sì	sì	linguistic		_	False	False	False	False				_		0-2(32)
-SP2	33	sì	sì	sì]	linguistic	End=68.805	_	False	False	False	False				_		0-2(32)
-SP2	34	mh	mh	[mh	linguistic	Begin=71.088	_	False	False	False	False				_		0-2(32)
-SP2	34	mh	mh	mh]	linguistic	End=71.461	_	False	False	False	False				_		0-2(32)
-SP1	35	se	se	se	linguistic	Begin=72.7	_	False	False	False	False				_		
-SP1	35	vado	vado	vado	linguistic		_	False	False	False	False				_		
-SP1	35	a	a:	a:	linguistic		_	False	False	False	False	0x1			_		
-SP1	35	valsamoggia	valsamoggia	valsamoggia	linguistic	End=74.483	_	False	False	False	False				_		
-SP1	36	ogni	ogni	ogni	linguistic	Begin=74.716	_	False	False	False	False				_		
-SP1	36	mese	mese	mese	linguistic		_	False	False	False	False				_		
-SP1	36	io	io	io	linguistic		_	False	False	False	False				_		
-SP1	36	e	e	e	linguistic		_	False	False	False	False				_		
-SP1	36	spendo	spendo	spendo	linguistic		_	False	False	False	False				_		
-SP1	36	c-	c-	c-	linguistic		_	False	True	False	False				_		
-SP1	36	più	più	più	linguistic		_	False	False	False	False				_		
-SP1	36	di	di	di	linguistic		_	False	False	False	False				_		
-SP1	36	duecento	duecento	duecento	linguistic		_	False	False	False	False				_		
-SP1	36	euro	euro	euro	linguistic		_	False	False	False	False				_		
-SP1	36	di	di	di	linguistic		_	False	False	False	False				_		
-SP1	36	benzina	benzina	benzina	linguistic	End=77.72200000000001	_	False	False	False	False				_		
-SP2	37	sì	sì	sì	linguistic	Begin=77.82	_	False	False	False	False				_		
-SP2	37	sì	sì	sì	linguistic		_	False	False	False	False				_		
-SP2	37	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP2	37	e	e	e	linguistic		_	False	False	False	False				_		
-SP2	37	il	il	il	linguistic		_	False	False	False	False				_		
-SP2	37	parcheggio	parcheggio	parcheggio	linguistic	End=79.144	_	False	False	False	False				_		
-SP1	38	e	e	e	linguistic	Begin=79.266	_	False	False	False	False				_		
-SP1	38	parcheggio	parcheggio	parcheggio	linguistic		_	False	False	False	False				_		
-SP1	38	più	più	pi[ù]	linguistic	End=79.97200000000001	_	False	False	False	False				_		2-3(?)
-SP2	39	sì	sì	[s]ì	linguistic	End=80.261	_	False	False	False	False				_		0-2(?)
-SP1	40	facciamo	facciamo	facciamo	linguistic	Begin=80.327	_	False	False	False	False				_		
-SP1	40	trecentocinquanta	trecentocinquanta	trecentocin[quanta	linguistic		_	False	False	False	False				_		11-17(41)
-SP1	40	euro	euro	euro	linguistic		_	False	False	False	False				_		0-4(41)
-SP1	40	di	di	di	linguistic		_	False	False	False	False				_		0-2(41)
-SP1	40	ogni	ogni	ogni	linguistic		_	False	False	False	False				_		0-4(41)
-SP1	40	mese	mese	mes]e	linguistic	End=83.477	_	False	False	False	False				_		0-4(41)
-SP2	41	sì	sì	[sì	linguistic	Begin=81.611	_	False	False	False	False				_		0-2(40)
-SP2	41	sì	sì	sì	linguistic		_	False	False	False	False				_		0-2(40)
-SP2	41	diventa	diventa	(diventa	linguistic		_	False	False	False	False				_	1-7(0)	0-7(40)
-SP2	41	altiss-	altiss-	altiss-)]	linguistic	End=83.216	_	False	True	False	False				_	0-7(0)	0-7(40)
-SP2	42	tantissimo	tantissimo	tantissimo	linguistic	End=84.38	_	False	False	False	False				_		
-SP1	43	tantissimo	tantissimo	tantissimo	linguistic	End=85.26	_	False	False	False	False				_		
-SP2	44	sì	sì	°sì	linguistic	Begin=85.894	_	False	False	False	False				low		
-SP2	44	sì	sì	sì°	linguistic	End=86.416	_	False	False	False	False				low		
-SP2	45	no	no	no	linguistic	Begin=86.655	_	False	False	False	False				_		
-SP2	45	io	io	io	linguistic		_	False	False	False	False				_		
-SP2	45	non	non	non	linguistic		_	False	False	False	False				_		
-SP2	45	ho	ho	ho	linguistic		_	False	False	False	False				_		
-SP2	45	la	la	la	linguistic		_	False	False	False	False				_		
-SP2	45	macchina	macchina	macchina	linguistic		_	False	False	False	False				_		
-SP2	45	quindi	quindi	quindi	linguistic		_	False	False	False	False				_		
-SP2	45	non	non	non	linguistic		_	False	False	False	False				_		
-SP2	45	mi	mi	mi	linguistic		_	False	False	False	False				_		
-SP2	45	rendo	rendo	r[endo	linguistic		_	False	False	False	False				_		1-5(46)
-SP2	45	conto	conto	conto	linguistic		_	False	False	False	False				_		0-5(46)
-SP2	45	sento	sento	sento	linguistic		_	False	False	False	False				_		0-5(46)
-SP2	45	queste	queste	queste	linguistic		_	False	False	False	False				_		0-6(46)
-SP2	45	cifre	cifre	cifre]	linguistic		_	False	False	False	False				_		0-5(46)
-SP2	45	{ride}	{ride}	{ride}	metalinguistic	End=90.411	_	False	False	False	False				_		0-1(46)
-SP1	46	no	no	[no	linguistic	Begin=88.199	_	False	False	False	False				_		0-2(45)
-SP1	46	intendevo	intendevo	<intendevo	linguistic		_	False	False	False	False		1-9(0)		_		0-9(45)
-SP1	46	intendevo	intendevo	intende]vo>	linguistic		_	False	False	False	False		0-9(0)		_		0-9(45)
-SP1	46	che	che	che	linguistic		_	False	False	False	False		0-3(0)		_		
-SP1	46	se	se	se	linguistic		_	False	False	False	False				_		
-SP1	46	là	là	là	linguistic		_	False	False	False	False				_		
-SP1	46	pago	pago	pago	linguistic		_	False	False	False	False				_		
-SP1	46	settecento	settecento	settecento	linguistic		_	False	False	False	False				_		
-SP1	46	euro	euro	euro	linguistic		_	False	False	False	False				_		
-SP1	46	in	in	in	linguistic		_	False	False	False	False				_		
-SP1	46	affitto	affitto	affitto	linguistic	End=93.999	_	False	False	False	False				_		
-SP1	47	più	più	più	linguistic	Begin=94.344	_	False	False	False	False				_		
-SP1	47	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP1	47	trecentocinquanta	trecentocinquanta	trecentocinquant[a	linguistic		_	False	False	False	False				_		16-17(48)
-SP1	47	sono	sono	so]no	linguistic		_	False	False	False	False				_		0-4(48)
-SP1	47	mille	mille	mille	linguistic	End=97.288	_	False	False	False	False				_		
-SP2	48	mh	mh	[mh]	linguistic	End=96.515	_	False	False	False	False				_		0-2(47)
-SP2	49	mh	mh	mh	linguistic	Begin=97.288	_	False	False	False	False				_		
-SP2	49	mh	mh	mh	linguistic	End=97.722	_	False	False	False	False				_		
-SP1	50	già	già	già	linguistic	Begin=98.24	_	False	False	False	False				_		
-SP1	50	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP1	50	mille	mille:	mille:	linguistic		_	False	False	False	False	4x1			_		
-SP1	50	mil-	mil-	[mil-	linguistic		_	False	True	False	False				_		1-4(51)
-SP1	50	mille	mille	mille]	linguistic		_	False	False	False	False				_		0-5(51)
-SP1	50	cento	cento	cento	linguistic		_	False	False	False	False				_		0-2(51)
-SP1	50	mille	mille	mille	linguistic		_	False	False	False	False				_		
-SP1	50	due	due	due	linguistic		_	False	False	False	False				_		
-SP1	50	mille	mille	[mille	linguistic		_	False	False	False	False				_		3-5(52)
-SP1	50	cento	cento	cento]	linguistic		_	False	False	False	False				_		0-5(52)
-SP1	50	mil-	mil-	mil-	linguistic		_	False	True	False	False				_		0-4(52)
-SP1	50	mille	mille	mille	linguistic		_	False	False	False	False				_		
-SP1	50	duecento	duecento	duecento	linguistic		_	False	False	False	False				_		
-SP1	50	dopo	dopo	dopo	linguistic		_	False	False	False	False				_		
-SP1	50	perché	perché	[perché	linguistic		_	False	False	False	False				_		5-6(53)
-SP1	50	non	non	non	linguistic		_	False	False	False	False				_		0-3(53)
-SP1	50	è	è	è]	linguistic		_	False	False	False	False				_		0-1(53)
-SP1	50	che	che	che	linguistic		_	False	False	False	False				_		0-3(53)
-SP1	50	è	è	è	linguistic		_	False	False	False	False				_		0-1(53)
-SP1	50	solo	solo	solo	linguistic		_	False	False	False	False				_		
-SP1	50	che	che	che	linguistic		_	False	False	False	False				_		
-SP1	50	devo	devo	devo	linguistic		_	False	False	False	False				_		
-SP1	50	pagare	pagare	pagare	linguistic		_	False	False	False	False				_		
-SP1	50	la	la	la	linguistic		_	False	False	False	False				_		
-SP1	50	macchina	macchina	macchina	linguistic		_	False	False	False	False				_		
-SP1	50	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP1	50	la	la	la	linguistic		_	False	False	False	False				_		
-SP1	50	benzina	benzina	benzina	linguistic		_	False	False	False	False				_		
-SP1	50	e	e::	e::	linguistic		_	False	False	False	False	0x2			_		
-SP1	50	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP1	50	e	e	e	linguistic		_	False	False	False	False				_		
-SP1	50	anche	anche:	anch[e:	linguistic		_	False	False	False	False	4x1			_		
-SP1	50	il	il	il	linguistic		_	False	False	False	False				_		
-SP1	50	parcheggio	parcheggio	parche]ggio	linguistic		_	False	False	False	False				_		4-10(54)
-SP1	50	no	no	[no	linguistic		_	False	False	False	False				_		0-2(54)
-SP1	50	devo	devo	devo]	linguistic		_	False	False	False	False				_		0-4(54)
-SP1	50	fa-	fa-	fa-	linguistic		_	False	True	False	False				_		
-SP1	50	as-	as-	as-	linguistic	End=110.705	_	False	True	False	False				_		0-3(55)
-SP2	51	sì	sì	[°sì	linguistic	Begin=99.533	_	False	False	False	False				low		0-2(50)
-SP2	51	sì	sì	sì	linguistic		_	False	False	False	False				low		0-2(50)
-SP2	51	sì	sì	sì°]	linguistic	End=100.099	_	False	False	False	False				low		0-2(50)
-SP2	52	mh	mh	[mh	linguistic	Begin=101.305	_	False	False	False	False				_		0-2(50)
-SP2	52	mh	mh	mh]	linguistic	End=101.679	_	False	False	False	False				_		0-2(50)
-SP2	53	mh	mh	[mh	linguistic	Begin=103.077	_	False	False	False	False				_		0-2(50)
-SP2	53	mh	mh	mh]	linguistic	End=103.405	_	False	False	False	False				_		0-2(50)
-SP2	54	sì	sì	[sì	linguistic	Begin=108.399	_	False	False	False	False				_		0-2(50)
-SP2	54	sì	sì	sì	linguistic		_	False	False	False	False				_		0-2(50)
-SP2	54	sì	sì	sì]	linguistic	End=109.027	_	False	False	False	False				_		0-2(50)
-SP2	55	sì	sì	[°sì	linguistic	Begin=109.277	_	False	False	False	False				low		0-2(50)
-SP2	55	sì	sì	sì	linguistic		_	False	False	False	False				low		0-2(50)
-SP2	55	sì	sì	sì°]	linguistic	End=109.752	_	False	False	False	False				low		0-2(50)
-SP1	56	allora	allora	allora	linguistic	Begin=111.78	_	False	False	False	False				_		
-SP1	56	come	come	come	linguistic		_	False	False	False	False				_		
-SP1	56	la	la	la	linguistic		_	False	False	False	False				_		
-SP1	56	città	città	città	linguistic		_	False	False	False	False				_		
-SP1	56	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP1	56	se	se	se	linguistic		_	False	False	False	False				_		
-SP1	56	tu	tu	tu	linguistic		_	False	False	False	False				_		
-SP1	56	paghi	paghi	paghi	linguistic		_	False	False	False	False				_		
-SP1	56	duecento	duecento	duecento	linguistic		_	False	False	False	False				_		
-SP1	56	eu-	eu-	eu-	linguistic		_	False	True	False	False				_		
-SP1	56	cioè	cioè	cioè	linguistic		_	False	False	False	False				_		
-SP1	56	duecento	duecento	duecento	linguistic		_	False	False	False	False				_		
-SP1	56	euro	euro	euro	linguistic		_	False	False	False	False				_		
-SP1	56	in	in	in	linguistic		_	False	False	False	False				_		
-SP1	56	piú	PIÚ	PIÚ	linguistic		_	False	False	False	False				high		
-SP1	56	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP1	56	ma	ma	[ma	linguistic		_	False	False	False	False				_		0-2(57)
-SP1	56	ti	ti	ti	linguistic		_	False	False	False	False				_		0-2(57)
-SP1	56	trovi	trovi	t]rovi	linguistic		_	False	False	False	False				_		0-3(57)
-SP1	56	tutto	tutto	tutto	linguistic	End=117.494	_	False	False	False	False				_		
-SP2	57	mh	mh	[mh	linguistic	Begin=116.45	_	False	False	False	False				_		0-2(56)
-SP2	57	mh	mh	mh]	linguistic	End=116.928	_	False	False	False	False				_		0-2(56)
-SP2	58	certo	certo	certo	linguistic	Begin=117.62	_	False	False	False	False				_		
-SP2	58	sì	sì	sì	linguistic		_	False	False	False	False				_		
-SP2	58	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP2	58	certo	certo	certo	linguistic		_	False	False	False	False				_		
-SP2	58	certo	certo	cer[to]	linguistic	End=119.416	_	False	False	False	False				_		3-5(59)
-SP1	59	come	come	[com]e	linguistic	Begin=119.2	_	False	False	False	False				_		0-4(58)
-SP1	59	da	da	da	linguistic		_	False	False	False	False				_		
-SP1	59	là	là	là	linguistic		_	False	False	False	False				_		
-SP1	59	per	per	per	linguistic		_	False	False	False	False				_		
-SP1	59	fare	fare	fare	linguistic		_	False	False	False	False				_		
-SP1	59	una	una	una	linguistic		_	False	False	False	False				_		
-SP1	59	spesa	spesa	spesa	linguistic		_	False	False	False	False				_		
-SP1	59	io	io	io	linguistic		_	False	False	False	False				_		
-SP1	59	devo	devo	devo	linguistic		_	False	False	False	False				_		
-SP1	59	fare	fare	fare	linguistic		_	False	False	False	False				_		
-SP1	59	cioè	cioè	cioè	linguistic		_	False	False	False	False				_		
-SP1	59	dieci	dieci	dieci	linguistic		_	False	False	False	False				_		
-SP1	59	chilometri	chilometri	chilometri	linguistic		_	False	False	False	False				_		
-SP1	59	cinque	cinque	cinque	linguistic		_	False	False	False	False				_		
-SP1	59	chilometri	chilometri	chilometri	linguistic		_	False	False	False	False				_		
-SP1	59	almeno	almeno	almeno	linguistic	End=124.56	_	False	False	False	False				_		
-SP2	60	mh	mh	mh	linguistic	End=124.816	_	False	False	False	False				_		
-SP2	61	ma	ma	ma	linguistic	Begin=125.7	_	False	False	False	False				_		
-SP2	61	poi	poi	poi	linguistic		_	False	False	False	False				_		
-SP2	61	ti	ti	ti	linguistic		_	False	False	False	False				_		
-SP2	61	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP2	61	insomma	insomma	(in)somma	linguistic		_	False	False	False	False				_	0-4(0)	
-SP2	61	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP2	61	ti	ti	ti	linguistic		_	False	False	False	False				_		
-SP2	61	svegli	svegli	svegli	linguistic		_	False	False	False	False				_		
-SP2	61	presto	presto,	pres[to,	linguistic		weakly_ascending	False	False	False	False				_		
-SP2	61	traffico	traffico,	traffico,	linguistic		weakly_ascending	False	False	False	False				_		0-8(62)
-SP2	61	stress	stress,	stress,	linguistic		weakly_ascending	False	False	False	False				_		0-6(62)
-SP2	61	sì	sì	sì]	linguistic	End=129.761	_	False	False	False	False				_		0-2(62)
-SP1	62	assolutamente	assolutamente	[<assolutamente>	linguistic	Begin=127.861	_	False	False	False	False		1-13(0)		_		0-13(61)
-SP1	62	ma	ma	ma	linguistic		_	False	False	False	False		0-2(0)		_		0-2(61)
-SP1	62	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		0-3(61)
-SP1	62	guarda	guarda	guarda]	linguistic		_	False	False	False	False				_		0-6(61)
-SP1	62	che	che	che	linguistic		_	False	False	False	False				_		0-3(61)
-SP1	62	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP1	62	la	la	la	linguistic	End=130.755	_	False	False	False	False				_		
-SP1	63	da	da	da	linguistic	Begin=131.222	_	False	False	False	False				_		
-SP1	63	vivere	vivere	vivere	linguistic		_	False	False	False	False				_		
-SP1	63	la	la	la	linguistic		_	False	False	False	False				_		
-SP1	63	differenza	differenza	differenza	linguistic		_	False	False	False	False				_		
-SP1	63	da	da	da	linguistic		_	False	False	False	False				_		
-SP1	63	città	città	città	linguistic		_	False	False	False	False				_		
-SP1	63	e	e	e	linguistic		_	False	False	False	False				_		
-SP1	63	fuori	fuori	fuori	linguistic		_	False	False	False	False				_		
-SP1	63	città	città	città	linguistic	End=133.599	_	False	False	False	False				_		
-SP2	64	mh	mh	mh	linguistic	Begin=133.599	_	False	False	False	False				_		
-SP2	64	mh	mh	mh	linguistic	End=133.916	_	False	False	False	False				_		
-SP1	65	se	SE	SE	linguistic	Begin=134.08	_	False	False	False	False				high		
-SP1	65	lavoro	LAVORO,	LAVORO,	linguistic		weakly_ascending	False	False	False	False				high		
-SP1	65	fuori	fuori	fuori	linguistic		_	False	False	False	False				_		
-SP1	65	città	città	città	linguistic		_	False	False	False	False				_		
-SP1	65	guarda	guarda	guarda	linguistic		_	False	False	False	False				_		
-SP1	65	che	che	che	linguistic		_	False	False	False	False				_		
-SP1	65	per	per	per	linguistic		_	False	False	False	False				_		
-SP1	65	me	me	me	linguistic		_	False	False	False	False				_		
-SP1	65	va	va	va	linguistic		_	False	False	False	False				_		
-SP1	65	bene	bene	bene	linguistic		_	False	False	False	False				_		
-SP1	65	ma	ma	[ma]	linguistic		_	False	False	False	False				_		1-2(66)
-SP1	65	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		0-2(66)
-SP1	65	dentro	dentro	dentro	linguistic		_	False	False	False	False				_		
-SP1	65	le	le	le	linguistic		_	False	False	False	False				_		
-SP1	65	città	città	cit[tà	linguistic		_	False	False	False	False				_		
-SP1	65	che	che	che	linguistic		_	False	False	False	False				_		0-3(67)
-SP1	65	devo	devo	devo	linguistic		_	False	False	False	False				_		0-4(67)
-SP1	65	lavorare	lavorare	lavora]re	linguistic	End=139.427	_	False	False	False	False				_		0-8(67)
-SP2	66	mh	mh	[mh	linguistic	Begin=137.394	_	False	False	False	False				_		0-2(65)
-SP2	66	mh	mh	mh]	linguistic	End=137.778	_	False	False	False	False				_		0-2(65)
-SP2	67	venendo	venendo	[venendo	linguistic	Begin=138.405	_	False	False	False	False				_		0-7(65)
-SP2	67	qua	qua	qua]	linguistic	End=139.199	_	False	False	False	False				_		0-3(65)
-SP2	68	certo	certo	certo	linguistic	Begin=139.444	_	False	False	False	False				_		
-SP2	68	sì	sì	sì	linguistic		_	False	False	False	False				_		
-SP2	68	sì	sì	[sì]	linguistic	End=140.327	_	False	False	False	False				_		0-2(69)
-SP1	69	significa	significa	[signi]fica	linguistic	Begin=140.12	_	False	False	False	False				_		0-7(68)
-SP1	69	che	che	che	linguistic		_	False	False	False	False				_		
-SP1	69	per	per	per	linguistic		_	False	False	False	False				_		
-SP1	69	me	me	me	linguistic		_	False	False	False	False				_		
-SP1	69	non	non	non	linguistic		_	False	False	False	False				_		
-SP1	69	è	è	è	linguistic		_	False	False	False	False				_		
-SP1	69	che	che	che	linguistic		_	False	False	False	False				_		
-SP1	69	una	una	una	linguistic		_	False	False	False	False				_		
-SP1	69	giornata	giornata	giornata	linguistic		_	False	False	False	False				_		
-SP1	69	di	di	di	linguistic		_	False	False	False	False				_		
-SP1	69	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP1	69	ventiquattro	ventiquattro	ventiquattro	linguistic		_	False	False	False	False				_		
-SP1	69	ore	ore	ore	linguistic	End=143.916	_	False	False	False	False				_		
-SP2	70	mh	mh	mh	linguistic	Begin=144.005	_	False	False	False	False				_		
-SP2	70	mh	mh	mh	linguistic	End=144.379	_	False	False	False	False				_		
-SP1	71	sono	sono	sono	linguistic	End=145.072	_	False	False	False	False				_		
-SP1	72	ventidue	ventidue	ventidue	linguistic	Begin=145.277	_	False	False	False	False				_		
-SP1	72	ore	ore	[ore]	linguistic	End=146.399	_	False	False	False	False				_		0-3(73)
-SP2	73	certo	certo	[cert]o	linguistic	Begin=145.98	_	False	False	False	False				_		0-5(72)
-SP2	73	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP2	73	perché	perché	perché	linguistic		_	False	False	False	False				_		
-SP2	73	è	è	è	linguistic		_	False	False	False	False				_		
-SP2	73	un'	un'	[un'	linguistic		_	False	False	True	False				_		2-3(74)
-SP2	73	ora	ora	ra	linguistic		_	False	False	False	False				_		0-3(74)
-SP2	73	con	con	con]	linguistic		_	False	False	False	False				_		0-3(74)
-SP2	73	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		0-2(74)
-SP2	73	mh	mh	mh	linguistic		_	False	False	False	False				_		
-SP2	73	mh	mh	[mh]	linguistic	End=148.349	_	False	False	False	False				_		
-SP1	74	ancora	ancora	[ancora	linguistic	Begin=146.855	_	False	False	False	False				_		0-6(73)
-SP1	74	meno	meno	meno]	linguistic	End=147.805	_	False	False	False	False				_		0-4(73)
-SP1	75	sono	sono	[sono]	linguistic	Begin=148.138	_	False	False	False	False				_		0-4(73)
-SP1	75	venti	venti	venti	linguistic		_	False	False	False	False				_		0-1(73)
-SP1	75	ore	ore	ore	linguistic		_	False	False	False	False				_		
-SP1	75	tipo	tipo	ti[po	linguistic		_	False	False	False	False				_		
-SP1	75	perché	perché	perché]	linguistic		_	False	False	False	False				_		0-6(76)
-SP1	75	ogni	ogni	ogni	linguistic		_	False	False	False	False				_		0-3(76)
-SP1	75	giorno	giorno	giorno	linguistic		_	False	False	False	False				_		
-SP1	75	io	io	io	linguistic		_	False	False	False	False				_		
-SP1	75	lo	lo	lo	linguistic	End=150.811	_	False	False	False	False				_		
-SP2	76	sì	sì	[°sì	linguistic	Begin=149.222	_	False	False	False	False				low		0-2(75)
-SP2	76	sì	sì	sì°]	linguistic	End=149.588	_	False	False	False	False				low		0-2(75)
-SP1	77	vado	vado	vado	linguistic	Begin=151.216	_	False	False	False	False				_		
-SP1	77	avanti	avanti	avanti	linguistic		_	False	False	False	False				_		
-SP1	77	e	e	e	linguistic		_	False	False	False	False				_		
-SP1	77	indietro	indietro	indietro	linguistic		_	False	False	False	False				_		
-SP1	77	un'	un'	un'	linguistic		_	False	False	True	False				_		
-SP1	77	ora	ora	ra	linguistic		_	False	False	False	False				_		
-SP1	77	un'	un'	un'	linguistic		_	False	False	True	False				_		
-SP1	77	ora	ora	ra	linguistic		_	False	False	False	False				_		
-SP1	77	e	e	e	linguistic		_	False	False	False	False				_		
-SP1	77	mezzo	mezzo	mezzo	linguistic		_	False	False	False	False				_		
-SP1	77	cioè	cioè	cioè	linguistic		_	False	False	False	False				_		
-SP1	77	per	per	per	linguistic		_	False	False	False	False				_		
-SP1	77	venire	venire	venire	linguistic		_	False	False	False	False				_		
-SP1	77	un'	un'	un'	linguistic		_	False	False	True	False				_		
-SP1	77	ora	ora	ra	linguistic		_	False	False	False	False				_		
-SP1	77	e	e	e	linguistic		_	False	False	False	False				_		
-SP1	77	mezzo	mezzo	mezzo	linguistic		_	False	False	False	False				_		
-SP1	77	un'	un'	un'	linguistic		_	False	False	True	False				_		2-3(78)
-SP1	77	ora	ora	r[a	linguistic		_	False	False	False	False				_		0-3(78)
-SP1	77	minimo	minimo	mi]nimo	linguistic		_	False	False	False	False				_		
-SP1	77	e	e	e	linguistic		_	False	False	False	False				_		
-SP1	77	ritornare	ritornare	ritornare	linguistic		_	False	False	False	False				_		
-SP1	77	ancora	ancora	ancora	linguistic		_	False	False	False	False				_		
-SP1	77	facciamo	facciamo	facciamo	linguistic		_	False	False	False	False				_		
-SP1	77	mezz'	mezz'	mezz'	linguistic		_	False	False	True	False				_		
-SP1	77	ora	ora	ra	linguistic		_	False	False	False	False				_		
-SP1	77	o	o	o	linguistic		_	False	False	False	False				_		
-SP1	77	un'	un'	un'	linguistic		_	False	False	True	False				_		
-SP1	77	ora	ora	ra	linguistic	End=159.2	_	False	False	False	False				_		
-SP2	78	mh	mh	[mh]	linguistic	End=155.969	_	False	False	False	False				_		0-2(77)
-SP2	79	mh	mh	[mh	linguistic	Begin=159.522	_	False	False	False	False				_		0-2(80)
-SP2	79	mh	mh	mh]	linguistic	End=159.89	_	False	False	False	False				_		0-2(80)
-SP1	80	allora	allora	[allora]	linguistic	Begin=159.622	_	False	False	False	False				_		0-6(79)
-SP1	80	due	due	due	linguistic		_	False	False	False	False				_		0-1(79)
-SP1	80	ore	ore	ore	linguistic		_	False	False	False	False				_		
-SP1	80	è	è	è	linguistic		_	False	False	False	False				_		
-SP1	80	già	già	già	linguistic		_	False	False	False	False				_		
-SP1	80	scalata	scalata	scalata	linguistic	End=161.127	_	False	False	False	False				_		
-SP2	81	sì	sì	sì	linguistic	Begin=161.138	_	False	False	False	False				_		
-SP2	81	sì	sì	sì	linguistic		_	False	False	False	False				_		
-SP2	81	eh	eh	[eh]	linguistic	End=161.741	_	False	False	False	False				_		0-2(82)
-SP1	82	per	per	[per	linguistic	Begin=161.411	_	False	False	False	False				_		0-3(81)
-SP1	82	preparare	preparare	prep]arare	linguistic		_	False	False	False	False				_		0-6(81)
-SP1	82	cioè	cioè	cioè	linguistic		_	False	False	False	False				_		
-SP1	82	se	se	se	linguistic	End=162.611	_	False	False	False	False				_		
-SP1	83	tipo	tipo	tipo	linguistic	Begin=162.983	_	False	False	False	False				_		
-SP1	83	che	che	che	linguistic		_	False	False	False	False				_		
-SP1	83	noi	noi	noi	linguistic		_	False	False	False	False				_		
-SP1	83	abitiamo	abitiamo	abitiamo	linguistic		_	False	False	False	False				_		
-SP1	83	cioè	cioè	cioè	linguistic	End=164.599	_	False	False	False	False				_		
-SP1	84	facciamo	facciamo	facciamo	linguistic	Begin=164.96	_	False	False	False	False				_		
-SP1	84	come	come	come	linguistic		_	False	False	False	False				_		
-SP1	84	dentro	dentro	dentro	linguistic		_	False	False	False	False				_		
-SP1	84	la	la	la	linguistic		_	False	False	False	False				_		
-SP1	84	bologna	bologna	bologna	linguistic		_	False	False	False	False				_		
-SP1	84	tu	tu	tu	linguistic		_	False	False	False	False				_		
-SP1	84	venti	venti	venti	linguistic		_	False	False	False	False				_		
-SP1	84	minuti	minuti	minuti	linguistic	End=168.038	_	False	False	False	False				_		
-SP1	85	trenta	trenta	trenta	linguistic	Begin=168.349	_	False	False	False	False				_		
-SP1	85	minuti	minuti	minuti	linguistic		_	False	False	False	False				_		
-SP1	85	sei	sei	sei	linguistic		_	False	False	False	False				_		
-SP1	85	in	in	in	linguistic		_	False	False	False	False				_		
-SP1	85	lavoro	lavoro	lav[oro]	linguistic	End=169.899	_	False	False	False	False				_		3-6(86)
-SP2	86	mh	mh	[mh	linguistic	Begin=169.491	_	False	False	False	False				_		0-2(85)
-SP2	86	mh	mh	mh]	linguistic		_	False	False	False	False				_		0-2(85)
-SP2	86	mh	mh	mh	linguistic		_	False	False	False	False				_		0-1(85)
-SP2	86	mh	mh	mh	linguistic	End=170.194	_	False	False	False	False				_		
-SP2	87	certo	certo	certo	linguistic	Begin=170.42	_	False	False	False	False				_		
-SP2	87	sì	sì	sì	linguistic		_	False	False	False	False				_		
-SP2	87	sì	sì	sì	linguistic	End=171.3	_	False	False	False	False				_		
-SP2	88	ma	ma	ma	linguistic	Begin=171.58	_	False	False	False	False				_		
-SP2	88	prima	prima	prima	linguistic		_	False	False	False	False				_		
-SP2	88	di	di	di	linguistic		_	False	False	False	False				_		
-SP2	88	trasferirti	trasferirti	trasferirti	linguistic		_	False	False	False	False				_		
-SP2	88	in	in	in	linguistic		_	False	False	False	False				_		
-SP2	88	valsamoggia	valsamoggia	valsamoggia	linguistic		_	False	False	False	False				_		
-SP2	88	mh	mh	mh	linguistic		_	False	False	False	False				_		
-SP2	88	in	in	in	linguistic		_	False	False	False	False				_		
-SP2	88	quale	quale	quale	linguistic		_	False	False	False	False				_		
-SP2	88	zona	zona	zona	linguistic		_	False	False	False	False				_		
-SP2	88	abitavi	abitavi:	abitavi:	linguistic		_	False	False	False	False	6x1			_		
-SP2	88	di	di	[di]	linguistic	End=175.099	_	False	False	False	False				_		1-2(89)
-SP1	89	al	al	[al	linguistic	Begin=174.86	_	False	False	False	False				_		0-2(88)
-SP1	89	centro	centro	ce]ntro	linguistic		_	False	False	False	False				_		0-4(88)
-SP1	89	proprio	proprio	proprio	linguistic		_	False	False	False	False				_		
-SP1	89	al	al	al	linguistic		_	False	False	False	False				_		
-SP1	89	centro	centro	c[entro	linguistic		_	False	False	False	False				_		3-6(90)
-SP1	89	storico	storico	storico]	linguistic	End=176.583	_	False	False	False	False				_		0-7(90)
-SP2	90	centro	centro	[centro	linguistic	Begin=175.777	_	False	False	False	False				_		0-6(89)
-SP2	90	centro	centro	cen]tro	linguistic		_	False	False	False	False				_		0-5(89)
-SP2	90	okay	okay	[okay]	linguistic	End=177.349	_	False	False	False	False				_		2-4(91)
-SP1	91	centro	centro	[centro	linguistic	Begin=176.772	_	False	False	False	False				_		0-6(90)
-SP1	91	centro	centro	centro]	linguistic	End=177.461	_	False	False	False	False				_		0-6(90)
-SP1	92	dieci	DIECI	DIECI	linguistic	Begin=178.533	_	False	False	False	False				high		
-SP1	92	minuti	MINUTI	MINUTI	linguistic		_	False	False	False	False				high		
-SP1	92	camminata	CAMMINATA	CAMMINATA	linguistic		_	False	False	False	False				high		
-SP1	92	che	che	che	linguistic		_	False	False	False	False				_		
-SP1	92	dove	dove	dove	linguistic		_	False	False	False	False				_		
-SP1	92	lavoro	lavoro	lavoro	linguistic		_	False	False	False	False				_		
-SP1	92	io	io	io	linguistic	End=180.705	_	False	False	False	False				_		
-SP2	93	però	però	però	linguistic	Begin=181.194	_	False	False	False	False				_		
-SP2	93	c'	c'	c'	linguistic		_	False	False	True	False				_		
-SP2	93	è	è		linguistic		_	False	False	False	False				_		
-SP2	93	un	un	un	linguistic		_	False	False	False	False				_		
-SP2	93	po'	po'	po'	linguistic		_	False	False	True	False				_		
-SP2	93	di	di	di	linguistic		_	False	False	False	False				_		
-SP2	93	casino	casino	casino	linguistic		_	False	False	False	False				_		
-SP2	93	in	in	in	linguistic		_	False	False	False	False				_		
-SP2	93	centro	centro	cen[tro	linguistic		_	False	False	False	False				_		2-6(94)
-SP2	93	sporco,:	sporco,:	sporco,:]	error	End=183.794	_	False	False	False	False				_		0-6(94)
-SP1	94	no	no	[no	linguistic	Begin=182.744	_	False	False	False	False				_		0-2(93)
-SP1	94	guarda	guarda	guarda	linguistic		_	False	False	False	False				_		0-6(93)
-SP1	94	che	che	che	linguistic		_	False	False	False	False				_		0-3(93)
-SP1	94	il	il	il	linguistic		_	False	False	False	False				_		0-2(93)
-SP1	94	casino	casino	<c]asino>	linguistic		_	False	False	False	False		1-6(0)		_		0-4(93)
-SP1	94	no	no	no	linguistic		_	False	False	False	False		0-2(0)		_		
-SP1	94	x	x	x	linguistic		_	True	False	False	False				_		
-SP1	94	cioè	cioè	cioè	linguistic		_	False	False	False	False				_		
-SP1	94	proprio	proprio	proprio	linguistic		_	False	False	False	False				_		
-SP1	94	no	no	no	linguistic		_	False	False	False	False				_		
-SP1	94	non	non	non	linguistic		_	False	False	False	False				_		
-SP1	94	è	è	è	linguistic		_	False	False	False	False				_		
-SP1	94	che	che	che	linguistic		_	False	False	False	False				_		
-SP1	94	è	è	è	linguistic		_	False	False	False	False				_		
-SP1	94	sporco	sporco	sporco	linguistic		_	False	False	False	False				_		
-SP1	94	tu	tu	tu	linguistic		_	False	False	False	False				_		
-SP1	94	di-	di-	di-	linguistic		_	False	True	False	False				_		
-SP1	94	tu	tu	tu	linguistic		_	False	False	False	False				_		
-SP1	94	mh	mh	mh	linguistic		_	False	False	False	False				_		
-SP1	94	non	non	non	linguistic		_	False	False	False	False				_		
-SP1	94	posso	posso	posso	linguistic		_	False	False	False	False				_		
-SP1	94	cioè	cioè	cioè	linguistic		_	False	False	False	False				_		
-SP1	94	non	non	non	linguistic		_	False	False	False	False				_		
-SP1	94	puoi	puoi:	puoi:	linguistic		_	False	False	False	False	3x1			_		
-SP1	94	guardare	guardare	guardare	linguistic		_	False	False	False	False				_		
-SP1	94	tutte	tutte	tutte	linguistic		_	False	False	False	False				_		
-SP1	94	le	le	le	linguistic		_	False	False	False	False				_		
-SP1	94	cose	cose	cose	linguistic		_	False	False	False	False				_		
-SP1	94	insieme	insieme	insie[me]	linguistic	End=191.299	_	False	False	False	False				_		
-SP2	95	mh	mh	[mh	linguistic	Begin=191.066	_	False	False	False	False				_		0-2(94)
-SP2	95	mh	mh	mh]	linguistic	End=191.439	_	False	False	False	False				_		0-2(94)
-SP2	96	mh	mh	mh	linguistic	Begin=192.127	_	False	False	False	False				_		
-SP2	96	mh	mh	mh	linguistic	End=192.436	_	False	False	False	False				_		
-SP2	97	quindi	quindi	quindi	linguistic	Begin=193.04	_	False	False	False	False				_		
-SP2	97	sì	sì	sì	linguistic		_	False	False	False	False				_		
-SP2	97	ti	ti	ti	linguistic		_	False	False	False	False				_		
-SP2	97	ti	ti	[ti	linguistic		_	False	False	False	False				_		0-2(98)
-SP2	97	piacerebbe	piacerebbe	pia]cerebbe	linguistic		_	False	False	False	False				_		0-5(98)
-SP2	97	ritornare	ritornare	ritornare	linguistic		_	False	False	False	False				_		
-SP2	97	a	a	a	linguistic		_	False	False	False	False				_		
-SP2	97	vivere	vivere	[vivere	linguistic		_	False	False	False	False				_		2-6(99)
-SP2	97	in	in	in	linguistic		_	False	False	False	False				_		0-2(99)
-SP2	97	centro	centro	centro	linguistic		_	False	False	False	False				_		0-6(99)
-SP2	97	sì	sì	sì]	linguistic	End=195.788	_	False	False	False	False				_		0-2(99)
-SP1	98	sì	sì	[sì]	linguistic	End=194.083	_	False	False	False	False				_		0-2(97)
-SP1	99	perché	perché	[perché	linguistic	Begin=194.972	_	False	False	False	False				_		0-6(97)
-SP1	99	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		0-3(97)
-SP1	99	è	è	è	linguistic		_	False	False	False	False				_		0-1(97)
-SP1	99	una	una	u]na	linguistic		_	False	False	False	False				_		0-3(97)
-SP1	99	persona	persona	persona	linguistic		_	False	False	False	False				_		
-SP1	99	che	che	che	linguistic		_	False	False	False	False				_		
-SP1	99	vanno	vanno	vanno	linguistic		_	False	False	False	False				_		
-SP1	99	cioè	cioè	cioè	linguistic		_	False	False	False	False				_		
-SP1	99	lavorare	lavorare	lavorare	linguistic		_	False	False	False	False				_		
-SP1	99	dentro	dentro	dentro	linguistic		_	False	False	False	False				_		
-SP1	99	in	in	in	linguistic		_	False	False	False	False				_		
-SP1	99	città	città	città	linguistic		_	False	False	False	False				_		
-SP1	99	va	va	va	linguistic		_	False	False	False	False				_		
-SP1	99	a	a	a	linguistic		_	False	False	False	False				_		
-SP1	99	abitare	abitare	abitare	linguistic		_	False	False	False	False				_		
-SP1	99	fuori	fuori	fuori	linguistic		_	False	False	False	False				_		
-SP1	99	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP1	99	ti	ti	[ti	linguistic		_	False	False	False	False				_		
-SP1	99	inqui-	inqui-	in]qui-	linguistic		_	False	True	False	False				_		0-6(100)
-SP1	99	stai	stai	stai	linguistic		_	False	False	False	False				_		
-SP1	99	inquinando	inquinando	inquin[ando	linguistic		_	False	False	False	False				_		
-SP1	99	lo	lo	lo	linguistic		_	False	False	False	False				_		0-2(101)
-SP1	99	stesso	stesso	ste]ss[o]	linguistic	End=203.472	_	False	False	False	False				_		0-6(101)
-SP2	100	mh	mh	[mh	linguistic	Begin=200.911	_	False	False	False	False				_		0-2(99)
-SP2	100	mh	mh	mh]	linguistic	End=201.223	_	False	False	False	False				_		0-2(99)
-SP2	101	anche	anche	[anche]	linguistic	End=202.805	_	False	False	False	False				_		0-5(99)
-SP2	102	certo	certo	[ce]rto	linguistic	End=203.811	_	False	False	False	False				_		0-4(99)
-SP2	103	ah	ah	ah	linguistic	Begin=204.005	_	False	False	False	False				_		
-SP2	103	no	no	[no	linguistic		_	False	False	False	False				_		0-2(104)
-SP2	103	no	no	no	linguistic		_	False	False	False	False				_		0-2(104)
-SP2	103	no	no	no	linguistic		_	False	False	False	False				_		0-2(104)
-SP2	103	certamente	certamente	certamen]te	linguistic		_	False	False	False	False				_		0-10(104)
-SP2	103	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP2	103	sì	sì	sì	linguistic		_	False	False	False	False				_		
-SP2	103	sì	sì	sì	linguistic		_	False	False	False	False				_		
-SP2	103	sì	sì	sì	linguistic	End=206.416	_	False	False	False	False				_		
-SP1	104	devi	devi	[devi	linguistic	Begin=204.094	_	False	False	False	False				_		0-4(103)
-SP1	104	capire	capire	capire	linguistic		_	False	False	False	False				_		0-6(103)
-SP1	104	questa	questa	questa	linguistic		_	False	False	False	False				_		0-6(103)
-SP1	104	qua	qua	qua]	linguistic	End=205.393	_	False	False	False	False				_		0-3(103)
-SP2	105	eh	e:h	e:h	linguistic	Begin=206.811	_	False	False	False	False	0x1			_		
-SP2	105	niente	niente	nien[te	linguistic		_	False	False	False	False				_		5-6(106)
-SP2	105	da	da	da]	linguistic	End=207.811	_	False	False	False	False				_		0-2(106)
-SP1	106	ma	ma	[ma	linguistic	Begin=207.511	_	False	False	False	False				_		0-2(105)
-SP1	106	se	se	s]e	linguistic		_	False	False	False	False				_		0-2(105)
-SP1	106	come	come	come	linguistic		_	False	False	False	False				_		
-SP1	106	io	io	io	linguistic		_	False	False	False	False				_		
-SP1	106	che	che	che	linguistic		_	False	False	False	False				_		
-SP1	106	vengo	vengo	vengo	linguistic		_	False	False	False	False				_		
-SP1	106	a	a	a	linguistic		_	False	False	False	False				_		
-SP1	106	abitare	abitare	abitare	linguistic		_	False	False	False	False				_		
-SP1	106	{P}	{P}	{P}	shortpause		_	False	False	False	False				_		
-SP1	106	in	in	in	linguistic		_	False	False	False	False				_		
-SP1	106	cen-	cen-	cen-	linguistic		_	False	True	False	False				_		
-SP1	106	città	città	città	linguistic	End=211.344	_	False	False	False	False				_		
-SP1	107	una	una	una	linguistic	Begin=211.705	_	False	False	False	False				_		
-SP1	107	macchina	macchina	macchina	linguistic	End=212.777	_	False	False	False	False				_		
-SP1	108	già	già	già	linguistic	Begin=213.061	_	False	False	False	False				_		
-SP1	108	f-	f-	f-	linguistic	End=213.449	_	False	True	False	False				_		
-SP1	109	già	già	già	linguistic	End=214.038	_	False	False	False	False				_		
-SP1	110	ferma	ferma	fer[ma	linguistic	Begin=214.288	_	False	False	False	False				_		3-5(111)
-SP1	110	per	per	per]	linguistic	End=215.205	_	False	False	False	False				_		0-3(111)
-SP2	111	mh	mh	[mh	linguistic	Begin=214.738	_	False	False	False	False				_		0-2(110)
-SP2	111	mh	mh	mh]	linguistic	End=215.045	_	False	False	False	False				_		0-2(110)
-SP2	112	mh	mh	mh	linguistic	Begin=215.605	_	False	False	False	False				_		
-SP2	112	mh	mh	[mh]	linguistic	End=215.971	_	False	False	False	False				_		0-2(113)
-SP1	113	non	non	[non	linguistic	Begin=215.705	_	False	False	False	False				_		0-3(112)
-SP1	113	inquinare	inquinare	in]quinare	linguistic		_	False	False	False	False				_		0-4(112)
-SP1	113	la	la	la	linguistic		_	False	False	False	False				_		
-SP1	113	città	città	citt[à]	linguistic	End=216.999	_	False	False	False	False				_		
-SP2	114	sì	sì	[sì	linguistic	Begin=216.86	_	False	False	False	False				_		0-2(113)
-SP2	114	sì	sì	sì]	linguistic		_	False	False	False	False				_		0-2(113)
-SP2	114	sì	sì	sì	linguistic		_	False	False	False	False				_		0-1(113)
-SP2	114	è	è	è	linguistic		_	False	False	False	False				_		
-SP2	114	vero	vero	vero	linguistic		_	False	False	False	False				_		
-SP2	114	capisco	capisco	capisco	linguistic		_	False	False	False	False				_		
-SP2	114	perfettamente	perfettamente	perfettamente	linguistic	End=219.199	_	False	False	False	False				_		
-SP2	115	mh	m:h	m:h	linguistic	Begin=219.58	_	False	False	False	False	0x1			_		
-SP2	115	e	e	e	linguistic		_	False	False	False	False				_		
-SP2	115	sono	sono	sono	linguistic		_	False	False	False	False				_		
-SP2	115	curiosa	curiosa	curiosa	linguistic		_	False	False	False	False				_		
-SP2	115	di	di	di	linguistic		_	False	False	False	False				_		
-SP2	115	chiederti	chiederti	chiederti	linguistic		_	False	False	False	False				_		
-SP2	115	anche	anche	anche	linguistic	End=222.172	_	False	False	False	False				_		
-SP2	116	perché	perchè	perchè	linguistic	End=222.794	_	False	False	False	False				_		
-SP2	117	quindi	quindi	quindi	linguistic	Begin=223.055	_	False	False	False	False				_		
-SP2	117	immagino	immagino	immagino	linguistic		_	False	False	False	False				_		
-SP2	117	che	che	che	linguistic		_	False	False	False	False				_		
-SP2	117	la	la	la	linguistic		_	False	False	False	False				_		
-SP2	117	tua	tua	tua	linguistic		_	False	False	False	False				_		
-SP2	117	famiglia	famiglia	famiglia	linguistic	End=224.577	_	False	False	False	False				_		
-SP2	118	si	si	si	linguistic	Begin=225.027	_	False	False	False	False				_		
-SP2	118	sia	sia	sia	linguistic		_	False	False	False	False				_		
-SP2	118	trasferita	trasferita	trasfer[ita	linguistic		_	False	False	False	False				_		7-10(119)
-SP2	118	qui	qui	qui	linguistic		_	False	False	False	False				_		0-3(119)
-SP2	118	dal	dal	da]l	linguistic		_	False	False	False	False				_		0-3(119)
-SP2	118	bangladesh	bangladesh	bangladesh	linguistic		_	False	False	False	False				_		
-SP2	118	no	no	no	linguistic		_	False	False	False	False				_		
-SP2	118	quindi	quindi	quindi	linguistic		_	False	False	False	False				_		
-SP2	118	in	in	in	linguistic		_	False	False	False	False				_		
-SP2	118	in	in	in	linguistic		_	False	False	False	False				_		
-SP2	118	nella	nella	nella	linguistic		_	False	False	False	False				_		
-SP2	118	in	in	in	linguistic		_	False	False	False	False				_		
-SP2	118	casa	casa	casa	linguistic		_	False	False	False	False				_		
-SP2	118	con	con	con	linguistic		_	False	False	False	False				_		
-SP2	118	i	i	i	linguistic		_	False	False	False	False				_		
-SP2	118	tuoi	tuoi	tuoi	linguistic		_	False	False	False	False				_		
-SP2	118	genitori	genitori	genitori	linguistic	End=229.577	_	False	False	False	False				_		
-SP1	119	sì	sì	[sì]	linguistic	End=226.177	_	False	False	False	False				_		0-2(118)
-SP2	120	parla-	parla-	parla-	linguistic	Begin=229.886	_	False	True	False	False				_		
-SP2	120	mh	m:h	m:h	linguistic		_	False	False	False	False	0x1			_		
-SP2	120	che	che	che	linguistic		_	False	False	False	False				_		
-SP2	120	lingua	lingua	lingua	linguistic		_	False	False	False	False				_		
-SP2	120	parlate	parlate	parlate	linguistic	End=231.877	_	False	False	False	False				_		
-SP1	121	sì	sì	sì	linguistic	Begin=231.961	_	False	False	False	False				_		
-SP1	121	è	è	è	linguistic		_	False	False	False	False				_		
-SP1	121	la	la	la	linguistic		_	False	False	False	False				_		
-SP1	121	lingua	lingua	lingua	linguistic		_	False	False	False	False				_		
-SP1	121	d'	d'	d'	linguistic		_	False	False	True	False				_		
-SP1	121	anglo	anglo	nglo	linguistic		_	False	False	False	False				_		
-SP1	121	che	che	che	linguistic		_	False	False	False	False				_		
-SP1	121	parlano	parlano	parlano	linguistic		_	False	False	False	False				_		
-SP1	121	però	però	però	linguistic		_	False	False	False	False				_		
-SP1	121	tutti	tutti	tutti	linguistic		_	False	False	False	False				_		
-SP1	121	quanti	quanti	quanti	linguistic		_	False	False	False	False				_		
-SP1	121	lo	lo	lo	linguistic		_	False	False	False	False				_		
-SP1	121	sanno	sanno	sanno	linguistic		_	False	False	False	False				_		
-SP1	121	anche	anche	anche	linguistic		_	False	False	False	False				_		
-SP1	121	italiano	italiano	italiano	linguistic	End=237.983	_	False	False	False	False				_		
+speaker	tu_id	token	orig_token	span	type	metalinguistic_category	align	intonation	unknown	interruption	truncation	prosodicLink	spaceafter	prolongations	slow_pace	fast_pace	volume	guesses	overlaps
+SP1	1	come	come	come	linguistic	_	Begin=0.52	_	_	_	_	_	_				_		
+SP1	1	tabacco	tabacco	tabacco	linguistic	_		_	_	_	_	_	_				_		
+SP1	1	no	no	no	linguistic	_		_	_	_	_	_	_				_		
+SP1	1	eh	[eh	[eh	linguistic	_		_	_	_	_	_	_				_		0-2(2)
+SP1	1	di	di	di	linguistic	_		_	_	_	_	_	_				_		0-2(2)
+SP1	1	là	l]à	l]à	linguistic	_		_	_	_	_	_	_				_		0-1(2)
+SP1	1	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP1	1	lavorando	lavorando	lavorando	linguistic	_		_	_	_	_	_	_				_		
+SP1	1	più	più	più	linguistic	_		_	_	_	_	_	_				_		
+SP1	1	di	di	di	linguistic	_		_	_	_	_	_	_				_		
+SP1	1	tre	tre	tre	linguistic	_		_	_	_	_	_	_				_		
+SP1	1	tremila	<tremila>	<tremila>	linguistic	_		_	_	_	_	_	_		0-7(0)		_		
+SP1	1	persone	pers[one	pers[one	linguistic	_		_	_	_	_	_	_				_		4-7(3)
+SP1	1	non	non]	non]	linguistic	_		_	_	_	_	_	_				_		0-3(3)
+SP1	1	sono	sono	sono	linguistic	_		_	_	_	_	_	_				_		
+SP1	1	esattamente	esattamente	esattamente	linguistic	_		_	_	_	_	_	_				_		
+SP1	1	o	o	o	linguistic	_		_	_	_	_	_	_				_		
+SP1	1	tremila	tremila	tremila	linguistic	_		_	_	_	_	_	_				_		
+SP1	1	o	o	o	linguistic	_		_	_	_	_	_	_				_		
+SP1	1	trenta	trenta	trenta	linguistic	_		_	_	_	_	_	_				_		
+SP1	1	mila	mila	mila	linguistic	_		_	_	_	_	_	_				_		
+SP1	1	ma	[ma	[ma	linguistic	_		_	_	_	_	_	_				_		0-2(4)
+SP1	1	tremila	tre]mila	tre]mila	linguistic	_		_	_	_	_	_	_				_		0-3(4)
+SP1	1	che	che	che	linguistic	_		_	_	_	_	_	_				_		
+SP1	1	facciamo	facciamo	facciamo	linguistic	_	End=8.44	_	_	_	_	_	_				_		
+SP2	2	okay	[okay]	[okay]	linguistic	_	End=1.911	_	_	_	_	_	_				_		0-4(1)
+SP2	3	mh	[mh	[mh	linguistic	_	Begin=4.692	_	_	_	_	_	_				_		0-2(1)
+SP2	3	mh	mh]	mh]	linguistic	_	End=5.061	_	_	_	_	_	_				_		0-2(1)
+SP2	4	mh	[mh	[mh	linguistic	_	Begin=7.155	_	_	_	_	_	_				_		0-2(1)
+SP2	4	mh	mh]	mh]	linguistic	_	End=7.463	_	_	_	_	_	_				_		0-2(1)
+SP1	5	ma	ma	ma	linguistic	_	Begin=8.84	_	_	_	_	_	_				_		
+SP1	5	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP1	5	non	non	non	linguistic	_		_	_	_	_	_	_				_		
+SP1	5	si	si	si	linguistic	_		_	_	_	_	_	_				_		
+SP1	5	trovano	trovano	trovano	linguistic	_		_	_	_	_	_	_				_		
+SP1	5	adesso	adesso	adesso	linguistic	_		_	_	_	_	_	_				_		
+SP1	5	neanche	neanche	neanche	linguistic	_		_	_	_	_	_	_				_		
+SP1	5	là	là	là	linguistic	_		_	_	_	_	_	_				_		
+SP1	5	il	il	il	linguistic	_		_	_	_	_	_	_				_		
+SP1	5	l'	l'	l'	linguistic	_		_	_	_	_	_	SpaceAfter=No				_		
+SP1	5	appartamento	appartam[ento]	ppartam[ento]	linguistic	_	End=11.194	_	_	_	_	_	_				_		7-12(6)
+SP2	6	eh	[eh]	[eh]	linguistic	_	Begin=11.094	_	_	_	_	_	_				_		0-2(5)
+SP2	6	esatto	esatto	esatto	linguistic	_		_	_	_	_	_	_				_		
+SP2	6	te	te	te	linguistic	_		_	_	_	_	_	_				_		
+SP2	6	lo	lo	lo	linguistic	_		_	_	_	_	_	_				_		
+SP2	6	era	era	era	linguistic	_		_	_	_	_	_	_				_		
+SP2	6	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP2	6	questo	questo	questo	linguistic	_		_	_	_	_	_	_				_		
+SP2	6	che	che	che	linguistic	_		_	_	_	_	_	_				_		
+SP2	6	volevo	volevo	volevo	linguistic	_		_	_	_	_	_	_				_		
+SP2	6	chiederti	chiederti	chiederti	linguistic	_	End=14.055	_	_	_	_	_	_				_		
+SP2	7	perché	perché	perché	linguistic	_	End=14.522	_	_	_	_	_	_				_		
+SP1	8	eh	eh	eh	linguistic	_	Begin=14.872	_	_	_	_	_	_				_		
+SP1	8	sì	s[ì]	s[ì]	linguistic	_	End=15.299	_	_	_	_	_	_				_		1-2(?)
+SP2	9	se	[s]e	[s]e	linguistic	_	Begin=15.372	_	_	_	_	_	_				_		0-1(?)
+SP2	9	tutti	tutti	tutti	linguistic	_		_	_	_	_	_	_				_		
+SP2	9	vogliono	vogliono	vogliono	linguistic	_		_	_	_	_	_	_				_		
+SP2	9	vivere	vivere	vivere	linguistic	_		_	_	_	_	_	_				_		
+SP2	9	lì	lì	lì	linguistic	_	End=16.788	_	_	_	_	_	_				_		
+SP1	10	sì	sì	sì	linguistic	_	Begin=17.56	_	_	_	_	_	_				_		
+SP1	10	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP1	10	non	non	non	linguistic	_		_	_	_	_	_	_				_		
+SP1	10	si	si	si	linguistic	_		_	_	_	_	_	_				_		
+SP1	10	trovano	trovano	trovano	linguistic	_		_	_	_	_	_	_				_		
+SP1	10	appartamenti	appartament[i]	appartament[i]	linguistic	_		_	_	_	_	_	_				_		11-12(11)
+SP1	10	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP1	10	la	la	la	linguistic	_		_	_	_	_	_	_				_		
+SP1	10	verità	verit[à]	verit[à]	linguistic	_	End=20.005	_	_	_	_	_	_				_		5-6(12)
+SP2	11	mh	[°mh	[°mh	linguistic	_	Begin=19.066	_	_	_	_	_	_				low		0-2(10)
+SP2	11	mh	mh°]	mh°]	linguistic	_	End=19.294	_	_	_	_	_	_				low		0-2(10)
+SP2	12	mh	[mh]	[mh]	linguistic	_	Begin=19.844	_	_	_	_	_	_				_		0-2(10)
+SP2	12	mh	mh	mh	linguistic	_	End=20.153	_	_	_	_	_	_				_		
+SP1	13	piuttosto	piuttosto	piuttosto	linguistic	_	Begin=20.244	_	_	_	_	_	_				_		
+SP1	13	che	che:	che:	linguistic	_		_	_	_	_	_	_	2x1			_		
+SP1	13	ci	ci	ci	linguistic	_		_	_	_	_	_	_				_		
+SP1	13	sono	sono	sono	linguistic	_		_	_	_	_	_	_				_		
+SP1	13	un	un	un	linguistic	_		_	_	_	_	_	_				_		
+SP1	13	sacco	sacco	sacco	linguistic	_		_	_	_	_	_	_				_		
+SP1	13	di	di:	di:	linguistic	_		_	_	_	_	_	_	1x1			_		
+SP1	13	gente	gente	gente	linguistic	_	End=23.933	_	_	_	_	_	_				_		
+SP1	14	come	come:	come:	linguistic	_	Begin=24.499	_	_	_	_	_	_	3x1			_		
+SP1	14	non	non	non	linguistic	_		_	_	_	_	_	_				_		
+SP1	14	vuole	vuole	vuole	linguistic	_		_	_	_	_	_	_				_		
+SP1	14	dare	dare	dare	linguistic	_		_	_	_	_	_	_				_		
+SP1	14	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP1	14	appartamenti	appartamenti	appartamenti	linguistic	_		_	_	_	_	_	_				_		
+SP1	14	per	per	per	linguistic	_		_	_	_	_	_	_				_		
+SP1	14	la	la	la	linguistic	_		_	_	_	_	_	_				_		
+SP1	14	famiglia	famiglia	famiglia	linguistic	_	End=27.177	_	_	_	_	_	_				_		
+SP1	15	un	un	un	linguistic	_	Begin=27.805	_	_	_	_	_	_				_		
+SP1	15	po'	po'	po'	linguistic	_		_	_	_	_	_	_				_		
+SP1	15	che	che	che	linguistic	_		_	_	_	_	_	_				_		
+SP1	15	danno	danno	danno	linguistic	_		_	_	_	_	_	_				_		
+SP1	15	un	un	un	linguistic	_		_	_	_	_	_	_				_		
+SP1	15	po'	po'	po'	linguistic	_		_	_	_	_	_	_				_		
+SP1	15	di	di	di	linguistic	_		_	_	_	_	_	_				_		
+SP1	15	persone	person[e	person[e	linguistic	_		_	_	_	_	_	_				_		6-7(16)
+SP1	15	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		0-3(16)
+SP1	15	che	c]he:	c]he:	linguistic	_		_	_	_	_	_	_	2x1			_		0-1(16)
+SP1	15	dopo	dopo	dopo	linguistic	_		_	_	_	_	_	_				_		
+SP1	15	fanno	fanno	fanno	linguistic	_		_	_	_	_	_	_				_		
+SP1	15	la	la	la	linguistic	_		_	_	_	_	_	_				_		
+SP1	15	storia	storia	storia	linguistic	_	End=31.9	_	_	_	_	_	_				_		
+SP2	16	mh	[mh	[mh	linguistic	_	Begin=29.677	_	_	_	_	_	_				_		0-2(15)
+SP2	16	mh	mh]	mh]	linguistic	_	End=30.053	_	_	_	_	_	_				_		0-2(15)
+SP2	17	mh	[mh	[mh	linguistic	_	Begin=31.983	_	_	_	_	_	_				_		0-2(18)
+SP2	17	mh	mh]	mh]	linguistic	_	End=32.305	_	_	_	_	_	_				_		0-2(18)
+SP1	18	allora	[allora]	[allora]	linguistic	_	End=32.477	_	_	_	_	_	_				_		0-6(17)
+SP1	19	per	per	per	linguistic	_	Begin=32.772	_	_	_	_	_	_				_		
+SP1	19	pochi	pochi	pochi	linguistic	_		_	_	_	_	_	_				_		
+SP1	19	che	che:	che:	linguistic	_		_	_	_	_	_	_	2x1			_		
+SP1	19	tutti	tutti	tutti	linguistic	_		_	_	_	_	_	_				_		
+SP1	19	quanti	quanti:	quanti:	linguistic	_	End=34.905	_	_	_	_	_	_	5x1			_		
+SP2	20	sì	sì	sì	linguistic	_	Begin=35.68	_	_	_	_	_	_				_		
+SP2	20	sì	sì	sì	linguistic	_		_	_	_	_	_	_				_		
+SP2	20	sì	sì	sì	linguistic	_		_	_	_	_	_	_				_		
+SP2	20	certo	certo	certo	linguistic	_		_	_	_	_	_	_				_		
+SP2	20	capito	capito	capito	linguistic	_		_	_	_	_	_	_				_		
+SP2	20	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP2	20	mh	mh	mh	linguistic	_		_	_	_	_	_	_				_		
+SP2	20	e	e	e	linguistic	_		_	_	_	_	_	_				_		
+SP2	20	ma	ma	ma	linguistic	_		_	_	_	_	_	_				_		
+SP2	20	se	se	se	linguistic	_		_	_	_	_	_	_				_		
+SP2	20	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP2	20	se	se	se	linguistic	_		_	_	_	_	_	_				_		
+SP2	20	potessi	potessi	potessi	linguistic	_		_	_	_	_	_	_				_		
+SP2	20	un	un	un	linguistic	_		_	_	_	_	_	_				_		
+SP2	20	giorno	giorno	giorno	linguistic	_		_	_	_	_	_	_				_		
+SP2	20	vorresti	vorresti	vorresti	linguistic	_		_	_	_	_	_	_				_		
+SP2	20	vivere	vivere	vivere	linguistic	_		_	_	_	_	_	_				_		
+SP2	20	in	in	in	linguistic	_		_	_	_	_	_	_				_		
+SP2	20	città	citt[à	citt[à	linguistic	_		_	_	_	_	_	_				_		4-5(21)
+SP2	20	o	o,]	o,]	linguistic	_	End=41.122	weakly_ascending	_	_	_	_	_				_		0-1(21)
+SP1	21	assolutamente	[assolu]tamente	[assolu]tamente	linguistic	_	Begin=40.833	_	_	_	_	_	_				_		0-6(20)
+SP1	21	io	io	io	linguistic	_		_	_	_	_	_	_				_		
+SP1	21	e	e	e	linguistic	_		_	_	_	_	_	_				_		
+SP1	21	sto	sto	sto	linguistic	_		_	_	_	_	_	_				_		
+SP1	21	provando	provando	provando	linguistic	_		_	_	_	_	_	_				_		
+SP1	21	tutti	tutti	tutti	linguistic	_		_	_	_	_	_	_				_		
+SP1	21	i	i	i	linguistic	_		_	_	_	_	_	_				_		
+SP1	21	giorni	giorni	giorni	linguistic	_		_	_	_	_	_	_				_		
+SP1	21	a	a	a	linguistic	_		_	_	_	_	_	_				_		
+SP1	21	trovare	[trova]re	[trova]re	linguistic	_		_	_	_	_	_	_				_		0-5(22)
+SP1	21	c'	c'	c'	linguistic	_		_	_	_	_	_	SpaceAfter=No				_		
+SP1	21	è	è		linguistic	_		_	_	_	_	_	_				_		
+SP1	21	un	un	un	linguistic	_		_	_	_	_	_	_				_		
+SP1	21	appartamento	appartamento	appartamento	linguistic	_		_	_	_	_	_	_				_		
+SP1	21	per	per	per	linguistic	_		_	_	_	_	_	_				_		
+SP1	21	i	i:	i:	linguistic	_		_	_	_	_	_	_	0x1			_		
+SP1	21	trasferire	trasferire	trasferire	linguistic	_		_	_	_	_	_	_				_		
+SP1	21	in	in	in	linguistic	_		_	_	_	_	_	_				_		
+SP1	21	bologna	bolo[gna	bolo[gna	linguistic	_		_	_	_	_	_	_				_		3-7(23)
+SP1	21	cioè	cioè]	cioè]	linguistic	_	End=47.01	_	_	_	_	_	_				_		0-4(23)
+SP2	22	okay	[°okay°]	[°okay°]	linguistic	_	End=43.404	_	_	_	_	_	_				low		0-4(21)
+SP2	23	mh	[mh	[mh	linguistic	_	Begin=46.416	_	_	_	_	_	_				_		0-2(21)
+SP2	23	mh	mh]	mh]	linguistic	_	End=46.794	_	_	_	_	_	_				_		0-2(21)
+SP1	24	io	io	io	linguistic	_	Begin=47.094	_	_	_	_	_	_				_		
+SP1	24	lavoro	lavoro	lavoro	linguistic	_		_	_	_	_	_	_				_		
+SP1	24	qui	qui	qui	linguistic	_	End=48.094	_	_	_	_	_	_				_		
+SP1	25	è	è	è	linguistic	_	Begin=48.294	_	_	_	_	_	_				_		
+SP1	25	un	un	un	linguistic	_		_	_	_	_	_	_				_		
+SP1	25	utile	utile	utile	linguistic	_		_	_	_	_	_	_				_		
+SP1	25	che	che	che	linguistic	_		_	_	_	_	_	_				_		
+SP1	25	io	io	io	linguistic	_		_	_	_	_	_	_				_		
+SP1	25	vado	vado	vado	linguistic	_		_	_	_	_	_	_				_		
+SP1	25	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP1	25	a	a	a	linguistic	_	End=50.044	_	_	_	_	_	_				_		
+SP1	26	esempio	esempio	esempio	linguistic	_	Begin=50.555	_	_	_	_	_	_				_		
+SP1	26	faccio	faccio	faccio	linguistic	_		_	_	_	_	_	_				_		
+SP1	26	così	così	così	linguistic	_		_	_	_	_	_	_				_		
+SP1	26	una	una	una	linguistic	_		_	_	_	_	_	_				_		
+SP1	26	una	una	una	linguistic	_		_	_	_	_	_	_				_		
+SP1	26	una	una	una	linguistic	_		_	_	_	_	_	_				_		
+SP1	26	ragionamento	ragionamento	ragionamento	linguistic	_		_	_	_	_	_	_				_		
+SP1	26	se	se	se	linguistic	_		_	_	_	_	_	_				_		
+SP1	26	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP1	26	lo	lo	lo	linguistic	_		_	_	_	_	_	_				_		
+SP1	26	trovo	trovo	trovo	linguistic	_		_	_	_	_	_	_				_		
+SP1	26	una	una	una	linguistic	_		_	_	_	_	_	_				_		
+SP1	26	casa	casa	casa	linguistic	_		_	_	_	_	_	_				_		
+SP1	26	in	in	in	linguistic	_		_	_	_	_	_	_				_		
+SP1	26	bologna	bologna	bologna	linguistic	_	End=55.972	_	_	_	_	_	_				_		
+SP1	27	che	che	che	linguistic	_	Begin=56.238	_	_	_	_	_	_				_		
+SP1	27	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP1	27	mille	mille	mille	linguistic	_		_	_	_	_	_	_				_		
+SP1	27	euro	euro	euro	linguistic	_		_	_	_	_	_	_				_		
+SP1	27	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP1	27	facciamo	facci[amo	facci[amo	linguistic	_		_	_	_	_	_	_				_		5-8(28)
+SP1	27	perché	pe]rché:	pe]rché:	linguistic	_		_	_	_	_	_	_	5x1			_		0-2(28)
+SP1	27	una	una	una	linguistic	_		_	_	_	_	_	_				_		
+SP1	27	casa	casa	casa	linguistic	_		_	_	_	_	_	_				_		
+SP1	27	deve	deve	deve	linguistic	_		_	_	_	_	_	_				_		
+SP1	27	essere	essere	essere	linguistic	_		_	_	_	_	_	_				_		
+SP1	27	mille	mille	mille	linguistic	_		_	_	_	_	_	_				_		
+SP1	27	euro	euro	euro	linguistic	_	End=60.649	_	_	_	_	_	_				_		
+SP2	28	mh	[mh	[mh	linguistic	_	Begin=57.905	_	_	_	_	_	_				_		0-2(27)
+SP2	28	mh	mh]	mh]	linguistic	_	End=58.215	_	_	_	_	_	_				_		0-2(27)
+SP1	29	e	e	e	linguistic	_	Begin=60.74	_	_	_	_	_	_				_		
+SP1	29	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP1	29	non	non	non	linguistic	_		_	_	_	_	_	_				_		
+SP1	29	è	è	è	linguistic	_		_	_	_	_	_	_				_		
+SP1	29	che	che	che	linguistic	_		_	_	_	_	_	_				_		
+SP1	29	deve	deve	deve	linguistic	_		_	_	_	_	_	_				_		
+SP1	29	essere	essere	essere	linguistic	_		_	_	_	_	_	_				_		
+SP1	29	soltanto	soltanto	soltanto	linguistic	_		_	_	_	_	_	_				_		
+SP1	29	una	una	una	linguistic	_		_	_	_	_	_	_				_		
+SP1	29	camera	camera	camera	linguistic	_		_	_	_	_	_	_				_		
+SP1	29	un	un	un	linguistic	_		_	_	_	_	_	_				_		
+SP1	29	mon-	mon-	mon-	linguistic	_		_	_	Interrupted=Yes	_	_	_				_		
+SP1	29	un	un	un	linguistic	_		_	_	_	_	_	_				_		
+SP1	29	monolocale	monolocale	monolocale	linguistic	_		_	_	_	_	_	_				_		
+SP1	29	che	che	che	linguistic	_		_	_	_	_	_	_				_		
+SP1	29	è	è	è	linguistic	_		_	_	_	_	_	_				_		
+SP1	29	mille	mille	mille	linguistic	_		_	_	_	_	_	_				_		
+SP1	29	euro	euro	euro	linguistic	_		_	_	_	_	_	_				_		
+SP1	29	no	no	no	linguistic	_	End=64.794	_	_	_	_	_	_				_		
+SP1	30	è	è	è	linguistic	_	Begin=65.211	_	_	_	_	_	_				_		
+SP1	30	troppo	troppo	troppo	linguistic	_	End=65.672	_	_	_	_	_	_				_		
+SP2	31	è	è	è	linguistic	_	Begin=65.677	_	_	_	_	_	_				_		
+SP2	31	troppo	troppo	troppo	linguistic	_		_	_	_	_	_	_				_		
+SP2	31	sì	sì	sì	linguistic	_	End=66.42	_	_	_	_	_	_				_		
+SP1	32	deve	deve	deve	linguistic	_	Begin=66.466	_	_	_	_	_	_				_		
+SP1	32	essere	essere	essere	linguistic	_		_	_	_	_	_	_				_		
+SP1	32	almeno	almeno	almeno	linguistic	_		_	_	_	_	_	_				_		
+SP1	32	tre	tre	tre	linguistic	_		_	_	_	_	_	_				_		
+SP1	32	camera	camera	camera	linguistic	_		_	_	_	_	_	_				_		
+SP1	32	di	di	di	linguistic	_		_	_	_	_	_	_				_		
+SP1	32	letto	let[to	let[to	linguistic	_		_	_	_	_	_	_				_		3-5(33)
+SP1	32	per	per	per	linguistic	_		_	_	_	_	_	_				_		0-3(33)
+SP1	32	per	per]	per]	linguistic	_		_	_	_	_	_	_				_		0-3(33)
+SP1	32	mille	mille	mille	linguistic	_		_	_	_	_	_	_				_		
+SP1	32	euro	euro	euro	linguistic	_		_	_	_	_	_	_				_		
+SP1	32	mille	mille	mille	linguistic	_		_	_	_	_	_	_				_		
+SP1	32	due	due	due	linguistic	_		_	_	_	_	_	_				_		
+SP1	32	mille	mille	mille	linguistic	_		_	_	_	_	_	_				_		
+SP1	32	cento	cento	cento	linguistic	_		_	_	_	_	_	_				_		
+SP1	32	facciamo	facc[iamo]	facc[iamo]	linguistic	_		_	_	_	_	_	_				_		4-8(34)
+SP1	32	così	così	così	linguistic	_	End=71.722	_	_	_	_	_	_				_		
+SP2	33	sì	[sì	[sì	linguistic	_	Begin=68.083	_	_	_	_	_	_				_		0-2(32)
+SP2	33	sì	sì	sì	linguistic	_		_	_	_	_	_	_				_		0-2(32)
+SP2	33	sì	sì]	sì]	linguistic	_	End=68.805	_	_	_	_	_	_				_		0-2(32)
+SP2	34	mh	[mh	[mh	linguistic	_	Begin=71.088	_	_	_	_	_	_				_		0-2(32)
+SP2	34	mh	mh]	mh]	linguistic	_	End=71.461	_	_	_	_	_	_				_		0-2(32)
+SP1	35	se	se	se	linguistic	_	Begin=72.7	_	_	_	_	_	_				_		
+SP1	35	vado	vado	vado	linguistic	_		_	_	_	_	_	_				_		
+SP1	35	a	a:	a:	linguistic	_		_	_	_	_	_	_	0x1			_		
+SP1	35	valsamoggia	valsamoggia	valsamoggia	linguistic	_	End=74.483	_	_	_	_	_	_				_		
+SP1	36	ogni	ogni	ogni	linguistic	_	Begin=74.716	_	_	_	_	_	_				_		
+SP1	36	mese	mese	mese	linguistic	_		_	_	_	_	_	_				_		
+SP1	36	io	io	io	linguistic	_		_	_	_	_	_	_				_		
+SP1	36	e	e	e	linguistic	_		_	_	_	_	_	_				_		
+SP1	36	spendo	spendo	spendo	linguistic	_		_	_	_	_	_	_				_		
+SP1	36	c-	c-	c-	linguistic	_		_	_	Interrupted=Yes	_	_	_				_		
+SP1	36	più	più	più	linguistic	_		_	_	_	_	_	_				_		
+SP1	36	di	di	di	linguistic	_		_	_	_	_	_	_				_		
+SP1	36	duecento	duecento	duecento	linguistic	_		_	_	_	_	_	_				_		
+SP1	36	euro	euro	euro	linguistic	_		_	_	_	_	_	_				_		
+SP1	36	di	di	di	linguistic	_		_	_	_	_	_	_				_		
+SP1	36	benzina	benzina	benzina	linguistic	_	End=77.72200000000001	_	_	_	_	_	_				_		
+SP2	37	sì	sì	sì	linguistic	_	Begin=77.82	_	_	_	_	_	_				_		
+SP2	37	sì	sì	sì	linguistic	_		_	_	_	_	_	_				_		
+SP2	37	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP2	37	e	e	e	linguistic	_		_	_	_	_	_	_				_		
+SP2	37	il	il	il	linguistic	_		_	_	_	_	_	_				_		
+SP2	37	parcheggio	parcheggio	parcheggio	linguistic	_	End=79.144	_	_	_	_	_	_				_		
+SP1	38	e	e	e	linguistic	_	Begin=79.266	_	_	_	_	_	_				_		
+SP1	38	parcheggio	parcheggio	parcheggio	linguistic	_		_	_	_	_	_	_				_		
+SP1	38	più	pi[ù]	pi[ù]	linguistic	_	End=79.97200000000001	_	_	_	_	_	_				_		2-3(?)
+SP2	39	sì	[s]ì	[s]ì	linguistic	_	End=80.261	_	_	_	_	_	_				_		0-1(?)
+SP1	40	facciamo	facciamo	facciamo	linguistic	_	Begin=80.327	_	_	_	_	_	_				_		
+SP1	40	trecentocinquanta	trecentocin[quanta	trecentocin[quanta	linguistic	_		_	_	_	_	_	_				_		11-17(41)
+SP1	40	euro	euro	euro	linguistic	_		_	_	_	_	_	_				_		0-4(41)
+SP1	40	di	di	di	linguistic	_		_	_	_	_	_	_				_		0-2(41)
+SP1	40	ogni	ogni	ogni	linguistic	_		_	_	_	_	_	_				_		0-4(41)
+SP1	40	mese	mes]e	mes]e	linguistic	_	End=83.477	_	_	_	_	_	_				_		0-3(41)
+SP2	41	sì	[sì	[sì	linguistic	_	Begin=81.611	_	_	_	_	_	_				_		0-2(40)
+SP2	41	sì	sì	sì	linguistic	_		_	_	_	_	_	_				_		0-2(40)
+SP2	41	diventa	(diventa	(diventa	linguistic	_		_	_	_	_	_	_				_	0-7(0)	0-7(40)
+SP2	41	altiss-	altiss-)]	altiss-)]	linguistic	_	End=83.216	_	_	Interrupted=Yes	_	_	_				_	0-7(0)	0-7(40)
+SP2	42	tantissimo	tantissimo	tantissimo	linguistic	_	End=84.38	_	_	_	_	_	_				_		
+SP1	43	tantissimo	tantissimo	tantissimo	linguistic	_	End=85.26	_	_	_	_	_	_				_		
+SP2	44	sì	°sì	°sì	linguistic	_	Begin=85.894	_	_	_	_	_	_				low		
+SP2	44	sì	sì°	sì°	linguistic	_	End=86.416	_	_	_	_	_	_				low		
+SP2	45	no	no	no	linguistic	_	Begin=86.655	_	_	_	_	_	_				_		
+SP2	45	io	io	io	linguistic	_		_	_	_	_	_	_				_		
+SP2	45	non	non	non	linguistic	_		_	_	_	_	_	_				_		
+SP2	45	ho	ho	ho	linguistic	_		_	_	_	_	_	_				_		
+SP2	45	la	la	la	linguistic	_		_	_	_	_	_	_				_		
+SP2	45	macchina	macchina	macchina	linguistic	_		_	_	_	_	_	_				_		
+SP2	45	quindi	quindi	quindi	linguistic	_		_	_	_	_	_	_				_		
+SP2	45	non	non	non	linguistic	_		_	_	_	_	_	_				_		
+SP2	45	mi	mi	mi	linguistic	_		_	_	_	_	_	_				_		
+SP2	45	rendo	r[endo	r[endo	linguistic	_		_	_	_	_	_	_				_		1-5(46)
+SP2	45	conto	conto	conto	linguistic	_		_	_	_	_	_	_				_		0-5(46)
+SP2	45	sento	sento	sento	linguistic	_		_	_	_	_	_	_				_		0-5(46)
+SP2	45	queste	queste	queste	linguistic	_		_	_	_	_	_	_				_		0-6(46)
+SP2	45	cifre	cifre]	cifre]	linguistic	_		_	_	_	_	_	_				_		0-5(46)
+SP2	45	{ride}	{ride}	{ride}	metalinguistic	_	End=90.411	_	_	_	_	_	_				_		
+SP1	46	no	[no	[no	linguistic	_	Begin=88.199	_	_	_	_	_	_				_		0-2(45)
+SP1	46	intendevo	<intendevo	<intendevo	linguistic	_		_	_	_	_	_	_		0-9(0)		_		0-9(45)
+SP1	46	intendevo	intende]vo>	intende]vo>	linguistic	_		_	_	_	_	_	_		0-9(0)		_		0-7(45)
+SP1	46	che	che	che	linguistic	_		_	_	_	_	_	_				_		
+SP1	46	se	se	se	linguistic	_		_	_	_	_	_	_				_		
+SP1	46	là	là	là	linguistic	_		_	_	_	_	_	_				_		
+SP1	46	pago	pago	pago	linguistic	_		_	_	_	_	_	_				_		
+SP1	46	settecento	settecento	settecento	linguistic	_		_	_	_	_	_	_				_		
+SP1	46	euro	euro	euro	linguistic	_		_	_	_	_	_	_				_		
+SP1	46	in	in	in	linguistic	_		_	_	_	_	_	_				_		
+SP1	46	affitto	affitto	affitto	linguistic	_	End=93.999	_	_	_	_	_	_				_		
+SP1	47	più	più	più	linguistic	_	Begin=94.344	_	_	_	_	_	_				_		
+SP1	47	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP1	47	trecentocinquanta	trecentocinquant[a	trecentocinquant[a	linguistic	_		_	_	_	_	_	_				_		16-17(48)
+SP1	47	sono	so]no	so]no	linguistic	_		_	_	_	_	_	_				_		0-2(48)
+SP1	47	mille	mille	mille	linguistic	_	End=97.288	_	_	_	_	_	_				_		
+SP2	48	mh	[mh]	[mh]	linguistic	_	End=96.515	_	_	_	_	_	_				_		0-2(47)
+SP2	49	mh	mh	mh	linguistic	_	Begin=97.288	_	_	_	_	_	_				_		
+SP2	49	mh	mh	mh	linguistic	_	End=97.722	_	_	_	_	_	_				_		
+SP1	50	già	già	già	linguistic	_	Begin=98.24	_	_	_	_	_	_				_		
+SP1	50	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP1	50	mille	mille:	mille:	linguistic	_		_	_	_	_	_	_	4x1			_		
+SP1	50	mil-	[mil-	[mil-	linguistic	_		_	_	Interrupted=Yes	_	_	_				_		0-4(51)
+SP1	50	mille	mille]	mille]	linguistic	_		_	_	_	_	_	_				_		0-5(51)
+SP1	50	cento	cento	cento	linguistic	_		_	_	_	_	_	_				_		
+SP1	50	mille	mille	mille	linguistic	_		_	_	_	_	_	_				_		
+SP1	50	due	due	due	linguistic	_		_	_	_	_	_	_				_		
+SP1	50	mille	[mille	[mille	linguistic	_		_	_	_	_	_	_				_		0-5(52)
+SP1	50	cento	cento]	cento]	linguistic	_		_	_	_	_	_	_				_		0-5(52)
+SP1	50	mil-	mil-	mil-	linguistic	_		_	_	Interrupted=Yes	_	_	_				_		
+SP1	50	mille	mille	mille	linguistic	_		_	_	_	_	_	_				_		
+SP1	50	duecento	duecento	duecento	linguistic	_		_	_	_	_	_	_				_		
+SP1	50	dopo	dopo	dopo	linguistic	_		_	_	_	_	_	_				_		
+SP1	50	perché	[perché	[perché	linguistic	_		_	_	_	_	_	_				_		0-6(53)
+SP1	50	non	non	non	linguistic	_		_	_	_	_	_	_				_		0-3(53)
+SP1	50	è	è]	è]	linguistic	_		_	_	_	_	_	_				_		0-1(53)
+SP1	50	che	che	che	linguistic	_		_	_	_	_	_	_				_		
+SP1	50	è	è	è	linguistic	_		_	_	_	_	_	_				_		
+SP1	50	solo	solo	solo	linguistic	_		_	_	_	_	_	_				_		
+SP1	50	che	che	che	linguistic	_		_	_	_	_	_	_				_		
+SP1	50	devo	devo	devo	linguistic	_		_	_	_	_	_	_				_		
+SP1	50	pagare	pagare	pagare	linguistic	_		_	_	_	_	_	_				_		
+SP1	50	la	la	la	linguistic	_		_	_	_	_	_	_				_		
+SP1	50	macchina	macchina	macchina	linguistic	_		_	_	_	_	_	_				_		
+SP1	50	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP1	50	la	la	la	linguistic	_		_	_	_	_	_	_				_		
+SP1	50	benzina	benzina	benzina	linguistic	_		_	_	_	_	_	_				_		
+SP1	50	e	e::	e::	linguistic	_		_	_	_	_	_	_	0x2			_		
+SP1	50	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP1	50	e	e	e	linguistic	_		_	_	_	_	_	_				_		
+SP1	50	anche	anch[e:	anch[e:	linguistic	_		_	_	_	_	_	_	4x1			_		4-5(54)
+SP1	50	il	il	il	linguistic	_		_	_	_	_	_	_				_		0-2(54)
+SP1	50	parcheggio	parche]ggio	parche]ggio	linguistic	_		_	_	_	_	_	_				_		0-6(54)
+SP1	50	no	[no	[no	linguistic	_		_	_	_	_	_	_				_		0-2(55)
+SP1	50	devo	devo]	devo]	linguistic	_		_	_	_	_	_	_				_		0-4(55)
+SP1	50	fa-	fa-	fa-	linguistic	_		_	_	Interrupted=Yes	_	_	_				_		
+SP1	50	as-	as-	as-	linguistic	_	End=110.705	_	_	Interrupted=Yes	_	_	_				_		
+SP2	51	sì	[°sì	[°sì	linguistic	_	Begin=99.533	_	_	_	_	_	_				low		0-2(50)
+SP2	51	sì	sì	sì	linguistic	_		_	_	_	_	_	_				low		0-2(50)
+SP2	51	sì	sì°]	sì°]	linguistic	_	End=100.099	_	_	_	_	_	_				low		0-2(50)
+SP2	52	mh	[mh	[mh	linguistic	_	Begin=101.305	_	_	_	_	_	_				_		0-2(50)
+SP2	52	mh	mh]	mh]	linguistic	_	End=101.679	_	_	_	_	_	_				_		0-2(50)
+SP2	53	mh	[mh	[mh	linguistic	_	Begin=103.077	_	_	_	_	_	_				_		0-2(50)
+SP2	53	mh	mh]	mh]	linguistic	_	End=103.405	_	_	_	_	_	_				_		0-2(50)
+SP2	54	sì	[sì	[sì	linguistic	_	Begin=108.399	_	_	_	_	_	_				_		0-2(50)
+SP2	54	sì	sì	sì	linguistic	_		_	_	_	_	_	_				_		0-2(50)
+SP2	54	sì	sì]	sì]	linguistic	_	End=109.027	_	_	_	_	_	_				_		0-2(50)
+SP2	55	sì	[°sì	[°sì	linguistic	_	Begin=109.277	_	_	_	_	_	_				low		0-2(50)
+SP2	55	sì	sì	sì	linguistic	_		_	_	_	_	_	_				low		0-2(50)
+SP2	55	sì	sì°]	sì°]	linguistic	_	End=109.752	_	_	_	_	_	_				low		0-2(50)
+SP1	56	allora	allora	allora	linguistic	_	Begin=111.78	_	_	_	_	_	_				_		
+SP1	56	come	come	come	linguistic	_		_	_	_	_	_	_				_		
+SP1	56	la	la	la	linguistic	_		_	_	_	_	_	_				_		
+SP1	56	città	città	città	linguistic	_		_	_	_	_	_	_				_		
+SP1	56	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP1	56	se	se	se	linguistic	_		_	_	_	_	_	_				_		
+SP1	56	tu	tu	tu	linguistic	_		_	_	_	_	_	_				_		
+SP1	56	paghi	paghi	paghi	linguistic	_		_	_	_	_	_	_				_		
+SP1	56	duecento	duecento	duecento	linguistic	_		_	_	_	_	_	_				_		
+SP1	56	eu-	eu-	eu-	linguistic	_		_	_	Interrupted=Yes	_	_	_				_		
+SP1	56	cioè	cioè	cioè	linguistic	_		_	_	_	_	_	_				_		
+SP1	56	duecento	duecento	duecento	linguistic	_		_	_	_	_	_	_				_		
+SP1	56	euro	euro	euro	linguistic	_		_	_	_	_	_	_				_		
+SP1	56	in	in	in	linguistic	_		_	_	_	_	_	_				_		
+SP1	56	piú	PIÚ	PIÚ	linguistic	_		_	_	_	_	_	_				high		
+SP1	56	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP1	56	ma	[ma	[ma	linguistic	_		_	_	_	_	_	_				_		0-2(57)
+SP1	56	ti	ti	ti	linguistic	_		_	_	_	_	_	_				_		0-2(57)
+SP1	56	trovi	t]rovi	t]rovi	linguistic	_		_	_	_	_	_	_				_		0-1(57)
+SP1	56	tutto	tutto	tutto	linguistic	_	End=117.494	_	_	_	_	_	_				_		
+SP2	57	mh	[mh	[mh	linguistic	_	Begin=116.45	_	_	_	_	_	_				_		0-2(56)
+SP2	57	mh	mh]	mh]	linguistic	_	End=116.928	_	_	_	_	_	_				_		0-2(56)
+SP2	58	certo	certo	certo	linguistic	_	Begin=117.62	_	_	_	_	_	_				_		
+SP2	58	sì	sì	sì	linguistic	_		_	_	_	_	_	_				_		
+SP2	58	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP2	58	certo	certo	certo	linguistic	_		_	_	_	_	_	_				_		
+SP2	58	certo	cer[to]	cer[to]	linguistic	_	End=119.416	_	_	_	_	_	_				_		3-5(59)
+SP1	59	come	[com]e	[com]e	linguistic	_	Begin=119.2	_	_	_	_	_	_				_		0-3(58)
+SP1	59	da	da	da	linguistic	_		_	_	_	_	_	_				_		
+SP1	59	là	là	là	linguistic	_		_	_	_	_	_	_				_		
+SP1	59	per	per	per	linguistic	_		_	_	_	_	_	_				_		
+SP1	59	fare	fare	fare	linguistic	_		_	_	_	_	_	_				_		
+SP1	59	una	una	una	linguistic	_		_	_	_	_	_	_				_		
+SP1	59	spesa	spesa	spesa	linguistic	_		_	_	_	_	_	_				_		
+SP1	59	io	io	io	linguistic	_		_	_	_	_	_	_				_		
+SP1	59	devo	devo	devo	linguistic	_		_	_	_	_	_	_				_		
+SP1	59	fare	fare	fare	linguistic	_		_	_	_	_	_	_				_		
+SP1	59	cioè	cioè	cioè	linguistic	_		_	_	_	_	_	_				_		
+SP1	59	dieci	dieci	dieci	linguistic	_		_	_	_	_	_	_				_		
+SP1	59	chilometri	chilometri	chilometri	linguistic	_		_	_	_	_	_	_				_		
+SP1	59	cinque	cinque	cinque	linguistic	_		_	_	_	_	_	_				_		
+SP1	59	chilometri	chilometri	chilometri	linguistic	_		_	_	_	_	_	_				_		
+SP1	59	almeno	almeno	almeno	linguistic	_	End=124.56	_	_	_	_	_	_				_		
+SP2	60	mh	mh	mh	linguistic	_	End=124.816	_	_	_	_	_	_				_		
+SP2	61	ma	ma	ma	linguistic	_	Begin=125.7	_	_	_	_	_	_				_		
+SP2	61	poi	poi	poi	linguistic	_		_	_	_	_	_	_				_		
+SP2	61	ti	ti	ti	linguistic	_		_	_	_	_	_	_				_		
+SP2	61	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP2	61	insomma	(in)somma	(in)somma	linguistic	_		_	_	_	_	_	_				_	0-2(0)	
+SP2	61	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP2	61	ti	ti	ti	linguistic	_		_	_	_	_	_	_				_		
+SP2	61	svegli	svegli	svegli	linguistic	_		_	_	_	_	_	_				_		
+SP2	61	presto	pres[to,	pres[to,	linguistic	_		weakly_ascending	_	_	_	_	_				_		4-6(62)
+SP2	61	traffico	traffico,	traffico,	linguistic	_		weakly_ascending	_	_	_	_	_				_		0-8(62)
+SP2	61	stress	stress,	stress,	linguistic	_		weakly_ascending	_	_	_	_	_				_		0-6(62)
+SP2	61	sì	sì]	sì]	linguistic	_	End=129.761	_	_	_	_	_	_				_		0-2(62)
+SP1	62	assolutamente	[<assolutamente>	[<assolutamente>	linguistic	_	Begin=127.861	_	_	_	_	_	_		0-13(0)		_		0-13(61)
+SP1	62	ma	ma	ma	linguistic	_		_	_	_	_	_	_				_		0-2(61)
+SP1	62	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		0-3(61)
+SP1	62	guarda	guarda]	guarda]	linguistic	_		_	_	_	_	_	_				_		0-6(61)
+SP1	62	che	che	che	linguistic	_		_	_	_	_	_	_				_		
+SP1	62	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP1	62	la	la	la	linguistic	_	End=130.755	_	_	_	_	_	_				_		
+SP1	63	da	da	da	linguistic	_	Begin=131.222	_	_	_	_	_	_				_		
+SP1	63	vivere	vivere	vivere	linguistic	_		_	_	_	_	_	_				_		
+SP1	63	la	la	la	linguistic	_		_	_	_	_	_	_				_		
+SP1	63	differenza	differenza	differenza	linguistic	_		_	_	_	_	_	_				_		
+SP1	63	da	da	da	linguistic	_		_	_	_	_	_	_				_		
+SP1	63	città	città	città	linguistic	_		_	_	_	_	_	_				_		
+SP1	63	e	e	e	linguistic	_		_	_	_	_	_	_				_		
+SP1	63	fuori	fuori	fuori	linguistic	_		_	_	_	_	_	_				_		
+SP1	63	città	città	città	linguistic	_	End=133.599	_	_	_	_	_	_				_		
+SP2	64	mh	mh	mh	linguistic	_	Begin=133.599	_	_	_	_	_	_				_		
+SP2	64	mh	mh	mh	linguistic	_	End=133.916	_	_	_	_	_	_				_		
+SP1	65	se	SE	SE	linguistic	_	Begin=134.08	_	_	_	_	_	_				high		
+SP1	65	lavoro	LAVORO,	LAVORO,	linguistic	_		weakly_ascending	_	_	_	_	_				high		
+SP1	65	fuori	fuori	fuori	linguistic	_		_	_	_	_	_	_				_		
+SP1	65	città	città	città	linguistic	_		_	_	_	_	_	_				_		
+SP1	65	guarda	guarda	guarda	linguistic	_		_	_	_	_	_	_				_		
+SP1	65	che	che	che	linguistic	_		_	_	_	_	_	_				_		
+SP1	65	per	per	per	linguistic	_		_	_	_	_	_	_				_		
+SP1	65	me	me	me	linguistic	_		_	_	_	_	_	_				_		
+SP1	65	va	va	va	linguistic	_		_	_	_	_	_	_				_		
+SP1	65	bene	bene	bene	linguistic	_		_	_	_	_	_	_				_		
+SP1	65	ma	[ma]	[ma]	linguistic	_		_	_	_	_	_	_				_		0-2(66)
+SP1	65	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP1	65	dentro	dentro	dentro	linguistic	_		_	_	_	_	_	_				_		
+SP1	65	le	le	le	linguistic	_		_	_	_	_	_	_				_		
+SP1	65	città	cit[tà	cit[tà	linguistic	_		_	_	_	_	_	_				_		3-5(67)
+SP1	65	che	che	che	linguistic	_		_	_	_	_	_	_				_		0-3(67)
+SP1	65	devo	devo	devo	linguistic	_		_	_	_	_	_	_				_		0-4(67)
+SP1	65	lavorare	lavora]re	lavora]re	linguistic	_	End=139.427	_	_	_	_	_	_				_		0-6(67)
+SP2	66	mh	[mh	[mh	linguistic	_	Begin=137.394	_	_	_	_	_	_				_		0-2(65)
+SP2	66	mh	mh]	mh]	linguistic	_	End=137.778	_	_	_	_	_	_				_		0-2(65)
+SP2	67	venendo	[venendo	[venendo	linguistic	_	Begin=138.405	_	_	_	_	_	_				_		0-7(65)
+SP2	67	qua	qua]	qua]	linguistic	_	End=139.199	_	_	_	_	_	_				_		0-3(65)
+SP2	68	certo	certo	certo	linguistic	_	Begin=139.444	_	_	_	_	_	_				_		
+SP2	68	sì	sì	sì	linguistic	_		_	_	_	_	_	_				_		
+SP2	68	sì	[sì]	[sì]	linguistic	_	End=140.327	_	_	_	_	_	_				_		0-2(69)
+SP1	69	significa	[signi]fica	[signi]fica	linguistic	_	Begin=140.12	_	_	_	_	_	_				_		0-5(68)
+SP1	69	che	che	che	linguistic	_		_	_	_	_	_	_				_		
+SP1	69	per	per	per	linguistic	_		_	_	_	_	_	_				_		
+SP1	69	me	me	me	linguistic	_		_	_	_	_	_	_				_		
+SP1	69	non	non	non	linguistic	_		_	_	_	_	_	_				_		
+SP1	69	è	è	è	linguistic	_		_	_	_	_	_	_				_		
+SP1	69	che	che	che	linguistic	_		_	_	_	_	_	_				_		
+SP1	69	una	una	una	linguistic	_		_	_	_	_	_	_				_		
+SP1	69	giornata	giornata	giornata	linguistic	_		_	_	_	_	_	_				_		
+SP1	69	di	di	di	linguistic	_		_	_	_	_	_	_				_		
+SP1	69	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP1	69	ventiquattro	ventiquattro	ventiquattro	linguistic	_		_	_	_	_	_	_				_		
+SP1	69	ore	ore	ore	linguistic	_	End=143.916	_	_	_	_	_	_				_		
+SP2	70	mh	mh	mh	linguistic	_	Begin=144.005	_	_	_	_	_	_				_		
+SP2	70	mh	mh	mh	linguistic	_	End=144.379	_	_	_	_	_	_				_		
+SP1	71	sono	sono	sono	linguistic	_	End=145.072	_	_	_	_	_	_				_		
+SP1	72	ventidue	ventidue	ventidue	linguistic	_	Begin=145.277	_	_	_	_	_	_				_		
+SP1	72	ore	[ore]	[ore]	linguistic	_	End=146.399	_	_	_	_	_	_				_		0-3(73)
+SP2	73	certo	[cert]o	[cert]o	linguistic	_	Begin=145.98	_	_	_	_	_	_				_		0-4(72)
+SP2	73	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP2	73	perché	perché	perché	linguistic	_		_	_	_	_	_	_				_		
+SP2	73	è	è	è	linguistic	_		_	_	_	_	_	_				_		
+SP2	73	un'	[un'	[un'	linguistic	_		_	_	_	_	_	SpaceAfter=No				_		0-3(74)
+SP2	73	ora	ora	ra	linguistic	_		_	_	_	_	_	_				_		0-3(74)
+SP2	73	con	con]	con]	linguistic	_		_	_	_	_	_	_				_		0-3(74)
+SP2	73	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP2	73	mh	mh	mh	linguistic	_		_	_	_	_	_	_				_		
+SP2	73	mh	[mh]	[mh]	linguistic	_	End=148.349	_	_	_	_	_	_				_		0-2(75)
+SP1	74	ancora	[ancora	[ancora	linguistic	_	Begin=146.855	_	_	_	_	_	_				_		0-6(73)
+SP1	74	meno	meno]	meno]	linguistic	_	End=147.805	_	_	_	_	_	_				_		0-4(73)
+SP1	75	sono	[sono]	[sono]	linguistic	_	Begin=148.138	_	_	_	_	_	_				_		0-4(73)
+SP1	75	venti	venti	venti	linguistic	_		_	_	_	_	_	_				_		
+SP1	75	ore	ore	ore	linguistic	_		_	_	_	_	_	_				_		
+SP1	75	tipo	ti[po	ti[po	linguistic	_		_	_	_	_	_	_				_		2-4(76)
+SP1	75	perché	perché]	perché]	linguistic	_		_	_	_	_	_	_				_		0-6(76)
+SP1	75	ogni	ogni	ogni	linguistic	_		_	_	_	_	_	_				_		
+SP1	75	giorno	giorno	giorno	linguistic	_		_	_	_	_	_	_				_		
+SP1	75	io	io	io	linguistic	_		_	_	_	_	_	_				_		
+SP1	75	lo	lo	lo	linguistic	_	End=150.811	_	_	_	_	_	_				_		
+SP2	76	sì	[°sì	[°sì	linguistic	_	Begin=149.222	_	_	_	_	_	_				low		0-2(75)
+SP2	76	sì	sì°]	sì°]	linguistic	_	End=149.588	_	_	_	_	_	_				low		0-2(75)
+SP1	77	vado	vado	vado	linguistic	_	Begin=151.216	_	_	_	_	_	_				_		
+SP1	77	avanti	avanti	avanti	linguistic	_		_	_	_	_	_	_				_		
+SP1	77	e	e	e	linguistic	_		_	_	_	_	_	_				_		
+SP1	77	indietro	indietro	indietro	linguistic	_		_	_	_	_	_	_				_		
+SP1	77	un'	un'	un'	linguistic	_		_	_	_	_	_	SpaceAfter=No				_		
+SP1	77	ora	ora	ra	linguistic	_		_	_	_	_	_	_				_		
+SP1	77	un'	un'	un'	linguistic	_		_	_	_	_	_	SpaceAfter=No				_		
+SP1	77	ora	ora	ra	linguistic	_		_	_	_	_	_	_				_		
+SP1	77	e	e	e	linguistic	_		_	_	_	_	_	_				_		
+SP1	77	mezzo	mezzo	mezzo	linguistic	_		_	_	_	_	_	_				_		
+SP1	77	cioè	cioè	cioè	linguistic	_		_	_	_	_	_	_				_		
+SP1	77	per	per	per	linguistic	_		_	_	_	_	_	_				_		
+SP1	77	venire	venire	venire	linguistic	_		_	_	_	_	_	_				_		
+SP1	77	un'	un'	un'	linguistic	_		_	_	_	_	_	SpaceAfter=No				_		
+SP1	77	ora	ora	ra	linguistic	_		_	_	_	_	_	_				_		
+SP1	77	e	e	e	linguistic	_		_	_	_	_	_	_				_		
+SP1	77	mezzo	mezzo	mezzo	linguistic	_		_	_	_	_	_	_				_		
+SP1	77	un'	un'	un'	linguistic	_		_	_	_	_	_	SpaceAfter=No				_		2-3(78)
+SP1	77	ora	or[a	r[a	linguistic	_		_	_	_	_	_	_				_		0-3(78)
+SP1	77	minimo	mi]nimo	mi]nimo	linguistic	_		_	_	_	_	_	_				_		
+SP1	77	e	e	e	linguistic	_		_	_	_	_	_	_				_		
+SP1	77	ritornare	ritornare	ritornare	linguistic	_		_	_	_	_	_	_				_		
+SP1	77	ancora	ancora	ancora	linguistic	_		_	_	_	_	_	_				_		
+SP1	77	facciamo	facciamo	facciamo	linguistic	_		_	_	_	_	_	_				_		
+SP1	77	mezz'	mezz'	mezz'	linguistic	_		_	_	_	_	_	SpaceAfter=No				_		
+SP1	77	ora	ora	ra	linguistic	_		_	_	_	_	_	_				_		
+SP1	77	o	o	o	linguistic	_		_	_	_	_	_	_				_		
+SP1	77	un'	un'	un'	linguistic	_		_	_	_	_	_	SpaceAfter=No				_		
+SP1	77	ora	ora	ra	linguistic	_	End=159.2	_	_	_	_	_	_				_		
+SP2	78	mh	[mh]	[mh]	linguistic	_	End=155.969	_	_	_	_	_	_				_		0-2(77)
+SP2	79	mh	[mh	[mh	linguistic	_	Begin=159.522	_	_	_	_	_	_				_		0-2(80)
+SP2	79	mh	mh]	mh]	linguistic	_	End=159.89	_	_	_	_	_	_				_		0-2(80)
+SP1	80	allora	[allora]	[allora]	linguistic	_	Begin=159.622	_	_	_	_	_	_				_		0-6(79)
+SP1	80	due	due	due	linguistic	_		_	_	_	_	_	_				_		
+SP1	80	ore	ore	ore	linguistic	_		_	_	_	_	_	_				_		
+SP1	80	è	è	è	linguistic	_		_	_	_	_	_	_				_		
+SP1	80	già	già	già	linguistic	_		_	_	_	_	_	_				_		
+SP1	80	scalata	scalata	scalata	linguistic	_	End=161.127	_	_	_	_	_	_				_		
+SP2	81	sì	sì	sì	linguistic	_	Begin=161.138	_	_	_	_	_	_				_		
+SP2	81	sì	sì	sì	linguistic	_		_	_	_	_	_	_				_		
+SP2	81	eh	[eh]	[eh]	linguistic	_	End=161.741	_	_	_	_	_	_				_		0-2(82)
+SP1	82	per	[per	[per	linguistic	_	Begin=161.411	_	_	_	_	_	_				_		0-3(81)
+SP1	82	preparare	prep]arare	prep]arare	linguistic	_		_	_	_	_	_	_				_		0-4(81)
+SP1	82	cioè	cioè	cioè	linguistic	_		_	_	_	_	_	_				_		
+SP1	82	se	se	se	linguistic	_	End=162.611	_	_	_	_	_	_				_		
+SP1	83	tipo	tipo	tipo	linguistic	_	Begin=162.983	_	_	_	_	_	_				_		
+SP1	83	che	che	che	linguistic	_		_	_	_	_	_	_				_		
+SP1	83	noi	noi	noi	linguistic	_		_	_	_	_	_	_				_		
+SP1	83	abitiamo	abitiamo	abitiamo	linguistic	_		_	_	_	_	_	_				_		
+SP1	83	cioè	cioè	cioè	linguistic	_	End=164.599	_	_	_	_	_	_				_		
+SP1	84	facciamo	facciamo	facciamo	linguistic	_	Begin=164.96	_	_	_	_	_	_				_		
+SP1	84	come	come	come	linguistic	_		_	_	_	_	_	_				_		
+SP1	84	dentro	dentro	dentro	linguistic	_		_	_	_	_	_	_				_		
+SP1	84	la	la	la	linguistic	_		_	_	_	_	_	_				_		
+SP1	84	bologna	bologna	bologna	linguistic	_		_	_	_	_	_	_				_		
+SP1	84	tu	tu	tu	linguistic	_		_	_	_	_	_	_				_		
+SP1	84	venti	venti	venti	linguistic	_		_	_	_	_	_	_				_		
+SP1	84	minuti	minuti	minuti	linguistic	_	End=168.038	_	_	_	_	_	_				_		
+SP1	85	trenta	trenta	trenta	linguistic	_	Begin=168.349	_	_	_	_	_	_				_		
+SP1	85	minuti	minuti	minuti	linguistic	_		_	_	_	_	_	_				_		
+SP1	85	sei	sei	sei	linguistic	_		_	_	_	_	_	_				_		
+SP1	85	in	in	in	linguistic	_		_	_	_	_	_	_				_		
+SP1	85	lavoro	lav[oro]	lav[oro]	linguistic	_	End=169.899	_	_	_	_	_	_				_		3-6(86)
+SP2	86	mh	[mh	[mh	linguistic	_	Begin=169.491	_	_	_	_	_	_				_		0-2(85)
+SP2	86	mh	mh]	mh]	linguistic	_		_	_	_	_	_	_				_		0-2(85)
+SP2	86	mh	mh	mh	linguistic	_		_	_	_	_	_	_				_		
+SP2	86	mh	mh	mh	linguistic	_	End=170.194	_	_	_	_	_	_				_		
+SP2	87	certo	certo	certo	linguistic	_	Begin=170.42	_	_	_	_	_	_				_		
+SP2	87	sì	sì	sì	linguistic	_		_	_	_	_	_	_				_		
+SP2	87	sì	sì	sì	linguistic	_	End=171.3	_	_	_	_	_	_				_		
+SP2	88	ma	ma	ma	linguistic	_	Begin=171.58	_	_	_	_	_	_				_		
+SP2	88	prima	prima	prima	linguistic	_		_	_	_	_	_	_				_		
+SP2	88	di	di	di	linguistic	_		_	_	_	_	_	_				_		
+SP2	88	trasferirti	trasferirti	trasferirti	linguistic	_		_	_	_	_	_	_				_		
+SP2	88	in	in	in	linguistic	_		_	_	_	_	_	_				_		
+SP2	88	valsamoggia	valsamoggia	valsamoggia	linguistic	_		_	_	_	_	_	_				_		
+SP2	88	mh	mh	mh	linguistic	_		_	_	_	_	_	_				_		
+SP2	88	in	in	in	linguistic	_		_	_	_	_	_	_				_		
+SP2	88	quale	quale	quale	linguistic	_		_	_	_	_	_	_				_		
+SP2	88	zona	zona	zona	linguistic	_		_	_	_	_	_	_				_		
+SP2	88	abitavi	abitavi:	abitavi:	linguistic	_		_	_	_	_	_	_	6x1			_		
+SP2	88	di	[di]	[di]	linguistic	_	End=175.099	_	_	_	_	_	_				_		0-2(89)
+SP1	89	al	[al	[al	linguistic	_	Begin=174.86	_	_	_	_	_	_				_		0-2(88)
+SP1	89	centro	ce]ntro	ce]ntro	linguistic	_		_	_	_	_	_	_				_		0-2(88)
+SP1	89	proprio	proprio	proprio	linguistic	_		_	_	_	_	_	_				_		
+SP1	89	al	al	al	linguistic	_		_	_	_	_	_	_				_		
+SP1	89	centro	c[entro	c[entro	linguistic	_		_	_	_	_	_	_				_		1-6(90)
+SP1	89	storico	storico]	storico]	linguistic	_	End=176.583	_	_	_	_	_	_				_		0-7(90)
+SP2	90	centro	[centro	[centro	linguistic	_	Begin=175.777	_	_	_	_	_	_				_		0-6(89)
+SP2	90	centro	cen]tro	cen]tro	linguistic	_		_	_	_	_	_	_				_		0-3(89)
+SP2	90	okay	[okay]	[okay]	linguistic	_	End=177.349	_	_	_	_	_	_				_		0-4(91)
+SP1	91	centro	[centro	[centro	linguistic	_	Begin=176.772	_	_	_	_	_	_				_		0-6(90)
+SP1	91	centro	centro]	centro]	linguistic	_	End=177.461	_	_	_	_	_	_				_		0-6(90)
+SP1	92	dieci	DIECI	DIECI	linguistic	_	Begin=178.533	_	_	_	_	_	_				high		
+SP1	92	minuti	MINUTI	MINUTI	linguistic	_		_	_	_	_	_	_				high		
+SP1	92	camminata	CAMMINATA	CAMMINATA	linguistic	_		_	_	_	_	_	_				high		
+SP1	92	che	che	che	linguistic	_		_	_	_	_	_	_				_		
+SP1	92	dove	dove	dove	linguistic	_		_	_	_	_	_	_				_		
+SP1	92	lavoro	lavoro	lavoro	linguistic	_		_	_	_	_	_	_				_		
+SP1	92	io	io	io	linguistic	_	End=180.705	_	_	_	_	_	_				_		
+SP2	93	pero'	pero'	pero'	linguistic	_	Begin=181.194	_	_	_	Truncated=Yes	_	_				_		
+SP2	93	c'	c'	c'	linguistic	_		_	_	_	_	_	SpaceAfter=No				_		
+SP2	93	è	è		linguistic	_		_	_	_	_	_	_				_		
+SP2	93	un	un	un	linguistic	_		_	_	_	_	_	_				_		
+SP2	93	po'	po'	po'	linguistic	_		_	_	_	_	_	_				_		
+SP2	93	di	di	di	linguistic	_		_	_	_	_	_	_				_		
+SP2	93	casino	casino	casino	linguistic	_		_	_	_	_	_	_				_		
+SP2	93	in	in	in	linguistic	_		_	_	_	_	_	_				_		
+SP2	93	centro	cen[tro	cen[tro	linguistic	_		_	_	_	_	_	_				_		2-6(94)
+SP2	93	sporco,:	sporco,:]	sporco,:]	error	_	End=183.794	_	_	_	_	_	_				_		0-6(94)
+SP1	94	no	[no	[no	linguistic	_	Begin=182.744	_	_	_	_	_	_				_		0-2(93)
+SP1	94	guarda	guarda	guarda	linguistic	_		_	_	_	_	_	_				_		0-6(93)
+SP1	94	che	che	che	linguistic	_		_	_	_	_	_	_				_		0-3(93)
+SP1	94	il	il	il	linguistic	_		_	_	_	_	_	_				_		0-2(93)
+SP1	94	casino	<c]asino>	<c]asino>	linguistic	_		_	_	_	_	_	_		0-6(0)		_		0-1(93)
+SP1	94	no	no	no	linguistic	_		_	_	_	_	_	_				_		
+SP1	94	x	x	x	linguistic	_		_	Unknown=Yes	_	_	_	_				_		
+SP1	94	cioè	cioè	cioè	linguistic	_		_	_	_	_	_	_				_		
+SP1	94	proprio	proprio	proprio	linguistic	_		_	_	_	_	_	_				_		
+SP1	94	no	no	no	linguistic	_		_	_	_	_	_	_				_		
+SP1	94	non	non	non	linguistic	_		_	_	_	_	_	_				_		
+SP1	94	è	è	è	linguistic	_		_	_	_	_	_	_				_		
+SP1	94	che	che	che	linguistic	_		_	_	_	_	_	_				_		
+SP1	94	è	è	è	linguistic	_		_	_	_	_	_	_				_		
+SP1	94	sporco	sporco	sporco	linguistic	_		_	_	_	_	_	_				_		
+SP1	94	tu	tu	tu	linguistic	_		_	_	_	_	_	_				_		
+SP1	94	di-	di-	di-	linguistic	_		_	_	Interrupted=Yes	_	_	_				_		
+SP1	94	tu	tu	tu	linguistic	_		_	_	_	_	_	_				_		
+SP1	94	mh	mh	mh	linguistic	_		_	_	_	_	_	_				_		
+SP1	94	non	non	non	linguistic	_		_	_	_	_	_	_				_		
+SP1	94	posso	posso	posso	linguistic	_		_	_	_	_	_	_				_		
+SP1	94	cioè	cioè	cioè	linguistic	_		_	_	_	_	_	_				_		
+SP1	94	non	non	non	linguistic	_		_	_	_	_	_	_				_		
+SP1	94	puoi	puoi:	puoi:	linguistic	_		_	_	_	_	_	_	3x1			_		
+SP1	94	guardare	guardare	guardare	linguistic	_		_	_	_	_	_	_				_		
+SP1	94	tutte	tutte	tutte	linguistic	_		_	_	_	_	_	_				_		
+SP1	94	le	le	le	linguistic	_		_	_	_	_	_	_				_		
+SP1	94	cose	cose	cose	linguistic	_		_	_	_	_	_	_				_		
+SP1	94	insieme	insie[me]	insie[me]	linguistic	_	End=191.299	_	_	_	_	_	_				_		5-7(95)
+SP2	95	mh	[mh	[mh	linguistic	_	Begin=191.066	_	_	_	_	_	_				_		0-2(94)
+SP2	95	mh	mh]	mh]	linguistic	_	End=191.439	_	_	_	_	_	_				_		0-2(94)
+SP2	96	mh	mh	mh	linguistic	_	Begin=192.127	_	_	_	_	_	_				_		
+SP2	96	mh	mh	mh	linguistic	_	End=192.436	_	_	_	_	_	_				_		
+SP2	97	quindi	quindi	quindi	linguistic	_	Begin=193.04	_	_	_	_	_	_				_		
+SP2	97	sì	sì	sì	linguistic	_		_	_	_	_	_	_				_		
+SP2	97	ti	ti	ti	linguistic	_		_	_	_	_	_	_				_		
+SP2	97	ti	[ti	[ti	linguistic	_		_	_	_	_	_	_				_		0-2(98)
+SP2	97	piacerebbe	pia]cerebbe	pia]cerebbe	linguistic	_		_	_	_	_	_	_				_		0-3(98)
+SP2	97	ritornare	ritornare	ritornare	linguistic	_		_	_	_	_	_	_				_		
+SP2	97	a	a	a	linguistic	_		_	_	_	_	_	_				_		
+SP2	97	vivere	[vivere	[vivere	linguistic	_		_	_	_	_	_	_				_		0-6(99)
+SP2	97	in	in	in	linguistic	_		_	_	_	_	_	_				_		0-2(99)
+SP2	97	centro	centro	centro	linguistic	_		_	_	_	_	_	_				_		0-6(99)
+SP2	97	sì	sì]	sì]	linguistic	_	End=195.788	_	_	_	_	_	_				_		0-2(99)
+SP1	98	sì	[sì]	[sì]	linguistic	_	End=194.083	_	_	_	_	_	_				_		0-2(97)
+SP1	99	perché	[perché	[perché	linguistic	_	Begin=194.972	_	_	_	_	_	_				_		0-6(97)
+SP1	99	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		0-3(97)
+SP1	99	è	è	è	linguistic	_		_	_	_	_	_	_				_		0-1(97)
+SP1	99	una	u]na	u]na	linguistic	_		_	_	_	_	_	_				_		0-1(97)
+SP1	99	persona	persona	persona	linguistic	_		_	_	_	_	_	_				_		
+SP1	99	che	che	che	linguistic	_		_	_	_	_	_	_				_		
+SP1	99	vanno	vanno	vanno	linguistic	_		_	_	_	_	_	_				_		
+SP1	99	cioè	cioè	cioè	linguistic	_		_	_	_	_	_	_				_		
+SP1	99	lavorare	lavorare	lavorare	linguistic	_		_	_	_	_	_	_				_		
+SP1	99	dentro	dentro	dentro	linguistic	_		_	_	_	_	_	_				_		
+SP1	99	in	in	in	linguistic	_		_	_	_	_	_	_				_		
+SP1	99	città	città	città	linguistic	_		_	_	_	_	_	_				_		
+SP1	99	va	va	va	linguistic	_		_	_	_	_	_	_				_		
+SP1	99	a	a	a	linguistic	_		_	_	_	_	_	_				_		
+SP1	99	abitare	abitare	abitare	linguistic	_		_	_	_	_	_	_				_		
+SP1	99	fuori	fuori	fuori	linguistic	_		_	_	_	_	_	_				_		
+SP1	99	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP1	99	ti	[ti	[ti	linguistic	_		_	_	_	_	_	_				_		0-2(100)
+SP1	99	inqui-	in]qui-	in]qui-	linguistic	_		_	_	Interrupted=Yes	_	_	_				_		0-2(100)
+SP1	99	stai	stai	stai	linguistic	_		_	_	_	_	_	_				_		
+SP1	99	inquinando	inquin[ando	inquin[ando	linguistic	_		_	_	_	_	_	_				_		6-10(101)
+SP1	99	lo	lo	lo	linguistic	_		_	_	_	_	_	_				_		0-2(101)
+SP1	99	stesso	ste]ss[o]	ste]ss[o]	linguistic	_	End=203.472	_	_	_	_	_	_				_		0-3(101),5-6(102)
+SP2	100	mh	[mh	[mh	linguistic	_	Begin=200.911	_	_	_	_	_	_				_		0-2(99)
+SP2	100	mh	mh]	mh]	linguistic	_	End=201.223	_	_	_	_	_	_				_		0-2(99)
+SP2	101	anche	[anche]	[anche]	linguistic	_	End=202.805	_	_	_	_	_	_				_		0-5(99)
+SP2	102	certo	[ce]rto	[ce]rto	linguistic	_	End=203.811	_	_	_	_	_	_				_		0-2(99)
+SP2	103	ah	ah	ah	linguistic	_	Begin=204.005	_	_	_	_	_	_				_		
+SP2	103	no	[no	[no	linguistic	_		_	_	_	_	_	_				_		0-2(104)
+SP2	103	no	no	no	linguistic	_		_	_	_	_	_	_				_		0-2(104)
+SP2	103	no	no	no	linguistic	_		_	_	_	_	_	_				_		0-2(104)
+SP2	103	certamente	certamen]te	certamen]te	linguistic	_		_	_	_	_	_	_				_		0-8(104)
+SP2	103	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP2	103	sì	sì	sì	linguistic	_		_	_	_	_	_	_				_		
+SP2	103	sì	sì	sì	linguistic	_		_	_	_	_	_	_				_		
+SP2	103	sì	sì	sì	linguistic	_	End=206.416	_	_	_	_	_	_				_		
+SP1	104	devi	[devi	[devi	linguistic	_	Begin=204.094	_	_	_	_	_	_				_		0-4(103)
+SP1	104	capire	capire	capire	linguistic	_		_	_	_	_	_	_				_		0-6(103)
+SP1	104	questa	questa	questa	linguistic	_		_	_	_	_	_	_				_		0-6(103)
+SP1	104	qua	qua]	qua]	linguistic	_	End=205.393	_	_	_	_	_	_				_		0-3(103)
+SP2	105	eh	e:h	e:h	linguistic	_	Begin=206.811	_	_	_	_	_	_	0x1			_		
+SP2	105	niente	nien[te	nien[te	linguistic	_		_	_	_	_	_	_				_		4-6(106)
+SP2	105	da	da]	da]	linguistic	_	End=207.811	_	_	_	_	_	_				_		0-2(106)
+SP1	106	ma	[ma	[ma	linguistic	_	Begin=207.511	_	_	_	_	_	_				_		0-2(105)
+SP1	106	se	s]e	s]e	linguistic	_		_	_	_	_	_	_				_		0-1(105)
+SP1	106	come	come	come	linguistic	_		_	_	_	_	_	_				_		
+SP1	106	io	io	io	linguistic	_		_	_	_	_	_	_				_		
+SP1	106	che	che	che	linguistic	_		_	_	_	_	_	_				_		
+SP1	106	vengo	vengo	vengo	linguistic	_		_	_	_	_	_	_				_		
+SP1	106	a	a	a	linguistic	_		_	_	_	_	_	_				_		
+SP1	106	abitare	abitare	abitare	linguistic	_		_	_	_	_	_	_				_		
+SP1	106	{P}	{P}	{P}	shortpause	_		_	_	_	_	_	_				_		
+SP1	106	in	in	in	linguistic	_		_	_	_	_	_	_				_		
+SP1	106	cen-	cen-	cen-	linguistic	_		_	_	Interrupted=Yes	_	_	_				_		
+SP1	106	città	città	città	linguistic	_	End=211.344	_	_	_	_	_	_				_		
+SP1	107	una	una	una	linguistic	_	Begin=211.705	_	_	_	_	_	_				_		
+SP1	107	macchina	macchina	macchina	linguistic	_	End=212.777	_	_	_	_	_	_				_		
+SP1	108	già	già	già	linguistic	_	Begin=213.061	_	_	_	_	_	_				_		
+SP1	108	f-	f-	f-	linguistic	_	End=213.449	_	_	Interrupted=Yes	_	_	_				_		
+SP1	109	già	già	già	linguistic	_	End=214.038	_	_	_	_	_	_				_		
+SP1	110	ferma	fer[ma	fer[ma	linguistic	_	Begin=214.288	_	_	_	_	_	_				_		3-5(111)
+SP1	110	per	per]	per]	linguistic	_	End=215.205	_	_	_	_	_	_				_		0-3(111)
+SP2	111	mh	[mh	[mh	linguistic	_	Begin=214.738	_	_	_	_	_	_				_		0-2(110)
+SP2	111	mh	mh]	mh]	linguistic	_	End=215.045	_	_	_	_	_	_				_		0-2(110)
+SP2	112	mh	mh	mh	linguistic	_	Begin=215.605	_	_	_	_	_	_				_		
+SP2	112	mh	[mh]	[mh]	linguistic	_	End=215.971	_	_	_	_	_	_				_		0-2(113)
+SP1	113	non	[non	[non	linguistic	_	Begin=215.705	_	_	_	_	_	_				_		0-3(112)
+SP1	113	inquinare	in]quinare	in]quinare	linguistic	_		_	_	_	_	_	_				_		0-2(112)
+SP1	113	la	la	la	linguistic	_		_	_	_	_	_	_				_		
+SP1	113	città	citt[à]	citt[à]	linguistic	_	End=216.999	_	_	_	_	_	_				_		4-5(114)
+SP2	114	sì	[sì	[sì	linguistic	_	Begin=216.86	_	_	_	_	_	_				_		0-2(113)
+SP2	114	sì	sì]	sì]	linguistic	_		_	_	_	_	_	_				_		0-2(113)
+SP2	114	sì	sì	sì	linguistic	_		_	_	_	_	_	_				_		
+SP2	114	è	è	è	linguistic	_		_	_	_	_	_	_				_		
+SP2	114	vero	vero	vero	linguistic	_		_	_	_	_	_	_				_		
+SP2	114	capisco	capisco	capisco	linguistic	_		_	_	_	_	_	_				_		
+SP2	114	perfettamente	perfettamente	perfettamente	linguistic	_	End=219.199	_	_	_	_	_	_				_		
+SP2	115	mh	m:h	m:h	linguistic	_	Begin=219.58	_	_	_	_	_	_	0x1			_		
+SP2	115	e	e	e	linguistic	_		_	_	_	_	_	_				_		
+SP2	115	sono	sono	sono	linguistic	_		_	_	_	_	_	_				_		
+SP2	115	curiosa	curiosa	curiosa	linguistic	_		_	_	_	_	_	_				_		
+SP2	115	di	di	di	linguistic	_		_	_	_	_	_	_				_		
+SP2	115	chiederti	chiederti	chiederti	linguistic	_		_	_	_	_	_	_				_		
+SP2	115	anche	anche	anche	linguistic	_	End=222.172	_	_	_	_	_	_				_		
+SP2	116	perché	perché	perché	linguistic	_	End=222.794	_	_	_	_	_	_				_		
+SP2	117	quindi	quindi	quindi	linguistic	_	Begin=223.055	_	_	_	_	_	_				_		
+SP2	117	immagino	immagino	immagino	linguistic	_		_	_	_	_	_	_				_		
+SP2	117	che	che	che	linguistic	_		_	_	_	_	_	_				_		
+SP2	117	la	la	la	linguistic	_		_	_	_	_	_	_				_		
+SP2	117	tua	tua	tua	linguistic	_		_	_	_	_	_	_				_		
+SP2	117	famiglia	famiglia	famiglia	linguistic	_	End=224.577	_	_	_	_	_	_				_		
+SP2	118	si	si	si	linguistic	_	Begin=225.027	_	_	_	_	_	_				_		
+SP2	118	sia	sia	sia	linguistic	_		_	_	_	_	_	_				_		
+SP2	118	trasferita	trasfer[ita	trasfer[ita	linguistic	_		_	_	_	_	_	_				_		7-10(119)
+SP2	118	qui	qui	qui	linguistic	_		_	_	_	_	_	_				_		0-3(119)
+SP2	118	dal	da]l	da]l	linguistic	_		_	_	_	_	_	_				_		0-2(119)
+SP2	118	bangladesh	bangladesh	bangladesh	linguistic	_		_	_	_	_	_	_				_		
+SP2	118	no	no	no	linguistic	_		_	_	_	_	_	_				_		
+SP2	118	quindi	quindi	quindi	linguistic	_		_	_	_	_	_	_				_		
+SP2	118	in	in	in	linguistic	_		_	_	_	_	_	_				_		
+SP2	118	in	in	in	linguistic	_		_	_	_	_	_	_				_		
+SP2	118	nella	nella	nella	linguistic	_		_	_	_	_	_	_				_		
+SP2	118	in	in	in	linguistic	_		_	_	_	_	_	_				_		
+SP2	118	casa	casa	casa	linguistic	_		_	_	_	_	_	_				_		
+SP2	118	con	con	con	linguistic	_		_	_	_	_	_	_				_		
+SP2	118	i	i	i	linguistic	_		_	_	_	_	_	_				_		
+SP2	118	tuoi	tuoi	tuoi	linguistic	_		_	_	_	_	_	_				_		
+SP2	118	genitori	genitori	genitori	linguistic	_	End=229.577	_	_	_	_	_	_				_		
+SP1	119	sì	[sì]	[sì]	linguistic	_	End=226.177	_	_	_	_	_	_				_		0-2(118)
+SP2	120	parla-	parla-	parla-	linguistic	_	Begin=229.886	_	_	Interrupted=Yes	_	_	_				_		
+SP2	120	mh	m:h	m:h	linguistic	_		_	_	_	_	_	_	0x1			_		
+SP2	120	che	che	che	linguistic	_		_	_	_	_	_	_				_		
+SP2	120	lingua	lingua	lingua	linguistic	_		_	_	_	_	_	_				_		
+SP2	120	parlate	parlate	parlate	linguistic	_	End=231.877	_	_	_	_	_	_				_		
+SP1	121	sì	sì	sì	linguistic	_	Begin=231.961	_	_	_	_	_	_				_		
+SP1	121	è	è	è	linguistic	_		_	_	_	_	_	_				_		
+SP1	121	la	la	la	linguistic	_		_	_	_	_	_	_				_		
+SP1	121	lingua	lingua	lingua	linguistic	_		_	_	_	_	_	_				_		
+SP1	121	d'	d'	d'	linguistic	_		_	_	_	_	_	SpaceAfter=No				_		
+SP1	121	anglo	anglo	nglo	linguistic	_		_	_	_	_	_	_				_		
+SP1	121	che	che	che	linguistic	_		_	_	_	_	_	_				_		
+SP1	121	parlano	parlano	parlano	linguistic	_		_	_	_	_	_	_				_		
+SP1	121	pero'	pero'	pero'	linguistic	_		_	_	_	Truncated=Yes	_	_				_		
+SP1	121	tutti	tutti	tutti	linguistic	_		_	_	_	_	_	_				_		
+SP1	121	quanti	quanti	quanti	linguistic	_		_	_	_	_	_	_				_		
+SP1	121	lo	lo	lo	linguistic	_		_	_	_	_	_	_				_		
+SP1	121	sanno	sanno	sanno	linguistic	_		_	_	_	_	_	_				_		
+SP1	121	anche	anche	anche	linguistic	_		_	_	_	_	_	_				_		
+SP1	121	italiano	italiano	italiano	linguistic	_	End=237.983	_	_	_	_	_	_				_		
