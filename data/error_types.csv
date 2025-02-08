@@ -1,6 +1,5 @@
 ,,id1,id2,rate,type,backchannel
-PARLABO A,,,,,,
-01_PARLABOA_E,add,34,35,high,34 e 35 dovrebbero sovrapporsi ma non si sovrappongono,
+01_PARLABOA_E,,34,35,high,34 e 35 dovrebbero sovrapporsi ma non si sovrappongono,
 ,ignore,43,44,,metalinguistic tag,
 ,ignore,82,83,,metalinguistic tag,
 ,,116,117,high,117 errore di bilanciamento,
@@ -178,7 +177,61 @@ PARLABO A,,,,,,
 ,,57,58,high,57 manca annotazione,
 ,,59,60,high,59 60 manca annotazione,
 ,,60,61,high,60 61 manca annotazione,61
-,,,,,,
+01_STRAPARLAC_U,,5,6,high,5 6 manca annotazione,
+,,6,7,high,6 7 manca annotazione,
+,,50,,,annotation should be split,
+,,50,51,high,51 manca annotazione,50
+,,54,55,high,54 55 manca annotazione,54
+,,71,72,high,71 72 manca annotazione,71
+,,80,81,high,81 manca annotazione,80
+,,88,89,high,units should overlap,
+,ignore,105,106,,metalinguistic,
+,,135,,,balance,
+,,136,,,annotation should be split,
+,,137,,,balance,
+,,137,138,medium,137 138 manca annotazione,
+,,148,149,high,148 149 manca annotazione,
+02_STRAPARLAC_N,,15,17,high,15 17 manca annotazione,
+,,24,25,high,24 25 manca annotazione,
+,,29,31,low,units shouldn't overlap,
+,,31,33,high,"33 inizia troppo presto, 33 extra annotation",33
+,,67,,,annotation should be split,
+,ignore,78,79,,metalinguistic,
+,,88,,,balance,
+,,89,90,medium,"89 annotation should be split, 90 manca annotazione",
+,,91,,,extra annotation,
+,,92,,,extra annotation,
+,,106,,,annotation should be split,106
+03_STRAPARLAB_MAN,,9,10,low,units should overlap,
+,,24,25,low,units should overlap,24
+,ignore,61,62,,metalinguistic,
+,ignore,75,76,,metalinguistic,
+,,91,92,low,units should overlap,
+,,112,113,low,units should overlap,112
+03_STRAPARLAB_WHI,,40,42,low,40 manca annotazione,
+,,67,68,medium,67 manca annotazione,67
+,,85,86,low,85 manca annotazione,86
+,,123,,,extra annotation,
+,,124,,,extra annotation,
+,,133,134,medium,133 manca annotazione,134
+,,137,140,low,units should overlap,
+03_STRAPARLAC_MAN,,23,24,high,23 manca annotazione,
+,,48,50,medium,50 manca annotazione,
+,ignore,75,76,,metalinguistic,
+,,85,86,high,86 manca annotazione,86?
+03_STRAPARLAC_WHI,,18,19,high,18 manca annotazione,19
+,,31,33,low,non dovrebbero sovrapporsi,
+,,35,,medium,"deve iniziare dopo, extra annotation",
+,ignore,78,79,,metalinguistic,
+,,88,,,balance,
+,ignore,89,90,,metalinguistic,
+,,91,92,medium,units should overlap,
+,,104,,medium,annotation should be split,104
+03_PARLABOB,,49,50,medium,units should overlap,
+,ignore,185,187,,metalinguistic,
+,ignore,203,204,,metalinguistic,
+,ignore,269,270,,metalinguistic,
+,,301,,low,bad annotation,
 ,,,,,,
 ,,,,,,
 ,,,,,,
