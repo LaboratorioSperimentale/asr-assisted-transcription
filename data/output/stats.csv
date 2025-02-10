@@ -1,0 +1,33 @@
+Transcript_ID	num_speakers	num_total_tokens	average_duration	num_overlaps	num_low_volume_spans	num_guessing_spans	num_fast_pace_spans	num_slow_pace_spans	annotator	reviewer	transcription_type	expertise	accuracy	minutes_experience	sec30	sec60	sec90	sec120	sec_assignment	num_tu::0	num_tu::1	num_tu::2	num_tu::3	num_tu::4	num_tu::5	num_tu::6	num_tu::7	num_tu::8	num_tu::9	num_tu::10	tokens_per_minute::0	tokens_per_minute::1	tokens_per_minute::2	tokens_per_minute::3	tokens_per_minute::4	tokens_per_minute::5	tokens_per_minute::6	tokens_per_minute::7	tokens_per_minute::8	tokens_per_minute::9	tokens_per_minute::10
+03_StraParlaC_whi	3	718	0	106	5	2	2	3		Eleonora	Revised	-	-	-	-	-	-	-	-	27	48	75	106	0	0	0	0	0	0	0	144	325	530	718	0	0	0	0	0	0	0
+03_StraParlaB_man	2	610	0	98	5	6	0	3	A	Eleonora	Revised	-	-	-	-	-	-	-	-	26	67	107	115	0	0	0	0	0	0	0	165	384	566	610	0	0	0	0	0	0	0
+02_StraParlaA_A	2	792	0	104	6	2	0	4	A	-	Whisper-Assisted	sì			60	129	193	232	643	26	58	91	121	0	0	0	0	0	0	0	182	395	601	792	0	0	0	0	0	0	0
+03_PastiA	3	1419	0	112	6	3	8	5	esterno	Eleonora	Revised	-	-	-	-	-	-	-	-	39	72	101	139	176	216	238	258	0	0	0	169	375	557	765	949	1154	1302	1419	0	0	0
+03_PastiB	3	872	0	72	2	2	1	4	esterno	Eleonora	Revised	-	-	-	-	-	-	-	-	32	60	89	114	122	0	0	0	0	0	0	173	413	627	801	872	0	0	0	0	0	0
+01_ParlaBOA_E	2	1442	0	108	0	5	0	0	E	-	From-Scratch	sì			117	268	378	503	-	23	48	67	86	106	127	150	169	176	0	0	161	342	508	664	837	1026	1217	1372	1442	0	0
+02_StraParlaC_N	3	724	0	92	5	2	2	3	N	-	Revised	no			70	144	213	242	947	25	47	75	107	109	0	0	0	0	0	0	144	321	520	715	724	0	0	0	0	0	0
+01_PastiA_R	3	557	0	34	2	3	2	0	R	-	From-Scratch	no			40	72	135	185	-	29	56	83	88	0	0	0	0	0	0	0	164	355	531	557	0	0	0	0	0	0	0
+03_StraParlaB_whi	2	1223	0	154	9	5	0	1	O	Eleonora	Revised	-	-	-	-	-	-	-	-	17	47	77	100	123	144	168	0	0	0	0	162	369	542	724	899	1057	1223	0	0	0	0
+02_ParlaBOB_S	2	1332	0	58	0	0	0	0	S	-	Whisper-Assisted	sì			180	300	410	491	747	14	27	42	53	64	71	85	94	95	0	0	147	305	455	574	754	924	1104	1274	1332	0	0
+02_ParlaBOA_I	2	729	0	64	15	15	7	0	I	-	Whisper-Assisted	sì			69	138	229	254	677	21	45	63	79	86	0	0	0	0	0	0	164	359	533	689	729	0	0	0	0	0	0
+02_StraParlaB_O	2	1204	0	84	3	3	0	1	O	-	Whisper-Assisted	sì			120	220	396	406	592	22	50	80	102	123	135	155	0	0	0	0	178	359	528	707	879	1035	1204	0	0	0	0
+01_PastiB_V	3	634	0	50	5	7	4	3	V	-	From-Scratch	no			53	73	138	185	-	21	42	66	69	0	0	0	0	0	0	0	166	421	623	634	0	0	0	0	0	0	0
+01_StraParlaB_A	2	618	0	92	5	10	0	3	A	-	From-Scratch	sì			74	110	153	195	-	26	65	106	114	0	0	0	0	0	0	0	167	390	572	618	0	0	0	0	0	0	0
+03_StraParlaA_man	2	946	0	136	20	18	3	1	I	Eleonora	Revised	-	-	-	-	-	-	-	-	33	69	98	127	151	0	0	0	0	0	0	167	366	567	770	946	0	0	0	0	0	0
+03_StraParlaC_man	3	425	0	74	9	7	1	1	U	Eleonora	Revised	-	-	-	-	-	-	-	-	42	86	105	0	0	0	0	0	0	0	0	145	344	425	0	0	0	0	0	0	0	0
+01_StraParlaA_I	2	930	0	132	14	26	3	1	I	-	From-Scratch	sì			71	133	206	290	-	33	67	93	122	145	0	0	0	0	0	0	169	358	555	759	930	0	0	0	0	0	0
+03_ParlaBOA	2	1448	0	128	7	15	10	0	esterno	?	Revised	-	-	-	-	-	-	-	-	28	61	92	119	150	184	218	249	261	0	0	167	350	516	668	843	1056	1220	1376	1448	0	0
+02_PastiB_U	3	799	0	54	2	10	0	0	U	-	Whisper-Assisted	no			82	147	236	265	1237	36	71	107	143	154	0	0	0	0	0	0	159	383	563	729	799	0	0	0	0	0	0
+02_ParlaBOA_L	2	788	0	54	5	0	3	0	L	-	Whisper-Assisted	no			51	118	224	280	611	32	59	82	106	128	0	0	0	0	0	0	163	353	518	669	788	0	0	0	0	0	0
+01_StraParlaA_L	2	521	0	52	6	2	1	0	L	-	From-Scratch	no			41	79	130	175	-	29	70	103	0	0	0	0	0	0	0	0	170	349	521	0	0	0	0	0	0	0	0
+03_ParlaBOB	2	1719	0	144	6	5	8	0	esterno	?	Revised	-	-	-	-	-	-	-	-	32	63	89	120	156	191	227	260	292	326	330	152	327	472	613	804	990	1182	1361	1536	1702	1719
+01_StraParlaC_S	3	524	0	74	4	3	2	1	S	-	From-Scratch	sì			49	110	155	197	-	23	42	59	61	0	0	0	0	0	0	0	143	343	501	524	0	0	0	0	0	0	0
+01_StraParlaC_U	3	383	0	60	6	7	1	1	U	-	From-Scratch	no			42	77	110	145	-	58	121	150	0	0	0	0	0	0	0	0	136	313	383	0	0	0	0	0	0	0	0
+01_ParlaBOA_M	2	602	0	52	3	5	3	6	M	-	From-Scratch	no			48	90	149	212	-	29	56	79	89	0	0	0	0	0	0	0	165	350	522	602	0	0	0	0	0	0	0
+02_PastiA_E	3	1383	0	115	4	13	0	0	E	-	Whisper-Assisted	sì			113	257	360	465	1666	35	64	92	127	161	197	216	234	0	0	0	170	371	547	753	925	1109	1272	1383	0	0	0
+01_PastiA_O	6	879	0	48	2	32	0	1	O	-	From-Scratch	sì			90	180	254	304	-	36	67	93	125	156	160	0	0	0	0	0	166	358	534	711	866	879	0	0	0	0	0
+01_ParlaBOB_N	2	516	0	32	2	4	17	0	N	-	From-Scratch	no			64	117	180	187	-	24	48	65	69	0	0	0	0	0	0	0	169	346	501	516	0	0	0	0	0	0	0
+02_StraParlaA_V	2	789	0	50	5	3	1	0	V	-	Whisper-Assisted	no			69	149	217	251	708	18	40	69	90	99	0	0	0	0	0	0	163	357	546	742	789	0	0	0	0	0	0
+02_PastiA_M	4	865	0	57	2	9	5	1	M	-	Whisper-Assisted	no			67	162	239	284	740	30	57	85	120	145	0	0	0	0	0	0	171	362	543	739	865	0	0	0	0	0	0
+03_StraParlaA_whi	2	823	0	128	7	2	0	4	A	Eleonora	Revised	-	-	-	-	-	-	-	-	28	63	97	131	139	0	0	0	0	0	0	174	380	580	774	823	0	0	0	0	0	0
+02_StraParlaB_R	2	594	0	50	0	0	3	0	R	-	Whisper-Assisted	no			64	104	173	191	725	18	48	79	85	0	0	0	0	0	0	0	184	358	529	594	0	0	0	0	0	0	0
