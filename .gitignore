@@ -171,3 +171,4 @@ data/max_trascrizioni.tsv
 *.bak
 *.eaf.001
 data/output_sample/*
+data/.DS_Store

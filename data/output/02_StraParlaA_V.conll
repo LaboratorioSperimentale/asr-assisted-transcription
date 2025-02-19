@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 token_id	speaker	tu_id	token	orig_token	span	type	metalinguistic_category	align	intonation	unknown	interruption	truncation	prosodicLink	spaceafter	prolongations	slow_pace	fast_pace	volume	guesses	overlaps
 1-0	SP1	1	eh	eh	eh	linguistic	_	Begin=0.35	_	_	_	_	_	_				_		
 1-1	SP1	1	come	come	come	linguistic	_		_	_	_	_	_	_				_		
@@ -788,3 +789,795 @@ token_id	speaker	tu_id	token	orig_token	span	type	metalinguistic_category	align	
 99-5	SP2	99	grande	grande	grande	linguistic	_		_	_	_	_	_	_				_		
 99-6	SP2	99	più	più	più	linguistic	_		_	_	_	_	_	_				_		
 99-7	SP2	99	piccola	piccola	piccola	linguistic	_	End=253.02	_	_	_	_	_	_				_		
+=======
+token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	align	prolongations	slow_pace	fast_pace	guesses	overlaps
+1-0	SP1	1	eh	eh	linguistic	_		Begin=0.35		_	_	_	_
+1-1	SP1	1	come	come	linguistic	_				_	_	_	_
+1-2	SP1	1	tabacco	tabacco	linguistic	_				_	_	_	_
+1-3	SP1	1	no	no	linguistic	_				_	_	_	_
+1-4	SP1	1	eh	eh	linguistic	_				_	_	_	_
+1-5	SP1	1	di	di	linguistic	_				_	_	_	_
+1-6	SP1	1	là	là,	linguistic	_	Intonation=weakly_ascending			_	_	_	_
+1-7	SP1	1	lavorando	lavorando	linguistic	_				_	_	_	_
+1-8	SP1	1	più	più	linguistic	_				_	_	_	_
+1-9	SP1	1	di	di	linguistic	_				_	_	_	_
+1-10	SP1	1	tre-tremi:la	tre-tremi:la	error	_				_	_	_	_
+1-11	SP1	1	persone	persone	linguistic	_				_	_	_	_
+1-12	SP1	1	non	non	linguistic	_				_	_	_	_
+1-13	SP1	1	sono	sono	linguistic	_				_	_	_	_
+1-14	SP1	1	esattamente	esattamente	linguistic	_				_	_	_	_
+1-15	SP1	1	o	o	linguistic	_				_	_	_	_
+1-16	SP1	1	tremila	tremila	linguistic	_				_	_	_	_
+1-17	SP1	1	o	o	linguistic	_				_	_	_	_
+1-18	SP1	1	trentamila	trentamila	linguistic	_				_	_	_	_
+1-19	SP1	1	ma	ma	linguistic	_				_	_	_	_
+1-20	SP1	1	tremila	tremila	linguistic	_				_	_	_	_
+1-21	SP1	1	che	che	linguistic	_				_	_	_	_
+1-22	SP1	1	facciamo	facciamo?	linguistic	_	Intonation=ascending	End=8.44		_	_	_	_
+2-0	SP1	2	ma	ma	linguistic	_		Begin=8.84		_	_	_	_
+2-1	SP1	2	non	non	linguistic	_				_	_	_	_
+2-2	SP1	2	si	si	linguistic	_				_	_	_	_
+2-3	SP1	2	trovano	trovano	linguistic	_				_	_	_	_
+2-4	SP1	2	adesso	adesso	linguistic	_				_	_	_	_
+2-5	SP1	2	neanche	neanche	linguistic	_				_	_	_	_
+2-6	SP1	2	là	là	linguistic	_				_	_	_	_
+2-7	SP1	2	gli	>gli	linguistic	_				_	0-3(0)	_	_
+2-8	SP1	2	appartamenti	appartamenti<	linguistic	_		End=11.17		_	0-12(0)	_	_
+3-0	SP2	3	eh	EH	linguistic	_	Volume=high	Begin=11.22		_	_	_	_
+3-1	SP2	3	esatto	esatto	linguistic	_				_	_	_	_
+3-2	SP2	3	te	te	linguistic	_				_	_	_	_
+3-3	SP2	3	lo	lo	linguistic	_				_	_	_	_
+3-4	SP2	3	era	era	linguistic	_				_	_	_	_
+3-5	SP2	3	{P}	{P}	shortpause	_				_	_	_	_
+3-6	SP2	3	questo	questo	linguistic	_				_	_	_	_
+3-7	SP2	3	che	che	linguistic	_				_	_	_	_
+3-8	SP2	3	volevo	volevo	linguistic	_				_	_	_	_
+3-9	SP2	3	chiederti	chiederti	linguistic	_				_	_	_	_
+3-10	SP2	3	perché	perché	linguistic	_		End=14.88		_	_	_	_
+4-0	SP1	4	eh	eh	linguistic	_		Begin=14.91		_	_	_	_
+4-1	SP1	4	sì	sì	linguistic	_		End=15.46		_	_	_	_
+5-0	SP2	5	se	se	linguistic	_		Begin=15.49		_	_	_	_
+5-1	SP2	5	tutti	tutti	linguistic	_				_	_	_	_
+5-2	SP2	5	vogliono	vogliono	linguistic	_				_	_	_	_
+5-3	SP2	5	vivere	vivere	linguistic	_				_	_	_	_
+5-4	SP2	5	lì	lì	linguistic	_		End=17.112		_	_	_	_
+6-0	SP1	6	sì	°sì°	linguistic	_	Volume=low	Begin=17.56		_	_	_	_
+6-1	SP1	6	non	non	linguistic	_				_	_	_	_
+6-2	SP1	6	si	si	linguistic	_				_	_	_	_
+6-3	SP1	6	trovano	trovano	linguistic	_				_	_	_	_
+6-4	SP1	6	appartamenti	appartamenti	linguistic	_				_	_	_	_
+6-5	SP1	6	la	[la]	linguistic	_				_	_	_	0-2(7)
+6-6	SP1	6	verità	verità	linguistic	_				_	_	_	_
+6-7	SP1	6	piuttosto	piuttosto	linguistic	_				_	_	_	_
+6-8	SP1	6	che	che	linguistic	_				_	_	_	_
+6-9	SP1	6	ci	ci	linguistic	_				_	_	_	_
+6-10	SP1	6	sono	sono	linguistic	_				_	_	_	_
+6-11	SP1	6	un	un	linguistic	_				_	_	_	_
+6-12	SP1	6	sacco	sacco	linguistic	_				_	_	_	_
+6-13	SP1	6	di	di	linguistic	_				_	_	_	_
+6-14	SP1	6	gente	gente	linguistic	_		End=20.0		_	_	_	_
+7-0	SP2	7	mhmh	mhmh	linguistic	_		End=19.52		_	_	_	_
+8-0	SP2	8	mhmh	mhmh	linguistic	_		End=20.36		_	_	_	_
+9-0	SP1	9	piuttosto	piuttosto	linguistic	_		Begin=20.39		_	_	_	_
+9-1	SP1	9	che	che:	linguistic	_			2x1	_	_	_	_
+9-2	SP1	9	ci	ci	linguistic	_				_	_	_	_
+9-3	SP1	9	sono	sono	linguistic	_				_	_	_	_
+9-4	SP1	9	un	un	linguistic	_				_	_	_	_
+9-5	SP1	9	sacco	sacco	linguistic	_				_	_	_	_
+9-6	SP1	9	di	di:	linguistic	_			1x1	_	_	_	_
+9-7	SP1	9	gente	gente	linguistic	_		End=23.7		_	_	_	_
+10-0	SP1	10	come	come:	linguistic	_		Begin=24.4	3x1	_	_	_	_
+10-1	SP1	10	non	non	linguistic	_				_	_	_	_
+10-2	SP1	10	vuole	vuole	linguistic	_				_	_	_	_
+10-3	SP1	10	dare	dare	linguistic	_				_	_	_	_
+10-4	SP1	10	appartamenti	appartamenti	linguistic	_				_	_	_	_
+10-5	SP1	10	per	per	linguistic	_				_	_	_	_
+10-6	SP1	10	la	la	linguistic	_				_	_	_	_
+10-7	SP1	10	famiglia	famiglia,	linguistic	_	Intonation=weakly_ascending			_	_	_	_
+10-8	SP1	10	{P}	{P}	shortpause	_				_	_	_	_
+10-9	SP1	10	un	un	linguistic	_				_	_	_	_
+10-10	SP1	10	po'	po'	linguistic	_				_	_	_	_
+10-11	SP1	10	che	che	linguistic	_				_	_	_	_
+10-12	SP1	10	danno	danno:	linguistic	_			4x1	_	_	_	_
+10-13	SP1	10	un	un	linguistic	_				_	_	_	_
+10-14	SP1	10	po'	po'	linguistic	_				_	_	_	_
+10-15	SP1	10	di	di	linguistic	_				_	_	_	_
+10-16	SP1	10	persone	persone	linguistic	_		End=29.64		_	_	_	_
+11-0	SP2	11	mhmh	mhmh	linguistic	_		End=29.97		_	_	_	_
+12-0	SP1	12	che	che:	linguistic	_		Begin=30.03	2x1	_	_	_	_
+12-1	SP1	12	dopo	dopo	linguistic	_				_	_	_	_
+12-2	SP1	12	fanno	fanno	linguistic	_				_	_	_	_
+12-3	SP1	12	la	la	linguistic	_				_	_	_	_
+12-4	SP1	12	storia	storia,	linguistic	_	Intonation=weakly_ascending	End=31.9		_	_	_	_
+13-0	SP1	13	allora	allora	linguistic	_		Begin=31.96		_	_	_	_
+13-1	SP1	13	{P}	{P}	shortpause	_				_	_	_	_
+13-2	SP1	13	per	per	linguistic	_				_	_	_	_
+13-3	SP1	13	pochi	pochi	linguistic	_				_	_	_	_
+13-4	SP1	13	che	che:	linguistic	_			2x1	_	_	_	_
+13-5	SP1	13	tutti	tutti	linguistic	_				_	_	_	_
+13-6	SP1	13	quanti	quanti	linguistic	_				_	_	_	_
+13-7	SP1	13	{inspira}	{inspira}	metalinguistic	_		End=35.5		_	_	_	_
+14-0	SP2	14	sì	sì	linguistic	_		Begin=35.68		_	_	_	_
+14-1	SP2	14	sì	sì	linguistic	_				_	_	_	_
+14-2	SP2	14	sì	sì	linguistic	_				_	_	_	_
+14-3	SP2	14	certo	certo	linguistic	_				_	_	_	_
+14-4	SP2	14	capito	capito	linguistic	_				_	_	_	_
+14-5	SP2	14	{P}	{P}	shortpause	_				_	_	_	_
+14-6	SP2	14	mh	mh	linguistic	_				_	_	_	_
+14-7	SP2	14	eh	eh	linguistic	_				_	_	_	_
+14-8	SP2	14	ma	ma	linguistic	_				_	_	_	_
+14-9	SP2	14	se-	se-	linguistic	_	Interrupted=Yes			_	_	_	_
+14-10	SP2	14	se	se	linguistic	_				_	_	_	_
+14-11	SP2	14	potessi	potessi	linguistic	_				_	_	_	_
+14-12	SP2	14	un	un	linguistic	_				_	_	_	_
+14-13	SP2	14	giorno	giorno	linguistic	_				_	_	_	_
+14-14	SP2	14	vorresti	vorresti	linguistic	_				_	_	_	_
+14-15	SP2	14	vivere	vivere	linguistic	_				_	_	_	_
+14-16	SP2	14	in	in	linguistic	_				_	_	_	_
+14-17	SP2	14	città	città:?	linguistic	_	Intonation=ascending	End=40.88	4x1	_	_	_	_
+15-0	SP1	15	assolutamente	assolutamente	linguistic	_		Begin=40.94		_	_	_	_
+15-1	SP1	15	io	io	linguistic	_				_	_	_	_
+15-2	SP1	15	sto	sto	linguistic	_				_	_	_	_
+15-3	SP1	15	provando	provando	linguistic	_				_	_	_	_
+15-4	SP1	15	tutti	tutti	linguistic	_				_	_	_	_
+15-5	SP1	15	i	i	linguistic	_				_	_	_	_
+15-6	SP1	15	giorni	giorni	linguistic	_				_	_	_	_
+15-7	SP1	15	a	a	linguistic	_				_	_	_	_
+15-8	SP1	15	trovare	[trovare]	linguistic	_				_	_	_	0-7(16)
+15-9	SP1	15	c'	c	linguistic	_	SpaceAfter=No			_	_	_	_
+15-10	SP1	15	è	è	linguistic	_				_	_	_	_
+15-11	SP1	15	un	un	linguistic	_				_	_	_	_
+15-12	SP1	15	appartamento	appartamento	linguistic	_				_	_	_	_
+15-13	SP1	15	per	per	linguistic	_				_	_	_	_
+15-14	SP1	15	eh	eh:	linguistic	_			1x1	_	_	_	_
+15-15	SP1	15	trasferire	trasferire	linguistic	_				_	_	_	_
+15-16	SP1	15	in	in	linguistic	_				_	_	_	_
+15-17	SP1	15	bologna	bologn[a]	linguistic	_				_	_	_	5-7(17)
+15-18	SP1	15	cioè	cioè	linguistic	_		End=46.68		_	_	_	_
+16-0	SP2	16	okay	[(°okay°)]	linguistic	_	Volume=low	End=43.46		_	_	0-4(0)	0-4(15)
+17-0	SP2	17	mhmh	[mhmh]	linguistic	_		End=46.53		_	_	_	0-4(15)
+18-0	SP1	18	io	io	linguistic	_		Begin=47.01		_	_	_	_
+18-1	SP1	18	lavoro	lavoro	linguistic	_				_	_	_	_
+18-2	SP1	18	qui	qui	linguistic	_				_	_	_	_
+18-3	SP1	18	{P}	{P}	shortpause	_				_	_	_	_
+18-4	SP1	18	è	è	linguistic	_				_	_	_	_
+18-5	SP1	18	inutile	inutile	linguistic	_				_	_	_	_
+18-6	SP1	18	che	che	linguistic	_				_	_	_	_
+18-7	SP1	18	io	io	linguistic	_				_	_	_	_
+18-8	SP1	18	vado	vado	linguistic	_				_	_	_	_
+18-9	SP1	18	a	a	linguistic	_				_	_	_	_
+18-10	SP1	18	{P}	{P}	shortpause	_				_	_	_	_
+18-11	SP1	18	esempio	esempio	linguistic	_				_	_	_	_
+18-12	SP1	18	faccio	faccio	linguistic	_				_	_	_	_
+18-13	SP1	18	così	così	linguistic	_				_	_	_	_
+18-14	SP1	18	una	una	linguistic	_				_	_	_	_
+18-15	SP1	18	una	una	linguistic	_				_	_	_	_
+18-16	SP1	18	una	una:	linguistic	_			2x1	_	_	_	_
+18-17	SP1	18	ragionamento	ragionamento	linguistic	_		End=53.28		_	_	_	_
+19-0	SP1	19	se	se	linguistic	_		Begin=53.35		_	_	_	_
+19-1	SP1	19	lo	lo	linguistic	_				_	_	_	_
+19-2	SP1	19	trovo	trovo	linguistic	_				_	_	_	_
+19-3	SP1	19	una	una	linguistic	_				_	_	_	_
+19-4	SP1	19	casa	casa	linguistic	_				_	_	_	_
+19-5	SP1	19	in	in	linguistic	_				_	_	_	_
+19-6	SP1	19	bologna	bologna	linguistic	_				_	_	_	_
+19-7	SP1	19	{P}	{P}	shortpause	_				_	_	_	_
+19-8	SP1	19	che	che	linguistic	_				_	_	_	_
+19-9	SP1	19	è	è	linguistic	_				_	_	_	_
+19-10	SP1	19	mille	mille	linguistic	_				_	_	_	_
+19-11	SP1	19	euro	euro	linguistic	_				_	_	_	_
+19-12	SP1	19	facciamo	faccia[mo	linguistic	_				_	_	_	6-8(20)
+19-13	SP1	19	perché	per]ché	linguistic	_				_	_	_	0-3(20)
+19-14	SP1	19	una	una	linguistic	_				_	_	_	_
+19-15	SP1	19	casa	casa	linguistic	_				_	_	_	_
+19-16	SP1	19	deve	deve	linguistic	_				_	_	_	_
+19-17	SP1	19	essere	essere	linguistic	_				_	_	_	_
+19-18	SP1	19	mille	mille	linguistic	_				_	_	_	_
+19-19	SP1	19	euro	euro	linguistic	_		End=60.6		_	_	_	_
+20-0	SP2	20	mhmh	[mhmh]	linguistic	_		End=58.27		_	_	_	0-4(19)
+21-0	SP1	21	e	e	linguistic	_		Begin=60.74		_	_	_	_
+21-1	SP1	21	non	non	linguistic	_				_	_	_	_
+21-2	SP1	21	è	è	linguistic	_				_	_	_	_
+21-3	SP1	21	che	che	linguistic	_				_	_	_	_
+21-4	SP1	21	deve	deve	linguistic	_				_	_	_	_
+21-5	SP1	21	essere	essere	linguistic	_				_	_	_	_
+21-6	SP1	21	soltanto	soltanto	linguistic	_				_	_	_	_
+21-7	SP1	21	una	una	linguistic	_				_	_	_	_
+21-8	SP1	21	camera	camera	linguistic	_				_	_	_	_
+21-9	SP1	21	un	un	linguistic	_				_	_	_	_
+21-10	SP1	21	mon-	mon-	linguistic	_	Interrupted=Yes			_	_	_	_
+21-11	SP1	21	un	un	linguistic	_				_	_	_	_
+21-12	SP1	21	monolocale	monolocale	linguistic	_				_	_	_	_
+21-13	SP1	21	che	che	linguistic	_				_	_	_	_
+21-14	SP1	21	è	è	linguistic	_				_	_	_	_
+21-15	SP1	21	mille	mille	linguistic	_				_	_	_	_
+21-16	SP1	21	euro	euro	linguistic	_				_	_	_	_
+21-17	SP1	21	no	no	linguistic	_				_	_	_	_
+21-18	SP1	21	è	è	linguistic	_				_	_	_	_
+21-19	SP1	21	troppo	troppo	linguistic	_		End=65.05		_	_	_	_
+22-0	SP1	22	è	è	linguistic	_		Begin=65.11		_	_	_	_
+22-1	SP1	22	troppo	troppo	linguistic	_		End=65.68		_	_	_	_
+23-0	SP2	23	è	è	linguistic	_		Begin=65.71		_	_	_	_
+23-1	SP2	23	troppo	troppo	linguistic	_				_	_	_	_
+23-2	SP2	23	sì	sì	linguistic	_		End=66.42		_	_	_	_
+24-0	SP1	24	deve	deve	linguistic	_		Begin=66.46		_	_	_	_
+24-1	SP1	24	essere	essere	linguistic	_				_	_	_	_
+24-2	SP1	24	almeno	almeno	linguistic	_				_	_	_	_
+24-3	SP1	24	tre	tre	linguistic	_				_	_	_	_
+24-4	SP1	24	camera	camera	linguistic	_				_	_	_	_
+24-5	SP1	24	di	di	linguistic	_				_	_	_	_
+24-6	SP1	24	letto	letto	linguistic	_				_	_	_	_
+24-7	SP1	24	per	[per	linguistic	_				_	_	_	0-3(25)
+24-8	SP1	24	per	per]	linguistic	_				_	_	_	0-3(25)
+24-9	SP1	24	mille	mille	linguistic	_				_	_	_	_
+24-10	SP1	24	euro	euro	linguistic	_				_	_	_	_
+24-11	SP1	24	mille	mille	linguistic	_				_	_	_	_
+24-12	SP1	24	due	due	linguistic	_				_	_	_	_
+24-13	SP1	24	mille	mille	linguistic	_				_	_	_	_
+24-14	SP1	24	cento	cento	linguistic	_				_	_	_	_
+24-15	SP1	24	facciamo	facciamo	linguistic	_				_	_	_	_
+24-16	SP1	24	così	così	linguistic	_		End=71.7		_	_	_	_
+25-0	SP2	25	sìsì	[sìsì	linguistic	_		Begin=68.15		_	_	_	0-4(24)
+25-1	SP2	25	sì	sì]	linguistic	_		End=68.88		_	_	_	0-2(24)
+26-0	SP1	26	se	se	linguistic	_		Begin=72.7		_	_	_	_
+26-1	SP1	26	vado	vado	linguistic	_				_	_	_	_
+26-2	SP1	26	a	a:	linguistic	_			0x1	_	_	_	_
+26-3	SP1	26	valsamoggia	valsamoggia	linguistic	_				_	_	_	_
+26-4	SP1	26	{P}	{P}	shortpause	_				_	_	_	_
+26-5	SP1	26	ogni	ogni	linguistic	_				_	_	_	_
+26-6	SP1	26	mese	mese	linguistic	_				_	_	_	_
+26-7	SP1	26	io	io	linguistic	_				_	_	_	_
+26-8	SP1	26	spendo	spendo	linguistic	_				_	_	_	_
+26-9	SP1	26	ce-	ce-	linguistic	_	Interrupted=Yes			_	_	_	_
+26-10	SP1	26	più	più	linguistic	_				_	_	_	_
+26-11	SP1	26	di	di	linguistic	_				_	_	_	_
+26-12	SP1	26	duecento	duecento	linguistic	_				_	_	_	_
+26-13	SP1	26	euro	euro	linguistic	_				_	_	_	_
+26-14	SP1	26	di	di	linguistic	_				_	_	_	_
+26-15	SP1	26	benzina	benzina	linguistic	_		End=77.76		_	_	_	_
+27-0	SP2	27	sì	sì	linguistic	_		Begin=77.82		_	_	_	_
+27-1	SP2	27	sì	sì	linguistic	_				_	_	_	_
+27-2	SP2	27	e	e	linguistic	_				_	_	_	_
+27-3	SP2	27	parcheggio	parcheggio	linguistic	_		End=79.18		_	_	_	_
+28-0	SP1	28	e	e	linguistic	_		Begin=79.24		_	_	_	_
+28-1	SP1	28	parcheggio	parcheggio	linguistic	_				_	_	_	_
+28-2	SP1	28	più	più	linguistic	_				_	_	_	_
+28-3	SP1	28	facciamo	facciamo	linguistic	_				_	_	_	_
+28-4	SP1	28	trecentocinquanta	trecentocinquanta	linguistic	_				_	_	_	_
+28-5	SP1	28	euro	euro	linguistic	_				_	_	_	_
+28-6	SP1	28	di	di	linguistic	_				_	_	_	_
+28-7	SP1	28	ogni	ogni	linguistic	_				_	_	_	_
+28-8	SP1	28	mese	mese	linguistic	_		End=80.11		_	_	_	_
+29-0	SP2	29	sì	sì	linguistic	_		End=80.44		_	_	_	_
+30-0	SP1	30	facciamo	facciamo	linguistic	_		Begin=80.5		_	_	_	_
+30-1	SP1	30	trecentocinquanta	trecentocinquanta	linguistic	_				_	_	_	_
+30-2	SP1	30	euro	euro	linguistic	_				_	_	_	_
+30-3	SP1	30	di	di	linguistic	_				_	_	_	_
+30-4	SP1	30	ogni	[ogni	linguistic	_				_	_	_	0-4(31)
+30-5	SP1	30	mese	mese]	linguistic	_		End=83.44		_	_	_	0-4(31)
+31-0	SP2	31	tantissimo	[°tantissimo°]	linguistic	_	Volume=low	End=83.35		_	_	_	0-10(30)
+32-0	SP2	32	tantissimo	tantissimo	linguistic	_		Begin=83.93		_	_	_	_
+32-1	SP2	32	{ride}	{ride}	metalinguistic	_		End=85.39		_	_	_	_
+33-0	SP2	33	sì	°sì	linguistic	_	Volume=low	Begin=85.92		_	_	_	_
+33-1	SP2	33	sì	sì°	linguistic	_	Volume=low			_	_	_	_
+33-2	SP2	33	{P}	{P}	shortpause	_				_	_	_	_
+33-3	SP2	33	no	no	linguistic	_				_	_	_	_
+33-4	SP2	33	io	io	linguistic	_				_	_	_	_
+33-5	SP2	33	non	non	linguistic	_				_	_	_	_
+33-6	SP2	33	ho	ho	linguistic	_				_	_	_	_
+33-7	SP2	33	la	la	linguistic	_				_	_	_	_
+33-8	SP2	33	macchina	macchina	linguistic	_				_	_	_	_
+33-9	SP2	33	quindi	quindi	linguistic	_				_	_	_	_
+33-10	SP2	33	non	non	linguistic	_				_	_	_	_
+33-11	SP2	33	mi	mi	linguistic	_				_	_	_	_
+33-12	SP2	33	rendo	[rendo	linguistic	_				_	_	_	0-5(34)
+33-13	SP2	33	conto	CONTO	linguistic	_	Volume=high			_	_	_	0-5(34)
+33-14	SP2	33	sento	SENTO	linguistic	_	Volume=high			_	_	_	0-5(34)
+33-15	SP2	33	queste	QUESTE	linguistic	_	Volume=high			_	_	_	0-6(34)
+33-16	SP2	33	cif-	CIF-	linguistic	_	Interrupted=Yes|Volume=high			_	_	_	0-4(34)
+33-17	SP2	33	{ride}	{ride}]	metalinguistic	_		End=90.62		_	_	_	0-6(34)
+34-0	SP1	34	no	[no	linguistic	_		Begin=88.29		_	_	_	0-2(33)
+34-1	SP1	34	intendevo	intendevo	linguistic	_				_	_	_	0-9(33)
+34-2	SP1	34	intendevo	intendevo]	linguistic	_				_	_	_	0-9(33)
+34-3	SP1	34	che	che	linguistic	_				_	_	_	_
+34-4	SP1	34	se	se	linguistic	_				_	_	_	_
+34-5	SP1	34	là	là	linguistic	_				_	_	_	_
+34-6	SP1	34	pago	pago	linguistic	_				_	_	_	_
+34-7	SP1	34	settecento	settecento	linguistic	_				_	_	_	_
+34-8	SP1	34	euro	euro	linguistic	_				_	_	_	_
+34-9	SP1	34	in	in	linguistic	_				_	_	_	_
+34-10	SP1	34	affitto	affitto	linguistic	_				_	_	_	_
+34-11	SP1	34	più	più	linguistic	_				_	_	_	_
+34-12	SP1	34	trecentocinquanta	trecentocinquanta	linguistic	_				_	_	_	_
+34-13	SP1	34	sono	sono	linguistic	_				_	_	_	_
+34-14	SP1	34	mille	mille	linguistic	_		End=97.24		_	_	_	_
+35-0	SP2	35	mhmh	mhmh	linguistic	_		End=98.0		_	_	_	_
+36-0	SP1	36	già	già	linguistic	_		Begin=98.24		_	_	_	_
+36-1	SP1	36	{P}	{P}	shortpause	_				_	_	_	_
+36-2	SP1	36	mille	mille	linguistic	_				_	_	_	_
+36-3	SP1	36	eh	eh	linguistic	_				_	_	_	_
+36-4	SP1	36	mil-	mil-	linguistic	_	Interrupted=Yes			_	_	_	_
+36-5	SP1	36	millecento	millecento	linguistic	_				_	_	_	_
+36-6	SP1	36	milledue-	milledue-	linguistic	_	Interrupted=Yes			_	_	_	_
+36-7	SP1	36	millecento	millecento	linguistic	_				_	_	_	_
+36-8	SP1	36	milleduecento	milleduecento	linguistic	_				_	_	_	_
+36-9	SP1	36	dopo	dopo	linguistic	_		End=102.93		_	_	_	_
+37-0	SP1	37	perché	perché	linguistic	_		Begin=103.06		_	_	_	_
+37-1	SP1	37	non	non	linguistic	_				_	_	_	_
+37-2	SP1	37	è	è	linguistic	_				_	_	_	_
+37-3	SP1	37	che	che	linguistic	_				_	_	_	_
+37-4	SP1	37	è	è	linguistic	_				_	_	_	_
+37-5	SP1	37	solo	solo	linguistic	_				_	_	_	_
+37-6	SP1	37	che	che	linguistic	_				_	_	_	_
+37-7	SP1	37	devo	devo	linguistic	_				_	_	_	_
+37-8	SP1	37	pagare	pagare	linguistic	_				_	_	_	_
+37-9	SP1	37	la	la	linguistic	_				_	_	_	_
+37-10	SP1	37	macchina	macchina	linguistic	_				_	_	_	_
+37-11	SP1	37	la	la	linguistic	_				_	_	_	_
+37-12	SP1	37	benzina	benzina	linguistic	_				_	_	_	_
+37-13	SP1	37	e	e:	linguistic	_			0x1	_	_	_	_
+37-14	SP1	37	e	e	linguistic	_				_	_	_	_
+37-15	SP1	37	anche	anche	linguistic	_				_	_	_	_
+37-16	SP1	37	il	il	linguistic	_				_	_	_	_
+37-17	SP1	37	parcheggio	parcheggio	linguistic	_				_	_	_	_
+37-18	SP1	37	no	no	linguistic	_				_	_	_	_
+37-19	SP1	37	devo	devo	linguistic	_				_	_	_	_
+37-20	SP1	37	fa-	fa-	linguistic	_	Interrupted=Yes			_	_	_	_
+37-21	SP1	37	as-	(as-)	linguistic	_	Interrupted=Yes	End=110.59		_	_	0-3(0)	_
+38-0	SP2	38	xxx	xxx	unknown	_		End=111.317		_	_	_	_
+39-0	SP1	39	allora	allora	linguistic	_		Begin=111.78		_	_	_	_
+39-1	SP1	39	come	come	linguistic	_				_	_	_	_
+39-2	SP1	39	la	la	linguistic	_				_	_	_	_
+39-3	SP1	39	città	città	linguistic	_				_	_	_	_
+39-4	SP1	39	se	se	linguistic	_				_	_	_	_
+39-5	SP1	39	tu	tu	linguistic	_				_	_	_	_
+39-6	SP1	39	paghi	paghi	linguistic	_				_	_	_	_
+39-7	SP1	39	duecento	duecento	linguistic	_				_	_	_	_
+39-8	SP1	39	eu-	eu-	linguistic	_	Interrupted=Yes			_	_	_	_
+39-9	SP1	39	cioè	cioè	linguistic	_				_	_	_	_
+39-10	SP1	39	duecento	duecento	linguistic	_				_	_	_	_
+39-11	SP1	39	euro	euro	linguistic	_				_	_	_	_
+39-12	SP1	39	in	in	linguistic	_				_	_	_	_
+39-13	SP1	39	più	più.	linguistic	_	Intonation=descending			_	_	_	_
+39-14	SP1	39	ma	ma	linguistic	_				_	_	_	_
+39-15	SP1	39	ti	ti	linguistic	_				_	_	_	_
+39-16	SP1	39	trovi	trovi	linguistic	_				_	_	_	_
+39-17	SP1	39	tutto	tutto	linguistic	_		End=117.48		_	_	_	_
+40-0	SP2	40	certo	certo	linguistic	_		Begin=117.62		_	_	_	_
+40-1	SP2	40	sì	sì	linguistic	_				_	_	_	_
+40-2	SP2	40	{P}	{P}	shortpause	_				_	_	_	_
+40-3	SP2	40	certo	certo	linguistic	_				_	_	_	_
+40-4	SP2	40	certo	certo	linguistic	_		End=119.24		_	_	_	_
+41-0	SP1	41	come	come	linguistic	_		Begin=119.36		_	_	_	_
+41-1	SP1	41	da	da	linguistic	_				_	_	_	_
+41-2	SP1	41	là	là	linguistic	_				_	_	_	_
+41-3	SP1	41	per	per	linguistic	_				_	_	_	_
+41-4	SP1	41	fare	fare	linguistic	_				_	_	_	_
+41-5	SP1	41	una	una	linguistic	_				_	_	_	_
+41-6	SP1	41	spesa	spesa	linguistic	_				_	_	_	_
+41-7	SP1	41	io	io	linguistic	_				_	_	_	_
+41-8	SP1	41	devo	devo	linguistic	_				_	_	_	_
+41-9	SP1	41	fare	fare	linguistic	_				_	_	_	_
+41-10	SP1	41	cioè	cioè	linguistic	_				_	_	_	_
+41-11	SP1	41	dieci	dieci	linguistic	_				_	_	_	_
+41-12	SP1	41	chilometri	chilometri	linguistic	_				_	_	_	_
+41-13	SP1	41	cinque	cinque	linguistic	_				_	_	_	_
+41-14	SP1	41	chilometri	chilometri	linguistic	_				_	_	_	_
+41-15	SP1	41	almeno	almeno	linguistic	_		End=124.56		_	_	_	_
+42-0	SP2	42	ma	ma	linguistic	_		Begin=125.67		_	_	_	_
+42-1	SP2	42	poi	poi	linguistic	_				_	_	_	_
+42-2	SP2	42	ti	ti	linguistic	_				_	_	_	_
+42-3	SP2	42	{P}	{P}	shortpause	_				_	_	_	_
+42-4	SP2	42	insomma	insomma	linguistic	_				_	_	_	_
+42-5	SP2	42	{P}	{P}	shortpause	_				_	_	_	_
+42-6	SP2	42	ti	ti	linguistic	_				_	_	_	_
+42-7	SP2	42	svegli	svegli	linguistic	_				_	_	_	_
+42-8	SP2	42	presto	presto	linguistic	_				_	_	_	_
+42-9	SP2	42	traffico	[traffico	linguistic	_				_	_	_	0-8(43)
+42-10	SP2	42	stress	stress]	linguistic	_		End=129.7		_	_	_	0-6(43)
+43-0	SP1	43	assolutamente	[assolutamente	linguistic	_		Begin=128.04		_	_	_	0-13(42)
+43-1	SP1	43	ma	ma]	linguistic	_				_	_	_	0-2(42)
+43-2	SP1	43	guarda	guarda	linguistic	_				_	_	_	_
+43-3	SP1	43	che	che	linguistic	_				_	_	_	_
+43-4	SP1	43	là	là	linguistic	_				_	_	_	_
+43-5	SP1	43	{P}	{P}	shortpause	_				_	_	_	_
+43-6	SP1	43	da	da	linguistic	_				_	_	_	_
+43-7	SP1	43	vivere	vivere	linguistic	_				_	_	_	_
+43-8	SP1	43	la	la	linguistic	_				_	_	_	_
+43-9	SP1	43	differenza	differenza	linguistic	_				_	_	_	_
+43-10	SP1	43	da	da	linguistic	_				_	_	_	_
+43-11	SP1	43	città	città	linguistic	_				_	_	_	_
+43-12	SP1	43	e	e	linguistic	_				_	_	_	_
+43-13	SP1	43	fuori	fuori	linguistic	_				_	_	_	_
+43-14	SP1	43	città	città	linguistic	_		End=133.54		_	_	_	_
+44-0	SP1	44	se	se	linguistic	_		Begin=134.08		_	_	_	_
+44-1	SP1	44	lavoro	lavoro	linguistic	_				_	_	_	_
+44-2	SP1	44	fuori	fuori	linguistic	_				_	_	_	_
+44-3	SP1	44	città	città	linguistic	_				_	_	_	_
+44-4	SP1	44	guarda	guarda	linguistic	_				_	_	_	_
+44-5	SP1	44	che	che	linguistic	_				_	_	_	_
+44-6	SP1	44	per	per	linguistic	_				_	_	_	_
+44-7	SP1	44	me	me	linguistic	_				_	_	_	_
+44-8	SP1	44	va	va	linguistic	_				_	_	_	_
+44-9	SP1	44	bene	bene	linguistic	_		End=137.43		_	_	_	_
+45-0	SP2	45	mhmh	mhmh	linguistic	_		End=137.69		_	_	_	_
+46-0	SP1	46	ma	ma	linguistic	_		Begin=137.73		_	_	_	_
+46-1	SP1	46	dentro	dentro	linguistic	_				_	_	_	_
+46-2	SP1	46	le	le	linguistic	_				_	_	_	_
+46-3	SP1	46	città	[città	linguistic	_				_	_	_	0-5(47)
+46-4	SP1	46	devo	devo	linguistic	_				_	_	_	0-4(47)
+46-5	SP1	46	lavorare	lavorare]	linguistic	_		End=139.04		_	_	_	0-8(47)
+47-0	SP2	47	venendo	[venendo	linguistic	_		Begin=138.54		_	_	_	0-7(46)
+47-1	SP2	47	qua	qua]	linguistic	_				_	_	_	0-3(46)
+47-2	SP2	47	{P}	{P}	shortpause	_				_	_	_	_
+47-3	SP2	47	certo	certo	linguistic	_				_	_	_	_
+47-4	SP2	47	sì	sì	linguistic	_				_	_	_	_
+47-5	SP2	47	sì	sì	linguistic	_		End=140.12		_	_	_	_
+48-0	SP1	48	significa	significa	linguistic	_		Begin=140.22		_	_	_	_
+48-1	SP1	48	che	che	linguistic	_				_	_	_	_
+48-2	SP1	48	per	per	linguistic	_				_	_	_	_
+48-3	SP1	48	me	me	linguistic	_				_	_	_	_
+48-4	SP1	48	non	non	linguistic	_				_	_	_	_
+48-5	SP1	48	è	è	linguistic	_				_	_	_	_
+48-6	SP1	48	che	che	linguistic	_				_	_	_	_
+48-7	SP1	48	una	una	linguistic	_				_	_	_	_
+48-8	SP1	48	giornata	giornata	linguistic	_				_	_	_	_
+48-9	SP1	48	di	di	linguistic	_				_	_	_	_
+48-10	SP1	48	{P}	{P}	shortpause	_				_	_	_	_
+48-11	SP1	48	ventiquattro	ventiquattro	linguistic	_				_	_	_	_
+48-12	SP1	48	ore	ore	linguistic	_		End=143.85		_	_	_	_
+49-0	SP2	49	mhmh	mhmh	linguistic	_		End=144.329		_	_	_	_
+50-0	SP1	50	sono	sono	linguistic	_		Begin=144.41		_	_	_	_
+50-1	SP1	50	ventidue	ventidue	linguistic	_				_	_	_	_
+50-2	SP1	50	ore	o[re]	linguistic	_		End=146.17		_	_	_	1-3(51)
+51-0	SP2	51	certo	[ce]rto	linguistic	_		Begin=145.98		_	_	_	0-2(50)
+51-1	SP2	51	perché	perché	linguistic	_				_	_	_	_
+51-2	SP2	51	è	è	linguistic	_				_	_	_	_
+51-3	SP2	51	un'	[un	linguistic	_	SpaceAfter=No			_	_	_	0-3(52)
+51-4	SP2	51	ora	ora]	linguistic	_		End=147.36		_	_	_	0-3(52)
+52-0	SP1	52	ancora	[ancora	linguistic	_		Begin=146.87		_	_	_	0-6(51)
+52-1	SP1	52	meno	me]no	linguistic	_		End=147.81		_	_	_	0-2(51)
+53-0	SP2	53	mhmh	mhmh	linguistic	_		End=148.21		_	_	_	_
+54-0	SP1	54	sono	sono	linguistic	_		Begin=148.27		_	_	_	_
+54-1	SP1	54	venti	venti	linguistic	_				_	_	_	_
+54-2	SP1	54	ore	ore	linguistic	_				_	_	_	_
+54-3	SP1	54	tipo	tipo	linguistic	_		End=149.24		_	_	_	_
+55-0	SP2	55	sì	°sì	linguistic	_	Volume=low	Begin=149.27		_	_	_	_
+55-1	SP2	55	sì	sì°	linguistic	_	Volume=low	End=149.48		_	_	_	_
+56-0	SP1	56	perché	perché	linguistic	_		Begin=149.5		_	_	_	_
+56-1	SP1	56	ogni	ogni	linguistic	_				_	_	_	_
+56-2	SP1	56	giorno	giorno	linguistic	_				_	_	_	_
+56-3	SP1	56	io	io	linguistic	_				_	_	_	_
+56-4	SP1	56	lo	lo	linguistic	_				_	_	_	_
+56-5	SP1	56	{P}	{P}	shortpause	_				_	_	_	_
+56-6	SP1	56	vado	vado	linguistic	_				_	_	_	_
+56-7	SP1	56	avanti	avanti	linguistic	_				_	_	_	_
+56-8	SP1	56	e	e	linguistic	_				_	_	_	_
+56-9	SP1	56	indietro	indietro	linguistic	_				_	_	_	_
+56-10	SP1	56	un'	un	linguistic	_	SpaceAfter=No			_	_	_	_
+56-11	SP1	56	ora	ora	linguistic	_				_	_	_	_
+56-12	SP1	56	un'	un	linguistic	_	SpaceAfter=No			_	_	_	_
+56-13	SP1	56	ora	ora	linguistic	_				_	_	_	_
+56-14	SP1	56	e	e	linguistic	_				_	_	_	_
+56-15	SP1	56	mezzo	mezzo	linguistic	_				_	_	_	_
+56-16	SP1	56	cioè	cioè	linguistic	_		End=153.79		_	_	_	_
+57-0	SP1	57	per	per	linguistic	_		Begin=154.0		_	_	_	_
+57-1	SP1	57	venire	venire	linguistic	_				_	_	_	_
+57-2	SP1	57	un'	un	linguistic	_	SpaceAfter=No			_	_	_	_
+57-3	SP1	57	ora	ora	linguistic	_				_	_	_	_
+57-4	SP1	57	e	e	linguistic	_				_	_	_	_
+57-5	SP1	57	mezzo	mezzo	linguistic	_				_	_	_	_
+57-6	SP1	57	un'	un	linguistic	_	SpaceAfter=No			_	_	_	_
+57-7	SP1	57	ora	ora	linguistic	_				_	_	_	_
+57-8	SP1	57	minimo	minimo	linguistic	_				_	_	_	_
+57-9	SP1	57	e	e	linguistic	_				_	_	_	_
+57-10	SP1	57	ritornare	ritornare	linguistic	_				_	_	_	_
+57-11	SP1	57	ancora	ancora	linguistic	_				_	_	_	_
+57-12	SP1	57	facciamo	facciamo	linguistic	_				_	_	_	_
+57-13	SP1	57	mezz'	mezz	linguistic	_	SpaceAfter=No			_	_	_	_
+57-14	SP1	57	ora	ora	linguistic	_				_	_	_	_
+57-15	SP1	57	o	o	linguistic	_				_	_	_	_
+57-16	SP1	57	un'	un	linguistic	_	SpaceAfter=No			_	_	_	_
+57-17	SP1	57	ora	ora	linguistic	_		End=159.2		_	_	_	_
+58-0	SP1	58	allora	[allora]	linguistic	_		Begin=159.5		_	_	_	0-6(59)
+58-1	SP1	58	due	due	linguistic	_				_	_	_	_
+58-2	SP1	58	ore	ore	linguistic	_				_	_	_	_
+58-3	SP1	58	è	è	linguistic	_				_	_	_	_
+58-4	SP1	58	già	già	linguistic	_				_	_	_	_
+58-5	SP1	58	scalata	scalata	linguistic	_		End=161.09		_	_	_	_
+59-0	SP2	59	mhmh	[mhmh]	linguistic	_		End=159.925		_	_	_	0-4(58)
+60-0	SP2	60	sì	[sì	linguistic	_		Begin=161.17		_	_	_	0-2(?)
+60-1	SP2	60	sì	sì]	linguistic	_		End=161.4		_	_	_	0-2(?)
+61-0	SP1	61	per	per	linguistic	_		Begin=161.43		_	_	_	_
+61-1	SP1	61	preparare	preparare	linguistic	_				_	_	_	_
+61-2	SP1	61	cioè	cioè	linguistic	_				_	_	_	_
+61-3	SP1	61	se	se	linguistic	_				_	_	_	_
+61-4	SP1	61	tipo	tipo	linguistic	_				_	_	_	_
+61-5	SP1	61	che	che	linguistic	_				_	_	_	_
+61-6	SP1	61	noi	noi	linguistic	_				_	_	_	_
+61-7	SP1	61	abitiamo	abitiamo	linguistic	_				_	_	_	_
+61-8	SP1	61	cioè	cioè	linguistic	_		End=164.79		_	_	_	_
+62-0	SP1	62	facciamo	facciamo	linguistic	_		Begin=164.96		_	_	_	_
+62-1	SP1	62	come	come	linguistic	_				_	_	_	_
+62-2	SP1	62	dentro	dentro	linguistic	_				_	_	_	_
+62-3	SP1	62	la	la	linguistic	_				_	_	_	_
+62-4	SP1	62	bologna	bologna	linguistic	_				_	_	_	_
+62-5	SP1	62	tu	tu	linguistic	_				_	_	_	_
+62-6	SP1	62	venti	venti	linguistic	_				_	_	_	_
+62-7	SP1	62	minuti	minuti	linguistic	_				_	_	_	_
+62-8	SP1	62	{P}	{P}	shortpause	_				_	_	_	_
+62-9	SP1	62	trenta	trenta	linguistic	_				_	_	_	_
+62-10	SP1	62	minuti	minuti	linguistic	_				_	_	_	_
+62-11	SP1	62	sei	sei	linguistic	_				_	_	_	_
+62-12	SP1	62	in	in	linguistic	_				_	_	_	_
+62-13	SP1	62	lavoro	la[voro]	linguistic	_		End=169.86		_	_	_	2-6(63)
+63-0	SP2	63	mhmhmh	[mhmh]mh	linguistic	_		End=170.08		_	_	_	0-4(62)
+64-0	SP2	64	certo	certo	linguistic	_		Begin=170.42		_	_	_	_
+64-1	SP2	64	sì	sì	linguistic	_				_	_	_	_
+64-2	SP2	64	sì	sì	linguistic	_		End=171.3		_	_	_	_
+65-0	SP2	65	ma	ma	linguistic	_		Begin=171.58		_	_	_	_
+65-1	SP2	65	prima	prima	linguistic	_				_	_	_	_
+65-2	SP2	65	di	di	linguistic	_				_	_	_	_
+65-3	SP2	65	trasferirti	trasferirti	linguistic	_				_	_	_	_
+65-4	SP2	65	in	in	linguistic	_				_	_	_	_
+65-5	SP2	65	valsamoggia	valsamoggia	linguistic	_				_	_	_	_
+65-6	SP2	65	n-	n-	linguistic	_	Interrupted=Yes			_	_	_	_
+65-7	SP2	65	in	in	linguistic	_				_	_	_	_
+65-8	SP2	65	quale	quale	linguistic	_				_	_	_	_
+65-9	SP2	65	zona	zona	linguistic	_				_	_	_	_
+65-10	SP2	65	abitavi	abitavi?	linguistic	_	Intonation=ascending	End=174.72		_	_	_	_
+66-0	SP1	66	al	al	linguistic	_		Begin=174.86		_	_	_	_
+66-1	SP1	66	centro	centro	linguistic	_				_	_	_	_
+66-2	SP1	66	proprio	proprio	linguistic	_				_	_	_	_
+66-3	SP1	66	al	al	linguistic	_				_	_	_	_
+66-4	SP1	66	centro	[centro	linguistic	_				_	_	_	0-6(67)
+66-5	SP1	66	storico	storico]	linguistic	_		End=176.5		_	_	_	0-7(67)
+67-0	SP2	67	centro	[centro	linguistic	_		Begin=176.1		_	_	_	0-6(66)
+67-1	SP2	67	centro	ce]ntro	linguistic	_		End=176.68		_	_	_	0-2(66)
+68-0	SP1	68	centro	cen[tro	linguistic	_		Begin=176.73		_	_	_	_
+68-1	SP1	68	centro	ce]ntro]	linguistic	_		End=177.4		_	_	_	_
+69-0	SP2	69	okay	[okay]	linguistic	_		End=177.31		_	_	_	0-4(68)
+70-0	SP1	70	dieci	dieci	linguistic	_		Begin=178.59		_	_	_	_
+70-1	SP1	70	minuti	minuti	linguistic	_				_	_	_	_
+70-2	SP1	70	camminata	camminata	linguistic	_				_	_	_	_
+70-3	SP1	70	che	che	linguistic	_				_	_	_	_
+70-4	SP1	70	dove	dove	linguistic	_				_	_	_	_
+70-5	SP1	70	lavoro	lavoro	linguistic	_				_	_	_	_
+70-6	SP1	70	io	io	linguistic	_		End=180.66		_	_	_	_
+71-0	SP2	71	però	però	linguistic	_		Begin=181.16		_	_	_	_
+71-1	SP2	71	c'	c	linguistic	_	SpaceAfter=No			_	_	_	_
+71-2	SP2	71	è	è	linguistic	_				_	_	_	_
+71-3	SP2	71	un	un	linguistic	_				_	_	_	_
+71-4	SP2	71	po'	po'	linguistic	_				_	_	_	_
+71-5	SP2	71	di	di	linguistic	_				_	_	_	_
+71-6	SP2	71	casino	casino	linguistic	_				_	_	_	_
+71-7	SP2	71	in	in	linguistic	_				_	_	_	_
+71-8	SP2	71	centro	centro	linguistic	_				_	_	_	_
+71-9	SP2	71	sporco	[sporco]	linguistic	_		End=183.94		_	_	_	0-6(72)
+72-0	SP1	72	guarda	[guarda	linguistic	_		Begin=183.2		_	_	_	0-6(71)
+72-1	SP1	72	che	che	linguistic	_				_	_	_	0-3(71)
+72-2	SP1	72	il	il]	linguistic	_				_	_	_	0-2(71)
+72-3	SP1	72	casino	casino	linguistic	_				_	_	_	_
+72-4	SP1	72	no	no	linguistic	_				_	_	_	_
+72-5	SP1	72	cioè	cioè	linguistic	_				_	_	_	_
+72-6	SP1	72	proprio	proprio	linguistic	_				_	_	_	_
+72-7	SP1	72	no	no	linguistic	_				_	_	_	_
+72-8	SP1	72	non	non	linguistic	_				_	_	_	_
+72-9	SP1	72	è	è	linguistic	_				_	_	_	_
+72-10	SP1	72	che	che	linguistic	_				_	_	_	_
+72-11	SP1	72	è	è	linguistic	_				_	_	_	_
+72-12	SP1	72	sporco	sporco	linguistic	_				_	_	_	_
+72-13	SP1	72	tu	tu	linguistic	_				_	_	_	_
+72-14	SP1	72	di-	di-	linguistic	_	Interrupted=Yes			_	_	_	_
+72-15	SP1	72	tu	tu	linguistic	_				_	_	_	_
+72-16	SP1	72	non	non	linguistic	_				_	_	_	_
+72-17	SP1	72	posso	posso	linguistic	_				_	_	_	_
+72-18	SP1	72	cioè	cioè	linguistic	_				_	_	_	_
+72-19	SP1	72	non	non	linguistic	_				_	_	_	_
+72-20	SP1	72	puoi	puoi:	linguistic	_			3x1	_	_	_	_
+72-21	SP1	72	guardare	guardare	linguistic	_				_	_	_	_
+72-22	SP1	72	tutte	tutte	linguistic	_				_	_	_	_
+72-23	SP1	72	le	le	linguistic	_				_	_	_	_
+72-24	SP1	72	cose	cose	linguistic	_				_	_	_	_
+72-25	SP1	72	insieme	insieme	linguistic	_		End=191.02		_	_	_	_
+73-0	SP2	73	mhmh	mhmh	linguistic	_		Begin=191.12		_	_	_	_
+73-1	SP2	73	{P}	{P}	shortpause	_				_	_	_	_
+73-2	SP2	73	mhmh	mhmh	linguistic	_		End=192.724		_	_	_	_
+74-0	SP2	74	quindi	quindi	linguistic	_		Begin=193.04		_	_	_	_
+74-1	SP2	74	sì	sì	linguistic	_				_	_	_	_
+74-2	SP2	74	ti-	ti-	linguistic	_	Interrupted=Yes			_	_	_	_
+74-3	SP2	74	ti	[ti	linguistic	_				_	_	_	0-2(75)
+74-4	SP2	74	piacerebbe	piac]erebbe	linguistic	_				_	_	_	0-4(75)
+74-5	SP2	74	ritornare	ritornare	linguistic	_				_	_	_	_
+74-6	SP2	74	a	a	linguistic	_				_	_	_	_
+74-7	SP2	74	vivere	vive[re	linguistic	_				_	_	_	4-6(76)
+74-8	SP2	74	in	in	linguistic	_				_	_	_	0-2(76)
+74-9	SP2	74	centro	centro	linguistic	_				_	_	_	0-6(76)
+74-10	SP2	74	sì	sì]	linguistic	_		End=195.56		_	_	_	0-2(76)
+75-0	SP1	75	sì	[sì]	linguistic	_		End=194.13		_	_	_	0-2(74)
+76-0	SP1	76	perché	[perché]	linguistic	_		Begin=195.21		_	_	_	0-6(74)
+76-1	SP1	76	{P}	{P}	shortpause	_				_	_	_	_
+76-2	SP1	76	è	è	linguistic	_				_	_	_	_
+76-3	SP1	76	una	una	linguistic	_				_	_	_	_
+76-4	SP1	76	persona	persona	linguistic	_				_	_	_	_
+76-5	SP1	76	che	che	linguistic	_				_	_	_	_
+76-6	SP1	76	vanno	vanno	linguistic	_				_	_	_	_
+76-7	SP1	76	cioè	cioè	linguistic	_				_	_	_	_
+76-8	SP1	76	lavorare	lavorare	linguistic	_				_	_	_	_
+76-9	SP1	76	dentro	dentro	linguistic	_				_	_	_	_
+76-10	SP1	76	in	in	linguistic	_				_	_	_	_
+76-11	SP1	76	città	città	linguistic	_				_	_	_	_
+76-12	SP1	76	va	va	linguistic	_				_	_	_	_
+76-13	SP1	76	a	a	linguistic	_				_	_	_	_
+76-14	SP1	76	abitare	abitare	linguistic	_				_	_	_	_
+76-15	SP1	76	fuori	fuori	linguistic	_				_	_	_	_
+76-16	SP1	76	ti	ti	linguistic	_				_	_	_	_
+76-17	SP1	76	in-	in-	linguistic	_	Interrupted=Yes			_	_	_	_
+76-18	SP1	76	sta	sta	linguistic	_				_	_	_	_
+76-19	SP1	76	inquinando	inquinando	linguistic	_				_	_	_	_
+76-20	SP1	76	lo	[lo	linguistic	_				_	_	_	0-2(77)
+76-21	SP1	76	stesso	ste]sso	linguistic	_		End=203.18		_	_	_	0-3(77)
+77-0	SP2	77	anche	[ANCHE]	linguistic	_	Volume=high	End=202.93		_	_	_	0-5(76)
+78-0	SP2	78	certo	certo	linguistic	_		Begin=203.28		_	_	_	_
+78-1	SP2	78	{P}	{P}	shortpause	_				_	_	_	_
+78-2	SP2	78	ah	ah	linguistic	_				_	_	_	_
+78-3	SP2	78	no	no	linguistic	_				_	_	_	_
+78-4	SP2	78	no	[no	linguistic	_				_	_	_	0-2(79)
+78-5	SP2	78	no	no	linguistic	_				_	_	_	0-2(79)
+78-6	SP2	78	no	no	linguistic	_				_	_	_	0-2(79)
+78-7	SP2	78	no	no	linguistic	_				_	_	_	0-2(79)
+78-8	SP2	78	certamente	certame]nte	linguistic	_				_	_	_	0-7(79)
+78-9	SP2	78	{P}	{P}	shortpause	_				_	_	_	_
+78-10	SP2	78	sì	sì	linguistic	_				_	_	_	_
+78-11	SP2	78	sì	sì	linguistic	_				_	_	_	_
+78-12	SP2	78	sì	sì	linguistic	_				_	_	_	_
+78-13	SP2	78	sì	sì	linguistic	_		End=206.31		_	_	_	_
+79-0	SP1	79	devi	[devi	linguistic	_		Begin=204.12		_	_	_	0-4(78)
+79-1	SP1	79	capire	capire	linguistic	_				_	_	_	0-6(78)
+79-2	SP1	79	questa	questa	linguistic	_				_	_	_	0-6(78)
+79-3	SP1	79	qua	qua]	linguistic	_		End=205.41		_	_	_	0-3(78)
+80-0	SP2	80	e	e:	linguistic	_		Begin=206.756	0x1	_	_	_	_
+80-1	SP2	80	niente	niente	linguistic	_		End=207.48		_	_	_	_
+81-0	SP1	81	ma	ma	linguistic	_		Begin=207.51		_	_	_	_
+81-1	SP1	81	se	se	linguistic	_				_	_	_	_
+81-2	SP1	81	come	come	linguistic	_				_	_	_	_
+81-3	SP1	81	io	io	linguistic	_				_	_	_	_
+81-4	SP1	81	che	che	linguistic	_				_	_	_	_
+81-5	SP1	81	vengo	vengo	linguistic	_				_	_	_	_
+81-6	SP1	81	a	a	linguistic	_				_	_	_	_
+81-7	SP1	81	abitare	abitare	linguistic	_				_	_	_	_
+81-8	SP1	81	in	in	linguistic	_				_	_	_	_
+81-9	SP1	81	ce-	ce-	linguistic	_	Interrupted=Yes			_	_	_	_
+81-10	SP1	81	in	in	linguistic	_				_	_	_	_
+81-11	SP1	81	città	città	linguistic	_				_	_	_	_
+81-12	SP1	81	una	una	linguistic	_				_	_	_	_
+81-13	SP1	81	macchina	macchina	linguistic	_				_	_	_	_
+81-14	SP1	81	già	già	linguistic	_				_	_	_	_
+81-15	SP1	81	f-	f-	linguistic	_	Interrupted=Yes			_	_	_	_
+81-16	SP1	81	già	già	linguistic	_				_	_	_	_
+81-17	SP1	81	ferma	ferma	linguistic	_				_	_	_	_
+81-18	SP1	81	per	per	linguistic	_				_	_	_	_
+81-19	SP1	81	{P}	{P}	shortpause	_				_	_	_	_
+81-20	SP1	81	non	non	linguistic	_				_	_	_	_
+81-21	SP1	81	inquinare	inquinare	linguistic	_				_	_	_	_
+81-22	SP1	81	la	la	linguistic	_				_	_	_	_
+81-23	SP1	81	città	città	linguistic	_		End=216.81		_	_	_	_
+82-0	SP2	82	sì	sì	linguistic	_		Begin=216.84		_	_	_	_
+82-1	SP2	82	sì	sì	linguistic	_				_	_	_	_
+82-2	SP2	82	sì	sì	linguistic	_				_	_	_	_
+82-3	SP2	82	è	è	linguistic	_				_	_	_	_
+82-4	SP2	82	vero	vero	linguistic	_				_	_	_	_
+82-5	SP2	82	capisco	capisco	linguistic	_				_	_	_	_
+82-6	SP2	82	perfettamente	perfettamente	linguistic	_		End=219.16		_	_	_	_
+83-0	SP2	83	mh	mh	linguistic	_		Begin=219.58		_	_	_	_
+83-1	SP2	83	eh	eh	linguistic	_				_	_	_	_
+83-2	SP2	83	sono	sono	linguistic	_				_	_	_	_
+83-3	SP2	83	curiosa	curiosa	linguistic	_				_	_	_	_
+83-4	SP2	83	di	di	linguistic	_				_	_	_	_
+83-5	SP2	83	chiederti	chiederti	linguistic	_				_	_	_	_
+83-6	SP2	83	anche	anche	linguistic	_				_	_	_	_
+83-7	SP2	83	perché	perché	linguistic	_				_	_	_	_
+83-8	SP2	83	{P}	{P}	shortpause	_				_	_	_	_
+83-9	SP2	83	quindi	quindi	linguistic	_				_	_	_	_
+83-10	SP2	83	immagino	immagino	linguistic	_				_	_	_	_
+83-11	SP2	83	che	che	linguistic	_				_	_	_	_
+83-12	SP2	83	la	la	linguistic	_				_	_	_	_
+83-13	SP2	83	tua	tua	linguistic	_				_	_	_	_
+83-14	SP2	83	famiglia	famiglia	linguistic	_				_	_	_	_
+83-15	SP2	83	{P}	{P}	shortpause	_				_	_	_	_
+83-16	SP2	83	si	si	linguistic	_				_	_	_	_
+83-17	SP2	83	sia	sia	linguistic	_				_	_	_	_
+83-18	SP2	83	trasferita	trasferita	linguistic	_		End=225.93		_	_	_	_
+84-0	SP1	84	sì	sì	linguistic	_		End=226.22		_	_	_	_
+85-0	SP2	85	qui	qui	linguistic	_		Begin=226.3		_	_	_	_
+85-1	SP2	85	dal	dal	linguistic	_				_	_	_	_
+85-2	SP2	85	bangladesh	bangla[desh	linguistic	_				_	_	_	6-10(86)
+85-3	SP2	85	no	no]	linguistic	_		End=227.01		_	_	_	0-2(86)
+86-0	SP1	86	sì	[sì]	linguistic	_		End=226.96		_	_	_	0-2(85)
+87-0	SP2	87	quindi	quindi	linguistic	_		Begin=227.1		_	_	_	_
+87-1	SP2	87	in	in	linguistic	_				_	_	_	_
+87-2	SP2	87	nella-	nella-	linguistic	_	Interrupted=Yes			_	_	_	_
+87-3	SP2	87	in	in	linguistic	_				_	_	_	_
+87-4	SP2	87	casa	casa	linguistic	_				_	_	_	_
+87-5	SP2	87	con	con	linguistic	_				_	_	_	_
+87-6	SP2	87	i	i	linguistic	_				_	_	_	_
+87-7	SP2	87	tuoi	tuoi	linguistic	_				_	_	_	_
+87-8	SP2	87	genitori	genitori	linguistic	_				_	_	_	_
+87-9	SP2	87	parla-	parla-	linguistic	_	Interrupted=Yes			_	_	_	_
+87-10	SP2	87	che	che	linguistic	_				_	_	_	_
+87-11	SP2	87	lingua	lingua	linguistic	_				_	_	_	_
+87-12	SP2	87	parlate	parlate?	linguistic	_	Intonation=ascending			_	_	_	_
+87-13	SP2	87	quale	[quale	linguistic	_				_	_	_	0-5(?)
+87-14	SP2	87	li-	li-]	linguistic	_	Interrupted=Yes	End=232.32		_	_	_	0-3(?)
+88-0	SP1	88	eh	[eh	linguistic	_		Begin=232.32		_	_	_	0-2(?)
+88-1	SP1	88	quella	(quella)	linguistic	_				_	_	0-6(0)	0-6(?)
+88-2	SP1	88	sì	sì]	linguistic	_				_	_	_	0-2(?)
+88-3	SP1	88	in	in	linguistic	_				_	_	_	_
+88-4	SP1	88	lingua	lingua:	linguistic	_			5x1	_	_	_	_
+88-5	SP1	88	bangla	bangla	linguistic	_				_	_	_	_
+88-6	SP1	88	che	che	linguistic	_				_	_	_	_
+88-7	SP1	88	parlano	parlano	linguistic	_				_	_	_	_
+88-8	SP1	88	però	però	linguistic	_				_	_	_	_
+88-9	SP1	88	tutti	tutti	linguistic	_				_	_	_	_
+88-10	SP1	88	quanti	quanti	linguistic	_				_	_	_	_
+88-11	SP1	88	lo	lo	linguistic	_				_	_	_	_
+88-12	SP1	88	sanno	sanno	linguistic	_				_	_	_	_
+88-13	SP1	88	anche	anche	linguistic	_				_	_	_	_
+88-14	SP1	88	italiano	italiano	linguistic	_		End=235.34		_	_	_	_
+89-0	SP2	89	e	e	linguistic	_		End=235.59		_	_	_	_
+90-0	SP1	90	però	però	linguistic	_		Begin=235.7		_	_	_	_
+90-1	SP1	90	eh	eh	linguistic	_				_	_	_	_
+90-2	SP1	90	tutti	tutti	linguistic	_				_	_	_	_
+90-3	SP1	90	quanti	quanti	linguistic	_				_	_	_	_
+90-4	SP1	90	lo	lo	linguistic	_				_	_	_	_
+90-5	SP1	90	sanno	sanno	linguistic	_				_	_	_	_
+90-6	SP1	90	anche	anche	linguistic	_				_	_	_	_
+90-7	SP1	90	italiano	italiano	linguistic	_		End=237.74		_	_	_	_
+91-0	SP2	91	ok	ok	linguistic	_		Begin=237.9		_	_	_	_
+91-1	SP2	91	e	[e	linguistic	_				_	_	_	0-1(92)
+91-2	SP2	91	lo	lo	linguistic	_				_	_	_	0-2(92)
+91-3	SP2	91	mischiate	mischiate	linguistic	_				_	_	_	0-9(92)
+91-4	SP2	91	un	un	linguistic	_				_	_	_	0-2(92)
+91-5	SP2	91	po'	po'	linguistic	_				_	_	_	0-3(92)
+91-6	SP2	91	con	co]n	linguistic	_				_	_	_	0-2(92)
+91-7	SP2	91	l'	l	linguistic	_	SpaceAfter=No			_	_	_	_
+91-8	SP2	91	italiano	ital[iano]	linguistic	_				_	_	_	3-8(93)
+91-9	SP2	91	nquando	nquando	linguistic	_				_	_	_	_
+91-10	SP2	91	parlate	parlate	linguistic	_				_	_	_	_
+91-11	SP2	91	fra	fra	linguistic	_				_	_	_	_
+91-12	SP2	91	di	di	linguistic	_				_	_	_	_
+91-13	SP2	91	voi	[voi	linguistic	_				_	_	_	0-3(94)
+91-14	SP2	91	o	o]?	linguistic	_	Intonation=ascending	End=242.58		_	_	_	0-1(94)
+92-0	SP1	92	xxx	[xxx	unknown	_		Begin=238.456		_	_	_	0-3(91)
+92-1	SP1	92	{ride}	{ride}]	metalinguistic	_		End=239.994		_	_	_	0-6(91)
+93-0	SP1	93	sì	[sì	linguistic	_		Begin=240.361		_	_	_	0-2(91)
+93-1	SP1	93	sì	sì]	linguistic	_		End=241.02		_	_	_	0-2(91)
+94-0	SP1	94	sì	[sì]	linguistic	_		Begin=242.14		_	_	_	0-2(91)
+94-1	SP1	94	sì	sì	linguistic	_		End=243.21		_	_	_	_
+95-0	SP2	95	tu	tu	linguistic	_		Begin=243.32		_	_	_	_
+95-1	SP2	95	hai	hai	linguistic	_				_	_	_	_
+95-2	SP2	95	fratelli	fratelli	linguistic	_				_	_	_	_
+95-3	SP2	95	anche	an[che]	linguistic	_		End=244.87		_	_	_	2-5(96)
+96-0	SP1	96	sì	[sì]	linguistic	_		Begin=244.73		_	_	_	0-2(95)
+96-1	SP1	96	ho	ho	linguistic	_				_	_	_	_
+96-2	SP1	96	una	una	linguistic	_				_	_	_	_
+96-3	SP1	96	sorella	sorella	linguistic	_				_	_	_	_
+96-4	SP1	96	che	che	linguistic	_				_	_	_	_
+96-5	SP1	96	è	è	linguistic	_				_	_	_	_
+96-6	SP1	96	studia	studia	linguistic	_				_	_	_	_
+96-7	SP1	96	in	in	linguistic	_				_	_	_	_
+96-8	SP1	96	università	università	linguistic	_		End=247.14		_	_	_	_
+97-0	SP2	97	a	a	linguistic	_		Begin=247.48		_	_	_	_
+97-1	SP2	97	che	che	linguistic	_				_	_	_	_
+97-2	SP2	97	cosa	cosa	linguistic	_				_	_	_	_
+97-3	SP2	97	studia	studia?	linguistic	_	Intonation=ascending	End=248.48		_	_	_	_
+98-0	SP1	98	chimica	chimica	linguistic	_		End=249.42		_	_	_	_
+99-0	SP2	99	chimica	chimica	linguistic	_		Begin=249.58		_	_	_	_
+99-1	SP2	99	ok	ok	linguistic	_				_	_	_	_
+99-2	SP2	99	e	e	linguistic	_				_	_	_	_
+99-3	SP2	99	è	è	linguistic	_				_	_	_	_
+99-4	SP2	99	più	più	linguistic	_				_	_	_	_
+99-5	SP2	99	grande	grande	linguistic	_				_	_	_	_
+99-6	SP2	99	più	più	linguistic	_				_	_	_	_
+99-7	SP2	99	piccola	piccola	linguistic	_		End=253.02		_	_	_	_
+>>>>>>> 3d25a7f (updated files)
