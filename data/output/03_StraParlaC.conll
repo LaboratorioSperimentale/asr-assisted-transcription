@@ -1,5 +1,5 @@
 token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	align	prolongations	slow_pace	fast_pace	guesses	overlaps
-1-0	SP1	1	ci	[ci]	linguistic	_		Begin=0.0		_	_	_	0-2(?)
+1-0	SP1	1	ci	ci	linguistic	_		Begin=0.0		_	_	_	_
 1-1	SP1	1	sono	sono	linguistic	_				_	_	_	_
 1-2	SP1	1	delle	delle	linguistic	_				_	_	_	_
 1-3	SP1	1	università	università?	linguistic	_	Intonation=ascending	End=1.47000000000003		_	_	_	_
@@ -429,10 +429,10 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 63-1	SP1	63	{P}	{P}	shortpause	_				_	_	_	_
 63-2	SP1	63	ma	[ma	linguistic	_				_	_	_	0-2(64)
 63-3	SP1	63	cioè	cioè]	linguistic	_		End=144.017		_	_	_	0-4(64)
-64-0	SP2	64	sì	[sì	linguistic	_		Begin=143.174		_	_	_	0-2(?)
-64-1	SP2	64	{P}	{P}	shortpause	_				_	_	_	0-3(?)
-64-2	SP2	64	cioè	cioè	linguistic	_				_	_	_	0-4(?)
-64-3	SP2	64	tutti	tutti]	linguistic	_				_	_	_	0-5(?)
+64-0	SP2	64	sì	[sì	linguistic	_		Begin=143.174		_	_	_	0-2(63)
+64-1	SP2	64	{P}	{P}	shortpause	_				_	_	_	0-3(63)
+64-2	SP2	64	cioè	cioè	linguistic	_				_	_	_	0-4(63)
+64-3	SP2	64	tutti	tutti]	linguistic	_				_	_	_	0-5(63)
 64-4	SP2	64	tutti	tutti	linguistic	_				_	_	_	_
 64-5	SP2	64	adesso	adesso	linguistic	_				_	_	_	_
 64-6	SP2	64	tornando	tornando	linguistic	_				_	_	_	_
@@ -441,13 +441,13 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 64-9	SP2	64	città	città	linguistic	_				_	_	_	_
 64-10	SP2	64	c'	c	linguistic	_	SpaceAfter=No			_	_	_	_
 64-11	SP2	64	è	è	linguistic	_				_	_	_	_
-64-12	SP2	64	andato	anda[to:]	linguistic	_			5x1	_	_	_	3-6(?)
+64-12	SP2	64	andato	andato:	linguistic	_			5x1	_	_	_	_
 64-13	SP2	64	cioè	cioè	linguistic	_				_	_	_	_
 64-14	SP2	64	verso	verso	linguistic	_				_	_	_	_
 64-15	SP2	64	la	la	linguistic	_				_	_	_	_
-64-16	SP2	64	città	cit[tà	linguistic	_				_	_	_	2-5(?)
-64-17	SP2	64	per	per	linguistic	_				_	_	_	0-3(?)
-64-18	SP2	64	vivere	vivere	linguistic	_				_	_	_	0-6(?)
-64-19	SP2	64	lì	(lì	linguistic	_				_	_	0-2(0)	0-2(?)
-64-20	SP2	64	e	e)	linguistic	_				_	_	0-1(0)	0-1(?)
-64-21	SP2	64	sì	sì]	linguistic	_		End=149.667		_	_	_	0-2(?)
+64-16	SP2	64	città	città	linguistic	_				_	_	_	_
+64-17	SP2	64	per	per	linguistic	_				_	_	_	_
+64-18	SP2	64	vivere	vivere	linguistic	_				_	_	_	_
+64-19	SP2	64	lì	(lì	linguistic	_				_	_	0-2(0)	_
+64-20	SP2	64	e	e)	linguistic	_				_	_	0-1(0)	_
+64-21	SP2	64	sì	sì	linguistic	_		End=149.667		_	_	_	_

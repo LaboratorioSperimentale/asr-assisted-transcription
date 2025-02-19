@@ -1,5 +1,5 @@
 tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents	W:non_jefferson	W:pauses_trim	W:prosodic_trim	W:moved_boundaries	W:switches	E:volume	E:pace	E:guess	E:overlap	E:overlap_mismatch	E:overlap_duration	T:shortpauses	T:metalinguistic	T:errors	T:linguistic	annotation	correct	text
-1	SP1	0.0	1.47000000000003	1.47	True	0	0	0	0	0	0	0	0	False	False	False	False	True	_	0	0	0, 	4	[ci] sono delle università?	[ci] sono delle università?	ci sono delle università
+1	SP1	0.0	1.47000000000003	1.47	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	4	ci sono delle università?	ci sono delle università?	ci sono delle università
 2	SP2	2.24000000000001	5.19299999999998	2.953	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	8	sì [no le università è pro]prio in città [xxx]	sì [no le università è pro]prio in città [xxx]	sì no le università è proprio in città xxx
 3	SP1	2.56000000000017	3.80000000000018	1.24	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	4	[o più nella capita-]	[o più nella capita-]	o più nella capita-
 4	SP1	4.80000000000018	6.3900000000001	1.59	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0, 	4	[okay] (.) okay okay okay	[okay] {P} okay okay okay	okay {P} okay okay okay
@@ -62,4 +62,4 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 61	SP1	141.427	141.873	0.446	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	là	là	là
 62	SP2	141.945	142.391	0.446	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	là	là	là
 63	SP1	142.475	144.017	1.542	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0, 	3	okay (.) [ma cioè]	okay {P} [ma cioè]	okay {P} ma cioè
-64	SP2	143.174	149.667	6.493	True	0	0	0	0	0	0	0	0	False	False	False	False	True	63=0.843	1	0	0, 	21	[sì (.) cioè tutti] tutti adesso tornando come la città c'è anda[to:] cioè verso la cit[tà per vivere (lì e) sì]	[sì {P} cioè tutti] tutti adesso tornando come la città c'è anda[to:] cioè verso la cit[tà per vivere (lì e) sì]	sì {P} cioè tutti tutti adesso tornando come la città c' è andato cioè verso la città per vivere lì e sì
+64	SP2	143.174	149.667	6.493	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0, 	21	[sì (.) cioè tutti] tutti adesso tornando come la città c'è andato: cioè verso la città per vivere (lì e) sì	[sì {P} cioè tutti] tutti adesso tornando come la città c'è andato: cioè verso la città per vivere (lì e) sì	sì {P} cioè tutti tutti adesso tornando come la città c' è andato cioè verso la città per vivere lì e sì

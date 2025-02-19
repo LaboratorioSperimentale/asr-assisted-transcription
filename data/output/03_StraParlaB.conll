@@ -572,7 +572,7 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 89-4	SP2	89	automeccanico	automeccanico	linguistic	_				_	_	_	_
 89-5	SP2	89	con	con	linguistic	_				_	_	_	_
 89-6	SP2	89	idraulica	idrauli[ca]	linguistic	_		End=192.38		_	_	_	7-9(90)
-90-0	SP1	90	mhmhmh	[mh]mhmh	linguistic	_		Begin=192.233		_	_	_	0-2(?)
+90-0	SP1	90	mhmhmh	[mh]mhmh	linguistic	_		Begin=192.233		_	_	_	0-2(89)
 90-1	SP1	90	{P}	{P}	shortpause	_				_	_	_	_
 90-2	SP1	90	e	e	linguistic	_				_	_	_	_
 90-3	SP1	90	quando	quando	linguistic	_				_	_	_	_
@@ -584,4 +584,4 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 90-9	SP1	90	venuto	venuto	linguistic	_				_	_	_	_
 90-10	SP1	90	a	a	linguistic	_				_	_	_	_
 90-11	SP1	90	lavorare	lavorare:	linguistic	_			7x1	_	_	_	_
-90-12	SP1	90	subito	[subito]	linguistic	_		End=195.56		_	_	_	0-6(?)
+90-12	SP1	90	subito	subito	linguistic	_		End=195.56		_	_	_	_
