@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 token_id	speaker	tu_id	token	orig_token	span	type	metalinguistic_category	align	intonation	unknown	interruption	truncation	prosodicLink	spaceafter	prolongations	slow_pace	fast_pace	volume	guesses	overlaps
 1-0	SP1	1	vabbè	vabbè	vabbè	linguistic	_	Begin=0.0	_	_	_	_	_	_				_		
 1-1	SP1	1	era	era	era	linguistic	_		_	_	_	_	_	_				_		
@@ -871,3 +872,878 @@ token_id	speaker	tu_id	token	orig_token	span	type	metalinguistic_category	align	
 122-2	SP2	122	fumo	fumo	fumo	linguistic	_		_	_	_	_	_	_				_		
 122-3	SP2	122	una	una	una	linguistic	_		_	_	_	_	_	_				_		
 122-4	SP2	122	sigaretta	<sigaretta>	<sigaretta>	linguistic	_	End=263.378	_	_	_	_	_	_		0-9(0)		_		
+=======
+token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	align	prolongations	slow_pace	fast_pace	guesses	overlaps
+1-0	SP1	1	vabbè	vabbè	linguistic	_		Begin=0.0		_	_	_	_
+1-1	SP1	1	era	era	linguistic	_				_	_	_	_
+1-2	SP1	1	leggera	leggera	linguistic	_				_	_	_	_
+1-3	SP1	1	però	però	linguistic	_		End=1.14300000000003		_	_	_	_
+2-0	SP2	2	alla	alla	linguistic	_		Begin=1.94399999999996		_	_	_	_
+2-1	SP2	2	fine	[fine]	linguistic	_		End=2.35799999999995		_	_	_	0-4(3)
+3-0	SP3	3	no	[no	linguistic	_		Begin=2.04300000000012		_	_	_	0-2(2)
+3-1	SP3	3	no	no]	linguistic	_				_	_	_	0-2(2)
+3-2	SP3	3	è	è	linguistic	_				_	_	_	_
+3-3	SP3	3	vero	vero	linguistic	_		End=2.94600000000014		_	_	_	_
+4-0	SP2	4	sì	sì	linguistic	_		End=3.20800000000008		_	_	_	_
+5-0	SP2	5	non	non	linguistic	_		Begin=4.24099999999999		_	_	_	_
+5-1	SP2	5	era	era	linguistic	_				_	_	_	_
+5-2	SP2	5	pesantissima	pesantissima	linguistic	_		End=5.17700000000013		_	_	_	_
+6-0	SP1	6	per	per	linguistic	_		Begin=6.40300000000002		_	_	_	_
+6-1	SP1	6	niente	niente	linguistic	_				_	_	_	_
+6-2	SP1	6	anzi	[(anzi)]	linguistic	_		End=7.66200000000003		_	_	0-4(0)	0-4(7)
+7-0	SP2	7	l'	[l	linguistic	_	SpaceAfter=No	Begin=7.19000000000005		_	_	_	0-2(6)
+7-1	SP2	7	unica	unica	linguistic	_				_	_	_	0-5(6)
+7-2	SP2	7	cosa	cosa]	linguistic	_				_	_	_	0-4(6)
+7-3	SP2	7	ho	ho	linguistic	_				_	_	_	_
+7-4	SP2	7	esagerato	esagerato	linguistic	_				_	_	_	_
+7-5	SP2	7	un	un	linguistic	_				_	_	_	_
+7-6	SP2	7	po'	po'	linguistic	_				_	_	_	_
+7-7	SP2	7	con	con	linguistic	_				_	_	_	_
+7-8	SP2	7	l'	l	linguistic	_	SpaceAfter=No			_	_	_	_
+7-9	SP2	7	olio	olio	linguistic	_				_	_	_	_
+7-10	SP2	7	forse	forse	linguistic	_				_	_	_	_
+7-11	SP2	7	però	però	linguistic	_		End=9.65800000000013		_	_	_	_
+8-0	SP1	8	ma	ma	linguistic	_		Begin=10.7260000000001		_	_	_	_
+8-1	SP1	8	nell'	nell	linguistic	_	SpaceAfter=No			_	_	_	_
+8-2	SP1	8	impasto	impasto?	linguistic	_	Intonation=ascending			_	_	_	_
+8-3	SP1	8	no	no	linguistic	_				_	_	_	_
+8-4	SP1	8	fuori	fuori	linguistic	_		End=12.212		_	_	_	_
+9-0	SP2	9	fuori	fuori	linguistic	_		End=12.6200000000001		_	_	_	_
+10-0	SP2	10	nell'	nell	linguistic	_	SpaceAfter=No	Begin=12.8130000000001		_	_	_	_
+10-1	SP2	10	impasto	impasto	linguistic	_				_	_	_	_
+10-2	SP2	10	ce	ce	linguistic	_				_	_	_	_
+10-3	SP2	10	ne	[ne	linguistic	_				_	_	_	0-2(11)
+10-4	SP2	10	ho	ho	linguistic	_				_	_	_	0-2(11)
+10-5	SP2	10	messo	messo	linguistic	_				_	_	_	0-5(11)
+10-6	SP2	10	il	il	linguistic	_				_	_	_	0-2(11)
+10-7	SP2	10	giusto	giu]sto	linguistic	_		End=14.3300000000002		_	_	_	0-3(11)
+11-0	SP3	11	nella	[nella	linguistic	_		Begin=13.3099999999999		_	_	_	0-5(10)
+11-1	SP3	11	padella	padella]	linguistic	_		End=13.9570000000001		_	_	_	0-7(10)
+12-0	SP2	12	però	però	linguistic	_		Begin=14.6490000000001		_	_	_	_
+12-1	SP2	12	in	in	linguistic	_				_	_	_	_
+12-2	SP2	12	padella	padella	linguistic	_		End=15.405		_	_	_	_
+13-0	SP2	13	rosa	rosa	linguistic	_		Begin=16.8530000000001		_	_	_	_
+13-1	SP2	13	ha	ha	linguistic	_				_	_	_	_
+13-2	SP2	13	detto	detto	linguistic	_				_	_	_	_
+13-3	SP2	13	metti	metti:	linguistic	_			4x1	_	_	_	_
+13-4	SP2	13	quello	quello	linguistic	_				_	_	_	_
+13-5	SP2	13	là	là	linguistic	_				_	_	_	_
+13-6	SP2	13	l'	l	linguistic	_	SpaceAfter=No			_	_	_	_
+13-7	SP2	13	olio	olio	linguistic	_				_	_	_	_
+13-8	SP2	13	da	da	linguistic	_				_	_	_	_
+13-9	SP2	13	friggere	friggere	linguistic	_		End=19.075		_	_	_	_
+14-0	SP2	14	così	così	linguistic	_		Begin=19.412		_	_	_	_
+14-1	SP2	14	vengono	vengono	linguistic	_				_	_	_	_
+14-2	SP2	14	meglio	meglio	linguistic	_		End=20.318		_	_	_	_
+15-0	SP2	15	ho	ho	linguistic	_		Begin=20.7909999999999		_	_	_	_
+15-1	SP2	15	detto	detto	linguistic	_				_	_	_	_
+15-2	SP2	15	okay	okay	linguistic	_		End=21.5509999999999		_	_	_	_
+16-0	SP2	16	e	e	linguistic	_		Begin=22.1280000000002		_	_	_	_
+16-1	SP2	16	ho	ho	linguistic	_				_	_	_	_
+16-2	SP2	16	fatto	fatto	linguistic	_				_	_	_	_
+16-3	SP2	16	però	però	linguistic	_				_	_	_	_
+16-4	SP2	16	praticamente	praticamente	linguistic	_				_	_	_	_
+16-5	SP2	16	xxx	xxx	unknown	_				_	_	_	_
+16-6	SP2	16	messo	messo::	linguistic	_		End=25.3520000000001	4x2	_	_	_	_
+17-0	SP2	17	cioè	cioè	linguistic	_		Begin=25.5450000000001		_	_	_	_
+17-1	SP2	17	tutt~	tutt~	linguistic	_	Interrupted=Yes			_	_	_	_
+17-2	SP2	17	tutto	tutto	linguistic	_				_	_	_	_
+17-3	SP2	17	il	il	linguistic	_				_	_	_	_
+17-4	SP2	17	fondo	fondo	linguistic	_				_	_	_	_
+17-5	SP2	17	della	della	linguistic	_				_	_	_	_
+17-6	SP2	17	padella	padella	linguistic	_				_	_	_	_
+17-7	SP2	17	era	era	linguistic	_				_	_	_	_
+17-8	SP2	17	pieno	pieno	linguistic	_				_	_	_	_
+17-9	SP2	17	d'	d	linguistic	_	SpaceAfter=No			_	_	_	_
+17-10	SP2	17	olio	olio	linguistic	_		End=27.9390000000001		_	_	_	_
+18-0	SP2	18	io	io	linguistic	_		Begin=29.2740000000001		_	_	_	_
+18-1	SP2	18	volevo	volevo	linguistic	_				_	_	_	_
+18-2	SP2	18	mettere	mettere	linguistic	_				_	_	_	_
+18-3	SP2	18	un	un	linguistic	_				_	_	_	_
+18-4	SP2	18	filo	filo	linguistic	_				_	_	_	_
+18-5	SP2	18	sai	sai	linguistic	_				_	_	_	_
+18-6	SP2	18	per	per	linguistic	_				_	_	_	_
+18-7	SP2	18	farli	farli	linguistic	_				_	_	_	_
+18-8	SP2	18	venire	venire:	linguistic	_			5x1	_	_	_	_
+18-9	SP2	18	{P}	{P}	shortpause	_				_	_	_	_
+18-10	SP2	18	mezzi	mezzi	linguistic	_				_	_	_	_
+18-11	SP2	18	tra	tra	linguistic	_		End=32.6400000000001		_	_	_	_
+19-0	SP2	19	cioè	cioè	linguistic	_		Begin=34.751		_	_	_	_
+19-1	SP2	19	cotti	cotti:	linguistic	_			4x1	_	_	_	_
+19-2	SP2	19	nella	nella	linguistic	_				_	_	_	_
+19-3	SP2	19	padella	padella	linguistic	_				_	_	_	_
+19-4	SP2	19	unta	unta	linguistic	_				_	_	_	_
+19-5	SP2	19	invece	invece	linguistic	_		End=37.443		_	_	_	_
+20-0	SP2	20	i	i	linguistic	_		Begin=38.722		_	_	_	_
+20-1	SP2	20	primi	primi	linguistic	_				_	_	_	_
+20-2	SP2	20	sono	sono	linguistic	_				_	_	_	_
+20-3	SP2	20	venuti	venuti	linguistic	_				_	_	_	_
+20-4	SP2	20	un	un	linguistic	_				_	_	_	_
+20-5	SP2	20	po'	po'	linguistic	_				_	_	_	_
+20-6	SP2	20	deep	deep	linguistic	_				_	_	_	_
+20-7	SP2	20	fried	[fried	linguistic	_				_	_	_	0-5(21)
+20-8	SP2	20	quasi	qua]si	linguistic	_				_	_	_	0-3(21)
+20-9	SP2	20	{ride}	{ride}	metalinguistic	_		End=41.0920000000001		_	_	_	_
+21-0	SP1	21	fritti	[°fritti°]	linguistic	_	Volume=low	End=40.6130000000001		_	_	_	0-6(20)
+22-0	SP1	22	{tossisce}	{tossisce}	metalinguistic	_		End=43.471		_	_	_	_
+23-0	SP1	23	beh	beh	linguistic	_		Begin=43.7		_	_	_	_
+23-1	SP1	23	oggi	oggi	linguistic	_				_	_	_	_
+23-2	SP1	23	abbiamo	abbiamo	linguistic	_				_	_	_	_
+23-3	SP1	23	fatto	fatto	linguistic	_				_	_	_	_
+23-4	SP1	23	colazione	colazione	linguistic	_				_	_	_	_
+23-5	SP1	23	co~	co~	linguistic	_	Interrupted=Yes			_	_	_	_
+23-6	SP1	23	pa~	pa~	linguistic	_	Interrupted=Yes			_	_	_	_
+23-7	SP1	23	pancake	pancake	linguistic	_				_	_	_	_
+23-8	SP1	23	con	con	linguistic	_				_	_	_	_
+23-9	SP1	23	nutella	nutella	linguistic	_		End=47.1079999999999		_	_	_	_
+24-0	SP2	24	è	è	linguistic	_		Begin=47.6780000000001		_	_	_	_
+24-1	SP2	24	rimasto	rimasto	linguistic	_				_	_	_	_
+24-2	SP2	24	un	un	linguistic	_				_	_	_	_
+24-3	SP2	24	altro	altro	linguistic	_				_	_	_	_
+24-4	SP2	24	pancake	pancake	linguistic	_				_	_	_	_
+24-5	SP2	24	se	se	linguistic	_				_	_	_	_
+24-6	SP2	24	vuoi	vuoi	linguistic	_		End=49.1770000000001		_	_	_	_
+25-0	SP3	25	uh	u::h	linguistic	_		Begin=49.4470000000001	0x2	_	_	_	_
+25-1	SP3	25	ma	[ma	linguistic	_				_	_	_	0-2(26)
+25-2	SP3	25	quanti	quanti	linguistic	_				_	_	_	0-6(26)
+25-3	SP3	25	ne	ne	linguistic	_				_	_	_	0-2(26)
+25-4	SP3	25	avete	avete	linguistic	_				_	_	_	0-5(26)
+25-5	SP3	25	fa~	fa~]?	linguistic	_	Intonation=ascending	End=50.7930000000001		_	_	_	0-3(26)
+26-0	SP2	26	mangiati	[mangiati	linguistic	_		Begin=49.644		_	_	_	0-8(25)
+26-1	SP2	26	tu	tu	linguistic	_				_	_	_	0-2(25)
+26-2	SP2	26	il	il	linguistic	_				_	_	_	0-2(25)
+26-3	SP2	26	pancake	pancake	linguistic	_				_	_	_	0-7(25)
+26-4	SP2	26	e	e	linguistic	_				_	_	_	0-1(25)
+26-5	SP2	26	io	io	linguistic	_				_	_	_	0-2(25)
+26-6	SP2	26	mi	mi	linguistic	_				_	_	_	0-2(25)
+26-7	SP2	26	mangio	mangio	linguistic	_				_	_	_	0-6(25)
+26-8	SP2	26	il	il]	linguistic	_				_	_	_	0-2(25)
+26-9	SP2	26	gelato	gelato	linguistic	_				_	_	_	_
+26-10	SP2	26	che	che	linguistic	_				_	_	_	_
+26-11	SP2	26	ne	ne	linguistic	_				_	_	_	_
+26-12	SP2	26	dici	dici	linguistic	_		End=51.578		_	_	_	_
+27-0	SP2	27	{ride}	{ride}	metalinguistic	_		End=53.3140000000001		_	_	_	_
+28-0	SP1	28	mo	mo	linguistic	_		Begin=52.7260000000001		_	_	_	_
+28-1	SP1	28	to	to	linguistic	_				_	_	_	_
+28-2	SP1	28	chiavo	[chiavo	linguistic	_				_	_	_	0-6(29)
+28-3	SP1	28	n'	n'	linguistic	_	Truncated=Yes			_	_	_	0-2(29)
+28-4	SP1	28	faccia	faccia]	linguistic	_				_	_	_	0-6(29)
+28-5	SP1	28	stu	stu	linguistic	_				_	_	_	_
+28-6	SP1	28	pancake	pancake	linguistic	_		End=54.48		_	_	_	_
+29-0	SP3	29	stronzo	[stronzo]	linguistic	_		End=53.76		_	_	_	0-7(28)
+30-0	SP1	30	poi	poi	linguistic	_		Begin=55.5450000000001		_	_	_	_
+30-1	SP1	30	che	che	linguistic	_				_	_	_	_
+30-2	SP1	30	è	è	linguistic	_				_	_	_	_
+30-3	SP1	30	rimas~	rimas~	linguistic	_	Interrupted=Yes			_	_	_	_
+30-4	SP1	30	poi	poi	linguistic	_				_	_	_	_
+30-5	SP1	30	abbiamo	abbiamo	linguistic	_				_	_	_	_
+30-6	SP1	30	mangiato	mangiato	linguistic	_		End=57.915		_	_	_	_
+31-0	SP2	31	io	[io	linguistic	_		Begin=58.1790000000001		_	_	_	_
+31-1	SP2	31	a	[a	linguistic	_				_	_	_	_
+31-2	SP2	31	pranzo	pranzo	linguistic	_				_	_	_	_
+31-3	SP2	31	ho	ho	linguistic	_				_	_	_	_
+31-4	SP2	31	esagerato	esagerato]	linguistic	_		End=59.307		_	_	_	_
+32-0	SP1	32	tanto	[tanto	linguistic	_		Begin=58.221		_	_	_	0-5(31)
+32-1	SP1	32	da	da	linguistic	_				_	_	_	0-2(31)
+32-2	SP1	32	tua	tua	linguistic	_				_	_	_	0-3(31)
+32-3	SP1	32	nonna	non]na	linguistic	_		End=59.4360000000002		_	_	_	0-3(31)
+33-0	SP1	33	quatt	quatt	linguistic	_		Begin=60.2630000000002		_	_	_	_
+33-1	SP1	33	gilat	gilat	linguistic	_				_	_	_	_
+33-2	SP1	33	sa	sa	linguistic	_				_	_	_	_
+33-3	SP1	33	mangiat	mangiat	linguistic	_				_	_	_	_
+33-4	SP1	33	'stu	'stu	linguistic	_	Truncated=Yes			_	_	_	_
+33-5	SP1	33	puorco	puorco	linguistic	_		End=62.2920000000002		_	_	_	_
+34-0	SP2	34	quattro	quattro	linguistic	_		Begin=62.3679999999999		_	_	_	_
+34-1	SP2	34	gelati	gelati	linguistic	_				_	_	_	_
+34-2	SP2	34	è	è	linguistic	_				_	_	_	_
+34-3	SP2	34	esa~	esa~	linguistic	_	Interrupted=Yes			_	_	_	_
+34-4	SP2	34	non	non	linguistic	_				_	_	_	_
+34-5	SP2	34	è	è	linguistic	_				_	_	_	_
+34-6	SP2	34	vero	vero	linguistic	_				_	_	_	_
+34-7	SP2	34	xx	xx	unknown	_				_	_	_	_
+34-8	SP2	34	a	>A	linguistic	_	Volume=high			_	0-1(0)	_	_
+34-9	SP2	34	parte	PARTE	linguistic	_	Volume=high			_	0-5(0)	_	_
+34-10	SP2	34	il	IL	linguistic	_	Volume=high			_	0-2(0)	_	_
+34-11	SP2	34	fatto	FATTO	linguistic	_	Volume=high			_	0-5(0)	_	_
+34-12	SP2	34	che	CHE<	linguistic	_	Volume=high			_	0-3(0)	_	_
+34-13	SP2	34	abbiamo	abbiamo	linguistic	_				_	_	_	_
+34-14	SP2	34	mangiato	mangiato	linguistic	_				_	_	_	_
+34-15	SP2	34	la	la	linguistic	_				_	_	_	_
+34-16	SP2	34	stessa	STESSA	linguistic	_	Volume=high			_	_	_	_
+34-17	SP2	34	quantità	quantità	linguistic	_				_	_	_	_
+34-18	SP2	34	di	di	linguistic	_				_	_	_	_
+34-19	SP2	34	gelato	gelato	linguistic	_		End=66.3810000000001		_	_	_	_
+35-0	SP1	35	tu	tu	linguistic	_		Begin=67.2150000000002		_	_	_	_
+35-1	SP1	35	ne	ne	linguistic	_				_	_	_	_
+35-2	SP1	35	hai	hai	linguistic	_				_	_	_	_
+35-3	SP1	35	mangiati	mangiati	linguistic	_				_	_	_	_
+35-4	SP1	35	di	di	linguistic	_				_	_	_	_
+35-5	SP1	35	più	più	linguistic	_		End=68.185		_	_	_	_
+36-0	SP2	36	no	NO	linguistic	_	Volume=high	Begin=68.2340000000002		_	_	_	_
+36-1	SP2	36	alberto	ALBERTO	linguistic	_	Volume=high	End=69.0060000000001		_	_	_	_
+37-0	SP1	37	hai	hai	linguistic	_		Begin=69.3430000000001		_	_	_	_
+37-1	SP1	37	mangiato	mangiato	linguistic	_				_	_	_	_
+37-2	SP1	37	il	il	linguistic	_				_	_	_	_
+37-3	SP1	37	pan	pan	linguistic	_				_	_	_	_
+37-4	SP1	37	di	di	linguistic	_				_	_	_	_
+37-5	SP1	37	stelle	stelle,	linguistic	_	Intonation=weakly_ascending			_	_	_	_
+37-6	SP1	37	hai	hai	linguistic	_				_	_	_	_
+37-7	SP1	37	mangiato	mangiato	linguistic	_				_	_	_	_
+37-8	SP1	37	quello	quello	linguistic	_				_	_	_	_
+37-9	SP1	37	al	al	linguistic	_				_	_	_	_
+37-10	SP1	37	caramello	caramello,	linguistic	_	Intonation=weakly_ascending			_	_	_	_
+37-11	SP1	37	e	e	linguistic	_				_	_	_	_
+37-12	SP1	37	ne	ne	linguistic	_				_	_	_	_
+37-13	SP1	37	hai	hai	linguistic	_				_	_	_	_
+37-14	SP1	37	mangiato	mangiato	linguistic	_				_	_	_	_
+37-15	SP1	37	un	un	linguistic	_				_	_	_	_
+37-16	SP1	37	altro	a[ltro]	linguistic	_		End=73.3050000000001		_	_	_	1-5(38)
+38-0	SP2	38	no	[no]	linguistic	_		Begin=72.9259999999999		_	_	_	0-2(37)
+38-1	SP2	38	non	non	linguistic	_				_	_	_	_
+38-2	SP2	38	l'	l	linguistic	_	SpaceAfter=No			_	_	_	_
+38-3	SP2	38	ho	ho	linguistic	_				_	_	_	_
+38-4	SP2	38	mangiato	mangiato	linguistic	_				_	_	_	_
+38-5	SP2	38	un	un	linguistic	_				_	_	_	_
+38-6	SP2	38	altro	altro	linguistic	_		End=74.3030000000001		_	_	_	_
+39-0	SP2	39	ho	ho	linguistic	_		Begin=75.2429999999999		_	_	_	_
+39-1	SP2	39	ma~	ma~	linguistic	_	Interrupted=Yes			_	_	_	_
+39-2	SP2	39	perché	perché	linguistic	_				_	_	_	_
+39-3	SP2	39	nonna	nonna	linguistic	_				_	_	_	_
+39-4	SP2	39	aveva	aveva	linguistic	_				_	_	_	_
+39-5	SP2	39	comprato	comprato	linguistic	_				_	_	_	_
+39-6	SP2	39	quei	quei	linguistic	_				_	_	_	_
+39-7	SP2	39	pan	pan	linguistic	_				_	_	_	_
+39-8	SP2	39	di	di	linguistic	_				_	_	_	_
+39-9	SP2	39	stelle	ste[lle]	linguistic	_		End=77.3630000000001		_	_	_	3-6(40)
+40-0	SP1	40	vabbè	[vabbè	linguistic	_		Begin=76.9770000000001		_	_	_	0-5(39)
+40-1	SP1	40	sei	sei	linguistic	_				_	_	_	0-3(39)
+40-2	SP1	40	un	un]	linguistic	_				_	_	_	0-2(39)
+40-3	SP1	40	maiale	maia[le	linguistic	_				_	_	_	4-6(41)
+40-4	SP1	40	hai	hai	linguistic	_				_	_	_	0-3(41)
+40-5	SP1	40	mangiato	mangiato]	linguistic	_		End=78.3810000000001		_	_	_	0-8(41)
+41-0	SP2	41	che	[che	linguistic	_		Begin=77.6780000000001		_	_	_	0-3(40)
+41-1	SP2	41	erano	erano	linguistic	_				_	_	_	0-5(40)
+41-2	SP2	41	buoni	buoni]	linguistic	_		End=78.442		_	_	_	0-5(40)
+42-0	SP2	42	sì	sì	linguistic	_		Begin=78.6949999999999		_	_	_	_
+42-1	SP2	42	e	e	linguistic	_				_	_	_	_
+42-2	SP2	42	pure	pure	linguistic	_				_	_	_	_
+42-3	SP2	42	tu	tu	linguistic	_				_	_	_	_
+42-4	SP2	42	sei	sei	linguistic	_				_	_	_	_
+42-5	SP2	42	un	un	linguistic	_				_	_	_	_
+42-6	SP2	42	maiale	maiale	linguistic	_				_	_	_	_
+42-7	SP2	42	però	però	linguistic	_				_	_	_	_
+42-8	SP2	42	ti	[ti	linguistic	_				_	_	_	0-2(43)
+42-9	SP2	42	sto	sto	linguistic	_				_	_	_	0-3(43)
+42-10	SP2	42	dicendo	dicendo]	linguistic	_		End=80.731		_	_	_	0-7(43)
+43-0	SP1	43	hai	[hai	linguistic	_		Begin=79.9170000000001		_	_	_	0-3(42)
+43-1	SP1	43	mangiato	mangiato	linguistic	_				_	_	_	0-8(42)
+43-2	SP1	43	due	due	linguistic	_				_	_	_	0-3(42)
+43-3	SP1	43	salsicce	sal]sicce	linguistic	_				_	_	_	0-3(42)
+43-4	SP1	43	e	[e	linguistic	_				_	_	_	0-1(44)
+43-5	SP1	43	un	un	linguistic	_				_	_	_	0-2(44)
+43-6	SP1	43	sacco	sa]cco	linguistic	_				_	_	_	0-2(44)
+43-7	SP1	43	di	di	linguistic	_				_	_	_	_
+43-8	SP1	43	friarielli	fria[rielli]	linguistic	_		End=82.396		_	_	_	4-10(45)
+44-0	SP2	44	perché	[perché]	linguistic	_		End=81.4400000000001		_	_	_	0-6(43)
+45-0	SP2	45	perché	[perché	linguistic	_		Begin=81.9590000000001		_	_	_	0-6(43)
+45-1	SP2	45	praticamente	prati]camente	linguistic	_				_	_	_	0-5(43)
+45-2	SP2	45	la	la	linguistic	_				_	_	_	_
+45-3	SP2	45	nonna	nonna	linguistic	_				_	_	_	_
+45-4	SP2	45	aveva	a[veva	linguistic	_				_	_	_	1-5(46)
+45-5	SP2	45	comprato	comprato]	linguistic	_		End=83.6490000000001		_	_	_	0-8(46)
+46-0	SP3	46	buoni	[buoni	linguistic	_		Begin=83.1390000000001		_	_	_	0-5(45)
+46-1	SP3	46	i	i	linguistic	_				_	_	_	0-1(45)
+46-2	SP3	46	friarielli	friarie]lli	linguistic	_		End=83.9680000000001		_	_	_	0-7(45)
+47-0	SP2	47	questi	questi:	linguistic	_		Begin=83.97	5x1	_	_	_	_
+47-1	SP2	47	gelati	gelati:	linguistic	_			5x1	_	_	_	_
+47-2	SP2	47	pan	pan	linguistic	_				_	_	_	_
+47-3	SP2	47	di	di	linguistic	_				_	_	_	_
+47-4	SP2	47	stelle	stelle	linguistic	_				_	_	_	_
+47-5	SP2	47	che	che	linguistic	_				_	_	_	_
+47-6	SP2	47	erano	erano	linguistic	_				_	_	_	_
+47-7	SP2	47	quelli	quelli	linguistic	_				_	_	_	_
+47-8	SP2	47	là	là	linguistic	_				_	_	_	_
+47-9	SP2	47	tipo	tipo	linguistic	_				_	_	_	_
+47-10	SP2	47	a	a	linguistic	_				_	_	_	_
+47-11	SP2	47	biscotto	biscotto	linguistic	_		End=87.143		_	_	_	_
+48-0	SP2	48	che	che	linguistic	_		Begin=87.403		_	_	_	_
+48-1	SP2	48	ce	ce	linguistic	_				_	_	_	_
+48-2	SP2	48	n'	n	linguistic	_	SpaceAfter=No			_	_	_	_
+48-3	SP2	48	erano	erano	linguistic	_				_	_	_	_
+48-4	SP2	48	due	DUE	linguistic	_	Volume=high			_	_	_	_
+48-5	SP2	48	in	in	linguistic	_				_	_	_	_
+48-6	SP2	48	una	una::	linguistic	_			2x2	_	_	_	_
+48-7	SP2	48	bustina	[bustina]	linguistic	_		End=89.8969999999999		_	_	_	0-7(49)
+49-0	SP3	49	quindi	[quindi	linguistic	_		Begin=89.172		_	_	_	0-6(48)
+49-1	SP3	49	avete	avete	linguistic	_				_	_	_	0-5(48)
+49-2	SP3	49	fatto	fatto	linguistic	_				_	_	_	0-5(48)
+49-3	SP3	49	uno	uno	linguistic	_				_	_	_	0-3(48)
+49-4	SP3	49	e	e	linguistic	_				_	_	_	0-1(48)
+49-5	SP3	49	uno	u]no	linguistic	_		End=90.134		_	_	_	0-1(48)
+50-0	SP2	50	io	io	linguistic	_		Begin=90.2560000000001		_	_	_	_
+50-1	SP2	50	ho	ho	linguistic	_				_	_	_	_
+50-2	SP2	50	detto	detto	linguistic	_				_	_	_	_
+50-3	SP2	50	voglio	voglio	linguistic	_				_	_	_	_
+50-4	SP2	50	questo	questo	linguistic	_				_	_	_	_
+50-5	SP2	50	però	però	linguistic	_				_	_	_	_
+50-6	SP2	50	voglio	voglio	linguistic	_				_	_	_	_
+50-7	SP2	50	anche	anche	linguistic	_				_	_	_	_
+50-8	SP2	50	quello	quello	linguistic	_				_	_	_	_
+50-9	SP2	50	al	al	linguistic	_				_	_	_	_
+50-10	SP2	50	caramello	caramello	linguistic	_		End=92.7440000000001		_	_	_	_
+51-0	SP2	51	quindi	quindi	linguistic	_		Begin=92.992		_	_	_	_
+51-1	SP2	51	ho	ho	linguistic	_				_	_	_	_
+51-2	SP2	51	mangiato	mangiato	linguistic	_				_	_	_	_
+51-3	SP2	51	uno	UNO	linguistic	_	Volume=high			_	_	_	_
+51-4	SP2	51	di	DI	linguistic	_	Volume=high			_	_	_	_
+51-5	SP2	51	quelli	QUELLI	linguistic	_	Volume=high			_	_	_	_
+51-6	SP2	51	e	e	linguistic	_				_	_	_	_
+51-7	SP2	51	ho	ho	linguistic	_				_	_	_	_
+51-8	SP2	51	dato	dato	linguistic	_				_	_	_	_
+51-9	SP2	51	l'	L	linguistic	_	SpaceAfter=No|Volume=high			_	_	_	_
+51-10	SP2	51	altro	ALTRO	linguistic	_	Volume=high			_	_	_	_
+51-11	SP2	51	a	a	linguistic	_				_	_	_	_
+51-12	SP2	51	lui	lui	linguistic	_				_	_	_	_
+51-13	SP2	51	e	e	linguistic	_				_	_	_	_
+51-14	SP2	51	ho	ho	linguistic	_				_	_	_	_
+51-15	SP2	51	mangiato	mangiato	linguistic	_				_	_	_	_
+51-16	SP2	51	quello	quello	linguistic	_				_	_	_	_
+51-17	SP2	51	al	al	linguistic	_				_	_	_	_
+51-18	SP2	51	caramello	caramello	linguistic	_				_	_	_	_
+51-19	SP2	51	la	la	linguistic	_				_	_	_	_
+51-20	SP2	51	stessa	stessa	linguistic	_				_	_	_	_
+51-21	SP2	51	quantità	quantità	linguistic	_				_	_	_	_
+51-22	SP2	51	che	che	linguistic	_				_	_	_	_
+51-23	SP2	51	ha	ha	linguistic	_				_	_	_	_
+51-24	SP2	51	mangiato	mangiato	linguistic	_				_	_	_	_
+51-25	SP2	51	lui	lui	linguistic	_				_	_	_	_
+51-26	SP2	51	uguale	uguale	linguistic	_				_	_	_	_
+51-27	SP2	51	identico	identico	linguistic	_		End=99.4159999999999		_	_	_	_
+52-0	SP2	52	quindi	quindi	linguistic	_		Begin=99.95		_	_	_	_
+52-1	SP2	52	la	la	linguistic	_				_	_	_	_
+52-2	SP2	52	cosa	cosa	linguistic	_				_	_	_	_
+52-3	SP2	52	che	che	linguistic	_				_	_	_	_
+52-4	SP2	52	adesso	adesso	linguistic	_				_	_	_	_
+52-5	SP2	52	io	io	linguistic	_				_	_	_	_
+52-6	SP2	52	sono	sono	linguistic	_				_	_	_	_
+52-7	SP2	52	il	il	linguistic	_				_	_	_	_
+52-8	SP2	52	porco	porco	linguistic	_				_	_	_	_
+52-9	SP2	52	e	e	linguistic	_				_	_	_	_
+52-10	SP2	52	tu	tu	linguistic	_				_	_	_	_
+52-11	SP2	52	no	no	linguistic	_		End=102.108		_	_	_	_
+53-0	SP2	53	lasciamo	lasci[amo	linguistic	_		Begin=102.828		_	_	_	5-8(54)
+53-1	SP2	53	stare	stare]	linguistic	_		End=103.664		_	_	_	0-5(54)
+54-0	SP3	54	vabbuò	[vabbuò	linguistic	_		Begin=103.017		_	_	_	0-6(53)
+54-1	SP3	54	comunque	comunque]	linguistic	_				_	_	_	0-8(53)
+54-2	SP3	54	in	in	linguistic	_				_	_	_	_
+54-3	SP3	54	generale	generale	linguistic	_				_	_	_	_
+54-4	SP3	54	per	per	linguistic	_				_	_	_	_
+54-5	SP3	54	una	una	linguistic	_				_	_	_	_
+54-6	SP3	54	giornata	giornata::	linguistic	_			7x2	_	_	_	_
+54-7	SP3	54	c'	c	linguistic	_	SpaceAfter=No			_	_	_	_
+54-8	SP3	54	è	è	linguistic	_				_	_	_	_
+54-9	SP3	54	stato	stato	linguistic	_				_	_	_	_
+54-10	SP3	54	tanto	tanto	linguistic	_				_	_	_	_
+54-11	SP3	54	cibo	cibo	linguistic	_				_	_	_	_
+54-12	SP3	54	un	un	linguistic	_				_	_	_	_
+54-13	SP3	54	po'	po'	linguistic	_				_	_	_	_
+54-14	SP3	54	chiatto	chiatto	linguistic	_		End=107.851		_	_	_	_
+55-0	SP2	55	ma	ma	linguistic	_		Begin=107.953		_	_	_	_
+55-1	SP2	55	è	è	linguistic	_				_	_	_	_
+55-2	SP2	55	domenica	domenica	linguistic	_				_	_	_	_
+55-3	SP2	55	è	è	linguistic	_				_	_	_	_
+55-4	SP2	55	festa	festa	linguistic	_		End=109.332		_	_	_	_
+56-0	SP3	56	eh	[eh	linguistic	_		Begin=109.464		_	_	_	0-2(57)
+56-1	SP3	56	lo	lo	linguistic	_				_	_	_	0-2(57)
+56-2	SP3	56	so	so	linguistic	_				_	_	_	0-2(57)
+56-3	SP3	56	però	però::]	linguistic	_		End=110.524	3x2	_	_	_	0-4(57)
+57-0	SP2	57	lo	[lo	linguistic	_		Begin=109.512		_	_	_	0-2(56)
+57-1	SP2	57	sanno	sanno	linguistic	_				_	_	_	0-5(56)
+57-2	SP2	57	tutti	tutti]	linguistic	_		End=110.258		_	_	_	0-5(56)
+58-0	SP1	58	mh	[m]:h	linguistic	_		Begin=110.53999999999999	0x1	_	_	_	0-1(?)
+58-1	SP1	58	chiediamolo	chiediamolo	linguistic	_				_	_	_	_
+58-2	SP1	58	al	al	linguistic	_				_	_	_	_
+58-3	SP1	58	diabete	diabete	linguistic	_				_	_	_	_
+58-4	SP1	58	di	di	linguistic	_				_	_	_	_
+58-5	SP1	58	terzo	terzo	linguistic	_				_	_	_	_
+58-6	SP1	58	tipo	tipo	linguistic	_				_	_	_	_
+58-7	SP1	58	che	che	linguistic	_				_	_	_	_
+58-8	SP1	58	avremo	avremo	linguistic	_				_	_	_	_
+58-9	SP1	58	tra	tra	linguistic	_				_	_	_	_
+58-10	SP1	58	un	un	linguistic	_				_	_	_	_
+58-11	SP1	58	paio	paio	linguistic	_				_	_	_	_
+58-12	SP1	58	di	di	linguistic	_				_	_	_	_
+58-13	SP1	58	anni	anni	linguistic	_		End=114.112		_	_	_	_
+59-0	SP3	59	tra	tra	linguistic	_		Begin=115.864		_	_	_	_
+59-1	SP3	59	un	un	linguistic	_				_	_	_	_
+59-2	SP3	59	paio	[paio	linguistic	_				_	_	_	0-4(60)
+59-3	SP3	59	di	di	linguistic	_				_	_	_	0-2(60)
+59-4	SP3	59	anni	anni]	linguistic	_		End=117.283		_	_	_	0-4(60)
+60-0	SP2	60	sì	[sì	linguistic	_		Begin=116.19		_	_	_	0-2(59)
+60-1	SP2	60	perché	perché	linguistic	_				_	_	_	0-6(59)
+60-2	SP2	60	tutti	tutti	linguistic	_				_	_	_	0-5(59)
+60-3	SP2	60	i	i	linguistic	_				_	_	_	0-1(59)
+60-4	SP2	60	giorni	giorni]	linguistic	_				_	_	_	0-6(59)
+60-5	SP2	60	mangio	mangio	linguistic	_				_	_	_	_
+60-6	SP2	60	così	così	linguistic	_				_	_	_	_
+60-7	SP2	60	ovviamente	ovviamente?	linguistic	_	Intonation=ascending	End=118.369		_	_	_	_
+61-0	SP2	61	marò	[marò	linguistic	_		Begin=120.451		_	_	_	0-4(62)
+61-1	SP2	61	che	che]	linguistic	_				_	_	_	0-3(62)
+61-2	SP2	61	nervosamente	nervosamente	linguistic	_				_	_	_	_
+61-3	SP2	61	mi	mi	linguistic	_				_	_	_	_
+61-4	SP2	61	fa	fa	linguistic	_				_	_	_	_
+61-5	SP2	61	venire	ven[ire]	linguistic	_		End=122.44		_	_	_	3-6(63)
+62-0	SP3	62	lite	[lite:]	linguistic	_		End=120.91	3x1	_	_	_	0-4(61)
+63-0	SP3	63	vabbè	[vabbè	linguistic	_		Begin=122.155		_	_	_	0-5(61)
+63-1	SP3	63	s'	s	linguistic	_	SpaceAfter=No			_	_	_	0-2(61)
+63-2	SP3	63	è	è]	linguistic	_				_	_	_	0-1(61)
+63-3	SP3	63	mangiato	mangiato	linguistic	_				_	_	_	_
+63-4	SP3	63	l'	l	linguistic	_	SpaceAfter=No			_	_	_	_
+63-5	SP3	63	insalata	insalata	linguistic	_				_	_	_	_
+63-6	SP3	63	ieri	ieri	linguistic	_				_	_	_	_
+63-7	SP3	63	eh	eh	linguistic	_		End=123.999		_	_	_	_
+64-0	SP2	64	ieri	IERI	linguistic	_	Volume=high	Begin=124.161		_	_	_	_
+64-1	SP2	64	ho	HO	linguistic	_	Volume=high			_	_	_	_
+64-2	SP2	64	mangiato	MANGIATO	linguistic	_	Volume=high			_	_	_	_
+64-3	SP2	64	l'	L	linguistic	_	SpaceAfter=No|Volume=high			_	_	_	_
+64-4	SP2	64	insalatina	INSALATINA	linguistic	_	Volume=high	End=125.642		_	_	_	_
+65-0	SP2	65	{ride}	{ride}	metalinguistic	_		End=127.908		_	_	_	_
+66-0	SP3	66	no	no	linguistic	_		Begin=127.974		_	_	_	_
+66-1	SP3	66	non	non	linguistic	_				_	_	_	_
+66-2	SP3	66	mi	mi	linguistic	_				_	_	_	_
+66-3	SP3	66	guardare	guardare	linguistic	_				_	_	_	_
+66-4	SP3	66	così	così	linguistic	_				_	_	_	_
+66-5	SP3	66	che	che	linguistic	_				_	_	_	_
+66-6	SP3	66	ha	ha	linguistic	_				_	_	_	_
+66-7	SP3	66	detto	detto	linguistic	_		End=129.655		_	_	_	_
+67-0	SP2	67	devo	d[evo	linguistic	_		Begin=129.697		_	_	_	1-4(68)
+67-1	SP2	67	mettere	mettere	linguistic	_				_	_	_	0-7(68)
+67-2	SP2	67	l'	l	linguistic	_	SpaceAfter=No			_	_	_	0-2(68)
+67-3	SP2	67	olio	olio	linguistic	_				_	_	_	0-4(68)
+67-4	SP2	67	dentro	dentro]	linguistic	_		End=130.795		_	_	_	0-6(68)
+68-0	SP1	68	vuoi	[vuoi	linguistic	_		Begin=129.764		_	_	_	0-4(67)
+68-1	SP1	68	sapere	sapere	linguistic	_				_	_	_	0-6(67)
+68-2	SP1	68	che	che	linguistic	_				_	_	_	0-3(67)
+68-3	SP1	68	c'	c	linguistic	_	SpaceAfter=No			_	_	_	0-2(67)
+68-4	SP1	68	era	era	linguistic	_				_	_	_	0-3(67)
+68-5	SP1	68	nell'	n]ell	linguistic	_	SpaceAfter=No			_	_	_	0-1(67)
+68-6	SP1	68	insalatina	insalatina	linguistic	_				_	_	_	_
+68-7	SP1	68	dentro	dentro	linguistic	_				_	_	_	_
+68-8	SP1	68	l'	l	linguistic	_	SpaceAfter=No			_	_	_	_
+68-9	SP1	68	insalati~	insalati~>	linguistic	_	Interrupted=Yes			_	_	_	_
+68-10	SP1	68	c'	c	linguistic	_	SpaceAfter=No			_	_	_	_
+68-11	SP1	68	erano	erano	linguistic	_				_	_	_	2-5(69)
+68-12	SP1	68	i	[i	linguistic	_				_	_	_	0-1(69)
+68-13	SP1	68	cubetti	<cub]etti>	linguistic	_		End=133.006		_	_	_	_
+69-0	SP3	69	che	[che	linguistic	_		Begin=131.52		_	_	_	0-3(68)
+69-1	SP3	69	c'	c	linguistic	_	SpaceAfter=No			_	_	_	0-2(68)
+69-2	SP3	69	era	era]?	linguistic	_	Intonation=ascending	End=132.141		_	_	_	0-3(68)
+70-0	SP3	70	di	di	linguistic	_		Begin=133.01		_	_	_	_
+70-1	SP3	70	formaggio	formaggio	linguistic	_				_	_	_	_
+70-2	SP3	70	e	e	linguistic	_				_	_	_	_
+70-3	SP3	70	di	[di	linguistic	_				_	_	_	0-2(71)
+70-4	SP3	70	salame	salame	linguistic	_				_	_	_	0-6(71)
+70-5	SP3	70	l'	l	linguistic	_	SpaceAfter=No			_	_	_	0-2(71)
+70-6	SP3	70	ha	ha	linguistic	_				_	_	_	0-2(71)
+70-7	SP3	70	detto	<detto>]	linguistic	_		End=135.086		0-5(0)	_	_	0-5(71)
+71-0	SP1	71	di	[<di	linguistic	_		Begin=133.556		_	_	_	0-2(?)
+71-1	SP1	71	provolone	provolone	linguistic	_				_	_	_	0-9(?)
+71-2	SP1	71	e	e	linguistic	_				_	_	_	0-1(?)
+71-3	SP1	71	i	i	linguistic	_				_	_	_	0-1(?)
+71-4	SP1	71	cubetti	cu]betti	linguistic	_				_	_	_	0-2(?)
+71-5	SP1	71	di	di	linguistic	_				_	_	_	_
+71-6	SP1	71	sa~	sa~	linguistic	_	Interrupted=Yes			_	_	_	_
+71-7	SP1	71	e	e	linguistic	_				_	_	_	_
+71-8	SP1	71	ti	ti	linguistic	_				_	_	_	_
+71-9	SP1	71	sembra	sembra	linguistic	_				_	_	_	_
+71-10	SP1	71	un'	un	linguistic	_	SpaceAfter=No			_	_	_	_
+71-11	SP1	71	isalatina	isalatina	linguistic	_		End=137.629		_	_	_	_
+72-0	SP3	72	vabbè	vabbè	linguistic	_		Begin=136.955		_	_	_	_
+72-1	SP3	72	però	però	linguistic	_				_	_	_	_
+72-2	SP3	72	jà	jà	linguistic	_				_	_	_	_
+72-3	SP3	72	non	non	linguistic	_				_	_	_	_
+72-4	SP3	72	è	è	linguistic	_				_	_	_	_
+72-5	SP3	72	che	che	linguistic	_				_	_	_	_
+72-6	SP3	72	ha	ha	linguistic	_				_	_	_	_
+72-7	SP3	72	esagerato	esagerato	linguistic	_				_	_	_	_
+72-8	SP3	72	sono	sono	linguistic	_				_	_	_	_
+72-9	SP3	72	degli	degli	linguistic	_				_	_	_	_
+72-10	SP3	72	affettati	affettati	linguistic	_				_	_	_	_
+72-11	SP3	72	con	con	linguistic	_				_	_	_	_
+72-12	SP3	72	l'	l	linguistic	_	SpaceAfter=No			_	_	_	_
+72-13	SP3	72	insalata	insalata	linguistic	_				_	_	_	_
+72-14	SP3	72	cioè	cioè	linguistic	_				_	_	_	_
+72-15	SP3	72	è	è	linguistic	_				_	_	_	_
+72-16	SP3	72	un	un	linguistic	_				_	_	_	_
+72-17	SP3	72	pranzo	pranzo:	linguistic	_			5x1	_	_	_	_
+72-18	SP3	72	mh	[m:h	linguistic	_			0x1	_	_	_	0-2(?)
+72-19	SP3	72	secondo	secondo	linguistic	_				_	_	_	0-7(?)
+72-20	SP3	72	me	me]	linguistic	_				_	_	_	0-2(?)
+72-21	SP3	72	non	non	linguistic	_				_	_	_	_
+72-22	SP3	72	troppo	trop[po:]	linguistic	_		End=143.4	5x1	_	_	_	3-6(?)
+73-0	SP2	73	allora	[allora	linguistic	_		Begin=141.944		_	_	_	0-6(72)
+73-1	SP2	73	rosa	rosa]	linguistic	_		End=142.496		_	_	_	0-4(72)
+74-0	SP2	74	te	[te	linguistic	_		Begin=142.98		_	_	_	0-2(72)
+74-1	SP2	74	lo	lo	linguistic	_				_	_	_	0-2(72)
+74-2	SP2	74	giuro	giu]ro	linguistic	_				_	_	_	0-3(72)
+74-3	SP2	74	ti	ti	linguistic	_				_	_	_	_
+74-4	SP2	74	ti	ti	linguistic	_				_	_	_	_
+74-5	SP2	74	fidi	fidi	linguistic	_				_	_	_	_
+74-6	SP2	74	di	di	linguistic	_				_	_	_	_
+74-7	SP2	74	me	me	linguistic	_				_	_	_	_
+74-8	SP2	74	quando	quando	linguistic	_				_	_	_	_
+74-9	SP2	74	ti	ti	linguistic	_				_	_	_	_
+74-10	SP2	74	ti	ti	linguistic	_				_	_	_	_
+74-11	SP2	74	dico	dico	linguistic	_				_	_	_	_
+74-12	SP2	74	una	una	linguistic	_				_	_	_	_
+74-13	SP2	74	cosa	cosa?	linguistic	_	Intonation=ascending			_	_	_	_
+74-14	SP2	74	cioè	cioè	linguistic	_				_	_	_	_
+74-15	SP2	74	non	non	linguistic	_				_	_	_	_
+74-16	SP2	74	dic~	dic~	linguistic	_	Interrupted=Yes			_	_	_	_
+74-17	SP2	74	non	non	linguistic	_				_	_	_	_
+74-18	SP2	74	ti	ti	linguistic	_				_	_	_	_
+74-19	SP2	74	ho	ho	linguistic	_				_	_	_	_
+74-20	SP2	74	mai	mai	linguistic	_				_	_	_	_
+74-21	SP2	74	detto	detto	linguistic	_				_	_	_	_
+74-22	SP2	74	una	una	linguistic	_				_	_	_	_
+74-23	SP2	74	bugia	bugia	linguistic	_				_	_	_	_
+74-24	SP2	74	in	in	linguistic	_				_	_	_	_
+74-25	SP2	74	vita	vita	linguistic	_				_	_	_	_
+74-26	SP2	74	mia	mia	linguistic	_				_	_	_	_
+74-27	SP2	74	a	a	linguistic	_				_	_	_	_
+74-28	SP2	74	te	te	linguistic	_		End=145.619		_	_	_	_
+75-0	SP2	75	cioè	cioè	linguistic	_		Begin=145.869		_	_	_	_
+75-1	SP2	75	non	non	linguistic	_				_	_	_	_
+75-2	SP2	75	dic~	dic~	linguistic	_	Interrupted=Yes			_	_	_	_
+75-3	SP2	75	non	non	linguistic	_				_	_	_	_
+75-4	SP2	75	ti	ti	linguistic	_				_	_	_	_
+75-5	SP2	75	ho	ho	linguistic	_				_	_	_	_
+75-6	SP2	75	mai	mai	linguistic	_				_	_	_	_
+75-7	SP2	75	detto	detto	linguistic	_				_	_	_	_
+75-8	SP2	75	una	una	linguistic	_				_	_	_	_
+75-9	SP2	75	bugia	bugia	linguistic	_				_	_	_	_
+75-10	SP2	75	in	in	linguistic	_				_	_	_	_
+75-11	SP2	75	vita	vita	linguistic	_				_	_	_	_
+75-12	SP2	75	mia	mia	linguistic	_				_	_	_	_
+75-13	SP2	75	a	a	linguistic	_				_	_	_	_
+75-14	SP2	75	te	te	linguistic	_		End=147.885		_	_	_	_
+76-0	SP2	76	allò	allò	linguistic	_		End=148.893		_	_	_	_
+77-0	SP2	77	ho	ho	linguistic	_		Begin=150.549		_	_	_	_
+77-1	SP2	77	messo	messo	linguistic	_				_	_	_	_
+77-2	SP2	77	mezza	MEZZA	linguistic	_	Volume=high	End=151.418		_	_	_	_
+78-0	SP2	78	cosa	cosa	linguistic	_		Begin=151.882		_	_	_	_
+78-1	SP2	78	di	di	linguistic	_				_	_	_	_
+78-2	SP2	78	iceberg	iceberg	linguistic	_		End=152.946		_	_	_	_
+79-0	SP2	79	poi	poi	linguistic	_		Begin=153.498		_	_	_	_
+79-1	SP2	79	c'	c	linguistic	_	SpaceAfter=No			_	_	_	_
+79-2	SP2	79	ho	ho	linguistic	_				_	_	_	_
+79-3	SP2	79	messo	messo	linguistic	_		End=154.256		_	_	_	_
+80-0	SP2	80	quattro	<QUATTRO	linguistic	_	Volume=high	Begin=154.766		0-7(0)	_	_	_
+80-1	SP2	80	fette	FETTE>	linguistic	_	Volume=high			0-5(0)	_	_	_
+80-2	SP2	80	contate	CONTATE	linguistic	_	Volume=high			_	_	_	_
+80-3	SP2	80	di	di	linguistic	_				_	_	_	_
+80-4	SP2	80	salame	salame	linguistic	_				_	_	_	_
+80-5	SP2	80	tagliate	tagliate	linguistic	_				_	_	_	_
+80-6	SP2	80	a	a	linguistic	_				_	_	_	_
+80-7	SP2	80	cubetti	cubetti	linguistic	_		End=158.134		_	_	_	_
+81-0	SP2	81	mezzo	MEZZO	linguistic	_	Volume=high	Begin=158.904		_	_	_	_
+81-1	SP2	81	pezzo	PEZZO	linguistic	_	Volume=high			_	_	_	_
+81-2	SP2	81	di	di	linguistic	_				_	_	_	_
+81-3	SP2	81	auricchio	auricchio	linguistic	_				_	_	_	_
+81-4	SP2	81	{ride}	{ride}	metalinguistic	_				_	_	_	_
+81-5	SP2	81	cioè	cioè:	linguistic	_			3x1	_	_	_	_
+81-6	SP2	81	di	di	linguistic	_				_	_	_	_
+81-7	SP2	81	provolone	provolone	linguistic	_				_	_	_	_
+81-8	SP2	81	tagliato	tagliato	linguistic	_				_	_	_	_
+81-9	SP2	81	a	a	linguistic	_				_	_	_	_
+81-10	SP2	81	cubetti	cubetti	linguistic	_		End=162.693		_	_	_	_
+82-0	SP2	82	e	E	linguistic	_	Volume=high	Begin=163.23		_	_	_	_
+82-1	SP2	82	due	DUE	linguistic	_	Volume=high			_	_	_	_
+82-2	SP2	82	fettine	FETTINE	linguistic	_	Volume=high			_	_	_	_
+82-3	SP2	82	di	DI	linguistic	_	Volume=high			_	_	_	_
+82-4	SP2	82	pane	PANE	linguistic	_	Volume=high			_	_	_	_
+82-5	SP2	82	tagliate	tagliate	linguistic	_				_	_	_	_
+82-6	SP2	82	a	a	linguistic	_				_	_	_	_
+82-7	SP2	82	cubetti	cubetti	linguistic	_				_	_	_	_
+82-8	SP2	82	saltate	saltate	linguistic	_				_	_	_	_
+82-9	SP2	82	in	in	linguistic	_				_	_	_	_
+82-10	SP2	82	padella	padella	linguistic	_				_	_	_	_
+82-11	SP2	82	che	che	linguistic	_				_	_	_	_
+82-12	SP2	82	le	le	linguistic	_				_	_	_	_
+82-13	SP2	82	ho	ho	linguistic	_				_	_	_	_
+82-14	SP2	82	fatte	fatte	linguistic	_				_	_	_	_
+82-15	SP2	82	tipo	tipo:	linguistic	_			3x1	_	_	_	_
+82-16	SP2	82	crostino	crostino	linguistic	_		End=167.93		_	_	_	_
+83-0	SP3	83	mh	m:h	linguistic	_		End=168.25	0x1	_	_	_	_
+84-0	SP2	84	basta	basta	linguistic	_		End=168.635		_	_	_	_
+85-0	SP2	85	que~	que~	linguistic	_	Interrupted=Yes	Begin=170.365		_	_	_	_
+85-1	SP2	85	ah	[ah	linguistic	_				_	_	_	0-2(86)
+85-2	SP2	85	e	e	linguistic	_				_	_	_	0-1(86)
+85-3	SP2	85	una	una	linguistic	_				_	_	_	0-3(86)
+85-4	SP2	85	una	una	linguistic	_				_	_	_	0-3(86)
+85-5	SP2	85	carota	carota]	linguistic	_				_	_	_	0-6(86)
+85-6	SP2	85	che	che	linguistic	_				_	_	_	_
+85-7	SP2	85	l'	l	linguistic	_	SpaceAfter=No			_	_	_	_
+85-8	SP2	85	ho	ho	linguistic	_				_	_	_	_
+85-9	SP2	85	tagliata	tagliata	linguistic	_				_	_	_	_
+85-10	SP2	85	piccolina	piccolina	linguistic	_				_	_	_	_
+85-11	SP2	85	piccolina	piccolina	linguistic	_		End=174.272		_	_	_	_
+86-0	SP3	86	xxxxx	[xxxxx]	unknown	_		End=171.828		_	_	_	0-5(85)
+87-0	SP3	87	secondo	secondo	linguistic	_		Begin=174.278		_	_	_	_
+87-1	SP3	87	me	me	linguistic	_				_	_	_	_
+87-2	SP3	87	la	la	linguistic	_				_	_	_	_
+87-3	SP3	87	carota	carota	linguistic	_				_	_	_	_
+87-4	SP3	87	non	non	linguistic	_				_	_	_	_
+87-5	SP3	87	ci	ci	linguistic	_				_	_	_	_
+87-6	SP3	87	stava	stava	linguistic	_				_	_	_	_
+87-7	SP3	87	be~	be~	linguistic	_	Interrupted=Yes	End=175.569		_	_	_	_
+88-0	SP2	88	invece	invece	linguistic	_		Begin=175.571		_	_	_	_
+88-1	SP2	88	stava	stava	linguistic	_				_	_	_	_
+88-2	SP2	88	bene	bene	linguistic	_		End=176.241		_	_	_	_
+89-0	SP3	89	sì	sì?	linguistic	_	Intonation=ascending	End=176.633		_	_	_	_
+90-0	SP3	90	no	no	linguistic	_		Begin=177.294		_	_	_	_
+90-1	SP3	90	comunque	comunque	linguistic	_				_	_	_	_
+90-2	SP3	90	no	no	linguistic	_				_	_	_	_
+90-3	SP3	90	per	per	linguistic	_				_	_	_	_
+90-4	SP3	90	me	m[e	linguistic	_				_	_	_	1-2(91)
+90-5	SP3	90	è	è]	linguistic	_				_	_	_	0-1(91)
+90-6	SP3	90	un	un	linguistic	_				_	_	_	_
+90-7	SP3	90	pranzo	[pranzo	linguistic	_				_	_	_	0-6(92)
+90-8	SP3	90	standard	standard]	linguistic	_		End=180.19		_	_	_	0-8(92)
+91-0	SP2	91	mh	[mh]	linguistic	_		End=178.753		_	_	_	0-2(90)
+92-0	SP2	92	non	[non	linguistic	_		Begin=179.144		_	_	_	0-3(90)
+92-1	SP2	92	è	è	linguistic	_				_	_	_	0-1(90)
+92-2	SP2	92	un	un	linguistic	_				_	_	_	0-2(90)
+92-3	SP2	92	pranzo	pranzo	linguistic	_				_	_	_	0-6(90)
+92-4	SP2	92	grasso	gra]ss[o]	linguistic	_		End=180.587		_	_	_	0-3(90),5-6(93)
+93-0	SP3	93	no	[no:]	linguistic	_		End=180.862	1x1	_	_	_	0-2(92)
+94-0	SP2	94	pranzo	pranzo	linguistic	_		Begin=183.755		_	_	_	_
+94-1	SP2	94	che	che	linguistic	_				_	_	_	_
+94-2	SP2	94	è	è	linguistic	_				_	_	_	_
+94-3	SP2	94	terminato	terminato	linguistic	_				_	_	_	_
+94-4	SP2	94	col	col	linguistic	_				_	_	_	_
+94-5	SP2	94	gelato	gelato	linguistic	_		End=185.46		_	_	_	_
+95-0	SP3	95	ah	ah	linguistic	_		End=186.221		_	_	_	_
+96-0	SP2	96	non	[NON	linguistic	_	Volume=high	Begin=186.545		_	_	_	0-3(97)
+96-1	SP2	96	solo	SOLO	linguistic	_	Volume=high			_	_	_	0-4(97)
+96-2	SP2	96	per	PER	linguistic	_	Volume=high			_	_	_	0-3(97)
+96-3	SP2	96	me	ME]	linguistic	_	Volume=high	End=187.533		_	_	_	0-2(97)
+97-0	SP3	97	questo	[questo	linguistic	_		Begin=186.545		_	_	_	0-6(96)
+97-1	SP3	97	già	già]	linguistic	_		End=187.221		_	_	_	0-3(96)
+98-0	SP2	98	ma	ma	linguistic	_		Begin=187.701		_	_	_	_
+98-1	SP2	98	anche	anche	linguistic	_				_	_	_	_
+98-2	SP2	98	per	per	linguistic	_				_	_	_	_
+98-3	SP2	98	lui	lui	linguistic	_		End=188.451		_	_	_	_
+99-0	SP2	99	quindi	[quindi]	linguistic	_		End=188.938		_	_	_	0-6(100)
+100-0	SP3	100	vabbè	[vabbè]	linguistic	_		Begin=188.582		_	_	_	0-5(?)
+100-1	SP3	100	comunque	comunque	linguistic	_				_	_	_	_
+100-2	SP3	100	però	però	linguistic	_				_	_	_	_
+100-3	SP3	100	in	in	linguistic	_				_	_	_	_
+100-4	SP3	100	generale	generale	linguistic	_				_	_	_	_
+100-5	SP3	100	state	state	linguistic	_				_	_	_	_
+100-6	SP3	100	un	un	linguistic	_				_	_	_	_
+100-7	SP3	100	pochino	pochino:	linguistic	_			6x1	_	_	_	_
+100-8	SP3	100	dando	dando	linguistic	_				_	_	_	_
+100-9	SP3	100	alla	alla	linguistic	_				_	_	_	_
+100-10	SP3	100	pazza	pazza	linguistic	_				_	_	_	_
+100-11	SP3	100	gioia	gioia	linguistic	_				_	_	_	_
+100-12	SP3	100	eh	eh	linguistic	_		End=192.95		_	_	_	_
+101-0	SP1	101	ma	[<ma:	linguistic	_		Begin=191.866	1x1	0-2(0)	_	_	0-2(100)
+101-1	SP1	101	io	io>]	linguistic	_		End=192.474		0-2(0)	_	_	0-2(100)
+102-0	SP1	102	ma	ma	linguistic	_		Begin=192.992		_	_	_	_
+102-1	SP1	102	io	io	linguistic	_				_	_	_	_
+102-2	SP1	102	non	non	linguistic	_				_	_	_	_
+102-3	SP1	102	sto	sto	linguistic	_				_	_	_	_
+102-4	SP1	102	dicendo	dicendo	linguistic	_				_	_	_	_
+102-5	SP1	102	matteo	MATTEO	linguistic	_	Volume=high			_	_	_	_
+102-6	SP1	102	stai	stai	linguistic	_				_	_	_	_
+102-7	SP1	102	mangiando	mangiando	linguistic	_				_	_	_	_
+102-8	SP1	102	come	come	linguistic	_				_	_	_	_
+102-9	SP1	102	il	il	linguistic	_				_	_	_	_
+102-10	SP1	102	maiale	maiale	linguistic	_				_	_	_	_
+102-11	SP1	102	matteo	matteo	linguistic	_				_	_	_	_
+102-12	SP1	102	avrai	avrai	linguistic	_				_	_	_	_
+102-13	SP1	102	il	il	linguistic	_				_	_	_	_
+102-14	SP1	102	diabete	diabete	linguistic	_				_	_	_	_
+102-15	SP1	102	sto	sto	linguistic	_				_	_	_	_
+102-16	SP1	102	dicendo	dicendo	linguistic	_				_	_	_	_
+102-17	SP1	102	matteo	matteo	linguistic	_				_	_	_	_
+102-18	SP1	102	entrambi	entrambi	linguistic	_		End=199.56		_	_	_	_
+103-0	SP1	103	assumiamoci	assumiamoci	linguistic	_		Begin=200.018		_	_	_	_
+103-1	SP1	103	le	le	linguistic	_				_	_	_	_
+103-2	SP1	103	responsabilità	responsabilità	linguistic	_		End=201.629		_	_	_	_
+104-0	SP1	104	che	che	linguistic	_		Begin=202.193		_	_	_	_
+104-1	SP1	104	noi	noi	linguistic	_				_	_	_	_
+104-2	SP1	104	già	già	linguistic	_				_	_	_	_
+104-3	SP1	104	viviamo	viviamo	linguistic	_				_	_	_	_
+104-4	SP1	104	in	in	linguistic	_				_	_	_	_
+104-5	SP1	104	una	una	linguistic	_				_	_	_	_
+104-6	SP1	104	terra	terra	linguistic	_				_	_	_	_
+104-7	SP1	104	di	di	linguistic	_				_	_	_	_
+104-8	SP1	104	merda	merda	linguistic	_				_	_	_	_
+104-9	SP1	104	che	che	linguistic	_				_	_	_	_
+104-10	SP1	104	ci	ci	linguistic	_				_	_	_	_
+104-11	SP1	104	porta	porta	linguistic	_				_	_	_	_
+104-12	SP1	104	naturalmente	naturalmente	linguistic	_				_	_	_	_
+104-13	SP1	104	a	a	linguistic	_				_	_	_	_
+104-14	SP1	104	morire	morire	linguistic	_				_	_	_	_
+104-15	SP1	104	prima	prima	linguistic	_				_	_	_	_
+104-16	SP1	104	poi	poi	linguistic	_				_	_	_	_
+104-17	SP1	104	mangiamo	mangiamo	linguistic	_				_	_	_	_
+104-18	SP1	104	anche	anche	linguistic	_				_	_	_	_
+104-19	SP1	104	molto	molto	linguistic	_				_	_	_	_
+104-20	SP1	104	male	male	linguistic	_		End=208.56		_	_	_	_
+105-0	SP3	105	però	però	linguistic	_		Begin=208.56		_	_	_	_
+105-1	SP3	105	tipo	tipo	linguistic	_				_	_	_	_
+105-2	SP3	105	ieri	ieri	linguistic	_				_	_	_	_
+105-3	SP3	105	avete	avete	linguistic	_				_	_	_	_
+105-4	SP3	105	mangiato	mangiato	linguistic	_				_	_	_	_
+105-5	SP3	105	patatine	[patatine	linguistic	_				_	_	_	0-8(106)
+105-6	SP3	105	fritte	fritte]	linguistic	_		End=210.751		_	_	_	0-6(106)
+106-0	SP2	106	parla	[parla	linguistic	_		Begin=209.673		_	_	_	0-5(105)
+106-1	SP2	106	per	per	linguistic	_				_	_	_	0-3(105)
+106-2	SP2	106	te	te	linguistic	_				_	_	_	0-2(105)
+106-3	SP2	106	io	io	linguistic	_				_	_	_	0-2(105)
+106-4	SP2	106	non	non	linguistic	_				_	_	_	0-3(105)
+106-5	SP2	106	abito	abito]	linguistic	_				_	_	_	0-5(105)
+106-6	SP2	106	qua	qua	linguistic	_		End=211.001		_	_	_	_
+107-0	SP1	107	matteo	matteo	linguistic	_		Begin=212.711		_	_	_	_
+107-1	SP1	107	ma	ma	linguistic	_				_	_	_	_
+107-2	SP1	107	va	va	linguistic	_				_	_	_	_
+107-3	SP1	107	cach	cach	linguistic	_		End=213.7		_	_	_	_
+108-0	SP3	108	avete	avete	linguistic	_		Begin=214.615		_	_	_	_
+108-1	SP3	108	mangiato	mangiato	linguistic	_				_	_	_	_
+108-2	SP3	108	xxx	[xxx]?	unknown	_	Intonation=ascending	End=215.968		_	_	_	0-3(109)
+109-0	SP2	109	sì	[sì	linguistic	_		Begin=215.037		_	_	_	0-2(108)
+109-1	SP2	109	ma	ma	linguistic	_				_	_	_	0-2(108)
+109-2	SP2	109	questo	questo	linguistic	_				_	_	_	0-6(108)
+109-3	SP2	109	gay	gay	linguistic	_				_	_	_	0-3(108)
+109-4	SP2	109	drama	dra]ma	linguistic	_				_	_	_	0-3(108)
+109-5	SP2	109	non	non	linguistic	_				_	_	_	_
+109-6	SP2	109	ho	ho	linguistic	_				_	_	_	_
+109-7	SP2	109	capito	capito:	linguistic	_			5x1	_	_	_	_
+109-8	SP2	109	sta	sta	linguistic	_				_	_	_	_
+109-9	SP2	109	cosa	cosa	linguistic	_				_	_	_	_
+109-10	SP2	109	che	che	linguistic	_		End=217.762		_	_	_	_
+110-0	SP2	110	per	per	linguistic	_		Begin=220.856		_	_	_	_
+110-1	SP2	110	forza	forza	linguistic	_				_	_	_	_
+110-2	SP2	110	dobbiamo	dobbiamo	linguistic	_				_	_	_	_
+110-3	SP2	110	litigarci	litigarci	linguistic	_				_	_	_	_
+110-4	SP2	110	ogni	ogni	linguistic	_				_	_	_	_
+110-5	SP2	110	volta	volta	linguistic	_		End=222.332		_	_	_	_
+111-0	SP1	111	ma	°ma	linguistic	_	Volume=low	Begin=224.951		_	_	_	_
+111-1	SP1	111	se	se	linguistic	_	Volume=low			_	_	_	_
+111-2	SP1	111	vuoi	vuoi:	linguistic	_	Volume=low		3x1	_	_	_	_
+111-3	SP1	111	possiamo	possiamo	linguistic	_	Volume=low			_	_	_	_
+111-4	SP1	111	anche	anche	linguistic	_	Volume=low			_	_	_	_
+111-5	SP1	111	non	non	linguistic	_	Volume=low			_	_	_	_
+111-6	SP1	111	litigare	litigare	linguistic	_	Volume=low			_	_	_	_
+111-7	SP1	111	più	più	linguistic	_	Volume=low			_	_	_	_
+111-8	SP1	111	se	(se	linguistic	_	Volume=low			_	_	0-2(0)	_
+111-9	SP1	111	vuoi	vuoi°	linguistic	_	Volume=low			_	_	0-4(0)	_
+111-10	SP1	111	me	me	linguistic	_				_	_	0-2(0)	_
+111-11	SP1	111	ne	ne	linguistic	_				_	_	0-2(0)	_
+111-12	SP1	111	posso	posso)	linguistic	_				_	_	0-5(0)	_
+111-13	SP1	111	tornare	tornare	linguistic	_				_	_	_	_
+111-14	SP1	111	a	a	linguistic	_				_	_	_	_
+111-15	SP1	111	casa	casa	linguistic	_				_	_	_	_
+111-16	SP1	111	mia	mia	linguistic	_		End=230.17		_	_	_	_
+112-0	SP2	112	{ride}	{ride}	metalinguistic	_		Begin=230.232		_	_	_	_
+112-1	SP2	112	è	è	linguistic	_				_	_	_	_
+112-2	SP2	112	già	già	linguistic	_				_	_	_	_
+112-3	SP2	112	l'	l	linguistic	_	SpaceAfter=No			_	_	_	_
+112-4	SP2	112	ennesima	ennesima	linguistic	_				_	_	_	_
+112-5	SP2	112	volta	volta	linguistic	_				_	_	_	_
+112-6	SP2	112	che	che	linguistic	_				_	_	_	_
+112-7	SP2	112	lo	lo	linguistic	_				_	_	_	_
+112-8	SP2	112	dici	dici	linguistic	_				_	_	_	_
+112-9	SP2	112	ja	ja	linguistic	_		End=233.403		_	_	_	_
+113-0	SP2	113	lo	lo	linguistic	_		Begin=234.68		_	_	_	_
+113-1	SP2	113	sai	sai	linguistic	_				_	_	_	_
+113-2	SP2	113	che	che	linguistic	_				_	_	_	_
+113-3	SP2	113	non	non	linguistic	_				_	_	_	_
+113-4	SP2	113	è	è	linguistic	_				_	_	_	_
+113-5	SP2	113	quello	quello	linguistic	_				_	_	_	_
+113-6	SP2	113	che	che	linguistic	_				_	_	_	_
+113-7	SP2	113	voglio	voglio	linguistic	_				_	_	_	_
+113-8	SP2	113	quindi	quindi:	linguistic	_		End=236.398	5x1	_	_	_	_
+114-0	SP1	114	beh	beh	linguistic	_		Begin=237.369		_	_	_	_
+114-1	SP1	114	forse	forse	linguistic	_				_	_	_	_
+114-2	SP1	114	mi	mi	linguistic	_				_	_	_	_
+114-3	SP1	114	sono	sono	linguistic	_				_	_	_	_
+114-4	SP1	114	scocciato	scocciato	linguistic	_				_	_	_	_
+114-5	SP1	114	di	di	linguistic	_				_	_	_	_
+114-6	SP1	114	stare	stare	linguistic	_				_	_	_	_
+114-7	SP1	114	qua	[qua]?	linguistic	_	Intonation=ascending	End=239.511		_	_	_	0-3(115)
+115-0	SP2	115	bra	[bra	linguistic	_		Begin=239.074		_	_	_	0-3(114)
+115-1	SP2	115	forse	fo]rse	linguistic	_				_	_	_	0-2(114)
+115-2	SP2	115	se	se	linguistic	_				_	_	_	_
+115-3	SP2	115	se	se	linguistic	_				_	_	_	_
+115-4	SP2	115	tu	tu	linguistic	_				_	_	_	_
+115-5	SP2	115	ti	ti	linguistic	_				_	_	_	_
+115-6	SP2	115	sei	sei	linguistic	_				_	_	_	_
+115-7	SP2	115	scocciato	scocciato	linguistic	_				_	_	_	_
+115-8	SP2	115	ti	ti	linguistic	_				_	_	_	_
+115-9	SP2	115	riaccompagno	riaccompagno	linguistic	_				_	_	_	_
+115-10	SP2	115	però	però	linguistic	_				_	_	_	_
+115-11	SP2	115	se	se	linguistic	_				_	_	_	_
+115-12	SP2	115	è	è	linguistic	_				_	_	_	_
+115-13	SP2	115	per	per	linguistic	_				_	_	_	_
+115-14	SP2	115	me	me	linguistic	_				_	_	_	_
+115-15	SP2	115	lo	lo	linguistic	_				_	_	_	_
+115-16	SP2	115	sai	sai	linguistic	_				_	_	_	_
+115-17	SP2	115	che	che	linguistic	_				_	_	_	_
+115-18	SP2	115	non	non	linguistic	_				_	_	_	_
+115-19	SP2	115	è	è	linguistic	_				_	_	_	_
+115-20	SP2	115	così	così	linguistic	_		End=242.992		_	_	_	_
+116-0	SP2	116	evitiamo	evitiamo	linguistic	_		Begin=244.678		_	_	_	_
+116-1	SP2	116	di	di	linguistic	_				_	_	_	_
+116-2	SP2	116	continuare	continuare	linguistic	_				_	_	_	_
+116-3	SP2	116	questo	questo	linguistic	_				_	_	_	_
+116-4	SP2	116	discorso	discorso	linguistic	_				_	_	_	_
+116-5	SP2	116	al	al	linguistic	_				_	_	_	_
+116-6	SP2	116	momento	momento	linguistic	_				_	_	_	_
+116-7	SP2	116	che	che:	linguistic	_			2x1	_	_	_	_
+116-8	SP2	116	non	non	linguistic	_				_	_	_	_
+116-9	SP2	116	mi	mi	linguistic	_				_	_	_	_
+116-10	SP2	116	sembra	sembra	linguistic	_				_	_	_	_
+116-11	SP2	116	il	il	linguistic	_				_	_	_	_
+116-12	SP2	116	caso	caso	linguistic	_		End=247.937		_	_	_	_
+117-0	SP3	117	no	no	linguistic	_		Begin=253.199		_	_	_	_
+117-1	SP3	117	anche	anche	linguistic	_				_	_	_	_
+117-2	SP3	117	perché	perché	linguistic	_				_	_	_	_
+117-3	SP3	117	mi	mi	linguistic	_				_	_	_	_
+117-4	SP3	117	deve	deve	linguistic	_				_	_	_	_
+117-5	SP3	117	venire	venire	linguistic	_				_	_	_	_
+117-6	SP3	117	il	il	linguistic	_				_	_	_	_
+117-7	SP3	117	ciclo	ciclo	linguistic	_				_	_	_	_
+117-8	SP3	117	mi	mi	linguistic	_				_	_	_	_
+117-9	SP3	117	metto	metto	linguistic	_				_	_	_	_
+117-10	SP3	117	a	a	linguistic	_				_	_	_	_
+117-11	SP3	117	piangere	piangere	linguistic	_				_	_	_	_
+117-12	SP3	117	se	se	linguistic	_				_	_	_	_
+117-13	SP3	117	litigate	litigate	linguistic	_		End=256.449		_	_	_	_
+118-0	SP2	118	no	no	linguistic	_		Begin=256.505		_	_	_	_
+118-1	SP2	118	amo'	amo'	linguistic	_	Truncated=Yes	End=256.82		_	_	_	_
+119-0	SP2	119	mo	mo	linguistic	_		Begin=257.053		_	_	_	_
+119-1	SP2	119	ci	ci	linguistic	_				_	_	_	_
+119-2	SP2	119	mangiamo	mangiamo	linguistic	_				_	_	_	_
+119-3	SP2	119	il	il	linguistic	_				_	_	_	_
+119-4	SP2	119	gelato	gelato	linguistic	_				_	_	_	_
+119-5	SP2	119	così	così	linguistic	_				_	_	_	_
+119-6	SP2	119	ti	ti	linguistic	_				_	_	_	_
+119-7	SP2	119	facciamo	facciamo	linguistic	_				_	_	_	_
+119-8	SP2	119	stare	stare	linguistic	_				_	_	_	_
+119-9	SP2	119	felice	felice	linguistic	_		End=259.141		_	_	_	_
+120-0	SP1	120	ecco	ecco	linguistic	_		Begin=259.146		_	_	_	_
+120-1	SP1	120	qua	qua	linguistic	_		End=259.456		_	_	_	_
+121-0	SP3	121	aspe'	aspe'	linguistic	_	Truncated=Yes	Begin=260.405		_	_	_	_
+121-1	SP3	121	xx	xx	unknown	_				_	_	_	_
+121-2	SP3	121	jà	jà	linguistic	_				_	_	_	_
+121-3	SP3	121	digeriamo	digeri[amo]	linguistic	_		End=262.08299999999997		_	_	_	6-9(?)
+122-0	SP2	122	sì	[sì]	linguistic	_		Begin=262.094		_	_	_	0-2(?)
+122-1	SP2	122	mi	mi	linguistic	_				_	_	_	_
+122-2	SP2	122	fumo	fumo	linguistic	_				_	_	_	_
+122-3	SP2	122	una	una	linguistic	_				_	_	_	_
+122-4	SP2	122	sigaretta	<sigaretta>	linguistic	_		End=263.378		0-9(0)	_	_	_
+>>>>>>> 3d25a7f (updated files)
