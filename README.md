@@ -60,7 +60,7 @@ per ogni audio abbiamo:
 
 ## TO-DO Extra:
 
-* Aggiungere gold dello straparla ex machina
+* [Ludovica] Aggiungere gold dello straparla ex machina
 * Usare gold paralleli per confronto
 * Revisione gold qualitativa?
 * Correlazione probabilità whisper con correzione errore da parte del revisore
