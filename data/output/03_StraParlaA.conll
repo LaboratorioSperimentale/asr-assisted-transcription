@@ -1,33 +1,33 @@
 token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	align	prolongations	slow_pace	fast_pace	guesses	overlaps
-1-0	SP1	1	come	come	linguistic	_		Begin=0.52		_	_	_	_
-1-1	SP1	1	tavacco	tavacco	linguistic	_				_	_	_	_
-1-2	SP1	1	no	no	linguistic	_				_	_	_	_
-1-3	SP1	1	eh	[eh	linguistic	_				_	_	_	0-2(2)
-1-4	SP1	1	di	di	linguistic	_				_	_	_	0-2(2)
-1-5	SP1	1	là	l]à	linguistic	_				_	_	_	0-1(2)
-1-6	SP1	1	{P}	{P}	shortpause	_				_	_	_	_
-1-7	SP1	1	lavorando	lavorando	linguistic	_				_	_	_	_
-1-8	SP1	1	più	più	linguistic	_				_	_	_	_
-1-9	SP1	1	di	di	linguistic	_				_	_	_	_
-1-10	SP1	1	tre	tre	linguistic	_				_	_	_	_
-1-11	SP1	1	tremila	<tremila>	linguistic	_				0-7(0)	_	_	_
-1-12	SP1	1	persone	pers[one	linguistic	_				_	_	_	4-7(3)
-1-13	SP1	1	non	non]	linguistic	_				_	_	_	0-3(3)
-1-14	SP1	1	sono	sono	linguistic	_				_	_	_	_
-1-15	SP1	1	esattamente	esattamente	linguistic	_				_	_	_	_
-1-16	SP1	1	o	o	linguistic	_				_	_	_	_
-1-17	SP1	1	tremila	tremila	linguistic	_				_	_	_	_
-1-18	SP1	1	o	o	linguistic	_				_	_	_	_
-1-19	SP1	1	trenta	trenta	linguistic	_				_	_	_	_
-1-20	SP1	1	mila	mila	linguistic	_				_	_	_	_
+1-0	SP1	1	eh	eh	linguistic	_		Begin=0.0		_	_	_	_
+1-1	SP1	1	come	come	linguistic	_				_	_	_	_
+1-2	SP1	1	tabacco	tabacco	linguistic	_				_	_	_	_
+1-3	SP1	1	no	no	linguistic	_				_	_	_	_
+1-4	SP1	1	eh	[eh	linguistic	_				_	_	_	0-2(2)
+1-5	SP1	1	di	di	linguistic	_				_	_	_	0-2(2)
+1-6	SP1	1	là	l]à	linguistic	_				_	_	_	0-1(2)
+1-7	SP1	1	{P}	{P}	shortpause	_				_	_	_	_
+1-8	SP1	1	lavorando	lavorando	linguistic	_				_	_	_	_
+1-9	SP1	1	più	più	linguistic	_				_	_	_	_
+1-10	SP1	1	di	di	linguistic	_				_	_	_	_
+1-11	SP1	1	tre-	tre-	linguistic	_	Interrupted=Yes			_	_	_	_
+1-12	SP1	1	tremila	tremila	linguistic	_				_	_	_	_
+1-13	SP1	1	persone	pers[one	linguistic	_				_	_	_	4-7(3)
+1-14	SP1	1	non	non]	linguistic	_				_	_	_	0-3(3)
+1-15	SP1	1	sono	sono	linguistic	_				_	_	_	_
+1-16	SP1	1	esattamente	esattamente	linguistic	_				_	_	_	_
+1-17	SP1	1	o	o	linguistic	_				_	_	_	_
+1-18	SP1	1	tremila	tremila	linguistic	_				_	_	_	_
+1-19	SP1	1	o	o	linguistic	_				_	_	_	_
+1-20	SP1	1	trentamila	trentamila	linguistic	_				_	_	_	_
 1-21	SP1	1	ma	[ma	linguistic	_				_	_	_	0-2(4)
 1-22	SP1	1	tremila	tre]mila	linguistic	_				_	_	_	0-3(4)
 1-23	SP1	1	che	che	linguistic	_				_	_	_	_
-1-24	SP1	1	facciamo	facciamo	linguistic	_		End=8.44		_	_	_	_
-2-0	SP2	2	okay	[okay]	linguistic	_		End=1.911		_	_	_	0-4(1)
-3-0	SP2	3	mhmh	[mhmh]	linguistic	_		End=5.061		_	_	_	0-4(1)
-4-0	SP2	4	mhmh	[mhmh]	linguistic	_		End=7.463		_	_	_	0-4(1)
-5-0	SP1	5	ma	ma	linguistic	_		Begin=8.84		_	_	_	_
+1-24	SP1	1	facciamo	facciamo	linguistic	_		End=8.27999999999997		_	_	_	_
+2-0	SP2	2	okay	[okay]	linguistic	_		End=1.827		_	_	_	0-4(1)
+3-0	SP2	3	mhmh	[mhmh]	linguistic	_		End=4.97699999999998		_	_	_	0-4(1)
+4-0	SP2	4	mhmh	[mhmh]	linguistic	_		End=7.37900000000002		_	_	_	0-4(1)
+5-0	SP1	5	ma	ma	linguistic	_		Begin=8.68000000000006		_	_	_	_
 5-1	SP1	5	{P}	{P}	shortpause	_				_	_	_	_
 5-2	SP1	5	non	non	linguistic	_				_	_	_	_
 5-3	SP1	5	si	si	linguistic	_				_	_	_	_
@@ -36,8 +36,8 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 5-6	SP1	5	neanche	neanche	linguistic	_				_	_	_	_
 5-7	SP1	5	là	là	linguistic	_				_	_	_	_
 5-8	SP1	5	gli	gli	linguistic	_				_	_	_	_
-5-9	SP1	5	appartamenti	appartam[enti]	linguistic	_		End=11.194		_	_	_	8-12(6)
-6-0	SP2	6	eh	[eh]	linguistic	_		Begin=11.094		_	_	_	0-2(5)
+5-9	SP1	5	appartamenti	appartam[enti]	linguistic	_		End=11.254		_	_	_	8-12(6)
+6-0	SP2	6	eh	[eh]	linguistic	_		Begin=11.01		_	_	_	0-2(5)
 6-1	SP2	6	esatto	esatto	linguistic	_				_	_	_	_
 6-2	SP2	6	te	te	linguistic	_				_	_	_	_
 6-3	SP2	6	lo	lo	linguistic	_				_	_	_	_
@@ -46,16 +46,16 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 6-6	SP2	6	questo	questo	linguistic	_				_	_	_	_
 6-7	SP2	6	che	che	linguistic	_				_	_	_	_
 6-8	SP2	6	volevo	volevo	linguistic	_				_	_	_	_
-6-9	SP2	6	chiederti	chiederti	linguistic	_		End=14.055		_	_	_	_
-7-0	SP2	7	perché	perché	linguistic	_		End=14.522		_	_	_	_
-8-0	SP1	8	eh	eh	linguistic	_		Begin=14.872		_	_	_	_
-8-1	SP1	8	sì	sì	linguistic	_		End=15.299		_	_	_	_
-9-0	SP2	9	se	se	linguistic	_		Begin=15.407		_	_	_	_
+6-9	SP2	6	chiederti	chiederti	linguistic	_		End=13.971		_	_	_	_
+7-0	SP2	7	perché	perché	linguistic	_		End=14.438		_	_	_	_
+8-0	SP1	8	eh	eh	linguistic	_		Begin=14.712		_	_	_	_
+8-1	SP1	8	sì	sì	linguistic	_		End=15.139		_	_	_	_
+9-0	SP2	9	se	se	linguistic	_		Begin=15.323		_	_	_	_
 9-1	SP2	9	tutti	tutti	linguistic	_				_	_	_	_
 9-2	SP2	9	vogliono	vogliono	linguistic	_				_	_	_	_
 9-3	SP2	9	vivere	vivere	linguistic	_				_	_	_	_
-9-4	SP2	9	lì	lì	linguistic	_		End=16.788		_	_	_	_
-10-0	SP1	10	sì	sì	linguistic	_		Begin=17.56		_	_	_	_
+9-4	SP2	9	lì	lì	linguistic	_		End=16.7040000000001		_	_	_	_
+10-0	SP1	10	sì	sì	linguistic	_		Begin=17.4		_	_	_	_
 10-1	SP1	10	{P}	{P}	shortpause	_				_	_	_	_
 10-2	SP1	10	non	non	linguistic	_				_	_	_	_
 10-3	SP1	10	si	si	linguistic	_				_	_	_	_
@@ -63,18 +63,18 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 10-5	SP1	10	appartamenti	appartament[i]	linguistic	_				_	_	_	11-12(11)
 10-6	SP1	10	{P}	{P}	shortpause	_				_	_	_	_
 10-7	SP1	10	la	la	linguistic	_				_	_	_	_
-10-8	SP1	10	verità	verit[à]	linguistic	_		End=20.005		_	_	_	5-6(12)
-11-0	SP2	11	mhmh	[°mhmh°]	linguistic	_	Volume=low	End=19.294		_	_	_	0-4(10)
-12-0	SP2	12	mhmh	[mh]mh	linguistic	_		End=20.153		_	_	_	0-2(10)
-13-0	SP1	13	piuttosto	piuttosto	linguistic	_		Begin=20.293		_	_	_	_
+10-8	SP1	10	verità	verit[à]	linguistic	_		End=19.845		_	_	_	5-6(12)
+11-0	SP2	11	mhmh	[°mhmh°]	linguistic	_	Volume=low	End=19.21		_	_	_	0-4(10)
+12-0	SP2	12	mhmh	[mh]mh	linguistic	_		End=20.069		_	_	_	0-2(10)
+13-0	SP1	13	piuttosto	piuttosto	linguistic	_		Begin=20.133		_	_	_	_
 13-1	SP1	13	che	che:	linguistic	_			2x1	_	_	_	_
 13-2	SP1	13	ci	ci	linguistic	_				_	_	_	_
 13-3	SP1	13	sono	sono	linguistic	_				_	_	_	_
 13-4	SP1	13	un	un	linguistic	_				_	_	_	_
 13-5	SP1	13	sacco	sacco	linguistic	_				_	_	_	_
 13-6	SP1	13	di	di:	linguistic	_			1x1	_	_	_	_
-13-7	SP1	13	gente	gente	linguistic	_		End=23.933		_	_	_	_
-14-0	SP1	14	come	come:	linguistic	_		Begin=24.499	3x1	_	_	_	_
+13-7	SP1	13	gente	gente	linguistic	_		End=23.773		_	_	_	_
+14-0	SP1	14	come	come:	linguistic	_		Begin=24.3390000000001	3x1	_	_	_	_
 14-1	SP1	14	non	non	linguistic	_				_	_	_	_
 14-2	SP1	14	vuole	vuole	linguistic	_				_	_	_	_
 14-3	SP1	14	dare	dare	linguistic	_				_	_	_	_
@@ -82,8 +82,8 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 14-5	SP1	14	appartamenti	appartamenti	linguistic	_				_	_	_	_
 14-6	SP1	14	per	per	linguistic	_				_	_	_	_
 14-7	SP1	14	la	la	linguistic	_				_	_	_	_
-14-8	SP1	14	famiglia	famiglia	linguistic	_		End=27.177		_	_	_	_
-15-0	SP1	15	un	un	linguistic	_		Begin=27.805		_	_	_	_
+14-8	SP1	14	famiglia	famiglia	linguistic	_		End=27.017		_	_	_	_
+15-0	SP1	15	un	un	linguistic	_		Begin=27.645		_	_	_	_
 15-1	SP1	15	po'	po'	linguistic	_				_	_	_	_
 15-2	SP1	15	che	che	linguistic	_				_	_	_	_
 15-3	SP1	15	danno	danno	linguistic	_				_	_	_	_
@@ -96,16 +96,16 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 15-10	SP1	15	dopo	dopo	linguistic	_				_	_	_	_
 15-11	SP1	15	fanno	fanno	linguistic	_				_	_	_	_
 15-12	SP1	15	la	la	linguistic	_				_	_	_	_
-15-13	SP1	15	storia	storia	linguistic	_		End=31.9		_	_	_	_
-16-0	SP2	16	mhmh	[mhmh]	linguistic	_		End=30.053		_	_	_	0-4(15)
-17-0	SP1	17	allora	[allora]	linguistic	_		End=32.477		_	_	_	0-6(18)
-18-0	SP2	18	mhmh	[mhmh]	linguistic	_		End=32.305		_	_	_	0-4(17)
-19-0	SP1	19	per	per	linguistic	_		Begin=32.772		_	_	_	_
+15-13	SP1	15	storia	storia	linguistic	_		End=31.74		_	_	_	_
+16-0	SP2	16	mhmh	[mhmh]	linguistic	_		End=29.969		_	_	_	0-4(15)
+17-0	SP1	17	allora	[allora]	linguistic	_		End=32.373		_	_	_	0-6(18)
+18-0	SP2	18	mhmh	[mhmh]	linguistic	_		End=32.381		_	_	_	0-4(17)
+19-0	SP1	19	per	per	linguistic	_		Begin=32.612		_	_	_	_
 19-1	SP1	19	pochi	pochi	linguistic	_				_	_	_	_
 19-2	SP1	19	che	che:	linguistic	_			2x1	_	_	_	_
 19-3	SP1	19	tutti	tutti	linguistic	_				_	_	_	_
-19-4	SP1	19	quanti	quanti:	linguistic	_		End=34.905	5x1	_	_	_	_
-20-0	SP2	20	sì	sì	linguistic	_		Begin=35.68		_	_	_	_
+19-4	SP1	19	quanti	quanti:	linguistic	_		End=34.745	5x1	_	_	_	_
+20-0	SP2	20	sì	sì	linguistic	_		Begin=35.596		_	_	_	_
 20-1	SP2	20	sì	sì	linguistic	_				_	_	_	_
 20-2	SP2	20	sì	sì	linguistic	_				_	_	_	_
 20-3	SP2	20	certo	c[erto]	linguistic	_				_	_	_	1-5(21)
@@ -124,10 +124,10 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 20-16	SP2	20	vivere	vivere	linguistic	_				_	_	_	_
 20-17	SP2	20	in	in	linguistic	_				_	_	_	_
 20-18	SP2	20	città	citt[à	linguistic	_				_	_	_	4-5(23)
-20-19	SP2	20	o	o],	linguistic	_	Intonation=weakly_ascending	End=41.122		_	_	_	0-1(23)
-21-0	SP1	21	mh	[mh]	linguistic	_		End=36.486		_	_	_	0-2(20)
-22-0	SP1	22	mh	[mh]	linguistic	_		End=36.88		_	_	_	0-2(20)
-23-0	SP1	23	assolutamente	[assolu]tamente	linguistic	_		Begin=40.833		_	_	_	0-6(20)
+20-19	SP2	20	o	o],	linguistic	_	Intonation=weakly_ascending	End=41.038		_	_	_	0-1(23)
+21-0	SP1	21	mh	[mh]	linguistic	_		End=36.326		_	_	_	0-2(20)
+22-0	SP1	22	mh	[mh]	linguistic	_		End=36.72		_	_	_	0-2(20)
+23-0	SP1	23	assolutamente	[assolu]tamente	linguistic	_		Begin=40.673		_	_	_	0-6(20)
 23-1	SP1	23	io	io	linguistic	_				_	_	_	_
 23-2	SP1	23	sto	sto	linguistic	_				_	_	_	_
 23-3	SP1	23	provando	provando	linguistic	_				_	_	_	_
@@ -145,20 +145,20 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 23-15	SP1	23	trasferire	trasferire	linguistic	_				_	_	_	_
 23-16	SP1	23	in	in	linguistic	_				_	_	_	_
 23-17	SP1	23	bologna	bolo[gna	linguistic	_				_	_	_	3-7(25)
-23-18	SP1	23	cioè	cioè]	linguistic	_		End=47.01		_	_	_	0-4(25)
-24-0	SP2	24	okay	[°okay°]	linguistic	_	Volume=low	End=43.404		_	_	_	0-4(23)
-25-0	SP2	25	mhmh	[mhmh]	linguistic	_		End=46.794		_	_	_	0-4(23)
-26-0	SP1	26	io	io	linguistic	_		Begin=47.094		_	_	_	_
+23-18	SP1	23	cioè	cioè]	linguistic	_		End=46.72		_	_	_	0-4(25)
+24-0	SP2	24	okay	[°okay°]	linguistic	_	Volume=low	End=43.3200000000001		_	_	_	0-4(23)
+25-0	SP2	25	mhmh	[mhmh]	linguistic	_		End=46.71		_	_	_	0-4(23)
+26-0	SP1	26	io	io	linguistic	_		Begin=46.934		_	_	_	_
 26-1	SP1	26	lavoro	lavoro	linguistic	_				_	_	_	_
-26-2	SP1	26	qui	qui	linguistic	_		End=48.094		_	_	_	_
-27-0	SP1	27	è	è	linguistic	_		Begin=48.294		_	_	_	_
+26-2	SP1	26	qui	qui	linguistic	_		End=47.934		_	_	_	_
+27-0	SP1	27	è	è	linguistic	_		Begin=48.134		_	_	_	_
 27-1	SP1	27	inutile	inutile	linguistic	_				_	_	_	_
 27-2	SP1	27	che	che	linguistic	_				_	_	_	_
 27-3	SP1	27	io	io	linguistic	_				_	_	_	_
 27-4	SP1	27	vado	vado	linguistic	_				_	_	_	_
 27-5	SP1	27	{P}	{P}	shortpause	_				_	_	_	_
-27-6	SP1	27	a	a	linguistic	_		End=50.044		_	_	_	_
-28-0	SP1	28	esempio	esempio	linguistic	_		Begin=50.555		_	_	_	_
+27-6	SP1	27	a	a	linguistic	_		End=49.884		_	_	_	_
+28-0	SP1	28	esempio	esempio	linguistic	_		Begin=50.395		_	_	_	_
 28-1	SP1	28	faccio	faccio	linguistic	_				_	_	_	_
 28-2	SP1	28	così	così	linguistic	_				_	_	_	_
 28-3	SP1	28	una	una	linguistic	_				_	_	_	_
@@ -172,8 +172,8 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 28-11	SP1	28	una	una	linguistic	_				_	_	_	_
 28-12	SP1	28	casa	casa	linguistic	_				_	_	_	_
 28-13	SP1	28	in	in	linguistic	_				_	_	_	_
-28-14	SP1	28	bologna	bologna	linguistic	_		End=55.972		_	_	_	_
-29-0	SP1	29	che	che	linguistic	_		Begin=56.238		_	_	_	_
+28-14	SP1	28	bologna	bologna	linguistic	_		End=55.812		_	_	_	_
+29-0	SP1	29	che	che	linguistic	_		Begin=56.078		_	_	_	_
 29-1	SP1	29	{P}	{P}	shortpause	_				_	_	_	_
 29-2	SP1	29	mille	mille	linguistic	_				_	_	_	_
 29-3	SP1	29	euro	euro	linguistic	_				_	_	_	_
@@ -185,9 +185,9 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 29-9	SP1	29	deve	deve	linguistic	_				_	_	_	_
 29-10	SP1	29	essere	essere	linguistic	_				_	_	_	_
 29-11	SP1	29	mille	mille	linguistic	_				_	_	_	_
-29-12	SP1	29	euro	euro	linguistic	_		End=60.649		_	_	_	_
-30-0	SP2	30	mhmh	[mhmh]	linguistic	_		End=58.215		_	_	_	0-4(29)
-31-0	SP1	31	e	e	linguistic	_		Begin=60.74		_	_	_	_
+29-12	SP1	29	euro	euro	linguistic	_		End=60.489		_	_	_	_
+30-0	SP2	30	mhmh	[mhmh]	linguistic	_		End=58.131		_	_	_	0-4(29)
+31-0	SP1	31	e	e	linguistic	_		Begin=60.58		_	_	_	_
 31-1	SP1	31	{P}	{P}	shortpause	_				_	_	_	_
 31-2	SP1	31	non	non	linguistic	_				_	_	_	_
 31-3	SP1	31	è	è	linguistic	_				_	_	_	_
@@ -205,13 +205,13 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 31-15	SP1	31	è	è	linguistic	_				_	_	_	_
 31-16	SP1	31	mille	mille	linguistic	_				_	_	_	_
 31-17	SP1	31	euro	euro	linguistic	_				_	_	_	_
-31-18	SP1	31	no	no	linguistic	_		End=64.794		_	_	_	_
-32-0	SP1	32	è	è	linguistic	_		Begin=65.211		_	_	_	_
-32-1	SP1	32	troppo	troppo	linguistic	_		End=65.672		_	_	_	_
-33-0	SP2	33	è	è	linguistic	_		Begin=65.677		_	_	_	_
+31-18	SP1	31	no	no	linguistic	_		End=64.634		_	_	_	_
+32-0	SP1	32	è	è	linguistic	_		Begin=65.051		_	_	_	_
+32-1	SP1	32	troppo	troppo	linguistic	_		End=65.5120000000001		_	_	_	_
+33-0	SP2	33	è	è	linguistic	_		Begin=65.593		_	_	_	_
 33-1	SP2	33	troppo	troppo	linguistic	_				_	_	_	_
-33-2	SP2	33	sì	sì	linguistic	_		End=66.42		_	_	_	_
-34-0	SP1	34	deve	deve	linguistic	_		Begin=66.466		_	_	_	_
+33-2	SP2	33	sì	sì	linguistic	_		End=66.336		_	_	_	_
+34-0	SP1	34	deve	deve	linguistic	_		Begin=66.40599999999999		_	_	_	_
 34-1	SP1	34	essere	essere	linguistic	_				_	_	_	_
 34-2	SP1	34	almeno	almeno	linguistic	_				_	_	_	_
 34-3	SP1	34	tre	tre	linguistic	_				_	_	_	_
@@ -227,16 +227,16 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 34-13	SP1	34	mille	mille	linguistic	_				_	_	_	_
 34-14	SP1	34	cento	cento	linguistic	_				_	_	_	_
 34-15	SP1	34	facciamo	facc[iamo]	linguistic	_				_	_	_	4-8(36)
-34-16	SP1	34	così	così	linguistic	_		End=71.722		_	_	_	_
-35-0	SP2	35	sì	[sì	linguistic	_		Begin=68.083		_	_	_	0-2(34)
+34-16	SP1	34	così	così	linguistic	_		End=71.562		_	_	_	_
+35-0	SP2	35	sì	[sì	linguistic	_		Begin=67.999		_	_	_	0-2(34)
 35-1	SP2	35	sì	sì	linguistic	_				_	_	_	0-2(34)
-35-2	SP2	35	sì	sì]	linguistic	_		End=68.805		_	_	_	0-2(34)
-36-0	SP2	36	mhmh	[mhmh]	linguistic	_		End=71.461		_	_	_	0-4(34)
-37-0	SP1	37	se	se	linguistic	_		Begin=72.7		_	_	_	_
+35-2	SP2	35	sì	sì]	linguistic	_		End=68.721		_	_	_	0-2(34)
+36-0	SP2	36	mhmh	[mhmh]	linguistic	_		End=71.3770000000001		_	_	_	0-4(34)
+37-0	SP1	37	se	se	linguistic	_		Begin=72.54		_	_	_	_
 37-1	SP1	37	vado	vado	linguistic	_				_	_	_	_
 37-2	SP1	37	a	a:	linguistic	_			0x1	_	_	_	_
-37-3	SP1	37	valsamoggia	valsamoggia	linguistic	_		End=74.483		_	_	_	_
-38-0	SP1	38	ogni	ogni	linguistic	_		Begin=74.716		_	_	_	_
+37-3	SP1	37	valsamoggia	valsamoggia	linguistic	_		End=74.323		_	_	_	_
+38-0	SP1	38	ogni	ogni	linguistic	_		Begin=74.556		_	_	_	_
 38-1	SP1	38	mese	mese	linguistic	_				_	_	_	_
 38-2	SP1	38	io	io	linguistic	_				_	_	_	_
 38-3	SP1	38	spendo	spendo	linguistic	_				_	_	_	_
@@ -246,34 +246,34 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 38-7	SP1	38	duecento	duecento	linguistic	_				_	_	_	_
 38-8	SP1	38	euro	euro	linguistic	_				_	_	_	_
 38-9	SP1	38	di	di	linguistic	_				_	_	_	_
-38-10	SP1	38	benzina	benzina	linguistic	_		End=77.72200000000001		_	_	_	_
-39-0	SP2	39	sì	sì	linguistic	_		Begin=77.82		_	_	_	_
+38-10	SP1	38	benzina	benzina	linguistic	_		End=77.662		_	_	_	_
+39-0	SP2	39	sì	sì	linguistic	_		Begin=77.736		_	_	_	_
 39-1	SP2	39	sì	sì	linguistic	_				_	_	_	_
 39-2	SP2	39	{P}	{P}	shortpause	_				_	_	_	_
 39-3	SP2	39	e	e	linguistic	_				_	_	_	_
 39-4	SP2	39	il	il	linguistic	_				_	_	_	_
-39-5	SP2	39	parcheggio	parcheggio	linguistic	_		End=79.144		_	_	_	_
-40-0	SP1	40	e	e	linguistic	_		Begin=79.266		_	_	_	_
+39-5	SP2	39	parcheggio	parcheggio	linguistic	_		End=79.0600000000001		_	_	_	_
+40-0	SP1	40	e	e	linguistic	_		Begin=79.106		_	_	_	_
 40-1	SP1	40	parcheggio	parcheggio	linguistic	_				_	_	_	_
-40-2	SP1	40	più	pi[ù]	linguistic	_		End=79.97200000000001		_	_	_	2-3(?)
-41-0	SP2	41	sì	[s]ì	linguistic	_		End=80.261		_	_	_	0-1(?)
-42-0	SP1	42	facciamo	facciamo	linguistic	_		Begin=80.327		_	_	_	_
+40-2	SP1	40	più	più	linguistic	_		End=79.912		_	_	_	_
+41-0	SP2	41	sì	sì	linguistic	_		End=80.177		_	_	_	_
+42-0	SP1	42	facciamo	facciamo	linguistic	_		Begin=80.267		_	_	_	_
 42-1	SP1	42	trecentocinquanta	trecentocin[quanta	linguistic	_				_	_	_	11-17(43)
 42-2	SP1	42	euro	euro	linguistic	_				_	_	_	0-4(43)
 42-3	SP1	42	di	di	linguistic	_				_	_	_	0-2(43)
 42-4	SP1	42	ogni	ogni	linguistic	_				_	_	_	0-4(43)
-42-5	SP1	42	mese	mes]e	linguistic	_		End=83.477		_	_	_	0-3(43)
-43-0	SP2	43	sì	[sì	linguistic	_		Begin=81.611		_	_	_	0-2(42)
+42-5	SP1	42	mese	mes]e	linguistic	_		End=83.317		_	_	_	0-3(43)
+43-0	SP2	43	sì	[sì	linguistic	_		Begin=81.5270000000001		_	_	_	0-2(42)
 43-1	SP2	43	sì	sì	linguistic	_				_	_	_	0-2(42)
 43-2	SP2	43	{P}	{P}	shortpause	_				_	_	_	0-3(42)
 43-3	SP2	43	è	è	linguistic	_				_	_	_	0-1(42)
-43-4	SP2	43	tantiss-	tantiss-]	linguistic	_	Interrupted=Yes	End=83.216		_	_	_	0-8(42)
-44-0	SP2	44	tantissimo	tantissimo	linguistic	_		End=84.38		_	_	_	_
-45-0	SP1	45	tantissimo	tantissimo	linguistic	_		End=85.26		_	_	_	_
-46-0	SP2	46	{ride}	{ride}	metalinguistic	_		End=85.459		_	_	_	_
-47-0	SP2	47	sì	°sì	linguistic	_	Volume=low	Begin=85.894		_	_	_	_
-47-1	SP2	47	sì	sì°	linguistic	_	Volume=low	End=86.416		_	_	_	_
-48-0	SP2	48	no	no	linguistic	_		Begin=86.655		_	_	_	_
+43-4	SP2	43	tantiss-	tantiss-]	linguistic	_	Interrupted=Yes	End=83.1320000000001		_	_	_	0-8(42)
+44-0	SP2	44	tantissimo	tantissimo	linguistic	_		End=84.296		_	_	_	_
+45-0	SP1	45	tantissimo	tantissimo	linguistic	_		End=85.1		_	_	_	_
+46-0	SP2	46	{ride}	{ride}	metalinguistic	_		End=85.375		_	_	_	_
+47-0	SP2	47	sì	°sì	linguistic	_	Volume=low	Begin=85.8100000000001		_	_	_	_
+47-1	SP2	47	sì	sì°	linguistic	_	Volume=low	End=86.332		_	_	_	_
+48-0	SP2	48	no	no	linguistic	_		Begin=86.571		_	_	_	_
 48-1	SP2	48	io	io	linguistic	_				_	_	_	_
 48-2	SP2	48	non	non	linguistic	_				_	_	_	_
 48-3	SP2	48	ho	ho	linguistic	_				_	_	_	_
@@ -287,10 +287,10 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 48-11	SP2	48	sento	sento	linguistic	_				_	_	_	0-5(49)
 48-12	SP2	48	queste	queste	linguistic	_				_	_	_	0-6(49)
 48-13	SP2	48	cifre	cifre]	linguistic	_				_	_	_	0-5(49)
-48-14	SP2	48	{ride}	{ride}	metalinguistic	_		End=90.411		_	_	_	_
-49-0	SP1	49	no	[no	linguistic	_		Begin=88.199		_	_	_	0-2(48)
-49-1	SP1	49	intendevo	<intendevo	linguistic	_				0-9(0)	_	_	0-9(48)
-49-2	SP1	49	intendevo	intende]vo>	linguistic	_				0-9(0)	_	_	0-7(48)
+48-14	SP2	48	{ride}	{ride}	metalinguistic	_		End=90.327		_	_	_	_
+49-0	SP1	49	no	[no	linguistic	_		Begin=88.039		_	_	_	0-2(48)
+49-1	SP1	49	intendevo	<intendevo,	linguistic	_	Intonation=weakly_ascending			0-9(0)	_	_	0-9(48)
+49-2	SP1	49	intendevo	intend]evo>	linguistic	_				0-9(0)	_	_	0-6(48)
 49-3	SP1	49	che	che	linguistic	_				_	_	_	_
 49-4	SP1	49	se	se	linguistic	_				_	_	_	_
 49-5	SP1	49	là	là	linguistic	_				_	_	_	_
@@ -298,15 +298,15 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 49-7	SP1	49	settecento	settecento	linguistic	_				_	_	_	_
 49-8	SP1	49	euro	euro	linguistic	_				_	_	_	_
 49-9	SP1	49	in	in	linguistic	_				_	_	_	_
-49-10	SP1	49	affitto	affitto	linguistic	_		End=93.999		_	_	_	_
-50-0	SP1	50	più	più	linguistic	_		Begin=94.344		_	_	_	_
+49-10	SP1	49	affitto	affitto	linguistic	_		End=93.8390000000001		_	_	_	_
+50-0	SP1	50	più	più	linguistic	_		Begin=94.184		_	_	_	_
 50-1	SP1	50	{P}	{P}	shortpause	_				_	_	_	_
 50-2	SP1	50	trecentocinquanta	trecentocinquant[a	linguistic	_				_	_	_	16-17(51)
 50-3	SP1	50	sono	so]no	linguistic	_				_	_	_	0-2(51)
-50-4	SP1	50	mille	mille	linguistic	_		End=97.288		_	_	_	_
-51-0	SP2	51	mh	[mh]	linguistic	_		End=96.515		_	_	_	0-2(50)
-52-0	SP2	52	mhmh	mhmh	linguistic	_		End=97.722		_	_	_	_
-53-0	SP1	53	già	già	linguistic	_		Begin=98.24		_	_	_	_
+50-4	SP1	50	mille	mille	linguistic	_		End=97.1280000000001		_	_	_	_
+51-0	SP2	51	mh	[mh]	linguistic	_		End=96.431		_	_	_	0-2(50)
+52-0	SP2	52	mhmh	mhmh	linguistic	_		End=97.638		_	_	_	_
+53-0	SP1	53	già	già	linguistic	_		Begin=98.08		_	_	_	_
 53-1	SP1	53	{P}	{P}	shortpause	_				_	_	_	_
 53-2	SP1	53	mille	mille:	linguistic	_			4x1	_	_	_	_
 53-3	SP1	53	mil-	[mil-	linguistic	_	Interrupted=Yes			_	_	_	0-4(54)
@@ -330,30 +330,30 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 53-21	SP1	53	devo	devo	linguistic	_				_	_	_	_
 53-22	SP1	53	pagare	pagare	linguistic	_				_	_	_	_
 53-23	SP1	53	la	la	linguistic	_				_	_	_	_
-53-24	SP1	53	macchina	macchina	linguistic	_		End=104.98		_	_	_	_
-54-0	SP2	54	sì	[°sì	linguistic	_	Volume=low	Begin=99.533		_	_	_	0-2(53)
+53-24	SP1	53	macchina	macchina	linguistic	_		End=104.82		_	_	_	_
+54-0	SP2	54	sì	[°sì	linguistic	_	Volume=low	Begin=99.4490000000001		_	_	_	0-2(53)
 54-1	SP2	54	sì	sì	linguistic	_	Volume=low			_	_	_	0-2(53)
-54-2	SP2	54	sì	sì°]	linguistic	_	Volume=low	End=100.099		_	_	_	0-2(53)
-55-0	SP2	55	mhmh	[mhmh]	linguistic	_		End=101.679		_	_	_	0-4(53)
-56-0	SP2	56	mhmh	[mhmh]	linguistic	_		End=103.405		_	_	_	0-4(53)
-57-0	SP1	57	la	la	linguistic	_		Begin=105.227		_	_	_	_
+54-2	SP2	54	sì	sì°]	linguistic	_	Volume=low	End=100.015		_	_	_	0-2(53)
+55-0	SP2	55	mhmh	[mhmh]	linguistic	_		End=101.595		_	_	_	0-4(53)
+56-0	SP2	56	mhmh	[mhmh]	linguistic	_		End=103.321		_	_	_	0-4(53)
+57-0	SP1	57	la	la	linguistic	_		Begin=105.067		_	_	_	_
 57-1	SP1	57	benzina	benzina	linguistic	_				_	_	_	_
-57-2	SP1	57	e	e::	linguistic	_		End=107.293	0x2	_	_	_	_
-58-0	SP1	58	e	e	linguistic	_		Begin=107.866		_	_	_	_
+57-2	SP1	57	e	e::	linguistic	_		End=107.133	0x2	_	_	_	_
+58-0	SP1	58	e	e	linguistic	_		Begin=107.706		_	_	_	_
 58-1	SP1	58	anche	anch[e:	linguistic	_			4x1	_	_	_	4-5(59)
 58-2	SP1	58	il	il	linguistic	_				_	_	_	0-2(59)
 58-3	SP1	58	parcheggio	parche]ggio	linguistic	_				_	_	_	0-6(59)
 58-4	SP1	58	no	[no	linguistic	_				_	_	_	0-2(60)
 58-5	SP1	58	devo	devo]	linguistic	_				_	_	_	0-4(60)
 58-6	SP1	58	fare	fare	linguistic	_				_	_	_	_
-58-7	SP1	58	as-	as-	linguistic	_	Interrupted=Yes	End=110.46		_	_	_	_
-59-0	SP2	59	sì	[sì	linguistic	_		Begin=108.399		_	_	_	0-2(58)
+58-7	SP1	58	as-	as-	linguistic	_	Interrupted=Yes	End=110.3		_	_	_	_
+59-0	SP2	59	sì	[sì	linguistic	_		Begin=108.315		_	_	_	0-2(58)
 59-1	SP2	59	sì	sì	linguistic	_				_	_	_	0-2(58)
-59-2	SP2	59	sì	sì]	linguistic	_		End=109.027		_	_	_	0-2(58)
-60-0	SP2	60	sì	[°sì	linguistic	_	Volume=low	Begin=109.277		_	_	_	0-2(58)
+59-2	SP2	59	sì	sì]	linguistic	_		End=108.943		_	_	_	0-2(58)
+60-0	SP2	60	sì	[°sì	linguistic	_	Volume=low	Begin=109.193		_	_	_	0-2(58)
 60-1	SP2	60	sì	sì	linguistic	_	Volume=low			_	_	_	0-2(58)
-60-2	SP2	60	sì	sì°]	linguistic	_	Volume=low	End=109.752		_	_	_	0-2(58)
-61-0	SP1	61	allora	allora	linguistic	_		Begin=111.78		_	_	_	_
+60-2	SP2	60	sì	sì°]	linguistic	_	Volume=low	End=109.668		_	_	_	0-2(58)
+61-0	SP1	61	allora	allora	linguistic	_		Begin=111.62		_	_	_	_
 61-1	SP1	61	come	come	linguistic	_				_	_	_	_
 61-2	SP1	61	la	la	linguistic	_				_	_	_	_
 61-3	SP1	61	città	città	linguistic	_				_	_	_	_
@@ -372,14 +372,14 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 61-16	SP1	61	ma	[ma	linguistic	_				_	_	_	0-2(62)
 61-17	SP1	61	ti	ti	linguistic	_				_	_	_	0-2(62)
 61-18	SP1	61	trovi	t]rovi	linguistic	_				_	_	_	0-1(62)
-61-19	SP1	61	tutto	tutto	linguistic	_		End=117.494		_	_	_	_
-62-0	SP2	62	mhmh	[mhmh]	linguistic	_		End=116.928		_	_	_	0-4(61)
-63-0	SP2	63	certo	certo	linguistic	_		Begin=117.62		_	_	_	_
+61-19	SP1	61	tutto	tutto	linguistic	_		End=117.334		_	_	_	_
+62-0	SP2	62	mhmh	[mhmh]	linguistic	_		End=116.844		_	_	_	0-4(61)
+63-0	SP2	63	certo	certo	linguistic	_		Begin=117.536		_	_	_	_
 63-1	SP2	63	sì	sì	linguistic	_				_	_	_	_
 63-2	SP2	63	{P}	{P}	shortpause	_				_	_	_	_
 63-3	SP2	63	certo	certo	linguistic	_				_	_	_	_
-63-4	SP2	63	certo	cer[to]	linguistic	_		End=119.416		_	_	_	3-5(64)
-64-0	SP1	64	come	[com]e	linguistic	_		Begin=119.2		_	_	_	0-3(63)
+63-4	SP2	63	certo	cer[to]	linguistic	_		End=119.332		_	_	_	3-5(64)
+64-0	SP1	64	come	[com]e	linguistic	_		Begin=119.04		_	_	_	0-3(?)
 64-1	SP1	64	da	da	linguistic	_				_	_	_	_
 64-2	SP1	64	là	là	linguistic	_				_	_	_	_
 64-3	SP1	64	per	per	linguistic	_				_	_	_	_
@@ -394,9 +394,9 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 64-12	SP1	64	chilometri	chilometri	linguistic	_				_	_	_	_
 64-13	SP1	64	cinque	cinque	linguistic	_				_	_	_	_
 64-14	SP1	64	chilometri	chilometri	linguistic	_				_	_	_	_
-64-15	SP1	64	almeno	al[meno]	linguistic	_		End=124.56		_	_	_	2-6(65)
-65-0	SP2	65	mhmh	[mh]mh	linguistic	_		End=124.816		_	_	_	0-2(64)
-66-0	SP2	66	ma	ma	linguistic	_		Begin=125.7		_	_	_	_
+64-15	SP1	64	almeno	al[meno]	linguistic	_		End=124.30000000000001		_	_	_	2-6(?)
+65-0	SP2	65	mhmh	[mh]mh	linguistic	_		End=124.732		_	_	_	0-2(?)
+66-0	SP2	66	ma	ma	linguistic	_		Begin=125.616		_	_	_	_
 66-1	SP2	66	poi	poi	linguistic	_				_	_	_	_
 66-2	SP2	66	ti	ti	linguistic	_				_	_	_	_
 66-3	SP2	66	{P}	{P}	shortpause	_				_	_	_	_
@@ -407,15 +407,14 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 66-8	SP2	66	presto	pres[to,	linguistic	_	Intonation=weakly_ascending			_	_	_	4-6(67)
 66-9	SP2	66	traffico	traffico,	linguistic	_	Intonation=weakly_ascending			_	_	_	0-8(67)
 66-10	SP2	66	stress	stress,	linguistic	_	Intonation=weakly_ascending			_	_	_	0-6(67)
-66-11	SP2	66	sì	sì]	linguistic	_		End=129.761		_	_	_	0-2(67)
-67-0	SP1	67	assolutamente	[<assolutamente>	linguistic	_		Begin=127.861		0-13(0)	_	_	0-13(66)
-67-1	SP1	67	ma	ma	linguistic	_				_	_	_	0-2(66)
-67-2	SP1	67	{P}	{P}	shortpause	_				_	_	_	0-3(66)
-67-3	SP1	67	guarda	guarda]	linguistic	_				_	_	_	0-6(66)
-67-4	SP1	67	che	che	linguistic	_				_	_	_	_
-67-5	SP1	67	{P}	{P}	shortpause	_				_	_	_	_
-67-6	SP1	67	là	là	linguistic	_		End=130.755		_	_	_	_
-68-0	SP1	68	da	da	linguistic	_		Begin=131.222		_	_	_	_
+66-11	SP2	66	sì	sì]	linguistic	_		End=129.677		_	_	_	0-2(67)
+67-0	SP1	67	ma	[ma	linguistic	_		Begin=127.701		_	_	_	0-2(66)
+67-1	SP1	67	{P}	{P}	shortpause	_				_	_	_	0-3(66)
+67-2	SP1	67	guarda	guarda]	linguistic	_				_	_	_	0-6(66)
+67-3	SP1	67	che	che	linguistic	_				_	_	_	_
+67-4	SP1	67	{P}	{P}	shortpause	_				_	_	_	_
+67-5	SP1	67	là	là	linguistic	_		End=130.595		_	_	_	_
+68-0	SP1	68	da	da	linguistic	_		Begin=131.062		_	_	_	_
 68-1	SP1	68	vivere	vivere	linguistic	_				_	_	_	_
 68-2	SP1	68	la	la	linguistic	_				_	_	_	_
 68-3	SP1	68	differenza	differenza	linguistic	_				_	_	_	_
@@ -423,9 +422,9 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 68-5	SP1	68	città	città	linguistic	_				_	_	_	_
 68-6	SP1	68	e	e	linguistic	_				_	_	_	_
 68-7	SP1	68	fuori	fuori	linguistic	_				_	_	_	_
-68-8	SP1	68	città	città	linguistic	_		End=133.599		_	_	_	_
-69-0	SP2	69	mhmh	mhmh	linguistic	_		End=133.916		_	_	_	_
-70-0	SP1	70	se	SE	linguistic	_	Volume=high	Begin=134.08		_	_	_	_
+68-8	SP1	68	città	città	linguistic	_		End=133.439		_	_	_	_
+69-0	SP2	69	mhmh	mhmh	linguistic	_		End=133.832		_	_	_	_
+70-0	SP1	70	se	SE	linguistic	_	Volume=high	Begin=133.92		_	_	_	_
 70-1	SP1	70	lavoro	LAVORO,	linguistic	_	Intonation=weakly_ascending|Volume=high			_	_	_	_
 70-2	SP1	70	fuori	fuori	linguistic	_				_	_	_	_
 70-3	SP1	70	città	città	linguistic	_				_	_	_	_
@@ -442,14 +441,14 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 70-14	SP1	70	città	cit[tà	linguistic	_				_	_	_	3-5(72)
 70-15	SP1	70	che	che	linguistic	_				_	_	_	0-3(72)
 70-16	SP1	70	devo	devo	linguistic	_				_	_	_	0-4(72)
-70-17	SP1	70	lavorare	lavora]re	linguistic	_		End=139.427		_	_	_	0-6(72)
-71-0	SP2	71	mhmh	[mhmh]	linguistic	_		End=137.778		_	_	_	0-4(70)
-72-0	SP2	72	venendo	[venendo	linguistic	_		Begin=138.405		_	_	_	0-7(70)
-72-1	SP2	72	qua	qua]	linguistic	_		End=139.199		_	_	_	0-3(70)
-73-0	SP2	73	certo	certo	linguistic	_		Begin=139.444		_	_	_	_
+70-17	SP1	70	lavorare	lavora]re	linguistic	_		End=139.267		_	_	_	0-6(72)
+71-0	SP2	71	mhmh	[mhmh]	linguistic	_		End=137.694		_	_	_	0-4(70)
+72-0	SP2	72	venendo	[venendo	linguistic	_		Begin=138.321		_	_	_	0-7(70)
+72-1	SP2	72	qua	qua]	linguistic	_		End=139.115		_	_	_	0-3(70)
+73-0	SP2	73	certo	certo	linguistic	_		Begin=139.36		_	_	_	_
 73-1	SP2	73	sì	sì	linguistic	_				_	_	_	_
-73-2	SP2	73	sì	[sì]	linguistic	_		End=140.327		_	_	_	0-2(74)
-74-0	SP1	74	significa	[signi]fica	linguistic	_		Begin=140.12		_	_	_	0-5(73)
+73-2	SP2	73	sì	[sì]	linguistic	_		End=140.243		_	_	_	0-2(74)
+74-0	SP1	74	significa	[signi]fica	linguistic	_		Begin=139.96		_	_	_	0-5(73)
 74-1	SP1	74	che	che	linguistic	_				_	_	_	_
 74-2	SP1	74	per	per	linguistic	_				_	_	_	_
 74-3	SP1	74	me	[me]	linguistic	_				_	_	_	0-2(75)
@@ -461,13 +460,13 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 74-9	SP1	74	di	di	linguistic	_				_	_	_	_
 74-10	SP1	74	{P}	{P}	shortpause	_				_	_	_	_
 74-11	SP1	74	ventiquattro	ventiquattro	linguistic	_				_	_	_	_
-74-12	SP1	74	ore	ore	linguistic	_		End=143.916		_	_	_	_
-75-0	SP2	75	mh	[mh]	linguistic	_		End=141.246		_	_	_	0-2(74)
-76-0	SP2	76	mhmh	mhmh	linguistic	_		End=144.379		_	_	_	_
-77-0	SP1	77	sono	sono	linguistic	_		End=145.072		_	_	_	_
-78-0	SP1	78	ventidue	ventidue	linguistic	_		Begin=145.277		_	_	_	_
-78-1	SP1	78	ore	[ore]	linguistic	_		End=146.399		_	_	_	0-3(79)
-79-0	SP2	79	certo	[cert]o	linguistic	_		Begin=145.98		_	_	_	0-4(78)
+74-12	SP1	74	ore	ore	linguistic	_		End=143.756		_	_	_	_
+75-0	SP2	75	mh	[mh]	linguistic	_		End=141.162		_	_	_	0-2(74)
+76-0	SP2	76	mhmh	mhmh	linguistic	_		End=144.295		_	_	_	_
+77-0	SP1	77	sono	sono	linguistic	_		End=144.912		_	_	_	_
+78-0	SP1	78	ventidue	ventidue	linguistic	_		Begin=145.117		_	_	_	_
+78-1	SP1	78	ore	[ore]	linguistic	_		End=146.239		_	_	_	0-3(79)
+79-0	SP2	79	certo	[cert]o	linguistic	_		Begin=145.896		_	_	_	0-4(78)
 79-1	SP2	79	{P}	{P}	shortpause	_				_	_	_	_
 79-2	SP2	79	perché	perché	linguistic	_				_	_	_	_
 79-3	SP2	79	è	è	linguistic	_				_	_	_	_
@@ -475,10 +474,10 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 79-5	SP2	79	ora	ora	linguistic	_				_	_	_	0-3(80)
 79-6	SP2	79	no	(no)]	linguistic	_				_	_	0-2(0)	0-2(80)
 79-7	SP2	79	{P}	{P}	shortpause	_				_	_	_	_
-79-8	SP2	79	mhmh	mh[mh]	linguistic	_		End=148.349		_	_	_	1-4(81)
-80-0	SP1	80	ancora	[ancora	linguistic	_		Begin=146.855		_	_	_	0-6(79)
-80-1	SP1	80	meno	meno]	linguistic	_		End=147.805		_	_	_	0-4(79)
-81-0	SP1	81	sono	[sono]	linguistic	_		Begin=148.138		_	_	_	0-4(79)
+79-8	SP2	79	mhmh	mh[mh]	linguistic	_		End=148.265		_	_	_	1-4(81)
+80-0	SP1	80	ancora	[ancora	linguistic	_		Begin=146.695		_	_	_	0-6(79)
+80-1	SP1	80	meno	meno]	linguistic	_		End=147.645		_	_	_	0-4(79)
+81-0	SP1	81	sono	[sono]	linguistic	_		Begin=147.978		_	_	_	0-4(79)
 81-1	SP1	81	venti	venti	linguistic	_				_	_	_	_
 81-2	SP1	81	ore	ore	linguistic	_				_	_	_	_
 81-3	SP1	81	tipo	ti[po	linguistic	_				_	_	_	2-4(82)
@@ -486,10 +485,10 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 81-5	SP1	81	ogni	ogni	linguistic	_				_	_	_	_
 81-6	SP1	81	giorno	giorno	linguistic	_				_	_	_	_
 81-7	SP1	81	io	io	linguistic	_				_	_	_	_
-81-8	SP1	81	lo	lo	linguistic	_		End=150.811		_	_	_	_
-82-0	SP2	82	sì	[°sì	linguistic	_	Volume=low	Begin=149.222		_	_	_	0-2(81)
-82-1	SP2	82	sì	sì°]	linguistic	_	Volume=low	End=149.588		_	_	_	0-2(81)
-83-0	SP1	83	vado	vado	linguistic	_		Begin=151.216		_	_	_	_
+81-8	SP1	81	lo	lo	linguistic	_		End=150.651		_	_	_	_
+82-0	SP2	82	sì	[°sì	linguistic	_	Volume=low	Begin=149.138		_	_	_	0-2(81)
+82-1	SP2	82	sì	sì°]	linguistic	_	Volume=low	End=149.504		_	_	_	0-2(81)
+83-0	SP1	83	vado	vado	linguistic	_		Begin=151.056		_	_	_	_
 83-1	SP1	83	avanti	avanti	linguistic	_				_	_	_	_
 83-2	SP1	83	e	e	linguistic	_				_	_	_	_
 83-3	SP1	83	indietro	indietro	linguistic	_				_	_	_	_
@@ -517,46 +516,46 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 83-25	SP1	83	ora	ora	linguistic	_				_	_	_	_
 83-26	SP1	83	o	o	linguistic	_				_	_	_	_
 83-27	SP1	83	un'	un	linguistic	_	SpaceAfter=No			_	_	_	_
-83-28	SP1	83	ora	ora	linguistic	_		End=159.2		_	_	_	_
-84-0	SP2	84	mh	[mh]	linguistic	_		End=155.969		_	_	_	0-2(83)
-85-0	SP2	85	mhmh	[mhmh]	linguistic	_		End=159.89		_	_	_	0-4(86)
-86-0	SP1	86	allora	[allora]	linguistic	_		Begin=159.622		_	_	_	0-6(85)
+83-28	SP1	83	ora	ora	linguistic	_		End=159.04		_	_	_	_
+84-0	SP2	84	mh	[mh]	linguistic	_		End=155.885		_	_	_	0-2(83)
+85-0	SP2	85	mhmh	[mhmh]	linguistic	_		End=159.806		_	_	_	0-4(86)
+86-0	SP1	86	allora	[allora]	linguistic	_		Begin=159.462		_	_	_	0-6(85)
 86-1	SP1	86	due	due	linguistic	_				_	_	_	_
 86-2	SP1	86	ore	ore	linguistic	_				_	_	_	_
 86-3	SP1	86	è	è	linguistic	_				_	_	_	_
 86-4	SP1	86	già	già	linguistic	_				_	_	_	_
-86-5	SP1	86	scalata	scalata	linguistic	_		End=161.127		_	_	_	_
-87-0	SP2	87	sì	sì	linguistic	_		Begin=161.138		_	_	_	_
+86-5	SP1	86	scalata	scalata	linguistic	_		End=160.967		_	_	_	_
+87-0	SP2	87	sì	sì	linguistic	_		Begin=161.054		_	_	_	_
 87-1	SP2	87	sì	sì	linguistic	_				_	_	_	_
-87-2	SP2	87	eh	[eh]	linguistic	_		End=161.741		_	_	_	0-2(88)
-88-0	SP1	88	per	[per	linguistic	_		Begin=161.411		_	_	_	0-3(87)
+87-2	SP2	87	eh	[eh]	linguistic	_		End=161.657		_	_	_	0-2(88)
+88-0	SP1	88	per	[per	linguistic	_		Begin=161.251		_	_	_	0-3(87)
 88-1	SP1	88	preparare	prep]arare	linguistic	_				_	_	_	0-4(87)
 88-2	SP1	88	cioè	cioè	linguistic	_				_	_	_	_
-88-3	SP1	88	se	se	linguistic	_		End=162.611		_	_	_	_
-89-0	SP1	89	tipo	tipo	linguistic	_		Begin=162.983		_	_	_	_
+88-3	SP1	88	se	se	linguistic	_		End=162.451		_	_	_	_
+89-0	SP1	89	tipo	tipo	linguistic	_		Begin=162.823		_	_	_	_
 89-1	SP1	89	che	che	linguistic	_				_	_	_	_
 89-2	SP1	89	noi	noi	linguistic	_				_	_	_	_
 89-3	SP1	89	abitiamo	abitiamo	linguistic	_				_	_	_	_
-89-4	SP1	89	cioè	cioè	linguistic	_		End=164.599		_	_	_	_
-90-0	SP1	90	facciamo	facciamo	linguistic	_		Begin=164.96		_	_	_	_
+89-4	SP1	89	cioè	cioè	linguistic	_		End=164.439		_	_	_	_
+90-0	SP1	90	facciamo	facciamo	linguistic	_		Begin=164.8		_	_	_	_
 90-1	SP1	90	come	come	linguistic	_				_	_	_	_
 90-2	SP1	90	dentro	dentro	linguistic	_				_	_	_	_
 90-3	SP1	90	la	la	linguistic	_				_	_	_	_
 90-4	SP1	90	bologna	bologna	linguistic	_				_	_	_	_
 90-5	SP1	90	tu	tu	linguistic	_				_	_	_	_
 90-6	SP1	90	venti	venti	linguistic	_				_	_	_	_
-90-7	SP1	90	minuti	minuti	linguistic	_		End=168.038		_	_	_	_
-91-0	SP1	91	trenta	trenta	linguistic	_		Begin=168.349		_	_	_	_
+90-7	SP1	90	minuti	minuti	linguistic	_		End=167.878		_	_	_	_
+91-0	SP1	91	trenta	trenta	linguistic	_		Begin=168.189		_	_	_	_
 91-1	SP1	91	minuti	minuti	linguistic	_				_	_	_	_
 91-2	SP1	91	sei	sei	linguistic	_				_	_	_	_
 91-3	SP1	91	in	in	linguistic	_				_	_	_	_
-91-4	SP1	91	lavoro	lav[oro]	linguistic	_		End=169.899		_	_	_	3-6(92)
-92-0	SP2	92	mhmh	[mhmh]	linguistic	_		Begin=169.491		_	_	_	0-4(91)
-92-1	SP2	92	mhmh	mhmh	linguistic	_		End=170.194		_	_	_	_
-93-0	SP2	93	certo	certo	linguistic	_		Begin=170.42		_	_	_	_
+91-4	SP1	91	lavoro	lav[oro]	linguistic	_		End=169.739		_	_	_	3-6(92)
+92-0	SP2	92	mhmh	[mhmh]	linguistic	_		Begin=169.407		_	_	_	0-4(91)
+92-1	SP2	92	mhmh	mhmh	linguistic	_		End=170.11		_	_	_	_
+93-0	SP2	93	certo	certo	linguistic	_		Begin=170.336		_	_	_	_
 93-1	SP2	93	sì	sì	linguistic	_				_	_	_	_
-93-2	SP2	93	sì	sì	linguistic	_		End=171.3		_	_	_	_
-94-0	SP2	94	ma	ma	linguistic	_		Begin=171.58		_	_	_	_
+93-2	SP2	93	sì	sì	linguistic	_		End=171.216		_	_	_	_
+94-0	SP2	94	ma	ma	linguistic	_		Begin=171.496		_	_	_	_
 94-1	SP2	94	prima	prima	linguistic	_				_	_	_	_
 94-2	SP2	94	di	di	linguistic	_				_	_	_	_
 94-3	SP2	94	trasferirti	trasferirti	linguistic	_				_	_	_	_
@@ -567,26 +566,26 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 94-8	SP2	94	quale	quale	linguistic	_				_	_	_	_
 94-9	SP2	94	zona	zona	linguistic	_				_	_	_	_
 94-10	SP2	94	abitavi	abitavi:	linguistic	_			6x1	_	_	_	_
-94-11	SP2	94	di	[di]	linguistic	_		End=175.099		_	_	_	0-2(95)
-95-0	SP1	95	a	[a	linguistic	_		Begin=174.793		_	_	_	0-1(94)
+94-11	SP2	94	di	[di]	linguistic	_		End=175.015		_	_	_	0-2(95)
+95-0	SP1	95	a	[a	linguistic	_		Begin=174.633		_	_	_	0-1(94)
 95-1	SP1	95	centro	ce]ntro	linguistic	_				_	_	_	0-2(94)
 95-2	SP1	95	proprio	proprio	linguistic	_				_	_	_	_
 95-3	SP1	95	in	in	linguistic	_				_	_	_	_
 95-4	SP1	95	centro	c[entro	linguistic	_				_	_	_	1-6(96)
-95-5	SP1	95	storico	storico]	linguistic	_		End=176.583		_	_	_	0-7(96)
-96-0	SP2	96	centro	[centro	linguistic	_		Begin=175.777		_	_	_	0-6(95)
+95-5	SP1	95	storico	storico]	linguistic	_		End=176.423		_	_	_	0-7(96)
+96-0	SP2	96	centro	[centro	linguistic	_		Begin=175.693		_	_	_	0-6(95)
 96-1	SP2	96	centro	cen]tro	linguistic	_				_	_	_	0-3(95)
-96-2	SP2	96	okay	[okay]	linguistic	_		End=177.349		_	_	_	0-4(97)
-97-0	SP1	97	centro	[centro	linguistic	_		Begin=176.772		_	_	_	0-6(96)
-97-1	SP1	97	centro	centro]	linguistic	_		End=177.461		_	_	_	0-6(96)
-98-0	SP1	98	dieci	DIECI	linguistic	_	Volume=high	Begin=178.533		_	_	_	_
+96-2	SP2	96	okay	[okay]	linguistic	_		End=177.265		_	_	_	0-4(97)
+97-0	SP1	97	centro	[centro	linguistic	_		Begin=176.612		_	_	_	0-6(96)
+97-1	SP1	97	centro	centro]	linguistic	_		End=177.301		_	_	_	0-6(96)
+98-0	SP1	98	dieci	DIECI	linguistic	_	Volume=high	Begin=178.373		_	_	_	_
 98-1	SP1	98	minuti	MINUTI	linguistic	_	Volume=high			_	_	_	_
 98-2	SP1	98	camminata	CAMMINATA	linguistic	_	Volume=high			_	_	_	_
 98-3	SP1	98	che	che	linguistic	_				_	_	_	_
 98-4	SP1	98	dove	dove	linguistic	_				_	_	_	_
 98-5	SP1	98	lavoro	lavoro	linguistic	_				_	_	_	_
-98-6	SP1	98	io	io	linguistic	_		End=180.705		_	_	_	_
-99-0	SP2	99	però	però	linguistic	_		Begin=181.194		_	_	_	_
+98-6	SP1	98	io	io	linguistic	_		End=180.545		_	_	_	_
+99-0	SP2	99	però	però	linguistic	_		Begin=181.11		_	_	_	_
 99-1	SP2	99	c'	c	linguistic	_	SpaceAfter=No			_	_	_	_
 99-2	SP2	99	è	è	linguistic	_				_	_	_	_
 99-3	SP2	99	un	un	linguistic	_				_	_	_	_
@@ -595,12 +594,12 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 99-6	SP2	99	casino	casino	linguistic	_				_	_	_	_
 99-7	SP2	99	in	in	linguistic	_				_	_	_	_
 99-8	SP2	99	centro	cen[tro	linguistic	_				_	_	_	2-6(100)
-99-9	SP2	99	sporco	sporco:,]	linguistic	_	Intonation=weakly_ascending	End=183.794	5x1	_	_	_	0-6(100)
-100-0	SP1	100	no	[no	linguistic	_		Begin=182.744		_	_	_	0-2(99)
-100-1	SP1	100	guarda	guarda	linguistic	_				_	_	_	0-6(99)
-100-2	SP1	100	che	che	linguistic	_				_	_	_	0-3(99)
-100-3	SP1	100	il	il	linguistic	_				_	_	_	0-2(99)
-100-4	SP1	100	casino	<c]asino>	linguistic	_				0-6(0)	_	_	0-1(99)
+99-9	SP2	99	sporco	sporco:,]	linguistic	_	Intonation=weakly_ascending	End=183.71	5x1	_	_	_	0-6(100)
+100-0	SP1	100	no	[no	linguistic	_		Begin=182.584		_	_	_	_
+100-1	SP1	100	guarda	guarda	linguistic	_				_	_	_	_
+100-2	SP1	100	che	che	linguistic	_				_	_	_	_
+100-3	SP1	100	il	il	linguistic	_				_	_	_	_
+100-4	SP1	100	casino	<casino>	linguistic	_				0-6(0)	_	_	_
 100-5	SP1	100	no	no	linguistic	_				_	_	_	_
 100-6	SP1	100	x	x	unknown	_				_	_	_	_
 100-7	SP1	100	cioè	cioè	linguistic	_				_	_	_	_
@@ -624,10 +623,10 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 100-25	SP1	100	tutte	tutte	linguistic	_				_	_	_	_
 100-26	SP1	100	le	le	linguistic	_				_	_	_	_
 100-27	SP1	100	cose	cose	linguistic	_				_	_	_	_
-100-28	SP1	100	insieme	insie[me]	linguistic	_		End=191.299		_	_	_	5-7(101)
-101-0	SP2	101	mhmh	[mhmh]	linguistic	_		End=191.439		_	_	_	0-4(100)
-102-0	SP2	102	mhmh	mhmh	linguistic	_		End=192.436		_	_	_	_
-103-0	SP2	103	quindi	quindi	linguistic	_		Begin=193.04		_	_	_	_
+100-28	SP1	100	insieme	insie[me]	linguistic	_		End=191.139		_	_	_	_
+101-0	SP2	101	mhmh	[mh]mh	linguistic	_		End=191.355		_	_	_	0-2(100)
+102-0	SP2	102	mhmh	mhmh	linguistic	_		End=192.352		_	_	_	_
+103-0	SP2	103	quindi	quindi	linguistic	_		Begin=192.956		_	_	_	_
 103-1	SP2	103	sì	sì	linguistic	_				_	_	_	_
 103-2	SP2	103	ti	ti	linguistic	_				_	_	_	_
 103-3	SP2	103	ti	[ti	linguistic	_				_	_	_	0-2(104)
@@ -637,9 +636,9 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 103-7	SP2	103	vivere	[vivere	linguistic	_				_	_	_	0-6(105)
 103-8	SP2	103	in	in	linguistic	_				_	_	_	0-2(105)
 103-9	SP2	103	centro	centro	linguistic	_				_	_	_	0-6(105)
-103-10	SP2	103	sì	sì]	linguistic	_		End=195.788		_	_	_	0-2(105)
-104-0	SP1	104	sì	[sì]	linguistic	_		End=194.083		_	_	_	0-2(103)
-105-0	SP1	105	perché	[perché	linguistic	_		Begin=194.972		_	_	_	0-6(103)
+103-10	SP2	103	sì	sì]	linguistic	_		End=195.704		_	_	_	0-2(105)
+104-0	SP1	104	sì	[sì]	linguistic	_		End=193.923		_	_	_	0-2(103)
+105-0	SP1	105	perché	[perché	linguistic	_		Begin=194.812		_	_	_	0-6(103)
 105-1	SP1	105	{P}	{P}	shortpause	_				_	_	_	0-3(103)
 105-2	SP1	105	è	è	linguistic	_				_	_	_	0-1(103)
 105-3	SP1	105	una	u]na	linguistic	_				_	_	_	0-1(103)
@@ -661,11 +660,11 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 105-19	SP1	105	stai	stai	linguistic	_				_	_	_	_
 105-20	SP1	105	inquinando	inquin[ando	linguistic	_				_	_	_	6-10(107)
 105-21	SP1	105	lo	lo	linguistic	_				_	_	_	0-2(107)
-105-22	SP1	105	stesso	ste]ss[o]	linguistic	_		End=203.472		_	_	_	0-3(107),5-6(108)
-106-0	SP2	106	mhmh	[mhmh]	linguistic	_		End=201.223		_	_	_	0-4(105)
-107-0	SP2	107	anche	[anche]	linguistic	_		End=202.805		_	_	_	0-5(105)
-108-0	SP2	108	certo	[ce]rto	linguistic	_		End=203.811		_	_	_	0-2(105)
-109-0	SP2	109	ah	ah	linguistic	_		Begin=204.005		_	_	_	_
+105-22	SP1	105	stesso	ste]ss[o]	linguistic	_		End=203.312		_	_	_	0-3(107),5-6(108)
+106-0	SP2	106	mhmh	[mhmh]	linguistic	_		End=201.139		_	_	_	0-4(105)
+107-0	SP2	107	anche	[anche]	linguistic	_		End=202.721		_	_	_	0-5(105)
+108-0	SP2	108	certo	[ce]rto	linguistic	_		End=203.727		_	_	_	0-2(105)
+109-0	SP2	109	ah	ah	linguistic	_		Begin=203.921		_	_	_	_
 109-1	SP2	109	no	[no	linguistic	_				_	_	_	0-2(110)
 109-2	SP2	109	no	no	linguistic	_				_	_	_	0-2(110)
 109-3	SP2	109	no	no	linguistic	_				_	_	_	0-2(110)
@@ -673,15 +672,15 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 109-5	SP2	109	{P}	{P}	shortpause	_				_	_	_	_
 109-6	SP2	109	sì	sì	linguistic	_				_	_	_	_
 109-7	SP2	109	sì	sì	linguistic	_				_	_	_	_
-109-8	SP2	109	sì	sì	linguistic	_		End=206.416		_	_	_	_
-110-0	SP1	110	devi	[devi	linguistic	_		Begin=204.094		_	_	_	0-4(109)
+109-8	SP2	109	sì	sì	linguistic	_		End=206.332		_	_	_	_
+110-0	SP1	110	devi	[devi	linguistic	_		Begin=203.934		_	_	_	0-4(109)
 110-1	SP1	110	capire	capire	linguistic	_				_	_	_	0-6(109)
 110-2	SP1	110	questa	questa	linguistic	_				_	_	_	0-6(109)
-110-3	SP1	110	qua	qua]	linguistic	_		End=205.393		_	_	_	0-3(109)
-111-0	SP2	111	eh	e:h	linguistic	_		Begin=206.811	0x1	_	_	_	_
+110-3	SP1	110	qua	qua]	linguistic	_		End=205.233		_	_	_	0-3(109)
+111-0	SP2	111	eh	e:h	linguistic	_		Begin=206.727	0x1	_	_	_	_
 111-1	SP2	111	niente	nien[te	linguistic	_				_	_	_	4-6(112)
-111-2	SP2	111	da	da]	linguistic	_		End=207.811		_	_	_	0-2(112)
-112-0	SP1	112	ma	[ma	linguistic	_		Begin=207.511		_	_	_	0-2(111)
+111-2	SP2	111	da	da]	linguistic	_		End=207.727		_	_	_	0-2(112)
+112-0	SP1	112	ma	[ma	linguistic	_		Begin=207.351		_	_	_	0-2(111)
 112-1	SP1	112	se	s]e	linguistic	_				_	_	_	0-1(111)
 112-2	SP1	112	come	come	linguistic	_				_	_	_	_
 112-3	SP1	112	io	io	linguistic	_				_	_	_	_
@@ -692,43 +691,42 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 112-8	SP1	112	{P}	{P}	shortpause	_				_	_	_	_
 112-9	SP1	112	in	in	linguistic	_				_	_	_	_
 112-10	SP1	112	cen-	cen-	linguistic	_	Interrupted=Yes			_	_	_	_
-112-11	SP1	112	città	città	linguistic	_		End=211.344		_	_	_	_
-113-0	SP1	113	una	una	linguistic	_		Begin=211.705		_	_	_	_
-113-1	SP1	113	macchina	macchina	linguistic	_		End=212.777		_	_	_	_
-114-0	SP1	114	già	già	linguistic	_		Begin=213.061		_	_	_	_
-114-1	SP1	114	f-	f-	linguistic	_	Interrupted=Yes	End=213.449		_	_	_	_
-115-0	SP1	115	già	già	linguistic	_		End=214.038		_	_	_	_
-116-0	SP1	116	ferma	fer[ma	linguistic	_		Begin=214.288		_	_	_	3-5(117)
-116-1	SP1	116	per	per]	linguistic	_		End=215.205		_	_	_	0-3(117)
-117-0	SP2	117	mhmh	[mhmh]	linguistic	_		End=215.045		_	_	_	0-4(116)
-118-0	SP2	118	mh	mh	linguistic	_		Begin=215.605		_	_	_	_
-118-1	SP2	118	mh	[mh]	linguistic	_		End=215.971		_	_	_	0-2(119)
-119-0	SP1	119	non	[non	linguistic	_		Begin=215.705		_	_	_	0-3(118)
-119-1	SP1	119	inquinare	in]quinare	linguistic	_				_	_	_	0-2(118)
+112-11	SP1	112	città	città	linguistic	_		End=211.184		_	_	_	_
+113-0	SP1	113	una	una	linguistic	_		Begin=211.545		_	_	_	_
+113-1	SP1	113	macchina	macchina	linguistic	_		End=212.617		_	_	_	_
+114-0	SP1	114	già	già	linguistic	_		Begin=212.901		_	_	_	_
+114-1	SP1	114	f-	f-	linguistic	_	Interrupted=Yes	End=213.289		_	_	_	_
+115-0	SP1	115	già	già	linguistic	_		End=213.878		_	_	_	_
+116-0	SP1	116	ferma	fer[ma	linguistic	_		Begin=214.128		_	_	_	3-5(117)
+116-1	SP1	116	per	per]	linguistic	_		End=215.045		_	_	_	0-3(117)
+117-0	SP2	117	mhmh	[mhmh]	linguistic	_		End=214.961		_	_	_	0-4(116)
+118-0	SP2	118	mhmh	mh[mh]	linguistic	_		End=215.887		_	_	_	2-4(119)
+119-0	SP1	119	non	[non	linguistic	_		Begin=215.545		_	_	_	0-3(?)
+119-1	SP1	119	inquinare	in]quinare	linguistic	_				_	_	_	0-2(?)
 119-2	SP1	119	la	la	linguistic	_				_	_	_	_
-119-3	SP1	119	città	citt[à]	linguistic	_		End=216.999		_	_	_	4-5(120)
-120-0	SP2	120	sì	[sì	linguistic	_		Begin=216.86		_	_	_	0-2(119)
-120-1	SP2	120	sì	sì]	linguistic	_				_	_	_	0-2(119)
+119-3	SP1	119	città	citt[à]	linguistic	_		End=216.839		_	_	_	4-5(?)
+120-0	SP2	120	sì	[sì	linguistic	_		Begin=216.876		_	_	_	0-2(?)
+120-1	SP2	120	sì	sì]	linguistic	_				_	_	_	0-2(?)
 120-2	SP2	120	sì	sì	linguistic	_				_	_	_	_
 120-3	SP2	120	è	è	linguistic	_				_	_	_	_
 120-4	SP2	120	vero	vero	linguistic	_				_	_	_	_
 120-5	SP2	120	capisco	capisco	linguistic	_				_	_	_	_
-120-6	SP2	120	perfettamente	perfettamente	linguistic	_		End=219.199		_	_	_	_
-121-0	SP2	121	mh	m:h	linguistic	_		Begin=219.58	0x1	_	_	_	_
+120-6	SP2	120	perfettamente	perfettamente	linguistic	_		End=219.115		_	_	_	_
+121-0	SP2	121	mh	m:h	linguistic	_		Begin=219.496	0x1	_	_	_	_
 121-1	SP2	121	e	e	linguistic	_				_	_	_	_
 121-2	SP2	121	sono	sono	linguistic	_				_	_	_	_
 121-3	SP2	121	curiosa	curiosa	linguistic	_				_	_	_	_
 121-4	SP2	121	di	di	linguistic	_				_	_	_	_
 121-5	SP2	121	chiederti	chiederti	linguistic	_				_	_	_	_
-121-6	SP2	121	anche	anche	linguistic	_		End=222.172		_	_	_	_
-122-0	SP2	122	perché	perché	linguistic	_		End=222.794		_	_	_	_
-123-0	SP2	123	quindi	quindi	linguistic	_		Begin=223.055		_	_	_	_
+121-6	SP2	121	anche	anche	linguistic	_		End=222.088		_	_	_	_
+122-0	SP2	122	perché	perché	linguistic	_		End=222.71		_	_	_	_
+123-0	SP2	123	quindi	quindi	linguistic	_		Begin=222.971		_	_	_	_
 123-1	SP2	123	immagino	immagino	linguistic	_				_	_	_	_
 123-2	SP2	123	che	che	linguistic	_				_	_	_	_
 123-3	SP2	123	la	la	linguistic	_				_	_	_	_
 123-4	SP2	123	tua	tua	linguistic	_				_	_	_	_
-123-5	SP2	123	famiglia	famiglia	linguistic	_		End=224.577		_	_	_	_
-124-0	SP2	124	si	si	linguistic	_		Begin=225.027		_	_	_	_
+123-5	SP2	123	famiglia	famiglia	linguistic	_		End=224.493		_	_	_	_
+124-0	SP2	124	si	si	linguistic	_		Begin=224.943		_	_	_	_
 124-1	SP2	124	sia	sia	linguistic	_				_	_	_	_
 124-2	SP2	124	trasferita	trasfer[ita	linguistic	_				_	_	_	7-10(125)
 124-3	SP2	124	qui	qui	linguistic	_				_	_	_	0-3(125)
@@ -744,26 +742,26 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 124-13	SP2	124	con	con	linguistic	_				_	_	_	_
 124-14	SP2	124	i	i	linguistic	_				_	_	_	_
 124-15	SP2	124	tuoi	tuoi	linguistic	_				_	_	_	_
-124-16	SP2	124	genitori	genitori	linguistic	_		End=229.577		_	_	_	_
-125-0	SP1	125	sì	[sì]	linguistic	_		End=226.177		_	_	_	0-2(124)
-126-0	SP1	126	sì	[sì]	linguistic	_		End=227.047		_	_	_	0-2(124)
-127-0	SP2	127	parla-	parla-	linguistic	_	Interrupted=Yes	Begin=229.886		_	_	_	_
+124-16	SP2	124	genitori	genitori	linguistic	_		End=229.493		_	_	_	_
+125-0	SP1	125	sì	[sì]	linguistic	_		End=226.017		_	_	_	0-2(124)
+126-0	SP1	126	sì	[sì]	linguistic	_		End=226.887		_	_	_	0-2(124)
+127-0	SP2	127	parla-	parla-	linguistic	_	Interrupted=Yes	Begin=229.802		_	_	_	_
 127-1	SP2	127	mh	m:h	linguistic	_			0x1	_	_	_	_
 127-2	SP2	127	che	che	linguistic	_				_	_	_	_
 127-3	SP2	127	lingua	lingua	linguistic	_				_	_	_	_
-127-4	SP2	127	parlate	parlate	linguistic	_		End=231.877		_	_	_	_
-128-0	SP1	128	bangla	[bangla]	linguistic	_		Begin=232.227		_	_	_	0-6(129)
+127-4	SP2	127	parlate	parlate?	linguistic	_	Intonation=ascending	End=231.793		_	_	_	_
+128-0	SP1	128	bangla	[bangla]	linguistic	_		Begin=232.147		_	_	_	0-6(?)
 128-1	SP1	128	sì	sì	linguistic	_				_	_	_	_
 128-2	SP1	128	è	è	linguistic	_				_	_	_	_
 128-3	SP1	128	la	la	linguistic	_				_	_	_	_
 128-4	SP1	128	lingua	lingua::	linguistic	_			5x2	_	_	_	_
 128-5	SP1	128	bangla	bangla	linguistic	_				_	_	_	_
 128-6	SP1	128	che	che	linguistic	_				_	_	_	_
-128-7	SP1	128	parlano	parlan[o]	linguistic	_		End=235.453		_	_	_	6-7(130)
-129-0	SP2	129	quale	[quale	linguistic	_		Begin=232.233		_	_	_	0-5(128)
-129-1	SP2	129	li-	li:-]	linguistic	_	Interrupted=Yes	End=232.773	1x1	_	_	_	0-3(128)
-130-0	SP2	130	e	[e][:]	linguistic	_		End=235.787	0x1	_	_	_	0-1(128)
-131-0	SP1	131	però	[p]erò	linguistic	_		Begin=235.685		_	_	_	0-1(130)
+128-7	SP1	128	parlano	parlan[o]	linguistic	_		End=235.193		_	_	_	6-7(?)
+129-0	SP2	129	quale	[quale	linguistic	_		Begin=232.149		_	_	_	0-5(128)
+129-1	SP2	129	li-	li:-]	linguistic	_	Interrupted=Yes	End=232.689	1x1	_	_	_	0-3(128)
+130-0	SP2	130	e	[e][:]	linguistic	_		End=235.703	0x1	_	_	_	0-1(?)
+131-0	SP1	131	però	[p]erò	linguistic	_		Begin=235.525		_	_	_	0-1(130)
 131-1	SP1	131	eh	eh	linguistic	_				_	_	_	_
 131-2	SP1	131	tutti	tutti	linguistic	_				_	_	_	_
 131-3	SP1	131	quanti	quanti	linguistic	_				_	_	_	_
@@ -772,8 +770,8 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 131-6	SP1	131	anche	anche	linguistic	_				_	_	_	_
 131-7	SP1	131	italiano	italiano	linguistic	_				_	_	_	_
 131-8	SP1	131	tranquillamente	°tranquilla[mente°]	linguistic	_	Volume=low			_	_	_	10-15(132)
-131-9	SP1	131	{ride}	{ride}	metalinguistic	_		End=238.64		_	_	_	_
-132-0	SP2	132	okay	[okay]	linguistic	_		Begin=238.167		_	_	_	0-4(131)
+131-9	SP1	131	{ride}	{ride}	metalinguistic	_		End=238.48		_	_	_	_
+132-0	SP2	132	okay	[okay]	linguistic	_		Begin=238.083		_	_	_	0-4(131)
 132-1	SP2	132	e	e	linguistic	_				_	_	_	_
 132-2	SP2	132	lo	lo	linguistic	_				_	_	_	_
 132-3	SP2	132	mi-	mi-	linguistic	_	Interrupted=Yes			_	_	_	_
@@ -788,16 +786,16 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 132-12	SP2	132	fra	fra	linguistic	_				_	_	_	_
 132-13	SP2	132	di	di	linguistic	_				_	_	_	_
 132-14	SP2	132	voi	[voi	linguistic	_				_	_	_	0-3(134)
-132-15	SP2	132	o	o]	linguistic	_		End=242.793		_	_	_	0-1(134)
-133-0	SP1	133	sì	[sì	linguistic	_		Begin=240.196		_	_	_	0-2(132)
-133-1	SP1	133	sì	sì]	linguistic	_		End=240.883		_	_	_	0-2(132)
-134-0	SP1	134	sì	[sì:	linguistic	_		Begin=242.2	1x1	_	_	_	0-2(132)
-134-1	SP1	134	sì	sì]::	linguistic	_		End=243.167	1x2	_	_	_	0-2(132)
-135-0	SP2	135	tu	tu	linguistic	_		Begin=243.32		_	_	_	_
+132-15	SP2	132	o	o]	linguistic	_		End=242.709		_	_	_	0-1(134)
+133-0	SP1	133	sì	[sì	linguistic	_		Begin=240.036		_	_	_	0-2(132)
+133-1	SP1	133	sì	sì]	linguistic	_		End=240.723		_	_	_	0-2(132)
+134-0	SP1	134	sì	[sì:	linguistic	_		Begin=242.04	1x1	_	_	_	0-2(132)
+134-1	SP1	134	sì	sì]::	linguistic	_		End=243.007	1x2	_	_	_	0-2(132)
+135-0	SP2	135	tu	tu	linguistic	_		Begin=243.236		_	_	_	_
 135-1	SP2	135	hai	hai	linguistic	_				_	_	_	_
 135-2	SP2	135	fratelli	fratelli	linguistic	_				_	_	_	_
-135-3	SP2	135	anche	anch[e:]	linguistic	_		End=244.92	4x1	_	_	_	4-5(136)
-136-0	SP1	136	sì	[sì]	linguistic	_		Begin=244.633		_	_	_	0-2(135)
+135-3	SP2	135	anche	anch[e:]	linguistic	_		End=244.836	4x1	_	_	_	4-5(136)
+136-0	SP1	136	sì	[sì]	linguistic	_		Begin=244.473		_	_	_	0-2(135)
 136-1	SP1	136	{P}	{P}	shortpause	_				_	_	_	_
 136-2	SP1	136	ho	ho	linguistic	_				_	_	_	_
 136-3	SP1	136	una	una	linguistic	_				_	_	_	_
@@ -805,20 +803,142 @@ token_id	speaker	tu_id	token	span	type	metalinguistic_category	jefferson_feats	a
 136-5	SP1	136	che	che	linguistic	_				_	_	_	_
 136-6	SP1	136	studia	studia	linguistic	_				_	_	_	_
 136-7	SP1	136	in	in	linguistic	_				_	_	_	_
-136-8	SP1	136	università	università	linguistic	_		End=247.367		_	_	_	_
-137-0	SP2	137	ch-	ch-	linguistic	_	Interrupted=Yes	Begin=247.393		_	_	_	_
+136-8	SP1	136	università	università	linguistic	_		End=247.207		_	_	_	_
+137-0	SP2	137	ch-	ch-	linguistic	_	Interrupted=Yes	Begin=247.309		_	_	_	_
 137-1	SP2	137	ah	ah	linguistic	_				_	_	_	_
 137-2	SP2	137	che	che	linguistic	_				_	_	_	_
 137-3	SP2	137	cosa	cosa	linguistic	_				_	_	_	_
-137-4	SP2	137	studia	studia?	linguistic	_	Intonation=ascending	End=248.48		_	_	_	_
-138-0	SP1	138	chimica	chimica	linguistic	_		End=249.42		_	_	_	_
-139-0	SP2	139	chimica	chimica	linguistic	_		Begin=249.42		_	_	_	_
-139-1	SP2	139	okay	okay	linguistic	_				_	_	_	_
+137-4	SP2	137	studia	studia?	linguistic	_	Intonation=ascending	End=248.396		_	_	_	_
+138-0	SP1	138	chimica	chimica	linguistic	_		End=249.26		_	_	_	_
+139-0	SP2	139	chimica	chimic[a	linguistic	_		Begin=249.336		_	_	_	6-7(140)
+139-1	SP2	139	okay	okay]	linguistic	_				_	_	_	0-4(140)
 139-2	SP2	139	e	e	linguistic	_				_	_	_	_
 139-3	SP2	139	è	è	linguistic	_				_	_	_	_
 139-4	SP2	139	più	più	linguistic	_				_	_	_	_
 139-5	SP2	139	grande	grande	linguistic	_				_	_	_	_
 139-6	SP2	139	più	più	linguistic	_				_	_	_	_
-139-7	SP2	139	piccola	piccola	linguistic	_				_	_	_	_
-139-8	SP2	139	di	di	linguistic	_				_	_	_	_
-139-9	SP2	139	te	te	linguistic	_		End=253.48		_	_	_	_
+139-7	SP2	139	piccola	picco[la	linguistic	_				_	_	_	5-7(141)
+139-8	SP2	139	di	di	linguistic	_				_	_	_	0-2(141)
+139-9	SP2	139	te	te]	linguistic	_		End=253.396		_	_	_	0-2(141)
+140-0	SP1	140	industriale	[industriale]	linguistic	_		End=250.293		_	_	_	0-11(139)
+141-0	SP1	141	no	[no	linguistic	_		Begin=252.86		_	_	_	0-2(139)
+141-1	SP1	141	più	più	linguistic	_				_	_	_	0-3(139)
+141-2	SP1	141	c-	c-]	linguistic	_	Interrupted=Yes			_	_	_	0-2(139)
+141-3	SP1	141	sì	sì	linguistic	_				_	_	_	_
+141-4	SP1	141	più	più:	linguistic	_			2x1	_	_	_	_
+141-5	SP1	141	piccola	piccola	linguistic	_				_	_	_	_
+141-6	SP1	141	x	[x]	unknown	_		End=254.82		_	_	_	0-1(142)
+142-0	SP2	142	più	[più	linguistic	_		Begin=254.572		_	_	_	0-3(141)
+142-1	SP2	142	piccola	pi]ccola	linguistic	_				_	_	_	0-2(141)
+142-2	SP2	142	okay	okay	linguistic	_		End=255.539		_	_	_	_
+143-0	SP2	143	sono	sono	linguistic	_		Begin=255.983		_	_	_	_
+143-1	SP2	143	curiosa	curiosa	linguistic	_				_	_	_	_
+143-2	SP2	143	di	di	linguistic	_				_	_	_	_
+143-3	SP2	143	sapere	sapere	linguistic	_				_	_	_	_
+143-4	SP2	143	se	se	linguistic	_				_	_	_	_
+143-5	SP2	143	tu	tu	linguistic	_				_	_	_	_
+143-6	SP2	143	con	con	linguistic	_				_	_	_	_
+143-7	SP2	143	la	la	linguistic	_				_	_	_	_
+143-8	SP2	143	tua	tua	linguistic	_				_	_	_	_
+143-9	SP2	143	sorella	sorella	linguistic	_				_	_	_	_
+143-10	SP2	143	parli	parli	linguistic	_				_	_	_	_
+143-11	SP2	143	prevalentemente	[prevalentemente]	linguistic	_		End=259.849		_	_	_	0-15(144)
+144-0	SP1	144	tutti	[tutti	linguistic	_		Begin=259.073		_	_	_	0-5(143)
+144-1	SP1	144	due	due	linguistic	_				_	_	_	0-3(143)
+144-2	SP1	144	lingue	lingue]	linguistic	_				_	_	_	0-6(143)
+144-3	SP1	144	noi	n[oi	linguistic	_				_	_	_	1-3(145)
+144-4	SP1	144	parliamo	parliamo	linguistic	_				_	_	_	0-8(145)
+144-5	SP1	144	di	di	linguistic	_				_	_	_	0-2(145)
+144-6	SP1	144	tutti	tutti	linguistic	_				_	_	_	0-5(145)
+144-7	SP1	144	e	e	linguistic	_				_	_	_	0-1(145)
+144-8	SP1	144	due	due	linguistic	_				_	_	_	0-3(145)
+144-9	SP1	144	lingue	lingue]	linguistic	_		End=261.467		_	_	_	0-6(145)
+145-0	SP2	145	tutti	[tutti	linguistic	_		Begin=259.895		_	_	_	0-5(144)
+145-1	SP2	145	e	e	linguistic	_				_	_	_	0-1(144)
+145-2	SP2	145	du-	du-	linguistic	_	Interrupted=Yes			_	_	_	0-3(144)
+145-3	SP2	145	okay	okay	linguistic	_				_	_	_	0-4(144)
+145-4	SP2	145	okay	okay]	linguistic	_		End=261.467		_	_	_	0-4(144)
+146-0	SP1	146	sì	sì	linguistic	_		Begin=261.54		_	_	_	_
+146-1	SP1	146	dipende	dipende	linguistic	_				_	_	_	_
+146-2	SP1	146	qual	qual	linguistic	_				_	_	_	_
+146-3	SP1	146	è	è	linguistic	_				_	_	_	_
+146-4	SP1	146	argomento	argomento	linguistic	_				_	_	_	_
+146-5	SP1	146	che	che	linguistic	_				_	_	_	_
+146-6	SP1	146	parliamo	parliamo	linguistic	_				_	_	_	_
+146-7	SP1	146	però	però	linguistic	_				_	_	_	_
+146-8	SP1	146	parliamo	parliamo	linguistic	_				_	_	_	_
+146-9	SP1	146	tutti	tutti	linguistic	_				_	_	_	_
+146-10	SP1	146	due	due	linguistic	_				_	_	_	_
+146-11	SP1	146	lingue	lingue	linguistic	_		End=264.92		_	_	_	_
+147-0	SP2	147	ah	ah	linguistic	_		Begin=265.176		_	_	_	_
+147-1	SP2	147	tipo	tipo	linguistic	_				_	_	_	_
+147-2	SP2	147	ci	ci	linguistic	_				_	_	_	_
+147-3	SP2	147	sono	sono	linguistic	_				_	_	_	_
+147-4	SP2	147	alcuni	alcuni	linguistic	_				_	_	_	_
+147-5	SP2	147	argomenti	argomenti	linguistic	_				_	_	_	_
+147-6	SP2	147	che	che	linguistic	_				_	_	_	_
+147-7	SP2	147	sono	sono	linguistic	_				_	_	_	_
+147-8	SP2	147	più	più	linguistic	_				_	_	_	_
+147-9	SP2	147	legati	legati	linguistic	_				_	_	_	_
+147-10	SP2	147	a	a	linguistic	_				_	_	_	_
+147-11	SP2	147	una	una	linguistic	_				_	_	_	_
+147-12	SP2	147	lingua	[lingua]	linguistic	_				_	_	_	0-6(148)
+147-13	SP2	147	{P}	{P}	shortpause	_				_	_	_	_
+147-14	SP2	147	per	per	linguistic	_				_	_	_	_
+147-15	SP2	147	esempio	esempio?	linguistic	_	Intonation=ascending	End=269.816		_	_	_	_
+148-0	SP1	148	sì	[sì,	linguistic	_	Intonation=weakly_ascending	Begin=268.367		_	_	_	0-2(147)
+148-1	SP1	148	sì	sì]	linguistic	_		End=269.134		_	_	_	0-2(147)
+149-0	SP1	149	no	no	linguistic	_		Begin=269.913		_	_	_	_
+149-1	SP1	149	esempio	esempio	linguistic	_				_	_	_	_
+149-2	SP1	149	è	è	linguistic	_				_	_	_	_
+149-3	SP1	149	quando	quando	linguistic	_				_	_	_	_
+149-4	SP1	149	noi	noi	linguistic	_				_	_	_	_
+149-5	SP1	149	parliamo	parliamo	linguistic	_				_	_	_	_
+149-6	SP1	149	qualche	qualche	linguistic	_				_	_	_	_
+149-7	SP1	149	argomenti	argomenti	linguistic	_				_	_	_	_
+149-8	SP1	149	di	di	linguistic	_				_	_	_	_
+149-9	SP1	149	proprio	proprio	linguistic	_				_	_	_	_
+149-10	SP1	149	cioè	cioè	linguistic	_				_	_	_	_
+149-11	SP1	149	proprio	proprio	linguistic	_				_	_	_	_
+149-12	SP1	149	ital-	ital-	linguistic	_	Interrupted=Yes			_	_	_	_
+149-13	SP1	149	c'	c	linguistic	_	SpaceAfter=No			_	_	_	_
+149-14	SP1	149	è	è	linguistic	_				_	_	_	_
+149-15	SP1	149	un	un	linguistic	_				_	_	_	_
+149-16	SP1	149	posto	posto	linguistic	_				_	_	_	_
+149-17	SP1	149	qui	qui	linguistic	_				_	_	_	_
+149-18	SP1	149	allora	allora	linguistic	_				_	_	_	_
+149-19	SP1	149	parliamo	parliamo	linguistic	_				_	_	_	_
+149-20	SP1	149	come	come:	linguistic	_		End=278.92	3x1	_	_	_	_
+150-0	SP1	150	come	come	linguistic	_		Begin=279.173		_	_	_	_
+150-1	SP1	150	italiano	italiano	linguistic	_				_	_	_	_
+150-2	SP1	150	cioè	cioè	linguistic	_				_	_	_	_
+150-3	SP1	150	proprio	proprio	linguistic	_				_	_	_	_
+150-4	SP1	150	le	le	linguistic	_				_	_	_	_
+150-5	SP1	150	cose	cose	linguistic	_		End=281.22		_	_	_	_
+151-0	SP1	151	però	però	linguistic	_		Begin=281.267		_	_	_	_
+151-1	SP1	151	eh	eh	linguistic	_				_	_	_	_
+151-2	SP1	151	quando	quando	linguistic	_				_	_	_	_
+151-3	SP1	151	noi	noi	linguistic	_				_	_	_	_
+151-4	SP1	151	parliamo	parliamo	linguistic	_				_	_	_	_
+151-5	SP1	151	la	la	linguistic	_				_	_	_	_
+151-6	SP1	151	roba	roba	linguistic	_				_	_	_	_
+151-7	SP1	151	di	di	linguistic	_				_	_	_	_
+151-8	SP1	151	per	per	linguistic	_				_	_	_	_
+151-9	SP1	151	la	la	linguistic	_				_	_	_	_
+151-10	SP1	151	famiglia	famiglia	linguistic	_				_	_	_	_
+151-11	SP1	151	{P}	{P}	shortpause	_				_	_	_	_
+151-12	SP1	151	allora	allora	linguistic	_				_	_	_	_
+151-13	SP1	151	vabbè	vabbè	linguistic	_				_	_	_	_
+151-14	SP1	151	utilizziamo	utilizziamo	linguistic	_				_	_	_	_
+151-15	SP1	151	il	[il	linguistic	_				_	_	_	0-2(152)
+151-16	SP1	151	lingua	lingua]	linguistic	_				_	_	_	0-6(152)
+151-17	SP1	151	bangla	bangla	linguistic	_				_	_	_	_
+151-18	SP1	151	per	[per	linguistic	_				_	_	_	0-3(153)
+151-19	SP1	151	per	per]	linguistic	_				_	_	_	0-3(153)
+151-20	SP1	151	la	la	linguistic	_				_	_	_	_
+151-21	SP1	151	famiglia	fa[miglia	linguistic	_				_	_	_	2-8(154)
+151-22	SP1	151	assolutamente	assolutamente]	linguistic	_		End=289.63		_	_	_	0-13(154)
+152-0	SP2	152	mhmh	[mhmh]	linguistic	_		End=287.036		_	_	_	0-4(151)
+153-0	SP2	153	mhmh	[mhmh]	linguistic	_		End=288.556		_	_	_	0-4(151)
+154-0	SP2	154	mhmhmh	[mhmhmh	linguistic	_		Begin=288.756		_	_	_	0-6(151)
+154-1	SP2	154	mhmhmh	mhmh]mh	linguistic	_		End=289.896		_	_	_	0-4(151)

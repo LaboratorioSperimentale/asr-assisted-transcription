@@ -1,0 +1,92 @@
+tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents	W:non_jefferson	W:pauses_trim	W:prosodic_trim	W:moved_boundaries	W:switches	E:volume	E:pace	E:guess	E:overlap	E:overlap_mismatch	E:overlap_duration	T:shortpauses	T:metalinguistic	T:errors	T:linguistic	annotation	correct	text
+0	SP1	0.7	1.348	0.648	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	bene	bene	bene
+1	SP1	1.77	2.353	0.583	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	allora	allora	allora
+2	SP1	2.77	3.528	0.758	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	intanto,	intanto,	intanto
+3	SP1	4.3	5.693	1.393	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	4	ero curiosa di sapere	ero curiosa di sapere	ero curiosa di sapere
+4	SP1	5.82	7.72	1.9	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	8	da quanto tempo c'è questo negozio perché	da quanto tempo c'è questo negozio perché	da quanto tempo c' è questo negozio perché
+5	SP1	7.8	8.689	0.889	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	4	io sono di qui	io sono di qui	io sono di qui
+6	SP1	9.23	11.614	2.384	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	12	e frequento un po' questa zona ma non l'avevo mai visto	e frequento un po' questa zona ma non l'avevo mai visto	e frequento un po' questa zona ma non l' avevo mai visto
+7	SP2	11.82	12.96	1.14	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	4	no non [è così]	no non [è così]	no non è così
+8	SP1	12.53	13.25	0.72	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	[strana]mente	[strana]mente	stranamente
+9	SP2	13.3	15.92	2.62	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	7	questo negozio è già da ventidue anni	questo negozio è già da ventidue anni	questo negozio è già da ventidue anni
+10	SP1	16.22	17.92	1.7	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	5	okay [quindi non è nuovo]	okay [quindi non è nuovo]	okay quindi non è nuovo
+11	SP2	16.87	21.82	4.95	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	18	[sono qui da sei an]ni no no no questo qua non è nuovo di prima era una @nomenegozio	[sono qui da sei an]ni no no no questo qua non è nuovo di prima era una nomenegozio	sono qui da sei anni no no no questo qua non è nuovo di prima era una nomenegozio
+12	SP2	22.65	28.14	5.49	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	13	poi hanno:: <chiuso> allora:: già comprato un'altra persona e è fatta copisteria	poi hanno:: <chiuso> allora:: già comprato un'altra persona e è fatta copisteria	poi hanno chiuso allora già comprato un' altra persona e è fatta copisteria
+13	SP1	28.3	28.6	0.3	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	okay	okay	okay
+14	SP2	29.167	33.36	4.193	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	10	poi io sono da terza mano che::: i:- andando avanti	poi io sono da terza mano che::: i:- andando avanti	poi io sono da terza mano che i- andando avanti
+15	SP1	33.68	34.48	0.8	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	mhmh okay	mhmh okay	mhmh okay
+16	SP1	34.86	43.05	8.19	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	24	m:h noi siamo venuti qui a chiedere a te la disponibilità perché il- l- la verità è che siamo andati alla copisteria di @nomeluogo	m:h noi siamo venuti qui a chiedere a te la disponibilità perché il- l- la verità è che siamo andati alla copisteria di nomeluogo	mh noi siamo venuti qui a chiedere a te la disponibilità perché il- l- la verità è che siamo andati alla copisteria di nomeluogo
+17	SP2	43.19	43.55	0.36	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	sì	sì	sì
+18	SP1	43.64	44.04	0.5	True	0	0	0	0	0	0	1	0	False	False	False	False	False	_	0	0	0, 	2	a chiedere	a chiedere	a chiedere
+19	SP2	44.2	44.47	0.27	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	mh[mh]	mh[mh]	mhmh
+20	SP1	44.34	47.09	2.75	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	12	[e] i ragazzi ci hanno detto che dovevamo assolutamente venire da te	[e] i ragazzi ci hanno detto che dovevamo assolutamente venire da te	e i ragazzi ci hanno detto che dovevamo assolutamente venire da te
+21	SP2	47.36	54.787	7.427	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	23	beh e:h sì perché loro non è: non è m:h abbas- cioè loro non:: m:h loro sono bravi ma non sono: bravi per	beh e:h sì perché loro non è: non è m:h abbas- cioè loro non:: m:h loro sono bravi ma non sono: bravi per	beh eh sì perché loro non è non è mh abbas- cioè loro non mh loro sono bravi ma non sono bravi per
+22	SP2	54.986	60.459	5.473	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	18	rispondere a un sacco di [doma]nde che: anche non sono bravi in italiano pro- in poche [parole sì]	rispondere a un sacco di [doma]nde che: anche non sono bravi in italiano pro- in poche [parole sì]	rispondere a un sacco di domande che anche non sono bravi in italiano pro- in poche parole sì
+23	SP1	56.11	56.52	0.41	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	[mh]	[mh]	mh
+24	SP1	59.31	64.513	5.203	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	16	[okay quindi forse] forse il problema era quello [non] non abbiamo capito se erano preoccupati perché	[okay quindi forse] forse il problema era quello [non] non abbiamo capito se erano preoccupati perché	okay quindi forse forse il problema era quello non non abbiamo capito se erano preoccupati perché
+25	SP2	61.57	61.92	0.35	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	[sì]	[sì]	sì
+26	SP2	64.64	71.64	7.0	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	21	no non so- non è preoccupati però e::h lo sai che quando qualcuno che m:h non capisce cosa è la do[manda]	no non so- non è preoccupati però e::h lo sai che quando qualcuno che m:h non capisce cosa è la do[manda]	no non so- non è preoccupati però eh lo sai che quando qualcuno che mh non capisce cosa è la domanda
+27	SP1	71.13	71.62	0.49	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	[mhmh]	[mhmh]	mhmh
+28	SP2	71.84	78.41	6.57	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	20	e quale che è la ri- risposta che sta facendo in un'altra lingua che lui [non è a]bbastanza BRAVA	e quale che è la ri- risposta che sta facendo in un'altra lingua che lui [non è a]bbastanza BRAVA	e quale che è la ri- risposta che sta facendo in un' altra lingua che lui non è abbastanza brava
+29	SP1	76.845	77.205	0.36	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	[°mhmh°]	[°mhmh°]	mhmh
+30	SP2	78.52	81.5	2.98	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0, 	10	allora è una [problema per-] (.) [per (cioè)] una persona no	allora è una [problema per-] {P} [per (cioè)] una persona no	allora è una problema per- {P} per cioè una persona no
+31	SP1	79.27	79.73	0.46	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	[mhmh]	[mhmh]	mhmh
+32	SP1	80.28	80.7	0.42	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	[mhmh]	[mhmh]	mhmh
+33	SP1	81.6	82.73	1.13	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	[mhmh sì forse]	[mhmh sì forse]	mhmh sì forse
+34	SP2	81.61	84.833	3.223	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	4	[°cioè° ecco per]ciò che:: [x]	[°cioè° ecco per]ciò che:: [x]	cioè ecco perciò che x
+35	SP1	84.43	85.64	1.21	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	5	[for]se è stato per que[llo]	[for]se è stato per que[llo]	forse è stato per quello
+36	SP2	85.407	85.64	0.233	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	[sì]	[sì]	sì
+37	SP1	85.97	88.15	2.18	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	6	e: stamattina noi siamo andate in	e: stamattina noi siamo andate in	e stamattina noi siamo andate in
+38	SP2	89.473	89.84	0.367	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	zo[na]	zo[na]	zona
+39	SP1	89.633	93.2	3.567	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0, 	10	[prati]camente tutti i negozi di via san vitale (.) [a chiedere]	[prati]camente tutti i negozi di via san vitale {P} [a chiedere]	praticamente tutti i negozi di via san vitale {P} a chiedere
+40	SP2	92.42	99.72	7.3	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0, 	24	[sì nessuno] che non ti ha detto che c'è sì perché hanno paura per: perché (.) non lo non si sa cosa succederà [°dopo°]	[sì nessuno] che non ti ha detto che c'è sì perché hanno paura per: perché {P} non lo non si sa cosa succederà [°dopo°]	sì nessuno che non ti ha detto che c' è sì perché hanno paura per perché {P} non lo non si sa cosa succederà dopo
+41	SP1	99.23	99.72	0.49	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	[mhmh mh]	[mhmh mh]	mhmh mh
+42	SP1	99.96	103.18	3.22	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	9	infatti sì quindi vabbè ma noi [abbiamo provato ovviamente]	infatti sì quindi vabbè ma noi [abbiamo provato ovviamente]	infatti sì quindi vabbè ma noi abbiamo provato ovviamente
+43	SP2	101.65	103.17	1.52	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0, 	2	[sì (.) assolutamente]	[sì {P} assolutamente]	sì {P} assolutamente
+44	SP1	103.43	109.673	6.243	True	0	0	0	0	0	0	0	1	False	False	False	False	False	_	1	0	0, 	13	[e:hm ma invece] (.) tu vivi in italia da sempre? da alcuni anni: [m:h?]	[e:hm ma invece] {P} tu vivi in italia da sempre? da alcuni anni: [m:h]?	ehm ma invece {P} tu vivi in italia da sempre da alcuni anni mh
+45	SP2	103.44	104.3	0.86	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	[assolutamente]	[assolutamente]	assolutamente
+46	SP2	109.42	110.933	1.513	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	6	[no] non è che da sempre	[no] non è che da sempre	no non è che da sempre
+47	SP2	111.32	113.487	2.167	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	7	sì da circa quindici anni già passato	sì da circa quindici anni già passato	sì da circa quindici anni già passato
+48	SP1	113.555	114.342	0.787	True	0	0	0	0	0	0	0	0	False	False	False	False	True	49=0.189	0	0	0, 	2	okay okay	okay okay	okay okay
+49	SP2	114.153	114.84	0.687	True	0	0	0	0	0	0	0	0	False	False	False	False	True	48=0.189	0	1	0, 	3	((ride)) che sono qui	{ride} che sono qui	{ride} che sono qui
+50	SP1	114.96	115.822	0.862	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	beh comunque	beh comunque	beh comunque
+51	SP1	116.031	118.259	2.228	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	5	[eh] parli beni- parli be[nissimo]	[eh] parli beni- parli be[nissimo]	eh parli beni- parli benissimo
+52	SP2	116.035	116.329	0.294	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	[sì]	[sì]	sì
+53	SP2	117.64	119.18	1.54	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	4	[BEH] quindici anni eh	[BEH] quindici anni eh	beh quindici anni eh
+54	SP2	119.34	123.5	4.16	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	13	non sono: sì è già passata proprio un se- più di un secolo	non sono: sì è già passata proprio un se- più di un secolo	non sono sì è già passata proprio un se- più di un secolo
+55	SP1	123.5	126.23	2.73	True	0	0	0	0	0	0	0	1	False	False	False	False	False	_	1	0	0, 	7	mh ma (.) hai studiato da solo [o:?]	mh ma {P} hai studiato da solo [o:]?	mh ma {P} hai studiato da solo o
+56	SP2	126.1	129.76	3.66	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	15	[no] cioè no non è che studiato da solo che ho fatto anche superiore qui	[no] cioè no non è che studiato da solo che ho fatto anche superiore qui	no cioè no non è che studiato da solo che ho fatto anche superiore qui
+57	SP1	130.62	133.273	2.653	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	6	a:h okay quindi sei- sei giovani[ssimo]	a:h okay quindi sei- sei giovani[ssimo]	ah okay quindi sei- sei giovanissimo
+58	SP2	132.833	133.3	0.467	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	[s:ì]	[s:ì]	sì
+59	SP2	133.752	133.992	0.24	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0, 	1	s[ì] ((ride))	s[ì] {ride}	sì {ride}
+60	SP1	133.84	135.533	1.693	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	4	[sei] giovanissimo perché io	[sei] giovanissimo perché io	sei giovanissimo perché io
+61	SP1	136.52	138.867	2.347	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	8	non non voglio chiedere [l'età per]ché no[n:]	non non voglio chiedere [l'età per]ché no[n:]	non non voglio chiedere l' età perché non
+62	SP2	137.7	138.52	0.82	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	[giusto]	[giusto]	giusto
+63	SP2	138.74	140.333	1.593	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	6	[no] no assolutamente [puoi chiedere anche]	[no] no assolutamente [puoi chiedere anche]	no no assolutamente puoi chiedere anche
+64	SP1	139.35	141.52	2.17	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	7	[però sei andato] a scuola qui quindi	[però sei andato] a scuola qui quindi	però sei andato a scuola qui quindi
+65	SP2	141.9	142.12	0.22	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	sì	sì	sì
+66	SP1	142.2	143.02	0.82	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	4	che scuola hai fatto	che scuola hai fatto	che scuola hai fatto
+67	SP1	143.16	145.73	2.57	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	14	perché anch'io sono andata a scuola qui un po' di anni fa ma	perché anch'io sono andata a scuola qui un po' di anni fa ma	perché anch' io sono andata a scuola qui un po' di anni fa ma
+68	SP2	145.73	150.54	4.81	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0, 	7	esattamente primo e:h andato il: m::h (.) @nomescuola	esattamente primo e:h andato il: m::h {P} nomescuola	esattamente primo eh andato il mh {P} nomescuola
+69	SP1	150.56	150.98	0.42	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	okay	okay	okay
+70	SP2	151.34	159.4	8.06	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0, 	17	che per la lingua che non riuscito: a passare e poi: e:h ci hanno trasferito (.) in @nomescuola	che per la lingua che non riuscito: a passare e poi: e:h ci hanno trasferito {P} in nomescuola	che per la lingua che non riuscito a passare e poi eh ci hanno trasferito {P} in nomescuola
+71	SP1	159.54	160.007	0.467	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	oka[y]	oka[y]	okay
+72	SP2	159.873	161.418	1.545	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	[a]desso è @nomescuol[a]	[a]desso è nomescuol[a]	adesso è nomescuola
+73	SP1	161.167	161.627	0.46	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	[mhmh] [e]	[mhmh] [e]	mhmh e
+74	SP2	161.487	164.213	2.726	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	9	[però] quando ero fatto era era solo il @nomescuo[la]	[però] quando ero fatto era era solo il nomescuo[la]	però quando ero fatto era era solo il nomescuola
+75	SP1	164.03	166.28	2.25	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	10	[mh]mh okay e che indirizzo ha che non lo so	[mh]mh okay e che indirizzo ha che non lo so	mhmh okay e che indirizzo ha che non lo so
+76	SP2	166.64	171.47	4.83	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	9	no era: boh cioè adesso mi sembrava di: @nomeluogo	no era: boh cioè adesso mi sembrava di: nomeluogo	no era boh cioè adesso mi sembrava di nomeluogo
+77	SP1	172.09	174.66	2.57	True	1	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	7	okay okay okay [okay okay]  ho capito	okay okay okay [okay okay] ho capito	okay okay okay okay okay ho capito
+78	SP2	172.76	173.74	0.98	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	[il @nomescuola]	[il nomescuola]	il nomescuola
+79	SP1	174.82	177.322	2.502	True	0	0	0	0	0	0	0	1	False	False	False	False	False	_	0	0	0, 	9	s- [e che] che cosa si studia al [@nomescuola?]	s- [e che] che cosa si studia al [nomescuola]?	s- e che che cosa si studia al nomescuola
+80	SP2	175.11	175.47	0.36	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	[sì]	[sì]	sì
+81	SP2	176.775	177.332	0.557	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	[tecnico]	[tecnico]	tecnico
+82	SP1	177.52	178.04	0.52	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	tecni[co]?	tecni[co]?	tecnico
+83	SP2	177.88	178.28	0.4	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	[te]cnico	[te]cnico	tecnico
+84	SP1	178.36	182.26	3.9	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0, 	6	e [<di>] e- elettrico elettroni[ca? (.) informatica]?	e [<di>] e- elettrico elettroni[ca? {P} informatica]?	e di e- elettrico elettronica {P} informatica
+85	SP2	178.85	179.39	0.54	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	[professionale]	[professionale]	professionale
+86	SP2	180.63	189.06	8.43	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	18	[no e:h là erava- no] eh sì perché ci sono di informatica e:h meccanica e:: idraulica [con auto]me[ccanica]	[no e:h là erava- no] eh sì perché ci sono di informatica e:h meccanica e:: idraulica [con auto]me[ccanica]	no eh là erava- no eh sì perché ci sono di informatica eh meccanica e idraulica con automeccanica
+87	SP1	188.253	188.646	0.393	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	[mhmh]	[mhmh]	mhmh
+88	SP1	188.887	189.793	0.906	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	[mh]mh ok[ay]	[mh]mh ok[ay]	mhmh okay
+89	SP2	189.61	192.38	2.77	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	7	[è] fatta ele- cioè automeccanico con idrauli[ca]	[è] fatta ele- cioè automeccanico con idrauli[ca]	è fatta ele- cioè automeccanico con idraulica
+90	SP1	192.233	195.56	3.327	True	0	0	0	0	0	0	0	0	False	False	False	False	True	89=0.147	1	0	0, 	12	[mh]mhmh (.) e quando hai finito di studiare sei venuto a lavorare: [subito]	[mh]mhmh {P} e quando hai finito di studiare sei venuto a lavorare: [subito]	mhmhmh {P} e quando hai finito di studiare sei venuto a lavorare subito
