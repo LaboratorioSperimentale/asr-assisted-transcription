@@ -1,6 +1,7 @@
 # asr-assisted-transcription
 
 per ogni audio abbiamo:
+
 	*FS-01	*FS-02
 
 	*WA-01	*WA-02
@@ -9,7 +10,8 @@ per ogni audio abbiamo:
 
 (nel caso dello Straparla abbiamo due Gold. Gold-FS, Gold-WA)
 
-Research Questions:
+## Research Questions:
+
 1. numero di token trascritti
 	1. proviamo a isolare solo i token linguistici (togliamo shortpauses e token metalinguistici)
 2. il numero di minuti trascritti
@@ -56,7 +58,8 @@ Research Questions:
    1. Creazione grafo di corrispondenza delle unità attribuite ad ogni parlante per i vari annotatori.
 
 
-Extra:
+## TO-DO Extra:
+
 * Aggiungere gold dello straparla ex machina
 * Usare gold paralleli per confronto
 * Revisione gold qualitativa?
