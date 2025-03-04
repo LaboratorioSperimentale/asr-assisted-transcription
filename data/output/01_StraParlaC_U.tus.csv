@@ -1,151 +1,151 @@
 tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents	W:non_jefferson	W:pauses_trim	W:prosodic_trim	W:moved_boundaries	W:switches	E:volume	E:pace	E:guess	E:overlap	E:overlap_mismatch	E:overlap_duration	T:shortpauses	T:metalinguistic	T:errors	T:linguistic	annotation	correct	text
-1	SP1	0.36	1.67	1.31	True	0	0	0	0	0	0	0	1	False	False	False	False	False	_	0	0	0, 	4	ci sono delle università?:	ci sono delle università:?	ci sono delle università
-2	SP2	2.68	3.13	0.45	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	sì no	sì no	sì no
-3	SP1	3.2	4.37	1.27	True	0	0	0	0	0	0	1	1	False	False	False	False	False	_	0	0	0, 	4	[o più nella capitale?]	[o più nella capitale]?	o più nella capitale
-4	SP2	3.15	4.98	1.83	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	8	[l'università è un po'] più in città	[l'università è un po'] più in città	l' università è un po' più in città
-5	SP1	5.0	5.42	0.42	True	0	0	0	0	0	0	0	0	False	False	False	False	True	6=0.380	0	0	0, 	1	okay	okay	okay
-6	SP2	5.04	6.02	0.98	True	0	0	0	0	0	0	0	0	False	False	False	False	True	5=0.380,7=0.460	0	0	0, 	0	xxxx	xxxx	xxxx
-7	SP1	5.56	6.68	1.12	True	0	0	0	0	0	0	0	0	False	False	False	False	True	6=0.460	0	0	0, 	3	okay >okay okay<	okay >okay okay<	okay okay okay
-8	SP1	6.8	7.49	0.69	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	e: [s-]	e: [s-]	e s-
-9	SP2	6.95	7.88	0.93	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	[i:n] capitale	[i:n] capitale	in capitale
-10	SP1	7.89	8.77	0.88	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	in capitale okay	in capitale okay	in capitale okay
-11	SP1	8.83	10.08	1.25	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	e se devi:	e se devi:	e se devi
-12	SP1	10.84	11.78	0.94	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	0	xx	xx	xx
-13	SP2	13.67	15.61	1.94	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	4	°(vabbè adesso faccio finire)°	°(vabbè adesso faccio finire)°	vabbè adesso faccio finire
-14	SP1	16.03	16.49	0.46	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	sì	sì	sì
-15	SP2	17.43	19.38	1.95	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	0	xxxxxx	xxxxxx	xxxxxx
-16	SP1	19.64	21.3	1.66	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	5	°sta andando abbastanza bene no?°	°sta andando abbastanza bene no?°	sta andando abbastanza bene no
-17	SP3	21.32	21.72	0.4	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	°sì°	°sì°	sì
-18	SP1	21.94	23.7	1.76	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	4	°proviamo a vedere se:°	°proviamo a vedere se:°	proviamo a vedere se
-19	SP1	25.9	26.45	0.55	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	allora dimmi	allora dimmi	allora dimmi
-20	SP1	26.46	27.481	1.021	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	5	la capitale è molto gran[de]	la capitale è molto gran[de]	la capitale è molto grande
-21	SP2	27.34	28.344	1.004	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	5	[la capit]ale è molto grande	[la capit]ale è molto grande	la capitale è molto grande
-22	SP2	28.362	28.593	0.231	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	e:h	e:h	eh
-23	SP2	28.643	29.769	1.126	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	trecentosei virgola	trecentosei virgola	trecentosei virgola
-24	SP2	29.861	30.499	0.638	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	quattro	quattro	quattro
-25	SP2	30.574	31.425	0.851	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	e:h	e:h	eh
-26	SP2	31.699	33.262	1.563	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	chilometri quadra[ti]	chilometri quadra[ti]	chilometri quadrati
-27	SP1	32.893	33.462	0.569	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	[o]kay e	[o]kay e	okay e
-28	SP1	33.569	34.334	0.765	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	popolazione?	popolazione?	popolazione
-29	SP2	34.774	35.406	0.632	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	e:h	e:h	eh
-30	SP2	35.599	37.216	1.617	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	quattordici: milioni	quattordici: milioni	quattordici milioni
-31	SP1	37.268	37.452	0.184	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	[eh]	[eh]	eh
-32	SP2	37.268	38.944	1.676	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	4	[qu]attordici punto quattro milio[ni]	[qu]attordici punto quattro milio[ni]	quattordici punto quattro milioni
-33	SP1	38.744	39.644	0.9	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	[cioè] bologna è	[cioè] bologna è	cioè bologna è
-34	SP1	39.726	41.495999999999995	1.87	True	0	0	0	0	0	0	1	0	False	False	False	False	False	_	0	0	0, 	2	trecentocinquantamila persone	trecentocinquantamila persone	trecentocinquantamila persone
-35	SP2	41.496	42.844	1.348	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	da trecen[toci]nquantamila	da trecen[toci]nquantamila	da trecentocinquantamila
-36	SP1	41.848	42.152	0.304	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	[eh]	[eh]	eh
-37	SP1	42.318	43.23	0.912	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0, 	0	((ride))	{ride}	{ride}
-38	SP2	42.848	43.44	0.592	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	ma devo essere	ma devo essere	ma devo essere
-39	SP2	43.544	45.0	1.456	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	quanto grande bologna	quanto grande bologna	quanto grande bologna
-40	SP1	45.572	46.944	1.372	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	5	non so di chilometri quadrati	non so di chilometri quadrati	non so di chilometri quadrati
-41	SP1	47.038	47.324	0.286	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	però	però	però
-42	SP1	47.96	49.316	1.356	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0, 	3	decisamente più grande ((ride))	decisamente più grande {ride}	decisamente più grande {ride}
-43	SP1	49.326	49.772	0.446	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	ma infatti	ma infatti	ma infatti
-44	SP1	49.816	49.948	0.132	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	mi	mi	mi
-45	SP1	50.048	50.228	0.18	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	eh	eh	eh
-46	SP1	50.376	51.424	1.048	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	mi sembrava impossibile	mi sembrava impossibile	mi sembrava impossibile
-47	SP1	51.456	52.364	0.908	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	4	ma il ragazzo ieri	ma il ragazzo ieri	ma il ragazzo ieri
-48	SP1	52.368	53.072	0.704	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	in[sisteva]	in[sisteva]	insisteva
-49	SP2	52.384	53.336	0.952	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	[guarda che bolo][gna]	[guarda che bolo][gna]	guarda che bologna
-50	SP1	53.236	53.652	0.416	True	0	0	0	0	0	0	0	0	False	False	False	False	True	49=0.100,51=0.304	0	0	0, 	1	[(infatti)]	[(infatti)]	infatti
-51	SP2	53.348	54.248	0.9	True	0	0	0	0	0	0	0	0	False	False	False	False	True	50=0.304	0	0	0, 	2	è centoqua-	è centoqua-	è centoqua-
-52	SP2	54.284	55.12	0.836	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	centoquaran[ta]	centoquaran[ta]	centoquaranta
-53	SP1	54.844	54.996	0.152	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	[eh]	[eh]	eh
-54	SP1	55.5	55.812	0.312	True	0	0	0	0	0	0	0	0	False	False	False	False	True	55=0.264	0	0	0, 	1	sì	sì	sì
-55	SP2	55.548	57.04	1.492	True	0	0	0	0	0	0	0	0	False	False	False	False	True	54=0.264	0	0	0, 	3	centoquaranta virgola nove	centoquaranta virgola nove	centoquaranta virgola nove
-56	SP2	57.1	57.948	0.848	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	chilometri quadrati	chilometri quadrati	chilometri quadrati
-57	SP2	58.004	58.896	0.892	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	che se parliamo	che se parliamo	che se parliamo
-58	SP2	59.096	59.488	0.392	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	fino a	fino a	fino a
-59	SP2	60.016	61.008	0.992	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	da: m:h	da: m:h	da mh
-60	SP2	61.628	62.524	0.896	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	dove di:	dove di:	dove di
-61	SP2	62.672	63.276	0.604	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	pilastro	pilastro	pilastro
-62	SP1	63.396	63.848	0.452	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	mh mh	mh mh	mh mh
-63	SP2	63.848	64.5	0.652	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	fino a:	fino a:	fino a
-64	SP2	64.548	65.012	0.464	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	di:	di:	di
-65	SP2	65.032	65.9	0.868	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	m:h	m:h	mh
-66	SP1	65.996	66.7	0.704	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	tipo casalecchio	tipo casalecchio	tipo casalecchio
-67	SP1	66.704	67.36	0.656	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	la bar[ca]	la bar[ca]	la barca
-68	SP2	67.004	67.296	0.292	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	[sì]	[sì]	sì
-69	SP2	67.448	68.216	0.768	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	sì proprio	sì proprio	sì proprio
-70	SP2	68.228	69.216	0.988	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	sì casalecchio	sì casalecchio	sì casalecchio
-71	SP1	69.304	70.104	0.8	True	0	0	0	0	0	0	0	0	False	False	False	False	True	72=0.204	0	0	0, 	4	sì sì sì sì	sì sì sì sì	sì sì sì sì
-72	SP2	69.9	71.388	1.488	True	0	0	0	0	0	0	0	0	False	False	False	False	True	71=0.204	0	0	0, 	4	proprio il quadrato di:	proprio il quadrato di:	proprio il quadrato di
-73	SP2	71.48	73.112	1.632	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	7	dentro: c'ha proprio quelle che l-	dentro: c'ha proprio quelle che l-	dentro c' ha proprio quelle che l-
-74	SP2	73.768	73.964	0.196	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	mh	mh	mh
-75	SP2	74.044	75.496	1.452	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	5	quelle che comune di bologna	quelle che comune di bologna	quelle che comune di bologna
-76	SP2	75.5	76.144	0.644	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	esempio	esempio	esempio
-77	SP1	76.3	76.596	0.296	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	mh mh	mh mh	mh mh
-78	SP2	76.6	77.496	0.896	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	però e:h	però e:h	però eh
-79	SP2	77.5	79.396	1.896	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	7	non è il fuori che hanno contato	non è il fuori che hanno contato	non è il fuori che hanno contato
-80	SP1	79.396	80.248	0.852	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	sì [sì certo]	sì [sì certo]	sì sì certo
-81	SP2	79.44	80.5	1.06	True	0	0	0	0	0	0	0	0	False	False	False	False	True	80=0.808	0	0	0, 	0	xxxxxx	xxxxxx	xxxxxx
-82	SP2	80.504	82.052	1.548	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	6	capitale che è entrato già proprio:	capitale che è entrato già proprio:	capitale che è entrato già proprio
-83	SP1	82.548	83.448	0.9	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	sì sì certo	sì sì certo	sì sì certo
-84	SP1	83.544	85.496	1.952	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	8	no ma io a me mi sembrava impossibile	no ma io a me mi sembrava impossibile	no ma io a me mi sembrava impossibile
-85	SP1	85.5	86.82	1.32	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	4	che una città italiana	che una città italiana	che una città italiana
-86	SP1	86.988	87.896	0.908	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	neanche la capitale	neanche la capitale	neanche la capitale
-87	SP1	87.948	88.344	0.396	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	fosse	fosse	fosse
-88	SP1	88.48	89.1	0.62	True	0	0	0	0	0	0	0	0	False	False	False	False	True	_	0	0	0, 	2	grande co[me]	grande co[me]	grande come
-89	SP2	89.104	90.208	1.204	True	0	0	0	0	0	0	1	0	False	False	False	False	True	_	0	0	0, 	5	[beh] no è come (più)	[beh] no è come (più)	beh no è come più
-90	SP2	90.348	90.578	0.23	True	0	0	0	0	0	0	0	0	False	False	True	False	False	_	0	0	0, 	1	(c(io)è)	(c(io)è)	cioè
-91	SP2	90.634	91.862	1.228	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	4	come grande dallla venezia	come grande dallla venezia	come grande dallla venezia
-92	SP2	92.016	92.744	0.728	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	che venezia è	che venezia è	che venezia è
-93	SP2	92.788	93.944	1.156	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	4	una città bella grande	una città bella grande	una città bella grande
-94	SP2	94.006	95.62	1.614	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	quattrocentoquatto- e:h	quattrocentoquatto- e:h	quattrocentoquatto- eh
-95	SP2	95.992	98.644	2.652	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	<quattrocento>quattordici metri quadrati	<quattrocento>quattordici metri quadrati	quattrocentoquattordici metri quadrati
-96	SP1	98.744	99.544	0.8	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	xx mh	xx mh	xx mh
-97	SP1	99.66	100.448	0.788	True	0	0	1	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	perchè conteranno	perché conteranno	perché conteranno
-98	SP1	100.484	101.252	0.768	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	tutta la provincia	tutta la provincia	tutta la provincia
-99	SP1	101.304	102.5	1.196	True	0	0	1	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	perchè venezia città	perché venezia città	perché venezia città
-100	SP1	102.508	103.864	1.356	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	5	è un'isoletta grande co[sì]	è un'isoletta grande co[sì]	è un' isoletta grande così
-101	SP2	103.644	103.904	0.26	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	[eh]	[eh]	eh
-102	SP1	103.904	105.748	1.844	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0, 	1	[pra]ticamen[te] ((ride))	[pra]ticamen[te] {ride}	praticamente {ride}
-103	SP2	103.928	104.136	0.208	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	[eh]	[eh]	eh
-104	SP2	104.344	105.752	1.408	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0, 	1	[asso]lutamente ((ride))	[asso]lutamente {ride}	assolutamente {ride}
-105	SP1	105.884	106.288	0.404	True	0	0	0	0	0	0	0	0	False	False	False	False	True	106=0.232	0	1	0, 	1	sì ((ride))	sì {ride}	sì {ride}
-106	SP2	106.048	106.28	0.232	True	0	0	0	0	0	0	0	0	False	False	False	False	True	105=0.232	0	0	0, 	1	poi	poi	poi
-107	SP2	106.488	107.704	1.216	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	6	se andiamo ancora un po' avanti	se andiamo ancora un po' avanti	se andiamo ancora un po' avanti
-108	SP2	107.752	108.5	0.748	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	ci sono colli	ci sono colli	ci sono colli
-109	SP2	108.53	108.996	0.466	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	che non con-	che non con-	che non con-
-110	SP1	109.1	109.504	0.404	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	n[o]	n[o]	no
-111	SP2	109.344	110.544	1.2	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	[no]n contano nean[che]	[no]n contano nean[che]	non contano neanche
-112	SP1	110.0	111.308	1.308	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	[no inf]atti infatti	[no inf]atti infatti	no infatti infatti
-113	SP1	111.348	112.548	1.2	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	5	no ma mi sembrava strano	no ma mi sembrava strano	no ma mi sembrava strano
-114	SP1	112.748	113.404	0.656	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	infa[tti m]a:	infa[tti m]a:	infatti ma
-115	SP2	112.84	113.048	0.208	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	[sì]	[sì]	sì
-116	SP1	113.668	114.636	0.968	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	5	no e quindi mi dicevi	no e quindi mi dicevi	no e quindi mi dicevi
-117	SP1	114.7	115.024	0.324	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	che nella	che nella	che nella
-118	SP1	115.204	116.5	1.296	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	5	nella zona della tua famiglia	nella zona della tua famiglia	nella zona della tua famiglia
-119	SP1	116.552	117.4	0.848	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	4	ci sono delle ini-	ci sono delle ini-	ci sono delle ini-
-120	SP1	117.7	119.096	1.396	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	delle iniziative culturali	delle iniziative culturali	delle iniziative culturali
-121	SP2	119.252	119.644	0.392	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	sì	sì	sì
-122	SP1	120.408	120.86	0.452	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	0	xx	xx	xx
-123	SP2	120.984	122.244	1.26	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	0	xxxx[xxxxx]	xxxx[xxxxx]	xxxxxxxxx
-124	SP1	121.444	122.672	1.228	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	[dei siti sto]rici?	[dei siti sto]rici?	dei siti storici
-125	SP1	122.704	123.632	0.928	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	o che cosa:?	o che cosa:?	o che cosa
-126	SP2	123.632	124.44	0.808	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	no [sì xx]	no [sì xx]	no sì xx
-127	SP1	123.904	124.792	0.888	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	2	[o archeo]logici?	[o archeo]logici?	o archeologici
-128	SP2	125.328	126.54	1.212	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	4	no guarda che là:	no guarda che là:	no guarda che là
-129	SP2	126.616	127.348	0.732	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	e:h	e:h	eh
-130	SP2	127.496	128.064	0.568	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	sì:	sì:	sì
-131	SP2	128.256	129.116	0.86	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	proprio:	proprio:	proprio
-132	SP2	129.128	129.9	0.772	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	m:h	m:h	mh
-133	SP2	129.944	131.396	1.452	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	1, po':	5	ci sono la città un po':	ci sono la città un po':	ci sono la città un po':
-134	SP2	131.436	132.652	1.216	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	4	un po' più culturale	un po' più culturale	un po' più culturale
-135	SP1	132.66	133.06	0.4	True	0	0	0	0	0	0	0	0	False	False	False	True	True	136=0.316	0	0	0, 	1	ok[ay	ok[ay	okay
-136	SP2	132.744	133.648	0.904	True	0	0	0	0	0	0	0	0	False	False	False	False	True	135=0.316,137=0.572	0	0	0, 	1	[adesso:]	[adesso:]	adesso
-137	SP1	133.076	134.352	1.276	True	0	0	0	0	0	0	0	0	False	False	False	True	True	136=0.572,138=0.656	0	0	0, 	5	°un po' più cult]urali okay°	°un po' più cult]urali okay°	un po' più culturali okay
-138	SP2	133.696	134.888	1.192	True	0	0	0	0	0	0	0	0	False	False	False	False	True	137=0.656	0	0	0, 	4	°(guarda che) un po'°	°(guarda che) un po'°	guarda che un po'
-139	SP2	134.992	136.348	1.356	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	1, po':	3	già persa un po':	già persa un po':	già persa un po':
-140	SP2	136.364	137.4	1.036	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	3	che andava: di:	che andava: di:	che andava di
-141	SP2	137.444	138.572	1.128	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	4	c(io)è vivere la città	c(io)è vivere la città	cioè vivere la città
-142	SP2	138.596	139.6	1.004	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	4	che adesso tutti quanti	che adesso tutti quanti	che adesso tutti quanti
-143	SP2	139.6	141.0	1.4	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	5	che sta perdendo il lavoro	che sta perdendo il lavoro	che sta perdendo il lavoro
-144	SP1	141.796	141.996	0.2	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	là	là	là
-145	SP2	142.244	142.5	0.256	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	là	là	là
-146	SP1	143.048	143.352	0.304	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	okay	okay	okay
-147	SP1	143.804	144.004	0.2	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	ma	ma	ma
-148	SP2	144.092	144.548	0.456	True	0	0	0	0	0	0	0	0	False	False	False	False	True	149=0.252	0	0	0, 	2	c(io)è tutti	c(io)è tutti	cioè tutti
-149	SP1	144.2	144.452	0.252	True	0	0	0	0	0	0	0	0	False	False	False	False	True	148=0.252	0	0	0, 	1	c(io)è	c(io)è	cioè
-150	SP2	144.604	145.332	0.728	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0, 	1	tutti	tutti	tutti
+1	SP1	0.36	1.67	1.31	True	0	0	0	0	0	0	0	1	False	False	False	False	False	_	0	0	0	4	ci sono delle università?:	ci sono delle università:?	ci sono delle università
+2	SP2	2.68	3.13	0.45	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	sì no	sì no	sì no
+3	SP1	3.2	4.37	1.27	True	0	0	0	0	0	0	1	1	False	False	False	False	False	_	0	0	0	4	[o più nella capitale?]	[o più nella capitale]?	o più nella capitale
+4	SP2	3.15	4.98	1.83	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	[l'università è un po'] più in città	[l'università è un po'] più in città	l' università è un po' più in città
+5	SP1	5.0	5.42	0.42	True	0	0	0	0	0	0	0	0	False	False	False	False	True	6=0.380	0	0	0	1	okay	okay	okay
+6	SP2	5.04	6.02	0.98	True	0	0	0	0	0	0	0	0	False	False	False	False	True	5=0.380,7=0.460	0	0	0	0	xxxx	xxxx	xxxx
+7	SP1	5.56	6.68	1.12	True	0	0	0	0	0	0	0	0	False	False	False	False	True	6=0.460	0	0	0	3	okay >okay okay<	okay >okay okay<	okay okay okay
+8	SP1	6.8	7.49	0.69	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	e: [s-]	e: [s-]	e s-
+9	SP2	6.95	7.88	0.93	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[i:n] capitale	[i:n] capitale	in capitale
+10	SP1	7.89	8.77	0.88	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	in capitale okay	in capitale okay	in capitale okay
+11	SP1	8.83	10.08	1.25	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	e se devi:	e se devi:	e se devi
+12	SP1	10.84	11.78	0.94	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	xx	xx	xx
+13	SP2	13.67	15.61	1.94	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	°(vabbè adesso faccio finire)°	°(vabbè adesso faccio finire)°	vabbè adesso faccio finire
+14	SP1	16.03	16.49	0.46	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	sì	sì	sì
+15	SP2	17.43	19.38	1.95	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	xxxxxx	xxxxxx	xxxxxx
+16	SP1	19.64	21.3	1.66	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	°sta andando abbastanza bene no?°	°sta andando abbastanza bene no?°	sta andando abbastanza bene no
+17	SP3	21.32	21.72	0.4	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	°sì°	°sì°	sì
+18	SP1	21.94	23.7	1.76	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	°proviamo a vedere se:°	°proviamo a vedere se:°	proviamo a vedere se
+19	SP1	25.9	26.45	0.55	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	allora dimmi	allora dimmi	allora dimmi
+20	SP1	26.46	27.481	1.021	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	la capitale è molto gran[de]	la capitale è molto gran[de]	la capitale è molto grande
+21	SP2	27.34	28.344	1.004	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	[la capit]ale è molto grande	[la capit]ale è molto grande	la capitale è molto grande
+22	SP2	28.362	28.593	0.231	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	e:h	e:h	eh
+23	SP2	28.643	29.769	1.126	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	trecentosei virgola	trecentosei virgola	trecentosei virgola
+24	SP2	29.861	30.499	0.638	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	quattro	quattro	quattro
+25	SP2	30.574	31.425	0.851	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	e:h	e:h	eh
+26	SP2	31.699	33.262	1.563	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	chilometri quadra[ti]	chilometri quadra[ti]	chilometri quadrati
+27	SP1	32.893	33.462	0.569	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[o]kay e	[o]kay e	okay e
+28	SP1	33.569	34.334	0.765	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	popolazione?	popolazione?	popolazione
+29	SP2	34.774	35.406	0.632	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	e:h	e:h	eh
+30	SP2	35.599	37.216	1.617	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	quattordici: milioni	quattordici: milioni	quattordici milioni
+31	SP1	37.268	37.452	0.184	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[eh]	[eh]	eh
+32	SP2	37.268	38.944	1.676	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	[qu]attordici punto quattro milio[ni]	[qu]attordici punto quattro milio[ni]	quattordici punto quattro milioni
+33	SP1	38.744	39.644	0.9	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[cioè] bologna è	[cioè] bologna è	cioè bologna è
+34	SP1	39.726	41.495999999999995	1.87	True	0	0	0	0	0	0	1	0	False	False	False	False	False	_	0	0	0	2	trecentocinquantamila persone	trecentocinquantamila persone	trecentocinquantamila persone
+35	SP2	41.496	42.844	1.348	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	da trecen[toci]nquantamila	da trecen[toci]nquantamila	da trecentocinquantamila
+36	SP1	41.848	42.152	0.304	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[eh]	[eh]	eh
+37	SP1	42.318	43.23	0.912	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	0	((ride))	{ride}	{ride}
+38	SP2	42.848	43.44	0.592	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	ma devo essere	ma devo essere	ma devo essere
+39	SP2	43.544	45.0	1.456	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	quanto grande bologna	quanto grande bologna	quanto grande bologna
+40	SP1	45.572	46.944	1.372	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	non so di chilometri quadrati	non so di chilometri quadrati	non so di chilometri quadrati
+41	SP1	47.038	47.324	0.286	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	però	però	però
+42	SP1	47.96	49.316	1.356	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	3	decisamente più grande ((ride))	decisamente più grande {ride}	decisamente più grande {ride}
+43	SP1	49.326	49.772	0.446	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	ma infatti	ma infatti	ma infatti
+44	SP1	49.816	49.948	0.132	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mi	mi	mi
+45	SP1	50.048	50.228	0.18	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	eh	eh	eh
+46	SP1	50.376	51.424	1.048	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	mi sembrava impossibile	mi sembrava impossibile	mi sembrava impossibile
+47	SP1	51.456	52.364	0.908	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	ma il ragazzo ieri	ma il ragazzo ieri	ma il ragazzo ieri
+48	SP1	52.368	53.072	0.704	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	in[sisteva]	in[sisteva]	insisteva
+49	SP2	52.384	53.336	0.952	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[guarda che bolo][gna]	[guarda che bolo][gna]	guarda che bologna
+50	SP1	53.236	53.652	0.416	True	0	0	0	0	0	0	0	0	False	False	False	False	True	49=0.100,51=0.304	0	0	0	1	[(infatti)]	[(infatti)]	infatti
+51	SP2	53.348	54.248	0.9	True	0	0	0	0	0	0	0	0	False	False	False	False	True	50=0.304	0	0	0	2	è centoqua-	è centoqua-	è centoqua-
+52	SP2	54.284	55.12	0.836	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	centoquaran[ta]	centoquaran[ta]	centoquaranta
+53	SP1	54.844	54.996	0.152	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[eh]	[eh]	eh
+54	SP1	55.5	55.812	0.312	True	0	0	0	0	0	0	0	0	False	False	False	False	True	55=0.264	0	0	0	1	sì	sì	sì
+55	SP2	55.548	57.04	1.492	True	0	0	0	0	0	0	0	0	False	False	False	False	True	54=0.264	0	0	0	3	centoquaranta virgola nove	centoquaranta virgola nove	centoquaranta virgola nove
+56	SP2	57.1	57.948	0.848	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	chilometri quadrati	chilometri quadrati	chilometri quadrati
+57	SP2	58.004	58.896	0.892	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	che se parliamo	che se parliamo	che se parliamo
+58	SP2	59.096	59.488	0.392	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	fino a	fino a	fino a
+59	SP2	60.016	61.008	0.992	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	da: m:h	da: m:h	da mh
+60	SP2	61.628	62.524	0.896	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	dove di:	dove di:	dove di
+61	SP2	62.672	63.276	0.604	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	pilastro	pilastro	pilastro
+62	SP1	63.396	63.848	0.452	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	mh mh	mh mh	mh mh
+63	SP2	63.848	64.5	0.652	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	fino a:	fino a:	fino a
+64	SP2	64.548	65.012	0.464	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	di:	di:	di
+65	SP2	65.032	65.9	0.868	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	m:h	m:h	mh
+66	SP1	65.996	66.7	0.704	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	tipo casalecchio	tipo casalecchio	tipo casalecchio
+67	SP1	66.704	67.36	0.656	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	la bar[ca]	la bar[ca]	la barca
+68	SP2	67.004	67.296	0.292	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[sì]	[sì]	sì
+69	SP2	67.448	68.216	0.768	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	sì proprio	sì proprio	sì proprio
+70	SP2	68.228	69.216	0.988	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	sì casalecchio	sì casalecchio	sì casalecchio
+71	SP1	69.304	70.104	0.8	True	0	0	0	0	0	0	0	0	False	False	False	False	True	72=0.204	0	0	0	4	sì sì sì sì	sì sì sì sì	sì sì sì sì
+72	SP2	69.9	71.388	1.488	True	0	0	0	0	0	0	0	0	False	False	False	False	True	71=0.204	0	0	0	4	proprio il quadrato di:	proprio il quadrato di:	proprio il quadrato di
+73	SP2	71.48	73.112	1.632	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	dentro: c'ha proprio quelle che l-	dentro: c'ha proprio quelle che l-	dentro c' ha proprio quelle che l-
+74	SP2	73.768	73.964	0.196	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mh	mh	mh
+75	SP2	74.044	75.496	1.452	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	quelle che comune di bologna	quelle che comune di bologna	quelle che comune di bologna
+76	SP2	75.5	76.144	0.644	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	esempio	esempio	esempio
+77	SP1	76.3	76.596	0.296	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	mh mh	mh mh	mh mh
+78	SP2	76.6	77.496	0.896	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	però e:h	però e:h	però eh
+79	SP2	77.5	79.396	1.896	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	non è il fuori che hanno contato	non è il fuori che hanno contato	non è il fuori che hanno contato
+80	SP1	79.396	80.248	0.852	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	sì [sì certo]	sì [sì certo]	sì sì certo
+81	SP2	79.44	80.5	1.06	True	0	0	0	0	0	0	0	0	False	False	False	False	True	80=0.808	0	0	0	0	xxxxxx	xxxxxx	xxxxxx
+82	SP2	80.504	82.052	1.548	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	capitale che è entrato già proprio:	capitale che è entrato già proprio:	capitale che è entrato già proprio
+83	SP1	82.548	83.448	0.9	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	sì sì certo	sì sì certo	sì sì certo
+84	SP1	83.544	85.496	1.952	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	no ma io a me mi sembrava impossibile	no ma io a me mi sembrava impossibile	no ma io a me mi sembrava impossibile
+85	SP1	85.5	86.82	1.32	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	che una città italiana	che una città italiana	che una città italiana
+86	SP1	86.988	87.896	0.908	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	neanche la capitale	neanche la capitale	neanche la capitale
+87	SP1	87.948	88.344	0.396	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	fosse	fosse	fosse
+88	SP1	88.48	89.1	0.62	True	0	0	0	0	0	0	0	0	False	False	False	False	True	_	0	0	0	2	grande co[me]	grande co[me]	grande come
+89	SP2	89.104	90.208	1.204	True	0	0	0	0	0	0	1	0	False	False	False	False	True	_	0	0	0	5	[beh] no è come (più)	[beh] no è come (più)	beh no è come più
+90	SP2	90.348	90.578	0.23	True	0	0	0	0	0	0	0	0	False	False	True	False	False	_	0	0	0	1	(c(io)è)	(c(io)è)	cioè
+91	SP2	90.634	91.862	1.228	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	come grande dallla venezia	come grande dallla venezia	come grande dallla venezia
+92	SP2	92.016	92.744	0.728	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	che venezia è	che venezia è	che venezia è
+93	SP2	92.788	93.944	1.156	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	una città bella grande	una città bella grande	una città bella grande
+94	SP2	94.006	95.62	1.614	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	quattrocentoquatto- e:h	quattrocentoquatto- e:h	quattrocentoquatto- eh
+95	SP2	95.992	98.644	2.652	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	<quattrocento>quattordici metri quadrati	<quattrocento>quattordici metri quadrati	quattrocentoquattordici metri quadrati
+96	SP1	98.744	99.544	0.8	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	xx mh	xx mh	xx mh
+97	SP1	99.66	100.448	0.788	True	0	0	1	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	perchè conteranno	perché conteranno	perché conteranno
+98	SP1	100.484	101.252	0.768	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	tutta la provincia	tutta la provincia	tutta la provincia
+99	SP1	101.304	102.5	1.196	True	0	0	1	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	perchè venezia città	perché venezia città	perché venezia città
+100	SP1	102.508	103.864	1.356	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	è un'isoletta grande co[sì]	è un'isoletta grande co[sì]	è un' isoletta grande così
+101	SP2	103.644	103.904	0.26	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[eh]	[eh]	eh
+102	SP1	103.904	105.748	1.844	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	1	[pra]ticamen[te] ((ride))	[pra]ticamen[te] {ride}	praticamente {ride}
+103	SP2	103.928	104.136	0.208	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[eh]	[eh]	eh
+104	SP2	104.344	105.752	1.408	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	1	[asso]lutamente ((ride))	[asso]lutamente {ride}	assolutamente {ride}
+105	SP1	105.884	106.288	0.404	True	0	0	0	0	0	0	0	0	False	False	False	False	True	106=0.232	0	1	0	1	sì ((ride))	sì {ride}	sì {ride}
+106	SP2	106.048	106.28	0.232	True	0	0	0	0	0	0	0	0	False	False	False	False	True	105=0.232	0	0	0	1	poi	poi	poi
+107	SP2	106.488	107.704	1.216	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	se andiamo ancora un po' avanti	se andiamo ancora un po' avanti	se andiamo ancora un po' avanti
+108	SP2	107.752	108.5	0.748	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	ci sono colli	ci sono colli	ci sono colli
+109	SP2	108.53	108.996	0.466	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	che non con-	che non con-	che non con-
+110	SP1	109.1	109.504	0.404	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	n[o]	n[o]	no
+111	SP2	109.344	110.544	1.2	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[no]n contano nean[che]	[no]n contano nean[che]	non contano neanche
+112	SP1	110.0	111.308	1.308	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[no inf]atti infatti	[no inf]atti infatti	no infatti infatti
+113	SP1	111.348	112.548	1.2	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	no ma mi sembrava strano	no ma mi sembrava strano	no ma mi sembrava strano
+114	SP1	112.748	113.404	0.656	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	infa[tti m]a:	infa[tti m]a:	infatti ma
+115	SP2	112.84	113.048	0.208	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[sì]	[sì]	sì
+116	SP1	113.668	114.636	0.968	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	no e quindi mi dicevi	no e quindi mi dicevi	no e quindi mi dicevi
+117	SP1	114.7	115.024	0.324	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	che nella	che nella	che nella
+118	SP1	115.204	116.5	1.296	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	nella zona della tua famiglia	nella zona della tua famiglia	nella zona della tua famiglia
+119	SP1	116.552	117.4	0.848	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	ci sono delle ini-	ci sono delle ini-	ci sono delle ini-
+120	SP1	117.7	119.096	1.396	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	delle iniziative culturali	delle iniziative culturali	delle iniziative culturali
+121	SP2	119.252	119.644	0.392	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	sì	sì	sì
+122	SP1	120.408	120.86	0.452	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	xx	xx	xx
+123	SP2	120.984	122.244	1.26	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	xxxx[xxxxx]	xxxx[xxxxx]	xxxxxxxxx
+124	SP1	121.444	122.672	1.228	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[dei siti sto]rici?	[dei siti sto]rici?	dei siti storici
+125	SP1	122.704	123.632	0.928	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	o che cosa:?	o che cosa:?	o che cosa
+126	SP2	123.632	124.44	0.808	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	no [sì xx]	no [sì xx]	no sì xx
+127	SP1	123.904	124.792	0.888	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[o archeo]logici?	[o archeo]logici?	o archeologici
+128	SP2	125.328	126.54	1.212	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	no guarda che là:	no guarda che là:	no guarda che là
+129	SP2	126.616	127.348	0.732	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	e:h	e:h	eh
+130	SP2	127.496	128.064	0.568	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	sì:	sì:	sì
+131	SP2	128.256	129.116	0.86	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	proprio:	proprio:	proprio
+132	SP2	129.128	129.9	0.772	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	m:h	m:h	mh
+133	SP2	129.944	131.396	1.452	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	ci sono la città un po':	ci sono la città un po':	ci sono la città un po'
+134	SP2	131.436	132.652	1.216	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	un po' più culturale	un po' più culturale	un po' più culturale
+135	SP1	132.66	133.06	0.4	True	0	0	0	0	0	0	0	0	False	False	False	True	True	136=0.316	0	0	0	1	ok[ay	ok[ay	okay
+136	SP2	132.744	133.648	0.904	True	0	0	0	0	0	0	0	0	False	False	False	False	True	135=0.316,137=0.572	0	0	0	1	[adesso:]	[adesso:]	adesso
+137	SP1	133.076	134.352	1.276	True	0	0	0	0	0	0	0	0	False	False	False	True	True	136=0.572,138=0.656	0	0	0	5	°un po' più cult]urali okay°	°un po' più cult]urali okay°	un po' più culturali okay
+138	SP2	133.696	134.888	1.192	True	0	0	0	0	0	0	0	0	False	False	False	False	True	137=0.656	0	0	0	4	°(guarda che) un po'°	°(guarda che) un po'°	guarda che un po'
+139	SP2	134.992	136.348	1.356	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	già persa un po':	già persa un po':	già persa un po'
+140	SP2	136.364	137.4	1.036	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	che andava: di:	che andava: di:	che andava di
+141	SP2	137.444	138.572	1.128	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	c(io)è vivere la città	c(io)è vivere la città	cioè vivere la città
+142	SP2	138.596	139.6	1.004	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	che adesso tutti quanti	che adesso tutti quanti	che adesso tutti quanti
+143	SP2	139.6	141.0	1.4	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	che sta perdendo il lavoro	che sta perdendo il lavoro	che sta perdendo il lavoro
+144	SP1	141.796	141.996	0.2	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	là	là	là
+145	SP2	142.244	142.5	0.256	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	là	là	là
+146	SP1	143.048	143.352	0.304	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	okay	okay	okay
+147	SP1	143.804	144.004	0.2	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	ma	ma	ma
+148	SP2	144.092	144.548	0.456	True	0	0	0	0	0	0	0	0	False	False	False	False	True	149=0.252	0	0	0	2	c(io)è tutti	c(io)è tutti	cioè tutti
+149	SP1	144.2	144.452	0.252	True	0	0	0	0	0	0	0	0	False	False	False	False	True	148=0.252	0	0	0	1	c(io)è	c(io)è	cioè
+150	SP2	144.604	145.332	0.728	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	tutti	tutti	tutti
