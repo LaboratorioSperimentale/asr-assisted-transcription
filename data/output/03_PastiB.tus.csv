@@ -14,7 +14,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 13	SP2	16.8530000000001	19.075	2.222	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	10	rosa ha detto metti: quello là l'olio da friggere	rosa ha detto metti: quello là l'olio da friggere	rosa ha detto metti quello là l' olio da friggere
 14	SP2	19.412	20.318	0.906	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	così vengono meglio	così vengono meglio	così vengono meglio
 15	SP2	20.7909999999999	21.5509999999999	0.76	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	ho detto okay	ho detto okay	ho detto okay
-16	SP2	22.1280000000002	25.3520000000001	3.224	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	e ho fatto però praticamente xxx messo::	e ho fatto però praticamente xxx messo::	e ho fatto però praticamente xxx messo
+16	SP2	22.1280000000002	25.3520000000001	3.224	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	e ho fatto però praticamente xxx messo::	e ho fatto però praticamente xxx messo::	e ho fatto però praticamente x messo
 17	SP2	25.5450000000001	27.9390000000001	2.394	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	cioè tutt~ tutto il fondo della padella era pieno d'olio	cioè tutt~ tutto il fondo della padella era pieno d'olio	cioè tutt~ tutto il fondo della padella era pieno d' olio
 18	SP2	29.2740000000001	32.6400000000001	3.366	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	11	io volevo mettere un filo sai per farli venire: (.) mezzi tra	io volevo mettere un filo sai per farli venire: {P} mezzi tra	io volevo mettere un filo sai per farli venire {P} mezzi tra
 19	SP2	34.751	37.443	2.692	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	cioè cotti: nella padella unta invece	cioè cotti: nella padella unta invece	cioè cotti nella padella unta invece
@@ -32,7 +32,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 31	SP2	58.1790000000001	59.307	1.128	True	0	0	0	0	0	0	0	0	False	False	False	True	True	32=1.086	0	0	0	5	[io [a pranzo ho esagerato]	[io [a pranzo ho esagerato]	io a pranzo ho esagerato
 32	SP1	58.221	59.4360000000002	1.215	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	[tanto da tua non]na	[tanto da tua non]na	tanto da tua nonna
 33	SP1	60.2630000000002	62.2920000000002	2.029	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	#quatt gilat sa mangiat 'stu puorco	quatt gilat sa mangiat 'stu puorco	quatt gilat sa mangiat 'stu puorco
-34	SP2	62.3679999999999	66.3810000000001	4.013	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	19	quattro gelati è esa~ non è vero xx >A PARTE IL FATTO CHE< abbiamo mangiato la STESSA quantità di gelato	quattro gelati è esa~ non è vero xx >A PARTE IL FATTO CHE< abbiamo mangiato la STESSA quantità di gelato	quattro gelati è esa~ non è vero xx a parte il fatto che abbiamo mangiato la stessa quantità di gelato
+34	SP2	62.3679999999999	66.3810000000001	4.013	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	19	quattro gelati è esa~ non è vero xx >A PARTE IL FATTO CHE< abbiamo mangiato la STESSA quantità di gelato	quattro gelati è esa~ non è vero xx >A PARTE IL FATTO CHE< abbiamo mangiato la STESSA quantità di gelato	quattro gelati è esa~ non è vero x a parte il fatto che abbiamo mangiato la stessa quantità di gelato
 35	SP1	67.2150000000002	68.185	0.97	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	tu ne hai mangiati di più	tu ne hai mangiati di più	tu ne hai mangiati di più
 36	SP2	68.2340000000002	69.0060000000001	0.772	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	NO ALBERTO	NO ALBERTO	no alberto
 37	SP1	69.3430000000001	73.3050000000001	3.962	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	17	hai mangiato il pan di stelle, hai mangiato quello al caramello, e ne hai mangiato un a[ltro]	hai mangiato il pan di stelle, hai mangiato quello al caramello, e ne hai mangiato un a[ltro]	hai mangiato il pan di stelle hai mangiato quello al caramello e ne hai mangiato un altro
@@ -84,7 +84,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 83	SP3	167.961	168.25	0.289	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	m:h	m:h	mh
 84	SP2	168.29	168.635	0.345	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	basta	basta	basta
 85	SP2	170.365	174.272	3.907	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	12	que~ [ah e una una carota] che l'ho tagliata piccolina piccolina	que~ [ah e una una carota] che l'ho tagliata piccolina piccolina	que~ ah e una una carota che l' ho tagliata piccolina piccolina
-86	SP3	170.432	171.828	1.396	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	[xxxxx]	[xxxxx]	xxxxx
+86	SP3	170.432	171.828	1.396	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	[xxxxx]	[xxxxx]	x
 87	SP3	174.278	175.569	1.291	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	secondo me la carota non ci stava be~	secondo me la carota non ci stava be~	secondo me la carota non ci stava be~
 88	SP2	175.571	176.241	0.67	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	invece stava bene	invece stava bene	invece stava bene
 89	SP3	176.35	176.633	0.283	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	sì?	sì?	sì
@@ -106,7 +106,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 105	SP3	208.56	210.751	2.191	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	però tipo ieri avete mangiato [patatine fritte]	però tipo ieri avete mangiato [patatine fritte]	però tipo ieri avete mangiato patatine fritte
 106	SP2	209.673	211.001	1.328	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	[parla per te io non abito] qua	[parla per te io non abito] qua	parla per te io non abito qua
 107	SP1	212.711	213.7	0.989	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	#matteo ma va cach	matteo ma va cach	matteo ma va cach
-108	SP3	214.615	215.968	1.353	True	1	0	0	0	0	0	0	1	False	False	False	False	False	_	0	0	0	2	avete mangiato [xxx ?]	avete mangiato [xxx]?	avete mangiato xxx
+108	SP3	214.615	215.968	1.353	True	1	0	0	0	0	0	0	1	False	False	False	False	False	_	0	0	0	2	avete mangiato [xxx ?]	avete mangiato [xxx]?	avete mangiato x
 109	SP2	215.037	217.762	2.725	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	[sì ma questo gay dra]ma non ho capito: sta cosa che	[sì ma questo gay dra]ma non ho capito: sta cosa che	sì ma questo gay drama non ho capito sta cosa che
 110	SP2	220.856	222.332	1.476	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	per forza dobbiamo litigarci ogni volta	per forza dobbiamo litigarci ogni volta	per forza dobbiamo litigarci ogni volta
 111	SP1	224.951	230.17	5.219	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	17	°ma se vuoi: possiamo anche non litigare più (se vuoi° me ne posso) tornare a casa mia	°ma se vuoi: possiamo anche non litigare più (se vuoi° me ne posso) tornare a casa mia	ma se vuoi possiamo anche non litigare più se vuoi me ne posso tornare a casa mia
@@ -119,5 +119,5 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 118	SP2	256.505	256.82	0.315	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	no amo'	no amo'	no amo'
 119	SP2	257.053	259.141	2.088	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	10	mo ci mangiamo il gelato così ti facciamo stare felice	mo ci mangiamo il gelato così ti facciamo stare felice	mo ci mangiamo il gelato così ti facciamo stare felice
 120	SP1	259.146	259.456	0.31	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	ecco qua	ecco qua	ecco qua
-121	SP3	260.405	262.08299999999997	1.778	True	0	0	0	0	0	0	1	0	False	False	False	False	True	_	0	0	0	3	aspe' xx jà digeri[amo]	aspe' xx jà digeri[amo]	aspe' xx jà digeriamo
+121	SP3	260.405	262.08299999999997	1.778	True	0	0	0	0	0	0	1	0	False	False	False	False	True	_	0	0	0	3	aspe' xx jà digeri[amo]	aspe' xx jà digeri[amo]	aspe' x jà digeriamo
 122	SP2	262.094	263.378	1.284	True	0	0	0	0	0	0	0	0	False	False	False	False	True	_	0	0	0	5	[sì] mi fumo una <sigaretta>	[sì] mi fumo una <sigaretta>	sì mi fumo una sigaretta

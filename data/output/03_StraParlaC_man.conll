@@ -42,7 +42,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 13-2	SP2	13	_	_	faccio	faccio	_	_	_	_	_	linguistic	_	Volume=low	_		_	_	_
 13-3	SP2	13	_	_	finire°	finire	_	_	_	_	_	linguistic	_	Volume=low	End=15.61		_	_	_
 14-0	SP1	14	_	_	sì	sì	_	_	_	_	_	linguistic	_		End=16.087		_	_	_
-15-0	SP2	15	_	_	xxxxxx	xxxxxx	_	_	_	_	_	unknown	_		End=19.38		_	_	_
+15-0	SP2	15	_	_	xxxxxx	x	_	_	_	_	_	unknown	_		End=19.38		_	_	_
 16-0	SP1	16	_	_	°sta	sta	_	_	_	_	_	linguistic	_	Volume=low	Begin=19.64		_	_	_
 16-1	SP1	16	_	_	andando	andando	_	_	_	_	_	linguistic	_	Volume=low	_		_	_	_
 16-2	SP1	16	_	_	abbastanza	abbastanza	_	_	_	_	_	linguistic	_	Volume=low	_		_	_	_
@@ -53,7 +53,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 18-1	SP1	18	_	_	a	a	_	_	_	_	_	linguistic	_	Volume=low	_		_	_	_
 18-2	SP1	18	_	_	[vedere]	vedere	_	_	_	_	_	linguistic	_	Volume=low	_		_	_	0-6(19)
 18-3	SP1	18	_	_	se:°	se	_	_	_	_	_	linguistic	_	Volume=low	End=23.493	1x1	_	_	_
-19-0	SP3	19	_	_	[°xx°]	xx	_	_	_	_	_	unknown	_	Volume=low	End=22.786		_	_	0-2(18)
+19-0	SP3	19	_	_	[°xx°]	x	_	_	_	_	_	unknown	_	Volume=low	End=22.786		_	_	0-2(18)
 20-0	SP1	20	_	_	allora	allora	_	_	_	_	_	linguistic	_		Begin=25.9		_	_	_
 20-1	SP1	20	_	_	dimmi	dimmi	_	_	_	_	_	linguistic	_		_		_	_	_
 20-2	SP1	20	_	_	la	la	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -362,7 +362,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 89-8	SP1	89	_	_	archeo]logici?	archeologici	_	_	_	_	_	linguistic	_	Intonation=ascending	End=124.792		_	_	0-6(90)
 90-0	SP2	90	_	_	no	no	_	_	_	_	_	linguistic	_		Begin=123.632		_	_	_
 90-1	SP2	90	_	_	[sì	sì	_	_	_	_	_	linguistic	_		_		_	_	0-2(89)
-90-2	SP2	90	_	_	xx]	xx	_	_	_	_	_	unknown	_		End=124.44		_	_	0-2(89)
+90-2	SP2	90	_	_	xx]	x	_	_	_	_	_	unknown	_		End=124.44		_	_	0-2(89)
 91-0	SP2	91	_	_	no	no	_	_	_	_	_	linguistic	_		Begin=125.328		_	_	_
 91-1	SP2	91	_	_	guar[da	guarda	_	_	_	_	_	linguistic	_		_		_	_	4-6(92)
 91-2	SP2	91	_	_	che]	che	_	_	_	_	_	linguistic	_		_		_	_	0-3(92)

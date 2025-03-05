@@ -829,7 +829,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 113-13	SP2	113	_	_	c	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
 113-14	SP2	113	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
 113-15	SP2	113	_	_	proprio	proprio	_	_	_	_	_	linguistic	_		End=276.96		_	_	_
-114-0	SP1	114	_	_	[xxx]	xxx	_	_	_	_	_	unknown	_		End=276.307		_	_	0-3(113)
+114-0	SP1	114	_	_	[xxx]	x	_	_	_	_	_	unknown	_		End=276.307		_	_	0-3(113)
 115-0	SP2	115	_	_	era	era	_	_	_	_	_	linguistic	_		Begin=277.89		_	_	_
 115-1	SP2	115	_	_	il	il	_	_	_	_	_	linguistic	_		_		_	_	_
 115-2	SP2	115	_	_	bologna	bologna	_	_	_	_	_	linguistic	_		_		_	_	_

@@ -1,5 +1,5 @@
 tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents	W:non_jefferson	W:pauses_trim	W:prosodic_trim	W:moved_boundaries	W:switches	E:volume	E:pace	E:guess	E:overlap	E:overlap_mismatch	E:overlap_duration	T:shortpauses	T:metalinguistic	T:errors	T:linguistic	annotation	correct	text
-1	SP1	0.0	1.42	1.42	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	e:: come xxxx?	e:: come xxxx?	e come xxxx
+1	SP1	0.0	1.42	1.42	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	e:: come xxxx?	e:: come xxxx?	e come x
 2	SP2	1.43	1.95	0.52	True	0	0	0	0	0	0	0	0	False	False	False	False	True	3=0.440	0	0	0	1	okay	okay	okay
 3	SP1	1.51	4.85	3.34	True	0	0	0	0	0	0	0	0	False	False	False	False	True	2=0.440,4=0.330	1	0	0	8	e:: là (.) lavorando più di tre tremila pers[one]	e:: là {P} lavorando più di tre tremila pers[one]	e là {P} lavorando più di tre tremila persone
 4	SP2	4.52	5.06	0.54	True	0	0	0	0	0	0	0	0	True	False	False	False	False	_	0	0	0	1	[°mh]	[°mh]	mh
@@ -40,7 +40,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 39	SP2	68.0	69.01	1.01	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[sì sì sì]	[sì sì sì]	sì sì sì
 40	SP2	71.14	71.76	0.62	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mhmh]	[mhmh]	mhmh
 41	SP1	72.62	74.48	1.86	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	se vado a: valsamoggia,	se vado a: valsamoggia,	se vado a valsamoggia
-42	SP1	74.82	77.61	2.89	True	0	0	0	0	0	0	1	0	False	False	False	False	False	_	0	0	0	11	con i xxxx io spendo c- più di duecento euro di benzina.	con i xxxx io spendo c- più di duecento euro di benzina.	con i xxxx io spendo c- più di duecento euro di benzina
+42	SP1	74.82	77.61	2.89	True	0	0	0	0	0	0	1	0	False	False	False	False	False	_	0	0	0	11	con i xxxx io spendo c- più di duecento euro di benzina.	con i xxxx io spendo c- più di duecento euro di benzina.	con i x io spendo c- più di duecento euro di benzina
 43	SP2	77.66	79.25	1.59	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	5	sì sì (.) e il parcheggio	sì sì {P} e il parcheggio	sì sì {P} e il parcheggio
 44	SP1	79.28999999999999	83.61	4.42	True	0	0	0	0	0	0	1	0	False	False	False	False	False	_	1	0	0	9	e parcheggio più (.) [fa]cciamo trecento[cinquanta euro di ogni mese]	e parcheggio più {P} [fa]cciamo trecento[cinquanta euro di ogni mese]	e parcheggio più {P} facciamo trecentocinquanta euro di ogni mese
 45	SP2	79.99	80.38	0.39	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[°sì°]	[°sì°]	sì
@@ -58,7 +58,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 57	SP2	99.39	100.16	0.77	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[°sì sì sì°]	[°sì sì sì°]	sì sì sì
 58	SP2	102.99	103.77	0.78	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[°mhmh°]	[°mhmh°]	mhmh
 59	SP1	105.21	107.57	2.36	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	la benzina e:: e:h	la benzina e:: e:h	la benzina e eh
-60	SP1	107.7	111.15	3.45	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	e anch[e il parcheggio] n[o, devo pa-] xxx	e anch[e il parcheggio] n[o, devo pa-] xxx	e anche il parcheggio no devo pa- xxx
+60	SP1	107.7	111.15	3.45	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	e anch[e il parcheggio] n[o, devo pa-] xxx	e anch[e il parcheggio] n[o, devo pa-] xxx	e anche il parcheggio no devo pa- x
 61	SP2	108.29	109.09	0.8	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[sì sì sì]	[sì sì sì]	sì sì sì
 62	SP2	109.24	109.99	0.75	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[°sì sì sì°]	[°sì sì sì°]	sì sì sì
 63	SP1	111.69	116.5	4.81	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	14	allora come la città, (.) se tu paghi duecento euro c(io)è duecento euro IN PI[Ù]	allora come la città, {P} se tu paghi duecento euro c(io)è duecento euro IN PI[Ù]	allora come la città {P} se tu paghi duecento euro cioè duecento euro in più
@@ -133,7 +133,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 132	SP2	250.68	253.88	3.2	True	0	0	0	0	0	0	0	1	False	False	False	False	False	_	1	0	0	8	ed è più:: (.) grande più pi[ccola di te?]	ed è più:: {P} grande più pi[ccola di te]?	ed è più {P} grande più piccola di te
 133	SP1	253.04	255.54	2.5	True	0	0	0	0	0	0	0	0	False	False	False	False	True	132=0.840,134=0.950	0	1	0	7	[no: è più c-] sì più: piccola ((ride))	[no: è più c-] sì più: piccola {ride}	no è più c- sì più piccola {ride}
 134	SP2	254.59	255.87	1.28	True	0	0	0	0	0	0	0	0	False	False	False	False	True	133=0.950	0	0	0	3	più piccola okay	più piccola okay	più piccola okay
-135	SP2	255.96	261.13	5.17	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	17	sono curiosa di sapere se tu con la tua sorella parli pre- pr[evalentemente xx (.) (tutte e due) okay]	sono curiosa di sapere se tu con la tua sorella parli pre- pr[evalentemente xx {P} (tutte e due) okay]	sono curiosa di sapere se tu con la tua sorella parli pre- prevalentemente xx {P} tutte e due okay
+135	SP2	255.96	261.13	5.17	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	17	sono curiosa di sapere se tu con la tua sorella parli pre- pr[evalentemente xx (.) (tutte e due) okay]	sono curiosa di sapere se tu con la tua sorella parli pre- pr[evalentemente xx {P} (tutte e due) okay]	sono curiosa di sapere se tu con la tua sorella parli pre- prevalentemente x {P} tutte e due okay
 136	SP1	259.3	265.269	5.969	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	22	[TUTTE E DUE LINGUE NOI PARLIAMO] tutte e due lingue sì: dipende quale argomento che parliamo però parliamo tutte e due °lingue°.	[TUTTE E DUE LINGUE NOI PARLIAMO] tutte e due lingue sì: dipende quale argomento che parliamo però parliamo tutte e due °lingue°.	tutte e due lingue noi parliamo tutte e due lingue sì dipende quale argomento che parliamo però parliamo tutte e due lingue
 137	SP2	265.27	268.79	3.52	True	0	0	0	0	0	0	0	1	False	False	False	False	False	_	0	0	0	13	ah tipo ci sono alcuni argomenti che sono: più legati a una l[ingua,]	ah tipo ci sono alcuni argomenti che sono: più legati a una l[ingua],	ah tipo ci sono alcuni argomenti che sono più legati a una lingua
 138	SP1	268.33	269.2	0.87	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	2	[sì] (.) °sì°	[sì] {P} °sì°	sì {P} sì

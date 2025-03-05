@@ -13,7 +13,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 12	SP2	30.757	34.046	3.289	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	16	non contenta mi hai detto ah se c'avevo le noci mettevo pure le noci sopra	non contenta mi hai detto ah se c'avevo le noci mettevo pure le noci sopra	non contenta mi hai detto ah se c' avevo le noci mettevo pure le noci sopra
 13	SP1	34.328	34.857	0.529	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[no:]	[no:]	no
 14	SP3	34.328	34.757	0.429	True	0	0	0	0	0	0	0	1	False	False	False	False	False	_	0	0	0	1	[no?]	[no]?	no
-15	SP1	35.614	36.316	0.702	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	xxx	xxx	xxx
+15	SP1	35.614	36.316	0.702	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	xxx	xxx	x
 16	SP2	36.763	39.771	3.008	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	10	guà mi piacevano tanto quelle zucchine le avete mangiate tutte	guà mi piacevano tanto quelle zucchine le avete mangiate tutte	guà mi piacevano tanto quelle zucchine le avete mangiate tutte
 17	SP1	40.191	40.788	0.597	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	sorry	sorry	sorry
 18	SP1	40.992	42.685	1.693	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	te le rifaccio prima che te ne vai	te le rifaccio prima che te ne vai	te le rifaccio prima che te ne vai
@@ -38,7 +38,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 37	SP2	71.172	71.387	0.215	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mh]	[mh]	mh
 38	SP3	72.169	74.021	1.852	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	e s'è fatta tipo molla s[trana]	e s'è fatta tipo molla s[trana]	e s' è fatta tipo molla strana
 39	SP2	73.4	74.648	1.248	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[s'è congela]ta	[s'è congela]ta	s' è congelata
-40	SP3	75.377	77.304	1.927	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	eh ma s'è fatta molla strana [xxx]	eh ma s'è fatta molla strana [xxx]	eh ma s' è fatta molla strana xxx
+40	SP3	75.377	77.304	1.927	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	eh ma s'è fatta molla strana [xxx]	eh ma s'è fatta molla strana [xxx]	eh ma s' è fatta molla strana x
 41	SP2	76.617	78.269	1.652	True	0	0	0	0	0	0	0	0	False	False	False	False	True	40=0.687,42=0.234	0	0	0	5	[si è bruciata] si è:	[si è bruciata] si è:	si è bruciata si è
 42	SP3	78.035	80.0	1.965	True	0	0	0	0	0	0	0	0	False	False	False	False	True	41=0.234	0	0	0	8	bra- >tipo può essere< una bruciatura da gelo	bra- >tipo può essere< una bruciatura da gelo	bra- tipo può essere una bruciatura da gelo
 43	SP2	80.587	81.243	0.656	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mh	mh	mh

@@ -80,7 +80,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 13-7	SP2	13	_	_	c	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
 13-8	SP2	13	_	_	avevo	avevo	_	_	_	_	_	linguistic	_		_		_	_	_
 13-9	SP2	13	_	_	gli	gli	_	_	_	_	_	linguistic	_		_		_	_	_
-13-10	SP2	13	_	_	xx	xx	_	_	_	_	_	unknown	_		_		_	_	_
+13-10	SP2	13	_	_	xx	x	_	_	_	_	_	unknown	_		_		_	_	_
 13-11	SP2	13	_	_	ci	ci	_	_	_	_	_	linguistic	_		_		_	_	_
 13-12	SP2	13	_	_	mettevo	mettevo	_	_	_	_	_	linguistic	_		_		_	_	_
 13-13	SP2	13	_	_	pure	pure	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -188,7 +188,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 32-8	SP1	32	_	_	deve	deve	_	_	_	_	_	linguistic	_		_		_	_	0-4(34)
 32-9	SP1	32	_	_	ta]glia:re	tagliare	_	_	_	_	_	linguistic	_		End=64.69	5x1	_	_	0-2(34)
 33-0	SP4	33	_	_	[(come)	come	_	_	_	_	_	linguistic	_		Begin=62.717		_	0-4(0)	0-4(32)
-33-1	SP4	33	_	_	xx]	xx	_	_	_	_	_	unknown	_		End=63.303		_	_	0-2(32)
+33-1	SP4	33	_	_	xx]	x	_	_	_	_	_	unknown	_		End=63.303		_	_	0-2(32)
 34-0	SP4	34	_	_	[eh]	eh	_	_	_	_	_	linguistic	_		End=63.979		_	_	0-2(32)
 35-0	SP4	35	_	_	perché	perché	_	_	_	_	_	linguistic	_		Begin=64.724		_	_	_
 35-1	SP4	35	_	_	nel	nel	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -234,7 +234,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 41-4	SP4	41	_	_	fatta	fatta	_	_	_	_	_	linguistic	_		_		_	_	_
 41-5	SP4	41	_	_	molla	molla	_	_	_	_	_	linguistic	_		_		_	_	_
 41-6	SP4	41	_	_	[stra:na	strana	_	_	_	_	_	linguistic	_		_	3x1	_	_	0-6(42)
-41-7	SP4	41	_	_	xx]	xx	_	_	_	_	_	unknown	_		End=77.324		_	_	0-2(42)
+41-7	SP4	41	_	_	xx]	x	_	_	_	_	_	unknown	_		End=77.324		_	_	0-2(42)
 42-0	SP3	42	_	_	[eh	eh	_	_	_	_	_	linguistic	_		Begin=76.365		_	_	0-2(41)
 42-1	SP3	42	_	_	si	si	_	_	_	_	_	linguistic	_		_		_	_	0-2(41)
 42-2	SP3	42	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	0-1(41)
@@ -692,7 +692,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 111-3	SP3	111	_	_	buttiamo	buttiamo	_	_	_	_	_	linguistic	_		_		_	_	_
 111-4	SP3	111	_	_	e	e	_	_	_	_	_	linguistic	_		_		_	_	_
 111-5	SP3	111	_	_	come	come	_	_	_	_	_	linguistic	_		_		_	_	_
-111-6	SP3	111	_	_	xxxxx	xxxxx	_	_	_	_	_	unknown	_		_		_	_	_
+111-6	SP3	111	_	_	xxxxx	x	_	_	_	_	_	unknown	_		_		_	_	_
 111-7	SP3	111	_	_	madre	madre	_	_	_	_	_	linguistic	_		_		_	_	_
 111-8	SP3	111	_	_	di	di	_	_	_	_	_	linguistic	_		_		_	_	_
 111-9	SP3	111	_	_	roberto?	roberto	_	_	_	_	_	linguistic	_	Intonation=ascending	End=226.201		_	_	_
@@ -716,7 +716,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 117-6	SP3	117	_	_	io	io	_	_	_	_	_	linguistic	_		_		_	_	0-2(118)
 117-7	SP3	117	_	_	non	non	_	_	_	_	_	linguistic	_		_		_	_	0-3(118)
 117-8	SP3	117	_	_	posso	posso	_	_	_	_	_	linguistic	_		_		_	_	0-5(118)
-117-9	SP3	117	_	_	xxx	xxx	_	_	_	_	_	unknown	_		_		_	_	0-3(118)
+117-9	SP3	117	_	_	xxx	x	_	_	_	_	_	unknown	_		_		_	_	0-3(118)
 117-10	SP3	117	_	_	per	per	_	_	_	_	_	linguistic	_		_		_	_	0-3(118)
 117-11	SP3	117	_	_	forza]	forza	_	_	_	_	_	linguistic	_		End=233.68		_	_	0-5(118)
 118-0	SP2	118	_	_	[però	però	_	_	_	_	_	linguistic	_		Begin=232.61		_	_	0-4(117)
@@ -802,7 +802,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 133-2	SP1	133	_	_	infatti	infatti	_	_	_	_	_	linguistic	_		End=261.953		_	_	_
 134-0	SP4	134	_	_	infatti	infatti	_	_	_	_	_	linguistic	_		Begin=261.979		_	_	_
 134-1	SP4	134	_	_	quando	quando	_	_	_	_	_	linguistic	_		_		_	_	_
-134-2	SP4	134	_	_	xxx	xxx	_	_	_	_	_	unknown	_		_		_	_	_
+134-2	SP4	134	_	_	xxx	x	_	_	_	_	_	unknown	_		_		_	_	_
 134-3	SP4	134	_	_	una	una	_	_	_	_	_	linguistic	_		_		_	_	_
 134-4	SP4	134	_	_	portata	portata	_	_	_	_	_	linguistic	_		_		_	_	_
 134-5	SP4	134	_	_	che	che	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -835,12 +835,12 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 138-2	SP1	138	_	_	in	in	_	_	_	_	_	linguistic	_		_		_	_	_
 138-3	SP1	138	_	_	genere:	genere	_	_	_	_	_	linguistic	_		_	5x1	_	_	_
 138-4	SP1	138	_	_	{ride}	{ride}	_	_	_	_	_	metalinguistic	_		End=272.691		_	_	_
-139-0	SP3	139	_	_	[xxx]	xxx	_	_	_	_	_	unknown	_		Begin=273.214		_	_	0-3(140+141)
+139-0	SP3	139	_	_	[xxx]	x	_	_	_	_	_	unknown	_		Begin=273.214		_	_	0-3(140+141)
 139-1	SP3	139	_	_	(e::i)	ei	_	_	_	_	_	linguistic	_		End=274.651	0x2	_	0-2(0)	_
 140-0	SP1	140	_	_	[è	è	_	_	_	_	_	linguistic	_		Begin=273.22		_	_	0-1(139+141)
 140-1	SP1	140	_	_	il	il	_	_	_	_	_	linguistic	_		_		_	_	0-2(139+141)
 140-2	SP1	140	_	_	pa:ne]	pane	_	_	_	_	_	linguistic	_		End=274.154	1x1	_	_	0-4(139+141)
-141-0	SP4	141	_	_	[xxx]	xxx	_	_	_	_	_	unknown	_		End=273.946		_	_	0-3(139+140)
+141-0	SP4	141	_	_	[xxx]	x	_	_	_	_	_	unknown	_		End=273.946		_	_	0-3(139+140)
 142-0	SP1	142	_	_	perché::	perché	_	_	_	_	_	linguistic	_		End=275.611	5x2	_	_	_
 143-0	SP1	143	_	_	no	no	_	_	_	_	_	linguistic	_		Begin=276.784		_	_	_
 143-1	SP1	143	_	_	sul	sul	_	_	_	_	_	linguistic	_		_		_	_	_

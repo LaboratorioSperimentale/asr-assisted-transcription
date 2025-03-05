@@ -137,7 +137,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 25-6	SP2	25	_	_	incontrato	incontrato	_	_	_	_	_	linguistic	_		_		_	_	0-10(?)
 25-7	SP2	25	_	_	cremonini]	cremonini	_	_	_	_	_	linguistic	_		_		_	_	0-9(?)
 25-8	SP2	25	_	_	{ride}	{ride}	_	_	_	_	_	metalinguistic	_		End=52.31		_	_	_
-26-0	SP1	26	_	_	[xx	xx	_	_	_	_	_	unknown	_		Begin=49.65		_	_	0-2(25)
+26-0	SP1	26	_	_	[xx	x	_	_	_	_	_	unknown	_		Begin=49.65		_	_	0-2(25)
 26-1	SP1	26	_	_	neanche	neanche	_	_	_	_	_	linguistic	_		_		_	_	0-7(25)
 26-2	SP1	26	_	_	io	io	_	_	_	_	_	linguistic	_		_		_	_	0-2(25)
 26-3	SP1	26	_	_	ohi]	ohi	_	_	_	_	_	linguistic	_		End=51.886		_	_	0-3(25)
@@ -718,7 +718,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 129-5	SP2	129	_	_	comunque	comunque	_	_	_	_	_	linguistic	_		_		_	_	_
 129-6	SP2	129	_	_	e:hm	ehm	_	_	_	_	_	linguistic	_		End=258.392	0x1	_	_	_
 130-0	SP2	130	_	_	anche	anche	_	_	_	_	_	linguistic	_		End=259.154		_	_	_
-131-0	SP2	131	_	_	xx	xx	_	_	_	_	_	unknown	_		Begin=259.55		_	_	_
+131-0	SP2	131	_	_	xx	x	_	_	_	_	_	unknown	_		Begin=259.55		_	_	_
 131-1	SP2	131	_	_	fuori	fuori	_	_	_	_	_	linguistic	_		_		_	_	_
 131-2	SP2	131	_	_	dalle	dalle	_	_	_	_	_	linguistic	_		_		_	_	_
 131-3	SP2	131	_	_	mura	mura	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -1354,7 +1354,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 245-2	SP2	245	_	_	per]	per	_	_	_	_	_	linguistic	_		_		_	_	0-3(246)
 245-3	SP2	245	_	_	ridurli	ridurli	_	_	_	_	_	linguistic	_		_		_	_	_
 245-4	SP2	245	_	_	però:	però	_	_	_	_	_	linguistic	_		End=472.0	3x1	_	_	_
-246-0	SP1	246	_	_	[xxx]	xxx	_	_	_	_	_	unknown	_		End=470.164		_	_	0-3(245)
+246-0	SP1	246	_	_	[xxx]	x	_	_	_	_	_	unknown	_		End=470.164		_	_	0-3(245)
 247-0	SP2	247	_	_	quello	quello	_	_	_	_	_	linguistic	_		Begin=472.38		_	_	_
 247-1	SP2	247	_	_	sicuramente:	sicuramente	_	_	_	_	_	linguistic	_		End=473.483	10x1	_	_	_
 248-0	SP2	248	_	_	secondo	secondo	_	_	_	_	_	linguistic	_		Begin=473.551		_	_	_

@@ -1,6 +1,6 @@
 tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents	W:non_jefferson	W:pauses_trim	W:prosodic_trim	W:moved_boundaries	W:switches	E:volume	E:pace	E:guess	E:overlap	E:overlap_mismatch	E:overlap_duration	T:shortpauses	T:metalinguistic	T:errors	T:linguistic	annotation	correct	text
-1	SP1	0.0	3.13699999999994	3.137	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	xx infatti il fatto che è aumentato il turismo	xx infatti il fatto che è aumentato il turismo	xx infatti il fatto che è aumentato il turismo
-2	SP1	3.71000000000004	5.81799999999998	2.108	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	ha impattato molto anche [xx gli affitti]	ha impattato molto anche [xx gli affitti]	ha impattato molto anche xx gli affitti
+1	SP1	0.0	3.13699999999994	3.137	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	xx infatti il fatto che è aumentato il turismo	xx infatti il fatto che è aumentato il turismo	x infatti il fatto che è aumentato il turismo
+2	SP1	3.71000000000004	5.81799999999998	2.108	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	ha impattato molto anche [xx gli affitti]	ha impattato molto anche [xx gli affitti]	ha impattato molto anche x gli affitti
 3	SP2	4.80999999999995	5.81799999999998	1.008	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[eh può essere]	[eh può essere]	eh può essere
 4	SP2	6.15999999999985	6.95100000000002	0.791	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	è vero è vero	è vero è vero	è vero è vero
 5	SP1	6.97599999999989	9.94299999999998	2.967	True	0	0	1	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	perchè: dicevano che molte persone molti::	perché: dicevano che molte persone molti::	perché dicevano che molte persone molti
@@ -14,7 +14,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 13	SP1	23.8899999999999	24.682	0.792	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	questa cosa qua	questa cosa qua	questa cosa qua
 14	SP1	26.0	26.4880000000001	0.488	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	però	però	però
 15	SP1	26.5999999999999	27.6799999999998	1.08	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	capisco anche che vogliano	capisco anche che vogliano	capisco anche che vogliano
-16	SP2	27.8	29.915	2.115	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	eh sì [xxxx] sì sì sì	eh sì [xxxx] sì sì sì	eh sì xxxx sì sì sì
+16	SP2	27.8	29.915	2.115	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	eh sì [xxxx] sì sì sì	eh sì [xxxx] sì sì sì	eh sì x sì sì sì
 17	SP1	28.1900000000001	29.46	1.27	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[cercare in primo]	[cercare in primo]	cercare in primo
 18	SP2	30.1499999999999	30.6559999999999	0.506	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[e]	[e]	e
 19	SP1	30.1499999999999	30.6559999999999	0.506	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[però]	[però]	però
@@ -62,9 +62,9 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 61	SP1	113.33	113.61	0.28	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	°sì°	°sì°	sì
 62	SP2	113.62	115.76	2.14	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	e quindi tu di cosa ti occupi a:	e quindi tu di cosa ti occupi a:	e quindi tu di cosa ti occupi a
 63	SP1	115.76	118.27	2.51	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	allora io e:h lavoro nell'ufficio	allora io e:h lavoro nell'ufficio	allora io eh lavoro nell' ufficio
-64	SP1	118.38	120.895	2.515	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	e:h @nomeluogo dell'università di bologna,	e:h nomeluogo dell'università di bologna,	eh nomeluogo dell' università di bologna
+64	SP1	118.38	120.895	2.515	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	1, @nomeluogo	5	e:h @nomeluogo dell'università di bologna,	e:h @nomeluogo dell'università di bologna,	eh @nomeluogo dell' università di bologna
 65	SP1	121.68	122.669	0.989	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	in particolare	in particolare	in particolare
-66	SP1	122.86	125.505	2.645	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	in uf~ in un ufficio che si chiama @nomeluogo,	in uf~ in un ufficio che si chiama nomeluogo,	in uf~ in un ufficio che si chiama nomeluogo
+66	SP1	122.86	125.505	2.645	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	1, @nomeluogo,	8	in uf~ in un ufficio che si chiama @nomeluogo,	in uf~ in un ufficio che si chiama @nomeluogo,	in uf~ in un ufficio che si chiama @nomeluogo,
 67	SP1	126.3	128.11	1.81	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	che si occupa di dare supporto	che si occupa di dare supporto	che si occupa di dare supporto
 68	SP1	128.17	132.538	4.368	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	13	e orientamento agli studenti internazionali che vengono a iscriversi all'università di bologna	e orientamento agli studenti internazionali che vengono a iscriversi all'università di bologna	e orientamento agli studenti internazionali che vengono a iscriversi all' università di bologna
 69	SP2	132.62	133.109	0.489	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mhmh	mhmh	mhmh
@@ -312,7 +312,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 311	SP1	567.1	570.68	3.58	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	6	non so quanto reggerà ancora speriamo ((ride))	non so quanto reggerà ancora speriamo {ride}	non so quanto reggerà ancora speriamo {ride}
 312	SP2	568.21	570.658	2.448	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	0	((ride))	{ride}	{ride}
 313	SP2	570.8	572.433	1.633	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	no dai [però almeno]	no dai [però almeno]	no dai però almeno
-314	SP1	571.61	572.191	0.581	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	[xxx]	[xxx]	xxx
+314	SP1	571.61	572.191	0.581	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	[xxx]	[xxx]	x
 315	SP2	572.51	575.45	2.94	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	sì sì no se riesci a fare anche modalità:	sì sì no se riesci a fare anche modalità:	sì sì no se riesci a fare anche modalità
 316	SP1	575.68	578.4	2.72	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	sì adesso secondo me molti:	sì adesso secondo me molti:	sì adesso secondo me molti
 317	SP1	578.47	582.87	4.4	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	17	non solo il pubblico ma anche molte aziende [hanno ape]rto un sacco allo smart working al telelavoro	non solo il pubblico ma anche molte aziende [hanno ape]rto un sacco allo smart working al telelavoro	non solo il pubblico ma anche molte aziende hanno aperto un sacco allo smart working al telelavoro

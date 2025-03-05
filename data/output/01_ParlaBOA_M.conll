@@ -75,7 +75,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 16-8	SP2	16	_	_	pe[r:]	per	_	_	_	_	_	linguistic	_		End=32.181999999999995	2x1	_	_	2-3(?)
 17-0	SP1	17	_	_	[sì]	sì	_	_	_	_	_	linguistic	_		Begin=32.226		_	_	0-2(18)
 17-1	SP1	17	_	_	{ride}	{ride}	_	_	_	_	_	metalinguistic	_		End=33.104		_	_	_
-18-0	SP2	18	_	_	xx	xx	_	_	_	_	_	unknown	_		Begin=32.711		_	_	_
+18-0	SP2	18	_	_	xx	x	_	_	_	_	_	unknown	_		Begin=32.711		_	_	_
 18-1	SP2	18	_	_	di	di	_	_	_	_	_	linguistic	_		_		_	_	_
 18-2	SP2	18	_	_	fare	fare	_	_	_	_	_	linguistic	_		_		_	_	_
 18-3	SP2	18	_	_	[beneficie]nza	beneficienza	_	_	_	_	_	linguistic	_		_		_	_	0-9(?)
@@ -161,7 +161,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 29-20	SP2	29	_	_	°non	non	_	_	_	_	_	linguistic	_	Volume=low	_		_	_	_
 29-21	SP2	29	_	_	ho	ho	_	_	_	_	_	linguistic	_	Volume=low	_		_	_	_
 29-22	SP2	29	_	_	ancora	ancora	_	_	_	_	_	linguistic	_	Volume=low	_		_	_	_
-29-23	SP2	29	_	_	xx	xx	_	_	_	_	_	unknown	_	Volume=low	_		_	_	_
+29-23	SP2	29	_	_	xx	x	_	_	_	_	_	unknown	_	Volume=low	_		_	_	_
 29-24	SP2	29	_	_	quindi°	quindi	_	_	_	_	_	linguistic	_	Volume=low	_		_	_	_
 29-25	SP2	29	_	_	{ride}	{ride}	_	_	_	_	_	metalinguistic	_		End=58.754		_	_	_
 30-0	SP1	30	_	_	vabbé	vabbé	_	_	_	_	_	linguistic	_		Begin=58.896		_	_	_
@@ -507,7 +507,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 78-12	SP2	78	_	_	da	da	_	_	_	_	_	linguistic	_		_		_	_	_
 78-13	SP2	78	_	_	fare	fare	_	_	_	_	_	linguistic	_		_		_	_	_
 78-14	SP2	78	_	_	se	se	_	_	_	_	_	linguistic	_		_		_	_	_
-78-15	SP2	78	_	_	xx	xx	_	_	_	_	_	unknown	_		_		_	_	_
+78-15	SP2	78	_	_	xx	x	_	_	_	_	_	unknown	_		_		_	_	_
 78-16	SP2	78	_	_	esci	esci	_	_	_	_	_	linguistic	_		_		_	_	_
 78-17	SP2	78	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
 78-18	SP2	78	_	_	pieno	pieno	_	_	_	_	_	linguistic	_		_		_	_	_
