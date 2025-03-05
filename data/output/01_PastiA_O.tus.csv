@@ -74,7 +74,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 73	SP1	132.54	133.16	0.62	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	<no>	<no>	no
 74	SP1	134.56	134.85	0.29	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mh	mh	mh
 75	SP2	135.16	135.72	0.56	True	0	0	0	0	0	0	0	1	False	False	False	False	False	_	0	0	0	1	[cosa?]	[cosa]?	cosa
-76	SP6	135.16	136.19	1.03	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[xxx co]mo:	[xxx co]mo:	xxx como
+76	SP6	135.16	136.19	1.03	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[xxx co]mo:	[xxx co]mo:	x como
 77	SP1	136.7	139.7	3.0	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	eh lo so però non: mi sono abituata non so perché	eh lo so però non: mi sono abituata non so perché	eh lo so però non mi sono abituata non so perché
 78	SP3	141.06	141.53	0.47	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	vabbé	vabbé	vabbé
 79	SP3	141.72	142.44	0.72	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	che problema hai?	che problema hai?	che problema hai
@@ -94,7 +94,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 93	SP5	175.64	177.42	1.78	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	10	io comunque non so voi ma ho ancora fame voi?	io comunque non so voi ma ho ancora fame voi?	io comunque non so voi ma ho ancora fame voi
 94	SP6	178.16	180.86	2.7	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	io: non particolarmente ma [(vi va)] di queste melanzanette	io: non particolarmente ma [(vi va)] di queste melanzanette	io non particolarmente ma vi va di queste melanzanette
 95	SP1	179.46	179.94	0.48	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[io no]	[io no]	io no
-96	SP4	181.09	184.58	3.59	True	0	0	0	0	0	0	1	0	False	False	False	False	False	_	1	0	0	7	io voglio quelle zucchine di emiliana (.) non [xxxx]	io voglio quelle zucchine di emiliana {P} non [xxxx]	io voglio quelle zucchine di emiliana {P} non xxxx
+96	SP4	181.09	184.58	3.59	True	0	0	0	0	0	0	1	0	False	False	False	False	False	_	1	0	0	7	io voglio quelle zucchine di emiliana (.) non [xxxx]	io voglio quelle zucchine di emiliana {P} non [xxxx]	io voglio quelle zucchine di emiliana {P} non x
 97	SP6	184.15	184.68	0.53	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[(è onto)]	[(è onto)]	è onto
 98	SP1	184.76999999999998	187.97	3.3	True	0	0	0	0	0	0	1	0	False	False	False	False	False	_	0	0	0	14	Smettila tanto se già le hai assaggiate mamma mia mi fanno schifo ste cose	Smettila tanto se già le hai assaggiate mamma mia mi fanno schifo ste cose	smettila tanto se già le hai assaggiate mamma mia mi fanno schifo ste cose
 99	SP3	189.53	189.92	0.39	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	vabbé	vabbé	vabbé
@@ -103,7 +103,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 102	SP6	197.24	198.04	0.8	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	3	è vero (.) però	è vero {P} però	è vero {P} però
 103	SP1	198.12	199.05	0.93	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	no son bruttissime	no son bruttissime	no son bruttissime
 104	SP6	199.1	199.53	0.43	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	(Vi)	(Vi)	vi
-105	SP6	199.91	203.08	3.17	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	10	xxxx se fai questa cattiva pubblicità roberto non se le mangia	xxxx se fai questa cattiva pubblicità roberto non se le mangia	xxxx se fai questa cattiva pubblicità roberto non se le mangia
+105	SP6	199.91	203.08	3.17	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	10	xxxx se fai questa cattiva pubblicità roberto non se le mangia	xxxx se fai questa cattiva pubblicità roberto non se le mangia	x se fai questa cattiva pubblicità roberto non se le mangia
 106	SP4	204.05	207.09	3.04	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	ma a me manco piacciono mi piacciono solo quelle di mamma	ma a me manco piacciono mi piacciono solo quelle di mamma	ma a me manco piacciono mi piacciono solo quelle di mamma
 107	SP6	208.07	208.32	0.25	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	uhm	uhm	uhm
 108	SP6	208.91	210.63	1.72	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	a me piacciono soltanto quelle della mamma di roberto	a me piacciono soltanto quelle della mamma di roberto	a me piacciono soltanto quelle della mamma di roberto
@@ -120,7 +120,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 119	SP6	226.95	227.68	0.73	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[che ne pensate]?	[che ne pensate]?	che ne pensate
 120	SP5	228.06	228.64	0.58	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	beh peccato	beh peccato	beh peccato
 121	SP1	229.12	230.22	1.1	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	è un po' uno spreco	è un po' uno spreco	è un po' uno spreco
-122	SP6	231.22	233.57	2.35	True	0	0	0	0	0	0	0	0	False	False	False	False	True	123=1.150	0	0	0	9	e lo so raga però: pure io xxxx per forza	e lo so raga però: pure io xxxx per forza	e lo so raga però pure io xxxx per forza
+122	SP6	231.22	233.57	2.35	True	0	0	0	0	0	0	0	0	False	False	False	False	True	123=1.150	0	0	0	9	e lo so raga però: pure io xxxx per forza	e lo so raga però: pure io xxxx per forza	e lo so raga però pure io x per forza
 123	SP5	232.42	235.68	3.26	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	[però sono veramente bru]tte queste sembrano finte mamma mia che è?	[però sono veramente bru]tte queste sembrano finte mamma mia che è?	però sono veramente brutte queste sembrano finte mamma mia che è
 124	SP1	235.73	237.36	1.63	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	eh sono bruttissime:	eh sono bruttissime:	eh sono bruttissime
 125	SP5	237.51	238.9	1.39	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	non hanno texture sono	non hanno texture sono	non hanno texture sono
@@ -128,7 +128,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 127	SP1	244.65	244.99	0.34	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mh	mh	mh
 128	SP2	246.05	246.63	0.58	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	(baresa)	(baresa)	baresa
 129	SP1	246.74	250.34	3.6	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	16	no ma ce ne sono delle marche in barattolo che sono nuove ma queste proprio brutte	no ma ce ne sono delle marche in barattolo che sono nuove ma queste proprio brutte	no ma ce ne sono delle marche in barattolo che sono nuove ma queste proprio brutte
-130	SP6	250.47	253.87	3.4	True	0	0	0	0	0	0	0	0	False	False	False	False	True	131=1.130	0	0	0	12	no ma questo (sarò) da amico in teoria dovrebbe cioè (marca xxx) costa	no ma questo (sarò) da amico in teoria dovrebbe cioè (marca xxx) costa	no ma questo sarò da amico in teoria dovrebbe cioè marca xxx costa
+130	SP6	250.47	253.87	3.4	True	0	0	0	0	0	0	0	0	False	False	False	False	True	131=1.130	0	0	0	12	no ma questo (sarò) da amico in teoria dovrebbe cioè (marca xxx) costa	no ma questo (sarò) da amico in teoria dovrebbe cioè (marca xxx) costa	no ma questo sarò da amico in teoria dovrebbe cioè marca x costa
 131	SP2	252.43	253.56	1.13	True	0	0	0	0	0	0	0	0	False	False	False	False	True	130=1.130	0	0	0	2	costano eh	costano eh	costano eh
 132	SP2	254.12	255.12	1.0	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	costano queste	costano queste	costano queste
 133	SP1	256.39	257.79	1.4	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	come mai mamma l'ha comprata	come mai mamma l'ha comprata	come mai mamma l' ha comprata
@@ -149,7 +149,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 148	SP1	282.954	283.664	0.81	True	0	0	0	0	0	0	1	0	False	False	False	False	False	_	0	0	0	2	è buonissima	è buonissima	è buonissima
 149	SP2	284.093	285.527	1.434	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	mamma mia mai mangiato un pane così	mamma mia mai mangiato un pane così	mamma mia mai mangiato un pane così
 150	SP3	286.429	286.792	0.363	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	vero	vero	vero
-151	SP2	289.288	293.381	4.093	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	12	è anche più buono di quello al viallaggio della paninoteca: eh della: [xxx]	è anche più buono di quello al viallaggio della paninoteca: eh della: [xxx]	è anche più buono di quello al viallaggio della paninoteca eh della xxx
+151	SP2	289.288	293.381	4.093	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	12	è anche più buono di quello al viallaggio della paninoteca: eh della: [xxx]	è anche più buono di quello al viallaggio della paninoteca: eh della: [xxx]	è anche più buono di quello al viallaggio della paninoteca eh della x
 152	SP1	292.173	293.389	1.216	True	0	0	0	0	0	0	0	1	False	False	False	False	False	_	0	0	0	4	[pure secondo me sai?]	[pure secondo me sai]?	pure secondo me sai
 153	SP5	293.819	294.173	0.354	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	come si chiama?	come si chiama?	come si chiama
 154	SP3	294.46	295.146	0.686	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	la (panichelli)	la (panichelli)	la panichelli

@@ -68,7 +68,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 16-2	SP2	16	_	_	fatto	fatto	_	_	_	_	_	linguistic	_		_		_	_	_
 16-3	SP2	16	_	_	però	però	_	_	_	_	_	linguistic	_		_		_	_	_
 16-4	SP2	16	_	_	praticamente	praticamente	_	_	_	_	_	linguistic	_		_		_	_	_
-16-5	SP2	16	_	_	xxx	xxx	_	_	_	_	_	unknown	_		_		_	_	_
+16-5	SP2	16	_	_	xxx	x	_	_	_	_	_	unknown	_		_		_	_	_
 16-6	SP2	16	_	_	messo::	messo	_	_	_	_	_	linguistic	_		End=25.3520000000001	4x2	_	_	_
 17-0	SP2	17	_	_	cioè	cioè	_	_	_	_	_	linguistic	_		Begin=25.5450000000001		_	_	_
 17-1	SP2	17	_	_	tutt~	tutt~	_	_	_	_	_	linguistic	_	Interrupted=Yes	_		_	_	_
@@ -185,7 +185,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 34-4	SP2	34	_	_	non	non	_	_	_	_	_	linguistic	_		_		_	_	_
 34-5	SP2	34	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
 34-6	SP2	34	_	_	vero	vero	_	_	_	_	_	linguistic	_		_		_	_	_
-34-7	SP2	34	_	_	xx	xx	_	_	_	_	_	unknown	_		_		_	_	_
+34-7	SP2	34	_	_	xx	x	_	_	_	_	_	unknown	_		_		_	_	_
 34-8	SP2	34	_	_	>A	a	_	_	_	_	_	linguistic	_	Volume=high	_		Fast=0-1(0)	_	_
 34-9	SP2	34	_	_	PARTE	parte	_	_	_	_	_	linguistic	_	Volume=high	_		Fast=0-5(0)	_	_
 34-10	SP2	34	_	_	IL	il	_	_	_	_	_	linguistic	_	Volume=high	_		Fast=0-2(0)	_	_
@@ -613,7 +613,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 85-9	SP2	85	_	_	tagliata	tagliata	_	_	_	_	_	linguistic	_		_		_	_	_
 85-10	SP2	85	_	_	piccolina	piccolina	_	_	_	_	_	linguistic	_		_		_	_	_
 85-11	SP2	85	_	_	piccolina	piccolina	_	_	_	_	_	linguistic	_		End=174.272		_	_	_
-86-0	SP3	86	_	_	[xxxxx]	xxxxx	_	_	_	_	_	unknown	_		End=171.828		_	_	0-5(85)
+86-0	SP3	86	_	_	[xxxxx]	x	_	_	_	_	_	unknown	_		End=171.828		_	_	0-5(85)
 87-0	SP3	87	_	_	secondo	secondo	_	_	_	_	_	linguistic	_		Begin=174.278		_	_	_
 87-1	SP3	87	_	_	me	me	_	_	_	_	_	linguistic	_		_		_	_	_
 87-2	SP3	87	_	_	la	la	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -738,7 +738,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 107-3	SP1	107	_	_	cach	cach	_	_	_	_	_	linguistic	_		End=213.7		_	_	_
 108-0	SP3	108	_	_	avete	avete	_	_	_	_	_	linguistic	_		Begin=214.615		_	_	_
 108-1	SP3	108	_	_	mangiato	mangiato	_	_	_	_	_	linguistic	_		_		_	_	_
-108-2	SP3	108	_	_	[xxx]?	xxx	_	_	_	_	_	unknown	_	Intonation=ascending	End=215.968		_	_	0-3(109)
+108-2	SP3	108	_	_	[xxx]?	x	_	_	_	_	_	unknown	_	Intonation=ascending	End=215.968		_	_	0-3(109)
 109-0	SP2	109	_	_	[sì	sì	_	_	_	_	_	linguistic	_		Begin=215.037		_	_	0-2(108)
 109-1	SP2	109	_	_	ma	ma	_	_	_	_	_	linguistic	_		_		_	_	0-2(108)
 109-2	SP2	109	_	_	questo	questo	_	_	_	_	_	linguistic	_		_		_	_	0-6(108)
@@ -863,7 +863,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 120-0	SP1	120	_	_	ecco	ecco	_	_	_	_	_	linguistic	_		Begin=259.146		_	_	_
 120-1	SP1	120	_	_	qua	qua	_	_	_	_	_	linguistic	_		End=259.456		_	_	_
 121-0	SP3	121	_	_	aspe'	aspe'	_	_	_	_	_	linguistic	_	Truncated=Yes	Begin=260.405		_	_	_
-121-1	SP3	121	_	_	xx	xx	_	_	_	_	_	unknown	_		_		_	_	_
+121-1	SP3	121	_	_	xx	x	_	_	_	_	_	unknown	_		_		_	_	_
 121-2	SP3	121	_	_	jà	jà	_	_	_	_	_	linguistic	_		_		_	_	_
 121-3	SP3	121	_	_	digeri[amo]	digeriamo	_	_	_	_	_	linguistic	_		End=262.08299999999997		_	_	6-9(?)
 122-0	SP2	122	_	_	[sì]	sì	_	_	_	_	_	linguistic	_		Begin=262.094		_	_	0-2(?)

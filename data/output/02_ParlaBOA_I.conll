@@ -137,12 +137,12 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 19-5	SP2	19	_	_	i	i	_	_	_	_	_	linguistic	_		_		_	_	0-1(20)
 19-6	SP2	19	_	_	cremonini]	cremonini	_	_	_	_	_	linguistic	_		_		_	_	0-9(20)
 19-7	SP2	19	_	_	{ride}	{ride}	_	_	_	_	_	metalinguistic	_		End=52.6		_	_	_
-20-0	SP1	20	_	_	[°xx	xx	_	_	_	_	_	unknown	_	Volume=low	Begin=50.16		_	_	0-2(19)
+20-0	SP1	20	_	_	[°xx	x	_	_	_	_	_	unknown	_	Volume=low	Begin=50.16		_	_	0-2(19)
 20-1	SP1	20	_	_	neanche	neanche	_	_	_	_	_	linguistic	_	Volume=low	_		_	_	0-7(19)
 20-2	SP1	20	_	_	io°	io	_	_	_	_	_	linguistic	_	Volume=low	_		_	_	0-2(19)
-20-3	SP1	20	_	_	xx]	xx	_	_	_	_	_	unknown	_		End=52.47		_	_	0-2(19)
+20-3	SP1	20	_	_	xx]	x	_	_	_	_	_	unknown	_		End=52.47		_	_	0-2(19)
 21-0	SP2	21	_	_	però	però	_	_	_	_	_	linguistic	_		Begin=52.72		_	_	_
-21-1	SP2	21	_	_	xx	xx	_	_	_	_	_	unknown	_		_		_	_	_
+21-1	SP2	21	_	_	xx	x	_	_	_	_	_	unknown	_		_		_	_	_
 21-2	SP2	21	_	_	sì	sì	_	_	_	_	_	linguistic	_		_		_	_	_
 21-3	SP2	21	_	_	(tre	tre	_	_	_	_	_	linguistic	_		_		_	0-3(0)	_
 21-4	SP2	21	_	_	anni)	anni	_	_	_	_	_	linguistic	_		_		_	0-4(0)	_
@@ -176,7 +176,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 23-0	SP2	23	_	_	{ride}	{ride}	_	_	_	_	_	metalinguistic	_		Begin=59.5		_	_	_
 23-1	SP2	23	_	_	°ma	ma	_	_	_	_	_	linguistic	_	Volume=low	_		_	_	_
 23-2	SP2	23	_	_	sì	sì	_	_	_	_	_	linguistic	_	Volume=low	_		_	_	_
-23-3	SP2	23	_	_	xx	xx	_	_	_	_	_	unknown	_	Volume=low	_		_	_	_
+23-3	SP2	23	_	_	xx	x	_	_	_	_	_	unknown	_	Volume=low	_		_	_	_
 23-4	SP2	23	_	_	infatti°	infatti	_	_	_	_	_	linguistic	_	Volume=low	End=62.73		_	_	_
 24-0	SP1	24	_	_	e:	e	_	_	_	_	_	linguistic	_		Begin=63.0	0x1	_	_	_
 24-1	SP1	24	_	_	anche	anche	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -533,7 +533,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 63-0	SP1	63	_	_	[è	è	_	_	_	_	_	linguistic	_		Begin=178.41		_	_	0-1(62)
 63-1	SP1	63	_	_	vero]	vero	_	_	_	_	_	linguistic	_		End=179.33		_	_	0-4(62)
 64-0	SP2	64	_	_	e::h	eh	_	_	_	_	_	linguistic	_		Begin=180.18	0x2	_	_	_
-64-1	SP2	64	_	_	xx	xx	_	_	_	_	_	unknown	_		_		_	_	_
+64-1	SP2	64	_	_	xx	x	_	_	_	_	_	unknown	_		_		_	_	_
 64-2	SP2	64	_	_	senti	senti	_	_	_	_	_	linguistic	_		_		_	_	_
 64-3	SP2	64	_	_	che	che	_	_	_	_	_	linguistic	_		_		_	_	_
 64-4	SP2	64	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_

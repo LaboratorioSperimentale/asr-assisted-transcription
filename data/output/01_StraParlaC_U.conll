@@ -18,7 +18,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 4-6	SP2	4	_	_	in	in	_	_	_	_	_	linguistic	_		_		_	_	_
 4-7	SP2	4	_	_	città	città	_	_	_	_	_	linguistic	_		End=4.98		_	_	_
 5-0	SP1	5	_	_	okay	okay	_	_	_	_	_	linguistic	_		End=5.42		_	_	_
-6-0	SP2	6	_	_	xxxx	xxxx	_	_	_	_	_	unknown	_		End=6.02		_	_	_
+6-0	SP2	6	_	_	xxxx	x	_	_	_	_	_	unknown	_		End=6.02		_	_	_
 7-0	SP1	7	_	_	okay	okay	_	_	_	_	_	linguistic	_		Begin=5.56		_	_	_
 7-1	SP1	7	_	_	>okay	okay	_	_	_	_	_	linguistic	_		_		Fast=0-4(0)	_	_
 7-2	SP1	7	_	_	okay<	okay	_	_	_	_	_	linguistic	_		End=6.68		Fast=0-4(0)	_	_
@@ -32,13 +32,13 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 11-0	SP1	11	_	_	e	e	_	_	_	_	_	linguistic	_		Begin=8.83		_	_	_
 11-1	SP1	11	_	_	se	se	_	_	_	_	_	linguistic	_		_		_	_	_
 11-2	SP1	11	_	_	devi:	devi	_	_	_	_	_	linguistic	_		End=10.08	3x1	_	_	_
-12-0	SP1	12	_	_	xx	xx	_	_	_	_	_	unknown	_		End=11.78		_	_	_
+12-0	SP1	12	_	_	xx	x	_	_	_	_	_	unknown	_		End=11.78		_	_	_
 13-0	SP2	13	_	_	°(vabbè	vabbè	_	_	_	_	_	linguistic	_	Volume=low	Begin=13.67		_	0-5(0)	_
 13-1	SP2	13	_	_	adesso	adesso	_	_	_	_	_	linguistic	_	Volume=low	_		_	0-6(0)	_
 13-2	SP2	13	_	_	faccio	faccio	_	_	_	_	_	linguistic	_	Volume=low	_		_	0-6(0)	_
 13-3	SP2	13	_	_	finire)°	finire	_	_	_	_	_	linguistic	_	Volume=low	End=15.61		_	0-6(0)	_
 14-0	SP1	14	_	_	sì	sì	_	_	_	_	_	linguistic	_		End=16.49		_	_	_
-15-0	SP2	15	_	_	xxxxxx	xxxxxx	_	_	_	_	_	unknown	_		End=19.38		_	_	_
+15-0	SP2	15	_	_	xxxxxx	x	_	_	_	_	_	unknown	_		End=19.38		_	_	_
 16-0	SP1	16	_	_	°sta	sta	_	_	_	_	_	linguistic	_	Volume=low	Begin=19.64		_	_	_
 16-1	SP1	16	_	_	andando	andando	_	_	_	_	_	linguistic	_	Volume=low	_		_	_	_
 16-2	SP1	16	_	_	abbastanza	abbastanza	_	_	_	_	_	linguistic	_	Volume=low	_		_	_	_
@@ -191,7 +191,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 80-0	SP1	80	_	_	sì	sì	_	_	_	_	_	linguistic	_		Begin=79.396		_	_	_
 80-1	SP1	80	_	_	[sì	sì	_	_	_	_	_	linguistic	_		_		_	_	0-2(81)
 80-2	SP1	80	_	_	certo]	certo	_	_	_	_	_	linguistic	_		End=80.248		_	_	0-5(81)
-81-0	SP2	81	_	_	xxxxxx	xxxxxx	_	_	_	_	_	unknown	_		End=80.5		_	_	_
+81-0	SP2	81	_	_	xxxxxx	x	_	_	_	_	_	unknown	_		End=80.5		_	_	_
 82-0	SP2	82	_	_	capitale	capitale	_	_	_	_	_	linguistic	_		Begin=80.504		_	_	_
 82-1	SP2	82	_	_	che	che	_	_	_	_	_	linguistic	_		_		_	_	_
 82-2	SP2	82	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -241,7 +241,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 95-0	SP2	95	_	_	<quattrocento>quattordici	quattrocentoquattordici	_	_	_	_	_	linguistic	_		Begin=95.992		Slow=0-12(0)	_	_
 95-1	SP2	95	_	_	metri	metri	_	_	_	_	_	linguistic	_		_		_	_	_
 95-2	SP2	95	_	_	quadrati	quadrati	_	_	_	_	_	linguistic	_		End=98.644		_	_	_
-96-0	SP1	96	_	_	xx	xx	_	_	_	_	_	unknown	_		Begin=98.744		_	_	_
+96-0	SP1	96	_	_	xx	x	_	_	_	_	_	unknown	_		Begin=98.744		_	_	_
 96-1	SP1	96	_	_	mh	mh	_	_	_	_	_	linguistic	_		End=99.544		_	_	_
 97-0	SP1	97	_	_	perché	perché	_	_	_	_	_	linguistic	_		Begin=99.66		_	_	_
 97-1	SP1	97	_	_	conteranno	conteranno	_	_	_	_	_	linguistic	_		End=100.448		_	_	_
@@ -312,8 +312,8 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 120-1	SP1	120	_	_	iniziative	iniziative	_	_	_	_	_	linguistic	_		_		_	_	_
 120-2	SP1	120	_	_	culturali	culturali	_	_	_	_	_	linguistic	_		End=119.096		_	_	_
 121-0	SP2	121	_	_	sì	sì	_	_	_	_	_	linguistic	_		End=119.644		_	_	_
-122-0	SP1	122	_	_	xx	xx	_	_	_	_	_	unknown	_		End=120.86		_	_	_
-123-0	SP2	123	_	_	xxxx[xxxxx]	xxxxxxxxx	_	_	_	_	_	unknown	_		End=122.244		_	_	4-9(124)
+122-0	SP1	122	_	_	xx	x	_	_	_	_	_	unknown	_		End=120.86		_	_	_
+123-0	SP2	123	_	_	xxxx[xxxxx]	x	_	_	_	_	_	unknown	_		End=122.244		_	_	4-9(124)
 124-0	SP1	124	_	_	[dei	dei	_	_	_	_	_	linguistic	_		Begin=121.444		_	_	0-3(123)
 124-1	SP1	124	_	_	siti	siti	_	_	_	_	_	linguistic	_		_		_	_	0-4(123)
 124-2	SP1	124	_	_	sto]rici?	storici	_	_	_	_	_	linguistic	_	Intonation=ascending	End=122.672		_	_	0-3(123)
@@ -322,7 +322,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 125-2	SP1	125	_	_	cosa:?	cosa	_	_	_	_	_	linguistic	_	Intonation=ascending	End=123.632	3x1	_	_	_
 126-0	SP2	126	_	_	no	no	_	_	_	_	_	linguistic	_		Begin=123.632		_	_	_
 126-1	SP2	126	_	_	[sì	sì	_	_	_	_	_	linguistic	_		_		_	_	0-2(127)
-126-2	SP2	126	_	_	xx]	xx	_	_	_	_	_	unknown	_		End=124.44		_	_	0-2(127)
+126-2	SP2	126	_	_	xx]	x	_	_	_	_	_	unknown	_		End=124.44		_	_	0-2(127)
 127-0	SP1	127	_	_	[o	o	_	_	_	_	_	linguistic	_		Begin=123.904		_	_	0-1(126)
 127-1	SP1	127	_	_	archeo]logici?	archeologici	_	_	_	_	_	linguistic	_	Intonation=ascending	End=124.792		_	_	0-6(126)
 128-0	SP2	128	_	_	no	no	_	_	_	_	_	linguistic	_		Begin=125.328		_	_	_

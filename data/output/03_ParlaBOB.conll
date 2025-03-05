@@ -1,5 +1,5 @@
 token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_label	jefferson_feats	align	prolongations	pace	guesses	overlaps
-1-0	SP1	1	_	_	xx	xx	_	_	_	_	_	unknown	_		Begin=0.0		_	_	_
+1-0	SP1	1	_	_	xx	x	_	_	_	_	_	unknown	_		Begin=0.0		_	_	_
 1-1	SP1	1	_	_	infatti	infatti	_	_	_	_	_	linguistic	_		_		_	_	_
 1-2	SP1	1	_	_	il	il	_	_	_	_	_	linguistic	_		_		_	_	_
 1-3	SP1	1	_	_	fatto	fatto	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -12,7 +12,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 2-1	SP1	2	_	_	impattato	impattato	_	_	_	_	_	linguistic	_		_		_	_	_
 2-2	SP1	2	_	_	molto	molto	_	_	_	_	_	linguistic	_		_		_	_	_
 2-3	SP1	2	_	_	anche	anche	_	_	_	_	_	linguistic	_		_		_	_	_
-2-4	SP1	2	_	_	[xx	xx	_	_	_	_	_	unknown	_		_		_	_	0-2(3)
+2-4	SP1	2	_	_	[xx	x	_	_	_	_	_	unknown	_		_		_	_	0-2(3)
 2-5	SP1	2	_	_	gli	gli	_	_	_	_	_	linguistic	_		_		_	_	0-3(3)
 2-6	SP1	2	_	_	affitti]	affitti	_	_	_	_	_	linguistic	_		End=5.81799999999998		_	_	0-7(3)
 3-0	SP2	3	_	_	[eh	eh	_	_	_	_	_	linguistic	_		Begin=4.80999999999995		_	_	0-2(2)
@@ -78,7 +78,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 15-3	SP1	15	_	_	vogliano	vogliano	_	_	_	_	_	linguistic	_		End=27.6799999999998		_	_	_
 16-0	SP2	16	_	_	eh	eh	_	_	_	_	_	linguistic	_		Begin=27.8		_	_	_
 16-1	SP2	16	_	_	sì	sì	_	_	_	_	_	linguistic	_		_		_	_	_
-16-2	SP2	16	_	_	[xxxx]	xxxx	_	_	_	_	_	unknown	_		_		_	_	0-4(17)
+16-2	SP2	16	_	_	[xxxx]	x	_	_	_	_	_	unknown	_		_		_	_	0-4(17)
 16-3	SP2	16	_	_	sì	sì	_	_	_	_	_	linguistic	_		_		_	_	_
 16-4	SP2	16	_	_	sì	sì	_	_	_	_	_	linguistic	_		_		_	_	_
 16-5	SP2	16	_	_	sì	sì	_	_	_	_	_	linguistic	_		End=29.915		_	_	_
@@ -327,7 +327,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 63-4	SP1	63	_	_	nell	nell'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
 63-5	SP1	63	_	_	ufficio	ufficio	_	_	_	_	_	linguistic	_		End=118.27		_	_	_
 64-0	SP1	64	_	_	e:h	eh	_	_	_	_	_	linguistic	_		Begin=118.38	0x1	_	_	_
-64-1	SP1	64	_	_	nomeluogo	nomeluogo	_	_	_	_	_	linguistic	_		_		_	_	_
+64-1	SP1	64	_	_	@nomeluogo	@nomeluogo	_	_	_	_	_	error	_		_		_	_	_
 64-2	SP1	64	_	_	dell	dell'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
 64-3	SP1	64	_	_	università	università	_	_	_	_	_	linguistic	_		_		_	_	_
 64-4	SP1	64	_	_	di	di	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -342,7 +342,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 66-5	SP1	66	_	_	che	che	_	_	_	_	_	linguistic	_		_		_	_	_
 66-6	SP1	66	_	_	si	si	_	_	_	_	_	linguistic	_		_		_	_	_
 66-7	SP1	66	_	_	chiama	chiama	_	_	_	_	_	linguistic	_		_		_	_	_
-66-8	SP1	66	_	_	nomeluogo,	nomeluogo	_	_	_	_	_	linguistic	_	Intonation=weakly_ascending	End=125.505		_	_	_
+66-8	SP1	66	_	_	@nomeluogo,	@nomeluogo,	_	_	_	_	_	error	_		End=125.505		_	_	_
 67-0	SP1	67	_	_	che	che	_	_	_	_	_	linguistic	_		Begin=126.3		_	_	_
 67-1	SP1	67	_	_	si	si	_	_	_	_	_	linguistic	_		_		_	_	_
 67-2	SP1	67	_	_	occupa	occupa	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -1629,7 +1629,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 313-1	SP2	313	_	_	dai	dai	_	_	_	_	_	linguistic	_		_		_	_	_
 313-2	SP2	313	_	_	[però	però	_	_	_	_	_	linguistic	_		_		_	_	0-4(314)
 313-3	SP2	313	_	_	almeno]	almeno	_	_	_	_	_	linguistic	_		End=572.433		_	_	0-6(314)
-314-0	SP1	314	_	_	[xxx]	xxx	_	_	_	_	_	unknown	_		End=572.191		_	_	0-3(313)
+314-0	SP1	314	_	_	[xxx]	x	_	_	_	_	_	unknown	_		End=572.191		_	_	0-3(313)
 315-0	SP2	315	_	_	sì	sì	_	_	_	_	_	linguistic	_		Begin=572.51		_	_	_
 315-1	SP2	315	_	_	sì	sì	_	_	_	_	_	linguistic	_		_		_	_	_
 315-2	SP2	315	_	_	no	no	_	_	_	_	_	linguistic	_		_		_	_	_

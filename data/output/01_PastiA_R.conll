@@ -87,7 +87,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 12-15	SP2	12	_	_	sopra	sopra	_	_	_	_	_	linguistic	_		End=34.046		_	_	_
 13-0	SP1	13	_	_	[no:]	no	_	_	_	_	_	linguistic	_		End=34.857	1x1	_	_	0-2(14)
 14-0	SP3	14	_	_	[no]?	no	_	_	_	_	_	linguistic	_	Intonation=ascending	End=34.757		_	_	0-2(13)
-15-0	SP1	15	_	_	xxx	xxx	_	_	_	_	_	unknown	_		End=36.316		_	_	_
+15-0	SP1	15	_	_	xxx	x	_	_	_	_	_	unknown	_		End=36.316		_	_	_
 16-0	SP2	16	_	_	guà	guà	_	_	_	_	_	linguistic	_		Begin=36.763		_	_	_
 16-1	SP2	16	_	_	mi	mi	_	_	_	_	_	linguistic	_		_		_	_	_
 16-2	SP2	16	_	_	piacevano	piacevano	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -225,7 +225,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 40-4	SP3	40	_	_	fatta	fatta	_	_	_	_	_	linguistic	_		_		_	_	_
 40-5	SP3	40	_	_	molla	molla	_	_	_	_	_	linguistic	_		_		_	_	_
 40-6	SP3	40	_	_	strana	strana	_	_	_	_	_	linguistic	_		_		_	_	_
-40-7	SP3	40	_	_	[xxx]	xxx	_	_	_	_	_	unknown	_		End=77.304		_	_	0-3(41)
+40-7	SP3	40	_	_	[xxx]	x	_	_	_	_	_	unknown	_		End=77.304		_	_	0-3(41)
 41-0	SP2	41	_	_	[si	si	_	_	_	_	_	linguistic	_		Begin=76.617		_	_	0-2(?)
 41-1	SP2	41	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	0-1(?)
 41-2	SP2	41	_	_	bruciata]	bruciata	_	_	_	_	_	linguistic	_		_		_	_	0-8(?)

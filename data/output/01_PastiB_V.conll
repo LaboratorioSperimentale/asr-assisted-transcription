@@ -47,7 +47,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 8-12	SP2	8	_	_	padella	padella	_	_	_	_	_	linguistic	_		End=15.76		_	_	_
 9-0	SP3	9	_	_	[nella	nella	_	_	_	_	_	linguistic	_		Begin=13.39		_	_	0-5(8)
 9-1	SP3	9	_	_	padella]	padella	_	_	_	_	_	linguistic	_		End=14.36		_	_	0-7(8)
-10-0	SP2	10	_	_	xxxx	xxxx	_	_	_	_	_	unknown	_		Begin=16.97		_	_	_
+10-0	SP2	10	_	_	xxxx	x	_	_	_	_	_	unknown	_		Begin=16.97		_	_	_
 10-1	SP2	10	_	_	ha	ha	_	_	_	_	_	linguistic	_		_		_	_	_
 10-2	SP2	10	_	_	detto	detto	_	_	_	_	_	linguistic	_		_		_	_	_
 10-3	SP2	10	_	_	metti:	metti	_	_	_	_	_	linguistic	_		_	4x1	_	_	_
@@ -132,7 +132,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 14-6	SP2	14	_	_	vuoi	vuoi	_	_	_	_	_	linguistic	_		End=49.15		_	_	_
 15-0	SP3	15	_	_	u:	u	_	_	_	_	_	linguistic	_		Begin=49.295	0x1	_	_	_
 15-1	SP3	15	_	_	[ma	ma	_	_	_	_	_	linguistic	_		_		_	_	0-2(16)
-15-2	SP3	15	_	_	xxxx]	xxxx	_	_	_	_	_	unknown	_		End=50.8		_	_	0-4(16)
+15-2	SP3	15	_	_	xxxx]	x	_	_	_	_	_	unknown	_		End=50.8		_	_	0-4(16)
 16-0	SP2	16	_	_	[mangiati	mangiati	_	_	_	_	_	linguistic	_		Begin=49.82		_	_	0-8(15)
 16-1	SP2	16	_	_	tu	tu	_	_	_	_	_	linguistic	_		_		_	_	0-2(15)
 16-2	SP2	16	_	_	il	il	_	_	_	_	_	linguistic	_		_		_	_	0-2(15)
@@ -146,7 +146,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 16-10	SP2	16	_	_	ne	ne	_	_	_	_	_	linguistic	_		_		_	_	_
 16-11	SP2	16	_	_	dici,	dici	_	_	_	_	_	linguistic	_	Intonation=weakly_ascending	End=51.93		_	_	_
 17-0	SP1	17	_	_	{ride}	{ride}	_	_	_	_	_	metalinguistic	_		End=53.39		_	_	_
-18-0	SP2	18	_	_	°[xxx]	xxx	_	_	_	_	_	unknown	_	Volume=low	Begin=53.07		_	_	0-3(19)
+18-0	SP2	18	_	_	°[xxx]	x	_	_	_	_	_	unknown	_	Volume=low	Begin=53.07		_	_	0-3(19)
 18-1	SP2	18	_	_	sto	sto	_	_	_	_	_	linguistic	_	Volume=low	_		_	_	_
 18-2	SP2	18	_	_	pancake°	pancake	_	_	_	_	_	linguistic	_	Volume=low	End=55.27		_	_	_
 19-0	SP3	19	_	_	[stronzo]	stronzo	_	_	_	_	_	linguistic	_		End=54.13		_	_	0-7(18)
@@ -157,7 +157,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 20-4	SP1	20	_	_	abbiamo	abbiamo	_	_	_	_	_	linguistic	_		_		_	_	_
 20-5	SP1	20	_	_	mangiato	mangiato	_	_	_	_	_	linguistic	_		_		_	_	_
 20-6	SP1	20	_	_	{P}	{P}	_	_	_	_	_	shortpause	_		_		_	_	_
-20-7	SP1	20	_	_	[xxx	xxx	_	_	_	_	_	unknown	_		_		_	_	0-3(21)
+20-7	SP1	20	_	_	[xxx	x	_	_	_	_	_	unknown	_		_		_	_	0-3(21)
 20-8	SP1	20	_	_	dalla	dalla	_	_	_	_	_	linguistic	_		_		_	_	0-5(21)
 20-9	SP1	20	_	_	non]na	nonna	_	_	_	_	_	linguistic	_		End=59.929		_	_	0-3(21)
 21-0	SP2	21	_	_	io	io	_	_	_	_	_	linguistic	_		Begin=58.05		_	_	_
@@ -294,11 +294,11 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 31-23	SP2	31	_	_	in	in	_	_	_	_	_	linguistic	_		_		_	_	_
 31-24	SP2	31	_	_	una	una	_	_	_	_	_	linguistic	_		_		_	_	_
 31-25	SP2	31	_	_	bustina	bustina	_	_	_	_	_	linguistic	_		End=90.22		_	_	_
-32-0	SP3	32	_	_	[xxxx]	xxxx	_	_	_	_	_	unknown	_		End=84.34		_	_	0-4(31)
+32-0	SP3	32	_	_	[xxxx]	x	_	_	_	_	_	unknown	_		End=84.34		_	_	0-4(31)
 33-0	SP3	33	_	_	[ne	ne	_	_	_	_	_	linguistic	_		Begin=89.3		_	_	0-2(31)
 33-1	SP3	33	_	_	avete	avete	_	_	_	_	_	linguistic	_		_		_	_	0-5(31)
 33-2	SP3	33	_	_	fatto]	fatto	_	_	_	_	_	linguistic	_		_		_	_	0-5(31)
-33-3	SP3	33	_	_	xxx	xxx	_	_	_	_	_	unknown	_		End=90.38		_	_	_
+33-3	SP3	33	_	_	xxx	x	_	_	_	_	_	unknown	_		End=90.38		_	_	_
 34-0	SP2	34	_	_	o	o	_	_	_	_	_	linguistic	_		Begin=90.38		_	_	_
 34-1	SP2	34	_	_	ho	ho	_	_	_	_	_	linguistic	_		_		_	_	_
 34-2	SP2	34	_	_	detto	detto	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -421,7 +421,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 42-6	SP2	42	_	_	così	così	_	_	_	_	_	linguistic	_		_		_	_	_
 42-7	SP2	42	_	_	ovviamente?	ovviamente	_	_	_	_	_	linguistic	_	Intonation=ascending	End=118.949		_	_	_
 43-0	SP3	43	_	_	{sospira}	{sospira}	_	_	_	_	_	metalinguistic	_		Begin=120.147		_	_	_
-43-1	SP3	43	_	_	[xx]	xx	_	_	_	_	_	unknown	_		End=121.17		_	_	0-2(44)
+43-1	SP3	43	_	_	[xx]	x	_	_	_	_	_	unknown	_		End=121.17		_	_	0-2(44)
 44-0	SP1	44	_	_	allo-	allo-	_	_	_	_	_	linguistic	_	Interrupted=Yes	Begin=120.63		_	_	_
 44-1	SP1	44	_	_	che	che	_	_	_	_	_	linguistic	_		_		_	_	_
 44-2	SP1	44	_	_	(nervosamente)	nervosamente	_	_	_	_	_	linguistic	_		_		_	0-12(0)	_
@@ -471,7 +471,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 49-20	SP1	49	_	_	un	un'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
 49-21	SP1	49	_	_	insalatina	insalatina	_	_	_	_	_	linguistic	_		_		_	_	7-10(?)
 49-22	SP1	49	_	_	[questa]?	questa	_	_	_	_	_	linguistic	_	Intonation=ascending	End=137.72		_	_	0-4(?)
-50-0	SP2	50	_	_	[xxxxx	xxxxx	_	_	_	_	_	unknown	_		Begin=129.92		_	_	0-5(49)
+50-0	SP2	50	_	_	[xxxxx	x	_	_	_	_	_	unknown	_		Begin=129.92		_	_	0-5(49)
 50-1	SP2	50	_	_	dentro]	dentro	_	_	_	_	_	linguistic	_		End=131.25		_	_	0-6(49)
 51-0	SP3	51	_	_	[cioe]?	cioe	_	_	_	_	_	linguistic	_	Intonation=ascending	End=132.79		_	_	0-4(49)
 52-0	SP3	52	_	_	[di	di	_	_	_	_	_	linguistic	_		Begin=133.18		_	_	0-2(49)
@@ -596,7 +596,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 60-12	SP2	60	_	_	piccolina	piccolina	_	_	_	_	_	linguistic	_		_		_	_	_
 60-13	SP2	60	_	_	picco[lina]	piccolina	_	_	_	_	_	linguistic	_		End=174.83		_	_	4-9(62)
 61-0	SP3	61	_	_	[oh	oh	_	_	_	_	_	linguistic	_		Begin=170.29		_	_	0-2(60)
-61-1	SP3	61	_	_	xxxx]	xxxx	_	_	_	_	_	unknown	_		End=172.185		_	_	0-4(60)
+61-1	SP3	61	_	_	xxxx]	x	_	_	_	_	_	unknown	_		End=172.185		_	_	0-4(60)
 62-0	SP3	62	_	_	[no:	no	_	_	_	_	_	linguistic	_		Begin=174.07	1x1	_	_	0-2(60)
 62-1	SP3	62	_	_	>seco]ndo	secondo	_	_	_	_	_	linguistic	_		_		Fast=0-7(0)	_	0-4(60)
 62-2	SP3	62	_	_	me	me	_	_	_	_	_	linguistic	_		_		Fast=0-2(0)	_	_
@@ -606,7 +606,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 62-6	SP3	62	_	_	ci	ci	_	_	_	_	_	linguistic	_		_		_	_	_
 62-7	SP3	62	_	_	sta	sta	_	_	_	_	_	linguistic	_		_		_	_	_
 62-8	SP3	62	_	_	be-	be-	_	_	_	_	_	linguistic	_	Interrupted=Yes	End=175.66		_	_	_
-63-0	SP2	63	_	_	xx	xx	_	_	_	_	_	unknown	_		Begin=175.74		_	_	_
+63-0	SP2	63	_	_	xx	x	_	_	_	_	_	unknown	_		Begin=175.74		_	_	_
 63-1	SP2	63	_	_	stava	stava	_	_	_	_	_	linguistic	_		_		_	_	_
 63-2	SP2	63	_	_	bene	bene	_	_	_	_	_	linguistic	_		End=176.57		_	_	_
 64-0	SP3	64	_	_	°sì?°	sì	_	_	_	_	_	linguistic	_	Intonation=ascending|Volume=low	End=176.8		_	_	_

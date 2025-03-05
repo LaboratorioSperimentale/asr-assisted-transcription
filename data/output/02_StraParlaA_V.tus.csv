@@ -36,7 +36,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 35	SP2	97.3	98.0	0.7	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mhmh	mhmh	mhmh
 36	SP1	98.24	102.93	4.69	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	9	già (.) mille eh mil- millecento milledue- millecento milleduecento dopo	già {P} mille eh mil- millecento milledue- millecento milleduecento dopo	già {P} mille eh mil- millecento milledue- millecento milleduecento dopo
 37	SP1	103.06	110.59	7.53	True	1	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	22	perché non è che è solo che devo pagare la macchina la benzina e:  e anche il parcheggio no devo fa- (as-)	perché non è che è solo che devo pagare la macchina la benzina e: e anche il parcheggio no devo fa- (as-)	perché non è che è solo che devo pagare la macchina la benzina e e anche il parcheggio no devo fa- as-
-38	SP2	110.74	111.317	0.577	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	xxx	xxx	xxx
+38	SP2	110.74	111.317	0.577	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	xxx	xxx	x
 39	SP1	111.78	117.48	5.7	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	18	allora come la città se tu paghi duecento eu- cioè duecento euro in più. ma ti trovi tutto	allora come la città se tu paghi duecento eu- cioè duecento euro in più. ma ti trovi tutto	allora come la città se tu paghi duecento eu- cioè duecento euro in più ma ti trovi tutto
 40	SP2	117.62	119.24	1.62	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	4	certo sì (.) certo certo	certo sì {P} certo certo	certo sì {P} certo certo
 41	SP1	119.36	124.56	5.2	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	16	come da là per fare una spesa io devo fare cioè dieci chilometri cinque chilometri almeno	come da là per fare una spesa io devo fare cioè dieci chilometri cinque chilometri almeno	come da là per fare una spesa io devo fare cioè dieci chilometri cinque chilometri almeno
@@ -90,7 +90,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 89	SP2	235.38	235.59	0.21	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	e	e	e
 90	SP1	235.7	237.74	2.04	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	però eh tutti quanti lo sanno anche italiano	però eh tutti quanti lo sanno anche italiano	però eh tutti quanti lo sanno anche italiano
 91	SP2	237.9	242.58	4.68	True	0	0	0	0	0	0	0	1	False	False	False	False	False	_	0	0	0	15	ok [e lo mischiate un po' co]n l'ital[iano] nquando parlate fra di [voi o?]	ok [e lo mischiate un po' co]n l'ital[iano] nquando parlate fra di [voi o]?	ok e lo mischiate un po' con l' italiano nquando parlate fra di voi o
-92	SP1	238.456	239.994	1.538	True	1	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	0	[xxx  ((ride))]	[xxx {ride}]	xxx {ride}
+92	SP1	238.456	239.994	1.538	True	1	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	0	[xxx  ((ride))]	[xxx {ride}]	x {ride}
 93	SP1	240.361	241.02	0.659	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[sì sì]	[sì sì]	sì sì
 94	SP1	242.14	243.21	1.07	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[sì] sì	[sì] sì	sì sì
 95	SP2	243.32	244.87	1.55	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	tu hai fratelli an[che]	tu hai fratelli an[che]	tu hai fratelli anche

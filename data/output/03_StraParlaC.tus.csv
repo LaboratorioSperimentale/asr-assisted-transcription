@@ -1,6 +1,6 @@
 tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents	W:non_jefferson	W:pauses_trim	W:prosodic_trim	W:moved_boundaries	W:switches	E:volume	E:pace	E:guess	E:overlap	E:overlap_mismatch	E:overlap_duration	T:shortpauses	T:metalinguistic	T:errors	T:linguistic	annotation	correct	text
 1	SP1	0.0	1.47000000000003	1.47	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	ci sono delle università?	ci sono delle università?	ci sono delle università
-2	SP2	2.24000000000001	5.19299999999998	2.953	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	sì [no le università è pro]prio in città [xxx]	sì [no le università è pro]prio in città [xxx]	sì no le università è proprio in città xxx
+2	SP2	2.24000000000001	5.19299999999998	2.953	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	sì [no le università è pro]prio in città [xxx]	sì [no le università è pro]prio in città [xxx]	sì no le università è proprio in città x
 3	SP1	2.56000000000017	3.80000000000018	1.24	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	[o più nella capita-]	[o più nella capita-]	o più nella capita-
 4	SP1	4.80000000000018	6.3900000000001	1.59	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	4	[okay] (.) okay okay okay	[okay] {P} okay okay okay	okay {P} okay okay okay
 5	SP1	6.51300000000015	9.62000000000012	3.107	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	10	[e s-] (.) in capitale in capitale okay [eh se] devi::	[e s-] {P} in capitale in capitale okay [eh se] devi::	e s- {P} in capitale in capitale okay eh se devi
@@ -9,7 +9,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 8	SP1	10.4350000000002	11.4350000000002	1.0	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	°posso anche°	°posso anche°	posso anche
 9	SP2	13.74	15.22	1.48	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	°vabbè adesso faccio finire qui°	°vabbè adesso faccio finire qui°	vabbè adesso faccio finire qui
 10	SP3	15.232	15.7640000000001	0.532	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	°sì°	°sì°	sì
-11	SP2	17.0930000000001	18.45	1.357	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	xx così che ci vengono	xx così che ci vengono	xx così che ci vengono
+11	SP2	17.0930000000001	18.45	1.357	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	xx così che ci vengono	xx così che ci vengono	x così che ci vengono
 12	SP1	19.25	20.6870000000001	1.437	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	°sta andando abbastanza bene no?°	°sta andando abbastanza bene no?°	sta andando abbastanza bene no
 13	SP3	21.0140000000001	21.421	0.407	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	°sì°	°sì°	sì
 14	SP1	21.4670000000001	23.1290000000001	1.662	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	°proviamo vedere se:°	°proviamo vedere se:°	proviamo vedere se
@@ -31,9 +31,9 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 30	SP2	59.6520000000001	63.0070000000001	3.355	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	da: mh dove di: pilastro, fino a di:	da: mh dove di: pilastro, fino a di:	da mh dove di pilastro fino a di
 31	SP1	63.0130000000001	63.4300000000001	0.417	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	mhmh	mhmh	mhmh
 32	SP2	63.4860000000001	65.374	1.888	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	fino a di: mh	fino a di: mh	fino a di mh
-33	SP1	65.694	67.222	1.528	True	0	0	0	0	0	0	0	0	False	False	False	False	True	35+34=0.118,35+36=0.111	0	0	0	4	tipo casalecchio la [ba]rca xxxx	tipo casalecchio la [ba]rca xxxx	tipo casalecchio la barca xxxx
+33	SP1	65.694	67.222	1.528	True	0	0	0	0	0	0	0	0	False	False	False	False	True	35+34=0.118,35+36=0.111	0	0	0	4	tipo casalecchio la [ba]rca xxxx	tipo casalecchio la [ba]rca xxxx	tipo casalecchio la barca x
 34	SP2	66.6660000000002	67.069	0.403	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[sì]	[sì]	sì
-35	SP3	66.951	68.3400000000002	1.389	True	0	0	0	0	0	0	0	0	False	False	False	False	True	33+34=0.118,33+36=0.111	0	0	0	0	[xxxx]	[xxxx]	xxxx
+35	SP3	66.951	68.3400000000002	1.389	True	0	0	0	0	0	0	0	0	False	False	False	False	True	33+34=0.118,33+36=0.111	0	0	0	0	[xxxx]	[xxxx]	x
 36	SP2	67.1110000000001	69.249	2.138	True	0	0	0	0	0	0	0	0	False	False	False	False	True	37=0.208,33+35=0.111	0	0	0	4	[sì proprio sì casa]lecchio	[sì proprio sì casa]lecchio	sì proprio sì casalecchio
 37	SP1	69.0410000000002	70.4160000000002	1.375	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	[sì] sì [sì sì]	[sì] sì [sì sì]	sì sì sì sì
 38	SP2	69.3220000000001	72.9400000000001	3.618	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	12	[sì pro]prio il quadrato di: dentro c'è proprio quelle che le-	[sì pro]prio il quadrato di: dentro c'è proprio quelle che le-	sì proprio il quadrato di dentro c' è proprio quelle che le-

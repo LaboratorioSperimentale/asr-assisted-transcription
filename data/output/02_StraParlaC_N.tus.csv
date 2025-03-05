@@ -27,10 +27,10 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 26	SP2	59.972	63.275	3.403	True	0	0	0	0	0	0	1	0	False	False	False	False	False	_	0	0	0	7	da:mh dove di: pilastro, fino a di:	da:mh dove di: pilastro, fino a di:	damh dove di pilastro fino a di
 27	SP1	63.333	63.75	0.417	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	mh mh	mh mh	mh mh
 28	SP2	63.806	65.694	1.888	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	fino a di:mh	fino a di:mh	fino a dimh
-29	SP1	66.014	67.44200000000001	1.528	True	0	0	0	0	0	0	1	0	False	False	False	False	True	30=0.403,31=0.011	0	0	0	4	tipo casalecchio la [ba]rca xxxx	tipo casalecchio la [ba]rca xxxx	tipo casalecchio la barca xxxx
+29	SP1	66.014	67.44200000000001	1.528	True	0	0	0	0	0	0	1	0	False	False	False	False	True	30=0.403,31=0.011	0	0	0	4	tipo casalecchio la [ba]rca xxxx	tipo casalecchio la [ba]rca xxxx	tipo casalecchio la barca x
 30	SP2	66.986	67.389	0.403	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[sì]	[sì]	sì
 31	SP2	67.431	69.569	2.138	True	0	0	0	0	0	0	0	0	False	False	False	False	True	29=0.011,32=1.389,33=0.208	0	0	0	4	[sì proprio sì casa]lecchio	[sì proprio sì casa]lecchio	sì proprio sì casalecchio
-32	SP3	67.444	68.833	1.389	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	[xxxx]	[xxxx]	xxxx
+32	SP3	67.444	68.833	1.389	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	[xxxx]	[xxxx]	x
 33	SP3	69.361	70.736	1.375	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	[sì] sì [sì sì]	[sì] sì [sì sì]	sì sì sì sì
 34	SP2	69.642	73.639	3.997	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	12	[sì pro]prio il quadrato di: dentro c'è proprio quelle che le-	[sì pro]prio il quadrato di: dentro c'è proprio quelle che le-	sì proprio il quadrato di dentro c' è proprio quelle che le-
 35	SP2	73.735	76.301	2.566	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	7	mh quelle che comune di bologna (.) esempio	mh quelle che comune di bologna {P} esempio	mh quelle che comune di bologna {P} esempio

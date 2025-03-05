@@ -847,7 +847,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 140-10	SP2	140	_	_	parli	parli	_	_	_	_	_	linguistic	_		_		_	_	_
 140-11	SP2	140	_	_	pre-	pre-	_	_	_	_	_	linguistic	_	Interrupted=Yes	_		_	_	_
 140-12	SP2	140	_	_	pr[evalentemente	prevalentemente	_	_	_	_	_	linguistic	_		_		_	_	2-15(141)
-140-13	SP2	140	_	_	xx	xx	_	_	_	_	_	unknown	_		_		_	_	0-2(141)
+140-13	SP2	140	_	_	xx	x	_	_	_	_	_	unknown	_		_		_	_	0-2(141)
 140-14	SP2	140	_	_	{P}	{P}	_	_	_	_	_	shortpause	_		_		_	_	0-3(141)
 140-15	SP2	140	_	_	(tutte	tutte	_	_	_	_	_	linguistic	_		_		_	0-5(0)	0-5(141)
 140-16	SP2	140	_	_	e	e	_	_	_	_	_	linguistic	_		_		_	0-1(0)	0-1(141)

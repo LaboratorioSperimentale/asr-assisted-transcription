@@ -43,7 +43,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 42	SP2	109.42	113.819	4.399	True	0	1	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	13	no non è che da sempre sì da circa 15 anni già passa[to]	no non è che da sempre sì da circa quindici anni già passa[to]	no non è che da sempre sì da circa quindici anni già passato
 43	SP1	113.502	113.818	0.316	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[okay]	[okay]	okay
 44	SP1	114.139	114.278	0.139	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	okay	okay	okay
-45	SP2	114.279	114.832	0.553	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	xxx	xxx	xxx
+45	SP2	114.279	114.832	0.553	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	xxx	xxx	x
 46	SP1	115.008	118.159	3.151	True	0	0	0	0	0	0	0	0	False	False	False	False	True	48=0.719,47=0.199	0	0	0	6	beh comunqu[e] parli ben- parli benissimo	beh comunqu[e] parli ben- parli benissimo	beh comunque parli ben- parli benissimo
 47	SP2	116.124	116.323	0.199	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[sì]	[sì]	sì
 48	SP2	117.44	119.18	1.74	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	[beh qui]ndici anni eh	[beh qui]ndici anni eh	beh quindici anni eh

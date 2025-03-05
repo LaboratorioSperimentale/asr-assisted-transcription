@@ -11,7 +11,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 10	SP2	22.165	24.958	2.793	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	5	non contenta (.) il fiordilatte dentro	non contenta {P} il fiordilatte dentro	non contenta {P} il fiordilatte dentro
 11	SP2	25.262	27.972	2.71	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	5	non contenta (.) il parmigiano sopra	non contenta {P} il parmigiano sopra	non contenta {P} il parmigiano sopra
 12	SP1	29.0	29.931	0.931	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	e lo (scono)	e lo (scono)	e lo scono
-13	SP2	30.72	34.04	3.32	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	16	non contento mi ha detto eh se c'avevo gli xx ci mettevo pure le noci sopra	non contento mi ha detto eh se c'avevo gli xx ci mettevo pure le noci sopra	non contento mi ha detto eh se c' avevo gli xx ci mettevo pure le noci sopra
+13	SP2	30.72	34.04	3.32	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	16	non contento mi ha detto eh se c'avevo gli xx ci mettevo pure le noci sopra	non contento mi ha detto eh se c'avevo gli xx ci mettevo pure le noci sopra	non contento mi ha detto eh se c' avevo gli x ci mettevo pure le noci sopra
 14	SP1	34.24	35.013	0.773	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[no::]	[no::]	no
 15	SP3	34.296	34.951	0.655	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[(bravo)]	[(bravo)]	bravo
 16	SP1	35.51	36.627	1.117	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	che bravo	che bravo	che bravo
@@ -31,7 +31,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 30	SP3	59.324	59.979	0.655	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[°lo] zucchinone°	[°lo] zucchinone°	lo zucchinone
 31	SP4	59.979	62.268	2.289	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	una l'ho fatta l'altra:: mh	una l'ho fatta l'altra:: mh	una l' ho fatta l' altra mh
 32	SP1	62.268	64.69	2.422	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	10	eh ma l'[altra metà] perché metà [si deve ta]glia:re	eh ma l'[altra metà] perché metà [si deve ta]glia:re	eh ma l' altra metà perché metà si deve tagliare
-33	SP4	62.717	63.303	0.586	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[(come) xx]	[(come) xx]	come xx
+33	SP4	62.717	63.303	0.586	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[(come) xx]	[(come) xx]	come x
 34	SP4	63.613	63.979	0.366	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[eh]	[eh]	eh
 35	SP4	64.724	69.213	4.489	True	0	0	0	0	0	0	0	0	False	False	False	False	True	36=1.552	0	0	0	16	perché nel frigo: sarà troppo forte: se: mh il ghiaccio l'ha tipo un po': mh	perché nel frigo: sarà troppo forte: se: mh il ghiaccio l'ha tipo un po': mh	perché nel frigo sarà troppo forte se mh il ghiaccio l' ha tipo un po' mh
 36	SP1	65.606	67.158	1.552	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[il ghiaccio:: latte:]	[il ghiaccio:: latte:]	il ghiaccio latte
@@ -39,7 +39,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 38	SP3	71.103	71.551	0.448	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[m:h]	[m:h]	mh
 39	SP4	72.172	74.02	1.848	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	cioè si è fatta tipo molla [stra:na]	cioè si è fatta tipo molla [stra:na]	cioè si è fatta tipo molla strana
 40	SP3	73.317	74.36	1.043	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[si è congelata]	[si è congelata]	si è congelata
-41	SP4	75.36	77.324	1.964	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	eh ma si è fatta molla [stra:na xx]	eh ma si è fatta molla [stra:na xx]	eh ma si è fatta molla strana xx
+41	SP4	75.36	77.324	1.964	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	eh ma si è fatta molla [stra:na xx]	eh ma si è fatta molla [stra:na xx]	eh ma si è fatta molla strana x
 42	SP3	76.365	78.082	1.717	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	[eh si è brucia:ta] si è::	[eh si è brucia:ta] si è::	eh si è bruciata si è
 43	SP4	78.144	79.944	1.8	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	bravo tipo forse una bruciatura dal gelo	bravo tipo forse una bruciatura dal gelo	bravo tipo forse una bruciatura dal gelo
 44	SP3	80.58	81.02	0.44	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	m:h	m:h	mh
@@ -109,13 +109,13 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 108	SP2	220.24	222.248	2.008	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	7	no non sono buone (.) sono brutte proprio	no non sono buone {P} sono brutte proprio	no non sono buone {P} sono brutte proprio
 109	SP4	222.261	223.308	1.047	True	0	0	0	0	0	0	0	1	False	False	False	False	False	_	0	0	0	3	[le vuoi buttare?]	[le vuoi buttare]?	le vuoi buttare
 110	SP1	222.268	223.657	1.389	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[sì sono brutte:]	[sì sono brutte:]	sì sono brutte
-111	SP3	223.84	226.201	2.361	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	che dite le buttiamo e come xxxxx madre di roberto?	che dite le buttiamo e come xxxxx madre di roberto?	che dite le buttiamo e come xxxxx madre di roberto
+111	SP3	223.84	226.201	2.361	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	che dite le buttiamo e come xxxxx madre di roberto?	che dite le buttiamo e come xxxxx madre di roberto?	che dite le buttiamo e come x madre di roberto
 112	SP1	226.389	227.221	0.832	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[e::h]	[e::h]	eh
 113	SP3	226.9	227.8	0.9	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[che ne] pensate?	[che ne] pensate?	che ne pensate
 114	SP2	227.993	228.78	0.787	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	beh peccato	beh peccato	beh peccato
 115	SP1	228.98	230.402	1.422	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	[un po' uno s]pre:co	[un po' uno s]pre:co	un po' uno spreco
 116	SP3	229.107	229.55	0.443	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[m:h]	[m:h]	mh
-117	SP3	231.2	233.68	2.48	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	eh lo so ragà però [pure io non posso xxx per forza]	eh lo so ragà però [pure io non posso xxx per forza]	eh lo so ragà però pure io non posso xxx per forza
+117	SP3	231.2	233.68	2.48	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	eh lo so ragà però [pure io non posso xxx per forza]	eh lo so ragà però [pure io non posso xxx per forza]	eh lo so ragà però pure io non posso x per forza
 118	SP2	232.61	235.671	3.061	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	12	[però sono veramente brutte] queste mamma mia sembrano finte ma che è	[però sono veramente brutte] queste mamma mia sembrano finte ma che è	però sono veramente brutte queste mamma mia sembrano finte ma che è
 119	SP1	235.684	237.369	1.685	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	e:h sono bruttissime::	e:h sono bruttissime::	eh sono bruttissime
 120	SP2	237.7	239.161	1.461	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	non hanno una texture sono	non hanno una texture sono	non hanno una texture sono
@@ -132,14 +132,14 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 131	SP1	258.624	259.979	1.355	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	0	((ride))	{ride}	{ride}
 132	SP2	259.791	260.644	0.853	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	>ha fatto i [soldi]<	>ha fatto i [soldi]<	ha fatto i soldi
 133	SP1	260.295	261.953	1.658	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	2	[scusa:] ((ride)) infatti	[scusa:] {ride} infatti	scusa {ride} infatti
-134	SP4	261.979	264.805	2.826	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	13	infatti quando xxx una portata che non era la mb ho detto oh [oh]	infatti quando xxx una portata che non era la mb ho detto oh [oh]	infatti quando xxx una portata che non era la mb ho detto oh oh
+134	SP4	261.979	264.805	2.826	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	13	infatti quando xxx una portata che non era la mb ho detto oh [oh]	infatti quando xxx una portata che non era la mb ho detto oh [oh]	infatti quando x una portata che non era la mb ho detto oh oh
 135	SP1	264.402	265.61	1.208	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	2	[ma scusami] ((ride))	[ma scusami] {ride}	ma scusami {ride}
 136	SP4	265.738	266.751	1.013	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	qualcosa non va	qualcosa non va	qualcosa non va
 137	SP2	267.54	269.98	2.44	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	10	vabbè ma:: le ragà: loro vanno anche alla conad no?	vabbè ma:: le ragà: loro vanno anche alla conad no?	vabbè ma le ragà loro vanno anche alla conad no
 138	SP1	270.805	272.691	1.886	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	4	sì però: in genere: ((ride))	sì però: in genere: {ride}	sì però in genere {ride}
-139	SP3	273.214	274.651	1.437	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[xxx] (e::i)	[xxx] (e::i)	xxx ei
+139	SP3	273.214	274.651	1.437	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[xxx] (e::i)	[xxx] (e::i)	x ei
 140	SP1	273.22	274.154	0.934	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[è il pa:ne]	[è il pa:ne]	è il pane
-141	SP4	273.228	273.946	0.718	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	[xxx]	[xxx]	xxx
+141	SP4	273.228	273.946	0.718	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	[xxx]	[xxx]	x
 142	SP1	274.78	275.611	0.831	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	perché::	perché::	perché
 143	SP1	276.784	280.345	3.561	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	14	no sul pane abbiamo un inizio ma su tutto il resto siamo abbastanza: chill	no sul pane abbiamo un inizio ma su tutto il resto siamo abbastanza: chill	no sul pane abbiamo un inizio ma su tutto il resto siamo abbastanza chill
 144	SP2	280.366	283.086	2.72	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	beh il pane della conad algeli:: [buono]	beh il pane della conad algeli:: [buono]	beh il pane della conad algeli buono

@@ -43,7 +43,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 42	SP1	103.582	108.667	5.085	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	14	e: e quindi sì >c(io)è< sicuramente ci sono buone opportunità secodno me a bologna:	e: e quindi sì >c(io)è< sicuramente ci sono buone opportunità secodno me a bologna:	e e quindi sì cioè sicuramente ci sono buone opportunità secodno me a bologna
 43	SP1	109.192	113.461	4.269	True	0	0	0	0	0	0	0	0	False	False	False	False	True	44=0.461,45=0.696	0	0	0	18	°e° in tutta la regione penso [che sia] la città in cui: in cui si trova più lavoro	°e° in tutta la regione penso [che sia] la città in cui: in cui si trova più lavoro	e in tutta la regione penso che sia la città in cui in cui si trova più lavoro
 44	SP2	110.511	110.972	0.461	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[mh mh]	[mh mh]	mh mh
-45	SP2	112.713	113.409	0.696	True	0	0	0	0	0	0	0	0	False	False	False	False	True	43=0.696	0	0	0	0	xxx	xxx	xxx
+45	SP2	112.713	113.409	0.696	True	0	0	0	0	0	0	0	0	False	False	False	False	True	43=0.696	0	0	0	0	xxx	xxx	x
 46	SP2	113.553	113.876	0.323	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	mh [mh]	mh [mh]	mh mh
 47	SP1	113.686	113.991	0.305	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[sì]	[sì]	sì
 48	SP2	114.089	116.106	2.117	True	0	0	0	0	0	0	1	1	False	False	False	False	False	_	0	0	0	8	e quindi tu di cosa ti occupi?: a:	e quindi tu di cosa ti occupi:? a:	e quindi tu di cosa ti occupi a

@@ -64,7 +64,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 11-14	SP2	11	_	_	prima	prima	_	_	_	_	_	linguistic	_		_		_	_	_
 11-15	SP2	11	_	_	era	era	_	_	_	_	_	linguistic	_		_		_	_	_
 11-16	SP2	11	_	_	una	una	_	_	_	_	_	linguistic	_		_		_	_	_
-11-17	SP2	11	_	_	nomenegozio	nomenegozio	_	_	_	_	_	linguistic	_		End=21.82		_	_	_
+11-17	SP2	11	_	_	@nomenegozio	@nomenegozio	_	_	_	_	_	error	_		End=21.82		_	_	_
 12-0	SP2	12	_	_	poi	poi	_	_	_	_	_	linguistic	_		Begin=22.65		_	_	_
 12-1	SP2	12	_	_	hanno::	hanno	_	_	_	_	_	linguistic	_		_	4x2	_	_	_
 12-2	SP2	12	_	_	<chiuso>	chiuso	_	_	_	_	_	linguistic	_		_		Slow=0-6(0)	_	_
@@ -114,7 +114,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 16-20	SP1	16	_	_	alla	alla	_	_	_	_	_	linguistic	_		_		_	_	_
 16-21	SP1	16	_	_	copisteria	copisteria	_	_	_	_	_	linguistic	_		_		_	_	_
 16-22	SP1	16	_	_	di	di	_	_	_	_	_	linguistic	_		_		_	_	_
-16-23	SP1	16	_	_	nomeluogo	nomeluogo	_	_	_	_	_	linguistic	_		End=43.05		_	_	_
+16-23	SP1	16	_	_	@nomeluogo	@nomeluogo	_	_	_	_	_	error	_		End=43.05		_	_	_
 17-0	SP2	17	_	_	sì	sì	_	_	_	_	_	linguistic	_		End=43.55		_	_	_
 18-0	SP1	18	_	_	a	a	_	_	_	_	_	linguistic	_		Begin=43.64		_	_	_
 18-1	SP1	18	_	_	chiedere	chiedere	_	_	_	_	_	linguistic	_		End=44.04		_	_	_
@@ -460,7 +460,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 68-4	SP2	68	_	_	il:	il	_	_	_	_	_	linguistic	_		_	1x1	_	_	_
 68-5	SP2	68	_	_	m::h	mh	_	_	_	_	_	linguistic	_		_	0x2	_	_	_
 68-6	SP2	68	_	_	{P}	{P}	_	_	_	_	_	shortpause	_		_		_	_	_
-68-7	SP2	68	_	_	nomescuola	nomescuola	_	_	_	_	_	linguistic	_		End=150.54		_	_	_
+68-7	SP2	68	_	_	@nomescuola	@nomescuola	_	_	_	_	_	error	_		End=150.54		_	_	_
 69-0	SP1	69	_	_	okay	okay	_	_	_	_	_	linguistic	_		End=150.98		_	_	_
 70-0	SP2	70	_	_	che	che	_	_	_	_	_	linguistic	_		Begin=151.34		_	_	_
 70-1	SP2	70	_	_	per	per	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -479,11 +479,11 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 70-14	SP2	70	_	_	trasferito	trasferito	_	_	_	_	_	linguistic	_		_		_	_	_
 70-15	SP2	70	_	_	{P}	{P}	_	_	_	_	_	shortpause	_		_		_	_	_
 70-16	SP2	70	_	_	in	in	_	_	_	_	_	linguistic	_		_		_	_	_
-70-17	SP2	70	_	_	nomescuola	nomescuola	_	_	_	_	_	linguistic	_		End=159.4		_	_	_
+70-17	SP2	70	_	_	@nomescuola	@nomescuola	_	_	_	_	_	error	_		End=159.4		_	_	_
 71-0	SP1	71	_	_	oka[y]	okay	_	_	_	_	_	linguistic	_		End=160.007		_	_	3-4(72)
 72-0	SP2	72	_	_	[a]desso	adesso	_	_	_	_	_	linguistic	_		Begin=159.873		_	_	0-1(71)
 72-1	SP2	72	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
-72-2	SP2	72	_	_	nomescuol[a]	nomescuola	_	_	_	_	_	linguistic	_		End=161.418		_	_	9-10(73)
+72-2	SP2	72	_	_	@nomescuol[a]	@nomescuola	_	_	_	_	_	error	_		End=161.418		_	_	10-11(73)
 73-0	SP1	73	_	_	[mhmh]	mhmh	_	_	_	_	_	linguistic	_		Begin=161.167		_	_	0-4(72)
 73-1	SP1	73	_	_	[e]	e	_	_	_	_	_	linguistic	_		End=161.627		_	_	0-1(74)
 74-0	SP2	74	_	_	[però]	però	_	_	_	_	_	linguistic	_		Begin=161.487		_	_	0-4(73)
@@ -494,7 +494,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 74-5	SP2	74	_	_	era	era	_	_	_	_	_	linguistic	_		_		_	_	_
 74-6	SP2	74	_	_	solo	solo	_	_	_	_	_	linguistic	_		_		_	_	_
 74-7	SP2	74	_	_	il	il	_	_	_	_	_	linguistic	_		_		_	_	_
-74-8	SP2	74	_	_	nomescuo[la]	nomescuola	_	_	_	_	_	linguistic	_		End=164.213		_	_	8-10(75)
+74-8	SP2	74	_	_	@nomescuo[la]	@nomescuola	_	_	_	_	_	error	_		End=164.213		_	_	9-11(75)
 75-0	SP1	75	_	_	[mh]mh	mhmh	_	_	_	_	_	linguistic	_		Begin=164.03		_	_	0-2(74)
 75-1	SP1	75	_	_	okay	okay	_	_	_	_	_	linguistic	_		_		_	_	_
 75-2	SP1	75	_	_	e	e	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -513,7 +513,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 76-5	SP2	76	_	_	mi	mi	_	_	_	_	_	linguistic	_		_		_	_	_
 76-6	SP2	76	_	_	sembrava	sembrava	_	_	_	_	_	linguistic	_		_		_	_	_
 76-7	SP2	76	_	_	di:	di	_	_	_	_	_	linguistic	_		_	1x1	_	_	_
-76-8	SP2	76	_	_	nomeluogo	nomeluogo	_	_	_	_	_	linguistic	_		End=171.47		_	_	_
+76-8	SP2	76	_	_	@nomeluogo	@nomeluogo	_	_	_	_	_	error	_		End=171.47		_	_	_
 77-0	SP1	77	_	_	okay	okay	_	_	_	_	_	linguistic	_		Begin=172.09		_	_	_
 77-1	SP1	77	_	_	okay	okay	_	_	_	_	_	linguistic	_		_		_	_	_
 77-2	SP1	77	_	_	okay	okay	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -522,7 +522,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 77-5	SP1	77	_	_	ho	ho	_	_	_	_	_	linguistic	_		_		_	_	_
 77-6	SP1	77	_	_	capito	capito	_	_	_	_	_	linguistic	_		End=174.66		_	_	_
 78-0	SP2	78	_	_	[il	il	_	_	_	_	_	linguistic	_		Begin=172.76		_	_	0-2(77)
-78-1	SP2	78	_	_	nomescuola]	nomescuola	_	_	_	_	_	linguistic	_		End=173.74		_	_	0-10(77)
+78-1	SP2	78	_	_	@nomescuola]	@nomescuola	_	_	_	_	_	error	_		End=173.74		_	_	0-11(77)
 79-0	SP1	79	_	_	s-	s-	_	_	_	_	_	linguistic	_	Interrupted=Yes	Begin=174.82		_	_	_
 79-1	SP1	79	_	_	[e	e	_	_	_	_	_	linguistic	_		_		_	_	0-1(80)
 79-2	SP1	79	_	_	che]	che	_	_	_	_	_	linguistic	_		_		_	_	0-3(80)
@@ -531,7 +531,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 79-5	SP1	79	_	_	si	si	_	_	_	_	_	linguistic	_		_		_	_	_
 79-6	SP1	79	_	_	studia	studia	_	_	_	_	_	linguistic	_		_		_	_	_
 79-7	SP1	79	_	_	al	al	_	_	_	_	_	linguistic	_		_		_	_	_
-79-8	SP1	79	_	_	[nomescuola]?	nomescuola	_	_	_	_	_	linguistic	_	Intonation=ascending	End=177.322		_	_	0-10(81)
+79-8	SP1	79	_	_	[@nomescuola]?	@nomescuola?	_	_	_	_	_	error	_		End=177.322		_	_	0-11(81)
 80-0	SP2	80	_	_	[sì]	sì	_	_	_	_	_	linguistic	_		End=175.47		_	_	0-2(79)
 81-0	SP2	81	_	_	[tecnico]	tecnico	_	_	_	_	_	linguistic	_		End=177.332		_	_	0-7(79)
 82-0	SP1	82	_	_	tecni[co]?	tecnico	_	_	_	_	_	linguistic	_	Intonation=ascending	End=178.04		_	_	5-7(83)

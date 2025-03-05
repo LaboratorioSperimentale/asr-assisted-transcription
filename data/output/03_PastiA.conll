@@ -166,7 +166,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 38-1	SP3	38	_	_	erano	erano	_	_	_	_	_	linguistic	_		_		_	_	_
 38-2	SP3	38	_	_	DUE	due	_	_	_	_	_	linguistic	_	Volume=high	_		_	_	_
 38-3	SP3	38	_	_	zucchino[ne]	zucchinone	_	_	_	_	_	linguistic	_		End=59.221		_	_	8-10(39)
-39-0	SP2	39	_	_	[°xx]	xx	_	_	_	_	_	unknown	_	Volume=low	Begin=59.063		_	_	0-2(38)
+39-0	SP2	39	_	_	[°xx]	x	_	_	_	_	_	unknown	_	Volume=low	Begin=59.063		_	_	0-2(38)
 39-1	SP2	39	_	_	zucchinone°	zucchinone	_	_	_	_	_	linguistic	_	Volume=low	End=59.803		_	_	_
 40-0	SP3	40	_	_	una	una	_	_	_	_	_	linguistic	_		Begin=59.827		_	_	_
 40-1	SP3	40	_	_	l	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
@@ -273,7 +273,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 57-4	SP2	57	_	_	l	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	0-2(58)
 57-5	SP2	57	_	_	ori]gano	origano	_	_	_	_	_	linguistic	_		_		_	_	0-2(58)
 57-6	SP2	57	_	_	tuttavia	tuttavia	_	_	_	_	_	linguistic	_		End=89.788		_	_	_
-58-0	SP1	58	_	_	[xx]	xx	_	_	_	_	_	unknown	_		End=88.8190000000001		_	_	0-2(57)
+58-0	SP1	58	_	_	[xx]	x	_	_	_	_	_	unknown	_		End=88.8190000000001		_	_	0-2(57)
 59-0	SP3	59	_	_	davvero	davvero	_	_	_	_	_	linguistic	_		Begin=90.6180000000001		_	_	_
 59-1	SP3	59	_	_	do~	do~	_	_	_	_	_	linguistic	_	Interrupted=Yes	_		_	_	_
 59-2	SP3	59	_	_	dovresti	dovresti	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -364,7 +364,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 69-3	SP1	69	_	_	sì	sì	_	_	_	_	_	linguistic	_		_		_	_	_
 69-4	SP1	69	_	_	questo	questo	_	_	_	_	_	linguistic	_		_		_	_	_
 69-5	SP1	69	_	_	sì	sì	_	_	_	_	_	linguistic	_		End=115.788		_	_	_
-70-0	SP3	70	_	_	[xx]	xx	_	_	_	_	_	unknown	_		End=115.0		_	_	0-2(69)
+70-0	SP3	70	_	_	[xx]	x	_	_	_	_	_	unknown	_		End=115.0		_	_	0-2(69)
 71-0	SP3	71	_	_	più	più	_	_	_	_	_	linguistic	_		Begin=116.582		_	_	_
 71-1	SP3	71	_	_	o	o	_	_	_	_	_	linguistic	_		_		_	_	_
 71-2	SP3	71	_	_	meno	meno	_	_	_	_	_	linguistic	_		End=117.114		_	_	_
@@ -435,7 +435,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 82-2	SP1	82	_	_	so	so	_	_	_	_	_	linguistic	_		_		_	_	_
 82-3	SP1	82	_	_	però	però	_	_	_	_	_	linguistic	_		_		_	_	_
 82-4	SP1	82	_	_	no	no	_	_	_	_	_	linguistic	_		_		_	_	_
-82-5	SP1	82	_	_	xx	xx	_	_	_	_	_	unknown	_		_		_	_	_
+82-5	SP1	82	_	_	xx	x	_	_	_	_	_	unknown	_		_		_	_	_
 82-6	SP1	82	_	_	mi	mi	_	_	_	_	_	linguistic	_		_		_	_	_
 82-7	SP1	82	_	_	sono	sono	_	_	_	_	_	linguistic	_		_		_	_	_
 82-8	SP1	82	_	_	abituata	abituata	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -808,7 +808,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 144-14	SP3	144	_	_	marca	marca	_	_	_	_	_	linguistic	_		_		_	_	_
 144-15	SP3	144	_	_	buona]	buona	_	_	_	_	_	linguistic	_		_		_	_	_
 144-16	SP3	144	_	_	costa	costa	_	_	_	_	_	linguistic	_		End=253.513		_	_	_
-145-0	SP1	145	_	_	[xx]	xx	_	_	_	_	_	unknown	_		End=250.694		_	_	0-2(144)
+145-0	SP1	145	_	_	[xx]	x	_	_	_	_	_	unknown	_		End=250.694		_	_	0-2(144)
 146-0	SP2	146	_	_	[COSTANO	costano	_	_	_	_	_	linguistic	_	Volume=high	Begin=252.358		_	_	0-7(144)
 146-1	SP2	146	_	_	EH]	eh	_	_	_	_	_	linguistic	_	Volume=high	End=253.082		_	_	0-2(144)
 147-0	SP1	147	_	_	°eh	eh	_	_	_	_	_	linguistic	_	Volume=low	Begin=253.552		_	_	_
@@ -853,7 +853,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 156-0	SP1	156	_	_	ma:	ma	_	_	_	_	_	linguistic	_		Begin=264.335	1x1	_	_	_
 156-1	SP1	156	_	_	scusa[mi]	scusami	_	_	_	_	_	linguistic	_		_		_	_	5-7(157)
 156-2	SP1	156	_	_	{ride}	{ride}	_	_	_	_	_	metalinguistic	_		End=265.388		_	_	_
-157-0	SP3	157	_	_	[xx]	xx	_	_	_	_	_	unknown	_		End=265.096		_	_	0-2(156)
+157-0	SP3	157	_	_	[xx]	x	_	_	_	_	_	unknown	_		End=265.096		_	_	0-2(156)
 158-0	SP3	158	_	_	qualcosa	qualcosa	_	_	_	_	_	linguistic	_		Begin=265.618		_	_	_
 158-1	SP3	158	_	_	non	non	_	_	_	_	_	linguistic	_		_		_	_	_
 158-2	SP3	158	_	_	va	va	_	_	_	_	_	linguistic	_		End=266.409		_	_	_
@@ -1083,7 +1083,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 201-1	SP1	201	_	_	lo	lo	_	_	_	_	_	linguistic	_		_		_	_	0-2(200)
 201-2	SP1	201	_	_	portava]	portava	_	_	_	_	_	linguistic	_		End=338.207		_	_	0-7(200)
 202-0	SP1	202	_	_	[giusta]mente	giustamente	_	_	_	_	_	linguistic	_		End=339.704		_	_	0-6(200)
-203-0	SP3	203	_	_	xx	xx	_	_	_	_	_	unknown	_		End=339.912		_	_	_
+203-0	SP3	203	_	_	xx	x	_	_	_	_	_	unknown	_		End=339.912		_	_	_
 204-0	SP3	204	_	_	come	come	_	_	_	_	_	linguistic	_		Begin=340.479		_	_	_
 204-1	SP3	204	_	_	si	si	_	_	_	_	_	linguistic	_		_		_	_	_
 204-2	SP3	204	_	_	dice	dice	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -1331,7 +1331,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 242-11	SP3	242	_	_	messe	messe	_	_	_	_	_	linguistic	_		_		_	_	_
 242-12	SP3	242	_	_	comunque	comunque	_	_	_	_	_	linguistic	_		_		_	_	_
 242-13	SP3	242	_	_	tante	tante	_	_	_	_	_	linguistic	_		End=425.297		_	_	_
-243-0	SP1	243	_	_	xx	xx	_	_	_	_	_	unknown	_		End=425.811		_	_	_
+243-0	SP1	243	_	_	xx	x	_	_	_	_	_	unknown	_		End=425.811		_	_	_
 244-0	SP2	244	_	_	no	no	_	_	_	_	_	linguistic	_		Begin=433.357		_	_	_
 244-1	SP2	244	_	_	non	non	_	_	_	_	_	linguistic	_		_		_	_	_
 244-2	SP2	244	_	_	possiamo	possiamo	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -1375,7 +1375,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 249-10	SP3	249	_	_	ma	ma	_	_	_	_	_	linguistic	_		_		_	_	_
 249-11	SP3	249	_	_	sarebbe	sarebbe	_	_	_	_	_	linguistic	_		_		_	_	_
 249-12	SP3	249	_	_	difficile	difficile	_	_	_	_	_	linguistic	_		End=451.037		_	_	_
-250-0	SP2	250	_	_	[xx]	xx	_	_	_	_	_	unknown	_		End=449.659		_	_	0-2(249)
+250-0	SP2	250	_	_	[xx]	x	_	_	_	_	_	unknown	_		End=449.659		_	_	0-2(249)
 251-0	SP2	251	_	_	gran	gran	_	_	_	_	_	linguistic	_		Begin=451.456		_	_	_
 251-1	SP2	251	_	_	parte	parte	_	_	_	_	_	linguistic	_		_		_	_	_
 251-2	SP2	251	_	_	dei	dei	_	_	_	_	_	linguistic	_		_		_	_	_

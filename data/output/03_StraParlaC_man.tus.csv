@@ -13,11 +13,11 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 12	SP1	10.84	11.78	0.94	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	°posso anche°	°posso anche°	posso anche
 13	SP2	13.84	15.61	1.77	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	°vabbè adesso faccio finire°	°vabbè adesso faccio finire°	vabbè adesso faccio finire
 14	SP1	15.627	16.087	0.46	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	sì	sì	sì
-15	SP2	17.43	19.38	1.95	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	xxxxxx	xxxxxx	xxxxxx
+15	SP2	17.43	19.38	1.95	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	xxxxxx	xxxxxx	x
 16	SP1	19.64	21.007	1.367	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	°sta andando abbastanza bene no?°	°sta andando abbastanza bene no?°	sta andando abbastanza bene no
 17	SP3	21.32	21.72	0.4	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	°sì°	°sì°	sì
 18	SP1	21.733	23.493	1.76	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	°proviamo a [vedere] se:°	°proviamo a [vedere] se:°	proviamo a vedere se
-19	SP3	22.146	22.786	0.64	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	[°xx°]	[°xx°]	xx
+19	SP3	22.146	22.786	0.64	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	[°xx°]	[°xx°]	x
 20	SP1	25.9	27.481	1.581	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	allora dimmi la capitale è molto gr[ande]	allora dimmi la capitale è molto gr[ande]	allora dimmi la capitale è molto grande
 21	SP2	27.125	31.425	4.3	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	10	[la capit]ale è molto grande e:h trecentosei virgola quattro e:h	[la capit]ale è molto grande e:h trecentosei virgola quattro e:h	la capitale è molto grande eh trecentosei virgola quattro eh
 22	SP2	31.699	33.262	1.563	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	chilometri quadra[ti]	chilometri quadra[ti]	chilometri quadrati
@@ -88,7 +88,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 87	SP1	120.408	120.86	0.452	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	o è il	o è il	o è il
 88	SP2	120.984	122.244	1.26	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	ma adesso [guarda che x]	ma adesso [guarda che x]	ma adesso guarda che x
 89	SP1	121.444	124.792	3.348	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	[dei siti sto]rici? o che cosa:? anche: [o archeo]logici?	[dei siti sto]rici? o che cosa:? anche: [o archeo]logici?	dei siti storici o che cosa anche o archeologici
-90	SP2	123.632	124.44	0.808	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	no [sì xx]	no [sì xx]	no sì xx
+90	SP2	123.632	124.44	0.808	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	no [sì xx]	no [sì xx]	no sì x
 91	SP2	125.328	127.348	2.02	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	5	no guar[da che] là: e:h	no guar[da che] là: e:h	no guarda che là eh
 92	SP1	125.715	125.875	0.16	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[mh]	[mh]	mh
 93	SP2	127.496	132.652	5.156	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	13	sì: proprio: m:h ci sono la città un po': un po' più culturale	sì: proprio: m:h ci sono la città un po': un po' più culturale	sì proprio mh ci sono la città un po' un po' più culturale

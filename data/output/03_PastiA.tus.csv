@@ -37,7 +37,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 36	SP1	54.5790000000001	55.0450000000001	0.466	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	va bene	va bene	va bene
 37	SP2	55.3440000000001	57.686	2.342	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	9	ma perché la zucchinona non l'avevi già fatta?	ma perché la zucchinona non l'avevi già fatta?	ma perché la zucchinona non l' avevi già fatta
 38	SP3	57.991	59.221	1.23	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	amo' erano DUE zucchino[ne]	amo' erano DUE zucchino[ne]	amo' erano due zucchinone
-39	SP2	59.063	59.803	0.74	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[°xx] zucchinone°	[°xx] zucchinone°	xx zucchinone
+39	SP2	59.063	59.803	0.74	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[°xx] zucchinone°	[°xx] zucchinone°	x zucchinone
 40	SP3	59.827	61.729	1.902	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	1	0	0	6	una l'ho fatta (.) l'altra::	una l'ho fatta {P} l'altra::	una l' ho fatta {P} l' altra
 41	SP1	61.994	64.6320000000001	2.638	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	11	eh ma l'altra [è metà] perché metà [si] deve tagliare	eh ma l'altra [è metà] perché metà [si] deve tagliare	eh ma l' altra è metà perché metà si deve tagliare
 42	SP2	62.585	63.134	0.549	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[è nel frigo]	[è nel frigo]	è nel frigo
@@ -56,7 +56,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 55	SP2	84.1020000000001	86.368	2.266	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	mi è piaciuto come le ha:: fatte rosanna	mi è piaciuto come le ha:: fatte rosanna	mi è piaciuto come le ha fatte rosanna
 56	SP1	86.856	87.32	0.464	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	olè	olè	olè
 57	SP2	87.889	89.788	1.899	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	c'ha messo [dentro l'ori]gano tuttavia	c'ha messo [dentro l'ori]gano tuttavia	c' ha messo dentro l' origano tuttavia
-58	SP1	88.4010000000001	88.8190000000001	0.418	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	[xx]	[xx]	xx
+58	SP1	88.4010000000001	88.8190000000001	0.418	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	[xx]	[xx]	x
 59	SP3	90.6180000000001	94.7280000000001	4.11	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	16	davvero do~ dovresti essere contenta è il primo: complimento da qua~ che hai cucinato qualcosa tu	davvero do~ dovresti essere contenta è il primo: complimento da qua~ che hai cucinato qualcosa tu	davvero do~ dovresti essere contenta è il primo complimento da qua~ che hai cucinato qualcosa tu
 60	SP1	93.5990000000001	95.216	1.617	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	0	((applaude))	{applaude}	{applaude}
 61	SP1	95.4630000000001	98.991	3.528	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	14	grazie gra~ me lo ricorderò a vita sappiate che non si replicherà mai più	grazie gra~ me lo ricorderò a vita sappiate che non si replicherà mai più	grazie gra~ me lo ricorderò a vita sappiate che non si replicherà mai più
@@ -68,7 +68,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 67	SP3	112.647	114.369	1.722	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	14	questo sale l'ho pre so [perché] me l'hai chiesto tu eh però	questo sale l'ho pre so [perché] me l'hai chiesto tu eh però	questo sale l' ho pre so perché me l' hai chiesto tu eh però
 68	SP1	113.3	113.491	0.191	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[eh]	[eh]	eh
 69	SP1	114.552	115.788	1.236	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	no [no s]ì sì questo sì	no [no s]ì sì questo sì	no no sì sì questo sì
-70	SP3	114.658	115.0	0.342	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	[xx]	[xx]	xx
+70	SP3	114.658	115.0	0.342	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	[xx]	[xx]	x
 71	SP3	116.582	117.114	0.532	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	più o meno	più o meno	più o meno
 72	SP1	117.975	119.434	1.459	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	no ci sono cose e cose	no ci sono cose e cose	no ci sono cose e cose
 73	SP1	120.058	123.205	3.147	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	12	però tipo la pasta me la sto mangiando quasi completamente senza sale	però tipo la pasta me la sto mangiando quasi completamente senza sale	però tipo la pasta me la sto mangiando quasi completamente senza sale
@@ -80,7 +80,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 79	SP1	134.233	134.766	0.533	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	m:h	m:h	mh
 80	SP2	135.023	135.411	0.388	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[cosa]?	[cosa]?	cosa
 81	SP3	135.027	135.96	0.933	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[che schi]fo amo'	[che schi]fo amo'	che schifo amo'
-82	SP1	136.311	139.479	3.168	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	12	eh lo so però no xx mi sono abituata non so il perché	eh lo so però no xx mi sono abituata non so il perché	eh lo so però no xx mi sono abituata non so il perché
+82	SP1	136.311	139.479	3.168	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	12	eh lo so però no xx mi sono abituata non so il perché	eh lo so però no xx mi sono abituata non so il perché	eh lo so però no x mi sono abituata non so il perché
 83	SP2	140.819	141.118	0.299	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	vabbè	vabbè	vabbè
 84	SP2	141.615	142.205	0.59	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	che problema hai	che problema hai	che problema hai
 85	SP3	142.318	142.886	0.568	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	0	((ride))	{ride}	{ride}
@@ -143,7 +143,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 142	SP2	245.712	246.532	0.82	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	BARESA	BARESA	baresa
 143	SP1	246.537	250.159	3.622	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	17	no ma ce ne sono delle marche in barattolo che sono buone ma queste sono proprio brutte	no ma ce ne sono delle marche in barattolo che sono buone ma queste sono proprio brutte	no ma ce ne sono delle marche in barattolo che sono buone ma queste sono proprio brutte
 144	SP3	250.267	253.513	3.246	True	0	0	0	0	0	0	0	0	False	False	False	True	True	145=0.306,146=0.724	1	0	0	15	vabbè [queste so]no (.) d'amico in teoria dovrebb~ le x cioè è una marca buona] costa	vabbè [queste so]no {P} d'amico in teoria dovrebb~ le x cioè è una marca buona] costa	vabbè queste sono {P} d' amico in teoria dovrebb~ le x cioè è una marca buona costa
-145	SP1	250.388	250.694	0.306	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	[xx]	[xx]	xx
+145	SP1	250.388	250.694	0.306	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	[xx]	[xx]	x
 146	SP2	252.358	253.082	0.724	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	2	[COSTANO EH]	[COSTANO EH]	costano eh
 147	SP1	253.552	253.983	0.431	True	0	0	0	0	0	0	0	0	False	False	False	False	True	_	0	0	0	4	#°eh [nu me piace°]	°eh [nu me piace°]	eh nu me piace
 148	SP2	254.042	254.991	1.049	True	0	0	0	0	0	0	1	0	False	False	False	False	True	_	0	0	0	2	[cos]tano queste	[cos]tano queste	costano queste
@@ -155,7 +155,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 154	SP1	259.988	261.702	1.714	True	2	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	3	[(scusa) ]((ride)) eh infatti	[(scusa)] {ride} eh infatti	scusa {ride} eh infatti
 155	SP3	261.95	264.321	2.371	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	15	>infatti quando luciana le ha portate< che non erano emme di ho detto oh oh	>infatti quando luciana le ha portate< che non erano emme di ho detto oh oh	infatti quando luciana le ha portate che non erano emme di ho detto oh oh
 156	SP1	264.335	265.388	1.053	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	2	ma: scusa[mi] ((ride))	ma: scusa[mi] {ride}	ma scusami {ride}
-157	SP3	264.721	265.096	0.375	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	[xx]	[xx]	xx
+157	SP3	264.721	265.096	0.375	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	[xx]	[xx]	x
 158	SP3	265.618	266.409	0.791	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	qualcosa non va	qualcosa non va	qualcosa non va
 159	SP2	267.313	269.803	2.49	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	10	vabbè ma: le: raga~ loro vanno anche alla conad no?	vabbè ma: le: raga~ loro vanno anche alla conad no?	vabbè ma le raga~ loro vanno anche alla conad no
 160	SP1	270.672	272.383	1.711	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	1	0	4	sì: però:: in genere:: ((ride))	sì: però:: in genere:: {ride}	sì però in genere {ride}
@@ -201,7 +201,7 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 200	SP3	332.862	339.199	6.337	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	22	e:::h non compro pane noi no~ quando stavamo qua non compravamo pane perché zio daniele ce lo porta[va che lavora]va nel [panetti]::~	e:::h non compro pane noi no~ quando stavamo qua non compravamo pane perché zio daniele ce lo porta[va che lavora]va nel [panetti]::~	eh non compro pane noi no~ quando stavamo qua non compravamo pane perché zio daniele ce lo portava che lavorava nel panetti~
 201	SP1	337.499	338.207	0.708	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	[ve lo portava]	[ve lo portava]	ve lo portava
 202	SP1	338.918	339.704	0.786	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[giusta]mente	[giusta]mente	giustamente
-203	SP3	339.704	339.912	0.208	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	xx	xx	xx
+203	SP3	339.704	339.912	0.208	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	xx	xx	x
 204	SP3	340.479	341.273	0.794	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	4	come si dice panettificio?	come si dice panettificio?	come si dice panettificio
 205	SP1	341.622	343.333	1.711	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	ma quindi non le apriamo quelle di alberto?	ma quindi non le apriamo quelle di alberto?	ma quindi non le apriamo quelle di alberto
 206	SP2	344.946	348.659	3.713	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	13	aprile dai amo' queste so' veramente brutte tu le v~ le mangi però?	aprile dai amo' queste so' veramente brutte tu le v~ le mangi però?	aprile dai amo' queste so' veramente brutte tu le v~ le mangi però
@@ -241,14 +241,14 @@ tu_id	speaker	start	end	duration	include	W:normalized_spaces	W:numbers	W:accents
 240	SP2	419.463	420.032	0.569	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	1	[e::h]	[e::h]	eh
 241	SP1	420.446	421.844	1.398	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	vabbè io lo metto da quest'altro lato	vabbè io lo metto da quest'altro lato	vabbè io lo metto da quest' altro lato
 242	SP3	422.028	425.297	3.269	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	14	e::h a me era: abbastanza perché sono grasso e ne avevo messe comunque tante	e::h a me era: abbastanza perché sono grasso e ne avevo messe comunque tante	eh a me era abbastanza perché sono grasso e ne avevo messe comunque tante
-243	SP1	425.37	425.811	0.441	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	xx	xx	xx
+243	SP1	425.37	425.811	0.441	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	xx	xx	x
 244	SP2	433.357	435.668	2.311	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	10	no non possiamo fare una dieta vegana noi mi sa	no non possiamo fare una dieta vegana noi mi sa	no non possiamo fare una dieta vegana noi mi sa
 245	SP3	436.015	437.782	1.767	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	8	no: io non ce la farei devo ammettere	no: io non ce la farei devo ammettere	no io non ce la farei devo ammettere
 246	SP3	438.127	439.118	0.991	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	vegetariano forse sì	vegetariano forse sì	vegetariano forse sì
 247	SP3	439.611	440.415	0.804	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	ma vegano no	ma vegano no	ma vegano no
 248	SP3	440.786	442.023	1.237	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	6	a me il formaggio piace assai	a me il formaggio piace assai	a me il formaggio piace assai
 249	SP3	447.299	451.037	3.738	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	13	ma ma anche vegetariano sarebbe molto difficile [MAGARI] lo farei ma sarebbe difficile	ma ma anche vegetariano sarebbe molto difficile [MAGARI] lo farei ma sarebbe difficile	ma ma anche vegetariano sarebbe molto difficile magari lo farei ma sarebbe difficile
-250	SP2	449.45	449.659	0.209	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	[xx]	[xx]	xx
+250	SP2	449.45	449.659	0.209	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	0	[xx]	[xx]	x
 251	SP2	451.456	453.656	2.2	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	7	gran parte dei formaggi non sono vegetariani	gran parte dei formaggi non sono vegetariani	gran parte dei formaggi non sono vegetariani
 252	SP3	454.832	455.359	0.527	True	0	0	0	0	0	0	0	0	False	False	False	False	False	_	0	0	0	3	in che senso?	in che senso?	in che senso
 253	SP1	456.872	457.94199999999995	1.17	True	0	0	0	0	0	0	1	0	False	False	False	False	True	_	0	0	0	6	perché che ci mettono dentro sc[us~]?	perché che ci mettono dentro sc[us~]?	perché che ci mettono dentro scus~

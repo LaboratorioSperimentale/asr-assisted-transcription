@@ -1,7 +1,7 @@
 token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_label	jefferson_feats	align	prolongations	pace	guesses	overlaps
 1-0	SP1	1	_	_	e::	e	_	_	_	_	_	linguistic	_		Begin=0.0	0x2	_	_	_
 1-1	SP1	1	_	_	come	come	_	_	_	_	_	linguistic	_		_		_	_	_
-1-2	SP1	1	_	_	xxxx?	xxxx	_	_	_	_	_	unknown	_	Intonation=ascending	End=1.42		_	_	_
+1-2	SP1	1	_	_	xxxx?	x	_	_	_	_	_	unknown	_	Intonation=ascending	End=1.42		_	_	_
 2-0	SP2	2	_	_	okay	okay	_	_	_	_	_	linguistic	_		End=1.95		_	_	_
 3-0	SP1	3	_	_	e::	e	_	_	_	_	_	linguistic	_		Begin=1.51	0x2	_	_	_
 3-1	SP1	3	_	_	là	là	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -221,7 +221,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 41-3	SP1	41	_	_	valsamoggia,	valsamoggia	_	_	_	_	_	linguistic	_	Intonation=weakly_ascending	End=74.48		_	_	_
 42-0	SP1	42	_	_	con	con	_	_	_	_	_	linguistic	_		Begin=74.82		_	_	_
 42-1	SP1	42	_	_	i	i	_	_	_	_	_	linguistic	_		_		_	_	_
-42-2	SP1	42	_	_	xxxx	xxxx	_	_	_	_	_	unknown	_		_		_	_	_
+42-2	SP1	42	_	_	xxxx	x	_	_	_	_	_	unknown	_		_		_	_	_
 42-3	SP1	42	_	_	io	io	_	_	_	_	_	linguistic	_		_		_	_	_
 42-4	SP1	42	_	_	spendo	spendo	_	_	_	_	_	linguistic	_		_		_	_	_
 42-5	SP1	42	_	_	c-	c-	_	_	_	_	_	linguistic	_	Interrupted=Yes	_		_	_	_
@@ -325,7 +325,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 60-4	SP1	60	_	_	n[o,	no	_	_	_	_	_	linguistic	_	Intonation=weakly_ascending	_		_	_	1-2(62)
 60-5	SP1	60	_	_	devo	devo	_	_	_	_	_	linguistic	_		_		_	_	0-4(62)
 60-6	SP1	60	_	_	pa-]	pa-	_	_	_	_	_	linguistic	_	Interrupted=Yes	_		_	_	0-3(62)
-60-7	SP1	60	_	_	xxx	xxx	_	_	_	_	_	unknown	_		End=111.15		_	_	_
+60-7	SP1	60	_	_	xxx	x	_	_	_	_	_	unknown	_		End=111.15		_	_	_
 61-0	SP2	61	_	_	[sì	sì	_	_	_	_	_	linguistic	_		Begin=108.29		_	_	0-2(60)
 61-1	SP2	61	_	_	sì	sì	_	_	_	_	_	linguistic	_		_		_	_	0-2(60)
 61-2	SP2	61	_	_	sì]	sì	_	_	_	_	_	linguistic	_		End=109.09		_	_	0-2(60)
@@ -833,7 +833,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 135-10	SP2	135	_	_	parli	parli	_	_	_	_	_	linguistic	_		_		_	_	_
 135-11	SP2	135	_	_	pre-	pre-	_	_	_	_	_	linguistic	_	Interrupted=Yes	_		_	_	_
 135-12	SP2	135	_	_	pr[evalentemente	prevalentemente	_	_	_	_	_	linguistic	_		_		_	_	2-15(136)
-135-13	SP2	135	_	_	xx	xx	_	_	_	_	_	unknown	_		_		_	_	0-2(136)
+135-13	SP2	135	_	_	xx	x	_	_	_	_	_	unknown	_		_		_	_	0-2(136)
 135-14	SP2	135	_	_	{P}	{P}	_	_	_	_	_	shortpause	_		_		_	_	0-3(136)
 135-15	SP2	135	_	_	(tutte	tutte	_	_	_	_	_	linguistic	_		_		_	0-5(0)	0-5(136)
 135-16	SP2	135	_	_	e	e	_	_	_	_	_	linguistic	_		_		_	0-1(0)	0-1(136)
