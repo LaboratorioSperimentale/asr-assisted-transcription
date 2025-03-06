@@ -61,8 +61,8 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 9-4	SP2	9	_	_	persone:	persone	_	_	_	_	_	linguistic	_		_	6x1	_	_	_
 9-5	SP2	9	_	_	che	che	_	_	_	_	_	linguistic	_		_		_	_	_
 9-6	SP2	9	_	_	[fanno	fanno	_	_	_	_	_	linguistic	_		_		_	_	0-5(10)
-9-7	SP2	9	_	_	l	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	0-2(10)
-9-8	SP2	9	_	_	elemo]sina:,	elemosina	_	_	_	_	_	linguistic	_	Intonation=weakly_ascending	_	8x1	_	_	0-5(10)
+9-7	SP2	9	_	_	l'	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	0-2(10)
+9-8	SP2	9	_	_	lemo]sina:,	elemosina	_	_	_	_	_	linguistic	_	Intonation=weakly_ascending	_	8x1	_	_	0-5(10)
 9-9	SP2	9	_	_	si	si	_	_	_	_	_	linguistic	_		End=28.33		_	_	_
 10-0	SP1	10	_	_	[°mhmh°]	mhmh	_	_	_	_	_	linguistic	_	Volume=low	End=27.14		_	_	0-4(9)
 11-0	SP2	11	_	_	m:h	mh	_	_	_	_	_	linguistic	_		Begin=28.64	0x1	_	_	_
@@ -166,12 +166,12 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 22-0	SP1	22	_	_	beh	beh	_	_	_	_	_	linguistic	_		Begin=59.29		_	_	_
 22-1	SP1	22	_	_	[magari	magari	_	_	_	_	_	linguistic	_		_		_	_	0-6(23)
 22-2	SP1	22	_	_	dai	dai	_	_	_	_	_	linguistic	_		_		_	_	0-3(23)
-22-3	SP1	22	_	_	quest	quest'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	0-6(23)
-22-4	SP1	22	_	_	anno	anno	_	_	_	_	_	linguistic	_		_		_	_	0-4(23)
+22-3	SP1	22	_	_	quest'	quest'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	0-6(23)
+22-4	SP1	22	_	_	nno	anno	_	_	_	_	_	linguistic	_		_		_	_	0-4(23)
 22-5	SP1	22	_	_	sarà	sarà	_	_	_	_	_	linguistic	_		_		_	_	0-4(23)
 22-6	SP1	22	_	_	{ride}	{ride}	_	_	_	_	_	metalinguistic	_		_		_	_	0-6(23)
-22-7	SP1	22	_	_	l	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	0-2(23)
-22-8	SP1	22	_	_	anno	anno	_	_	_	_	_	linguistic	_		_		_	_	0-4(23)
+22-7	SP1	22	_	_	l'	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	0-2(23)
+22-8	SP1	22	_	_	nno	anno	_	_	_	_	_	linguistic	_		_		_	_	0-4(23)
 22-9	SP1	22	_	_	buono]	buono	_	_	_	_	_	linguistic	_		End=61.8		_	_	0-4(23)
 23-0	SP2	23	_	_	{ride}	{ride}	_	_	_	_	_	metalinguistic	_		Begin=59.5		_	_	_
 23-1	SP2	23	_	_	°ma	ma	_	_	_	_	_	linguistic	_	Volume=low	_		_	_	_
@@ -323,8 +323,8 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 42-7	SP2	42	_	_	piace	piace	_	_	_	_	_	linguistic	_		_		_	_	_
 42-8	SP2	42	_	_	molto,	molto	_	_	_	_	_	linguistic	_	Intonation=weakly_ascending	_		_	_	_
 42-9	SP2	42	_	_	poi	poi	_	_	_	_	_	linguistic	_		_		_	_	_
-42-10	SP2	42	_	_	c	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-42-11	SP2	42	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
+42-10	SP2	42	_	_	c'	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
+42-11	SP2	42	_	_		è	_	_	_	_	_	linguistic	_		_		_	_	_
 42-12	SP2	42	_	_	di	di	_	_	_	_	_	linguistic	_		_		_	_	_
 42-13	SP2	42	_	_	fianco	fianco	_	_	_	_	_	linguistic	_		_		_	_	_
 42-14	SP2	42	_	_	la	la	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -334,8 +334,8 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 43-0	SP2	43	_	_	e	e	_	_	_	_	_	linguistic	_		Begin=111.68		_	_	_
 43-1	SP2	43	_	_	quindi	quindi	_	_	_	_	_	linguistic	_		_		_	_	_
 43-2	SP2	43	_	_	spesso	spesso	_	_	_	_	_	linguistic	_		_		_	_	_
-43-3	SP2	43	_	_	d	d'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-43-4	SP2	43	_	_	estate	estate	_	_	_	_	_	linguistic	_		_		_	_	_
+43-3	SP2	43	_	_	d'	d'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
+43-4	SP2	43	_	_	state	estate	_	_	_	_	_	linguistic	_		_		_	_	_
 43-5	SP2	43	_	_	col	col	_	_	_	_	_	linguistic	_		_		_	_	_
 43-6	SP2	43	_	_	mio	mio	_	_	_	_	_	linguistic	_		_		_	_	_
 43-7	SP2	43	_	_	ragazzo	ragazzo	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -473,8 +473,8 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 58-0	SP2	58	_	_	la	la	_	_	_	_	_	linguistic	_		Begin=159.92		_	_	_
 58-1	SP2	58	_	_	storia	storia	_	_	_	_	_	linguistic	_		_		_	_	_
 58-2	SP2	58	_	_	cioè	cioè	_	_	_	_	_	linguistic	_		_		_	_	_
-58-3	SP2	58	_	_	l	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-58-4	SP2	58	_	_	architettura	architettura	_	_	_	_	_	linguistic	_		_		_	_	_
+58-3	SP2	58	_	_	l'	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
+58-4	SP2	58	_	_	rchitettura	architettura	_	_	_	_	_	linguistic	_		_		_	_	_
 58-5	SP2	58	_	_	(e)	e	_	_	_	_	_	linguistic	_		_		_	0-1(0)	_
 58-6	SP2	58	_	_	il	il	_	_	_	_	_	linguistic	_		_		_	_	_
 58-7	SP2	58	_	_	centro	centro	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -507,8 +507,8 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 62-1	SP2	62	_	_	poi	poi	_	_	_	_	_	linguistic	_		_		_	_	_
 62-2	SP2	62	_	_	la	la	_	_	_	_	_	linguistic	_		_		_	_	_
 62-3	SP2	62	_	_	vita,	vita	_	_	_	_	_	linguistic	_	Intonation=weakly_ascending	_		_	_	_
-62-4	SP2	62	_	_	c	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-62-5	SP2	62	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
+62-4	SP2	62	_	_	c'	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
+62-5	SP2	62	_	_		è	_	_	_	_	_	linguistic	_		_		_	_	_
 62-6	SP2	62	_	_	sempre	sempre	_	_	_	_	_	linguistic	_		_		_	_	_
 62-7	SP2	62	_	_	{P}	{P}	_	_	_	_	_	shortpause	_		_		_	_	_
 62-8	SP2	62	_	_	>un	un	_	_	_	_	_	linguistic	_		_		Fast=0-2(0)	_	_
@@ -603,8 +603,8 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 68-10	SP2	68	_	_	o	o	_	_	_	_	_	linguistic	_		_		_	_	_
 68-11	SP2	68	_	_	male	male	_	_	_	_	_	linguistic	_		End=203.74		_	_	_
 69-0	SP2	69	_	_	anche	anche	_	_	_	_	_	linguistic	_		Begin=204.5		_	_	_
-69-1	SP2	69	_	_	l	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-69-2	SP2	69	_	_	autobus	autobus	_	_	_	_	_	linguistic	_		_		_	_	_
+69-1	SP2	69	_	_	l'	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
+69-2	SP2	69	_	_	utobus	autobus	_	_	_	_	_	linguistic	_		_		_	_	_
 69-3	SP2	69	_	_	secondo	secondo	_	_	_	_	_	linguistic	_		_		_	_	_
 69-4	SP2	69	_	_	me	me	_	_	_	_	_	linguistic	_		_		_	_	_
 69-5	SP2	69	_	_	funzionano	funzionano	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -652,8 +652,8 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 74-0	SP1	74	_	_	[°mhmh°]	mhmh	_	_	_	_	_	linguistic	_	Volume=low	End=222.72		_	_	0-4(73)
 75-0	SP2	75	_	_	>non	non	_	_	_	_	_	linguistic	_		Begin=223.82		Fast=0-3(0)	_	_
 75-1	SP2	75	_	_	so<	so	_	_	_	_	_	linguistic	_		_		Fast=0-2(0)	_	_
-75-2	SP2	75	_	_	al	al'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-75-3	SP2	75	_	_	ikea,	ikea	_	_	_	_	_	linguistic	_	Intonation=weakly_ascending	_		_	_	_
+75-2	SP2	75	_	_	al'	al'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
+75-3	SP2	75	_	_	kea,	ikea	_	_	_	_	_	linguistic	_	Intonation=weakly_ascending	_		_	_	_
 75-4	SP2	75	_	_	o	o	_	_	_	_	_	linguistic	_		_		_	_	_
 75-5	SP2	75	_	_	{P}	{P}	_	_	_	_	_	shortpause	_		_		_	_	_
 75-6	SP2	75	_	_	[fuo]ri	fuori	_	_	_	_	_	linguistic	_		_		_	_	0-3(76)

@@ -126,8 +126,8 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 26-6	SP1	26	_	_	giorni	giorni	_	_	_	_	_	linguistic	_		_		_	_	_
 26-7	SP1	26	_	_	a	a	_	_	_	_	_	linguistic	_		_		_	_	_
 26-8	SP1	26	_	_	trovare	trovare	_	_	_	_	_	linguistic	_		_		_	_	_
-26-9	SP1	26	_	_	c	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-26-10	SP1	26	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
+26-9	SP1	26	_	_	c'	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
+26-10	SP1	26	_	_		è	_	_	_	_	_	linguistic	_		_		_	_	_
 26-11	SP1	26	_	_	un	un	_	_	_	_	_	linguistic	_		_		_	_	_
 26-12	SP1	26	_	_	appartamento	appartamento	_	_	_	_	_	linguistic	_		_		_	_	_
 26-13	SP1	26	_	_	per	per	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -467,32 +467,32 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 83-0	SP1	83	_	_	vado	vado	_	_	_	_	_	linguistic	_		Begin=151.11		_	_	_
 83-1	SP1	83	_	_	avanti	avanti	_	_	_	_	_	linguistic	_		_		_	_	_
 83-2	SP1	83	_	_	indietro	indietro	_	_	_	_	_	linguistic	_		_		_	_	_
-83-3	SP1	83	_	_	un	un'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-83-4	SP1	83	_	_	ora	ora	_	_	_	_	_	linguistic	_		_		_	_	_
-83-5	SP1	83	_	_	un	un'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-83-6	SP1	83	_	_	ora	ora	_	_	_	_	_	linguistic	_		_		_	_	_
+83-3	SP1	83	_	_	un'	un'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
+83-4	SP1	83	_	_	ra	ora	_	_	_	_	_	linguistic	_		_		_	_	_
+83-5	SP1	83	_	_	un'	un'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
+83-6	SP1	83	_	_	ra	ora	_	_	_	_	_	linguistic	_		_		_	_	_
 83-7	SP1	83	_	_	e	e	_	_	_	_	_	linguistic	_		_		_	_	_
 83-8	SP1	83	_	_	mezzo	mezzo	_	_	_	_	_	linguistic	_		_		_	_	_
 83-9	SP1	83	_	_	c(io)è	cioè	_	_	_	_	_	linguistic	_		_		_	0-2(0)	_
 83-10	SP1	83	_	_	per	per	_	_	_	_	_	linguistic	_		_		_	_	_
 83-11	SP1	83	_	_	venire	venire	_	_	_	_	_	linguistic	_		_		_	_	_
-83-12	SP1	83	_	_	un	un'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-83-13	SP1	83	_	_	ora	ora	_	_	_	_	_	linguistic	_		_		_	_	_
+83-12	SP1	83	_	_	un'	un'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
+83-13	SP1	83	_	_	ra	ora	_	_	_	_	_	linguistic	_		_		_	_	_
 83-14	SP1	83	_	_	e	e	_	_	_	_	_	linguistic	_		_		_	_	_
 83-15	SP1	83	_	_	mezzo	mezzo	_	_	_	_	_	linguistic	_		_		_	_	_
-83-16	SP1	83	_	_	un	un'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-83-17	SP1	83	_	_	ora	ora	_	_	_	_	_	linguistic	_		_		_	_	_
+83-16	SP1	83	_	_	un'	un'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
+83-17	SP1	83	_	_	ra	ora	_	_	_	_	_	linguistic	_		_		_	_	_
 83-18	SP1	83	_	_	minimo	minimo	_	_	_	_	_	linguistic	_		_		_	_	_
 83-19	SP1	83	_	_	e	e	_	_	_	_	_	linguistic	_		_		_	_	_
 83-20	SP1	83	_	_	ritornare	ritornare	_	_	_	_	_	linguistic	_		_		_	_	_
 83-21	SP1	83	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
 83-22	SP1	83	_	_	ancora	ancora	_	_	_	_	_	linguistic	_		_		_	_	_
 83-23	SP1	83	_	_	facciamo	facciamo	_	_	_	_	_	linguistic	_		_		_	_	_
-83-24	SP1	83	_	_	mezz	mezz'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-83-25	SP1	83	_	_	ora	ora	_	_	_	_	_	linguistic	_		_		_	_	_
+83-24	SP1	83	_	_	mezz'	mezz'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
+83-25	SP1	83	_	_	ra	ora	_	_	_	_	_	linguistic	_		_		_	_	_
 83-26	SP1	83	_	_	o	o	_	_	_	_	_	linguistic	_		_		_	_	_
-83-27	SP1	83	_	_	un	un'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-83-28	SP1	83	_	_	ora	ora	_	_	_	_	_	linguistic	_		End=159.46		_	_	_
+83-27	SP1	83	_	_	un'	un'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
+83-28	SP1	83	_	_	ra	ora	_	_	_	_	_	linguistic	_		End=159.46		_	_	_
 84-0	SP2	84	_	_	mh[mh]	mhmh	_	_	_	_	_	linguistic	_		End=160.03		_	_	2-4(85)
 85-0	SP1	85	_	_	[allora]	allora	_	_	_	_	_	linguistic	_		Begin=159.57		_	_	0-6(84)
 85-1	SP1	85	_	_	due	due	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -563,8 +563,8 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 94-6	SP1	94	_	_	lavoro	lavoro	_	_	_	_	_	linguistic	_		_		_	_	_
 94-7	SP1	94	_	_	io:	io	_	_	_	_	_	linguistic	_		End=181.15	1x1	_	_	_
 95-0	SP2	95	_	_	però	però	_	_	_	_	_	linguistic	_		Begin=181.21		_	_	_
-95-1	SP2	95	_	_	c	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-95-2	SP2	95	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
+95-1	SP2	95	_	_	c'	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
+95-2	SP2	95	_	_		è	_	_	_	_	_	linguistic	_		_		_	_	_
 95-3	SP2	95	_	_	un	un	_	_	_	_	_	linguistic	_		_		_	_	_
 95-4	SP2	95	_	_	po'	po'	_	_	_	_	_	linguistic	_		_		_	_	_
 95-5	SP2	95	_	_	di	di	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -767,8 +767,8 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 123-6	SP2	123	_	_	un	un	_	_	_	_	_	linguistic	_		_		_	_	_
 123-7	SP2	123	_	_	po'	po'	_	_	_	_	_	linguistic	_		_		_	_	_
 123-8	SP2	123	_	_	con	con	_	_	_	_	_	linguistic	_		_		_	_	_
-123-9	SP2	123	_	_	l	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-123-10	SP2	123	_	_	i[taliano,	italiano	_	_	_	_	_	linguistic	_	Intonation=weakly_ascending	_		_	_	0-8(?)
+123-9	SP2	123	_	_	l'	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
+123-10	SP2	123	_	_	[taliano,	italiano	_	_	_	_	_	linguistic	_	Intonation=weakly_ascending	_		_	_	0-8(?)
 123-11	SP2	123	_	_	quando:	quando	_	_	_	_	_	linguistic	_		_	5x1	_	_	0-6(?)
 123-12	SP2	123	_	_	par]late	parlate	_	_	_	_	_	linguistic	_		_		_	_	0-3(?)
 123-13	SP2	123	_	_	[fra	fra	_	_	_	_	_	linguistic	_		_		_	_	0-3(?)
