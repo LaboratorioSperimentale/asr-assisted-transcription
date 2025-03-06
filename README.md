@@ -14,6 +14,7 @@ per ogni audio abbiamo:
 
 1. numero di token trascritti
 	1. proviamo a isolare solo i token linguistici (togliamo shortpauses e token metalinguistici)
+
 2. il numero di minuti trascritti
 
 3. Quanto si somigliano le due trascrizioni FS/WA? In termini di:
@@ -21,7 +22,7 @@ per ogni audio abbiamo:
       1. proviamo ad escludere le unità che contengono solo token metalinguistici
    2. la durata media in ms delle unità di trascrizione
       1. proviamo ad escludere le unità che contengono solo token metalinguistici
-   3. la durata media in ms delle unità di trascrizione
+   3. la durata media in token delle unità di trascrizione
       1. proviamo ad escludere le unità che contengono solo token metalinguistici
    4. numero di span con overlap
    5. numero di span con pace variato
@@ -60,7 +61,6 @@ per ogni audio abbiamo:
 
 ## TO-DO Extra:
 
-* [Ludovica] Aggiungere gold dello straparla ex machina
 * Usare gold paralleli per confronto
 * Revisione gold qualitativa?
 * Correlazione probabilità whisper con correzione errore da parte del revisore
