@@ -78,7 +78,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 13-5	SP2	13	_	_	eh	eh	_	_	_	_	_	linguistic	_		_		_	_	_
 13-6	SP2	13	_	_	se	se	_	_	_	_	_	linguistic	_		_		_	_	_
 13-7	SP2	13	_	_	c'	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-13-8	SP2	13	_	_	vevo	avevo	_	_	_	_	_	linguistic	_		_		_	_	_
+13-8	SP2	13	_	_	avevo	avevo	_	_	_	_	_	linguistic	_		_		_	_	_
 13-9	SP2	13	_	_	gli	gli	_	_	_	_	_	linguistic	_		_		_	_	_
 13-10	SP2	13	_	_	xx	x	_	_	_	_	_	unknown	_		_		_	_	_
 13-11	SP2	13	_	_	ci	ci	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -161,7 +161,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 28-3	SP3	28	_	_	zucchinona	zucchinona	_	_	_	_	_	linguistic	_		_		_	_	_
 28-4	SP3	28	_	_	non	non	_	_	_	_	_	linguistic	_		_		_	_	_
 28-5	SP3	28	_	_	l'	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-28-6	SP3	28	_	_	vevi	avevi	_	_	_	_	_	linguistic	_		_		_	_	_
+28-6	SP3	28	_	_	avevi	avevi	_	_	_	_	_	linguistic	_		_		_	_	_
 28-7	SP3	28	_	_	già	già	_	_	_	_	_	linguistic	_		_		_	_	_
 28-8	SP3	28	_	_	fatta?	fatta	_	_	_	_	_	linguistic	_	Intonation=ascending	End=57.958		_	_	_
 29-0	SP4	29	_	_	no	no	_	_	_	_	_	linguistic	_		Begin=58.22		_	_	_
@@ -172,15 +172,15 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 30-1	SP3	30	_	_	zucchinone°	zucchinone	_	_	_	_	_	linguistic	_	Volume=low	End=59.979		_	_	_
 31-0	SP4	31	_	_	una	una	_	_	_	_	_	linguistic	_		Begin=59.979		_	_	_
 31-1	SP4	31	_	_	l'	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-31-2	SP4	31	_	_	o	ho	_	_	_	_	_	linguistic	_		_		_	_	_
+31-2	SP4	31	_	_	ho	ho	_	_	_	_	_	linguistic	_		_		_	_	_
 31-3	SP4	31	_	_	fatta	fatta	_	_	_	_	_	linguistic	_		_		_	_	_
 31-4	SP4	31	_	_	l'	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-31-5	SP4	31	_	_	ltra::	altra	_	_	_	_	_	linguistic	_		_	4x2	_	_	_
+31-5	SP4	31	_	_	altra::	altra	_	_	_	_	_	linguistic	_		_	4x2	_	_	_
 31-6	SP4	31	_	_	mh	mh	_	_	_	_	_	linguistic	_		End=62.268		_	_	_
 32-0	SP1	32	_	_	eh	eh	_	_	_	_	_	linguistic	_		Begin=62.268		_	_	_
 32-1	SP1	32	_	_	ma	ma	_	_	_	_	_	linguistic	_		_		_	_	_
-32-2	SP1	32	_	_	l'[	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-32-3	SP1	32	_	_	ltra	altra	_	_	_	_	_	linguistic	_		_		_	_	0-5(33)
+32-2	SP1	32	_	_	l'	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
+32-3	SP1	32	_	_	[altra	altra	_	_	_	_	_	linguistic	_		_		_	_	0-5(33)
 32-4	SP1	32	_	_	metà]	metà	_	_	_	_	_	linguistic	_		_		_	_	0-4(33)
 32-5	SP1	32	_	_	perché	perché	_	_	_	_	_	linguistic	_		_		_	_	_
 32-6	SP1	32	_	_	metà	metà	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -201,7 +201,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 35-8	SP4	35	_	_	il	il	_	_	_	_	_	linguistic	_		_		_	_	_
 35-9	SP4	35	_	_	ghiaccio	ghiaccio	_	_	_	_	_	linguistic	_		_		_	_	_
 35-10	SP4	35	_	_	l'	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-35-11	SP4	35	_	_	a	ha	_	_	_	_	_	linguistic	_		_		_	_	_
+35-11	SP4	35	_	_	ha	ha	_	_	_	_	_	linguistic	_		_		_	_	_
 35-12	SP4	35	_	_	tipo	tipo	_	_	_	_	_	linguistic	_		_		_	_	_
 35-13	SP4	35	_	_	un	un	_	_	_	_	_	linguistic	_		_		_	_	_
 35-14	SP4	35	_	_	po':	po'	_	_	_	_	_	linguistic	_	Truncated=Yes	_	1x1	_	_	_
@@ -263,7 +263,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 47-2	SP3	47	_	_	messo	messo	_	_	_	_	_	linguistic	_		_		_	_	_
 47-3	SP3	47	_	_	dentro	dentro	_	_	_	_	_	linguistic	_		_		_	_	_
 47-4	SP3	47	_	_	l'	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-47-5	SP3	47	_	_	rigano	origano	_	_	_	_	_	linguistic	_		_		_	_	_
+47-5	SP3	47	_	_	origano	origano	_	_	_	_	_	linguistic	_		_		_	_	_
 47-6	SP3	47	_	_	tuttavia	tuttavia	_	_	_	_	_	linguistic	_		End=89.924		_	_	_
 48-0	SP4	48	_	_	d-	d-	_	_	_	_	_	linguistic	_	Interrupted=Yes	Begin=90.537		_	_	_
 48-1	SP4	48	_	_	però	però	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -323,7 +323,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 53-1	SP1	53	_	_	meno	meno	_	_	_	_	_	linguistic	_		_		_	_	_
 53-2	SP1	53	_	_	sale	sale	_	_	_	_	_	linguistic	_		_		_	_	_
 53-3	SP1	53	_	_	c'	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-53-4	SP1	53	_	_		è	_	_	_	_	_	linguistic	_		_		_	_	_
+53-4	SP1	53	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
 53-5	SP1	53	_	_	più	più	_	_	_	_	_	linguistic	_		_		_	_	_
 53-6	SP1	53	_	_	mi	mi	_	_	_	_	_	linguistic	_		_		_	_	_
 53-7	SP1	53	_	_	pia:ce	piace	_	_	_	_	_	linguistic	_		_	2x1	_	_	_
@@ -338,7 +338,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 54-0	SP3	54	_	_	questo	questo	_	_	_	_	_	linguistic	_		Begin=112.855		_	_	_
 54-1	SP3	54	_	_	sale	sale	_	_	_	_	_	linguistic	_		_		_	_	_
 54-2	SP3	54	_	_	l'	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-54-3	SP3	54	_	_	o	ho	_	_	_	_	_	linguistic	_		_		_	_	_
+54-3	SP3	54	_	_	ho	ho	_	_	_	_	_	linguistic	_		_		_	_	_
 54-4	SP3	54	_	_	preso	preso	_	_	_	_	_	linguistic	_		_		_	_	_
 54-5	SP3	54	_	_	perché	perché	_	_	_	_	_	linguistic	_		_		_	_	_
 54-6	SP3	54	_	_	mi	mi	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -409,7 +409,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 62-5	SP3	62	_	_	il	il	_	_	_	_	_	linguistic	_		_		_	_	_
 62-6	SP3	62	_	_	sale	sale	_	_	_	_	_	linguistic	_		_		_	_	_
 62-7	SP3	62	_	_	nell'	nell'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-62-8	SP3	62	_	_	cqu[a]	acqua	_	_	_	_	_	linguistic	_		End=132.604		_	_	3-5(?)
+62-8	SP3	62	_	_	acqu[a]	acqua	_	_	_	_	_	linguistic	_		End=132.604		_	_	3-5(?)
 63-0	SP1	63	_	_	[n:]o	no	_	_	_	_	_	linguistic	_		End=133.308	0x1	_	_	0-1(?)
 64-0	SP1	64	_	_	m:h	mh	_	_	_	_	_	linguistic	_		End=134.899	0x1	_	_	_
 65-0	SP2	65	_	_	co:[sa]	cosa	_	_	_	_	_	linguistic	_		End=135.711	1x1	_	_	2-4(66)
@@ -475,7 +475,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 76-17	SP2	76	_	_	non	non	_	_	_	_	_	linguistic	_		_		_	_	_
 76-18	SP2	76	_	_	salare	salare	_	_	_	_	_	linguistic	_		_		_	_	_
 76-19	SP2	76	_	_	l'	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-76-20	SP2	76	_	_	cqua	acqua	_	_	_	_	_	linguistic	_		_		_	_	_
+76-20	SP2	76	_	_	acqua	acqua	_	_	_	_	_	linguistic	_		_		_	_	_
 76-21	SP2	76	_	_	quando	quando	_	_	_	_	_	linguistic	_		_		_	_	_
 76-22	SP2	76	_	_	la	la	_	_	_	_	_	linguistic	_		_		_	_	_
 76-23	SP2	76	_	_	bolli	bolli	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -597,10 +597,10 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 93-5	SP1	93	_	_	amo'	amo'	_	_	_	_	_	linguistic	_	Truncated=Yes	_		_	_	_
 93-6	SP1	93	_	_	sono:	sono	_	_	_	_	_	linguistic	_		_	3x1	_	_	_
 93-7	SP1	93	_	_	sott'	sott'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-93-8	SP1	93	_	_	ceto	aceto	_	_	_	_	_	linguistic	_		_		_	_	_
+93-8	SP1	93	_	_	aceto	aceto	_	_	_	_	_	linguistic	_		_		_	_	_
 93-9	SP1	93	_	_	non	non	_	_	_	_	_	linguistic	_		_		_	_	_
 93-10	SP1	93	_	_	sott'	sott'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-93-11	SP1	93	_	_	lio	olio	_	_	_	_	_	linguistic	_		End=196.986		_	_	_
+93-11	SP1	93	_	_	olio	olio	_	_	_	_	_	linguistic	_		End=196.986		_	_	_
 94-0	SP3	94	_	_	è	è	_	_	_	_	_	linguistic	_		Begin=197.26		_	_	_
 94-1	SP3	94	_	_	vero	vero	_	_	_	_	_	linguistic	_		_		_	_	_
 94-2	SP3	94	_	_	però	però	_	_	_	_	_	linguistic	_		End=198.12		_	_	_
@@ -609,7 +609,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 95-2	SP1	95	_	_	bruttissime	bruttissime	_	_	_	_	_	linguistic	_		End=199.1		_	_	_
 96-0	SP3	96	_	_	miri	miri	_	_	_	_	_	linguistic	_		End=199.604		_	_	_
 97-0	SP3	97	_	_	c'	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	Begin=199.812		_	_	_
-97-1	SP3	97	_	_		è	_	_	_	_	_	linguistic	_		_		_	_	_
+97-1	SP3	97	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
 97-2	SP3	97	_	_	(anzuma)	anzuma	_	_	_	_	_	linguistic	_		_		_	0-6(0)	_
 97-3	SP3	97	_	_	se	se	_	_	_	_	_	linguistic	_		_		_	_	_
 97-4	SP3	97	_	_	fai	fai	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -789,7 +789,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 129-2	SP1	129	_	_	mamma	mamma	_	_	_	_	_	linguistic	_		_		_	_	_
 129-3	SP1	129	_	_	me	me	_	_	_	_	_	linguistic	_		_		_	_	_
 129-4	SP1	129	_	_	l'	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-129-5	SP1	129	_	_	a	ha	_	_	_	_	_	linguistic	_		_		_	_	_
+129-5	SP1	129	_	_	ha	ha	_	_	_	_	_	linguistic	_		_		_	_	_
 129-6	SP1	129	_	_	comprata?	comprata	_	_	_	_	_	linguistic	_	Intonation=ascending	End=257.71799999999996		_	_	_
 130-0	SP2	130	_	_	{ride}	{ride}	_	_	_	_	_	metalinguistic	_		End=258.812		_	_	_
 131-0	SP1	131	_	_	{ride}	{ride}	_	_	_	_	_	metalinguistic	_		End=259.979		_	_	_

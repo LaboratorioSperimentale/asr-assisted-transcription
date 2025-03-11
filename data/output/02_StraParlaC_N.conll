@@ -177,7 +177,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 34-4	SP2	34	_	_	di:	di	_	_	_	_	_	linguistic	_		_	1x1	_	_	_
 34-5	SP2	34	_	_	dentro	dentro	_	_	_	_	_	linguistic	_		_		_	_	_
 34-6	SP2	34	_	_	c'	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-34-7	SP2	34	_	_		è	_	_	_	_	_	linguistic	_		_		_	_	_
+34-7	SP2	34	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
 34-8	SP2	34	_	_	proprio	proprio	_	_	_	_	_	linguistic	_		_		_	_	_
 34-9	SP2	34	_	_	quelle	quelle	_	_	_	_	_	linguistic	_		_		_	_	_
 34-10	SP2	34	_	_	che	che	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -210,7 +210,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 38-5	SP1	38	_	_	sì	sì	_	_	_	_	_	linguistic	_	Volume=low	_		_	_	0-2(39)
 38-6	SP1	38	_	_	sì°]	sì	_	_	_	_	_	linguistic	_	Volume=low	End=82.325		_	_	0-2(39)
 39-0	SP2	39	_	_	[c'	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	Begin=79.68		_	_	0-2(38)
-39-1	SP2	39	_	_		è	_	_	_	_	_	linguistic	_		_		_	_	0-1(38)
+39-1	SP2	39	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	0-1(38)
 39-2	SP2	39	_	_	proprio	proprio	_	_	_	_	_	linguistic	_		_		_	_	0-7(38)
 39-3	SP2	39	_	_	la	la	_	_	_	_	_	linguistic	_		_		_	_	0-2(38)
 39-4	SP2	39	_	_	città	città	_	_	_	_	_	linguistic	_		_		_	_	0-5(38)
@@ -221,7 +221,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 39-9	SP2	39	_	_	hanno	hanno	_	_	_	_	_	linguistic	_		_		_	_	0-5(38)
 39-10	SP2	39	_	_	entrato]	entrato	_	_	_	_	_	linguistic	_		_		_	_	0-7(38)
 39-11	SP2	39	_	_	c'	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-39-12	SP2	39	_	_		è	_	_	_	_	_	linguistic	_		_		_	_	_
+39-12	SP2	39	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
 39-13	SP2	39	_	_	proprio	proprio	_	_	_	_	_	linguistic	_		End=82.566		_	_	_
 40-0	SP3	40	_	_	sì	sì	_	_	_	_	_	linguistic	_		Begin=82.627		_	_	_
 40-1	SP3	40	_	_	sì	sì	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -286,7 +286,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 45-2	SP1	45	_	_	città	città	_	_	_	_	_	linguistic	_		_		_	_	_
 45-3	SP1	45	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
 45-4	SP1	45	_	_	un'	un'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-45-5	SP1	45	_	_	soletta	isoletta	_	_	_	_	_	linguistic	_		_		_	_	_
+45-5	SP1	45	_	_	isoletta	isoletta	_	_	_	_	_	linguistic	_		_		_	_	_
 45-6	SP1	45	_	_	grande	grande	_	_	_	_	_	linguistic	_		_		_	_	_
 45-7	SP1	45	_	_	così	così	_	_	_	_	_	linguistic	_		_		_	_	_
 45-8	SP1	45	_	_	pratica[mente	praticamente	_	_	_	_	_	linguistic	_		_		_	_	6-12(46)
@@ -391,7 +391,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 56-5	SP2	56	_	_	un	un	_	_	_	_	_	linguistic	_		_		_	_	_
 56-6	SP2	56	_	_	po'	po'	_	_	_	_	_	linguistic	_		_		_	_	_
 56-7	SP2	56	_	_	c'	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-56-8	SP2	56	_	_		è	_	_	_	_	_	linguistic	_		_		_	_	_
+56-8	SP2	56	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
 56-9	SP2	56	_	_	persa	persa	_	_	_	_	_	linguistic	_		End=135.94		_	_	_
 57-0	SP2	57	_	_	un	un	_	_	_	_	_	linguistic	_		Begin=136.08		_	_	_
 57-1	SP2	57	_	_	po':	po'	_	_	_	_	_	linguistic	_	Truncated=Yes	_	1x1	_	_	_
@@ -430,7 +430,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 62-8	SP2	62	_	_	la	la	_	_	_	_	_	linguistic	_		_		_	_	_
 62-9	SP2	62	_	_	città	città	_	_	_	_	_	linguistic	_		End=146.699		_	_	_
 63-0	SP2	63	_	_	c'	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	Begin=146.84		_	_	_
-63-1	SP2	63	_	_		è	_	_	_	_	_	linguistic	_		_		_	_	_
+63-1	SP2	63	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
 63-2	SP2	63	_	_	anda[to]	andato	_	_	_	_	_	linguistic	_		_		_	_	3-6(64)
 63-3	SP2	63	_	_	verso	verso	_	_	_	_	_	linguistic	_		_		_	_	_
 63-4	SP2	63	_	_	la	la	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -448,7 +448,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 65-7	SP1	65	_	_	capito	capito	_	_	_	_	_	linguistic	_		End=151.361		_	_	_
 66-0	SP1	66	_	_	cioè	cioè	_	_	_	_	_	linguistic	_		Begin=151.651		_	_	_
 66-1	SP1	66	_	_	c'	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-66-2	SP1	66	_	_		è	_	_	_	_	_	linguistic	_		_		_	_	_
+66-2	SP1	66	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
 66-3	SP1	66	_	_	uno	uno	_	_	_	_	_	linguistic	_		_		_	_	_
 66-4	SP1	66	_	_	spostamento	spostamento	_	_	_	_	_	linguistic	_		_		_	_	_
 66-5	SP1	66	_	_	delle	delle	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -516,7 +516,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 75-1	SP2	75	_	_	sta	sta	_	_	_	_	_	linguistic	_		_		_	_	_
 75-2	SP2	75	_	_	gue-	gue-	_	_	_	_	_	linguistic	_	Interrupted=Yes	_		_	_	_
 75-3	SP2	75	_	_	c'	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-75-4	SP2	75	_	_		è	_	_	_	_	_	linguistic	_		_		_	_	_
+75-4	SP2	75	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
 75-5	SP2	75	_	_	proprio	proprio	_	_	_	_	_	linguistic	_		_		_	_	_
 75-6	SP2	75	_	_	mh:	mh	_	_	_	_	_	linguistic	_		End=176.361	1x1	_	_	_
 76-0	SP2	76	_	_	più	più	_	_	_	_	_	linguistic	_		Begin=176.602		_	_	_
@@ -528,7 +528,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 76-6	SP2	76	_	_	lavaggio	lavaggio	_	_	_	_	_	linguistic	_		_		_	_	_
 76-7	SP2	76	_	_	e	e	_	_	_	_	_	linguistic	_		_		_	_	_
 76-8	SP2	76	_	_	dell'	dell'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-76-9	SP2	76	_	_	nno	anno	_	_	_	_	_	linguistic	_		_		_	_	_
+76-9	SP2	76	_	_	anno	anno	_	_	_	_	_	linguistic	_		_		_	_	_
 76-10	SP2	76	_	_	{P}	{P}	_	_	_	_	_	shortpause	_		_		_	_	_
 76-11	SP2	76	_	_	avviene	avviene	_	_	_	_	_	linguistic	_		_		_	_	_
 76-12	SP2	76	_	_	fuori	fuori	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -652,7 +652,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 98-1	SP1	98	_	_	ci	ci	_	_	_	_	_	linguistic	_		_		_	_	_
 98-2	SP1	98	_	_	sono	sono	_	_	_	_	_	linguistic	_		End=216.697		_	_	_
 99-0	SP2	99	_	_	c'	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	Begin=220.105		_	_	_
-99-1	SP2	99	_	_		è	_	_	_	_	_	linguistic	_		_		_	_	_
+99-1	SP2	99	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
 99-2	SP2	99	_	_	come	come	_	_	_	_	_	linguistic	_		_		_	_	_
 99-3	SP2	99	_	_	mh:	mh	_	_	_	_	_	linguistic	_		End=222.316	1x1	_	_	_
 100-0	SP2	100	_	_	come	come	_	_	_	_	_	linguistic	_		Begin=222.355		_	_	_

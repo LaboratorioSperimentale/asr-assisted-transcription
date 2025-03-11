@@ -10,7 +10,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 5-1	SP1	5	_	_	quanto	quanto	_	_	_	_	_	linguistic	_		_		_	_	_
 5-2	SP1	5	_	_	tempo	tempo	_	_	_	_	_	linguistic	_		_		_	_	_
 5-3	SP1	5	_	_	c'	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-5-4	SP1	5	_	_		è	_	_	_	_	_	linguistic	_		_		_	_	_
+5-4	SP1	5	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
 5-5	SP1	5	_	_	questo	questo	_	_	_	_	_	linguistic	_		_		_	_	_
 5-6	SP1	5	_	_	negozio	negozio	_	_	_	_	_	linguistic	_		_		_	_	_
 5-7	SP1	5	_	_	perché	perché	_	_	_	_	_	linguistic	_		End=7.711		_	_	_
@@ -27,7 +27,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 7-6	SP1	7	_	_	ma	ma	_	_	_	_	_	linguistic	_		_		_	_	_
 7-7	SP1	7	_	_	non	non	_	_	_	_	_	linguistic	_		_		_	_	_
 7-8	SP1	7	_	_	l'	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-7-9	SP1	7	_	_	vevo	avevo	_	_	_	_	_	linguistic	_		_		_	_	_
+7-9	SP1	7	_	_	avevo	avevo	_	_	_	_	_	linguistic	_		_		_	_	_
 7-10	SP1	7	_	_	mai	mai	_	_	_	_	_	linguistic	_		_		_	_	_
 7-11	SP1	7	_	_	visto	visto	_	_	_	_	_	linguistic	_		End=11.616		_	_	_
 8-0	SP2	8	_	_	no	no	_	_	_	_	_	linguistic	_		Begin=11.824		_	_	_
@@ -79,7 +79,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 14-5	SP2	14	_	_	ha	ha	_	_	_	_	_	linguistic	_		_		_	_	_
 14-6	SP2	14	_	_	comprato	comprato	_	_	_	_	_	linguistic	_		_		_	_	_
 14-7	SP2	14	_	_	un'	un'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-14-8	SP2	14	_	_	ltra	altra	_	_	_	_	_	linguistic	_		_		_	_	_
+14-8	SP2	14	_	_	altra	altra	_	_	_	_	_	linguistic	_		_		_	_	_
 14-9	SP2	14	_	_	persona	persona	_	_	_	_	_	linguistic	_		_		_	_	_
 14-10	SP2	14	_	_	e	e	_	_	_	_	_	linguistic	_		_		_	_	_
 14-11	SP2	14	_	_	ha	ha	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -239,7 +239,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 33-0	SP2	33	_	_	facendo	facendo	_	_	_	_	_	linguistic	_		Begin=74.211		_	_	_
 33-1	SP2	33	_	_	in	in	_	_	_	_	_	linguistic	_		_		_	_	_
 33-2	SP2	33	_	_	un'	un'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-33-3	SP2	33	_	_	ltra	altra	_	_	_	_	_	linguistic	_		_		_	_	_
+33-3	SP2	33	_	_	altra	altra	_	_	_	_	_	linguistic	_		_		_	_	_
 33-4	SP2	33	_	_	lingua	lingua	_	_	_	_	_	linguistic	_		_		_	_	_
 33-5	SP2	33	_	_	che	che	_	_	_	_	_	linguistic	_		_		_	_	_
 33-6	SP2	33	_	_	lui	lui	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -305,7 +305,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 47-7	SP2	47	_	_	detto	detto	_	_	_	_	_	linguistic	_		_		_	_	_
 47-8	SP2	47	_	_	che	che	_	_	_	_	_	linguistic	_		_		_	_	_
 47-9	SP2	47	_	_	c'	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-47-10	SP2	47	_	_		è	_	_	_	_	_	linguistic	_		_		_	_	_
+47-10	SP2	47	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
 47-11	SP2	47	_	_	sì	sì	_	_	_	_	_	linguistic	_		_		_	_	_
 47-12	SP2	47	_	_	perché	perché	_	_	_	_	_	linguistic	_		_		_	_	_
 47-13	SP2	47	_	_	hanno	hanno	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -442,7 +442,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 76-3	SP1	76	_	_	chiedere:	chiedere	_	_	_	_	_	linguistic	_		End=137.688	7x1	_	_	_
 77-0	SP2	77	_	_	gi[usto]	giusto	_	_	_	_	_	linguistic	_		End=138.055		_	_	2-6(78)
 78-0	SP1	78	_	_	[l'	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	Begin=137.794		_	_	0-2(77)
-78-1	SP1	78	_	_	tà]	età	_	_	_	_	_	linguistic	_		_		_	_	0-3(77)
+78-1	SP1	78	_	_	età]	età	_	_	_	_	_	linguistic	_		_		_	_	0-3(77)
 78-2	SP1	78	_	_	perché	perché	_	_	_	_	_	linguistic	_		_		_	_	_
 78-3	SP1	78	_	_	no[n:]	non	_	_	_	_	_	linguistic	_		End=138.911	2x1	_	_	1-3(79)
 79-0	SP2	79	_	_	[no]	no	_	_	_	_	_	linguistic	_		Begin=138.722		_	_	0-2(78)
@@ -468,7 +468,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 82-3	SP1	82	_	_	fatto	fatto	_	_	_	_	_	linguistic	_		End=143.087		_	_	_
 83-0	SP1	83	_	_	perché	perché	_	_	_	_	_	linguistic	_		Begin=143.149		_	_	_
 83-1	SP1	83	_	_	anch'	anch'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-83-2	SP1	83	_	_	o	io	_	_	_	_	_	linguistic	_		_		_	_	_
+83-2	SP1	83	_	_	io	io	_	_	_	_	_	linguistic	_		_		_	_	_
 83-3	SP1	83	_	_	sono	sono	_	_	_	_	_	linguistic	_		_		_	_	_
 83-4	SP1	83	_	_	andata	andata	_	_	_	_	_	linguistic	_		_		_	_	_
 83-5	SP1	83	_	_	a	a	_	_	_	_	_	linguistic	_		_		_	_	_

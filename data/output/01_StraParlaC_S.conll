@@ -16,7 +16,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 2-10	SP2	2	_	_	in	in	_	_	_	_	_	linguistic	_		_		_	_	_
 2-11	SP2	2	_	_	città	città	_	_	_	_	_	linguistic	_		_		_	_	_
 2-12	SP2	2	_	_	[(c'	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	0-2(0)	0-2(4)
-2-13	SP2	2	_	_	)	è	_	_	_	_	_	linguistic	_		_		_	0-1(0)	0-1(4)
+2-13	SP2	2	_	_	è)	è	_	_	_	_	_	linguistic	_		_		_	0-1(0)	0-1(4)
 2-14	SP2	2	_	_	tutto]	tutto	_	_	_	_	_	linguistic	_		End=6.8		_	_	0-5(4)
 3-0	SP1	3	_	_	più	più	_	_	_	_	_	linguistic	_		Begin=2.9		_	_	_
 3-1	SP1	3	_	_	nella	nella	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -188,7 +188,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 30-4	SP2	30	_	_	di:	di	_	_	_	_	_	linguistic	_		_	1x1	_	_	_
 30-5	SP2	30	_	_	dentro	dentro	_	_	_	_	_	linguistic	_		_		_	_	_
 30-6	SP2	30	_	_	c'	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-30-7	SP2	30	_	_	a	ha	_	_	_	_	_	linguistic	_		_		_	_	_
+30-7	SP2	30	_	_	ha	ha	_	_	_	_	_	linguistic	_		_		_	_	_
 30-8	SP2	30	_	_	proprio	proprio	_	_	_	_	_	linguistic	_		_		_	_	_
 30-9	SP2	30	_	_	quel	quel	_	_	_	_	_	linguistic	_		_		_	_	_
 30-10	SP2	30	_	_	chel	chel	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -220,7 +220,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 32-16	SP2	32	_	_	[che	che	_	_	_	_	_	linguistic	_		_		_	_	0-3(?)
 32-17	SP2	32	_	_	entrata]	entrata	_	_	_	_	_	linguistic	_		_		_	_	0-7(?)
 32-18	SP2	32	_	_	c'	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-32-19	SP2	32	_	_		è	_	_	_	_	_	linguistic	_		_		_	_	_
+32-19	SP2	32	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
 32-20	SP2	32	_	_	proprio	proprio	_	_	_	_	_	linguistic	_		End=83.112		_	_	_
 33-0	SP1	33	_	_	[sì	sì	_	_	_	_	_	linguistic	_		Begin=79.11		_	_	0-2(32)
 33-1	SP1	33	_	_	sì	sì	_	_	_	_	_	linguistic	_		_		_	_	0-2(32)
@@ -289,7 +289,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 38-10	SP1	38	_	_	città	città	_	_	_	_	_	linguistic	_		_		_	_	_
 38-11	SP1	38	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
 38-12	SP1	38	_	_	un'	un'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-38-13	SP1	38	_	_	soletta	isoletta	_	_	_	_	_	linguistic	_		_		_	_	_
+38-13	SP1	38	_	_	isoletta	isoletta	_	_	_	_	_	linguistic	_		_		_	_	_
 38-14	SP1	38	_	_	grande	grande	_	_	_	_	_	linguistic	_		_		_	_	_
 38-15	SP1	38	_	_	[così	così	_	_	_	_	_	linguistic	_		_		_	_	0-4(40)
 38-16	SP1	38	_	_	praticamente	praticamente	_	_	_	_	_	linguistic	_		_		_	_	0-12(40)
@@ -420,7 +420,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 51-1	SP1	51	_	_	{P}	{P}	_	_	_	_	_	shortpause	_		_		_	_	_
 51-2	SP1	51	_	_	ma	ma	_	_	_	_	_	linguistic	_		_		_	_	_
 51-3	SP1	51	_	_	[c'	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	0-2(52)
-51-4	SP1	51	_	_	]	è	_	_	_	_	_	linguistic	_		End=144.3		_	_	0-1(52)
+51-4	SP1	51	_	_	è]	è	_	_	_	_	_	linguistic	_		End=144.3		_	_	0-1(52)
 52-0	SP2	52	_	_	[sì	sì	_	_	_	_	_	linguistic	_		Begin=143.2		_	_	0-2(?)
 52-1	SP2	52	_	_	ce	ce	_	_	_	_	_	linguistic	_		_		_	_	0-2(?)
 52-2	SP2	52	_	_	tutti]tutti	tuttitutti	_	_	_	_	_	linguistic	_		_		_	_	0-5(?)
@@ -454,7 +454,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 53-9	SP1	53	_	_	capito	capito	_	_	_	_	_	linguistic	_		_		_	_	_
 53-10	SP1	53	_	_	ce	ce	_	_	_	_	_	linguistic	_		_		_	_	_
 53-11	SP1	53	_	_	c'	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-53-12	SP1	53	_	_		è	_	_	_	_	_	linguistic	_		_		_	_	_
+53-12	SP1	53	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
 53-13	SP1	53	_	_	uno	uno	_	_	_	_	_	linguistic	_		_		_	_	_
 53-14	SP1	53	_	_	spostamento	spostamento	_	_	_	_	_	linguistic	_		_		_	_	_
 53-15	SP1	53	_	_	delle	delle	_	_	_	_	_	linguistic	_		_		_	_	_

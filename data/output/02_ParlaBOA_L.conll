@@ -129,7 +129,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 27-1	SP2	27	_	_	eh	eh	_	_	_	_	_	linguistic	_		_		_	_	_
 27-2	SP2	27	_	_	non	non	_	_	_	_	_	linguistic	_		_		_	_	_
 27-3	SP2	27	_	_	l'	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-27-4	SP2	27	_	_	o	ho	_	_	_	_	_	linguistic	_		_		_	_	_
+27-4	SP2	27	_	_	ho	ho	_	_	_	_	_	linguistic	_		_		_	_	_
 27-5	SP2	27	_	_	[ancora	ancora	_	_	_	_	_	linguistic	_		_		_	_	0-6(?)
 27-6	SP2	27	_	_	incontrato	incontrato	_	_	_	_	_	linguistic	_		_		_	_	0-10(?)
 27-7	SP2	27	_	_	cremonini]	cremonini	_	_	_	_	_	linguistic	_		End=51.16		_	_	0-9(?)
@@ -166,10 +166,10 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 33-1	SP1	33	_	_	magari	magari	_	_	_	_	_	linguistic	_		_		_	_	_
 33-2	SP1	33	_	_	dai	dai	_	_	_	_	_	linguistic	_		_		_	_	_
 33-3	SP1	33	_	_	quest'	quest'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-33-4	SP1	33	_	_	nno	anno	_	_	_	_	_	linguistic	_		_		_	_	_
+33-4	SP1	33	_	_	anno	anno	_	_	_	_	_	linguistic	_		_		_	_	_
 33-5	SP1	33	_	_	[sarà	sarà	_	_	_	_	_	linguistic	_		_		_	_	0-4(34)
 33-6	SP1	33	_	_	l'	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	0-2(34)
-33-7	SP1	33	_	_	nno	anno	_	_	_	_	_	linguistic	_		_		_	_	0-4(34)
+33-7	SP1	33	_	_	anno	anno	_	_	_	_	_	linguistic	_		_		_	_	0-4(34)
 33-8	SP1	33	_	_	buono]	buono	_	_	_	_	_	linguistic	_		End=61.82		_	_	0-4(34)
 34-0	SP2	34	_	_	[sì	sì	_	_	_	_	_	linguistic	_		Begin=60.27		_	_	0-2(33)
 34-1	SP2	34	_	_	chissà	chissà	_	_	_	_	_	linguistic	_		_		_	_	0-6(33)
@@ -319,7 +319,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 56-7	SP2	56	_	_	molto.	molto	_	_	_	_	_	linguistic	_	Intonation=descending	_		_	_	_
 56-8	SP2	56	_	_	poi	poi	_	_	_	_	_	linguistic	_		_		_	_	_
 56-9	SP2	56	_	_	c'	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-56-10	SP2	56	_	_		è	_	_	_	_	_	linguistic	_		_		_	_	_
+56-10	SP2	56	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
 56-11	SP2	56	_	_	di	di	_	_	_	_	_	linguistic	_		_		_	_	_
 56-12	SP2	56	_	_	fianco	fianco	_	_	_	_	_	linguistic	_		_		_	_	_
 56-13	SP2	56	_	_	la	la	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -330,7 +330,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 57-1	SP2	57	_	_	quindi	quindi	_	_	_	_	_	linguistic	_		_		_	_	_
 57-2	SP2	57	_	_	spesso	spesso	_	_	_	_	_	linguistic	_		_		_	_	_
 57-3	SP2	57	_	_	d'	d'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-57-4	SP2	57	_	_	state	estate	_	_	_	_	_	linguistic	_		_		_	_	_
+57-4	SP2	57	_	_	estate	estate	_	_	_	_	_	linguistic	_		_		_	_	_
 57-5	SP2	57	_	_	col	col	_	_	_	_	_	linguistic	_		_		_	_	_
 57-6	SP2	57	_	_	mio	mio	_	_	_	_	_	linguistic	_		_		_	_	_
 57-7	SP2	57	_	_	ragazzo	ragazzo	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -465,7 +465,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 75-1	SP2	75	_	_	storia,	storia	_	_	_	_	_	linguistic	_	Intonation=weakly_ascending	_		_	_	_
 75-2	SP2	75	_	_	cioè	cioè	_	_	_	_	_	linguistic	_		_		_	_	_
 75-3	SP2	75	_	_	l'	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-75-4	SP2	75	_	_	rchitettura	architettura	_	_	_	_	_	linguistic	_		_		_	_	_
+75-4	SP2	75	_	_	architettura	architettura	_	_	_	_	_	linguistic	_		_		_	_	_
 75-5	SP2	75	_	_	e	e	_	_	_	_	_	linguistic	_		End=161.66		_	_	_
 76-0	SP2	76	_	_	il	il	_	_	_	_	_	linguistic	_		Begin=161.93		_	_	_
 76-1	SP2	76	_	_	centro	centro	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -496,7 +496,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 81-1	SP2	81	_	_	la	la	_	_	_	_	_	linguistic	_		_		_	_	_
 81-2	SP2	81	_	_	vita,	vita	_	_	_	_	_	linguistic	_	Intonation=weakly_ascending	_		_	_	_
 81-3	SP2	81	_	_	c'	c'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-81-4	SP2	81	_	_		è	_	_	_	_	_	linguistic	_		_		_	_	_
+81-4	SP2	81	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
 81-5	SP2	81	_	_	sempre	sempre	_	_	_	_	_	linguistic	_		_		_	_	_
 81-6	SP2	81	_	_	un	un	_	_	_	_	_	linguistic	_		_		_	_	_
 81-7	SP2	81	_	_	sacco	sacco	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -586,7 +586,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 89-2	SP2	89	_	_	male	male	_	_	_	_	_	linguistic	_		End=203.66		_	_	_
 90-0	SP2	90	_	_	anche	anche	_	_	_	_	_	linguistic	_		Begin=204.5		_	_	_
 90-1	SP2	90	_	_	l'	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-90-2	SP2	90	_	_	utobus	autobus	_	_	_	_	_	linguistic	_		_		_	_	_
+90-2	SP2	90	_	_	autobus	autobus	_	_	_	_	_	linguistic	_		_		_	_	_
 90-3	SP2	90	_	_	{P}	{P}	_	_	_	_	_	shortpause	_		_		_	_	_
 90-4	SP2	90	_	_	secondo	secondo	_	_	_	_	_	linguistic	_		_		_	_	_
 90-5	SP2	90	_	_	me	me	_	_	_	_	_	linguistic	_		_		_	_	_

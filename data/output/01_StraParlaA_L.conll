@@ -174,7 +174,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 30-2	SP1	30	_	_	una	una	_	_	_	_	_	linguistic	_		_		_	_	_
 30-3	SP1	30	_	_	casa	casa	_	_	_	_	_	linguistic	_		_		_	_	_
 30-4	SP1	30	_	_	dev'	dev'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-30-5	SP1	30	_	_	ssere	essere	_	_	_	_	_	linguistic	_		_		_	_	_
+30-5	SP1	30	_	_	essere	essere	_	_	_	_	_	linguistic	_		_		_	_	_
 30-6	SP1	30	_	_	mille	mille	_	_	_	_	_	linguistic	_		_		_	_	_
 30-7	SP1	30	_	_	euro	euro	_	_	_	_	_	linguistic	_		End=60.549		_	_	_
 31-0	SP2	31	_	_	[mhmh]	mhmh	_	_	_	_	_	linguistic	_		End=58.157		_	_	0-4(30)
@@ -200,7 +200,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 34-1	SP2	34	_	_	troppo	troppo	_	_	_	_	_	linguistic	_		_		_	_	_
 34-2	SP2	34	_	_	sì	sì	_	_	_	_	_	linguistic	_		End=66.449		_	_	_
 35-0	SP1	35	_	_	dev'	dev'	_	_	_	_	_	linguistic	_	SpaceAfter=No	Begin=66.549		_	_	_
-35-1	SP1	35	_	_	ssere	essere	_	_	_	_	_	linguistic	_		_		_	_	_
+35-1	SP1	35	_	_	essere	essere	_	_	_	_	_	linguistic	_		_		_	_	_
 35-2	SP1	35	_	_	almeno,	almeno	_	_	_	_	_	linguistic	_	Intonation=weakly_ascending	_		_	_	_
 35-3	SP1	35	_	_	tre	tre	_	_	_	_	_	linguistic	_		_		_	_	_
 35-4	SP1	35	_	_	camere	camere	_	_	_	_	_	linguistic	_		_		_	_	_
@@ -326,7 +326,7 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 65-0	SP2	65	_	_	[sìsì]	sìsì	_	_	_	_	_	linguistic	_		End=109.707		_	_	0-4(63)
 66-0	SP1	66	_	_	allora	allora	_	_	_	_	_	linguistic	_		Begin=111.742		_	_	_
 66-1	SP1	66	_	_	com'	com'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-66-2	SP1	66	_	_		è	_	_	_	_	_	linguistic	_		_		_	_	_
+66-2	SP1	66	_	_	è	è	_	_	_	_	_	linguistic	_		_		_	_	_
 66-3	SP1	66	_	_	la	la	_	_	_	_	_	linguistic	_		_		_	_	_
 66-4	SP1	66	_	_	città,	città	_	_	_	_	_	linguistic	_	Intonation=weakly_ascending	End=113.042		_	_	_
 67-0	SP1	67	_	_	se	se	_	_	_	_	_	linguistic	_		Begin=113.121		_	_	_
@@ -446,35 +446,35 @@ token_id	speaker	tu_id	unit	id	span	form	lemma	upos	xpos	feats	deprel	type	meta_
 90-2	SP1	90	_	_	giorno	giorno	_	_	_	_	_	linguistic	_		_		_	_	_
 90-3	SP1	90	_	_	io	io	_	_	_	_	_	linguistic	_		_		_	_	_
 90-4	SP1	90	_	_	l'	l'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-90-5	SP1	90	_	_	o	ho	_	_	_	_	_	linguistic	_		End=150.728		_	_	_
+90-5	SP1	90	_	_	ho	ho	_	_	_	_	_	linguistic	_		End=150.728		_	_	_
 91-0	SP1	91	_	_	vada	vada	_	_	_	_	_	linguistic	_		Begin=151.271		_	_	_
 91-1	SP1	91	_	_	avanti	avanti	_	_	_	_	_	linguistic	_		_		_	_	_
 91-2	SP1	91	_	_	e	e	_	_	_	_	_	linguistic	_		_		_	_	_
 91-3	SP1	91	_	_	indietro,	indietro	_	_	_	_	_	linguistic	_	Intonation=weakly_ascending	_		_	_	_
 91-4	SP1	91	_	_	un'	un'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-91-5	SP1	91	_	_	ra	ora	_	_	_	_	_	linguistic	_		_		_	_	_
+91-5	SP1	91	_	_	ora	ora	_	_	_	_	_	linguistic	_		_		_	_	_
 91-6	SP1	91	_	_	un'	un'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-91-7	SP1	91	_	_	ra	ora	_	_	_	_	_	linguistic	_		_		_	_	_
+91-7	SP1	91	_	_	ora	ora	_	_	_	_	_	linguistic	_		_		_	_	_
 91-8	SP1	91	_	_	e	e	_	_	_	_	_	linguistic	_		_		_	_	_
 91-9	SP1	91	_	_	mezza	mezza	_	_	_	_	_	linguistic	_		_		_	_	_
 91-10	SP1	91	_	_	c(io)è	cioè	_	_	_	_	_	linguistic	_		End=153.849		_	0-2(0)	_
 92-0	SP1	92	_	_	per	per	_	_	_	_	_	linguistic	_		Begin=153.978		_	_	_
 92-1	SP1	92	_	_	venire	venire	_	_	_	_	_	linguistic	_		_		_	_	_
 92-2	SP1	92	_	_	un'	un'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-92-3	SP1	92	_	_	ra	ora	_	_	_	_	_	linguistic	_		_		_	_	_
+92-3	SP1	92	_	_	ora	ora	_	_	_	_	_	linguistic	_		_		_	_	_
 92-4	SP1	92	_	_	mezzo	mezzo	_	_	_	_	_	linguistic	_		_		_	_	_
-92-5	SP1	92	_	_	un'[	un'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	2-3(93)
-92-6	SP1	92	_	_	ra]	ora	_	_	_	_	_	linguistic	_		_		_	_	0-2(93)
+92-5	SP1	92	_	_	un'	un'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	2-3(93)
+92-6	SP1	92	_	_	[ora]	ora	_	_	_	_	_	linguistic	_		_		_	_	0-2(93)
 92-7	SP1	92	_	_	minimo	minimo	_	_	_	_	_	linguistic	_		_		_	_	_
 92-8	SP1	92	_	_	e,	e	_	_	_	_	_	linguistic	_	Intonation=weakly_ascending	_		_	_	_
 92-9	SP1	92	_	_	ritornare	ritornare	_	_	_	_	_	linguistic	_		_		_	_	_
 92-10	SP1	92	_	_	ancora	ancora	_	_	_	_	_	linguistic	_		_		_	_	_
 92-11	SP1	92	_	_	facciamo	facciamo	_	_	_	_	_	linguistic	_		_		_	_	_
 92-12	SP1	92	_	_	mezz'	mezz'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-92-13	SP1	92	_	_	ra	ora	_	_	_	_	_	linguistic	_		_		_	_	_
+92-13	SP1	92	_	_	ora	ora	_	_	_	_	_	linguistic	_		_		_	_	_
 92-14	SP1	92	_	_	o	o	_	_	_	_	_	linguistic	_		_		_	_	_
 92-15	SP1	92	_	_	un'	un'	_	_	_	_	_	linguistic	_	SpaceAfter=No	_		_	_	_
-92-16	SP1	92	_	_	ra	ora	_	_	_	_	_	linguistic	_		End=159.157		_	_	_
+92-16	SP1	92	_	_	ora	ora	_	_	_	_	_	linguistic	_		End=159.157		_	_	_
 93-0	SP2	93	_	_	[°mhmh°]	mhmh	_	_	_	_	_	linguistic	_	Volume=low	End=155.885		_	_	0-4(92)
 94-0	SP2	94	_	_	mhmh	mhmh	_	_	_	_	_	linguistic	_		End=159.707		_	_	_
 95-0	SP1	95	_	_	allora	allora	_	_	_	_	_	linguistic	_		Begin=159.714		_	_	_
