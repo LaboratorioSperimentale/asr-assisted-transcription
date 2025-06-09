@@ -1,0 +1,152 @@
+tu_id	speaker	start	end	duration	text
+0	SP1	0.360	1.670	1.310	ci sono delle università?:
+1	SP2	2.680	3.130	0.450	sì no
+2	SP1	3.100	4.370	1.270	[o più nella capitale?]
+3	SP2	3.150	4.980	1.830	[l'università è un po'] più in città
+4	SP1	5.000	5.420	0.420	okay
+5	SP2	5.040	6.020	0.980	xxxx
+6	SP1	5.560	6.680	1.120	okay >okay okay<
+7	SP1	6.800	7.490	0.690	e: [s-]
+8	SP2	6.950	7.880	0.930	[i:n] capitale
+9	SP1	7.890	8.770	0.880	in capitale okay
+10	SP1	8.830	10.080	1.250	e se devi:
+11	SP1	10.840	11.780	0.940	xx
+12	SP2	13.670	15.610	1.940	°(vabbè adesso faccio finire)°
+13	SP1	16.030	16.490	0.460	sì
+14	SP2	17.430	19.380	1.950	xxxxxx
+15	SP1	19.640	21.300	1.660	°sta andando abbastanza bene no?°
+16	SP3	21.320	21.720	0.400	°sì°
+17	SP1	21.940	23.700	1.760	°proviamo a vedere se:°
+18	SP1	25.900	26.450	0.550	allora dimmi
+19	SP1	26.460	27.481	1.021	la capitale è molto gran[de]
+20	SP2	27.340	28.344	1.004	[la capit]ale è molto grande
+21	SP2	28.362	28.593	0.231	e:h
+22	SP2	28.643	29.769	1.126	trecentosei virgola
+23	SP2	29.861	30.499	0.638	quattro
+24	SP2	30.574	31.425	0.851	e:h
+25	SP2	31.699	33.262	1.563	chilometri quadra[ti]
+26	SP1	32.893	33.462	0.569	[o]kay e
+27	SP1	33.569	34.334	0.765	popolazione?
+28	SP2	34.774	35.406	0.632	e:h
+29	SP2	35.599	37.216	1.617	quattordici: milioni
+30	SP1	37.268	37.452	0.184	[eh]
+31	SP2	37.268	38.944	1.676	[qu]attordici punto quattro milio[ni]
+32	SP1	38.744	39.644	0.900	[cioè] bologna è
+33	SP1	39.726	41.596	1.870	trecentocinquantamila persone
+34	SP2	41.496	42.844	1.348	da trecen[toci]nquantamila
+35	SP1	41.848	42.152	0.304	[eh]
+36	SP1	42.318	43.230	0.912	((ride))
+37	SP2	42.848	43.440	0.592	ma devo essere
+38	SP2	43.544	45.000	1.456	quanto grande bologna
+39	SP1	45.572	46.944	1.372	non so di chilometri quadrati
+40	SP1	47.038	47.324	0.286	però
+41	SP1	47.960	49.316	1.356	decisamente più grande ((ride))
+42	SP1	49.326	49.772	0.446	ma infatti
+43	SP1	49.816	49.948	0.132	mi
+44	SP1	50.048	50.228	0.180	eh
+45	SP1	50.376	51.424	1.048	mi sembrava impossibile
+46	SP1	51.456	52.364	0.908	ma il ragazzo ieri
+47	SP1	52.368	53.072	0.704	in[sisteva]
+48	SP2	52.384	53.336	0.952	[guarda che bolo][gna]
+49	SP1	53.236	53.652	0.416	[(infatti)]
+50	SP2	53.348	54.248	0.900	è centoqua-
+51	SP2	54.284	55.120	0.836	centoquaran[ta]
+52	SP1	54.844	54.996	0.152	[eh]
+53	SP1	55.500	55.812	0.312	sì
+54	SP2	55.548	57.040	1.492	centoquaranta virgola nove
+55	SP2	57.100	57.948	0.848	chilometri quadrati
+56	SP2	58.004	58.896	0.892	che se parliamo
+57	SP2	59.096	59.488	0.392	fino a
+58	SP2	60.016	61.008	0.992	da: m:h
+59	SP2	61.628	62.524	0.896	dove di:
+60	SP2	62.672	63.276	0.604	pilastro
+61	SP1	63.396	63.848	0.452	mh mh
+62	SP2	63.848	64.500	0.652	fino a:
+63	SP2	64.548	65.012	0.464	di:
+64	SP2	65.032	65.900	0.868	m:h
+65	SP1	65.996	66.700	0.704	tipo casalecchio
+66	SP1	66.704	67.360	0.656	la bar[ca]
+67	SP2	67.004	67.296	0.292	[sì]
+68	SP2	67.448	68.216	0.768	sì proprio
+69	SP2	68.228	69.216	0.988	sì casalecchio
+70	SP1	69.304	70.104	0.800	sì sì sì sì
+71	SP2	69.900	71.388	1.488	proprio il quadrato di:
+72	SP2	71.480	73.112	1.632	dentro: c'ha proprio quelle che l-
+73	SP2	73.768	73.964	0.196	mh
+74	SP2	74.044	75.496	1.452	quelle che comune di bologna
+75	SP2	75.500	76.144	0.644	esempio
+76	SP1	76.300	76.596	0.296	mh mh
+77	SP2	76.600	77.496	0.896	però e:h
+78	SP2	77.500	79.396	1.896	non è il fuori che hanno contato
+79	SP1	79.396	80.248	0.852	sì [sì certo]
+80	SP2	79.440	80.500	1.060	xxxxxx
+81	SP2	80.504	82.052	1.548	capitale che è entrato già proprio:
+82	SP1	82.548	83.448	0.900	sì sì certo
+83	SP1	83.544	85.496	1.952	no ma io a me mi sembrava impossibile
+84	SP1	85.500	86.820	1.320	che una città italiana
+85	SP1	86.988	87.896	0.908	neanche la capitale
+86	SP1	87.948	88.344	0.396	fosse
+87	SP1	88.480	89.100	0.620	grande co[me]
+88	SP2	89.004	90.208	1.204	[beh] no è come (più)
+89	SP2	90.348	90.578	0.230	(c(io)è)
+90	SP2	90.634	91.862	1.228	come grande dallla venezia
+91	SP2	92.016	92.744	0.728	che venezia è
+92	SP2	92.788	93.944	1.156	una città bella grande
+93	SP2	94.006	95.620	1.614	quattrocentoquatto- e:h
+94	SP2	95.992	98.644	2.652	<quattrocento>quattordici metri quadrati
+95	SP1	98.744	99.544	0.800	xx mh
+96	SP1	99.660	100.448	0.788	perchè conteranno
+97	SP1	100.484	101.252	0.768	tutta la provincia
+98	SP1	101.304	102.500	1.196	perchè venezia città
+99	SP1	102.508	103.864	1.356	è un'isoletta grande co[sì]
+100	SP2	103.644	103.904	0.260	[eh]
+101	SP1	103.904	105.748	1.844	[pra]ticamen[te] ((ride))
+102	SP2	103.928	104.136	0.208	[eh]
+103	SP2	104.344	105.752	1.408	[asso]lutamente ((ride))
+104	SP1	105.884	106.288	0.404	sì ((ride))
+105	SP2	106.044	106.048	0.004
+106	SP2	106.048	106.280	0.232	poi
+107	SP2	106.488	107.704	1.216	se andiamo ancora un po' avanti
+108	SP2	107.752	108.500	0.748	ci sono colli
+109	SP2	108.530	108.996	0.466	che non con-
+110	SP1	109.100	109.504	0.404	n[o]
+111	SP2	109.344	110.544	1.200	[no]n contano nean[che]
+112	SP1	110.000	111.308	1.308	[no inf]atti infatti
+113	SP1	111.348	112.548	1.200	no ma mi sembrava strano
+114	SP1	112.748	113.404	0.656	infa[tti m]a:
+115	SP2	112.840	113.048	0.208	[sì]
+116	SP1	113.668	114.636	0.968	no e quindi mi dicevi
+117	SP1	114.700	115.024	0.324	che nella
+118	SP1	115.204	116.500	1.296	nella zona della tua famiglia
+119	SP1	116.552	117.400	0.848	ci sono delle ini-
+120	SP1	117.700	119.096	1.396	delle iniziative culturali
+121	SP2	119.252	119.644	0.392	sì
+122	SP1	120.408	120.860	0.452	xx
+123	SP2	120.984	122.244	1.260	xxxx[xxxxx]
+124	SP1	121.444	122.672	1.228	[dei siti sto]rici?
+125	SP1	122.704	123.632	0.928	o che cosa:?
+126	SP2	123.632	124.440	0.808	no [sì xx]
+127	SP1	123.904	124.792	0.888	[o archeo]logici?
+128	SP2	125.328	126.540	1.212	no guarda che là:
+129	SP2	126.616	127.348	0.732	e:h
+130	SP2	127.496	128.064	0.568	sì:
+131	SP2	128.256	129.116	0.860	proprio:
+132	SP2	129.128	129.900	0.772	m:h
+133	SP2	129.944	131.396	1.452	ci sono la città un po':
+134	SP2	131.436	132.652	1.216	un po' più culturale
+135	SP1	132.660	133.060	0.400	ok[ay
+136	SP2	132.744	133.648	0.904	[adesso:]
+137	SP1	133.076	134.352	1.276	°un po' più cult]urali okay°
+138	SP2	133.696	134.888	1.192	°(guarda che) un po'°
+139	SP2	134.992	136.348	1.356	già persa un po':
+140	SP2	136.364	137.400	1.036	che andava: di:
+141	SP2	137.444	138.572	1.128	c(io)è vivere la città
+142	SP2	138.596	139.600	1.004	che adesso tutti quanti
+143	SP2	139.600	141.000	1.400	che sta perdendo il lavoro
+144	SP1	141.796	141.996	0.200	là
+145	SP2	142.244	142.500	0.256	là
+146	SP1	143.048	143.352	0.304	okay
+147	SP1	143.804	144.004	0.200	ma
+148	SP2	144.092	144.548	0.456	c(io)è tutti
+149	SP1	144.200	144.452	0.252	c(io)è
+150	SP2	144.604	145.332	0.728	tutti
