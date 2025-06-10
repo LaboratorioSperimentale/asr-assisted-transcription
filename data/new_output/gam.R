@@ -1,6 +1,7 @@
 library(mgcv)
 library(ggeffects)
 library(ggplot2)
+library(patchwork)
 
 df <- read.csv("stats/table_mixed2.csv", sep="\t")
 
@@ -77,43 +78,63 @@ ggplot(df, aes(x = fit, y = transcribed_delta, color = data, shape = phase)) +
 ggsave("plots/predicted_vs_observed.png", width = 7, height = 6, dpi = 300)
 
 
-eff_expert <- ggemmeans(model, terms = "expert")
+# Generate marginal effects - using ggpredict() instead of ggemmeans() for GAM
+eff_expert <- ggpredict(model, terms = "expert")
+eff_data <- ggpredict(model, terms = "data")
+eff_phase <- ggpredict(model, terms = "phase")
 
-p_expert <- ggplot(eff_expert, aes(x = x, y = predicted)) +
-  geom_point(size = 4, color = "#0072B2") +
-  geom_errorbar(aes(ymin = conf.low, ymax = conf.high), width = 0.2, color = "#0072B2") +
-  geom_line(aes(group = 1), color = "#0072B2", linewidth = 1) +
-  labs(
-    title = "Effect of Expertise",
-    x = "Expertise",
-    y = "Predicted Transcription Gain"
-  ) +
+# Custom theme for consistent styling
+effect_theme <- function() {
   theme_minimal(base_size = 14) +
-  theme(
-    plot.title = element_text(face = "bold", size = 16),
-    axis.title = element_text(size = 14),
-    axis.text = element_text(size = 12)
-  )
+    theme(
+      plot.title = element_text(face = "bold", hjust = 0.5, size = 16),
+      axis.title = element_text(size = 14),
+      axis.text = element_text(size = 12),
+      panel.grid.minor = element_blank(),
+      panel.grid.major.y = element_line(color = "gray90"),
+      panel.grid.major.x = element_blank(),
+      panel.border = element_rect(color = "gray80", fill = NA, size = 0.5),
+      plot.margin = margin(10, 15, 10, 15),
+      legend.position = "none"
+    )
+}
 
-eff_data <- ggemmeans(model, terms = "data")
+# Create expert plot
+p_expert <- ggplot(eff_expert, aes(x = x, y = predicted)) +
+  geom_point(size = 4, color = "#0072B2", fill = "white", shape = 21, stroke = 1.5) +
+  geom_errorbar(aes(ymin = conf.low, ymax = conf.high), 
+                width = 0.1, color = "#0072B2", linewidth = 1) +
+  labs(title = "Effect of Expertise Level",
+       x = "Expertise Level",
+       y = "Predicted Δ Transcription") +
+  effect_theme()
 
+  # Create data plot
 p_data <- ggplot(eff_data, aes(x = x, y = predicted)) +
-  geom_point() +
-  geom_errorbar(aes(ymin = conf.low, ymax = conf.high), width = 0.1) +
-  labs(title = "Effect of Data Type", x = "Data", y = "Predicted Value") +
-  theme_minimal()
+  geom_point(size = 4, color = "#E69F00", fill = "white", shape = 22, stroke = 1.5) +
+  geom_errorbar(aes(ymin = conf.low, ymax = conf.high), 
+                width = 0.1, color = "#E69F00", linewidth = 1) +
+  labs(title = "Effect of Data Type",
+       x = "Data Type",
+       y = "Predicted Δ Transcription") +
+  effect_theme()
 
-  eff_phase <- ggemmeans(model, terms = "phase")
-
+  # Create phase plot
 p_phase <- ggplot(eff_phase, aes(x = x, y = predicted)) +
-  geom_point() +
-  geom_errorbar(aes(ymin = conf.low, ymax = conf.high), width = 0.1) +
-  labs(title = "Effect of Phase", x = "Phase", y = "Predicted Value") +
-  theme_minimal()
+  geom_point(size = 4, color = "#009E73", fill = "white", shape = 24, stroke = 1.5) +
+  geom_errorbar(aes(ymin = conf.low, ymax = conf.high), 
+                width = 0.1, color = "#009E73", linewidth = 1) +
+  labs(title = "Effect of Experimental Phase",
+       x = "Phase",
+       y = "Predicted Δ Transcription") +
+  effect_theme()
 
-  library(patchwork)
-(p_expert | p_data | p_phase)
+  # Combine plots
+combined_plots <- (p_expert | p_data | p_phase) +
+  plot_annotation(title = "Marginal Effects of Predictors on Transcription Accuracy",
+                 theme = theme(plot.title = element_text(face = "bold", size = 18, hjust = 0.5)))
 
-# Save
-ggsave("plots/effects_categorical.png", width = 12, height = 4, dpi = 300)
-
+# Display and save
+print(combined_plots)
+ggsave("plots/marginal_effects.png", combined_plots, 
+       width = 14, height = 5, dpi = 300, bg = "white")
