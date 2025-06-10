@@ -4,8 +4,6 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv("stats/table_mixed2.csv", sep="\t")
 
-print(df['data'].astype('category').cat.categories)
-
 # Convert categorical variables
 df['expert'] = df['expert'].astype('category').cat.codes
 df['data'] = df['data'].astype('category').cat.codes
