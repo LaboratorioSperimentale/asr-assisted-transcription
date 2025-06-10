@@ -48,17 +48,32 @@ df$lower <- pred$fit - 1.96 * pred$se.fit
 df$upper <- pred$fit + 1.96 * pred$se.fit
 
 # Plot
-ggplot(df, aes(x = fit, y = transcribed_delta, color=data, shape=phase)) +
-  geom_errorbar(aes(ymin = lower, ymax = upper), width = 0, alpha = 0.4) +
-  geom_point(alpha = 0.6) +
-  geom_abline(slope = 1, intercept = 0, linetype = "dashed") +
+ggplot(df, aes(x = fit, y = transcribed_delta, color = data, shape = phase)) +
+  geom_errorbar(aes(ymin = lower, ymax = upper), width = 0.05, alpha = 0.5, size = 0.7) +
+  geom_point(size = 3, alpha = 0.8) +
+  geom_abline(slope = 1, intercept = 0, linetype = "dashed", color = "gray40", size = 0.8) +
   labs(
-    title = "Predicted vs Observed with 95% CI",
-    x = "Predicted transcribed_delta",
-    y = "Observed transcribed_delta"
+    title = "Predicted vs. Observed Transcription Delta",
+    subtitle = "With 95% Confidence Intervals",
+    x = "Predicted transcribed delta",
+    y = "Observed transcribed delta",
+    color = "Data Source",
+    shape = "Phase"
   ) +
-  theme_minimal(base_size = 14)
-
+  scale_color_brewer(palette = "Set1") +
+  theme_minimal(base_size = 14) +
+  theme(
+    plot.title = element_text(face = "bold", hjust = 0.5),
+    plot.subtitle = element_text(hjust = 0.5, color = "gray50"),
+    legend.position = "bottom",
+    panel.grid.minor = element_blank(),
+    panel.border = element_rect(color = "gray80", fill = NA, size = 0.5),
+    plot.margin = margin(15, 15, 15, 15)
+  ) +
+  guides(
+    color = guide_legend(override.aes = list(size = 3)),
+    shape = guide_legend(override.aes = list(size = 3))
+  )
 ggsave("plots/predicted_vs_observed.png", width = 7, height = 6, dpi = 300)
 
 
