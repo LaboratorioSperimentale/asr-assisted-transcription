@@ -1,0 +1,47 @@
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+transcribed_delta ~ s(minutes, k = 3) + expert + data + phase + 
+    s(transcriber, bs = "re")
+
+Parametric coefficients:
+                 Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       102.855     11.083   9.281 1.32e-12 ***
+expertnovice      -26.377     12.035  -2.192   0.0329 *  
+datainterview      12.882      8.088   1.593   0.1173    
+dataL2-interview   -4.847      7.149  -0.678   0.5008    
+phasemanual       -27.112      5.138  -5.277 2.61e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                 edf Ref.df     F p-value    
+s(minutes)     1.047  1.091 0.310 0.64023    
+s(transcriber) 7.096  9.000 3.707 0.00014 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.595   Deviance explained = 67.2%
+-REML = 278.87  Scale est. = 427.37    n = 65
+null device 
+          1 
+null device 
+          1 
+
+Method: REML   Optimizer: outer newton
+full convergence after 8 iterations.
+Gradient range [-9.521141e-05,0.0005418143]
+(score 278.8709 & scale 427.3725).
+Hessian positive definite, eigenvalue range [0.001148574,29.96231].
+Model rank =  18 / 18 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                  k'   edf k-index p-value
+s(minutes)      2.00  1.05    1.08    0.71
+s(transcriber) 11.00  7.10      NA      NA
+null device 
+          1 

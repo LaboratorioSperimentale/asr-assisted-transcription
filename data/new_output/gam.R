@@ -21,7 +21,42 @@ model <- gam(transcribed_delta ~
 # View the model summary
 summary(model)
 
-png("my_gam_plots.png", width = 800, height = 600) # Adjust width/height as needed
+# Extract all model coefficients
+coefs <- coef(model)
+
+# Subset the coefficients that correspond to the random effect s(transcriber)
+transcriber_effects <- coefs[grep("^s\\(transcriber\\)\\.", names(coefs))]
+
+# Clean up the names to get just the transcriber IDs
+transcriber_ids <- sub("^s\\(transcriber\\)\\.", "", names(transcriber_effects))
+transcriber_names <- levels(model$model$transcriber)
+transcriber_labels <- transcriber_names
+
+# Order by value (optional)
+ord <- order(transcriber_effects)
+transcriber_ids <- transcriber_ids[ord]
+transcriber_effects <- transcriber_effects[ord]
+
+
+# Plot manually
+png("plots/gam_transcriber.png", width = 800, height = 600)
+
+# Plot
+barplot(
+  transcriber_effects,
+  # names.arg = transcriber_names,
+  names.arg = transcriber_ids,
+  las = 2,               # Rotate labels for readability
+  cex.names = 0.8,
+  main = "Random Intercepts by Transcriber",
+  ylab = "Estimated Effect",
+  col = "lightblue"
+)
+abline(h = 0, col = "gray40", lty = 2)
+
+dev.off()
+
+png("plots/gam.png", width = 800, height = 600) # Adjust width/height as needed
 
 # Generate the plots (e.g., all on one page if your model has multiple smooths)
 plot(model, pages = 1)
@@ -30,14 +65,13 @@ plot(model, pages = 1)
 dev.off()
 
 # Open a PNG device
-png("gam_check_diagnostics.png", width = 1000, height = 800) # Adjust dimensions
+png("plots/diagnostics.png", width = 1000, height = 800) # Adjust dimensions
 
 # Generate the diagnostic plots
 gam.check(model)
 
 # Close the device
 dev.off()
-
 
 
 # Predict from the GAMM
@@ -102,7 +136,7 @@ effect_theme <- function() {
 # Create expert plot
 p_expert <- ggplot(eff_expert, aes(x = x, y = predicted)) +
   geom_point(size = 4, color = "#0072B2", fill = "white", shape = 21, stroke = 1.5) +
-  geom_errorbar(aes(ymin = conf.low, ymax = conf.high), 
+  geom_errorbar(aes(ymin = conf.low, ymax = conf.high),
                 width = 0.1, color = "#0072B2", linewidth = 1) +
   labs(title = "Effect of Expertise Level",
        x = "Expertise Level",
@@ -112,7 +146,7 @@ p_expert <- ggplot(eff_expert, aes(x = x, y = predicted)) +
   # Create data plot
 p_data <- ggplot(eff_data, aes(x = x, y = predicted)) +
   geom_point(size = 4, color = "#E69F00", fill = "white", shape = 22, stroke = 1.5) +
-  geom_errorbar(aes(ymin = conf.low, ymax = conf.high), 
+  geom_errorbar(aes(ymin = conf.low, ymax = conf.high),
                 width = 0.1, color = "#E69F00", linewidth = 1) +
   labs(title = "Effect of Data Type",
        x = "Data Type",
@@ -122,7 +156,7 @@ p_data <- ggplot(eff_data, aes(x = x, y = predicted)) +
   # Create phase plot
 p_phase <- ggplot(eff_phase, aes(x = x, y = predicted)) +
   geom_point(size = 4, color = "#009E73", fill = "white", shape = 24, stroke = 1.5) +
-  geom_errorbar(aes(ymin = conf.low, ymax = conf.high), 
+  geom_errorbar(aes(ymin = conf.low, ymax = conf.high),
                 width = 0.1, color = "#009E73", linewidth = 1) +
   labs(title = "Effect of Experimental Phase",
        x = "Phase",
@@ -136,5 +170,5 @@ combined_plots <- (p_expert | p_data | p_phase) +
 
 # Display and save
 print(combined_plots)
-ggsave("plots/marginal_effects.png", combined_plots, 
+ggsave("plots/marginal_effects.png", combined_plots,
        width = 14, height = 5, dpi = 300, bg = "white")

@@ -1,0 +1,27 @@
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+transcribed_delta ~ s(minutes, k = 3) + expert + data + phase + 
+    s(transcriber, bs = "re")
+
+Parametric coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)     57.147      8.555   6.680 1.51e-08 ***
+expertsì        31.301      9.714   3.222  0.00218 ** 
+datapasti      -10.667      7.972  -1.338  0.18662    
+datastraparla  -18.034      6.971  -2.587  0.01248 *  
+phase2          27.009      5.155   5.239 2.88e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                 edf Ref.df     F p-value   
+s(minutes)     1.021  1.042 0.321 0.59776   
+s(transcriber) 6.270  9.000 2.142 0.00491 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.592   Deviance explained = 66.4%
+-REML = 277.47  Scale est. = 430.45    n = 65

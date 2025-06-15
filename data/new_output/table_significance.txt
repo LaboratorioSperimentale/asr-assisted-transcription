@@ -1,0 +1,920 @@
+
+
+====== GAMM for n_TUs_norm ======
+
+Family: gaussian
+Link function: identity
+
+Formula:
+n_TUs_norm ~ s(minute, k = 3) + expert + phase + data + s(transcriber,
+    bs = "re")
+
+Parametric coefficients:
+                 Estimate Std. Error t value Pr(>|t|)
+(Intercept)        53.087      8.784   6.043 1.54e-07 ***
+expertnovice       -3.536      9.419  -0.375    0.709
+phasemanual         4.788      4.177   1.146    0.257
+datainterview     -30.454      6.585  -4.625 2.45e-05 ***
+dataL2-interview    7.098      5.756   1.233    0.223
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                 edf Ref.df      F  p-value
+s(minute)      1.000      1 61.540  < 2e-16 ***
+s(transcriber) 6.955      9  3.609 0.000143 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.697   Deviance explained = 75.3%
+-REML = 271.15  Scale est. = 287.83    n = 66
+
+Method: REML   Optimizer: outer newton
+full convergence after 9 iterations.
+Gradient range [-9.817466e-05,7.836808e-06]
+(score 271.1531 & scale 287.8298).
+Hessian positive definite, eigenvalue range [9.815551e-05,30.43706].
+Model rank =  18 / 18
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                  k'   edf k-index p-value
+s(minute)       2.00  1.00    1.03    0.49
+s(transcriber) 11.00  6.95      NA      NA
+
+
+====== GAMM for n_TUs_delta ======
+
+Family: gaussian
+Link function: identity
+
+Formula:
+n_TUs_delta ~ s(minute, k = 3) + expert + phase + data + s(transcriber,
+    bs = "re")
+
+Parametric coefficients:
+                 Estimate Std. Error t value Pr(>|t|)
+(Intercept)       -15.248      8.562  -1.781 0.080677 .
+expertnovice        5.177      9.220   0.561 0.576846
+phasemanual        -4.788      4.019  -1.191 0.238884
+datainterview      22.142      6.347   3.488 0.000986 ***
+dataL2-interview    6.880      5.547   1.240 0.220329
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                 edf Ref.df     F  p-value
+s(minute)      1.000      1 8.781 0.004547 **
+s(transcriber) 7.022      9 3.700 0.000123 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =   0.47   Deviance explained = 56.8%
+-REML =    269  Scale est. = 266.56    n = 66
+
+Method: REML   Optimizer: outer newton
+full convergence after 9 iterations.
+Gradient range [-0.0001228315,3.142616e-08]
+(score 269.0006 & scale 266.5631).
+Hessian positive definite, eigenvalue range [0.0001228014,30.44567].
+Model rank =  18 / 18
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                  k'   edf k-index p-value
+s(minute)       2.00  1.00    1.37       1
+s(transcriber) 11.00  7.02      NA      NA
+
+
+====== GAMM for TUs_duration_norm ======
+
+Family: gaussian
+Link function: identity
+
+Formula:
+TUs_duration_norm ~ s(minute, k = 3) + expert + phase + data +
+    s(transcriber, bs = "re")
+
+Parametric coefficients:
+                 Estimate Std. Error t value Pr(>|t|)
+(Intercept)       101.631      8.700  11.682  < 2e-16 ***
+expertnovice       -3.973      7.058  -0.563   0.5756
+phasemanual        -4.577      6.774  -0.676   0.5019
+datainterview     -39.953      9.173  -4.356 5.26e-05 ***
+dataL2-interview   20.913      8.218   2.545   0.0135 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                     edf Ref.df    F p-value
+s(minute)      1.0001104      1 93.5  <2e-16 ***
+s(transcriber) 0.0009984      9  0.0   0.677
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =   0.69   Deviance explained = 71.4%
+-REML = 293.47  Scale est. = 757.19    n = 66
+
+Method: REML   Optimizer: outer newton
+full convergence after 8 iterations.
+Gradient range [-0.0001347196,0.000378997]
+(score 293.4732 & scale 757.1877).
+Hessian positive definite, eigenvalue range [3.984894e-05,29.99962].
+Model rank =  18 / 18
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                     k'      edf k-index p-value
+s(minute)      2.00e+00 1.00e+00    1.14    0.86
+s(transcriber) 1.10e+01 9.98e-04      NA      NA
+
+
+====== GAMM for TU_duration_delta ======
+
+Family: gaussian
+Link function: identity
+
+Formula:
+TU_duration_delta ~ s(minute, k = 3) + expert + phase + data +
+    s(transcriber, bs = "re")
+
+Parametric coefficients:
+                 Estimate Std. Error t value Pr(>|t|)
+(Intercept)       -38.912      7.667  -5.075 4.77e-06 ***
+expertnovice       11.601      7.491   1.549 0.127226
+phasemanual         4.565      4.537   1.006 0.318766
+datainterview      32.481      6.872   4.726 1.64e-05 ***
+dataL2-interview   21.218      6.049   3.508 0.000912 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                 edf Ref.df      F p-value
+s(minute)      1.000  1.001 12.056 0.00101 **
+s(transcriber) 5.251  9.000  1.314 0.03190 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.427   Deviance explained = 51.8%
+-REML = 273.38  Scale est. = 339.64    n = 66
+
+Method: REML   Optimizer: outer newton
+full convergence after 8 iterations.
+Gradient range [-0.0001265769,4.130575e-05]
+(score 273.3779 & scale 339.6418).
+Hessian positive definite, eigenvalue range [0.0001265482,30.23862].
+Model rank =  18 / 18
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                  k'   edf k-index p-value
+s(minute)       2.00  1.00    1.19    0.92
+s(transcriber) 11.00  5.25      NA      NA
+
+
+====== GAMM for n_tokens_norm ======
+
+Family: gaussian
+Link function: identity
+
+Formula:
+n_tokens_norm ~ s(minute, k = 3) + expert + phase + data + s(transcriber,
+    bs = "re")
+
+Parametric coefficients:
+                 Estimate Std. Error t value Pr(>|t|)
+(Intercept)       367.396     27.414  13.402  < 2e-16 ***
+expertnovice      -28.329     22.242  -1.274    0.208
+phasemanual       -22.242     21.346  -1.042    0.302
+datainterview    -168.445     28.904  -5.828 2.38e-07 ***
+dataL2-interview    8.589     25.895   0.332    0.741
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                   edf Ref.df     F p-value
+s(minute)      1.00011      1 95.66  <2e-16 ***
+s(transcriber) 0.00122      9  0.00   0.667
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.693   Deviance explained = 71.7%
+-REML = 362.34  Scale est. = 7518.5    n = 66
+
+Method: REML   Optimizer: outer newton
+full convergence after 8 iterations.
+Gradient range [-0.0001574977,0.0004717499]
+(score 362.3387 & scale 7518.537).
+Hessian positive definite, eigenvalue range [3.590298e-05,29.99953].
+Model rank =  18 / 18
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                     k'      edf k-index p-value
+s(minute)       2.00000  1.00011    1.05    0.58
+s(transcriber) 11.00000  0.00122      NA      NA
+
+
+====== GAMM for n_tokens_delta ======
+
+Family: gaussian
+Link function: identity
+
+Formula:
+n_tokens_delta ~ s(minute, k = 3) + expert + phase + data + s(transcriber,
+    bs = "re")
+
+Parametric coefficients:
+                 Estimate Std. Error t value Pr(>|t|)
+(Intercept)       -124.32      28.18  -4.411 4.72e-05 ***
+expertnovice        44.97      26.11   1.722 0.090544 .
+phasemanual         22.24      18.28   1.217 0.228738
+datainterview       85.63      26.94   3.178 0.002416 **
+dataL2-interview    92.17      23.82   3.868 0.000288 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                 edf Ref.df     F p-value
+s(minute)      1.000  1.001 3.278  0.0755 .
+s(transcriber) 4.049  9.000 0.805  0.0911 .
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.332   Deviance explained = 42.5%
+-REML = 355.72  Scale est. = 5512.1    n = 66
+
+Method: REML   Optimizer: outer newton
+full convergence after 8 iterations.
+Gradient range [-0.0001149484,5.653442e-05]
+(score 355.7241 & scale 5512.065).
+Hessian positive definite, eigenvalue range [0.0001149282,30.13992].
+Model rank =  18 / 18
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                  k'   edf k-index p-value
+s(minute)       2.00  1.00    1.22    0.91
+s(transcriber) 11.00  4.05      NA      NA
+
+
+====== GAMM for n_lingtoks_norm ======
+
+Family: gaussian
+Link function: identity
+
+Formula:
+n_lingtoks_norm ~ s(minute, k = 3) + expert + phase + data +
+    s(transcriber, bs = "re")
+
+Parametric coefficients:
+                 Estimate Std. Error t value Pr(>|t|)
+(Intercept)       357.755     26.307  13.599  < 2e-16 ***
+expertnovice      -26.307     21.343  -1.233    0.223
+phasemanual       -22.545     20.485  -1.101    0.275
+datainterview    -165.000     27.737  -5.949  1.5e-07 ***
+dataL2-interview    5.702     24.849   0.229    0.819
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                     edf Ref.df     F p-value
+s(minute)      1.0000427      1 98.85  <2e-16 ***
+s(transcriber) 0.0004212      9  0.00   0.789
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.699   Deviance explained = 72.2%
+-REML = 359.87  Scale est. = 6923.8    n = 66
+
+Method: REML   Optimizer: outer newton
+full convergence after 9 iterations.
+Gradient range [-8.398126e-05,0.0001348425]
+(score 359.8663 & scale 6923.818).
+Hessian positive definite, eigenvalue range [1.305461e-05,29.99987].
+Model rank =  18 / 18
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                     k'      edf k-index p-value
+s(minute)      2.00e+00 1.00e+00    1.07    0.71
+s(transcriber) 1.10e+01 4.21e-04      NA      NA
+
+
+====== GAMM for n_lingtoks_delta ======
+
+Family: gaussian
+Link function: identity
+
+Formula:
+n_lingtoks_delta ~ s(minute, k = 3) + expert + phase + data +
+    s(transcriber, bs = "re")
+
+Parametric coefficients:
+                 Estimate Std. Error t value Pr(>|t|)
+(Intercept)       -114.94      29.39  -3.910 0.000253 ***
+expertnovice        39.12      27.70   1.412 0.163395
+phasemanual         22.55      18.55   1.215 0.229321
+datainterview       83.30      27.59   3.019 0.003825 **
+dataL2-interview    87.19      24.36   3.579 0.000724 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                 edf Ref.df     F p-value
+s(minute)      1.000  1.001 2.690  0.1065
+s(transcriber) 4.451  9.000 0.964  0.0635 .
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.316   Deviance explained = 41.5%
+-REML = 356.99  Scale est. = 5676.8    n = 66
+
+Method: REML   Optimizer: outer newton
+full convergence after 8 iterations.
+Gradient range [-0.0001140384,5.566341e-05]
+(score 356.9907 & scale 5676.766).
+Hessian positive definite, eigenvalue range [0.0001140185,30.17004].
+Model rank =  18 / 18
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                  k'   edf k-index p-value
+s(minute)       2.00  1.00    1.21    0.97
+s(transcriber) 11.00  4.45      NA      NA
+
+
+====== GAMM for n_NVB_norm ======
+
+Family: gaussian
+Link function: identity
+
+Formula:
+n_NVB_norm ~ s(minute, k = 3) + expert + phase + data + s(transcriber,
+    bs = "re")
+
+Parametric coefficients:
+                 Estimate Std. Error t value Pr(>|t|)
+(Intercept)        2.0363     0.6187   3.291  0.00175 **
+expertnovice       0.3916     0.6033   0.649  0.51897
+phasemanual        0.3333     0.3675   0.907  0.36842
+datainterview     -1.0551     0.5562  -1.897  0.06309 .
+dataL2-interview  -0.4617     0.4897  -0.943  0.34992
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                 edf Ref.df     F p-value
+s(minute)      1.000  1.001 2.945  0.0918 .
+s(transcriber) 5.208  9.000 1.401  0.0216 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.199   Deviance explained = 32.5%
+-REML = 122.54  Scale est. = 2.229     n = 66
+
+Method: REML   Optimizer: outer newton
+full convergence after 8 iterations.
+Gradient range [-5.224873e-05,0.0001678036]
+(score 122.5358 & scale 2.228953).
+Hessian positive definite, eigenvalue range [5.229961e-05,30.23607].
+Model rank =  18 / 18
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                  k'   edf k-index p-value
+s(minute)       2.00  1.00    1.05    0.59
+s(transcriber) 11.00  5.21      NA      NA
+
+
+====== GAMM for n_NVB_delta ======
+
+Family: gaussian
+Link function: identity
+
+Formula:
+n_NVB_delta ~ s(minute, k = 3) + expert + phase + data + s(transcriber,
+    bs = "re")
+
+Parametric coefficients:
+                 Estimate Std. Error t value Pr(>|t|)
+(Intercept)       -0.6608     0.5874  -1.125   0.2651
+expertnovice       0.6579     0.4766   1.380   0.1726
+phasemanual       -0.3333     0.4574  -0.729   0.4690
+datainterview     -0.3889     0.6193  -0.628   0.5324
+dataL2-interview   1.4327     0.5549   2.582   0.0123 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                     edf Ref.df     F p-value
+s(minute)      1.0001127      1 0.533   0.468
+s(transcriber) 0.0001156      9 0.000   0.465
+
+R-sq.(adj) =  0.136   Deviance explained = 20.3%
+-REML = 131.76  Scale est. = 3.4523    n = 66
+
+Method: REML   Optimizer: outer newton
+full convergence after 9 iterations.
+Gradient range [-4.635091e-05,6.644032e-05]
+(score 131.7554 & scale 3.452259).
+Hessian positive definite, eigenvalue range [1.163135e-06,29.99993].
+Model rank =  18 / 18
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                     k'      edf k-index p-value
+s(minute)      2.00e+00 1.00e+00    1.33       1
+s(transcriber) 1.10e+01 1.16e-04      NA      NA
+
+
+====== GAMM for avg_tokens ======
+
+Family: gaussian
+Link function: identity
+
+Formula:
+avg_tokens ~ s(minute, k = 3) + expert + phase + data + s(transcriber,
+    bs = "re")
+
+Parametric coefficients:
+                 Estimate Std. Error t value Pr(>|t|)
+(Intercept)       6.59935    0.82674   7.982 1.45e-10 ***
+expertnovice      0.23530    0.99074   0.238    0.813
+phasemanual      -1.07697    0.21672  -4.969 7.80e-06 ***
+datainterview     1.50407    0.35483   4.239 9.33e-05 ***
+dataL2-interview  0.01957    0.30803   0.064    0.950
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                 edf Ref.df      F p-value
+s(minute)      1.000      1  0.642   0.427
+s(transcriber) 8.493      9 18.069  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.767   Deviance explained = 81.5%
+-REML = 99.932  Scale est. = 0.77496   n = 66
+
+Method: REML   Optimizer: outer newton
+full convergence after 10 iterations.
+Gradient range [-3.193482e-05,5.248342e-06]
+(score 99.93194 & scale 0.7749607).
+Hessian positive definite, eigenvalue range [3.193284e-05,30.67706].
+Model rank =  18 / 18
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                  k'   edf k-index p-value
+s(minute)       2.00  1.00    1.23    0.95
+s(transcriber) 11.00  8.49      NA      NA
+
+
+====== GAMM for avg_tokens_delta ======
+
+Family: gaussian
+Link function: identity
+
+Formula:
+avg_tokens_delta ~ s(minute, k = 3) + expert + phase + data +
+    s(transcriber, bs = "re")
+
+Parametric coefficients:
+                 Estimate Std. Error t value Pr(>|t|)
+(Intercept)      -0.51319    0.79745  -0.644    0.523
+expertnovice     -0.09901    0.94291  -0.105    0.917
+phasemanual       1.05545    0.23729   4.448 4.71e-05 ***
+datainterview    -2.32466    0.38694  -6.008 1.99e-07 ***
+dataL2-interview  0.16576    0.33616   0.493    0.624
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                 edf Ref.df      F p-value
+s(minute)      1.650  1.877  4.357   0.045 *
+s(transcriber) 8.331  9.000 13.482  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =   0.77   Deviance explained =   82%
+-REML = 104.64  Scale est. = 0.92908   n = 66
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [-1.153034e-05,-6.607639e-08]
+(score 104.6428 & scale 0.9290789).
+Hessian positive definite, eigenvalue range [0.2068339,30.65211].
+Model rank =  18 / 18
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                  k'   edf k-index p-value
+s(minute)       2.00  1.65    1.23    0.96
+s(transcriber) 11.00  8.33      NA      NA
+
+
+====== GAMM for avg_TU_duration ======
+
+Family: gaussian
+Link function: identity
+
+Formula:
+avg_TU_duration ~ s(minute, k = 3) + expert + phase + data +
+    s(transcriber, bs = "re")
+
+Parametric coefficients:
+                 Estimate Std. Error t value Pr(>|t|)
+(Intercept)       2.03151    0.31790   6.390 4.75e-08 ***
+expertnovice      0.16447    0.37582   0.438 0.663486
+phasemanual      -0.28333    0.09474  -2.991 0.004258 **
+datainterview     0.57278    0.15448   3.708 0.000511 ***
+dataL2-interview  0.16475    0.13421   1.228 0.225188
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                 edf Ref.df      F p-value
+s(minute)      1.000      1  3.233   0.078 .
+s(transcriber) 8.329      9 13.245  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.713   Deviance explained = 77.2%
+-REML = 49.015  Scale est. = 0.1481    n = 66
+
+Method: REML   Optimizer: outer newton
+full convergence after 11 iterations.
+Gradient range [-1.365082e-05,8.454212e-09]
+(score 49.01457 & scale 0.1481038).
+Hessian positive definite, eigenvalue range [1.365044e-05,30.64805].
+Model rank =  18 / 18
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                  k'   edf k-index p-value
+s(minute)       2.00  1.00     1.1    0.73
+s(transcriber) 11.00  8.33      NA      NA
+
+
+====== GAMM for avg_TU_duration_delta ======
+
+Family: gaussian
+Link function: identity
+
+Formula:
+avg_TU_duration_delta ~ s(minute, k = 3) + expert + phase + data +
+    s(transcriber, bs = "re")
+
+Parametric coefficients:
+                   Estimate Std. Error t value Pr(>|t|)
+(Intercept)      -0.2605712  0.3535479  -0.737   0.4644
+expertnovice     -0.0647107  0.4076834  -0.159   0.8745
+phasemanual       0.2833333  0.1249469   2.268   0.0275 *
+datainterview    -0.4979073  0.2021332  -2.463   0.0171 *
+dataL2-interview -0.0007372  0.1758674  -0.004   0.9967
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                 edf Ref.df     F p-value
+s(minute)      1.000      1 3.808  0.0564 .
+s(transcriber) 8.011      9 8.558  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.599   Deviance explained = 67.9%
+-REML = 63.873  Scale est. = 0.25759   n = 66
+
+Method: REML   Optimizer: outer newton
+full convergence after 11 iterations.
+Gradient range [-3.694961e-05,2.716899e-09]
+(score 63.87314 & scale 0.2575934).
+Hessian positive definite, eigenvalue range [3.694688e-05,30.59449].
+Model rank =  18 / 18
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                  k'   edf k-index p-value
+s(minute)       2.00  1.00    1.19    0.94
+s(transcriber) 11.00  8.01      NA      NA
+
+
+====== GAMM for n_intonationpatterns_norm ======
+
+Family: gaussian
+Link function: identity
+
+Formula:
+n_intonationpatterns_norm ~ s(minute, k = 3) + expert + phase +
+    data + s(transcriber, bs = "re")
+
+Parametric coefficients:
+                 Estimate Std. Error t value Pr(>|t|)
+(Intercept)       367.396     27.414  13.402  < 2e-16 ***
+expertnovice      -28.329     22.242  -1.274    0.208
+phasemanual       -22.242     21.346  -1.042    0.302
+datainterview    -168.445     28.904  -5.828 2.38e-07 ***
+dataL2-interview    8.589     25.895   0.332    0.741
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                   edf Ref.df     F p-value
+s(minute)      1.00011      1 95.66  <2e-16 ***
+s(transcriber) 0.00122      9  0.00   0.667
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.693   Deviance explained = 71.7%
+-REML = 362.34  Scale est. = 7518.5    n = 66
+
+Method: REML   Optimizer: outer newton
+full convergence after 8 iterations.
+Gradient range [-0.0001574977,0.0004717499]
+(score 362.3387 & scale 7518.537).
+Hessian positive definite, eigenvalue range [3.590298e-05,29.99953].
+Model rank =  18 / 18
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                     k'      edf k-index p-value
+s(minute)       2.00000  1.00011    1.05    0.64
+s(transcriber) 11.00000  0.00122      NA      NA
+
+
+====== GAMM for n_intonationpatterns_delta ======
+
+Family: gaussian
+Link function: identity
+
+Formula:
+n_intonationpatterns_delta ~ s(minute, k = 3) + expert + phase +
+    data + s(transcriber, bs = "re")
+
+Parametric coefficients:
+                 Estimate Std. Error t value Pr(>|t|)
+(Intercept)       -124.32      28.18  -4.411 4.72e-05 ***
+expertnovice        44.97      26.11   1.722 0.090544 .
+phasemanual         22.24      18.28   1.217 0.228738
+datainterview       85.63      26.94   3.178 0.002416 **
+dataL2-interview    92.17      23.82   3.868 0.000288 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                 edf Ref.df     F p-value
+s(minute)      1.000  1.001 3.278  0.0755 .
+s(transcriber) 4.049  9.000 0.805  0.0911 .
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.332   Deviance explained = 42.5%
+-REML = 355.72  Scale est. = 5512.1    n = 66
+
+Method: REML   Optimizer: outer newton
+full convergence after 8 iterations.
+Gradient range [-0.0001149484,5.653442e-05]
+(score 355.7241 & scale 5512.065).
+Hessian positive definite, eigenvalue range [0.0001149282,30.13992].
+Model rank =  18 / 18
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                  k'   edf k-index p-value
+s(minute)       2.00  1.00    1.22    0.96
+s(transcriber) 11.00  4.05      NA      NA
+
+
+====== GAMM for n_prolongations_norm ======
+
+Family: gaussian
+Link function: identity
+
+Formula:
+n_prolongations_norm ~ s(minute, k = 3) + expert + phase + data +
+    s(transcriber, bs = "re")
+
+Parametric coefficients:
+                 Estimate Std. Error t value Pr(>|t|)
+(Intercept)       14.4853     3.1778   4.558 2.98e-05 ***
+expertnovice      -3.7901     3.2017  -1.184    0.242
+phasemanual        2.9091     1.7681   1.645    0.106
+datainterview     -0.8184     2.7164  -0.301    0.764
+dataL2-interview   2.8629     2.3853   1.200    0.235
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                 edf Ref.df      F  p-value
+s(minute)      1.000      1 25.163 6.41e-06 ***
+s(transcriber) 5.864      9  1.839  0.00863 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =   0.41   Deviance explained = 50.8%
+-REML = 217.64  Scale est. = 51.58     n = 66
+
+Method: REML   Optimizer: outer newton
+full convergence after 9 iterations.
+Gradient range [-4.873564e-05,6.867305e-06]
+(score 217.6431 & scale 51.58033).
+Hessian positive definite, eigenvalue range [4.873098e-05,30.30209].
+Model rank =  18 / 18
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                  k'   edf k-index p-value
+s(minute)       2.00  1.00    1.15    0.88
+s(transcriber) 11.00  5.86      NA      NA
+
+
+====== GAMM for n_prolongations_delta ======
+
+Family: gaussian
+Link function: identity
+
+Formula:
+n_prolongations_delta ~ s(minute, k = 3) + expert + phase + data +
+    s(transcriber, bs = "re")
+
+Parametric coefficients:
+                 Estimate Std. Error t value Pr(>|t|)
+(Intercept)        -9.502      4.075  -2.332  0.02357 *
+expertnovice        4.447      4.421   1.006  0.31904
+phasemanual        -2.909      1.869  -1.557  0.12546
+datainterview       8.986      2.959   3.037  0.00371 **
+dataL2-interview    4.753      2.584   1.839  0.07154 .
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                 edf Ref.df     F  p-value
+s(minute)      1.000      1 2.102 0.153018
+s(transcriber) 7.138      9 3.536 0.000224 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.421   Deviance explained = 52.9%
+-REML = 223.32  Scale est. = 57.606    n = 66
+
+Method: REML   Optimizer: outer newton
+full convergence after 10 iterations.
+Gradient range [-0.0001004929,1.32175e-08]
+(score 223.3155 & scale 57.60639).
+Hessian positive definite, eigenvalue range [0.0001004727,30.45852].
+Model rank =  18 / 18
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                  k'   edf k-index p-value
+s(minute)       2.00  1.00    1.28    0.98
+s(transcriber) 11.00  7.14      NA      NA
+
+
+====== GAMM for n_overlaps ======
+
+Family: gaussian
+Link function: identity
+
+Formula:
+n_overlaps ~ s(minute, k = 3) + expert + phase + data + s(transcriber,
+    bs = "re")
+
+Parametric coefficients:
+                 Estimate Std. Error t value Pr(>|t|)
+(Intercept)        26.722      4.250   6.287 6.21e-08 ***
+expertnovice       -9.616      4.397  -2.187 0.033165 *
+phasemanual         6.545      2.226   2.940 0.004849 **
+datainterview       0.468      3.460   0.135 0.892912
+dataL2-interview   11.193      3.032   3.691 0.000526 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                 edf Ref.df      F p-value
+s(minute)      1.433  1.679 83.545 < 2e-16 ***
+s(transcriber) 6.350  9.000  2.459 0.00193 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.762   Deviance explained = 80.5%
+-REML = 232.52  Scale est. = 81.791    n = 66
+
+Method: REML   Optimizer: outer newton
+full convergence after 5 iterations.
+Gradient range [-7.171209e-09,-5.710081e-10]
+(score 232.5196 & scale 81.79115).
+Hessian positive definite, eigenvalue range [0.09192373,30.36036].
+Model rank =  18 / 18
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                  k'   edf k-index p-value
+s(minute)       2.00  1.43    1.19    0.95
+s(transcriber) 11.00  6.35      NA      NA
+
+
+====== GAMM for n_overlaps_norm ======
+
+Family: gaussian
+Link function: identity
+
+Formula:
+n_overlaps_norm ~ s(minute, k = 3) + expert + phase + data +
+    s(transcriber, bs = "re")
+
+Parametric coefficients:
+                 Estimate Std. Error t value Pr(>|t|)
+(Intercept)       13.9947     2.4424   5.730 4.72e-07 ***
+expertnovice      -5.2934     2.4199  -2.187  0.03310 *
+phasemanual        2.6970     1.4068   1.917  0.06058 .
+datainterview     -0.5789     2.1450  -0.270  0.78828
+dataL2-interview   6.1030     1.8860   3.236  0.00208 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                 edf Ref.df     F  p-value
+s(minute)      1.946  1.997 8.698 0.000528 ***
+s(transcriber) 5.535  9.000 1.632 0.012778 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.521   Deviance explained = 60.6%
+-REML = 204.94  Scale est. = 32.657    n = 66
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [-6.456383e-06,2.912276e-06]
+(score 204.9379 & scale 32.65712).
+Hessian positive definite, eigenvalue range [0.4377994,30.27583].
+Model rank =  18 / 18
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                  k'   edf k-index p-value
+s(minute)       2.00  1.95    1.19    0.94
+s(transcriber) 11.00  5.54      NA      NA
+
+
+====== GAMM for n_overlaps_delta ======
+
+Family: gaussian
+Link function: identity
+
+Formula:
+n_overlaps_delta ~ s(minute, k = 3) + expert + phase + data +
+    s(transcriber, bs = "re")
+
+Parametric coefficients:
+                 Estimate Std. Error t value Pr(>|t|)
+(Intercept)        -1.616      2.952  -0.547   0.5863
+expertnovice        5.223      2.497   2.092   0.0408 *
+phasemanual        -2.697      2.181  -1.237   0.2212
+datainterview       4.136      3.042   1.360   0.1791
+dataL2-interview  -12.640      2.713  -4.659 1.88e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                 edf Ref.df     F p-value
+s(minute)      1.000  1.001 0.195   0.660
+s(transcriber) 1.462  9.000 0.196   0.307
+
+R-sq.(adj) =  0.449   Deviance explained = 50.4%
+-REML = 226.27  Scale est. = 78.486    n = 66
+
+Method: REML   Optimizer: outer newton
+full convergence after 8 iterations.
+Gradient range [-0.0001325125,4.210797e-05]
+(score 226.2711 & scale 78.48583).
+Hessian positive definite, eigenvalue range [0.0001324809,30.01785].
+Model rank =  18 / 18
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                  k'   edf k-index p-value
+s(minute)       2.00  1.00    1.35       1
+s(transcriber) 11.00  1.46      NA      NA

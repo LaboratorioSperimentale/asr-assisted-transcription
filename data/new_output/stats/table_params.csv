@@ -1,67 +1,67 @@
-phase	transcriber	expert	data	minute	n.TUs	TU len per min	Tok per min	AVG len per min	intonation_patterns_cum	intonation_patterns	prolongations_cum	prolongations
-manual	A	expert	L2-interview	1	26	48.861	167	1.879	2	2	11	11
-manual	A	expert	L2-interview	2	39	68.793	223.000	1.810	2	0	30	19
-manual	A	expert	L2-interview	3	41	59.923	182.000	1.675	4	2	49	19
-asr-assisted	A	expert	L2-interview	1	26	53.911	182	2.074	1	1	7	7
-asr-assisted	A	expert	L2-interview	2	32	66.238	213.000	2.072	1	0	12	5
-asr-assisted	A	expert	L2-interview	3	33	62.048	206.000	2.002	5	4	13	1
-manual	E	expert	interview	1	23	56.495	161	2.456	0	0	18	18
-manual	E	expert	interview	2	25	58.156	181.000	2.389	4	4	33	15
-manual	E	expert	interview	3	19	54.634	166.000	2.527	5	1	53	20
-asr-assisted	E	expert	free-conversation	1	35	47.742	170	1.364	9	9	8	8
-asr-assisted	E	expert	free-conversation	2	29	53.594	201.000	1.583	14	5	26	18
-asr-assisted	E	expert	free-conversation	3	28	47.6	176.000	1.619	20	6	35	9
-manual	I	expert	L2-interview	1	33	58.57	169	1.775	10	10	9	9
-manual	I	expert	L2-interview	2	34	69.86	189.000	1.917	20	10	15	6
-manual	I	expert	L2-interview	3	26	66.649	197.000	2.098	31	11	19	4
-asr-assisted	I	expert	interview	1	21	59.86	164	2.850	5	5	17	17
-asr-assisted	I	expert	interview	2	24	64.75	195.000	2.769	15	10	33	16
-asr-assisted	I	expert	interview	3	18	57.27	174.000	2.887	24	9	48	15
-manual	L	novice	L2-interview	1	29	53.555	170	1.847	7	7	12	12
-manual	L	novice	L2-interview	2	41	60.597	179.000	1.631	18	11	17	5
-manual	L	novice	L2-interview	3	33	53.651	173.000	1.629	26	8	20	3
-asr-assisted	L	novice	interview	1	32	50.88	163	1.590	9	9	13	13
-asr-assisted	L	novice	interview	2	27	58.2	190.000	1.849	26	17	22	9
-asr-assisted	L	novice	interview	3	23	51.12	165.000	1.954	40	14	32	10
-manual	M	novice	interview	1	30	57.05	167	1.902	1	1	18	18
-manual	M	novice	interview	2	27	60.214	185.000	2.057	4	3	36	18
-manual	M	novice	interview	3	24	56.664	174.000	2.147	7	3	56	20
-asr-assisted	M	novice	free-conversation	1	30	50.942	171	1.698	4	4	5	5
-asr-assisted	M	novice	free-conversation	2	27	53.016	192.000	1.824	7	3	26	21
-asr-assisted	M	novice	free-conversation	3	28	49.863	181.000	1.810	10	3	44	18
-manual	N	novice	interview	1	24	55.854	169	2.327	3	3	12	12
-manual	N	novice	interview	2	24	53.142	177.000	2.271	4	1	30	18
-manual	N	novice	interview	3	17	53.966	155.000	2.507	21	17	41	11
-asr-assisted	N	novice	L2-interview	1	25	58.69	144	2.348	2	2	4	4
-asr-assisted	N	novice	L2-interview	2	22	61.812	177.000	2.564	3	1	10	6
-asr-assisted	N	novice	L2-interview	3	28	70.16	199.000	2.542	5	2	18	8
-manual	O	expert	free-conversation	1	36	47.2	166	1.311	8	8	4	4
-manual	O	expert	free-conversation	2	31	54.36	193.000	1.516	8	0	13	9
-manual	O	expert	free-conversation	3	26	47.58	176.000	1.604	12	4	15	2
-asr-assisted	O	expert	L2-interview	1	22	58.23	178	2.647	0	0	8	8
-asr-assisted	O	expert	L2-interview	2	28	66.35	181.000	2.492	2	2	14	6
-asr-assisted	O	expert	L2-interview	3	30	58.38	169.000	2.287	3	1	23	9
-manual	R	novice	free-conversation	1	29	49.618	164	1.711	5	5	4	4
-manual	R	novice	free-conversation	2	27	56.725	192.000	1.899	5	0	6	2
-manual	R	novice	free-conversation	3	27	47.86	176.000	1.858	9	4	6	0
-asr-assisted	R	novice	L2-interview	1	18	58.853	184	3.270	0	0	4	4
-asr-assisted	R	novice	L2-interview	2	30	60.546	174.000	2.487	1	1	7	3
-asr-assisted	R	novice	L2-interview	3	31	57.619	171.000	2.241	5	4	14	7
-manual	S	novice	L2-interview	1	23	56.291	143	2.447	4	4	8	8
-manual	S	novice	L2-interview	2	19	75.36	200.000	3.135	5	1	23	15
-manual	S	novice	L2-interview	3	17	57.425	158.000	3.205	9	4	29	6
-asr-assisted	S	novice	interview	1	14	52.954	147	3.782	1	1	8	8
-asr-assisted	S	novice	interview	2	13	59.967	158.000	4.182	2	1	16	8
-asr-assisted	S	novice	interview	3	15	59.817	150.000	4.113	6	4	23	7
-manual	U	novice	L2-interview	1	58	53.673	136	0.925	4	4	9	9
-manual	U	novice	L2-interview	2	64	57.902	177.000	0.915	4	0	21	12
-manual	U	novice	L2-interview	3	29	24.468	70.000	0.901	7	3	32	11
-asr-assisted	U	novice	free-conversation	1	36	47.49	159	1.319	1	1	3	3
-asr-assisted	U	novice	free-conversation	2	35	58.005	224.000	1.486	1	0	7	4
-asr-assisted	U	novice	free-conversation	3	36	50.483	180.000	1.458	6	5	12	5
-manual	V	novice	free-conversation	1	21	59.519	166	2.834	4	4	6	6
-manual	V	novice	free-conversation	2	21	65.296	255.000	2.972	7	3	13	7
-manual	V	novice	free-conversation	3	24	64.385	202.000	2.867	12	5	19	6
-asr-assisted	V	novice	L2-interview	1	18	51.752	163	2.875	5	5	9	9
-asr-assisted	V	novice	L2-interview	2	22	66.487	194.000	2.956	6	1	11	2
-asr-assisted	V	novice	L2-interview	3	29	58.714	189.000	2.565	7	1	11	0
+data	transcriber	expert	phase	minute	n_TUs	n_TUs_norm	n_TUs_delta	TUs_duration	TUs_duration_norm	TU_duration_delta	n_tokens	n_tokens_norm	n_tokens_delta	n_lingtoks	n_lingtoks_norm	n_lingtoks_delta	n_NVB	n_NVB_norm	n_NVB_delta	avg_tokens	avg_tokens_delta	avg_TU_duration	avg_TU_duration_delta	n_intonationpatterns	n_intonationpatterns_norm	n_intonationpatterns_delta	n_prolongations	n_prolongations_norm	n_prolongations_delta	n_overlaps	n_overlaps_norm	n_overlaps_delta
+L2-interview	A	expert	asr-assisted	1	26	26	6	53.911	53.911	-6.911	182	182	-9	171	171	-3	0	0	3	7.00	-2.00	2.00	-1.00	182	182	-9	7	7	-2	24	24	-17
+L2-interview	A	expert	asr-assisted	2	58	58	2	120	120	-14.725	395	395	18	372	372	35	1	1	2	6.81	0.19	2.00	-0.25	395	395	18	12	12	-1	51	27	-1
+L2-interview	A	expert	asr-assisted	3	91	91	-2	182.197	182.197	-22.197	601	601	26	570	570	48	1	1	4	7.00	0.00	2.00	0.00	601	601	26	13	13	5	82	31	-18
+L2-interview	A	expert	manual	1	26	26	-4	48.861	48.861	1.005	167	167	-12	163	163	-8	0	0	0	6.00	1.00	2.00	0.00	167	167	-12	11	11	0	10	10	-10
+L2-interview	A	expert	manual	2	65	65	-11	118	118	3	390	390	-26	376	376	-19	1	1	0	6.00	1.00	2.00	0.00	390	390	-26	30	30	-10	54	44	-44
+L2-interview	A	expert	manual	3	106	106	-22	178	178	3	572	572	-35	555	555	-29	1	1	1	5.00	1.00	2.00	0.00	572	572	-35	49	49	-16	88	34	-34
+free-conversation	E	expert	asr-assisted	1	35	35	-6	47.742	47.742	2	170	170	-6	168	168	-5	1	1	-1	5.00	1	1.00	1	170	170	-6	8	8	-4	12	12	-2
+free-conversation	E	expert	asr-assisted	2	64	64	-37	101.336	101.336	-45	371	371	-179	366	366	-177	3	3	-1	6.00	0	2.00	0	371	371	-179	26	26	-24	30	18	-3
+free-conversation	E	expert	asr-assisted	3	92	92	-65	148.936	148.936	-101	547	547	-371	540	540	-366	5	5	-3	6.00	0	2.00	0	547	547	-371	35	35	-35	35	5	1
+interview	E	expert	manual	1	23	23	9	56.495	56.495	-1.495	161	161	-9	154	154	-5	4	4	-4	7.00	-2.25	2.00	-0.29	161	161	-9	18	18	-11	16	16	0
+interview	E	expert	manual	2	48	25	6	115	59	-3	342	181	-6	333	179	-4	5	1.00	-1	7.00	-2	2.00	0	342	181	-6	33	15	-3	38	22	-2
+interview	E	expert	manual	3	67	19	7	169	54	0	508	166	-21	498	165	-20	6	1.00	-1	8.00	-3	3.00	-1	508	166	-21	53	20	-13	46	8	-1
+interview	I	expert	asr-assisted	1	21	21	11	59.86	59.86	-4.86	164	164	-12	153	153	-4	3	3	-3	8.00	-3.25	3.00	-1.29	164	164	-12	17	17	-10	16	16	0
+interview	I	expert	asr-assisted	2	45	24	7	125	65	-9	359	195	-20	338	185	-10	6	3.00	-3	8.00	-3	3.00	-1	359	195	-20	33	16	-4	36	20	0
+interview	I	expert	asr-assisted	3	63	18	8	182	57	-3	533	174	-29	500	162	-17	7	1.00	-1	8.00	-3	3.00	-1	533	174	-29	48	15	-8	43	7	0
+L2-interview	I	expert	manual	1	33	33	-1	58.57	58.57	-11.57	169	169	4	162	162	6	1	1	2	5.12	-0.12	1.77	-0.77	169	169	4	9	9	-4	17	17	-10
+L2-interview	I	expert	manual	2	67	67	-7	128	128	-22.725	358	358	55	339	339	68	3	3	0	5.00	2.00	2.00	-0.25	358	358	55	15	15	-4	40	23	3
+L2-interview	I	expert	manual	3	93	93	-4	195	195	-35	555	555	72	522	522	96	3	3	2	6.00	1.00	2.00	0.00	555	555	72	19	19	-1	67	27	-14
+interview	L	novice	asr-assisted	1	32	32	0	51	51	4	163	163	-11	159	159	-10	4	4	-4	5.09	-0.34	2.00	-0.29	163	163	-11	13	13	-6	13	13	3
+interview	L	novice	asr-assisted	2	59	27	4	109	58	-2	353	190	-15	344	185	-10	6	2.00	-2	6.00	-1	2.00	0	353	190	-15	22	9	3	33	20	0
+interview	L	novice	asr-assisted	3	82	23	3	160.2	51	3	518	165	-20	505	161	-16	6	0.00	0	6.32	-1	2.00	0	518	165	-20	32	10	-3	43	10	-3
+L2-interview	L	novice	manual	1	29	29	3	54	54	-7	170	170	3	164	164	4	0	0	3	6.00	-1.00	2.00	-1.00	170	170	3	12	12	-7	18	18	-11
+L2-interview	L	novice	manual	2	70	70	-10	114	114	-8.725	349	349	64	340	340	67	2	2	1	5.00	2.00	2.00	-0.25	349	349	64	17	17	-6	44	26	0
+L2-interview	L	novice	manual	3	103	103	-14	168	168	-8	522	522	105	512	512	106	2	2	3	5.00	2.00	2.00	0.00	522	522	105	20	20	-2	59	15	-2
+free-conversation	M	novice	asr-assisted	1	30	30	-1	50.942	50.942	-1	171	171	-7	165	165	-2	1	1	-1	6.00	0	2.00	0	171	171	-7	5	5	-1	8	8	2
+free-conversation	M	novice	asr-assisted	2	57	57	-30	104	104	-48	363	363	-171	353	353	-164	2	2	0	6.00	0	2.00	0	363	363	-171	26	26	-24	19	11	4
+free-conversation	M	novice	asr-assisted	3	85	85	-58	154	154	-106	544	544	-368	533	533	-359	2	2	0	6.00	0	2.00	0	544	544	-368	44	44	-44	30	11	-5
+interview	M	novice	manual	1	30	30	2	57	57	-2	167	167	-15	157	157	-8	5	5	-5	6.00	-1.25	2.00	-0.29	167	167	-15	18	18	-11	18	18	-2
+interview	M	novice	manual	2	57	27	4	117.264	60	-4	352	185	-10	339	182	-7	7	2.00	-2	6.00	-1	2.00	0	352	185	-10	36	18	-6	38	20	0
+interview	M	novice	manual	3	81	24	2	174	57	-3	526	174	-29	509	170	-25	7	0.00	0	6.00	-1	2.00	0	526	174	-29	56	20	-13	48	10	-3
+interview	N	novice	manual	1	24	24	6	56	56	1	169	169	-2	164	164	-7	1	1	4	7.00	-1	2.00	0	169	169	-2	12	12	6	11	11	7
+interview	N	novice	manual	2	48	24	3	109	53	7	346	177	8	337	173	9	1	0.00	2	7.00	-1	2.00	0	346	177	8	30	18	0	24	13	13
+interview	N	novice	manual	3	65	17	7	163	54	3	501	155	19	490	153	17	1	0.00	0	8.00	-2	3.00	-1	501	155	19	41	11	9	24	0	15
+L2-interview	N	novice	asr-assisted	1	25	25	4	59	59	-1	144	144	5	137	137	4	2	2	-1	6.00	-0.86	2.00	0.00	144	144	5	4	4	2	18	18	-18
+L2-interview	N	novice	asr-assisted	2	47	47	5	121	121	7	321	321	32	307	307	30	5	5	-1	7.00	0.00	3.00	-1.00	321	321	32	10	10	4	33	15	-15
+L2-interview	N	novice	asr-assisted	3	75	75	-11	191	191	-30	520	520	-68	503	503	-69	5	5	-1	7.00	0.00	3.00	0.00	520	520	-68	18	18	2	53	20	-20
+free-conversation	O	expert	manual	1	36	36	-7	47	47	3	166	166	-2	165	165	-2	0	0	0	4.61	1	1.00	1	166	166	-2	4	4	0	10	10	0
+free-conversation	O	expert	manual	2	67	67	-40	101.56	101.56	-46	359	359	-167	355	355	-166	2	2	0	5.00	1	2.00	0	359	359	-167	13	13	-11	25	15	0
+free-conversation	O	expert	manual	3	93	93	-66	149	149	-101	535	535	-359	527	527	-353	4	4	-2	6.00	0	2.00	0	535	535	-359	15	15	-15	31	6	0
+L2-interview	O	expert	asr-assisted	1	22	22	0	58	58	-8.134	178	178	-23	174	174	-19	0	0	0	8.00	-1.00	3.00	-1.00	178	178	-23	8	8	3	7	7	-7
+L2-interview	O	expert	asr-assisted	2	50	50	4	125	125	-4	359	359	5	352	352	5	1	1	0	7.18	-0.18	2.00	0.00	359	359	5	14	14	6	33	26	-26
+L2-interview	O	expert	asr-assisted	3	80	80	4	183	183	-2	528	528	9	519	519	7	1	1	1	7.00	-1.00	2.00	0.00	528	528	9	23	23	10	46	13	-13
+free-conversation	R	novice	manual	1	29	29	0	50	50	0	164	164	0	163	163	0	0	0	0	6.00	0	2.00	0	164	164	0	4	4	0	7	7	3
+free-conversation	R	novice	manual	2	56	27	0	106	56	0	356	192	0	352	189	0	2	2.00	0	6.00	0	2.00	0	356	192	0	6	2	0	23	16	-1
+free-conversation	R	novice	manual	3	83	27	0	154	48	0	532	176	0	526	174	0	4	2.00	0	6.00	0	2.00	0	532	176	0	6	0	0	29	6	0
+L2-interview	R	novice	asr-assisted	1	18	18	11	58.853	58.853	-0.853	184	184	-35	184	184	-43	0	0	1	10.00	-4.86	3.00	-1.00	184	184	-35	4	4	2	7	7	-7
+L2-interview	R	novice	asr-assisted	2	48	48	4	119	119	9	358	358	-5	357	357	-20	0	0	4	7.00	0.00	2.00	0.00	358	358	-5	7	7	7	28	21	-21
+L2-interview	R	novice	asr-assisted	3	79	79	-15	177.018	177.018	-16.018	529	529	-77	527	527	-93	0	0	4	6.70	0.30	2.24	0.76	529	529	-77	14	14	6	42	14	-14
+interview	S	novice	asr-assisted	1	14	14	16	53	53	4	147	147	20	144	144	13	1	1	4	11.00	-5	4.00	-2	147	147	20	8	8	10	0	0	18
+interview	S	novice	asr-assisted	2	27	13	14	113	60	0	305	158	27	300	156	26	1	0.00	2	11.00	-5	4.00	-2	305	158	27	16	8	10	1	1	25
+interview	S	novice	asr-assisted	3	42	15	9	173	60	-3	455	150	24	449	149	21	1	0.00	0	11.00	-5	4.00	-2	455	150	24	23	7	13	2	1	14
+L2-interview	S	novice	manual	1	23	23	6	56	56	2	143	143	6	137	137	4	2	2	-1	6.00	-0.86	2.00	0.00	143	143	6	8	8	-2	18	18	-18
+L2-interview	S	novice	manual	2	42	42	10	132	132	-4	343	343	10	335	335	2	3	3	1	8.17	-1.17	3.00	-1.00	343	343	10	23	23	-9	38	20	-20
+L2-interview	S	novice	manual	3	59	59	5	189	189	-28	501	501	-49	491	491	-57	3	3	1	8.00	-1.00	3.00	0.00	501	501	-49	29	29	-9	50	12	-12
+free-conversation	U	novice	asr-assisted	1	36	36	-4	47	47	0	159	159	14	154	154	14	2	2	1	4.00	1.00	1.00	0.00	159	159	14	3	3	2	6	6	1
+free-conversation	U	novice	asr-assisted	2	71	71	-11	105	105	0.275	383	383	30	376	376	31	3	3	0	5.39	1.61	1.00	0.75	383	383	30	7	7	4	22	16	5
+free-conversation	U	novice	asr-assisted	3	107	107	-18	155.978	155.978	4.022	563	563	64	553	553	65	3	3	2	5.00	2.00	1.00	1.00	563	563	64	12	12	6	32	10	4
+L2-interview	U	novice	manual	1	58	58	-29	54	54	4	136	136	13	131	131	10	2	2	-1	2.00	3.14	1.00	1.00	136	136	13	9	9	-3	20	20	-20
+L2-interview	U	novice	manual	2	122	122	-70	112	112	16	313	313	40	303	303	34	5	5	-1	2.57	4.43	1.00	1.00	313	313	40	21	21	-7	37	17	-17
+L2-interview	U	novice	manual	3	151	151	-87	136	136	25	383	383	69	370	370	64	5	5	-1	2.54	4.46	1.00	2.00	383	383	69	32	32	-12	42	5	-5
+free-conversation	V	novice	manual	1	21	21	11	60	60	-13	166	166	7	154	154	14	2	2	1	8.00	-3.00	3.00	-2.00	166	166	7	6	6	-1	10	10	-3
+free-conversation	V	novice	manual	2	42	42	18	125	125	-19.725	421	421	-8	399	399	8	4	4	-1	10.00	-3.00	3.00	-1.25	421	421	-8	13	13	-2	26	16	5
+free-conversation	V	novice	manual	3	66	66	23	189	189	-29	623	623	4	587	587	31	7	7	-2	9.00	-2.00	3.00	-1.00	623	623	4	19	19	-1	42	16	-2
+L2-interview	V	novice	asr-assisted	1	18	18	14	51.752	51.752	-4.752	163	163	10	155	155	13	1	1	2	9.06	-4.06	2.88	-1.88	163	163	10	9	9	-4	5	5	2
+L2-interview	V	novice	asr-assisted	2	40	40	20	118	118	-12.725	357	357	56	341	341	66	3	3	0	9.00	-2.00	3.00	-1.25	357	357	56	11	11	0	13	8	18
+L2-interview	V	novice	asr-assisted	3	69	69	20	177	177	-17	546	546	81	523	523	95	3	3	2	8.00	-1.00	3.00	-1.00	546	546	81	11	11	7	29	16	-3
